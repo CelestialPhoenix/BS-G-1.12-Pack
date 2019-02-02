@@ -1,0 +1,708 @@
+Warning: The log is long and full of spoilers.
+
+Read at your own risk.
+
+Mods with manually adjusted lang files; IC2
+
+Big Fat 10.0b
+Updated ContentTweaker to 4.9.1
+-fixes an annoying message on startup
+
+Big Fat 10.0
+Forge 14.23.5.2779
+Added Railcraft 12.0.0Beta4 By CovertJaguar
+Updated Athenaeum to 1.16.0
+Updated Botania to r1.10-358
+Updated CraftTweaker to 4.1.14
+Updated Dropt to 1.13.0
+Updated Gregtech to 1.5.13.150
+Updated IndusterialCraft to 2-2.8.75-ex112
+Updated JEI to 4.13.1.225
+Updated Modular Machinary to 1.9.5
+Updated Modtweaker to 4.0.16
+Updated Quark to r.15-145
+Alternating Flux
+-renamed Alternating Wire to Flexible Signalum Conduit
+CoFH World
+-rescued Rare Earths generation scripts from the recycle bin after finding the folder empty.
+CraftTweaker
+-tidied the various recipes.zs files ready for [closed] public alpha.
+-quite a few recipes got added/changed/fixed here
+-everything should now follow a standard layout
+Gregtech
+-new recipe set for pipes
+-zinc rods are now a thing
+IC2
+-renamed wires to conduits
+-added recipes for tin/copper conduits
+Immersive Engineering
+-renamed wire [wire spools] to Flexible Conduits
+-fixed broken Gtech metal press recipes for wires
+Modular Machinary
+-New machine: The Denizen Communicus!
+NuclearCraft
+-enabled reactor explosions. Yes this is a good idea.
+-disabled ores from worldgen
+-hidden disabled ores from JEI (via config)
+Railcraft
+-diabled ore-gen
+
+
+Cloud 9.0 jokes aren't funny
+Forge 14.23.5.2768
+Added Aroma1997Core 2.0.0.0 by Aroma1997 et al
+Added CEU 1.0.1.1 by Tictim
+Added NuclearCraft 2.11g by tomdodd4598
+Added TATW 1.0.1.2 by Aroma1997, Player
+Added TellMe 0.6.0 by masa
+Added UniDict 2.9.1 by WanionCane
+Added WanionLib 1.9 by WanionCane
+Updated BASE to 3.11.0
+Updated CodeChickenLib to 3.2.2.353
+Updated CoFHCore to 4.6.1.22
+Updated CoFHWorld to 1.3.0.6
+Updated ContentTweaker to 4.9.0
+Updated CraftTweaker to 4.1.13
+Updated Gregtech to 1.0.124
+Updated Immersive Engineering to 0.12.88
+Updated Modtweaker to 4.0.15
+Updated RedstoneFlux to 2.1.0.6
+Updated Serene Seasons to 2.1.15
+Updated Thaumcraft to 6.1.Beta26
+Updated Thermal Dynamics to 2.5.3.16
+Updated Thermal Expansion to 5.5.2.3.9
+Updated Thermal Foundation to 2.1.6.2
+AbyssalCraft
+-added beryllium deposits [euclase, bertrandite, beryllium, emerald] to the Abyssal Wasteland
+-disabled copper, coralium, diamond, gold, iron, nitre, tin
+-added salt deposits [lepidolite, spodumene, salt, rocksalt] deposit to Abyssal Wasteland
+-added rare earths deposits [bastnasite, monazite, huttonite, electrotine] deposit to Abyssal Wasteland
+-added coralium deposits to Abyssal Wasteland
+-added Uranium deposits [pitchblende, coffinite, thorite, zircon] to Dreadlands
+-added Titanium deposits [aluminium/bauxite/ilmenite/psudobrookite] to Dreadlands
+-added Magnesium deposits [magnesite/malachite/dolomite] to Dreadlands
+-added Molydenum deposits [molybdnite/powellite/wulfenite] to Dreadlands
+-disabled abyssalnite generation in Dreadlands
+-disabled perlescent coralium in Wasteland
+-added Abyssalnite deposits [Dreadlands Abyssalnite/Dreaded Abyssalnite] to Dreadlands
+-added biome restriction to certain Dreadlands deposits. This is left for the player to discover.
+-removed duplicate materials from ore dict listings
+Botania
+-Added ore processing for Salt/Rocksalt/Spodumene/Lepidolite (+lithium/sodium/potassium), Beryl/Bertrandite/Beryllium/Emerald, Red Garnet/Pyrolusite/Spessertine/Tantalite (+manganese/tantalum), Bastnasite/Electrotine/Huttonite/Monazite (+rare earth/thorium), Coffinite/Pitchblende/Thorite/Zircon (+uranium/zirconium), Ilmenite/Psudobrookite (+titanium), Magnesite (+magnesium), Molybdenite/Powellite/Wulfenite (+molybdenum), Braggite/Sperrylite/Sheldonite (+platinum), Brannerite/Uraninite, Ferberite/Hubnerite/Scheelite/Tungstate/Wolframite (+tungsten)
+-Added beginning of material processing to pure daisy. 
+-Tidied Botania Ore Processing.zs
+ContentTweaker
+-added abyssal salt, rock salt, spodumene, lepidolite w/ore tags
+-fixed name/textures/ore tags with abyssal pyrolusite, red garnet, spessertine, tantalite, dreaded obsidian, black granite, mixed magic ingot, magic alloy plate, iron shaft
+-added beryllium, lithium, potassium, sodium, tantalum, thorium, uranium, zirconium, titanium, magnesium, molybdenum, platinum, quicksilver native clusters
+-added elemental tooltips to native clusters 
+-added new rocks: dreaded obsidian, dolomite
+-added dreaded obsidian aluminium, bauxite, ilmenite, psudobrookite
+-added dolomite magnesite, malachite
+-added endstone brannerite, uraninite (glowing)
+-added obsidian hubnerite, wolframite, ferberite, scheelite, tungstate
+-removed duplicate items
+Immersive Engineering
+-added ore processing to Salt/Rocksalt/Spodumene/Lepidolite (+lithium/sodium/potassium), Beryl/Bertrandite/Beryllium/Emerald, Red Garnet/Pyrolusite/Spessertine/Tantalite (+manganese/tantalum) ores, Bastnasite/Electrotine/Huttonite/Monazite (+rare earth/thorium), Magnesite (+magnesium), Molybdenite/Powellite/Wulfenite (+molybdenum), Braggite/Sperrylite/Sheldonite (+platinum), Brannerite/Uraninite, Ferberite/Hubnerite/Scheelite/Tungstate/Wolframite (+tungsten)
+-added ore processing to beryllium, lithium, potassium, sodium, tantalum, thorium, uranium, zirconium, titanium, magnesium, molybdenum, platinum, quicksilver, tungsten clusters
+-tidied Immersive Engineering Ore Processing.zs
+-tidied Immersive Engineering Ore Dict.zs
+Gregtech
+-added enchantments to new material types
+-changed tungsten-thorium alloy, lumium, signalum not to generate tools
+-added materials: Bertrandite, Beryl, Electrotine, Blue Alloy, Huttonite, Psudobrookite, Sperrylite, Braggite, Brannerite, Hubnerite, Wolfranite, Ferberite, Tungsten Dioxide
+-added GENERATE_ORE flag to sodium, potassium, rare earth, titanium, dolomite, magnesium, tungsten
+-added chemical formulae to enderium, lumium, signalum, tungsten-thorium alloy, magnetic cobalt, bertrandite, beryl
+-added 100 to the new material IDs to allow for any subminerals to be added
+-changed beryl to euclase
+-removed silicon trioxide
+-removed GENERATE_ORE flag from dolomite
+-manually added chemical formula tooltips to zirconium, zircon, adamantium, ardite, glowstone, lumium, manasteel, manyullyn, mithril, terrasteel, thaumium, void metal
+-Renamed material cooperite BACK to Cooperite. Because the name not matching the ore tag is bloody annoying. #ScrewYouArch :)
+-Renamed material sulfur back to Sulphur. STOP BREAKING MY SHIT!!!
+-Renamed material uranium to Uranium. Compat w/ NuclearCraft
+-Removed stock worldgen generation entries for Nether and The End.
+NuclearCraft
+-removed duplicate materials from ore dict listings
+Project Red
+-removed duplicate materials from ore dict listings
+Thaumcraft
+-added alchemical processing for beryllium, lithium, potassium, sodium, tantalum, thorium, uranium, zirconium, titanium, magnesium, molybdenum, platinum clusters
+-added elemental tooltips to native clusters 
+-changed alchemical processing [native clusters] to use crushed-purified ores over crushed. (no more loss of ore-wash byrpoduct)
+-removed duplicate materials from ore dict listings
+-replaced cinnibar native cluster with quicksilver
+Thermal Foundation
+-removed duplicate materials from ore dict listings
+-tidied Thermal Foundation Ore Dict.zs
+Vanilla
+-added smelting recipes to new native clusters
+-added chemical formulae to coal, charcoal, diamond, glowstone, gold, iron, redstone
+added Platinum deposits [Braggite/Pentlandite/Sperrylite/Sheldonite] to The End
+added Tungsten deposits [Wolframite/Hubnerite/Ferberite/Tungstate] to The End
+-tidied Vanilla Ore Processing.zs
+-added Uranium deposits [Uraninite/Brannerite/Lead] to The End
+
+Pieces 'o' 8.0
+Forge 14.23.4.2751
+Added ThaumicJEI 1.4.0-14 by Buuz125
+Updated AbyssalCraft to 1.9.4.12
+Updated AbyssalCraft Integration to 1.6.6
+Updated Aether to 1.0.10
+Updated BASE to 3.9.0
+Updated ContentTweaker to 4.6.0
+Updated CraftTweaker to 4.1.9
+Updated Gregtech to 0.5.8.79
+Updated JEI to 4.11.0.212
+Updated Modtweaker to 4.0.13
+Updated MTLib to 3.0.5
+Updated Orbis API to 1.1.7
+Aether
+-added ore tags for saplings, holystone,
+-added/finished ore gen for bauxite, tetrehedrite deposits. Balance/tweaking may be needed.
+Botania
+-Added ore processing to mana pool infusion. Purifies crushed ores/dusts
+-Added Stibnite, Manganese, Antimony to pure daisy processing
+-added ore tags to metamorphic stone, livingrock
+CraftTweaker
+-Fixed 'error while applying scripts' on startup
+-Fixed issue with furnace recipes not loading
+-Fixed issue with Immersive Engineering blast brick recipe
+-I am a pleb. That be all thank you.
+-fixed broken mechanical component recipes
+ContentTweaker
+-Removed vanilla tool heads- duplicate items
+-added iron shaft
+-adjusted recipe for infernal clay
+-added aluminium, cobalt, manganese, zinc, nickel, antimony native clusters w/ore tags.
+--ooh the aspects get added automagically. Noice.
+-added holy stibnite ore
+-added good circuit, basic circuit board, +ore tags + recipes
+Gregtech
+-new recipes for primitive blast furnace, basic circuit
+-compressor recipe for compressed infernal clay
+-ore tags for empty cell, fluid tanks, granites,
+-added new materials; adamantium, ardite, manasteel, manyullyn, mithril, terrasteel, thaumium, tungsten-thorium alloy, voidmetal, enderium, signalum, lumium, magnetic cobalt
+-added ore materialtag for manganese, antimony, tantalum
+-added ring materialtag for copper
+-added finewire materialtag for signalum
+-added ore tags for quantum and gravi stars
+-new recipes for coil blocks
+IC2
+-removed crafting recipe for machines
+-removed ore tags for crushed ores, purified ores
+-reverted ore tags for advanced circuit
+-added/fixed recipes for basic circuit
+-added new recipe for advanced circuit
+Immersive Engineering
+-adjusted recipes for wire spools
+-adjusted recipe for advanced blast brick
+-tidied Immersive Engineering Blocks.zs
+-adjusted recipe for dynamo, scaffolding
+-new recipes for generator, metal ladder, razor wire, wire relays, wire connectors, structural cable connector, fluid pump, fluid pipe, blast furnace preheater, external heater, wooden grip, revolver barrel, revolver drum, revolver, railgun, chemthrower, revolver speedloader, pressurised air tank, advanced lubrication system, additional augers, large tank, bayonet, extended magazine, amplifier electron tubes, additional capicators, shock emmiters, multitank,
+-fixed mechanical component recipes
+-ore tags for insulating glass, scaffold slabs/stairs, 
+-alternate recipe for redstone engineering block
+-added ore processing for native clusters [crusher/arc furnace]
+Modular Machinary
+-added/fixed machining table recipes for GT bronze/steel hulls
+-added 5 tiers 'Industrial Crafting Unit' for assembling mechanical components/systems
+-added recipes for above blueprints
+-added recipes for all tiers for Gtech machine components- motor/pump/robot ect
+-added blueprint recipes for 5 tiers of lathe
+-added missing blueprint recipes
+Thermal Foundation
+-removed ore tags for blocks, gears
+Thaumcraft
+-added ore processing. Uses excess metallum to bump the yield of an individual metal. Transmutes 1 type for another more useful type, no overall extra gains.
+TiCon
+-added casting recipes for gears, small gears, 
+-added ore tags for seared stone, brownstone
+Vanilla
+-added ore tags for furnace, clay ball, clay block, sand, stone, cobble, mossy cobble, stonebrick
+-new recipes for iron/gold/chain armours, hopper, 
+-tidied Vanilla.zs file
+-added ore processing to new native clusters
+
+A match made in 7.0
+Updated Gregtech to 0.4.5.9
+Botania
+-renamed manasteel tools to mana diamond
+[done in Botania's Lang file]
+-new recipes for manadiamond tools, terrasteel tools
+-added pure daisy processing for aluminium, bauxite, pyrolusite, tantalite
+ContentTweaker
+-added copper, tungsten rings
+-added tool heads of vanilla diamond tools
+-added holy varients of aluminium, bauxite, copper, tantalite
+CoFHWorld
+-fixed my buggy worldgen scripts
+Immersive Engineering
+-removed duplicate processing recipes from arc furnace, crusher
+-adjusted blast furnace recipes to Gt materials
+-added Gt alloys to alloy kiln
+-added Gt rings to metal press tool ring bender
+-added Gt wires to metal press tool heavy roller
+-added arc furnace and crusher processing for aluminium, bauxite, copper, tantalite, tetrahedrite
+Gregtech
+-fixed recipe for electric furnace, heat proof casing
+-new recipes for rotor items, pumps
+-disabled rubber tree generation
+-enabled wood nerf
+Thermal Foundation
+-reorganised thermal foundation materials/zs
+-updated lists of duplicate materials and removed recipes/ore tags
+-new recipes for armour, tools, weapons
+-fixed recipe for sawblade
+Vanilla
+-tweaked tool crafting
+-reorganised Vanilla.zs file
+
+A.6.0? Yes please!
+Forge 14.23.4.2705
+Removed Tech Reborn
+Erosion dropped from this release- waiting for permissions
+Updated Gregtech to 0.1.6.2
+Botania
+-started on ore processing for pure daisy;
+--turns ore blocks into a pure mineral, overworld type
+CraftTweaker
+-adjusted recipes for lack of Tech Reborn, ContentTweaker items.
+CoFHWorld
+-changed copper, galena, iron, nickel, redstone, sapphire, scattered, tin ore gen to use GT ores
+-changed nether ores to use Gt ores
+ContentTweaker
+-removed duplicate items with Gregtech (over half the CT stuff)
+-added mixed magic ingot, magic alloy plate
+-added 9 tiers of heating element to align with GT
+CraftTweaker
+-adjusted scripts for GT items and removed items/blocks.
+-added machine chassis blocks (all tiers)
+Dropt
+-adjusted cast drops to GT items
+Forestry
+-changed recipe for wax mould [avoid conflict with wax hull]
+-added a new way to produce ash.
+Gregtech
+-disabled oregen
+-added ore tags to machine parts [motors/pumps ect], machine casings, machine hulls
+-new recipes for steam hulls
+-new recipes for alloy smelter, electric furnace, extruder, fluid heater, thermal centrifuge [all tiers]
+-new recipes for primitive brick, heat proof, frost proof casings
+Immersive Engineering
+-added ore tags for focussed nozzle
+-started on ore processing for crusher;
+--crusher turns solid ore to gravel ore- with chance for impure dust byproduct
+-started on ore processing for arc furnace
+--turns ore in slag and 4x pure metal
+Modular Machinary
+-added 5 tiers of lathe, CNC machine to match GT
+-Adjusted CNC recipes for GT casings, rings, small gears
+Quark
+-disabled clay gen
+Thaumcraft
+-disabled quartz, cinnabar, amber ore gen
+-added ore tags for zombie brain, brain in a jar
+Thermal Expansion
+-adjusted machine crafting to account for GT
+-changed crafting recipes for devices
+Thermal Foundation
+-new recipe for redstone servo
+Vanilla
+-added ore tags for brick block
+
+A high5.0 
+Forge 14.23.2.2655
+added Aether II Highlands 1.0.6 by GuildedGames
+added Erosion 2.2.1 by Dreadwing93
+added Gregtech Community Edition 0.1.5.1 by Archengius
+added Orbis API 1.1.3 by GuildedGames
+added Serene Seasons 1.2.2 by Glitchfiend
+added Thaumcraft 6.1Beta14 by Azanor
+updated Botania to r1.10-354
+updated CoFHCore to 4.4.1.12
+updated CoFHWorld to 1.2.0.5
+updated Farseek API to 2.2.5
+updated JEI to 4.9.1.188
+updated RedstoneFlux API to 2.0.2.3
+updated Streams to 0.4.3
+updated Thermal Dynamics to 1.13
+updated Thermal Expansion to 5.5.0.29
+updated Thermal Foundation to 2.5.0.19
+Aether
+-enabled skip intro
+-disabled seperate inventory (this is an interesting idea, but for this pack I'd prefer the consistancy with other dimensions)
+Buildcraft
+-added AbyssalCraft, Aether, Thaumic Dimensions to oilgen blacklist
+CoFHCore
+-changed basalt dykes, giant crystals dimensions to whitelist, overworld only.
+-added abyssal pyrolusite tantalite oregen in Abyssal Wasteland
+-added placeholder for bauxite to the Aether
+Erosion
+-made mycelium spread aggressivly over grass
+-made ticon liqid slime taint adjecent blocks
+-made tinkers slime grass spread aggressivly over grass/mycelium
+ContentTweaker
+-added Slimy and Rotton wood logs
+-added Abyssal Tantalite and Pyrolusite (manganese ores)
+-added thick stainless plate
+Thermal Expansion
+-adjusted recipe for basic machine frame. Now requires Thaumcraft :)
+TiCon
+-added AbyssalCraft, Aether, Thaumic Dimensions to slime island blacklist
+
+A4.0 Four!
+Forge 14.23.2.2611
+added CodeChickenLib 3.1.7.341 by covers1624, chicken_bones
+added Forge Multipart CBE by covers1624, chicken_bones, Mr_TJP
+added MrTJPCore by Mr_TJP
+added Project Red 4.8.6.74 by Mr_TJP [base, fabrication, integration, lighting, mechanical, world]
+added Thermal Expansion 5.4.1.24 by TeamCoFH
+added Thermal Dynamics 2.4.0.8 by TeamCoFH
+updated AbyssalCraft to 1.9.4.7
+updated Alternating Flux to 0.12-4
+updated Athenaeum to 1.14.0
+updated BASE to 3.7.1
+updated BoP to 7.0.1.2350
+updated CoFHCore to 4.4.0.10
+updated ContentTweaker to 4.5.0
+updated CraftTweaker to 4.1.8
+updated Modtweaker to 4.0.12 
+updated MTLib to 3.0.4
+updated Dropt to 1.9.3
+updated Forestry to 5.8.0.264
+updated Immersive Engineering to 0.12-80
+updated Immersive Petroleum to 1.1.9
+updated Immersive Tech to 1.3.7
+updated Modular Machinary to 1.9
+updated RebornCore to 3.7.5.259
+updated Tech Reborn to 2.14.0.584
+updated Thermal Foundation to 2.4.0.14
+Alternating Flux
+-changed AF coil recipe to fine signalum wire
+Buildcraft
+-added ore tags for tank
+ContentTweaker
+-added rollers item + recipe
+-added rubber ingot + ore tags
+-fixed broken texture for crushed lead ore
+-added hot kanthal, nichrome, titanium, tungsten, tungstencarbide, tungstensteel, adamantium, enderium, signalum, ardite, manyullyn ingots
+-added chrome, tungsten, tungstencarbide, adamantium ingots/dusts
+-added ardite, manyullyn dusts
+-added dark ashes dust
+-added basic/advanced/precision cutting tip blocks
+-fixed broken .lang names
+-fixed missing ore tags
+-added lumium, signalum, enderium small gears
+-added ore tags for the above
+-added machine chassis 2 and 5. [1,3,4 are from Tech Reborn]
+-added aluminium, chrome, iridium item casings
+-added tin, signalum insulated wires
+Forestry
+-removed ingots [redundent items]
+-new recipe for still
+-processing recipe for lubricant
+IC2
+-removed redundent ingots/dusts
+-new ore tag for rubber ball
+-changed advanced circuit to upgraded circuit
+Immersive Engineering
+-fix for error message when removing all uses for IE press tools
+-removed press recipes using plate mould. (use heavy roller)
+-disabled electrum, gold, iron, lead, nickel, nitre, silver, steel, uranium, dusts/ingots/nuggets [redundent items]
+-reworked processing recipes for alloy furnace
+-added some ore processing to Arc Furnace
+Iron Chests
+-tweaked recipes for crystal and obsidian chest
+Iron Tanks
+-new recipes for tanks
+-added ore tags for tanks
+-disabled upgrades
+-renamed iron tank to steel tank
+Modular Machinary
+-new naming scheme for machine parts.
+-added recipes for fluid, power in/out blocks
+-added recipes for basic/advanced lathe blueprints
+-new machine: Basic Machining table
+-added ring, gear, machine hull, cutting recipes to machining table
+-decked out the variables list for variables.var.json
+-new machine: Industrial Mixing Plant
+-added alloy blending recipes to mixing plant
+Project Red
+-enabled diamond block breaker
+-disabled copper, electrotine, peridot, ruby, sapphire, silver, tin worldgen
+Tech Reborn
+-new recipes for iron furnace, iron alloy furnace, electric furnace, alloy smelter, extractor, compressor, recycler, scrapboxinator
+-fix for ore dict issue with storage block compression
+-reworked processing recipes for alloy furnace
+-removed ingots, dusts, small dusts, nuggets [redundent items]
+-fixed issue with item count in alloy smelter
+-added/reworked materials processing in IBF
+-added/reworked materials processing in VazFreeze
+-adjusted cupronickel/kanthal/nichrome coil output in rolling machine
+-added sheetmetal recipes to rolling machine
+-chaged sawmill recipes to give 6 planks and 2 sawdust. This machine is FAST.
+-changed IBF to take 512Eu/t
+-changed VacFreeze to take 512Eu/t
+-changed HV cable to aluminium
+-added rolling machine recipes for gold, redalloy, platinum, signalum finewire
+-added/fixed/adjusted ore tags for cables, reinforced glass, grinding heads,
+-renamed machine casing to machine chassis (multiblock casings)
+-new recipes for machine chassis
+Thermal Dynamics
+-added ore tags to ducts
+-new recipes for filters, servos, retrievers, 
+Thermal Expansion
+-removed recipe for device frame
+-changed recipe for machine frame
+-machine frame renamed to Machine Casing III
+-ore tags for machine casing,
+-disabled abiltiy to secure all machines
+-new recipes for redstone furnace, pulveriser, sawmill, arcane thingy, centrifuge, compactor, crucible, energy infuser, extruder, still, 
+Thermal Foundation
+-removed bronze/constantan ingots [redundent items]
+-removed bronze/constantan/iron/sulphur dust [redundent items]
+-added ore tags to sawblade
+-new recipes for machine upgrades, sawblade
+-disabled conversion kits
+Vanilla
+-added ore tags to ender eye, 
+
+AAAAAAAAAAAAGGGGHHH!!!!0.3 
+Submitted to FTB launcher
+
+Added Iron Chests 7.0.34.820 by progwml6
+Updated Reborn Core to 3.6.9.216
+Updated Tech Reborn to 2.12.4.496
+AbyssalCraft
+-removed crafting recipe for hard storage blocks
+Alternating Flux
+-changed constantan wire to fine constantan wire
+-added ore tags to fine constantan wire and AF wire spool 
+-new recipe for AF coil
+Botania
+-removed crafting recipe for hard storage blocks
+ContentTweaker
+-added cobalt, steel shafts
+-added lv, mv, hv coils
+-added recipes and ore tags for above
+-fixed missing texture for bronze sheetmetal item/block
+-fixed missing recipes for bronze sheetmetal
+-added ore tags to sheetmetal items
+-added iridium, mithril, platinum, signalum, lumium, enderium, invar plates
+-added cupronickel, kanthal, nichrome ingots
+-added electrum, constantan, aluminium wire items
+-added gold, constantan, electrum rods
+-added ore tags for above
+-added missing ore tags for ores ect...
+-added remaining ev and iv coils
+-added 5 tiers of machine hull, machine casing, external motor, gearbox, internal motor
+-added stainless/titanium/tungstensteel rings/rods/small gears/mechanical components
+-added ore tags and crafting for above
+-added stainless/titanium/tungstensteel/neodymium/redalloy ingots
+-added stainless/titanium/tungstensteel gears (w/o textures- awaiting perms)
+-added redalloy wire/rod
+-added gold, platinum, redalloy finewire
+-added stainless/titanium/tungstensteel/neodymium/redalloy/cupronickel/kanthal/nichrome dusts
+-added ore tags for above
+-added signalum rod/wire/finewire
+-added small dusts for each type of rod [needed for lathe]
+-added ore tags and crafting recipes for small dusts
+-added cobalt dust +tags 
+-added smelting recipes for cobalt, cupronickel, manganese, redalloy dusts
+-added dust crafting recipes for alloy dusts. lossy.
+-added infernal clay, compressed infernal clay, infernal brick.
+-added ore tags and recipes
+-added crushed versions of all ores
+Forestry
+-removed crafting recipe for hard storage blocks
+-removed recipes for gears
+IC2
+-new recipe for machine casing
+-added additional recipe for basic circuit
+-removed crafting recipe for hard storage blocks
+Immersive Engineering
+-changed wire items to fine wire
+-added ore tags for wire spools
+-new recipes for wire spools
+-new recipe for kinetic dynamo
+-removed crafting recipe for hard storage blocks
+-added press recipes for new plates/wire items
+-removed press recipes for bullet casing, electrode, gears, outdated plate recipes, IE wires
+-added ore tags to wire coil items [ore.wirespoolItem]
+-added ore tags to mechanical component [ore.mechcompItem]
+-added alloy kiln recipe for cupronickel, redalloy ingots
+-removed alloy kiln recipes for invar
+-added blast furnace recipe for invar
+-reworked blast furnace recipes for steel
+-changed recipes for blast furnace bricks again
+-added ore processing to blast furnace (iron ores)
+Iron Chests
+-added ore tags to chests [ore:chestItem]
+-new recipes for chests
+-disabled chest upgrades
+Modular Machinery
+-new machine: Basic Lathe
+-new recipes for machine casings, machine controller, item buses, 
+-added ingot processing recipes to lathe
+Tech Reborn
+-basic circuit is now good circuit (ore tags)
+-added ore tags for copper, tin, gold, steel cable
+-remove basic machine frame
+-new recipe for grinder, rolling machine
+-removed rolling machine recipes for iron/gold pressure plates, tripwire, bucket, minecart, activator/detector/powered/normal rail, iron doors
+-removed rolling machine recipes for cupronickel/kanthal/nichrome heating coils
+-rolling machine processing for fine wires, wires, rods, heavy plates
+-removed crafting recipes for wires
+-new crafting recipe for tin wire
+-disabled plates. removed recipes and ore tags.
+-added compressor block storage recipes. that was tedious. processing time depends on material hardness
+-removed crafting recipe for hard storage blocks
+-added rolling machine recipes for metal plates
+-adjusted recipe for grinder
+-added ore processing to grinder
+Thermal Foundation
+-changed plates to heavy plates (name/ore tag)
+-removed crafting recipe for hard storage blocks
+-removed crafting and IE press recipes for gears
+-fixed aluminium ore tags
+-fixed a bunch of broken recipes. stuff should be craftable now. my bad.
+Tinkers Construct
+-removed crafting recipe for hard storage blocks
+-disabled slime blocks. Piston machines are ugly.
+Vanilla
+-added ore tags for iron bars, magma cream, magma block
+-added smelting recipes for crushed ore (metals).
+
+A0.2 Insert another coin.
+Submitted to FTB
+Forge version set to Forge 14.23.1.2607
+
+Added Athenaeum 1.9.5	codetaylor
+Added Dropt 1.6.6 by codetaylor
+Astral Socery
+-disabled marble generation
+Botania
+-added ore processing recipes for the pure daisy
+-somehow nothing exploded
+CoFH
+-dragged worldgen files across from 1.10. Updated for contenttweaker ores.
+ContentTweaker
+-added ores: Anthracite, BandedIron, Chalcopyrite, Cassiterite, Cinnabar, Cobaltite, Copper, Diamond, Galena, Garnierite, Gold, GreenSapphire, Lapis, Lazurite, Lead, Lignite, Limonite, Magnetite, Malachite, Nickel, Nitre, Pentlandite, Pyrite, Pyrope, Quartz, Quartzite, Redstone, Ruby, Sapphire, Silver, Sphalerite, Sulphur, Tin, Zinc
+-added some poor ore/basalt/granite varients of the above
+-added rocks: Basalt, Black Granite, Marble
+-added blocks raw casting medium, hardend casting medium, ring/rod/hull moulds, cast tin/copper/iron/bronze/steel rings/rods/hulls
+-added items aluminium/tin/copper/iron/bronze/steel/wax rings/rods/small gears
+-added aluminium, constantan electrum, nickel, silver, uranium, wooden plates
+-added crude circuit board
+-added bronze/steel machine hull blocks
+-added aluminium mechanical component
+-added new press tools (for IE); cutter, bender, roller
+-added rolled metal items to match IE sheetmetal blocks
+-added additional sheetmetal items/blocks; bronze/tin
+-added localised names for above
+-added crafting recipes for wax parts/moulds, parts ect...
+-added casting recipes for cast rings/rods/hulls
+-added ore tags for above as needed
+-fixed issue with CT blocks letting light through. I derped the block properites of the first block, and copied it forward to all.
+Dropt
+-added block drops from cast rings/rods
+-added block drops from diamond, lapis, redstone, ruby ores
+Forestry
+-enabled abiltiy to pick up fluids with cans
+-disabled copper and tin generation
+-added smelting recipe for wax
+-new recipe for sturdy casing, therm fab
+-added ore tags for casings, electron tubes,
+-disabled/remove ore tags for gears
+IC2
+-disabled ore gen.
+-rubber trees are still enabled
+-new recipes for item casings. Requires metal press.
+-added ore tags for item casings
+-new recipe for basic circuit
+Immersive Engineering
+-disabled ore gen
+-new recipes for steel mech component, light/heavy/redstone eng blocks, basic conveyor, alloy kiln brick, coke oven brick, blast brick
+-added ring bending recipes to metal press
+-added cable rolling recipes to metal press
+-added metal rolling recipes to metal press
+-new crafting recipes for sheetmetal blocks
+-removed recipes/ore dict for IE iron/steel/aluminium rods, all IE plates,
+-added metal press cutting recipes to split logs to planks for vanilla, abyssalcraft, IC2, BoP, Forestry (yes ALL the wood)
+-added rolling recipes to make plates
+Tech Reborn
+-disabled all ore gen
+Vanilla
+-added smelting recipes for metal ores, poor metal ores.
+-removed recipes for wood axe/hoe/sword, stone hoe/sword, magma block, and of course the bucket. You think I forgot?
+-removed recipe for smelting charcoal
+-added smelting (recycling) recipes for fence gates, doors, trap doors, pressure plates, wood button, jukebox, noteblock
+-new recipes for piston, torch, fence gates, doors, slabs, buttons, trap doors, level, pressure plates, buttons, 
+
+A0.1 Game over! Try again?
+Forge 14.23.2.2611
+
+Step 1: Install mods
+Step 2: Crash game
+
+Added AbyssalCraft 1.6.2 by Shinoow
+Added AbyssalCraft Integration 1.9.4.3 by Shinoow
+Added Alternating Flux 0.12-3 by 
+Added Astral Socery 1.8.5 by HellFirePvP, wiiv
+Added AutoRegLib 1.3-15 by Vazkii
+Added Baubles 1.5.2 by Azanor
+Added B.A.S.E 3.6.0 by Team Acronym
+Added Biomes'O'Plenty 7.0.1.2302-universal 
+Added Botania r1.10-353 by Vazkii
+Added CoFH Core 4.3.10.5 by Team CoFH
+Added CoFH World 1.1.1.12 by Team CoFH
+Added ContentTweaker 4.4.0 by jaradll08 Et al
+Added CraftTweaker 4.1.2 by jaradll08, StanH
+Added IndusterialCraft 2exp 2-3.8.16-ex112 by Player Et al
+Added Immersive Engineering 0.12-76 by Blu Sunrise
+Added Immersive Petroleum 1.1.7 by FlaxBeard
+Added Immersivetech 1.3.4 by Ferro0200
+Added JEI 4.8.5.138 by mezz
+Added Mantle 1.3.1.21 by Mdiyo Et al
+Added Modular Machinery by HellFirePvP, wiiv
+Added Natura 4.3.2.42 by Mdiyo Et aL
+Added Quark r1.4-122 by Vazkii
+Added RebornCore 3.6.5.197-universal by modmuss50 Et al
+Added Redstone Flux 2.0.1.2 by Team CoFH
+Added Tech Reborn 2.12.2.452 by modmuss50 Et al
+Added Thermal Foundation 2.3.10.6 by Team CoFH
+Added Tinkers Construct 2.9.0.55 by Mdiyo Et al
+Updated ContentTweaker to 4.4.1
+AbyssalCraft
+-disabled spawning in AbyssalCraft biomes
+-increased rarity of AbyssalCraft biomes
+-disabled overworld nitre generation
+AbyssalCraft Integration
+-disabled TiCon integration
+Astral Socery
+-removed book from starting inventory
+-disabled rock crystal and aquamarine generation
+Botania
+-enabled the rainbow of death
+Cofh World
+-tested a giant crystal script- works ok
+-dragged all giant crystal scrips across to 1.12
+ContentTweaker
+-Added a few test blocks to figure how stuff works
+Immersive Engineering
+-disabled hemp seed drop
+-disabled update notification
+-increased length of steel, structural, rope, and redstone cables
+-added overworld dim ID to ore gen blacklist
+Natura
+-disabled clouds, crops, bushes, and thornvines from worldgen.
+-enabled heatscar spider spawning
+TiCon
+-disabled tooltips
+-disabled fortune-autosmelt, flint crafting, leather drying, obsidian alloying, cobalt gen, ardite gen
+-set smeltery ore melting to 1. Shame it won't go lower.
+-disabled all the tools
+-disabled WAILA integration
+-disabled harvest tools, melee weapons, modifiers, ranged weapons
+-Yes, I am that evil. Deal with it darlings :)
