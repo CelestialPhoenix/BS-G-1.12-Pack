@@ -1,0 +1,36 @@
+{  
+   "machine":"cnc_basic",
+   "registryName":"cncblockaluminium",
+   "recipeTime":3600,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":20
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:blockAluminium",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":200
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:casingMV",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:dustAluminium",
+         "amount":1
+      }
+   ]
+}

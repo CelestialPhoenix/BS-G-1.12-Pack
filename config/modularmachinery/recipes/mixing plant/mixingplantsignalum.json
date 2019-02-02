@@ -1,0 +1,36 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplantsignalum",
+    "recipeTime": 140,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustCopper",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustSilver",
+            "amount": 1
+        },
+	    {
+            "type": "fluid",
+            "io-type": "input",
+            "item": "destabilisedredstone",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustSignalum",
+            "amount": 4
+        }
+    ]
+}

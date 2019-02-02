@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "contenttweaker:blocks/machines/motorhvtop",
+	  "down": "contenttweaker:blocks/machines/motorhvbase",
+	  "north": "contenttweaker:blocks/machines/motorhvside",
+	  "south": "contenttweaker:blocks/machines/motorhvside",
+	  "east": "contenttweaker:blocks/machines/motorhvside",
+	  "west": "contenttweaker:blocks/machines/motorhvside",
+	  "particle": "contenttweaker:blocks/machines/motorhvside"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,24 @@
+{  
+   "machine":"denizen_communicus",
+   "registryName":"modulartestrecipe",
+   "recipeTime":80,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":5
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:ingotGold",
+         "amount":3
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:stickBlaze",
+         "amount":7
+      }
+   ]
+}

@@ -1,0 +1,38 @@
+#Name: Blood Sweat & Gears Copper Scattered.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "copperscattered":{  
+         "distribution":"uniform",
+         "generator":{  
+            "type":"cluster",
+            "block":[  
+               {  
+                  "name":"gregtech:ore_copper_0",
+                  "metadata":0,
+                  "weight":90
+               },
+               {  
+                  "name":"minecraft:stone",
+                  "metadata":0,
+                  "weight":10
+               }
+            ],
+            "material":"minecraft:stone",
+            "cluster-size":5
+         },
+         "cluster-count":32,
+         "min-height":0,
+         "max-height":255,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"blacklist",
+            "value":[  
+               -1,
+               1
+            ]
+         }
+      },
+   }
+}

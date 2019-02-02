@@ -1,0 +1,15 @@
+#Cables
+cable.copper_cable_0=Basic Copper Conduit
+cable.copper_cable_1=Insulated Copper Conduit
+cable.glass_cable=Glass Fibre Conduit
+cable.gold_cable_0=Basic Gold Conduit
+cable.gold_cable_1=Insulated Gold Conduit
+cable.gold_cable_2=Double Insulated Gold Conduit
+cable.iron_cable_0=Basic Aluminium Conduit
+cable.iron_cable_1=Insulated Aluminium Conduit
+cable.iron_cable_2=Double Insulated Aluminium Conduit
+cable.iron_cable_3=Triple Insulated Aluminium Conduit
+cable.tin_cable_0=Basic Tin Conduit
+cable.tin_cable_1=Insulated Tin Conduit
+cable.detector_cable=Power Detector Conduit
+cable.splitter_cable=Power Splitter Conduit

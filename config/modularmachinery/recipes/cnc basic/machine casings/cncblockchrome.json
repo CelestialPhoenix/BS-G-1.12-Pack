@@ -1,0 +1,36 @@
+{  
+   "machine":"cnc_basic",
+   "registryName":"cncblockchrome",
+   "recipeTime":3600,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":20
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:blockChrome",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":200
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:casingLuV",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:dustChrome",
+         "amount":1
+      }
+   ]
+}

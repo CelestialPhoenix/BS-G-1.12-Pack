@@ -1,0 +1,30 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplantelectrum",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustSilver",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustGold",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustElectrum",
+            "amount": 2
+        }
+    ]
+}

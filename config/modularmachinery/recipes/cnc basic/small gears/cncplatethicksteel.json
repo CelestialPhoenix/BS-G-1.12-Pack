@@ -1,0 +1,36 @@
+{  
+   "machine":"cnc_basic",
+   "registryName":"cncplatethicksteel",
+   "recipeTime":1600,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateThickSteel",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":40
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:gearSmallSteel",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:dustSteel",
+         "amount":3
+      }
+   ]
+}

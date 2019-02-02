@@ -1,0 +1,36 @@
+{  
+   "machine":"lathe_basic",
+   "registryName":"latheingotgold",
+   "recipeTime":400,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:ingotGold",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":10
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:rodgold",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:dustsmallgold",
+         "amount":2
+      }
+   ]
+}

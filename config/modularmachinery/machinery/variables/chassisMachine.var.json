@@ -1,0 +1,27 @@
+{  
+   "chassisAny":[  
+      "techreborn:machine_casing@0",
+      "contenttweaker:chassisaluminium",
+      "techreborn:machine_casing@1",
+      "techreborn:machine_casing@2",
+      "contenttweaker:chassistungstensteel"
+   ],
+   "chassisAny2":[  
+      "contenttweaker:chassisaluminium",
+      "techreborn:machine_casing@1",
+      "techreborn:machine_casing@2",
+      "contenttweaker:chassistungstensteel"
+   ],
+   "chassisAny3":[  
+      "techreborn:machine_casing@1",
+      "techreborn:machine_casing@2",
+      "contenttweaker:chassistungstensteel"
+   ],
+   "chassisAny4":[  
+      "techreborn:machine_casing@2",
+      "contenttweaker:chassistungstensteel"
+   ],
+   "chassisAny5":[  
+      "contenttweaker:chassistungstensteel"
+   ]
+}

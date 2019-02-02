@@ -1,0 +1,36 @@
+{  
+   "machine":"autocrafter_advancediii",
+   "registryName":"crafteradvancediiiconveyorev",
+   "recipeTime":135,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":135
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateRubber",
+         "amount":6
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:cableGtSingleAluminium",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:motorEV",
+         "amount":2
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:conveyorEV",
+         "amount":1
+      }
+   ]
+}

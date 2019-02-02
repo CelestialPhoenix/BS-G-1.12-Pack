@@ -1,0 +1,36 @@
+{  
+   "machine":"autocrafter_advancedii",
+   "registryName":"crafteradvancediiconveyorhv",
+   "recipeTime":90,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":45
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateRubber",
+         "amount":6
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:cableGtSingleGold",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:motorHV",
+         "amount":2
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:conveyorHV",
+         "amount":1
+      }
+   ]
+}

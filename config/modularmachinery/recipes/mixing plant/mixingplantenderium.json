@@ -1,0 +1,36 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplantenderium",
+    "recipeTime": 140,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustLead",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustPlatinum",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "item": "resonantender",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustEnderium",
+            "amount": 4
+        }
+    ]
+}

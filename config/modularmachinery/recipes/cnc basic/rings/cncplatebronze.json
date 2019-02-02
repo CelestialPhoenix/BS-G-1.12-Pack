@@ -1,0 +1,36 @@
+{  
+   "machine":"cnc_basic",
+   "registryName":"cncplatebronze",
+   "recipeTime":400,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateBronze",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":10
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:ringBronze",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:dustSmallBronze",
+         "amount":3
+      }
+   ]
+}

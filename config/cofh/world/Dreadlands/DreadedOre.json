@@ -1,0 +1,67 @@
+#Name: Blood Sweat & Gears DreadedOre.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "DreadedOre":{  
+         "distribution":"fractal",
+         "generator":[  
+            {  
+               "type":"stalagmite",
+               "weight":100,
+               "block":[  
+                  {  
+                     "name":"abyssalcraft:abydreadore",
+                     "metadata":0,
+                     "weight":5
+                  },
+                  {  
+                     "name":"abyssalcraft:dreadore",
+                     "metadata":0,
+                     "weight":10
+                  },
+                  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":2,
+                     "weight":100
+                  }
+               ],
+               "material":[  
+                  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":2,
+                     "weight":100
+                  }
+               ],
+               "gen-body":[  
+                  "minecraft:air",
+				  "abyssalcraft:dreadlog"
+				  "abyssalcraft:dreadleaves"
+               ],
+               "min-height":4,
+               "height-variance":20,
+               "gen-size":0,
+               "height-mod":2,
+               "size-variance":2,
+               "smooth":"false",
+               "fat":"true"
+            },
+			
+         ],
+         "cluster-count":100,
+         "chunk-chance":200,
+         "min-height":60,
+         "vein-height":70,
+         "vein-diameter":90,
+         "vertical-density":400,
+         "horizontal-density":8,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               51
+            ]
+         }
+      }
+   }
+}

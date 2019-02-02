@@ -1,0 +1,36 @@
+{  
+   "machine":"lathe_basic",
+   "registryName":"latheingotelectrum",
+   "recipeTime":400,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:ingotElectrum",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":10
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:rodelectrum",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:dustsmallelectrum",
+         "amount":2
+      }
+   ]
+}

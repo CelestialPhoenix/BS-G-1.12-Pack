@@ -1,0 +1,36 @@
+{  
+   "machine":"autocrafter_advancediii",
+   "registryName":"crafteradvancediiiconveyormv",
+   "recipeTime":15,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":135
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateRubber",
+         "amount":6
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:cableGtSingleCopper",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:motorMV",
+         "amount":2
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:conveyorMV",
+         "amount":1
+      }
+   ]
+}

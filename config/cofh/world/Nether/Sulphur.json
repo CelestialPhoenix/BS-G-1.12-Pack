@@ -1,0 +1,54 @@
+#Name: Blood Sweat & Gears Sulphur.zs
+#Author: PhoePhoe
+
+{  
+   "dependencies":"thermalfoundation",
+   "populate":{  
+      "Sulphur":{  
+         "distribution":"fractal",
+         "generator":{  
+            "type":"stalagmite",
+            "sparse":"true",
+            "block":[  
+               {  
+                  "name":"gregtech:ore_pyrite_0",
+                  "metadata":6,
+                  "weight":15
+               },
+			                  {  
+                  "name":"gregtech:ore_sulfur_0",
+                  "metadata":6,
+                  "weight":20
+               },
+               {  
+                  "name":"minecraft:netherrack",
+                  "metadata":0,
+                  "weight":50
+               }
+            ],
+            "material":[  
+               "minecraft:netherrack"
+            ],
+			"gen-body":"minecraft:netherrack",
+            "min-height":40,
+			"height-mod":1,
+			"smooth":"false",
+			"fat":"true"
+         },
+         "cluster-count":2,
+         "chunk-chance":100,
+         "min-height":5,
+         "vein-height":15,
+         "vein-diameter":30,
+         "vertical-density":10,
+         "horizontal-density":700,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               -1
+            ]
+         }
+      }
+   }
+}

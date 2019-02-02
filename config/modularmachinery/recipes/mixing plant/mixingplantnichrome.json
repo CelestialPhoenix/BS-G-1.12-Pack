@@ -1,0 +1,30 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplantnichrome",
+    "recipeTime": 50,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustNickel",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustChrome",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustNichrome",
+            "amount": 5
+        }
+    ]
+}

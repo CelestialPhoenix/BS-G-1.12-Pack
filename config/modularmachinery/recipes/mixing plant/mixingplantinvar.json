@@ -1,0 +1,30 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplantinvar",
+    "recipeTime": 30,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustIron",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustNickel",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustInvar",
+            "amount": 3
+        }
+    ]
+}

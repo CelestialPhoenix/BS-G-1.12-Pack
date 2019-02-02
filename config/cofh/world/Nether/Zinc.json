@@ -1,0 +1,48 @@
+#Name: Blood Sweat & Gears Zinc.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "Zinc":{  
+         "distribution":"fractal",
+         "generator":{  
+            "type":"large-vein",
+            "weight":150,
+            "block":[  
+               {  
+                  "name":"gregtech:ore_zinc_0",
+                  "metadata":6,
+                  "weight":10
+               },
+               {  
+                  "name":"gregtech:ore_sphalerite_0",
+                  "metadata":6,
+                  "weight":20
+               },
+               {  
+                  "name":"minecraft:netherrack",
+                  "metadata":0,
+                  "weight":100
+               }
+            ],
+            "material":"minecraft:netherrack",
+            "cluster-size":300,
+            "sparse":"true"
+         },
+         "cluster-count":120,
+         "chunk-chance":100,
+         "min-height":32,
+         "vein-height":30,
+         "vein-diameter":30,
+         "vertical-density":64,
+         "horizontal-density":64,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               -1
+            ]
+         }
+      }
+   }
+}

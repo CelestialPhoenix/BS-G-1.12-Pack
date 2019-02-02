@@ -1,0 +1,36 @@
+{  
+   "machine":"cnc_basic",
+   "registryName":"cncplatethicklumium",
+   "recipeTime":1600,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:plateThickLumium",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":40
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:gearSmallLumium",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:dustLumium",
+         "amount":3
+      }
+   ]
+}

@@ -1,0 +1,96 @@
+#Name: Blood Sweat & Gears AnthraciteBed4.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "anthracitebed4":{  
+         "distribution":"fractal",
+         "generator":[  
+            {  
+               "type":"plate",
+               "weight":"40",
+               "block":[  
+                  {  
+                     "name":"contenttweaker:oreanthracite",
+                     "metadata":0,
+                     "weight":45
+                  },
+                  {  
+                     "name":"contenttweaker:oreanthraciteloose",
+                     "metadata":0,
+                     "weight":15
+                  },
+                  {  
+                     "name":"minecraft:stone",
+                     "metadata":0,
+                     "weight":50
+                  }
+               ],
+               "material":"minecraft:stone",
+               "radius":5,
+               "height":0,
+               "slim":"false"
+            },
+            {  
+               "type":"plate",
+               "weight":"35",
+               "block":[  
+                  {  
+                     "name":"contenttweaker:oreanthracite",
+                     "metadata":0,
+                     "weight":15
+                  },
+                  {  
+                     "name":"contenttweaker:oreanthraciteloose",
+                     "metadata":0,
+                     "weight":45
+                  },
+                  {  
+                     "name":"minecraft:stone",
+                     "metadata":0,
+                     "weight":10
+                  }
+               ],
+               "material":"minecraft:stone",
+               "radius":4,
+               "height":0,
+               "slim":"false"
+            }
+         ],
+         "cluster-count":20,
+         "chunk-chance":800,
+         "min-height":17,
+         "vein-height":1,
+         "vein-diameter":25,
+         "vertical-density":700,
+         "horizontal-density":20,
+         "retrogen":"true",
+		 "biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [  
+                     "swampland",
+                     "fen",
+                     "lush_swamp",
+                     "marsh",
+                     "quagmire",
+                     "wetland",
+                     "mangrove",
+                     "bayou",
+                     "moor"
+						]
+					}
+				]
+			},
+         "dimension":{  
+            "restriction":"blacklist",
+            "value":[  
+               -1,
+               1
+            ]
+         }
+      }
+   }
+}

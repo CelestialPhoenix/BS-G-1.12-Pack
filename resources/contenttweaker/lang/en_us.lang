@@ -1,0 +1,510 @@
+item.botania:manasteelHelm.name=Manadiamond Helmet
+item.botania:manasteelChest.name=Manadiamond Chestplate
+item.botania:manasteelLegs.name=Manadiamond Leggings
+item.botania:manasteelBoots.name=Manadiamond Boots
+item.botania:manasteelPick.name=Manadiamond Pickaxe
+item.botania:manasteelShovel.name=Manadiamond Shovel
+item.botania:manasteelAxe.name=Manadiamond Axe
+item.botania:manasteelSword.name=Manadiamond Sword
+item.botania:manasteelShears.name=Manadiamond Shears
+
+tile.ic2:cable.copper_cable_0=Copper Conduit
+tile.ic2.cable.copper_cable_1=Insulated Copper Conduit
+cable.glass_cable=Glass Fibre Conduit
+cable.gold_cable_0=Gold Conduit
+cable.gold_cable_1=Insulated Gold Conduit
+cable.gold_cable_2=Double Insulated Gold Conduit
+cable.iron_cable_0=Aluminium Conduit
+cable.iron_cable_1=Insulated Aluminium Conduit
+cable.iron_cable_2=Double Insulated Aluminium Conduit
+cable.iron_cable_3=Triple Insulated Aluminium Conduit
+cable.tin_cable_0=Tin Conduit
+cable.tin_cable_1=Insulated Tin Conduit
+cable.detector_cable=EU-Detector Conduit
+cable.splitter_cable=EU-Splitter Conduit
+
+item.ic2:itemCable=Insulated Copper Cable
+item.ic2.itemCableO= Copper Cable
+itemGoldCable=Gold Cable
+itemGoldCableI=Insulated Gold Cable
+itemGoldCableII=2xIns. Gold Cable
+itemIronCable=HV Cable
+itemIronCableI=Insulated HV Cable
+itemIronCableII=2xIns. HV Cable
+itemIronCableIIII=3xIns. HV Cable
+itemGlassCable=Glass Fibre Cable
+itemTinCable=Tin Cable
+itemTinCableI=Insulated Tin Cable
+
+tile.contenttweaker.oreanthracite.name=Anthracite
+tile.contenttweaker.oreanthraciteloose.name=Anthracite
+tile.contenttweaker.orebandediron.name=Banded Iron
+tile.contenttweaker.orebrownlimonite.name=Brown Limonite
+tile.contenttweaker.orecassiterite.name=Cassiterite
+tile.contenttweaker.orechalcopyrite.name=Chalcopyrite
+tile.contenttweaker.orecinnabar.name=Cinnabar
+tile.contenttweaker.orecobaltite.name=Cobaltite
+tile.contenttweaker.orecopper.name=Copper Ore
+tile.contenttweaker.orediamond.name=Diamond Ore
+tile.contenttweaker.orediamondloose.name=Diamond Ore
+tile.contenttweaker.orelargediamond.name=Diamond Ore
+tile.contenttweaker.orelargediamondloose.name=Diamond Ore
+tile.contenttweaker.oregalena.name=Galena
+tile.contenttweaker.oregarnierite.name=Garneirite
+tile.contenttweaker.oregreensapphire.name=Green Sapphire Ore
+tile.contenttweaker.orelead.name=Lead Ore
+tile.contenttweaker.orelignite.name=Lignite
+tile.contenttweaker.oreligniteloose.name=Lignite
+tile.contenttweaker.oremagnetite.name=Magnetite
+tile.contenttweaker.oremalachite.name=Malachite
+tile.contenttweaker.orenickel.name=Nickel Ore
+tile.contenttweaker.orepentlandite.name=Pentlandite
+tile.contenttweaker.orepyrite.name=Pyrite
+tile.contenttweaker.orepyrope.name=Pyrope
+tile.contenttweaker.orequartz.name=Quartz Ore
+tile.contenttweaker.orequartzite.name=Quartzite
+tile.contenttweaker.oreredstone.name=Redstone Ore
+tile.contenttweaker.oreruby.name=Ruby Ore
+tile.contenttweaker.oresapphire.name=Sapphire Ore
+tile.contenttweaker.oresilver.name=Silver Ore
+tile.contenttweaker.oresphalerite.name=Sphalerite
+tile.contenttweaker.oresulphur.name=Sulphur Ore
+tile.contenttweaker.oretin.name=Tin Ore
+tile.contenttweaker.oreyellowlimonite.name=Yellow Limonite
+tile.contenttweaker.orezinc.name=Zinc Ore
+
+tile.contenttweaker.oreabyssallepidolite.name=Lepidolite
+tile.contenttweaker.oreabyssalpyrolusite.name=Pyrolusite
+tile.contenttweaker.oreabyssalredgarnet.name=Red Garnet Ore
+tile.contenttweaker.oreabyssalrocksalt.name=Rock Salt
+tile.contenttweaker.oreabyssalsalt.name=Salt
+tile.contenttweaker.oreabyssalspessertine.name=Spessertine
+tile.contenttweaker.oreabyssalspodumene.name=Spodumene
+tile.contenttweaker.oreabyssaltantalite.name=Tantalite
+
+tile.contenttweaker.orebasaltcoffinite.name=Coffinite
+tile.contenttweaker.orebasaltgreensapphire.name=Green Sapphire Ore
+tile.contenttweaker.orebasaltpitchblende.name=Pitchblende
+tile.contenttweaker.orebasaltpyrope.name=Pyrope
+tile.contenttweaker.orebasaltsapphire.name=Sapphire Ore
+tile.contenttweaker.orebasaltthorite.name=Thorite
+tile.contenttweaker.orebasaltzircon.name=Zircon
+
+tile.contenttweaker.oredirtlignite.name=Lignite
+
+tile.contenttweaker.oredolomitemagnesite.name=Magnesite
+tile.contenttweaker.oredolomitemalachite.name=Malachite
+
+tile.contenttweaker.oredreadedobsidianaluminium.name=Aluminium Ore
+tile.contenttweaker.oredreadedobsidianbauxite.name=Bauxite
+tile.contenttweaker.oredreadedobsidianilmenite.name=Ilmenite
+tile.contenttweaker.oredreadedobsidianpsudobrookite.name=Psudobrookite
+
+tile.contenttweaker.oreendstonebrannerite.name=Brannerite
+tile.contenttweaker.oreendstoneuraninite.name=Uraninite
+
+tile.contenttweaker.oreholyaluminium.name=Aluminium Ore
+tile.contenttweaker.oreholybauxite.name=Bauxite
+tile.contenttweaker.oreholycopper.name=Copper Ore
+tile.contenttweaker.oreholystibnite.name=Stibnite
+tile.contenttweaker.oreholytetrahedrite.name=Tetrahedrite
+
+tile.contenttweaker.orelargemarblelapis.name=Lapis Ore
+tile.contenttweaker.orelargemarblelapisloose.name=Lapis Ore
+tile.contenttweaker.orelargemarblelazurite.name=Lazurite
+tile.contenttweaker.orelargemarblelazuriteloose.name=Lazurite
+tile.contenttweaker.oremarblelapis.name=Lapis Ore
+tile.contenttweaker.oremarblelapisloose.name=Lapis Ore
+tile.contenttweaker.oremarblelazurite.name=Lazurite
+tile.contenttweaker.oremarblelazuriteloose.name=Lazurite
+
+tile.contenttweaker.orenethercinnabar.name=Cinnabar
+tile.contenttweaker.orenethergold.name=Gold Ore
+tile.contenttweaker.orenetherpyrite.name=Pyrite
+tile.contenttweaker.orenetherquartz.name=Quartz Ore
+tile.contenttweaker.orenetherquartzite.name=Quartzite
+tile.contenttweaker.orenetherredstone.name=Redstone Ore
+tile.contenttweaker.orenetherredstoneloose.name=Redstone Ore
+tile.contenttweaker.orenetherruby.name=Ruby Ore
+tile.contenttweaker.orenetherrubyloose.name=Ruby Ore
+tile.contenttweaker.orenethersphalerite.name=Sphalerite
+tile.contenttweaker.orenethersulphur.name=Sulphur Ore
+tile.contenttweaker.orenetherzinc.name=Zinc Ore
+
+tile.contenttweaker.oreobsidianaluminium.name=Aluminium Ore
+tile.contenttweaker.oreobsidianbauxite.name=Bauxite
+tile.contenttweaker.oreobsidianferberite.name=Ferberite
+tile.contenttweaker.oreobsidianhubnerite.name=Hubnerite
+tile.contenttweaker.oreobsidianilmenite.name=Ilmenite
+tile.contenttweaker.oreobsidianpsudobrookite.name=Psudobrookite
+tile.contenttweaker.oreobsidianscheelite.name=Scheelite
+tile.contenttweaker.oreobsidiantungstate.name=Tungstate
+tile.contenttweaker.oreobsidianwolframite.name=Wolframite
+
+tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
+tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
+tile.contenttweaker.orepoorgalena.name=Galena
+tile.contenttweaker.orepoorgraveldiamond.name=Diamond Ore
+tile.contenttweaker.orepoorgraveliron.name=Iron Ore
+tile.contenttweaker.orepoorgraveltin.name=Tin Ore
+tile.contenttweaker.orepoorlead.name=Lead Ore
+tile.contenttweaker.orepoormarblelapis.name=Lapis Ore
+tile.contenttweaker.orepoorredsandnickel.name=Nickel Ore
+tile.contenttweaker.orepoorsandnickel.name=Nickel Ore
+tile.contenttweaker.orepoorsilver.name=Silver Ore
+
+tile.contenttweaker.oresoulnitre.name=Nitre
+
+tile.contenttweaker.basalt.name=Basalt
+tile.contenttweaker.BlackGranite.name=Black Granite
+tile.contenttweaker.dolomite.name=Dolomite
+tile.contenttweaker.dreadedobsidian.name=Dreaded Obsidian
+tile.contenttweaker.marble.name=Marble
+
+tile.contenttweaker.nethersludgeblock.name=Infernal Clay
+
+tile.contenttweaker.blockrolledbronze.name= Bronze Sheetmetal
+tile.contenttweaker.blockrolledtin.name= Tin Sheetmetal
+
+tile.contenttweaker.casingaluminium.name= Machine Casing II
+tile.contenttweaker.casingstainless.name=Machine Casing III
+tile.contenttweaker.casingsteel.name=Machine Casing
+tile.contenttweaker.casingtitanium.name=Machine Casing IV
+tile.contenttweaker.casingtungstensteel.name=Machine Casing V
+
+tile.contenttweaker.casthullbronze.name=Cast Bronze Hull
+tile.contenttweaker.casthullsteel.name=Cast Steel Hull
+
+tile.contenttweaker.castringbronze.name=Cast Bronze Rings
+tile.contenttweaker.castringcopper.name=Cast Copper Rings
+tile.contenttweaker.castringiron.name=Cast Iron Rings
+tile.contenttweaker.castringsteel.name=Cast Steel Rings
+tile.contenttweaker.castringtin.name=Cast Tin Rings
+
+tile.contenttweaker.castrodbronze.name=Cast Bronze Rods
+tile.contenttweaker.castrodcopper.name=Cast Copper Rods
+tile.contenttweaker.castrodiron.name=Cast Iron Rods
+tile.contenttweaker.castrodsteel.name=Cast Steel Rods
+tile.contenttweaker.castrodtin.name=Cast Tin Rods
+
+tile.contenttweaker.chassiswroughtiron.name=ULV Machine Chassis
+tile.contenttweaker.chassissteel.name=LV Machine Chassis
+tile.contenttweaker.chassisaluminium.name=MV Machine Chassis
+tile.contenttweaker.chassisstainless.name=HV Machine Chassis
+tile.contenttweaker.chassistitanium.name=EV Machine Chassis
+tile.contenttweaker.chassistungstensteel.name=IV Machine Chassis
+tile.contenttweaker.chassischrome.name=LuV Machine Chassis
+tile.contenttweaker.chassisiridium.name=ZPM Machine Chassis
+tile.contenttweaker.chassisosmium.name=UV Machine Chassis
+tile.contenttweaker.chassisdarmstadtium.name=Max Machine Chassis
+
+tile.contenttweaker.cuttingtipadvanced.name=Advanced Cutting Tip
+tile.contenttweaker.cuttingtipbasic.name=Basic Cutting Tip
+tile.contenttweaker.cuttingtiprecise.name=Precision Cutting Tip
+
+tile.contenttweaker.gearboxaluminium.name=Aluminium Gearbox
+tile.contenttweaker.gearboxstainless.name=Stainless Gearbox
+tile.contenttweaker.gearboxsteel.name=Steel Gearbox
+tile.contenttweaker.gearboxtitanium.name=Titanium Gearbox
+tile.contenttweaker.gearboxtungstensteel.name=Tungstensteel Gearbox
+
+tile.contenttweaker.gearboxemptyaluminium.name=Empty Gearbox
+tile.contenttweaker.gearboxemptystainless.name=Empty Gearbox
+tile.contenttweaker.gearboxemptysteel.name=Empty Gearbox
+tile.contenttweaker.gearboxemptytitanium.name=Empty Gearbox
+tile.contenttweaker.gearboxemptytungstensteel.name=Empty Gearbox
+
+tile.contenttweaker.hullaluminium.name=Machine Hull II
+tile.contenttweaker.hullbronze.name=Bronze Machine Hull
+tile.contenttweaker.hullstainless.name=Machine Hull III
+tile.contenttweaker.hullsteel.name=Machine Hull 
+tile.contenttweaker.hulltitanium.name=Machine Hull IV
+tile.contenttweaker.hulltungstensteel.name=Machine Hull V
+
+tile.contenttweaker.motoraluminium.name=External Motor II
+tile.contenttweaker.motorstainless.name=External Motor III
+tile.contenttweaker.motorsteel.name=External Motor
+tile.contenttweaker.motortitanium.name=External Motor IV
+tile.contenttweaker.motortungstensteel.name= External Motor V
+
+tile.contenttweaker.castraw.name=Raw Casting Medium
+tile.contenttweaker.casthard.name=Hardened Casting Medium
+tile.contenttweaker.mouldhull.name= Machine Hull Mould
+tile.contenttweaker.mouldrods.name=Rods Mould
+tile.contenttweaker.mouldrings.name=Rings Mould
+
+tile.contenttweaker.woodrotten.name=Rotten Wood
+tile.contenttweaker.woodslimegreen.name=Slimy Wood
+tile.contenttweaker.woodslimepurple.name=Slimy Wood
+
+item.contenttweaker.blastbrick.name=Infernal Brick
+
+item.contenttweaker.boardcrude.name= Crude Circuit Board
+item.contenttweaker.boardsimple.name= Simple Circuit Board
+
+item.contenttweaker.itemcasingaluminium.name=Aluminium Item Casing
+item.contenttweaker.itemcasingchrome.name=Chrome Item Casing
+item.contenttweaker.itemcasingiridium.name=Iridium Item Casing
+
+item.contenttweaker.circuitgood.name=Good Circuit
+
+item.contenttweaker.clusteraluminium.name=Native Aluminium Cluster
+item.contenttweaker.clusterantimony.name=Native Antimony Cluster
+item.contenttweaker.clusterberyllium.name=Native Beryllium Cluster
+item.contenttweaker.clustercobalt.name=Native Cobalt Cluster
+item.contenttweaker.clusterlithium.name=Native Lithium Cluster
+item.contenttweaker.clustermagnesium.name=Native Magnesium Cluster
+item.contenttweaker.clustermanganese.name=Native Manganese Cluster
+item.contenttweaker.clustermolybdenum.name=Native Molybdenum Cluster
+item.contenttweaker.clusternickel.name=Native Nickel Cluster
+item.contenttweaker.clusterplatinum.name=Native Platinum Cluster
+item.contenttweaker.clusterpotassium.name=Native Potassium Cluster
+item.contenttweaker.clusterquicksilver.name=Native Quicksilver Cluster
+item.contenttweaker.clustersodium.name=Native Sodium Cluster
+item.contenttweaker.clustertantalum.name=Native Tantalum Cluster
+item.contenttweaker.clustertitanium.name=Native Titanium Cluster
+item.contenttweaker.clusterthorium.name=Native Thorium Cluster
+item.contenttweaker.clustertungsten.name=Native Tungsten Cluster
+item.contenttweaker.clusteruranium.name=Native Uranium Cluster
+item.contenttweaker.clusterzinc.name=Native Zinc Cluster
+item.contenttweaker.clusterzirconium.name=Native Zirconium Cluster
+
+item.contenttweaker.coillv.name=Coil
+item.contenttweaker.coilmv.name=Coil II
+item.contenttweaker.coilhv.name=Coil III
+item.contenttweaker.coilev.name=Coil IV
+item.contenttweaker.coiliv.name=Coil V
+
+item.contenttweaker.crushedbandediron.name=Crushed Banded Iron
+item.contenttweaker.crushedbrownlimonite.name=Crushed Brown Limonite
+item.contenttweaker.crushedchalcopyrite.name=Crushed Chalcopyrite
+item.contenttweaker.crushedcinnabar.name=Crushed Cinnabar
+item.contenttweaker.crushedcoal.name=Crushed Coal Ore
+item.contenttweaker.crushedcobaltite.name=Crushed Cobaltite
+item.contenttweaker.crushedcopper.name=Crushed Copper Ore
+item.contenttweaker.crusheddiamond.name=Crushed Diamond Ore
+item.contenttweaker.crushedgalena.name=Crushed Galena
+item.contenttweaker.crushedgarnierite.name=Crushed Garneirite
+item.contenttweaker.crushedgold.name=Crushed Gold Ore
+item.contenttweaker.crushedgreensapphire.name=Crushed Green Sapphire Ore
+item.contenttweaker.crushediron.name=Crushed Iron Ore
+item.contenttweaker.crushedlapis.name=Crushed Lapis Ore
+item.contenttweaker.crushedlazurite.name=Crushed Lazurite Ore
+item.contenttweaker.crushedlead.name=Crushed Lead Ore
+item.contenttweaker.crushedlignite.name=Crushed Lignite
+item.contenttweaker.crushedmalachite.name=Crushed Malachite
+item.contenttweaker.crushednickel.name=Crushed Nickel Ore
+item.contenttweaker.crushedpentlandite.name=Crushed Pentlandite
+item.contenttweaker.crushedpyrite.name=Crushed Pyrite
+item.contenttweaker.crushedquartz.name=Crushed Quartz Ore
+item.contenttweaker.crushedquartzite.name=Crushed Quartzite
+item.contenttweaker.crushedredstone.name=Crushed Redstone Ore
+item.contenttweaker.crushedruby.name=Crushed Ruby Ore
+item.contenttweaker.crushedsapphire.name=Crushed Sapphire Ore
+item.contenttweaker.crushedsilver.name=Crushed Silver Ore
+item.contenttweaker.crushedsphalerite.name=Crushed Sphalerite
+item.contenttweaker.crushedsulphur.name=Crushed Sulphur
+item.contenttweaker.crushedtin.name=Crushed Tin Ore
+item.contenttweaker.crushedyellowlimonite.name=Crushed Yellow Limonite
+item.contenttweaker.crushedzinc.name=Crushed Zinc Ore
+
+item.contenttweaker.dustadamantium.name=Adamatium Dust
+item.contenttweaker.dustardite.name=Ardite Dust
+item.contenttweaker.dustchrome.name=Chrome Dust
+item.contenttweaker.dustcobalt.name=Cobalt Dust
+item.contenttweaker.dustcupronickel.name=Cupronickel Dust
+item.contenttweaker.dustdarkash.name=Dark Ashes
+item.contenttweaker.dustkanthal.name=Kanthal Dust
+item.contenttweaker.dustmanganese.name=Manganese Dust
+item.contenttweaker.dustmanyullyn.name=Manyullyn Dust
+item.contenttweaker.dustneodymium.name=Neodymium Dust
+item.contenttweaker.dustnichrome.name=Nichrome Dust
+item.contenttweaker.dustredalloy.name=Red Alloy Dust
+item.contenttweaker.duststainless.name=Stainless Dust
+item.contenttweaker.dusttitanium.name=Titanium Dust
+item.contenttweaker.dusttungsten.name=Tungsten Dust
+item.contenttweaker.dusttungstencarbide.name=TungstenCarbide Dust
+item.contenttweaker.dusttungstensteel.name=Tungstensteel Dust
+item.contenttweaker.dustzinc.name=Zinc Dust
+
+item.contenttweaker.dustsmallaluminium.name=Small Pile of Aluminium Dust
+item.contenttweaker.dustsmallbronze.name=Small Pile of Bronze Dust
+item.contenttweaker.dustsmallcopper.name=Small Pile of Copper Dust
+item.contenttweaker.dustsmallcobalt.name=Small Pile of Cobalt Dust
+item.contenttweaker.dustsmallconstantan.name=Small Pile of Constantan Dust
+item.contenttweaker.dustsmallelectrum.name=Small Pile of Electrum Dust
+item.contenttweaker.dustsmallgold.name=Small Pile of Gold Dust
+item.contenttweaker.dustsmalliron.name=Small Pile of Iron Dust
+item.contenttweaker.dustsmallneodymium.name=Small Pile Neodymium of Dust
+item.contenttweaker.dustsmallredalloy.name=Small Pile of Red Alloy Dust
+item.contenttweaker.dustsmallsignalum.name=Small Pile of Signalum Dust
+item.contenttweaker.dustsmallstainless.name=Small Pile of Stainless Dust
+item.contenttweaker.dustsmallsteel.name=Small Pile of Steel Dust
+item.contenttweaker.dustsmalltin.name=Small Pile of Tin Dust
+item.contenttweaker.dustsmalltitanium.name=Small Pile of Titanium Dust
+item.contenttweaker.dustsmalltungstensteel.name=Small Pile of Tungstensteel Dust
+
+item.contenttweaker.elementcopper.name=Copper Element
+item.contenttweaker.elementcupronickel.name=Cupronickel Element
+item.contenttweaker.elementkanthal.name=Kanthal Element
+item.contenttweaker.elementnichrome.name=Nichrome Element
+item.contenttweaker.elementtungstensteel.name=Tungstensteel Element
+item.contenttweaker.elementhssg.name=HSSG Element
+item.contenttweaker.elementnaquadah.name= Naquadah Element
+item.contenttweaker.elementnaquadahalloy.name=Naquadah Alloy Element
+item.contenttweaker.elementsuper.name=Super Element
+
+item.contenttweaker.gearstainless.name=Stainless Gear
+item.contenttweaker.geartitanium.name=Titanium Gear
+item.contenttweaker.geartungstensteel.name=Tungstensteel Gear
+
+item.contenttweaker.gearsmallaluminium.name=Small Aluminium Gear
+item.contenttweaker.gearsmallenderium.name=Small Enderium Gear
+item.contenttweaker.gearsmalllumium.name=Small Lumium Gear
+item.contenttweaker.gearsmallsignalum.name=Small Signalum Gear
+item.contenttweaker.gearsmallstainless.name= Small Stainless Gear
+item.contenttweaker.gearsmallsteel.name=Small Steel Gear
+item.contenttweaker.gearsmalltitanium.name=Small Titanium Gear
+item.contenttweaker.gearsmalltungstensteel.name=Small Tungstensteel Gear
+item.contenttweaker.gearsmallwax.name=Small Wax Gear
+
+item.contenttweaker.hotadamantium.name=Hot Adamatium Ingot
+item.contenttweaker.hotardite.name=Hot Ardite Ingot
+item.contenttweaker.hotenderium.name=Hot Enderium Ingot
+item.contenttweaker.hotkanthal.name=Hot Kanthal Ingot
+item.contenttweaker.hotmanyullyn.name=Hot Manyullyn Ingot
+item.contenttweaker.hotnichrome.name=Hot Nichrome Ingot
+item.contenttweaker.hotsignalum.name=Hot Signalum Ingot
+item.contenttweaker.hottitanium.name=Hot Titanium Ingot
+item.contenttweaker.hottungsten.name=Hot Tungsten Ingot
+item.contenttweaker.hottungstencarbide.name=Hot Tungstencarbide Ingot
+item.contenttweaker.hottungstensteel.name=Hot Tungstensteel Ingot
+
+item.contenttweaker.hullwax.name=Wax Machine Hull
+
+item.contenttweaker.ingotadamantium.name=Adamatium Ingot
+item.contenttweaker.ingotchrome.name=Chrome Ingot
+item.contenttweaker.ingotcupronickel.name=Cupronickel Ingot
+item.contenttweaker.ingotkanthal.name=Kanthal Ingot
+item.contenttweaker.ingotmanganese.name=Manganese Ingot
+item.contenttweaker.ingotmixedmagic.name=Mixed Magic Ingot
+item.contenttweaker.ingotneodymium.name=Neodymium Ingot
+item.contenttweaker.ingotnichrome.name=Nichrome Ingot
+item.contenttweaker.ingotredalloy.name=Red Alloy Ingot
+item.contenttweaker.ingotrubber.name=Vulcanised Rubber Bar
+item.contenttweaker.ingotstainless.name=Stainless Ingot
+item.contenttweaker.ingottitanium.name=Titanium Ingot
+item.contenttweaker.ingottungsten.name=Tungsten Ingot
+item.contenttweaker.ingottungstencarbide.name=Tungstencarbide Ingot
+item.contenttweaker.ingottungstensteel.name=Tungstensteel Ingot
+item.contenttweaker.ingotzinc.name=Zinc Ingot
+
+item.contenttweaker.mechcompaluminium.name=Aluminium Mechanical Component
+item.contenttweaker.mechcompstainless.name=Stainless Mechanical Component
+item.contenttweaker.mechcomptitanium.name=Titanium Mechanical Component
+item.contenttweaker.mechcomptungstensteel.name=Tungstensteel Mechanical Component
+
+item.contenttweaker.motorlv.name=LV Motor
+item.contenttweaker.motormv.name=MV Motor
+item.contenttweaker.motorhv.name=HV Motor
+item.contenttweaker.motorev.name=EV Motor
+item.contenttweaker.motoriv.name=IV Motor
+
+item.contenttweaker.nethersludgebrick.name=Compressed Infernal Clay
+
+item.contenttweaker.platealuminium.name=Aluminium Plate
+item.contenttweaker.plateconstantan.name=Constantan Plate
+item.contenttweaker.platecrystal.name=Crystal Plate
+item.contenttweaker.platediamond.name=Diamond Plate
+item.contenttweaker.plateelectrum.name=Electrum Plate
+item.contenttweaker.plateenderium.name=Enderium Plate
+item.contenttweaker.plateinvar.name=Invar Plate
+item.contenttweaker.plateiridium.name=Iridium Plate
+item.contenttweaker.platelumium.name=Lumium Plate
+item.contenttweaker.platenickel.name=Nickel Plate
+item.contenttweaker.platemagicalloy.name=Magic Alloy Plate
+item.contenttweaker.platemithril.name=Mithril Plate
+item.contenttweaker.plateplatinum.name=Platinum Plate
+item.contenttweaker.platesignalum.name=Signalum Plate
+item.contenttweaker.platesilver.name=Silver Plate
+item.contenttweaker.platestainless.name=Stainless Plate
+item.contenttweaker.platetitanium.name=Titanium Plate
+item.contenttweaker.platetungstensteel.name=Tungstensteel Plate
+item.contenttweaker.plateuranium.name=Uranium Plate
+item.contenttweaker.platewood.name=Wooden Plate
+
+item.contenttweaker.platethickstainless.name=Thick Stainless Plate
+
+item.contenttweaker.presstoolcutter.name=Metal Press Tool: Metal Cutter
+item.contenttweaker.presstoolringbender.name=Metal Press Tool: Ring Bender
+item.contenttweaker.presstoolroller.name=Metal Press Tool: Heavy Roller
+
+item.contenttweaker.ringaluminium.name=Aluminium Ring
+item.contenttweaker.ringbronze.name=Bronze Ring
+item.contenttweaker.ringcopper.name=Copper Ring
+item.contenttweaker.ringiron.name=Iron Ring
+item.contenttweaker.ringstainless.name=Stainless Ring
+item.contenttweaker.ringsteel.name=Steel Ring
+item.contenttweaker.ringtin.name=Tin Ring
+item.contenttweaker.ringtitanium.name=Titanium Ring
+item.contenttweaker.ringtungsten.name=Tungsten Ring
+item.contenttweaker.ringtungstensteel.name=Tungstensteel Ring
+item.contenttweaker.ringwax.name=Wax Ring
+
+item.contenttweaker.rodaluminium.name=Aluminium Rod
+item.contenttweaker.rodbronze.name=Bronze Rod
+item.contenttweaker.rodcobalt.name=Cobalt Rod
+item.contenttweaker.rodconstantan.name=Constantan Rod
+item.contenttweaker.rodcopper.name=Copper Rod
+item.contenttweaker.rodelectrum.name=Electrum Rod
+item.contenttweaker.rodgold.name=Gold Rod
+item.contenttweaker.rodiron.name=Iron Rod
+item.contenttweaker.rodneodymium.name=Neodymium Rod
+item.contenttweaker.rodredalloy.name=Red Alloy Rod
+item.contenttweaker.rodsignalum.name=Signalum Rod
+item.contenttweaker.rodstainless.name=Stainless Rod
+item.contenttweaker.rodsteel.name=Steel Rod
+item.contenttweaker.rodtitanium.name=Titanium Rod
+item.contenttweaker.rodtungstensteel.name=Tungstensteel
+item.contenttweaker.rodtin.name=Tin Rod
+item.contenttweaker.rodwax.name=Wax Rod
+
+item.contenttweaker.rolledaluminium.name= Rolled Aluminium Sheet
+item.contenttweaker.rolledconstantan.name= Rolled Constantan Sheet
+item.contenttweaker.rolledbronze.name= Rolled Bronze Sheet
+item.contenttweaker.rolledcopper.name= Rolled Copper Sheet
+item.contenttweaker.rolledelectrum.name= Rolled Electrum Sheet
+item.contenttweaker.rolledgold.name= Rolled Gold Sheet
+item.contenttweaker.rollediron.name= Rolled Iron Sheet
+item.contenttweaker.rolledlead.name= Rolled Lead Sheet
+item.contenttweaker.rollednickel.name= Rolled Nickel Sheet
+item.contenttweaker.rolledsilver.name= Rolled Silver Sheet
+item.contenttweaker.rolledsteel.name= Rolled Steel Sheet
+item.contenttweaker.rolledtin.name= Rolled Tin Sheet
+item.contenttweaker.rolleduranium.name= Rolled Uranium Sheet
+
+item.contenttweaker.rollers.name= Set of Rollers
+
+item.contenttweaker.shaftcobalt.name=Cobalt Shaft
+item.contenttweaker.shaftiron.name=Iron Shaft
+item.contenttweaker.shaftsteel.name=Steel Shaft
+
+item.contenttweaker.toolheadaxediamond.name=Diamond Axe Blade
+item.contenttweaker.toolheadhoediamond.name=Diamond Hoe Blade
+item.contenttweaker.toolheadpickaxediamond.name=Diamond Pickaxe Head
+item.contenttweaker.toolheadshoveldiamond.name=Diamond Shovel Head
+item.contenttweaker.toolheadsworddiamond.name=Diamond Sword Blade
+
+item.contenttweaker.wirealuminium.name=Aluminium Wire
+item.contenttweaker.wireconstantan.name=Constantan Wire
+item.contenttweaker.wireelectrum.name=Electrum Wire
+item.contenttweaker.wireredalloy.name=Red Alloy Wire
+item.contenttweaker.wiresignalum.name=Signalum Wire
+
+item.contenttweaker.wirefinegold.name=Fine Gold Wire
+item.contenttweaker.wirefineplatinum.name=Fine Platinum Wire
+item.contenttweaker.wirefineredalloy.name=Fine Red Alloy Wire
+item.contenttweaker.wirefinesignalum.name=Fine Signalum Wire
+
+item.contenttweaker.wireinsulatedsignalum.name=Insulated Signalum Wire
+item.contenttweaker.wireinsulatedtin.name=Insulated Tin Wire

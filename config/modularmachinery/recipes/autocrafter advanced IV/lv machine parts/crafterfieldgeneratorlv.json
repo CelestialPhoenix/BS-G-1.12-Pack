@@ -1,0 +1,36 @@
+{  
+   "machine":"autocrafter_advancediv",
+   "registryName":"crafteradvancedivfieldgenratorlv",
+   "recipeTime":5,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":405
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:wireGtSingleOsmium",
+         "amount":4
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:circuitBasic",
+         "amount":4
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:enderpearl",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:fieldgeneratorLV",
+         "amount":1
+      }
+   ]
+}

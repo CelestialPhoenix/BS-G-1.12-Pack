@@ -1,0 +1,30 @@
+{
+    "machine": "mixing_plant",
+    "registryName": "mixingplanttungstenthoriumalloy",
+    "recipeTime": 30,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 10
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustTungsten",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustsmallThorium",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ore:dustTungstenthorium",
+            "amount": 3
+        }
+    ]
+}

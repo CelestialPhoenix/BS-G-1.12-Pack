@@ -1,0 +1,36 @@
+{  
+   "machine":"lathe_basic",
+   "registryName":"latheingotsteel",
+   "recipeTime":400,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":10
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:ingotSteel",
+         "amount":1
+      },
+      {  
+         "type":"fluid",
+         "io-type":"input",
+         "fluid":"lubricant",
+         "amount":10
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:rodsteel",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"contenttweaker:dustsmallsteel",
+         "amount":2
+      }
+   ]
+}

@@ -1,0 +1,36 @@
+{  
+   "machine":"autocrafter_advancediv",
+   "registryName":"crafteradvancedivfieldgenratoriv",
+   "recipeTime":201,
+   "requirements":[  
+      {  
+         "type":"energy",
+         "io-type":"input",
+         "energyPerTick":405
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:wireGtSingleOsmium",
+         "amount":64
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:circuitMaster",
+         "amount":4
+      },
+      {  
+         "type":"item",
+         "io-type":"input",
+         "item":"ore:starQuantum",
+         "amount":1
+      },
+      {  
+         "type":"item",
+         "io-type":"output",
+         "item":"ore:fieldgeneratorIV",
+         "amount":1
+      }
+   ]
+}
