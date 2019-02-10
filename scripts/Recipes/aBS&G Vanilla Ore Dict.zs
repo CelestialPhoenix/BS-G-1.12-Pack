@@ -26,6 +26,8 @@ print("Mwah ha ha ha ha ha");
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 
+<ore:shieldWood>.add(<minecraft:shield>);
+
 <ore:stoneAny>.add(<minecraft:stone:*>);
 <ore:stoneAny>.add(<minecraft:cobblestone>);
 <ore:stoneAny>.add(<minecraft:mossy_cobblestone>);

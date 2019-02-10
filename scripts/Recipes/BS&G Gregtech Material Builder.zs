@@ -19,8 +19,11 @@ calcium.addFlags(["GENERATE_ORE"]);
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
+var greensapphire = <material:green_sapphire>;
+greensapphire.addFlags(["GENERATE_PLATE"]);
+
 var invar = <material:invar>;
-invar.addFlags(["NO_SMELTING"]);
+invar.addFlags(["NO_SMELTING", "GENERATE_FINE_WIRE"]);
 
 val magnesium = <material:magnesium>;
 magnesium.addFlags(["GENERATE_ORE"]);
@@ -142,11 +145,11 @@ val ingotthaumium = MaterialRegistry.createIngotMaterial(607, "thaumium", 0x6150
 ingotthaumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Tungsten Thorium Alloy
-val ingotwth = MaterialRegistry.createIngotMaterial(608, "tungstenthoriumalloy", 0x2D1F1E, "shiny", 1, [<material:tungsten>*24, <material:thorium>*1], 3.5, 0, 4500);
+val ingotwth = MaterialRegistry.createIngotMaterial(608, "tungsten_thorium_alloy", 0x2D1F1E, "shiny", 1, [<material:tungsten>*24, <material:thorium>*1], 3.5, 0, 4500);
 ingotwth.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_LONG_ROD", "GENERATE_RING");
 
 #Void Metal
-val ingotvoidm = MaterialRegistry.createIngotMaterial(609, "voidmetal", 0x1F0D35, "metallic", 4, null, 3.5, 100);
+val ingotvoidm = MaterialRegistry.createIngotMaterial(609, "void_metal", 0x1F0D35, "metallic", 4, null, 3.5, 100);
 ingotvoidm.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Magnetic Cobalt
@@ -168,7 +171,7 @@ val gemeuclase = MaterialRegistry.createGemMaterial(617, "euclase", 0x7AD4EF, "g
 gemeuclase.addFlags("GENERATE_ORE");
 
 #Blue Alloy
-val ingotbluealloy = MaterialRegistry.createIngotMaterial(618, "bluealloy", 0x3B8FDD, "metallic", 1, [<material:electrum>*2, <material:electrotine>*5], 3.5, 0);
+val ingotbluealloy = MaterialRegistry.createIngotMaterial(618, "blue_alloy", 0x3B8FDD, "metallic", 1, [<material:electrum>*2, <material:electrotine>*5], 3.5, 0);
 ingotbluealloy.addFlags("GENERATE_FINE_WIRE", "DECOMPOSITION_BY_CENTRIFUGING");
 ingotbluealloy.setCableProperties(512, 1, 1);
 

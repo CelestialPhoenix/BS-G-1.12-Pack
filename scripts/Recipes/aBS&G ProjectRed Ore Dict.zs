@@ -14,6 +14,9 @@ print("");
 <ore:blockSilver>.remove(<projectred-exploration:stone:10>);
 <ore:blockElectrotine>.remove(<projectred-exploration:stone:11>);
 
+#dusts
+<ore:dustElectrotine>.remove(<projectred-core:resource_item:105>);
+
 #ingots
 #<ore:ingot>.remove(<projectred-core:resource_item:>);
 <ore:ingotCopper>.remove(<projectred-core:resource_item:100>);

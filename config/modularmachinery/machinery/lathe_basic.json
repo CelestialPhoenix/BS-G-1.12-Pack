@@ -3,6 +3,40 @@
    "localizedname":"Basic Lathe",
    "requires-blueprint":true,
    "color":"C4BAB3",
+   "modifiers":[  
+      {  
+         "x":-2,
+         "y":0,
+         "z":[0, 1],
+         "elements":[  
+            "contenttweaker:motoraluminium@0",
+            "contenttweaker:gearboxaluminium@0"
+         ],
+         "description":"Upgrade Motor and Gearbox to overclock the machine",
+         "modifier":{  
+            "io":"input",
+            "target":"energy",
+            "operation":1,
+            "multiplier":4.0
+         }
+      },
+      {  
+         "x":-2,
+         "y":0,
+         "z":[0, 1],
+         "elements":[  
+            "contenttweaker:motoraluminium@0",
+            "contenttweaker:gearboxaluminium@0"
+         ],
+         "description":"",
+         "modifier":{  
+            "io":"input",
+            "target":"duration",
+            "operation":1,
+            "multiplier":0.5
+         }
+      }
+   ],
    "parts":[  
       {  
          "x":-1,

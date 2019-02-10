@@ -20,6 +20,16 @@ print("IC what you did there");
 <ore:crushedPurifiedSilver>.remove(<ic2:purified:4>);
 <ore:crushedPurifiedTin>.remove(<ic2:purified:5>);
 <ore:crushedPurifiedUranium>.remove(<ic2:purified:6>);
+#plates
+<ore:plateBronze>.remove(<ic2:plate:0>);
+<ore:plateCopper>.remove(<ic2:plate:1>);
+<ore:plateGold>.remove(<ic2:plate:2>);
+<ore:plateIron>.remove(<ic2:plate:3>);
+<ore:plateLapis>.remove(<ic2:plate:4>);
+<ore:plateLead>.remove(<ic2:plate:5>);
+<ore:plateObsidian>.remove(<ic2:plate:6>);
+<ore:plateSteel>.remove(<ic2:plate:7>);
+<ore:plateTin>.remove(<ic2:plate:8>);
 
 #ore dict 
 <ore:ballRubber>.add(<ic2:crafting:0>);

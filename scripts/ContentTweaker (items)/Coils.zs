@@ -10,13 +10,37 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
-var CoilLV = VanillaFactory.createItem("coillv");
-CoilLV.register();
-var CoilMV = VanillaFactory.createItem("coilmv");
-CoilMV.register();
-var CoilHV = VanillaFactory.createItem("coilhv");
-CoilHV.register();
-var CoilEV = VanillaFactory.createItem("coilev");
-CoilEV.register();
-var CoilIV = VanillaFactory.createItem("coiliv");
-CoilIV.register();
+var CoilSimple = VanillaFactory.createItem("coilsimple");
+CoilSimple.register();
+
+
+var CoilInductanceBasic = VanillaFactory.createItem("coilinductancebasic");
+CoilInductanceBasic.register();
+
+var CoilInductanceModified = VanillaFactory.createItem("coilinductancemodified");
+CoilInductanceModified.register();
+
+var CoilInductanceUpgraded = VanillaFactory.createItem("coilinductanceupgraded");
+CoilInductanceUpgraded.register();
+
+var CoilInductanceImproved = VanillaFactory.createItem("coilinductanceimproved");
+CoilInductanceImproved.register();
+
+var CoilInductanceEnhanced = VanillaFactory.createItem("coilinductanceenhanced");
+CoilInductanceEnhanced.register();
+
+
+var CoilReactanceBasic = VanillaFactory.createItem("coilreactancebasic");
+CoilReactanceBasic.register();
+
+var CoilReactanceModified = VanillaFactory.createItem("coilreactancemodified");
+CoilReactanceModified.register();
+
+var CoilReactanceUpgraded = VanillaFactory.createItem("coilreactanceupgraded");
+CoilReactanceUpgraded.register();
+
+var CoilReactanceImproved = VanillaFactory.createItem("coilreactanceimproved");
+CoilReactanceImproved.register();
+
+var CoilReactanceEnchanced = VanillaFactory.createItem("coilreactanceenhanced");
+CoilReactanceEnchanced.register();

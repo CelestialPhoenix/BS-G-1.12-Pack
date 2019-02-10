@@ -254,6 +254,11 @@ recipes.addShaped(<minecraft:iron_hoe>,[
 [<ore:toolHeadHoeIron>],
 [<ore:stickWood>]]);
 
+recipes.remove(<minecraft:shears>);
+recipes.addShapedMirrored(<minecraft:shears>, [
+[<ore:plateIron>, null],
+[<ore:ringIron>, <ore:plateIron>]]);
+
 #Stone
 recipes.addShaped(<minecraft:stone_shovel>,[
 [<ore:toolHeadShovelStone>],

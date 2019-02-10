@@ -293,6 +293,83 @@ recipes.addShaped(<thermalfoundation:armor.plate_constantan>, [
 [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>],
 [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 
+#---Excavators---
+#Copper
+recipes.remove(<thermalfoundation:tool.excavator_copper>);
+recipes.addShaped(<thermalfoundation:tool.excavator_copper>, [
+[<ore:toolHeadPlowCopper>],
+[<ore:stickTitanium>]]);
+#Tin
+recipes.remove(<thermalfoundation:tool.excavator_tin>);
+recipes.addShaped(<thermalfoundation:tool.excavator_tin>, [
+[<ore:toolHeadPlowTin>],
+[<ore:stickTitanium>]]);
+#Silver
+recipes.remove(<thermalfoundation:tool.excavator_silver>);
+recipes.addShaped(<thermalfoundation:tool.excavator_silver>, [
+[<ore:toolHeadPlowSilver>],
+[<ore:stickTitanium>]]);
+#Lead
+recipes.remove(<thermalfoundation:tool.excavator_lead>);
+recipes.addShaped(<thermalfoundation:tool.excavator_lead>, [
+[<ore:toolHeadPlowLead>],
+[<ore:stickTitanium>]]);
+#Aluminium
+recipes.remove(<thermalfoundation:tool.excavator_aluminum>);
+recipes.addShaped(<thermalfoundation:tool.excavator_aluminum>, [
+[<ore:toolHeadPlowAluminium>],
+[<ore:stickTitanium>]]);
+#Nickel
+recipes.remove(<thermalfoundation:tool.excavator_nickel>);
+recipes.addShaped(<thermalfoundation:tool.excavator_nickel>, [
+[<ore:toolHeadPlowNickel>],
+[<ore:stickTitanium>]]);
+#Platinum
+recipes.remove(<thermalfoundation:tool.excavator_platinum>);
+recipes.addShaped(<thermalfoundation:tool.excavator_platinum>, [
+[<ore:toolHeadPlowPlatinum>],
+[<ore:stickTitanium>]]);
+#Steel
+recipes.remove(<thermalfoundation:tool.excavator_steel>);
+recipes.addShaped(<thermalfoundation:tool.excavator_steel>, [
+[<ore:toolHeadPlowSteel>],
+[<ore:stickTitanium>]]);
+#Electrum
+recipes.remove(<thermalfoundation:tool.excavator_electrum>);
+recipes.addShaped(<thermalfoundation:tool.excavator_electrum>, [
+[<ore:toolHeadPlowElectrum>],
+[<ore:stickTitanium>]]);
+#Invar
+recipes.remove(<thermalfoundation:tool.excavator_invar>);
+recipes.addShaped(<thermalfoundation:tool.excavator_invar>, [
+[<ore:toolHeadPlowInvar>],
+[<ore:stickTitanium>]]);
+#Bronze
+recipes.remove(<thermalfoundation:tool.excavator_bronze>);
+recipes.addShaped(<thermalfoundation:tool.excavator_bronze>, [
+[<ore:toolHeadPlowBronze>],
+[<ore:stickTitanium>]]);
+#Constantan
+recipes.remove(<thermalfoundation:tool.excavator_constantan>);
+recipes.addShaped(<thermalfoundation:tool.excavator_constantan>, [
+[<ore:toolHeadPlowConstantan>],
+[<ore:stickTitanium>]]);
+#Iron
+recipes.remove(<thermalfoundation:tool.excavator_iron>);
+recipes.addShaped(<thermalfoundation:tool.excavator_iron>, [
+[<ore:toolHeadPlowIron>],
+[<ore:stickTitanium>]]);
+#Diamond
+recipes.remove(<thermalfoundation:tool.excavator_diamond>);
+recipes.addShaped(<thermalfoundation:tool.excavator_diamond>, [
+[<ore:toolHeadPlowDiamond>],
+[<ore:stickTitanium>]]);
+#Gold
+recipes.remove(<thermalfoundation:tool.excavator_gold>);
+recipes.addShaped(<thermalfoundation:tool.excavator_gold>, [
+[<ore:toolHeadPlowGold>],
+[<ore:stickTitanium>]]);
+
 #---Hammers---
 #Copper
 recipes.remove(<thermalfoundation:tool.hammer_copper>);
@@ -552,7 +629,7 @@ recipes.addShaped(<thermalfoundation:armor.legs_electrum>, [
 #Invar
 recipes.remove(<thermalfoundation:armor.legs_invar>);
 recipes.addShaped(<thermalfoundation:armor.legs_invar>, [
-[<ore:plateInvar>, <ore:plateInvar>, <ore:plate>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
 [<ore:plateInvar>, null, <ore:plateInvar>],
 [<ore:plateInvar>, null, <ore:plateInvar>]]);
 #Bronze
@@ -630,22 +707,154 @@ recipes.addShaped(<thermalfoundation:tool.pickaxe_constantan>, [
 [<ore:toolHeadPickaxeConstantan>],
 [<ore:stickWood>]]);
 
+#---Shears---
+#Copper
+recipes.remove(<thermalfoundation:tool.shears_copper>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_copper>, [
+[<ore:plateCopper>, null],
+[<ore:ringCopper>, <ore:plateCopper>]]);
+#Tin
+recipes.remove(<thermalfoundation:tool.shears_tin>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_tin>, [
+[<ore:plateTin>, null],
+[<ore:ringTin>, <ore:plateTin>]]);
+#Silver
+recipes.remove(<thermalfoundation:tool.shears_silver>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_silver>, [
+[<ore:plateSilver>, null],
+[<ore:ringSilver>, <ore:plateSilver>]]);
+#Lead
+recipes.remove(<thermalfoundation:tool.shears_lead>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_lead>, [
+[<ore:plateLead>, null],
+[<ore:ringLead>, <ore:plateLead>]]);
+#Aluminium
+recipes.remove(<thermalfoundation:tool.shears_aluminum>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_aluminum>, [
+[<ore:plateAluminium>, null],
+[<ore:ringAluminium>, <ore:plateAluminium>]]);
+#Nickel
+recipes.remove(<thermalfoundation:tool.shears_nickel>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_nickel>, [
+[<ore:plateNickel>, null],
+[<ore:ringNickel>, <ore:plateNickel>]]);
+#Platinum
+recipes.remove(<thermalfoundation:tool.shears_platinum>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_platinum>, [
+[<ore:platePlatinum>, null],
+[<ore:ringPlatinum>, <ore:platePlatinum>]]);
+#Steel
+recipes.remove(<thermalfoundation:tool.shears_steel>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_steel>, [
+[<ore:plateSteel>, null],
+[<ore:ringSteel>, <ore:plateSteel>]]);
+#Electrum
+recipes.remove(<thermalfoundation:tool.shears_electrum>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_electrum>, [
+[<ore:plateElectrum>, null],
+[<ore:ringElectrum>, <ore:plateElectrum>]]);
+#Invar
+recipes.remove(<thermalfoundation:tool.shears_invar>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_invar>, [
+[<ore:plateInvar>, null],
+[<ore:ringInvar>, <ore:plateInvar>]]);
+#Bronze
+recipes.remove(<thermalfoundation:tool.shears_bronze>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_bronze>, [
+[<ore:plateBronze>, null],
+[<ore:ringBronze>, <ore:plateBronze>]]);
+#Constantan
+recipes.remove(<thermalfoundation:tool.shears_constantan>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_constantan>, [
+[<ore:plateConstantan>, null],
+[<ore:ringConstantan>, <ore:plateConstantan>]]);
+#Diamond
+recipes.remove(<thermalfoundation:tool.shears_diamond>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_diamond>, [
+[<ore:plateDiamond>, null],
+[<ore:ringSteel>, <ore:plateDiamond>]]);
+#Gold
+recipes.remove(<thermalfoundation:tool.shears_gold>);
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_gold>, [
+[<ore:plateGold>, null],
+[<ore:ringGold>, <ore:plateGold>]]);
+
 #---Shields---
 #Copper
+recipes.remove(<thermalfoundation:tool.shield_copper>);
+recipes.addShaped(<thermalfoundation:tool.shield_copper>, [
+[<ore:plateThickCopper>],
+[<ore:shieldWood>]]);
 #Tin
+recipes.remove(<thermalfoundation:tool.shield_tin>);
+recipes.addShaped(<thermalfoundation:tool.shield_tin>, [
+[<ore:plateThickTin>],
+[<ore:shieldWood>]]);
 #Silver
+recipes.remove(<thermalfoundation:tool.shield_silver>);
+recipes.addShaped(<thermalfoundation:tool.shield_silver>, [
+[<ore:plateThickSilver>],
+[<ore:shieldWood>]]);
 #Lead
+recipes.remove(<thermalfoundation:tool.shield_lead>);
+recipes.addShaped(<thermalfoundation:tool.shield_lead>, [
+[<ore:plateThickLead>],
+[<ore:shieldWood>]]);
 #Aluminium
+recipes.remove(<thermalfoundation:tool.shield_aluminum>);
+recipes.addShaped(<thermalfoundation:tool.shield_aluminum>, [
+[<ore:plateThickAluminium>],
+[<ore:shieldWood>]]);
 #Nickel
+recipes.remove(<thermalfoundation:tool.shield_nickel>);
+recipes.addShaped(<thermalfoundation:tool.shield_nickel>, [
+[<ore:plateThickNickel>],
+[<ore:shieldWood>]]);
 #Platinum
+recipes.remove(<thermalfoundation:tool.shield_platinum>);
+recipes.addShaped(<thermalfoundation:tool.shield_platinum>, [
+[<ore:plateThickPlatinum>],
+[<ore:shieldWood>]]);
 #Steel
+recipes.remove(<thermalfoundation:tool.shield_steel>);
+recipes.addShaped(<thermalfoundation:tool.shield_steel>, [
+[<ore:plateThickSteel>],
+[<ore:shieldWood>]]);
 #Electrum
+recipes.remove(<thermalfoundation:tool.shield_electrum>);
+recipes.addShaped(<thermalfoundation:tool.shield_electrum>, [
+[<ore:plateThickElectrum>],
+[<ore:shieldWood>]]);
 #Invar
+recipes.remove(<thermalfoundation:tool.shield_invar>);
+recipes.addShaped(<thermalfoundation:tool.shield_invar>, [
+[<ore:plateThickInvar>],
+[<ore:shieldWood>]]);
 #Bronze
+recipes.remove(<thermalfoundation:tool.shield_bronze>);
+recipes.addShaped(<thermalfoundation:tool.shield_bronze>, [
+[<ore:plateThickBronze>],
+[<ore:shieldWood>]]);
 #Constantan
+recipes.remove(<thermalfoundation:tool.shield_constantan>);
+recipes.addShaped(<thermalfoundation:tool.shield_constantan>, [
+[<ore:plateThickConstantan>],
+[<ore:shieldWood>]]);
 #Iron
+recipes.remove(<thermalfoundation:tool.shield_iron>);
+recipes.addShaped(<thermalfoundation:tool.shield_iron>, [
+[<ore:plateThickIron>],
+[<ore:shieldWood>]]);
 #Gold
+recipes.remove(<thermalfoundation:tool.shield_gold>);
+recipes.addShaped(<thermalfoundation:tool.shield_gold>, [
+[<ore:plateThickGold>],
+[<ore:shieldWood>]]);
 #Diamond
+recipes.remove(<thermalfoundation:tool.shield_diamond>);
+recipes.addShaped(<thermalfoundation:tool.shield_diamond>, [
+[<ore:plateThickDiamond>],
+[<ore:shieldWood>]]);
 
 #---Sickle--
 #Copper

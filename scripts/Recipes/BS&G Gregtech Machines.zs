@@ -42,15 +42,19 @@ recipes.addShaped(<gregtech:metal_casing:1>*2, [
 #Heat Proof
 recipes.remove(<gregtech:metal_casing:2>);
 recipes.addShaped(<gregtech:metal_casing:2>, [
+[<ore:plateInvar>, <thermalfoundation:rockwool:7>, <ore:plateInvar>], 
+[<ore:plateInvar>, <ore:frameGtInvar>, <ore:plateInvar>], 
+[<ore:plateInvar>, <thermalfoundation:rockwool:7>, <ore:plateInvar>]]);
+recipes.addShaped(<gregtech:metal_casing:2>, [
 [<ore:plateInvar>, <ore:blockRockwool>, <ore:plateInvar>], 
 [<ore:plateInvar>, <ore:frameGtInvar>, <ore:plateInvar>], 
 [<ore:plateInvar>, <ore:blockRockwool>, <ore:plateInvar>]]);
 #Frost Proof
 recipes.remove(<gregtech:metal_casing:3>);
 recipes.addShaped(<gregtech:metal_casing:3>, [
-[<ore:plateAluminium>, <ore:pipeSmallSteel>, <ore:plateAluminium>], 
-[<ore:plateAluminium>, <ore:frameGtInvar>, <ore:plateAluminium>], 
-[<ore:plateAluminium>, <ore:pipeSmallSteel>, <ore:plateAluminium>]]);
+[<ore:plateAluminium>, <ore:pipeSmallStainlessSteel>, <ore:plateAluminium>], 
+[<ore:plateAluminium>, <ore:frameGtAluminium>, <ore:plateAluminium>], 
+[<ore:plateAluminium>, <ore:pipeSmallStainlessSteel>, <ore:plateAluminium>]]);
 #Solid Steel
 #Clean Stainless
 #Stable Titanium
@@ -253,14 +257,6 @@ recipes.addShaped(<ore:pipeMediumTungstenSteel>.firstItem*2, [
 [<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
 
 #Large in MM lathe
-val LathePipeLargeTungstenSteel = mods.modularmachinery.RecipeBuilder.newBuilder("lathepipelargetungstensteel", "lathe_basic", 200, 0);
-
-LathePipeLargeTungstenSteel.addEnergyPerTickInput(20);
-LathePipeLargeTungstenSteel.addItemInput(<ore:blockTungstenSteel>);
-LathePipeLargeTungstenSteel.addFluidInput(<liquid:lubricant>*100);
-LathePipeLargeTungstenSteel.addItemOutput(<ore:pipeLargeTungstenSteel>);
-LathePipeLargeTungstenSteel.addItemOutput(<ore:dustTungstenSteel>, 3);
-LathePipeLargeTungstenSteel.build();
 
 #Titanium
 recipes.remove(<ore:pipeSmallTitanium>.firstItem);

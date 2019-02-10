@@ -4,6 +4,52 @@ Read at your own risk.
 
 Mods with manually adjusted lang files; IC2
 
+11.0
+Updated CEU to 1.0.2.0
+Updated JEI to 4.14.4.264
+Updated Gregtech to 1.5.17.167
+CEU
+-new recipe for ULV CEU
+ContentTweaker
+-removed lv-hv coils
+-added simple coil, basic, modified, upgraded, improved, enchanced inductance and reactance coils
+-added recipes and ore tags for above
+Gregtech
+-fixed recipe for Frost Proof Casing
+-extra recipe for Heat Proof Casing. Should reduce confusion about where rockwool comes from
+-removed crafting grid + tool recipes for plates, bolts, screws, rings ect... This is VERY tedious. Even more so than putting tools in the crafting grid.
+IC2
+-removed duplicate materials
+Modular Machinery
+-looked at applying recipe modifiers to machines
+-modular machine recipes now use Zenscript instead of JSON
+-added large Gtech pipes to basic lathe
+Project Red
+-New recipes for tools and armour
+-New recipes for backpacks. This might change later
+-Disabled wooden and stone sickles
+-Disabled duplicate materials
+-Buffed recipe for illumar
+-New recipes for Barrel, Block Breakers, Wires
+Railcraft
+-new recipes for boilers
+-disabled rock crusher (duplicate functionalty w/ ImEng)
+-renamed charge feeder to 'Charge Driver'
+-new recipes for tank valves, rolling machine, charge driver
+-removed duplicate materials; blocks, ingots, nuggets, dusts, plates, ect...
+-strenghened glass now renamed to leaded glass
+-leaded glass has a less painful recipe
+-new recipes for crowbars and goggles
+-disabled vanilla style tools and armour (duplicate functionalty w/ TFo)
+Thermal Foundation
+-new recipes for excavators
+-new recipes for shields
+-new recipes for shears
+Vanilla
+-new recipe for shears
+-ore tag for shield
+
+
 Big Fat 10.0b
 Updated ContentTweaker to 4.9.1
 -fixes an annoying message on startup

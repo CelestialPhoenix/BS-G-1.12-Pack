@@ -84,7 +84,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 recipes.removeShaped(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [
 [<ore:plankTreatedWood>, <ore:ringSteel>, <ore:plankTreatedWood>],
-[<ore:cableGtSingleTin>, <ore:coilLV>, <ore:cableGtSingleTin>], 
+[<ore:cableGtSingleTin>, <ore:coilSimple>, <ore:cableGtSingleTin>], 
 [<ore:plankTreatedWood>, <ore:ringSteel>, <ore:plankTreatedWood>]]);
 
 #---Engineering blocks---

@@ -7,6 +7,8 @@ print("Trust me I'm an engineer");
 #mods.immersiveengineering.AlloySmelter.addRecipe(output, input, input, time);
 #mods.immersiveengineering.AlloySmelter.removeRecipe(output);
 
+#100 ticks per ingot item output. 
+
 #aluminium brass
 #mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotAluminiumBrass>.firstItem*4, <ore:ingotAluminium>*3, <ore:ingotCopper>, 440);
 #mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotAluminiumBrass>.firstItem*4, <ore:dustAluminium>*3, <ore:ingotCopper>, 400);

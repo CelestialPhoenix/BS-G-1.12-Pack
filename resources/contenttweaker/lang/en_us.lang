@@ -8,34 +8,6 @@ item.botania:manasteelAxe.name=Manadiamond Axe
 item.botania:manasteelSword.name=Manadiamond Sword
 item.botania:manasteelShears.name=Manadiamond Shears
 
-tile.ic2:cable.copper_cable_0=Copper Conduit
-tile.ic2.cable.copper_cable_1=Insulated Copper Conduit
-cable.glass_cable=Glass Fibre Conduit
-cable.gold_cable_0=Gold Conduit
-cable.gold_cable_1=Insulated Gold Conduit
-cable.gold_cable_2=Double Insulated Gold Conduit
-cable.iron_cable_0=Aluminium Conduit
-cable.iron_cable_1=Insulated Aluminium Conduit
-cable.iron_cable_2=Double Insulated Aluminium Conduit
-cable.iron_cable_3=Triple Insulated Aluminium Conduit
-cable.tin_cable_0=Tin Conduit
-cable.tin_cable_1=Insulated Tin Conduit
-cable.detector_cable=EU-Detector Conduit
-cable.splitter_cable=EU-Splitter Conduit
-
-item.ic2:itemCable=Insulated Copper Cable
-item.ic2.itemCableO= Copper Cable
-itemGoldCable=Gold Cable
-itemGoldCableI=Insulated Gold Cable
-itemGoldCableII=2xIns. Gold Cable
-itemIronCable=HV Cable
-itemIronCableI=Insulated HV Cable
-itemIronCableII=2xIns. HV Cable
-itemIronCableIIII=3xIns. HV Cable
-itemGlassCable=Glass Fibre Cable
-itemTinCable=Tin Cable
-itemTinCableI=Insulated Tin Cable
-
 tile.contenttweaker.oreanthracite.name=Anthracite
 tile.contenttweaker.oreanthraciteloose.name=Anthracite
 tile.contenttweaker.orebandediron.name=Banded Iron
@@ -269,11 +241,17 @@ item.contenttweaker.clusteruranium.name=Native Uranium Cluster
 item.contenttweaker.clusterzinc.name=Native Zinc Cluster
 item.contenttweaker.clusterzirconium.name=Native Zirconium Cluster
 
-item.contenttweaker.coillv.name=Coil
-item.contenttweaker.coilmv.name=Coil II
-item.contenttweaker.coilhv.name=Coil III
-item.contenttweaker.coilev.name=Coil IV
-item.contenttweaker.coiliv.name=Coil V
+item.contenttweaker.coilsimple.name=Simple Coil
+item.contenttweaker.coilinductancebasic.name=Basic Inductance Coil
+item.contenttweaker.coilinductancemodified.name=Modified Inductance Coil
+item.contenttweaker.coilinductanceupgraded.name=Upgraded Inductance Coil
+item.contenttweaker.coilinductanceimproved.name=Improved Inductance Coil
+item.contenttweaker.coilinductanceenhanced.name=Enhanced Inductance Coil
+item.contenttweaker.coilreactancebasic.name=Basic Reactance Coil
+item.contenttweaker.coilreactancemodified.name=Modified Reactance Coil
+item.contenttweaker.coilreactanceupgraded.name=Upgraded Reactance Coil
+item.contenttweaker.coilreactanceimproved.name=Improved Reactance Coil
+item.contenttweaker.coilreactanceenhanced.name=Enhanced Reactance Coil
 
 item.contenttweaker.crushedbandediron.name=Crushed Banded Iron
 item.contenttweaker.crushedbrownlimonite.name=Crushed Brown Limonite

@@ -16,11 +16,19 @@ print("Tweak Tweak Tweak Tweak");
 <ore:circuitGood>.add(<contenttweaker:circuitgood>);
 
 #---Coils---
-<ore:coilLV>.add(<contenttweaker:coillv>);
-<ore:coilMV>.add(<contenttweaker:coilmv>);
-<ore:coilHV>.add(<contenttweaker:coilhv>);
-<ore:coilEV>.add(<contenttweaker:coilev>);
-<ore:coilIV>.add(<contenttweaker:coiliv>);
+<ore:coilSimple>.add(<contenttweaker:coilsimple>);
+
+<ore:coilInductanceBasic>.add(<contenttweaker:coilinductancebasic>);
+<ore:coilInductanceModified>.add(<contenttweaker:coilinductancemodified>);
+<ore:coilInductanceUpgraded>.add(<contenttweaker:coilinductanceupgraded>);
+<ore:coilInductanceImproved>.add(<contenttweaker:coilinductanceimproved>);
+<ore:coilInductanceEnhanced>.add(<contenttweaker:coilinductanceenhanced>);
+
+<ore:coilReactanceBasic>.add(<contenttweaker:coilreactancebasic>);
+<ore:coilReactanceModified>.add(<contenttweaker:coilreactancemodified>);
+<ore:coilReactanceUpgraded>.add(<contenttweaker:coilreactanceupgraded>);
+<ore:coilReactanceImproved>.add(<contenttweaker:coilreactanceimproved>);
+<ore:coilReactanceEnhanced>.add(<contenttweaker:coilreactanceenhanced>);
 
 #---Dust---
 #<ore:dust>.add(<contenttweaker:dust>);

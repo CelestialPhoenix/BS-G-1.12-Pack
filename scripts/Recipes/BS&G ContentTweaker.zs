@@ -79,40 +79,75 @@ recipes.addShaped(<contenttweaker:circuitgood>, [
 [<ore:circuitPrimitive>, <ore:wireFineAnnealedCopper>, <ore:circuitPrimitive>]]);
 
 #--coils--
-#LV
-recipes.addShaped(<contenttweaker:coillv>, [
-[null, <ore:ringCopper>, <ore:ringCopper>],
+#Simple
+recipes.addShaped(<contenttweaker:coilsimple>, [
+[<ore:dustRedstone>, <ore:ringCopper>, <ore:ringCopper>],
 [<ore:ringCopper>, <ore:stickIron>, <ore:ringCopper>], 
-[<ore:ringCopper>, <ore:ringCopper>, null]]);
+[<ore:ringCopper>, <ore:ringCopper>, <ore:dustRedstone>]]);
 
-recipes.addShaped(<contenttweaker:coillv>, [
-[null, <ore:wireCopper>, null],
-[<ore:wireCopper>, <ore:stickIron>, <ore:wireCopper>], 
-[null, <ore:wireCopper>, null]]);
+#-Inductance
+# Uses magnetic core
+#Basic
+recipes.addShaped(<contenttweaker:coilinductancebasic>, [
+[null, <ore:wireFineTin>, <ore:ringBronze>],
+[<ore:wireFineTin>, <ore:stickIronMagnetic>, <ore:wireFineTin>], 
+[<ore:ringBronze>, <ore:wireFineTin>, null]]);
 
-#MV
-recipes.addShaped(<contenttweaker:coilmv>, [
-[<ore:wirefineCopper>, <ore:wirefineCopper>, <ore:wirefineCopper>],
-[<ore:wirefineCopper>, <ore:stickSteel>, <ore:wirefineCopper>], 
-[<ore:wirefineCopper>, <ore:wirefineCopper>, <ore:wirefineCopper>]]);
+#Modified
+recipes.addShaped(<contenttweaker:coilinductancemodified>, [
+[null, <ore:wireFineSterlingSilver>, <ore:ringInvar>],
+[<ore:wireFineSterlingSilver>, <ore:stickSteelMagnetic>, <ore:wireFineSterlingSilver>], 
+[<ore:ringInvar>, <ore:wireFineSterlingSilver>, null]]);
 
-#HV 
-recipes.addShaped(<contenttweaker:coilhv>, [
-[<ore:wirespoolCopper>],
-[<ore:stickCobalt>], 
-[<ore:wirespoolCopper>]]);
+#Upgraded
+recipes.addShaped(<contenttweaker:coilinductanceupgraded>, [
+[null, <ore:wireFineRoseGold>, <ore:ringChrome>],
+[<ore:wireFineRoseGold>, <ore:stickSteelMagnetic>, <ore:wireFineRoseGold>], 
+[<ore:ringChrome>, <ore:wireFineRoseGold>, null]]);
 
-#EV
-recipes.addShaped(<contenttweaker:coilev>, [
-[null, <ore:wirespoolCopper>, null],
-[<ore:wirespoolCopper>, <ore:stickNeodymium>, <ore:wirespoolCopper>],
-[null, <ore:wirespoolCopper>, null]]);
+#Improved
+recipes.addShaped(<contenttweaker:coilinductanceimproved>, [
+[null, <ore:wireFineAluminium>, <ore:ringTitanium>],
+[<ore:wireFineAluminium>, <ore:stickNeodymiumMagnetic>, <ore:wireFineAluminium>], 
+[<ore:ringTitanium>, <ore:wireFineAluminium>, null]]);
 
-#IV
-recipes.addShaped(<contenttweaker:coiliv>, [
-[<ore:wirespoolCopper>, <ore:wirespoolCopper>, <ore:wirespoolCopper>],
-[<ore:wirespoolCopper>, <ore:stickNeodymium>, <ore:wirespoolCopper>],
-[<ore:wirespoolCopper>, <ore:wirespoolCopper>, <ore:wirespoolCopper>]]);
+#Enhanced
+recipes.addShaped(<contenttweaker:coilinductanceenhanced>, [
+[null, <ore:wireFinePlatinum>, <ore:ringTungstenSteel>],
+[<ore:wireFinePlatinum>, <ore:stickNeodymiumMagnetic>, <ore:wireFinePlatinum>], 
+[<ore:ringTungstenSteel>, <ore:wireFinePlatinum>, null]]);
+
+#-Reactance
+# Uses Redstone Core
+#Basic
+recipes.addShaped(<contenttweaker:coilreactancebasic>, [
+[<ore:wireFineRedAlloy>, <ore:wireFineTin>, <ore:ringBronze>],
+[<ore:wireFineTin>, <ore:stickIron>, <ore:wireFineTin>], 
+[<ore:ringBronze>, <ore:wireFineTin>, <ore:wireFineRedAlloy>]]);
+
+#Modified
+recipes.addShaped(<contenttweaker:coilreactancemodified>, [
+[<ore:wireFineRedAlloy>, <ore:wireFineSterlingSilver>, <ore:ringInvar>],
+[<ore:wireFineSterlingSilver>, <ore:stickSteel>, <ore:wireFineSterlingSilver>], 
+[<ore:ringInvar>, <ore:wireFineSterlingSilver>, <ore:wireFineRedAlloy>]]);
+
+#Upgraded
+recipes.addShaped(<contenttweaker:coilreactanceupgraded>, [
+[<ore:wireFineRedAlloy>, <ore:wireFineRoseGold>, <ore:ringChrome>],
+[<ore:wireFineRoseGold>, <ore:stickSteel>, <ore:wireFineRoseGold>], 
+[<ore:ringChrome>, <ore:wireFineRoseGold>, <ore:wireFineRedAlloy>]]);
+
+#Improved
+recipes.addShaped(<contenttweaker:coilreactanceimproved>, [
+[<ore:wireFineRedAlloy>, <ore:wireFineAluminium>, <ore:ringTitanium>],
+[<ore:wireFineAluminium>, <ore:stickNeodymium>, <ore:wireFineAluminium>], 
+[<ore:ringTitanium>, <ore:wireFineAluminium>, <ore:wireFineRedAlloy>]]);
+
+#Enhanced
+recipes.addShaped(<contenttweaker:coilreactanceenhanced>, [
+[<ore:wireFineRedAlloy>, <ore:wireFinePlatinum>, <ore:ringTungstenSteel>],
+[<ore:wireFinePlatinum>, <ore:stickNeodymium>, <ore:wireFinePlatinum>], 
+[<ore:ringTungstenSteel>, <ore:wireFinePlatinum>, <ore:wireFineRedAlloy>]]);
 
 #---dusts [full piles]---
 
