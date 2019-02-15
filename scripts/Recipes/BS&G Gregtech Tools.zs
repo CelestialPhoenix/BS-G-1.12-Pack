@@ -564,244 +564,1407 @@ recipes.removeShaped(<ore:toolHeadSawEnderium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSawCobaltMagnetic>.firstItem);
 
 #Drill
-#recipes.removeShaped(<ore:toolHeadDrillAluminium>.firstItem);
+recipes.removeShaped(<ore:toolHeadDrillAluminium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillAluminium>.firstItem, [
+[<ore:plateAluminium>, <ore:ingotSteel>, <ore:plateAluminium>], 
+[<ore:plateAluminium>, <ore:ingotSteel>, <ore:plateAluminium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillChrome>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillChrome>.firstItem, [
+[<ore:plateChrome>, <ore:ingotSteel>, <ore:plateChrome>], 
+[<ore:plateChrome>, <ore:ingotSteel>, <ore:plateChrome>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillCobalt>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillCobalt>.firstItem, [
+[<ore:plateCobalt>, <ore:ingotSteel>, <ore:plateCobalt>], 
+[<ore:plateCobalt>, <ore:ingotSteel>, <ore:plateCobalt>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillIridium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillIridium>.firstItem, [
+[<ore:plateIridium>, <ore:ingotSteel>, <ore:plateIridium>], 
+[<ore:plateIridium>, <ore:ingotSteel>, <ore:plateIridium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillIron>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillIron>.firstItem, [
+[<ore:plateIron>, <ore:ingotSteel>, <ore:plateIron>], 
+[<ore:plateIron>, <ore:ingotSteel>, <ore:plateIron>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillManganese>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillManganese>.firstItem, [
+[<ore:plateManganese>, <ore:ingotSteel>, <ore:plateManganese>], 
+[<ore:plateManganese>, <ore:ingotSteel>, <ore:plateManganese>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillMolybdenum>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillMolybdenum>.firstItem, [
+[<ore:plateMolybdenum>, <ore:ingotSteel>, <ore:plateMolybdenum>], 
+[<ore:plateMolybdenum>, <ore:ingotSteel>, <ore:plateMolybdenum>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNeodymium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNeodymium>.firstItem, [
+[<ore:plateNeodymium>, <ore:ingotSteel>, <ore:plateNeodymium>], 
+[<ore:plateNeodymium>, <ore:ingotSteel>, <ore:plateNeodymium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillDarmstadtium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillDarmstadtium>.firstItem, [
+[<ore:plateDarmstadtium>, <ore:ingotSteel>, <ore:plateDarmstadtium>], 
+[<ore:plateDarmstadtium>, <ore:ingotSteel>, <ore:plateDarmstadtium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillOsmium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillOsmium>.firstItem, [
+[<ore:plateOsmium>, <ore:ingotSteel>, <ore:plateOsmium>], 
+[<ore:plateOsmium>, <ore:ingotSteel>, <ore:plateOsmium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillPalladium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillPalladium>.firstItem, [
+[<ore:platePalladium>, <ore:ingotSteel>, <ore:platePalladium>], 
+[<ore:platePalladium>, <ore:ingotSteel>, <ore:platePalladium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillSilver>.firstItem, [
+[<ore:plateSilver>, <ore:ingotSteel>, <ore:plateSilver>], 
+[<ore:plateSilver>, <ore:ingotSteel>, <ore:plateSilver>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillThorium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillThorium>.firstItem, [
+[<ore:plateThorium>, <ore:ingotSteel>, <ore:plateThorium>], 
+[<ore:plateThorium>, <ore:ingotSteel>, <ore:plateThorium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTitanium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTitanium>.firstItem, [
+[<ore:plateTitanium>, <ore:ingotSteel>, <ore:plateTitanium>], 
+[<ore:plateTitanium>, <ore:ingotSteel>, <ore:plateTitanium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTungsten>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTungsten>.firstItem, [
+[<ore:plateTungsten>, <ore:ingotSteel>, <ore:plateTungsten>], 
+[<ore:plateTungsten>, <ore:ingotSteel>, <ore:plateTungsten>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillUranium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillUranium>.firstItem, [
+[<ore:plateUranium>, <ore:ingotSteel>, <ore:plateUranium>], 
+[<ore:plateUranium>, <ore:ingotSteel>, <ore:plateUranium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillUranium235>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillUranium235>.firstItem, [
+[<ore:plateUranium235>, <ore:ingotSteel>, <ore:plateUranium235>], 
+[<ore:plateUranium235>, <ore:ingotSteel>, <ore:plateUranium235>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBlueTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBlueTopaz>.firstItem, [
+[<ore:gemBlueTopaz>, <ore:ingotSteel>, <ore:gemBlueTopaz>], 
+[<ore:gemBlueTopaz>, <ore:ingotSteel>, <ore:gemBlueTopaz>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBrass>.firstItem, [
+[<ore:plateBrass>, <ore:ingotSteel>, <ore:plateBrass>], 
+[<ore:plateBrass>, <ore:ingotSteel>, <ore:plateBrass>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBronze>.firstItem, [
+[<ore:plateBronze>, <ore:ingotSteel>, <ore:plateBronze>], 
+[<ore:plateBronze>, <ore:ingotSteel>, <ore:plateBronze>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillCupronickel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillCupronickel>.firstItem, [
+[<ore:plateCupronickel>, <ore:ingotSteel>, <ore:plateCupronickel>], 
+[<ore:plateCupronickel>, <ore:ingotSteel>, <ore:plateCupronickel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillDiamond>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillDiamond>.firstItem, [
+[<ore:gemDiamond>, <ore:ingotSteel>, <ore:gemDiamond>], 
+[<ore:gemDiamond>, <ore:ingotSteel>, <ore:gemDiamond>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillEmerald>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillEmerald>.firstItem, [
+[<ore:gemEmerald>, <ore:ingotSteel>, <ore:gemEmerald>], 
+[<ore:gemEmerald>, <ore:ingotSteel>, <ore:gemEmerald>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillGreenSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillGreenSapphire>.firstItem, [
+[<ore:gemGreenSapphire>, <ore:ingotSteel>, <ore:gemGreenSapphire>], 
+[<ore:gemGreenSapphire>, <ore:ingotSteel>, <ore:gemGreenSapphire>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillInvar>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillInvar>.firstItem, [
+[<ore:plateInvar>, <ore:ingotSteel>, <ore:plateInvar>], 
+[<ore:plateInvar>, <ore:ingotSteel>, <ore:plateInvar>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillMagnalium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillMagnalium>.firstItem, [
+[<ore:plateMagnalium>, <ore:ingotSteel>, <ore:plateMagnalium>], 
+[<ore:plateMagnalium>, <ore:ingotSteel>, <ore:plateMagnalium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillPigIron>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillPigIron>.firstItem, [
+[<ore:platePigIron>, <ore:ingotSteel>, <ore:platePigIron>], 
+[<ore:platePigIron>, <ore:ingotSteel>, <ore:platePigIron>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillRuby>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillRuby>.firstItem, [
+[<ore:gemRuby>, <ore:ingotSteel>, <ore:gemRuby>], 
+[<ore:gemRuby>, <ore:ingotSteel>, <ore:gemRuby>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillSapphire>.firstItem, [
+[<ore:gemSapphire>, <ore:ingotSteel>, <ore:gemSapphire>], 
+[<ore:gemSapphire>, <ore:ingotSteel>, <ore:gemSapphire>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillStainlessSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillStainlessSteel>.firstItem, [
+[<ore:plateStainlessSteel>, <ore:ingotSteel>, <ore:plateStainlessSteel>], 
+[<ore:plateStainlessSteel>, <ore:ingotSteel>, <ore:plateStainlessSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], 
+[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTanzanite>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTanzanite>.firstItem, [
+[<ore:gemTanzanite>, <ore:ingotSteel>, <ore:gemTanzanite>], 
+[<ore:gemTanzanite>, <ore:ingotSteel>, <ore:gemTanzanite>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTinAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTinAlloy>.firstItem, [
+[<ore:plateTinAlloy>, <ore:ingotSteel>, <ore:plateTinAlloy>], 
+[<ore:plateTinAlloy>, <ore:ingotSteel>, <ore:plateTinAlloy>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTopaz>.firstItem, [
+[<ore:gemTopaz>, <ore:ingotSteel>, <ore:gemTopaz>], 
+[<ore:gemTopaz>, <ore:ingotSteel>, <ore:gemTopaz>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillUltimet>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillUltimet>.firstItem, [
+[<ore:plateUltimet>, <ore:ingotSteel>, <ore:plateUltimet>], 
+[<ore:plateUltimet>, <ore:ingotSteel>, <ore:plateUltimet>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillWroughtIron>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillWroughtIron>.firstItem, [
+[<ore:plateWroughtIron>, <ore:ingotSteel>, <ore:plateWroughtIron>], 
+[<ore:plateWroughtIron>, <ore:ingotSteel>, <ore:plateWroughtIron>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNetherQuartz>.firstItem, [
+[<ore:gemNetherQuartz>, <ore:ingotSteel>, <ore:gemNetherQuartz>], 
+[<ore:gemNetherQuartz>, <ore:ingotSteel>, <ore:gemNetherQuartz>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillCertusQuartz>.firstItem, [
+[<ore:gemCertusQuartz>, <ore:ingotSteel>, <ore:gemCertusQuartz>], 
+[<ore:gemCertusQuartz>, <ore:ingotSteel>, <ore:gemCertusQuartz>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillOsmiridium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillOsmiridium>.firstItem, [
+[<ore:plateOsmiridium>, <ore:ingotSteel>, <ore:plateOsmiridium>], 
+[<ore:plateOsmiridium>, <ore:ingotSteel>, <ore:plateOsmiridium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillOlivine>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillOlivine>.firstItem, [
+[<ore:gemOlivine>, <ore:ingotSteel>, <ore:gemOlivine>], 
+[<ore:gemOlivine>, <ore:ingotSteel>, <ore:gemOlivine>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillOpal>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillOpal>.firstItem, [
+[<ore:gemOpal>, <ore:ingotSteel>, <ore:gemOpal>], 
+[<ore:gemOpal>, <ore:ingotSteel>, <ore:gemOpal>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillAmethyst>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillAmethyst>.firstItem, [
+[<ore:gemAmethyst>, <ore:ingotSteel>, <ore:gemAmethyst>], 
+[<ore:gemAmethyst>, <ore:ingotSteel>, <ore:gemAmethyst>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillSterlingSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillSterlingSilver>.firstItem, [
+[<ore:plateSterlingSilver>, <ore:ingotSteel>, <ore:plateSterlingSilver>], 
+[<ore:plateSterlingSilver>, <ore:ingotSteel>, <ore:plateSterlingSilver>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillRoseGold>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillRoseGold>.firstItem, [
+[<ore:plateRoseGold>, <ore:ingotSteel>, <ore:plateRoseGold>], 
+[<ore:plateRoseGold>, <ore:ingotSteel>, <ore:plateRoseGold>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBlackBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBlackBronze>.firstItem, [
+[<ore:plateBlackBronze>, <ore:ingotSteel>, <ore:plateBlackBronze>], 
+[<ore:plateBlackBronze>, <ore:ingotSteel>, <ore:plateBlackBronze>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBismuthBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBismuthBronze>.firstItem, [
+[<ore:plateBismuthBronze>, <ore:ingotSteel>, <ore:plateBismuthBronze>], 
+[<ore:plateBismuthBronze>, <ore:ingotSteel>, <ore:plateBismuthBronze>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBlackSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBlackSteel>.firstItem, [
+[<ore:plateBlackSteel>, <ore:ingotSteel>, <ore:plateBlackSteel>], 
+[<ore:plateBlackSteel>, <ore:ingotSteel>, <ore:plateBlackSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillRedSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillRedSteel>.firstItem, [
+[<ore:plateRedSteel>, <ore:ingotSteel>, <ore:plateRedSteel>], 
+[<ore:plateRedSteel>, <ore:ingotSteel>, <ore:plateRedSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillBlueSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillBlueSteel>.firstItem, [
+[<ore:plateBlueSteel>, <ore:ingotSteel>, <ore:plateBlueSteel>], 
+[<ore:plateBlueSteel>, <ore:ingotSteel>, <ore:plateBlueSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillDamascusSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillDamascusSteel>.firstItem, [
+[<ore:plateDamascusSteel>, <ore:ingotSteel>, <ore:plateDamascusSteel>], 
+[<ore:plateDamascusSteel>, <ore:ingotSteel>, <ore:plateDamascusSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTungstenSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTungstenSteel>.firstItem, [
+[<ore:plateTungstenSteel>, <ore:ingotSteel>, <ore:plateTungstenSteel>], 
+[<ore:plateTungstenSteel>, <ore:ingotSteel>, <ore:plateTungstenSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillCobaltBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillCobaltBrass>.firstItem, [
+[<ore:plateCobaltBrass>, <ore:ingotSteel>, <ore:plateCobaltBrass>], 
+[<ore:plateCobaltBrass>, <ore:ingotSteel>, <ore:plateCobaltBrass>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillGarnetRed>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillGarnetRed>.firstItem, [
+[<ore:gemGarnetRed>, <ore:ingotSteel>, <ore:gemGarnetRed>], 
+[<ore:gemGarnetRed>, <ore:ingotSteel>, <ore:gemGarnetRed>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillGarnetYellow>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillGarnetYellow>.firstItem, [
+[<ore:gemGarnetYellow>, <ore:ingotSteel>, <ore:gemGarnetYellow>], 
+[<ore:gemGarnetYellow>, <ore:ingotSteel>, <ore:gemGarnetYellow>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillVinteum>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillVinteum>.firstItem, [
+[<ore:gemVinteum>, <ore:ingotSteel>, <ore:gemVinteum>], 
+[<ore:gemVinteum>, <ore:ingotSteel>, <ore:gemVinteum>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillIronMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillIronMagnetic>.firstItem, [
+[<ore:plateIronMagnetic>, <ore:ingotSteel>, <ore:plateIronMagnetic>], 
+[<ore:plateIronMagnetic>, <ore:ingotSteel>, <ore:plateIronMagnetic>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillSteelMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillSteelMagnetic>.firstItem, [
+[<ore:plateSteelMagnetic>, <ore:ingotSteel>, <ore:plateSteelMagnetic>], 
+[<ore:plateSteelMagnetic>, <ore:ingotSteel>, <ore:plateSteelMagnetic>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNeodymiumMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNeodymiumMagnetic>.firstItem, [
+[<ore:plateNeodymiumMagnetic>, <ore:ingotSteel>, <ore:plateNeodymiumMagnetic>], 
+[<ore:plateNeodymiumMagnetic>, <ore:ingotSteel>, <ore:plateNeodymiumMagnetic>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTungstenCarbide>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTungstenCarbide>.firstItem, [
+[<ore:plateTungstenCarbide>, <ore:ingotSteel>, <ore:plateTungstenCarbide>], 
+[<ore:plateTungstenCarbide>, <ore:ingotSteel>, <ore:plateTungstenCarbide>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillVanadiumSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillVanadiumSteel>.firstItem, [
+[<ore:plateVanadiumSteel>, <ore:ingotSteel>, <ore:plateVanadiumSteel>], 
+[<ore:plateVanadiumSteel>, <ore:ingotSteel>, <ore:plateVanadiumSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillHssg>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillHssg>.firstItem, [
+[<ore:plateHssg>, <ore:ingotSteel>, <ore:plateHssg>], 
+[<ore:plateHssg>, <ore:ingotSteel>, <ore:plateHssg>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillHsse>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillHsse>.firstItem, [
+[<ore:plateHsse>, <ore:ingotSteel>, <ore:plateHsse>], 
+[<ore:plateHsse>, <ore:ingotSteel>, <ore:plateHsse>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillHsss>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillHsss>.firstItem, [
+[<ore:plateHsss>, <ore:ingotSteel>, <ore:plateHsss>], 
+[<ore:plateHsss>, <ore:ingotSteel>, <ore:plateHsss>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNaquadah>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNaquadah>.firstItem, [
+[<ore:plateNaquadah>, <ore:ingotSteel>, <ore:plateNaquadah>], 
+[<ore:plateNaquadah>, <ore:ingotSteel>, <ore:plateNaquadah>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNaquadahAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNaquadahAlloy>.firstItem, [
+[<ore:plateNaquadahAlloy>, <ore:ingotSteel>, <ore:plateNaquadahAlloy>], 
+[<ore:plateNaquadahAlloy>, <ore:ingotSteel>, <ore:plateNaquadahAlloy>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillNaquadahEnriched>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillNaquadahEnriched>.firstItem, [
+[<ore:plateNaquadahEnriched>, <ore:ingotSteel>, <ore:plateNaquadahEnriched>], 
+[<ore:plateNaquadahEnriched>, <ore:ingotSteel>, <ore:plateNaquadahEnriched>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTritanium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTritanium>.firstItem, [
+[<ore:plateTritanium>, <ore:ingotSteel>, <ore:plateTritanium>], 
+[<ore:plateTritanium>, <ore:ingotSteel>, <ore:plateTritanium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillDuranium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillDuranium>.firstItem, [
+[<ore:plateDuranium>, <ore:ingotSteel>, <ore:plateDuranium>], 
+[<ore:plateDuranium>, <ore:ingotSteel>, <ore:plateDuranium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillAdamantium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillAdamantium>.firstItem, [
+[<ore:plateAdamantium>, <ore:ingotSteel>, <ore:plateAdamantium>], 
+[<ore:plateAdamantium>, <ore:ingotSteel>, <ore:plateAdamantium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillArdite>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillArdite>.firstItem, [
+[<ore:plateArdite>, <ore:ingotSteel>, <ore:plateArdite>], 
+[<ore:plateArdite>, <ore:ingotSteel>, <ore:plateArdite>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillManasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillManasteel>.firstItem, [
+[<ore:plateManasteel>, <ore:ingotSteel>, <ore:plateManasteel>], 
+[<ore:plateMagnalium>, <ore:ingotSteel>, <ore:plateManasteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillManyullyn>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillManyullyn>.firstItem, [
+[<ore:plateManyullyn>, <ore:ingotSteel>, <ore:plateManyullyn>], 
+[<ore:plateManyullyn>, <ore:ingotSteel>, <ore:plateManyullyn>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillMithril>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillMithril>.firstItem, [
+[<ore:plateMithril>, <ore:ingotSteel>, <ore:plateMithril>], 
+[<ore:plateMithril>, <ore:ingotSteel>, <ore:plateMithril>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillTerrasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillTerrasteel>.firstItem, [
+[<ore:plateTerrasteel>, <ore:ingotSteel>, <ore:plateTerrasteel>], 
+[<ore:plateTerrasteel>, <ore:ingotSteel>, <ore:plateTerrasteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillThaumium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillThaumium>.firstItem, [
+[<ore:plateThaumium>, <ore:ingotSteel>, <ore:plateThaumium>], 
+[<ore:plateThaumium>, <ore:ingotSteel>, <ore:plateThaumium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillVoidMetal>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillVoidMetal>.firstItem, [
+[<ore:plateVoidMetal>, <ore:ingotSteel>, <ore:plateVoidMetal>], 
+[<ore:plateVoidMetal>, <ore:ingotSteel>, <ore:plateVoidMetal>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillEnderium>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillEnderium>.firstItem, [
+[<ore:plateEnderium>, <ore:ingotSteel>, <ore:plateEnderium>], 
+[<ore:plateEnderium>, <ore:ingotSteel>, <ore:plateEnderium>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadDrillCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadDrillCobaltMagnetic>.firstItem, [
+[<ore:plateCobaltMagnetic>, <ore:ingotSteel>, <ore:plateCobaltMagnetic>], 
+[<ore:plateCobaltMagnetic>, <ore:ingotSteel>, <ore:plateCobaltMagnetic>], 
+[<ore:plateSteel>, null, <ore:plateSteel>]]);
 
 #Chainsaw
-#recipes.removeShaped(<ore:toolHeadChainsawAluminium>.firstItem);
+recipes.removeShaped(<ore:toolHeadChainsawAluminium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawAluminium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateAluminium>, null, <ore:plateAluminium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawChrome>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawChrome>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateChrome>, null, <ore:plateChrome>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawCobalt>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawCobalt>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateCobalt>, null, <ore:plateCobalt>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawIridium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawIridium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateIridium>, null, <ore:plateIridium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawIron>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawIron>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateIron>, null, <ore:plateIron>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawManganese>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawManganese>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateManganese>, null, <ore:plateManganese>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawMolybdenum>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawMolybdenum>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateMolybdenum>, null, <ore:plateMolybdenum>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNeodymium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNeodymium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateNeodymium>, null, <ore:plateNeodymium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawDarmstadtium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawDarmstadtium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateDarmstadtium>, null, <ore:plateDarmstadtium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawOsmium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawOsmium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateOsmium>, null, <ore:plateOsmium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawPalladium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawPalladium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:platePalladium>, null, <ore:platePalladium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawSilver>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateSilver>, null, <ore:plateSilver>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawThorium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawThorium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateThorium>, null, <ore:plateThorium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTitanium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTitanium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTitanium>, null, <ore:plateTitanium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTungsten>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTungsten>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTungsten>, null, <ore:plateTungsten>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawUranium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawUranium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateUranium>, null, <ore:plateUranium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawUranium235>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawUranium235>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateUranium235>, null, <ore:plateUranium235>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBlueTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBlueTopaz>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemBlueTopaz>, null, <ore:gemBlueTopaz>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBrass>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBrass>, null, <ore:plateBrass>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBronze>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBronze>, null, <ore:plateBronze>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawCupronickel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawCupronickel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateCupronickel>, null, <ore:plateCupronickel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawDiamond>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawDiamond>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemDiamond>, null, <ore:gemDiamond>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawEmerald>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawEmerald>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemEmerald>, null, <ore:gemEmerald>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawGreenSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawGreenSapphire>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemGreenSapphire>, null, <ore:gemGreenSapphire>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawInvar>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawInvar>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateInvar>, null, <ore:plateInvar>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawMagnalium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawMagnalium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateMagnalium>, null, <ore:plateMagnalium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawPigIron>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawPigIron>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:platePigIron>, null, <ore:platePigIron>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawRuby>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawRuby>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemRuby>, null, <ore:gemRuby>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawSapphire>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemSapphire>, null, <ore:gemSapphire>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawStainlessSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawStainlessSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTanzanite>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTanzanite>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemTanzanite>, null, <ore:gemTanzanite>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTinAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTinAlloy>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTinAlloy>, null, <ore:plateTinAlloy>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTopaz>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemTopaz>, null, <ore:gemTopaz>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawUltimet>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawUltimet>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateUltimet>, null, <ore:plateUltimet>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawWroughtIron>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawWroughtIron>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNetherQuartz>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemNetherQuartz>, null, <ore:gemNetherQuartz>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawCertusQuartz>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemCertusQuartz>, null, <ore:gemCertusQuartz>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawOsmiridium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawOsmiridium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateOsmiridium>, null, <ore:plateOsmiridium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawOlivine>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawOlivine>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemOlivine>, null, <ore:gemOlivine>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawOpal>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawOpal>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemOpal>, null, <ore:gemOpal>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawAmethyst>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawAmethyst>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemAmethyst>, null, <ore:gemAmethyst>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawSterlingSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawSterlingSilver>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateSterlingSilver>, null, <ore:plateSterlingSilver>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawRoseGold>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawRoseGold>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateRoseGold>, null, <ore:plateRoseGold>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBlackBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBlackBronze>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBlackBronze>, null, <ore:plateBlackBronze>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBismuthBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBismuthBronze>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBismuthBronze>, null, <ore:plateBismuthBronze>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBlackSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBlackSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBlackSteel>, null, <ore:plateBlackSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawRedSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawRedSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateRedSteel>, null, <ore:plateRedSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawBlueSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawBlueSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateBlueSteel>, null, <ore:plateBlueSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawDamascusSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawDamascusSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTungstenSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTungstenSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawCobaltBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawCobaltBrass>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateCobaltBrass>, null, <ore:plateCobaltBrass>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawGarnetRed>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawGarnetRed>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemGarnetRed>, null, <ore:gemGarnetRed>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawGarnetYellow>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawGarnetYellow>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemGarnetYellow>, null, <ore:gemGarnetYellow>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawVinteum>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawVinteum>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:gemVinteum>, null, <ore:gemVinteum>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawIronMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawIronMagnetic>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateIronMagnetic>, null, <ore:plateIronMagnetic>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawSteelMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawSteelMagnetic>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateSteelMagnetic>, null, <ore:plateSteelMagnetic>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNeodymiumMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNeodymiumMagnetic>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateNeodymiumMagnetic>, null, <ore:plateNeodymium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTungstenCarbide>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTungstenCarbide>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTungstenCarbide>, null, <ore:plateTungstenCarbide>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawVanadiumSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawVanadiumSteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateVanadiumSteel>, null, <ore:plateVanadiumSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawHssg>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawHssg>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateHssg>, null, <ore:plateHssg>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawHsse>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawHsse>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateHsse>, null, <ore:plateHsse>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawHsss>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawHsss>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateHsss>, null, <ore:plateHsss>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNaquadah>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNaquadah>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateNaquadah>, null, <ore:plateNaquadah>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNaquadahAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNaquadahAlloy>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateNaquadahAlloy>, null, <ore:plateNaquadahAlloy>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawNaquadahEnriched>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawNaquadahEnriched>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateNaquadahEnriched>, null, <ore:plateNaquadahEnriched>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTritanium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTritanium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTritanium>, null, <ore:plateTritanium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawDuranium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawDuranium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateDuranium>, null, <ore:plateDuranium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawAdamantium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawAdamantium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateAdamantium>, null, <ore:plateAdamantium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawArdite>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawArdite>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateArdite>, null, <ore:plateArdite>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawManasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawManasteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateManasteel>, null, <ore:plateManasteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawManyullyn>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawManyullyn>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateManyullyn>, null, <ore:plateManyullyn>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawMithril>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawMithril>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateMithril>, null, <ore:plateMithril>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawTerrasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawTerrasteel>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateTerrasteel>, null, <ore:plateTerrasteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawThaumium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawThaumium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateThaumium>, null, <ore:plateThaumium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawVoidMetal>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawVoidMetal>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateVoidMetal>, null, <ore:plateVoidMetal>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawEnderium>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawEnderium>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateEnderium>, null, <ore:plateEnderium>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
+
 recipes.removeShaped(<ore:toolHeadChainsawCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadChainsawCobaltMagnetic>.firstItem, [
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:plateCobaltMagnetic>, null, <ore:plateCobaltMagnetic>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>]]);
 
 #Wrench
-#recipes.removeShaped(<ore:toolHeadWrenchAluminium>.firstItem);
+recipes.removeShaped(<ore:toolHeadWrenchAluminium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchAluminium>.firstItem, [
+[null, <ore:plateAluminium>, <ore:screwSteel>], 
+[<ore:plateAluminium>, <ore:ringSteel>, <ore:plateAluminium>], 
+[<ore:screwSteel>, <ore:plateAluminium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchChrome>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchChrome>.firstItem, [
+[null, <ore:plateChrome>, <ore:screwSteel>], 
+[<ore:plateChrome>, <ore:ringSteel>, <ore:plateChrome>], 
+[<ore:screwSteel>, <ore:plateChrome>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchCobalt>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchCobalt>.firstItem, [
+[null, <ore:plateCobalt>, <ore:screwSteel>], 
+[<ore:plateCobalt>, <ore:ringSteel>, <ore:plateCobalt>], 
+[<ore:screwSteel>, <ore:plateCobalt>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchIridium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchIridium>.firstItem, [
+[null, <ore:plateIridium>, <ore:screwSteel>], 
+[<ore:plateIridium>, <ore:ringSteel>, <ore:plateIridium>], 
+[<ore:screwSteel>, <ore:plateIridium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchIron>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchIron>.firstItem, [
+[null, <ore:plateIron>, <ore:screwSteel>], 
+[<ore:plateIron>, <ore:ringSteel>, <ore:plateIron>], 
+[<ore:screwSteel>, <ore:plateIron>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchManganese>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchManganese>.firstItem, [
+[null, <ore:plateManganese>, <ore:screwSteel>], 
+[<ore:plateManganese>, <ore:ringSteel>, <ore:plateManganese>], 
+[<ore:screwSteel>, <ore:plateManganese>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchMolybdenum>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchMolybdenum>.firstItem, [
+[null, <ore:plateMolybdenum>, <ore:screwSteel>], 
+[<ore:plateMolybdenum>, <ore:ringSteel>, <ore:plateMolybdenum>], 
+[<ore:screwSteel>, <ore:plateMolybdenum>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNeodymium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNeodymium>.firstItem, [
+[null, <ore:plateNeodymium>, <ore:screwSteel>], 
+[<ore:plateNeodymium>, <ore:ringSteel>, <ore:plateNeodymium>], 
+[<ore:screwSteel>, <ore:plateNeodymium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchDarmstadtium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchDarmstadtium>.firstItem, [
+[null, <ore:plateDarmstadtium>, <ore:screwSteel>], 
+[<ore:plateDarmstadtium>, <ore:ringSteel>, <ore:plateDarmstadtium>], 
+[<ore:screwSteel>, <ore:plateDarmstadtium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchOsmium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchOsmium>.firstItem, [
+[null, <ore:plateOsmium>, <ore:screwSteel>], 
+[<ore:plateOsmium>, <ore:ringSteel>, <ore:plateOsmium>], 
+[<ore:screwSteel>, <ore:plateOsmium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchPalladium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchPalladium>.firstItem, [
+[null, <ore:platePalladium>, <ore:screwSteel>], 
+[<ore:platePalladium>, <ore:ringSteel>, <ore:platePalladium>], 
+[<ore:screwSteel>, <ore:platePalladium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchSilver>.firstItem, [
+[null, <ore:plateSilver>, <ore:screwSteel>], 
+[<ore:plateSilver>, <ore:ringSteel>, <ore:plateSilver>], 
+[<ore:screwSteel>, <ore:plateSilver>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchThorium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchThaumium>.firstItem, [
+[null, <ore:plate>, <ore:screwSteel>], 
+[<ore:plate>, <ore:ringSteel>, <ore:plate>], 
+[<ore:screwSteel>, <ore:plate>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTitanium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTitanium>.firstItem, [
+[null, <ore:plateTitanium>, <ore:screwSteel>], 
+[<ore:plateTitanium>, <ore:ringSteel>, <ore:plateTitanium>], 
+[<ore:screwSteel>, <ore:plateTitanium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTungsten>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTungsten>.firstItem, [
+[null, <ore:plateTungsten>, <ore:screwSteel>], 
+[<ore:plateTungsten>, <ore:ringSteel>, <ore:plateTungsten>], 
+[<ore:screwSteel>, <ore:plateTungsten>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchUranium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchUranium>.firstItem, [
+[null, <ore:plateUranium>, <ore:screwSteel>], 
+[<ore:plateUranium>, <ore:ringSteel>, <ore:plateUranium>], 
+[<ore:screwSteel>, <ore:plateUranium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchUranium235>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchUranium235>.firstItem, [
+[null, <ore:plateUranium235>, <ore:screwSteel>], 
+[<ore:plateUranium235>, <ore:ringSteel>, <ore:plateUranium235>], 
+[<ore:screwSteel>, <ore:plateUranium235>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchBlueTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBlueTopaz>.firstItem, [
+[null, <ore:gemBlueTopaz>, <ore:screwSteel>], 
+[<ore:gemBlueTopaz>, <ore:ringSteel>, <ore:gemBlueTopaz>], 
+[<ore:screwSteel>, <ore:gemBlueTopaz>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBrass>.firstItem, [
+[null, <ore:plateBrass>, <ore:screwSteel>], 
+[<ore:plateBrass>, <ore:ringSteel>, <ore:plateBrass>], 
+[<ore:screwSteel>, <ore:plateBrass>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBronze>.firstItem, [
+[null, <ore:plateBronze>, <ore:screwSteel>], 
+[<ore:plateBronze>, <ore:ringSteel>, <ore:plateBronze>], 
+[<ore:screwSteel>, <ore:plateBronze>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchCupronickel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchCupronickel>.firstItem, [
+[null, <ore:plateCupronickel>, <ore:screwSteel>], 
+[<ore:plateCupronickel>, <ore:ringSteel>, <ore:plateCupronickel>], 
+[<ore:screwSteel>, <ore:plateCupronickel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchDiamond>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchDiamond>.firstItem, [
+[null, <ore:gemDiamond>, <ore:screwSteel>], 
+[<ore:gemDiamond>, <ore:ringSteel>, <ore:gemDiamond>], 
+[<ore:screwSteel>, <ore:gemDiamond>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchEmerald>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchEmerald>.firstItem, [
+[null, <ore:gemEmerald>, <ore:screwSteel>], 
+[<ore:gemEmerald>, <ore:ringSteel>, <ore:gemEmerald>], 
+[<ore:screwSteel>, <ore:gemEmerald>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchGreenSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchGreenSapphire>.firstItem, [
+[null, <ore:gemGreenSapphire>, <ore:screwSteel>], 
+[<ore:gemGreenSapphire>, <ore:ringSteel>, <ore:gemGreenSapphire>], 
+[<ore:screwSteel>, <ore:gemGreenSapphire>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchInvar>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchInvar>.firstItem, [
+[null, <ore:plateInvar>, <ore:screwSteel>], 
+[<ore:plateInvar>, <ore:ringSteel>, <ore:plateInvar>], 
+[<ore:screwSteel>, <ore:plateInvar>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchMagnalium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchMagnalium>.firstItem, [
+[null, <ore:plateMagnalium>, <ore:screwSteel>], 
+[<ore:plateMagnalium>, <ore:ringSteel>, <ore:plateMagnalium>], 
+[<ore:screwSteel>, <ore:plateMagnalium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchPigIron>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchPigIron>.firstItem, [
+[null, <ore:platePigIron>, <ore:screwSteel>], 
+[<ore:platePigIron>, <ore:ringSteel>, <ore:platePigIron>], 
+[<ore:screwSteel>, <ore:platePigIron>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchRuby>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchRuby>.firstItem, [
+[null, <ore:gemRuby>, <ore:screwSteel>], 
+[<ore:gemRuby>, <ore:ringSteel>, <ore:gemRuby>], 
+[<ore:screwSteel>, <ore:gemRuby>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchSapphire>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchSapphire>.firstItem, [
+[null, <ore:gemSapphire>, <ore:screwSteel>], 
+[<ore:gemSapphire>, <ore:ringSteel>, <ore:gemSapphire>], 
+[<ore:screwSteel>, <ore:gemSapphire>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchStainlessSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchStainlessSteel>.firstItem, [
+[null, <ore:plateStainlessSteel>, <ore:screwSteel>], 
+[<ore:plateStainlessSteel>, <ore:ringSteel>, <ore:plateStainlessSteel>], 
+[<ore:screwSteel>, <ore:plateStainlessSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchSteel>.firstItem, [
+[null, <ore:plateSteel>, <ore:screwSteel>], 
+[<ore:plateSteel>, <ore:ringSteel>, <ore:plateSteel>], 
+[<ore:screwSteel>, <ore:plateSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTanzanite>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTanzanite>.firstItem, [
+[null, <ore:gemTanzanite>, <ore:screwSteel>], 
+[<ore:gemTanzanite>, <ore:ringSteel>, <ore:gemTanzanite>], 
+[<ore:screwSteel>, <ore:gemTanzanite>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTinAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTinAlloy>.firstItem, [
+[null, <ore:plateTinAlloy>, <ore:screwSteel>], 
+[<ore:plateTinAlloy>, <ore:ringSteel>, <ore:plateTinAlloy>], 
+[<ore:screwSteel>, <ore:plateTinAlloy>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTopaz>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTopaz>.firstItem, [
+[null, <ore:gemTopaz>, <ore:screwSteel>], 
+[<ore:gemTopaz>, <ore:ringSteel>, <ore:gemTopaz>], 
+[<ore:screwSteel>, <ore:gemTopaz>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchUltimet>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchUltimet>.firstItem, [
+[null, <ore:plateUltimet>, <ore:screwSteel>], 
+[<ore:plateUltimet>, <ore:ringSteel>, <ore:plateUltimet>], 
+[<ore:screwSteel>, <ore:plateUltimet>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchWroughtIron>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchWroughtIron>.firstItem, [
+[null, <ore:plateWroughtIron>, <ore:screwSteel>], 
+[<ore:plateWroughtIron>, <ore:ringSteel>, <ore:plateWroughtIron>], 
+[<ore:screwSteel>, <ore:plateWroughtIron>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem, [
+[null, <ore:gemNetherQuartz>, <ore:screwSteel>], 
+[<ore:gemNetherQuartz>, <ore:ringSteel>, <ore:gemNetherQuartz>], 
+[<ore:screwSteel>, <ore:gemNetherQuartz>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem, [
+[null, <ore:gemCertusQuartz>, <ore:screwSteel>], 
+[<ore:gemCertusQuartz>, <ore:ringSteel>, <ore:gemCertusQuartz>], 
+[<ore:screwSteel>, <ore:gemCertusQuartz>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchOsmiridium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchOsmiridium>.firstItem, [
+[null, <ore:plateOsmiridium>, <ore:screwSteel>], 
+[<ore:plateOsmiridium>, <ore:ringSteel>, <ore:plateOsmiridium>], 
+[<ore:screwSteel>, <ore:plateOsmiridium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchOlivine>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchOlivine>.firstItem, [
+[null, <ore:gemOlivine>, <ore:screwSteel>], 
+[<ore:gemOlivine>, <ore:ringSteel>, <ore:gemOlivine>], 
+[<ore:screwSteel>, <ore:gemOlivine>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchOpal>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchOpal>.firstItem, [
+[null, <ore:gemOpal>, <ore:screwSteel>], 
+[<ore:gemOpal>, <ore:ringSteel>, <ore:gemOpal>], 
+[<ore:screwSteel>, <ore:gemOpal>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchAmethyst>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchAmethyst>.firstItem, [
+[null, <ore:gemAmethyst>, <ore:screwSteel>], 
+[<ore:gemAmethyst>, <ore:ringSteel>, <ore:gemAmethyst>], 
+[<ore:screwSteel>, <ore:gemAmethyst>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchSterlingSilver>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchSterlingSilver>.firstItem, [
+[null, <ore:plateSterlingSilver>, <ore:screwSteel>], 
+[<ore:plateSterlingSilver>, <ore:ringSteel>, <ore:plateSterlingSilver>], 
+[<ore:screwSteel>, <ore:plateSterlingSilver>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchRoseGold>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchRoseGold>.firstItem, [
+[null, <ore:plateRoseGold>, <ore:screwSteel>], 
+[<ore:plateRoseGold>, <ore:ringSteel>, <ore:plateRoseGold>], 
+[<ore:screwSteel>, <ore:plateRoseGold>, null]]);
 recipes.removeShaped(<ore:toolHeadWrenchBlackBronze>.firstItem);
+
 recipes.removeShaped(<ore:toolHeadWrenchBismuthBronze>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBismuthBronze>.firstItem, [
+[null, <ore:plateBismuthBronze>, <ore:screwSteel>], 
+[<ore:plateBismuthBronze>, <ore:ringSteel>, <ore:plateBismuthBronze>], 
+[<ore:screwSteel>, <ore:plateBismuthBronze>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchBlackSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBlackSteel>.firstItem, [
+[null, <ore:plateBlackSteel>, <ore:screwSteel>], 
+[<ore:plateBlackSteel>, <ore:ringSteel>, <ore:plateBlackSteel>], 
+[<ore:screwSteel>, <ore:plateBlackSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchRedSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchRedSteel>.firstItem, [
+[null, <ore:plateRedSteel>, <ore:screwSteel>], 
+[<ore:plateRedSteel>, <ore:ringSteel>, <ore:plateRedSteel>], 
+[<ore:screwSteel>, <ore:plateRedSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchBlueSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchBlueSteel>.firstItem, [
+[null, <ore:plateBlueSteel>, <ore:screwSteel>], 
+[<ore:plateBlueSteel>, <ore:ringSteel>, <ore:plateBlueSteel>], 
+[<ore:screwSteel>, <ore:plateBlueSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchDamascusSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchDamascusSteel>.firstItem, [
+[null, <ore:plateDamascusSteel>, <ore:screwSteel>], 
+[<ore:plateDamascusSteel>, <ore:ringSteel>, <ore:plateDamascusSteel>], 
+[<ore:screwSteel>, <ore:plateDamascusSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTungstenSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTungstenSteel>.firstItem, [
+[null, <ore:plateTungstenSteel>, <ore:screwSteel>], 
+[<ore:plateTungstenSteel>, <ore:ringSteel>, <ore:plateTungstenSteel>], 
+[<ore:screwSteel>, <ore:plateTungstenSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchCobaltBrass>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchCobaltBrass>.firstItem, [
+[null, <ore:plateCobaltBrass>, <ore:screwSteel>], 
+[<ore:plateCobaltBrass>, <ore:ringSteel>, <ore:plateCobaltBrass>], 
+[<ore:screwSteel>, <ore:plateCobaltBrass>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchGarnetRed>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchGarnetRed>.firstItem, [
+[null, <ore:gemGarnetRed>, <ore:screwSteel>], 
+[<ore:gemGarnetRed>, <ore:ringSteel>, <ore:gemGarnetRed>], 
+[<ore:screwSteel>, <ore:gemGarnetRed>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchGarnetYellow>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchGarnetYellow>.firstItem, [
+[null, <ore:gemGarnetYellow>, <ore:screwSteel>], 
+[<ore:gemGarnetYellow>, <ore:ringSteel>, <ore:gemGarnetYellow>], 
+[<ore:screwSteel>, <ore:gemGarnetYellow>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchVinteum>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchVinteum>.firstItem, [
+[null, <ore:gemVinteum>, <ore:screwSteel>], 
+[<ore:gemVinteum>, <ore:ringSteel>, <ore:gemVinteum>], 
+[<ore:screwSteel>, <ore:gemVinteum>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem, [
+[null, <ore:plateIronMagnetic>, <ore:screwSteel>], 
+[<ore:plateIronMagnetic>, <ore:ringSteel>, <ore:plateIronMagnetic>], 
+[<ore:screwSteel>, <ore:plateIronMagnetic>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem, [
+[null, <ore:plateSteelMagnetic>, <ore:screwSteel>], 
+[<ore:plateSteelMagnetic>, <ore:ringSteel>, <ore:plateSteelMagnetic>], 
+[<ore:screwSteel>, <ore:plateSteelMagnetic>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem, [
+[null, <ore:plateNeodymiumMagnetic>, <ore:screwSteel>], 
+[<ore:plateNeodymiumMagnetic>, <ore:ringSteel>, <ore:plateNeodymiumMagnetic>], 
+[<ore:screwSteel>, <ore:plateNeodymiumMagnetic>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTungstenCarbide>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTungstenCarbide>.firstItem, [
+[null, <ore:plateTungstenCarbide>, <ore:screwSteel>], 
+[<ore:plateTungstenCarbide>, <ore:ringSteel>, <ore:plateTungstenCarbide>], 
+[<ore:screwSteel>, <ore:plateTungstenCarbide>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchVanadiumSteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchVanadiumSteel>.firstItem, [
+[null, <ore:plateVanadiumSteel>, <ore:screwSteel>], 
+[<ore:plateVanadiumSteel>, <ore:ringSteel>, <ore:plateVanadiumSteel>], 
+[<ore:screwSteel>, <ore:plateVanadiumSteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchHssg>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchHssg>.firstItem, [
+[null, <ore:plateHssg>, <ore:screwSteel>], 
+[<ore:plateHssg>, <ore:ringSteel>, <ore:plateHssg>], 
+[<ore:screwSteel>, <ore:plateHssg>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchHsse>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchHsse>.firstItem, [
+[null, <ore:plateHsse>, <ore:screwSteel>], 
+[<ore:plateHsse>, <ore:ringSteel>, <ore:plateHsse>], 
+[<ore:screwSteel>, <ore:plateHsse>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchHsss>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchHsss>.firstItem, [
+[null, <ore:plateHsss>, <ore:screwSteel>], 
+[<ore:plateHsss>, <ore:ringSteel>, <ore:plateHsss>], 
+[<ore:screwSteel>, <ore:plateHsss>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNaquadah>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNaquadah>.firstItem, [
+[null, <ore:plateNaquadah>, <ore:screwSteel>], 
+[<ore:plateNaquadah>, <ore:ringSteel>, <ore:plateNaquadah>], 
+[<ore:screwSteel>, <ore:plateNaquadah>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNaquadahAlloy>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNaquadahAlloy>.firstItem, [
+[null, <ore:plateNaquadahAlloy>, <ore:screwSteel>], 
+[<ore:plateNaquadahAlloy>, <ore:ringSteel>, <ore:plateNaquadahAlloy>], 
+[<ore:screwSteel>, <ore:plateNaquadah>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchNaquadahEnriched>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchNaquadahEnriched>.firstItem, [
+[null, <ore:plateNaquadahEnriched>, <ore:screwSteel>], 
+[<ore:plateNaquadahEnriched>, <ore:ringSteel>, <ore:plateNaquadahEnriched>], 
+[<ore:screwSteel>, <ore:plateNaquadahEnriched>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTritanium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTritanium>.firstItem, [
+[null, <ore:plateTritanium>, <ore:screwSteel>], 
+[<ore:plateTritanium>, <ore:ringSteel>, <ore:plateTritanium>], 
+[<ore:screwSteel>, <ore:plateTritanium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchDuranium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchDuranium>.firstItem, [
+[null, <ore:plateDuranium>, <ore:screwSteel>], 
+[<ore:plateDuranium>, <ore:ringSteel>, <ore:plateDuranium>], 
+[<ore:screwSteel>, <ore:plateDuranium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchAdamantium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchAdamantium>.firstItem, [
+[null, <ore:plateAdamantium>, <ore:screwSteel>], 
+[<ore:plateAdamantium>, <ore:ringSteel>, <ore:plateAdamantium>], 
+[<ore:screwSteel>, <ore:plateAdamantium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchArdite>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchArdite>.firstItem, [
+[null, <ore:plateArdite>, <ore:screwSteel>], 
+[<ore:plateArdite>, <ore:ringSteel>, <ore:plateArdite>], 
+[<ore:screwSteel>, <ore:plateArdite>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchManasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchManasteel>.firstItem, [
+[null, <ore:plateManasteel>, <ore:screwSteel>], 
+[<ore:plateManasteel>, <ore:ringSteel>, <ore:plateManasteel>], 
+[<ore:screwSteel>, <ore:plateManasteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchManyullyn>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchManyullyn>.firstItem, [
+[null, <ore:plateManyullyn>, <ore:screwSteel>], 
+[<ore:plateManyullyn>, <ore:ringSteel>, <ore:plateManyullyn>], 
+[<ore:screwSteel>, <ore:plateManyullyn>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchMithril>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchMithril>.firstItem, [
+[null, <ore:plateMithril>, <ore:screwSteel>], 
+[<ore:plate>, <ore:ringSteel>, <ore:plateMithril>], 
+[<ore:screwSteel>, <ore:plateMithril>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchTerrasteel>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchTerrasteel>.firstItem, [
+[null, <ore:plateTerrasteel>, <ore:screwSteel>], 
+[<ore:plateTerrasteel>, <ore:ringSteel>, <ore:plateTerrasteel>], 
+[<ore:screwSteel>, <ore:plateTerrasteel>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchThaumium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchThaumium>.firstItem, [
+[null, <ore:plateThaumium>, <ore:screwSteel>], 
+[<ore:plateThaumium>, <ore:ringSteel>, <ore:plateThaumium>], 
+[<ore:screwSteel>, <ore:plateThaumium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchVoidMetal>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchVoidMetal>.firstItem, [
+[null, <ore:plateVoidMetal>, <ore:screwSteel>], 
+[<ore:plateVoidMetal>, <ore:ringSteel>, <ore:plateVoidMetal>], 
+[<ore:screwSteel>, <ore:plateVoidMetal>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchEnderium>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchEnderium>.firstItem, [
+[null, <ore:plateEnderium>, <ore:screwSteel>], 
+[<ore:plateEnderium>, <ore:ringSteel>, <ore:plateEnderium>], 
+[<ore:screwSteel>, <ore:plateEnderium>, null]]);
+
 recipes.removeShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem, [
+[null, <ore:plateCobaltMagnetic>, <ore:screwSteel>], 
+[<ore:plateCobaltMagnetic>, <ore:ringSteel>, <ore:plateCobaltMagnetic>], 
+[<ore:screwSteel>, <ore:plateCobaltMagnetic>, null]]);
+
 
 #UniversalSpade
 #recipes.removeShaped(<ore:toolHeadUniversalSpadeAluminium>.firstItem);
