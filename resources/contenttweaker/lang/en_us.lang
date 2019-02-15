@@ -382,6 +382,14 @@ item.contenttweaker.mechcompstainless.name=Stainless Mechanical Component
 item.contenttweaker.mechcomptitanium.name=Titanium Mechanical Component
 item.contenttweaker.mechcomptungstensteel.name=Tungstensteel Mechanical Component
 
+item.contenttweaker.moldheadaxe.name=Axe Head Mold
+item.contenttweaker.moldheadhoe.name=Hoe Head Mold
+item.contenttweaker.moldheadplow.name=Plow Head Mold
+item.contenttweaker.moldheadpickaxe.name=Pickaxe Head Mold
+item.contenttweaker.moldheadsense.name=Sense Head Mold
+item.contenttweaker.moldheadshovel.name=Shovel Head Mold
+item.contenttweaker.moldheadsword.name=Sword Head Mold
+
 item.contenttweaker.motorlv.name=LV Motor
 item.contenttweaker.motormv.name=MV Motor
 item.contenttweaker.motorhv.name=HV Motor
