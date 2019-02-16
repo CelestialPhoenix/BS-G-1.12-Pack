@@ -201,9 +201,9 @@ tile.contenttweaker.motortungstensteel.name= External Motor V
 
 tile.contenttweaker.castraw.name=Raw Casting Medium
 tile.contenttweaker.casthard.name=Hardened Casting Medium
-tile.contenttweaker.mouldhull.name= Machine Hull Mould
-tile.contenttweaker.mouldrods.name=Rods Mould
-tile.contenttweaker.mouldrings.name=Rings Mould
+tile.contenttweaker.mouldhull.name= Machine Hull Mold
+tile.contenttweaker.mouldrods.name=Rods Mold
+tile.contenttweaker.mouldrings.name=Rings Mold
 
 tile.contenttweaker.woodrotten.name=Rotten Wood
 tile.contenttweaker.woodslimegreen.name=Slimy Wood
@@ -383,12 +383,19 @@ item.contenttweaker.mechcomptitanium.name=Titanium Mechanical Component
 item.contenttweaker.mechcomptungstensteel.name=Tungstensteel Mechanical Component
 
 item.contenttweaker.moldheadaxe.name=Axe Head Mold
+item.contenttweaker.moldheadfile.name=File Head Mold
+item.contenttweaker.moldheadhammer.name=Hammer Head Mold
 item.contenttweaker.moldheadhoe.name=Hoe Head Mold
 item.contenttweaker.moldheadplow.name=Plow Head Mold
 item.contenttweaker.moldheadpickaxe.name=Pickaxe Head Mold
-item.contenttweaker.moldheadsense.name=Sense Head Mold
+item.contenttweaker.moldheadsaw.name=Saw Blade Mold
+item.contenttweaker.moldheadsense.name=Sense Blade Mold
 item.contenttweaker.moldheadshovel.name=Shovel Head Mold
-item.contenttweaker.moldheadsword.name=Sword Head Mold
+item.contenttweaker.moldheadsword.name=Sword Blade Mold
+item.contenttweaker.moldhheaduniversalspade=Universal Spade Head Mold
+
+item.contenttweaker.moldrings.name=Ring Mold
+item.contenttweaker.moldrods.name=Rod Mold
 
 item.contenttweaker.motorlv.name=LV Motor
 item.contenttweaker.motormv.name=MV Motor
