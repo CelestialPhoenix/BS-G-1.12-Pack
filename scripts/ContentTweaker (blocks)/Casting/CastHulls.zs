@@ -23,3 +23,12 @@ CastHullSteel.setToolLevel(0);
 CastHullSteel.setBlockSoundType(<soundtype:stone>);
 CastHullSteel.setSlipperiness(0.6);
 CastHullSteel.register();
+
+var CastHullAluminium = VanillaFactory.createBlock("casthullaluminium", <blockmaterial:rock>);
+CastHullAluminium.setBlockHardness(5.0);
+CastHullAluminium.setBlockResistance(5.0);
+CastHullAluminium.setToolClass("pickaxe");
+CastHullAluminium.setToolLevel(0);
+CastHullAluminium.setBlockSoundType(<soundtype:stone>);
+CastHullAluminium.setSlipperiness(0.6);
+CastHullAluminium.register();

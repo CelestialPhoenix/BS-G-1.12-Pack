@@ -49,6 +49,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Gear Small---
 #<ore:gearSmall>.add(<contenttweaker:gearsmall>);
+<ore:gearSmallStone>.add(<contenttweaker:gearsmallstone>);
 <ore:gearSmallWax>.add(<contenttweaker:gearsmallwax>);
 
 #---Ingots---
@@ -227,6 +228,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);
+<ore:ringStone>.add(<contenttweaker:ringstone>);
 <ore:ringWax>.add(<contenttweaker:ringwax>);
 
 #---Rods---
@@ -255,3 +257,12 @@ print("Tweak Tweak Tweak Tweak");
 <ore:sheetTin>.add(<contenttweaker:rolledtin>);
 <ore:sheetUranium>.add(<contenttweaker:rolleduranium>);
 
+#---Stone---
+#<ore:head>.add(<contenttweaker:stone>);
+<ore:headFile>.add(<contenttweaker:filestone>);
+<ore:headHammer>.add(<contenttweaker:hammerstone>);
+<ore:headHoe>.add(<contenttweaker:hoestone>);
+<ore:headPlow>.add(<contenttweaker:plowstone>);
+<ore:headSense>.add(<contenttweaker:sensestone>);
+<ore:headSword>.add(<contenttweaker:swordstone>);
+<ore:headUniversalSpade>.add(<contenttweaker:universalspadestone>);

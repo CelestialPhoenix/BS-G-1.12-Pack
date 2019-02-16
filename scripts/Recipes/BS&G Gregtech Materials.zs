@@ -778,6 +778,12 @@ recipes.addShaped(<gregtech:wire_coil:7>, [
 #Fusion Coil
 #no recipe at time of writing
 
+#--Molds--
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearStone>, <liquid:steel>, 576, true); #Gear Large
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallStone>, <liquid:steel>, 576, true); #Gear Small
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrick>, <liquid:steel>, 576, true); #Ingot
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrickNether>, <liquid:steel>, 576, true); #Ingot
+
 #--Motors--
 #HV
 recipes.remove(<metaitem:electric.motor.hv>);

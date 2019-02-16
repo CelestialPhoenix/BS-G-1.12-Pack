@@ -56,7 +56,7 @@ furnace.addRecipe(<contenttweaker:casthard>, <contenttweaker:castraw>, 0.0);
 #rawcast
 recipes.addShapeless(<contenttweaker:castraw>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
 
-#--circuit parts--
+#---circuit parts---
 recipes.addShaped(<contenttweaker:boardcrude>, [
 [<ore:casingCopper>],
 [<ore:resinSticky>], 
@@ -303,7 +303,101 @@ recipes.addShaped(<contenttweaker:motortungstensteel>, [
 #---internal motors---
 #use gregtech motors
 
-#--moulds--
+#---Models---
+
+#--Components--
+#-Stone Models-
+#gear small stone
+recipes.addShaped(<contenttweaker:gearsmallstone>, [
+[null, <minecraft:stone_slab>, null],
+[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], 
+[null, <minecraft:stone_slab>, null]]);
+
+#ringstone
+recipes.addShaped(<contenttweaker:ringstone>, [
+[null, <minecraft:stone>, null],
+[<minecraft:stone>, null, <minecraft:stone>], 
+[null, <minecraft:stone>, null]]);
+
+#-Wax Models-
+#gear small wax
+recipes.addShaped(<contenttweaker:gearsmallwax>*5, [
+[null, <ore:itemBeeswax>, null],
+[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>], 
+[null, <ore:itemBeeswax>, null]]);
+
+#hullwax
+recipes.addShaped(<contenttweaker:hullwax>, [
+[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>],
+[<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
+[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]]);
+
+#ringwax
+recipes.addShaped(<contenttweaker:ringwax>*4, [
+[null, <ore:itemBeeswax>, null],
+[<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
+[null, <ore:itemBeeswax>, null]]);
+
+#rodwax
+recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
+[null, null, <ore:itemBeeswax>], 
+[null, <ore:itemBeeswax>, null], 
+[<ore:itemBeeswax>, null, null]]);
+
+#--Tools--
+
+#file
+recipes.addShaped(<contenttweaker:filestone>, [
+[<minecraft:cobblestone>, null],
+[null, <minecraft:cobblestone>]]);
+
+#hammer
+recipes.addShaped(<contenttweaker:hammerstone>, [
+[<minecraft:cobblestone>, <minecraft:cobblestone>],
+[<minecraft:cobblestone>, <minecraft:cobblestone>], 
+[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
+#hoe
+recipes.addShaped(<contenttweaker:hoestone>, [
+[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
+#plow
+recipes.addShaped(<contenttweaker:plowstone>, [
+[<minecraft:cobblestone>, <minecraft:cobblestone>],
+[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
+#sword
+recipes.addShaped(<contenttweaker:swordstone>, [
+[<minecraft:cobblestone>],
+[<minecraft:cobblestone>]]);
+
+#universal spade
+recipes.addShaped(<contenttweaker:universalspadestone>, [
+[null, <minecraft:cobblestone>, null],
+[<minecraft:cobblestone>, null, <minecraft:cobblestone>], 
+[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+
+#---Moulds (Reusable)
+#mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
+
+#Components
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringStone>, <liquid:steel>, 576, true); #Ring
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickStone>, <liquid:steel>, 576, true); #Rod
+
+#Tools
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadaxe>, <minecraft:stone_axe>, <liquid:steel>, 576, true); #Axe
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadfile>, <ore:headFile>, <liquid:steel>, 576, true); #File
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <ore:headHammer>, <liquid:steel>, 576, true); #Hammer
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhoe>, <ore:headHoe>, <liquid:steel>, 576, true); #Hoe
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <minecraft:stone_pickaxe>, <liquid:steel>, 576, true); #Pickaxe
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadplow>, <ore:headPlow>, <liquid:steel>, 576, true); #Plow
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsaw>, <microblockcbe:saw_stone>, <liquid:steel>, 576, true); #Saw
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsense>, <ore:headSense>, <liquid:steel>, 576, true); #Sense
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <minecraft:stone_shovel>, <liquid:steel>, 576, true); #Shovel
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:headSword>, <liquid:steel>, 576, true); #Sword
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheaduniversalspade>, <ore:headUniversalSpade>, <liquid:steel>, 576, true); #Uni Spade
+
+#---Moulds (Single use)---
 
 #mouldhull
 recipes.addShapeless(<contenttweaker:mouldhull>, [<contenttweaker:hullwax>, <contenttweaker:castraw>]);
@@ -343,22 +437,3 @@ recipes.addShaped(<contenttweaker:presstoolroller>, [
 recipes.addShaped(<contenttweaker:blockrolledbronze>, [
 [<ore:sheetBronze>, <ore:sheetBronze>], 
 [<ore:sheetBronze>, <ore:sheetBronze>]]);
-
-#--wax models--
-#hullwax
-recipes.addShaped(<contenttweaker:hullwax>, [
-[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>],
-[<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
-[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]]);
-
-#ringwax
-recipes.addShaped(<contenttweaker:ringwax>*4, [
-[null, <ore:itemBeeswax>, null],
-[<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
-[null, <ore:itemBeeswax>, null]]);
-
-#rodwax
-recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
-[null, null, <ore:itemBeeswax>], 
-[null, <ore:itemBeeswax>, null], 
-[<ore:itemBeeswax>, null, null]]);

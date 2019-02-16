@@ -56,7 +56,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:gearSteel>.firstItem, <metaitem:shap
 #HSSS
 #Naquadah Alloy
 
-#---Gears Small---
+#--Gears Small--
 #mods.tconstruct.Casting.addTableRecipe(<gregtech:meta_item_2:17>, <gregtech:meta_item_1:32317>, <liquid:>, 216, false); #
 mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallAluminium>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:aluminium>, 216, false); #Aluminium
 #Darmstadtium
@@ -68,9 +68,150 @@ mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallSteel>.firstItem, <metaitem
 #HSSG
 #HSSE
 
+#--Rings--
+#mods.tconstruct.Casting.addBasinRecipe(<ore:ring>.firstItem, <contenttweaker:moldrings>, <liquid:>, 72, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringAluminium>.firstItem, <contenttweaker:moldrings>, <liquid:aluminium>, 72, false); 
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringChrome>.firstItem, <contenttweaker:moldrings>, <liquid:chrome>, 72, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringCopper>.firstItem, <contenttweaker:moldrings>, <liquid:copper>, 72, false);
+#Iridium
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringIron>.firstItem, <contenttweaker:moldrings>, <liquid:iron>, 72, false);
+#Darmstadtium
+#Osmium
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringTin>.firstItem, <contenttweaker:moldrings>, <liquid:tin>, 72, false);
+#Titanium
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringBrass>.firstItem, <contenttweaker:moldrings>, <liquid:brass>, 72, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringBronze>.firstItem, <contenttweaker:moldrings>, <liquid:bronze>, 72, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringInvar>.firstItem, <contenttweaker:moldrings>, <liquid:invar>, 72, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringPigIron>.firstItem, <contenttweaker:moldrings>, <liquid:pigiron>, 72, false);
+#Rubber
+#Stainless Steel
+mods.tconstruct.Casting.addBasinRecipe(<ore:ringSteel>.firstItem, <contenttweaker:moldrings>, <liquid:steel>, 72, false);
+#Wrought Iron
+#TungstenSteel
+#MagneticSteel
+#HSSG
+#HSSE
+#Paper
+#Tungsten Thorium Alloy
+
+
+#--Rods--
+#mods.tconstruct.Casting.addBasinRecipe(<ore:stick>.firstItem, <contenttweaker:moldrods>, <liquid:>, 144, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickAluminium>.firstItem, <contenttweaker:moldrods>, <liquid:aluminium>, 144, false);
+#Americium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickAntimony>.firstItem, <contenttweaker:moldrods>, <liquid:antimony>, 144, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickChrome>.firstItem, <contenttweaker:moldrods>, <liquid:chrome>, 144, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickCobalt>.firstItem, <contenttweaker:moldrods>, <liquid:cobalt>, 144, false);
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickCopper>.firstItem, <contenttweaker:moldrods>, <liquid:copper>, 144, false);
+#Europium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickGold>.firstItem, <contenttweaker:moldrods>, <liquid:gold>, 144, false);
+#Iridium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickIron>.firstItem, <contenttweaker:moldrods>, <liquid:iron>, 144, false); #Iron
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickLead>.firstItem, <contenttweaker:moldrods>, <liquid:lead>, 144, false); #Lead
+#Neodymium
+#Darmstadtium
+#Osmium
+#Palladium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickPlatinum>.firstItem, <contenttweaker:moldrods>, <liquid:platinum>, 144, false); #Platinum
+#Plutonium
+#Plutonium241
+#Potassium
+#Praeseodymium
+#Promethium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickSilver>.firstItem, <contenttweaker:moldrods>, <liquid:silver>, 144, false); #Silver
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickTin>.firstItem, <contenttweaker:moldrods>, <liquid:tin>, 144, false); #Tin
+#Titanium
+#Tungsten
+#Uranium
+#Uranium235
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickZinc>.firstItem, <contenttweaker:moldrods>, <liquid:zinc>, 144, false); #Zinc
+#Almandine
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickAnnealedCopper>.firstItem, <contenttweaker:moldrods>, <liquid:annealed_copper>, 144, false); #Annealed Copper
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickBatteryAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:battery_alloy>, 144, false); #Battery Alloy
+#Blue Topaz
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickBrass>.firstItem, <contenttweaker:moldrods>, <liquid:brass>, 144, false); #Brass
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickBronze>.firstItem, <contenttweaker:moldrods>, <liquid:bronze>, 144, false); #Bronze
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickCupronickel>.firstItem, <contenttweaker:moldrods>, <liquid:cupronickel>, 144, false); #Cupronickel
+#Diamond
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickElectrum>.firstItem, <contenttweaker:moldrods>, <liquid:electrum>, 144, false); #Electrum
+#Emerald
+#Rutile
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickInvar>.firstItem, <contenttweaker:moldrods>, <liquid:invar>, 144, false); #Invar
+#Kanthal
+#Lazurite
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickMagnalium>.firstItem, <contenttweaker:moldrods>, <liquid:magnalium>, 144, false); #Magnalium
+#Nichrome
+#Niobium-Nitride
+#Niobium-Titanium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickPigIron>.firstItem, <contenttweaker:moldrods>, <liquid:pig_iron>, 144, false);#Pig Iron
+#Epoxid
+#Rubber
+#Ruby
+#Sapphire
+#Sodalite
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickSolderingAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:soldering_alloy>, 144, false); #Soldering alloy
+#StainlessSteel
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickSteel>.firstItem, <contenttweaker:moldrods>, <liquid:steel>, 144, false); #Steel
+#Tanzanite
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickTinAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:tin_alloy>, 144, false);#Tin Alloy
+#Topaz
+#Ultimet
+#Vanadium-Gallium
+#Wrought Iron
+#Yttrium Barium Cuprate
+#NetherQuartz
+#CertusQuartz
+#Jasper
+#Osmoiridium
+#Olivine
+#Opal
+#Amethyst
+#Lapis
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickSterlingSilver>.firstItem, <contenttweaker:moldrods>, <liquid:sterling_silver>, 144, false); #SterlingSilver
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickRoseGold>.firstItem, <contenttweaker:moldrods>, <liquid:rose_gold>, 144, false); #RoseGold
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickBlackBronze>.firstItem, <contenttweaker:moldrods>, <liquid:black_bronze>, 144, false); #BlackBronze
+#BismuthBronze
+#BlackSteel
+#RedSteel
+#BlueSteel
+#DamascusSteel
+#TungstenSteel
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickCobaltBrass>.firstItem, <contenttweaker:moldrods>, <liquid:cobalt_brass>, 144, false); #CobaltBrass
+#GarnetRed
+#GarnetYellow
+#Vintium
+#IronMagnetic
+#SteelMagnetic
+#NeodymiumMagnetic
+#TungstenCarbide
+#Vandiumsteel
+#HSSG
+#HSSE
+#HSSS
+#Naquadah
+#NaquadahAlloy
+#NaquadahEnriched
+#Naquadria
+#Tritanium
+#Duranium
+#NetherStar
+#Adamantium
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickArdite>.firstItem, <contenttweaker:moldrods>, <liquid:ardite>, 144, false); #Ardite
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickManasteel>.firstItem, <contenttweaker:moldrods>, <liquid:manasteel>, 144, false); #Manasteel
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickManyullyn>.firstItem, <contenttweaker:moldrods>, <liquid:manyullyn>, 144, false);#Manyullyn
+#Terrasteel
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickThaumium>.firstItem, <contenttweaker:moldrods>, <liquid:thaumium>, 144, false);#Thaumium
+#Tungsten-Thorium Alloy
+#Voidmetal
+#Lumium
+#Enderium
+#Signalum
+#CobaltMagnetic
+
 #---Component Single Use Casting---
 
 #hulls
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullaluminium>, <contenttweaker:mouldhull>, <liquid:aluminium>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullbronze>, <contenttweaker:mouldhull>, <liquid:bronze>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullsteel>, <contenttweaker:mouldhull>, <liquid:steel>, 1440, true);
 
