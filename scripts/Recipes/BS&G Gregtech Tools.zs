@@ -2047,7 +2047,7 @@ recipes.addShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem, [
 
 
 #UniversalSpade
-#recipes.removeShaped(<ore:toolHeadUniversalSpadeAluminium>.firstItem);
+recipes.removeShaped(<ore:toolHeadUniversalSpadeAluminium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeChrome>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeCobalt>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeIridium>.firstItem);
@@ -2207,7 +2207,7 @@ recipes.removeShaped(<ore:toolHeadSenseEnderium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseCobaltMagnetic>.firstItem);
 
 #Plow
-#recipes.removeShaped(<ore:toolHeadPlowAluminium>.firstItem);
+recipes.removeShaped(<ore:toolHeadPlowAluminium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowChrome>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowCobalt>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowIridium>.firstItem);

@@ -8,6 +8,16 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
+#---Components---
+
+var MoldRings = VanillaFactory.createItem("moldrings");
+MoldRings.register();
+
+var MoldRods = VanillaFactory.createItem("moldrods");
+MoldRods.register();
+
+#---Tools---
+
 var MoldHeadAxe = VanillaFactory.createItem("moldheadaxe");
 MoldHeadAxe.register();
 
@@ -28,9 +38,6 @@ MoldHeadPickaxe.register();
 
 var MoldHeadRing = VanillaFactory.createItem("moldheadring");
 MoldHeadRing.register();
-
-var MoldHeadRod = VanillaFactory.createItem("moldheadrod");
-MoldHeadRod.register();
 
 var MoldHeadSaw = VanillaFactory.createItem("moldheadsaw");
 MoldHeadSaw.register();
