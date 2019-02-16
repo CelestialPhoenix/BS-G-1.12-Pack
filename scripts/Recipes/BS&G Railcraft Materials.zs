@@ -107,7 +107,7 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
 #---Blocks---
 
 #Stregthened glass
-recipes.remove(<railcraft:glass>);
+recipes.remove(<railcraft:glass:0>);
 recipes.addShaped(<railcraft:glass>*8, [
 [<railcraft:glass:*>, <railcraft:glass:*>, <railcraft:glass:*>],
 [<railcraft:glass:*>, <ore:dyeWhite>, <railcraft:glass:*>],
