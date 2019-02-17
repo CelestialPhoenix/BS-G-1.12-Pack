@@ -110,7 +110,7 @@ ingotardite.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 val ingotenderium = MaterialRegistry.createIngotMaterial(611, "enderium", 0x279C9C, "shiny", 1, [<material:lead>*3, <material:platinum>*1, <material:ender_pearl>*9], 3.5, 50, 4500);
 ingotenderium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotenderium.addToolEnchantment(<enchantment:minecraft:silk_touch> * 1);
-ingotenderium.setFluidPipeProperties(10000, 10000, true);
+ingotenderium.setFluidPipeProperties(500, 10000, true);
 
 #Lumium
 val ingotlumium = MaterialRegistry.createIngotMaterial(610, "lumium", 0xffe0a3, "shiny", 1, [<material:tin>*3, <material:silver>*1, <material:glowstone>*9], 3.5, 0);

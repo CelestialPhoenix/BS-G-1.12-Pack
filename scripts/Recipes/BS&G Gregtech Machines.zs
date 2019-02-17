@@ -379,6 +379,11 @@ recipes.addShaped(<ore:pipeMediumEnderium>.firstItem*2, [
 #Large in MM lathe
 
 #Wood
+recipes.remove(<ore:pipeTinyWood>.firstItem);
+recipes.addShaped(<ore:pipeTinyWood>.firstItem*4, [
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>]]);
+
 recipes.remove(<ore:pipeSmallWood>.firstItem);
 recipes.addShaped(<ore:pipeSmallWood>.firstItem*4, [
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>], 

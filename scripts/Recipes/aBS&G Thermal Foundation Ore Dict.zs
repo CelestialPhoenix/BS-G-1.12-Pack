@@ -55,7 +55,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #Gears
 #<ore:gear>.remove(<thermalfoundation:material:>);
 <ore:gearWood>.remove(<thermalfoundation:material:22>);
-<ore:gearStone>.remove(<thermalfoundation:material:23>);
+#<ore:gearStone>.remove(<thermalfoundation:material:23>);
 <ore:gearIron>.remove(<thermalfoundation:material:24>);
 <ore:gearGold>.remove(<thermalfoundation:material:25>);
 <ore:gearDiamond>.remove(<thermalfoundation:material:26>);
@@ -192,7 +192,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 
 <ore:plateInvar>.remove(<thermalfoundation:material:354>);
 <ore:plateThickInvar>.add(<thermalfoundation:material:354>);
-<thermalfoundation:material:33>.displayName= "Thick Invar Plate";
+<thermalfoundation:material:354>.displayName= "Thick Invar Plate";
 
 <ore:plateBronze>.remove(<thermalfoundation:material:355>);
 <ore:plateThickBronze>.add(<thermalfoundation:material:355>);

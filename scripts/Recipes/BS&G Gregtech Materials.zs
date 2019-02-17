@@ -632,7 +632,13 @@ recipes.removeShaped(<ore:gearStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:gearSteel>.firstItem);
 recipes.removeShaped(<ore:gearTinAlloy>.firstItem);
 recipes.removeShaped(<ore:gearUltimet>.firstItem);
+
 recipes.removeShaped(<ore:gearWood>.firstItem);
+recipes.addShaped(<ore:gearWood>.firstItem, [
+[null, <ore:plankTreatedWood>, null],
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+[null, <ore:plankTreatedWood>, null]]);
+
 recipes.removeShaped(<ore:gearWroughtIron>.firstItem);
 recipes.removeShaped(<ore:gearOsmiridium>.firstItem);
 recipes.removeShaped(<ore:gearSterlingSilver>.firstItem);

@@ -175,12 +175,26 @@ mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:35
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:359>);
 
 #--Gears (large)--
+
+#stone
+recipes.removeShaped(<thermalfoundation:material:23>);
+recipes.addShaped(<thermalfoundation:material:23>, [
+[null, <ore:stone>, null],
+[<ore:stone>, <ore:stone>, <ore:stone>],
+[null, <ore:stone>, null]]);
+
+#wood
+recipes.removeShaped(<thermalfoundation:material:22>);
 #iron
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:24>);
 recipes.removeShaped(<thermalfoundation:material:24>);
 #gold
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:25>);
 recipes.removeShaped(<thermalfoundation:material:25>);
+#Diamond
+recipes.removeShaped(<thermalfoundation:material:26>);
+#Emerald
+recipes.removeShaped(<thermalfoundation:material:27>);
 #copper
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:256>);
 recipes.removeShaped(<thermalfoundation:material:256>);
