@@ -215,6 +215,16 @@ mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullaluminium>, <cont
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullbronze>, <contenttweaker:mouldhull>, <liquid:bronze>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthullsteel>, <contenttweaker:mouldhull>, <liquid:steel>, 1440, true);
 
+#pipe medium
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipemediumbronze>, <contenttweaker:mouldpipemedium>, <liquid:bronze>, 720, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipemediumcopper>, <contenttweaker:mouldpipemedium>, <liquid:copper>, 720, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipemediumsteel>, <contenttweaker:mouldpipemedium>, <liquid:steel>, 720, true);
+
+#pipe small
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipesmallbronze>, <contenttweaker:mouldpipesmall>, <liquid:bronze>, 1008, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipesmallcopper>, <contenttweaker:mouldpipesmall>, <liquid:copper>, 1008, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpipesmallsteel>, <contenttweaker:mouldpipesmall>, <liquid:steel>, 1008, true);
+
 #rings
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castringbronze>, <contenttweaker:mouldrings>, <liquid:bronze>, 574, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castringcopper>, <contenttweaker:mouldrings>, <liquid:copper>, 574, true);

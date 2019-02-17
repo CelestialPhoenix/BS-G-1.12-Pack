@@ -332,6 +332,18 @@ recipes.addShaped(<contenttweaker:hullwax>, [
 [<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
 [<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]]);
 
+#pipe medium
+recipes.addShaped(<contenttweaker:pipemediumwax>*2, [
+[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>],
+[null, null, null], 
+[<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]]);
+
+#pipe small
+recipes.addShaped(<contenttweaker:pipesmallwax>*4, [
+[<ore:itemBeeswax>, null, <ore:itemBeeswax>],
+[<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
+[<ore:itemBeeswax>, null, <ore:itemBeeswax>]]);
+
 #ringwax
 recipes.addShaped(<contenttweaker:ringwax>*4, [
 [null, <ore:itemBeeswax>, null],
@@ -402,6 +414,15 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheaduniversalspade>, 
 #mouldhull
 recipes.addShapeless(<contenttweaker:mouldhull>, [<contenttweaker:hullwax>, <contenttweaker:castraw>]);
 
+#mould pipe medium
+recipes.addShapeless(<contenttweaker:mouldpipemedium>, [<contenttweaker:pipemediumwax>, <contenttweaker:castraw>]);
+
+#mould pipe small
+recipes.addShaped(<contenttweaker:mouldrings>, [
+[null, <ore:pipeSmallWax>, null],
+[<ore:pipeSmallWax>, <contenttweaker:castraw>, <ore:pipeSmallWax>], 
+[null, <ore:pipeSmallWax>, null]]);
+
 #mouldrings
 recipes.addShaped(<contenttweaker:mouldrings>, [
 [<ore:ringWax>, <ore:ringWax>, <ore:ringWax>],
@@ -410,9 +431,9 @@ recipes.addShaped(<contenttweaker:mouldrings>, [
 
 #mouldrods
 recipes.addShaped(<contenttweaker:mouldrods>, [
-[<ore:rodWax>, <ore:rodWax>, <ore:rodWax>],
-[<ore:rodWax>, <contenttweaker:castraw>, <ore:rodWax>], 
-[<ore:rodWax>, <ore:rodWax>, <ore:rodWax>]]);
+[<ore:stickWax>, <ore:stickWax>, <ore:stickWax>],
+[<ore:stickWax>, <contenttweaker:castraw>, <ore:stickWax>], 
+[<ore:stickWax>, <ore:stickWax>, <ore:stickWax>]]);
 
 #--press tools--
 #cutter

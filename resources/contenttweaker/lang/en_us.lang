@@ -148,6 +148,14 @@ tile.contenttweaker.casthullaluminium.name=Cast Aluminium Hull
 tile.contenttweaker.casthullbronze.name=Cast Bronze Hull
 tile.contenttweaker.casthullsteel.name=Cast Steel Hull
 
+tile.contenttweaker.castpipemediumbronze.name=Cast Bronze Pipe
+tile.contenttweaker.castpipemediumcopper.name=Cast Copper Pipe
+tile.contenttweaker.castpipemediumsteel.name=Cast Steel Pipe
+
+tile.contenttweaker.castpipesmallbronze.name=Cast Bronze Pipes
+tile.contenttweaker.castpipesmallcopper.name=Cast Copper Pipes
+tile.contenttweaker.castpipesmallsteel.name=Cast Steel Pipes
+
 tile.contenttweaker.castringbronze.name=Cast Bronze Rings
 tile.contenttweaker.castringcopper.name=Cast Copper Rings
 tile.contenttweaker.castringiron.name=Cast Iron Rings
@@ -202,7 +210,9 @@ tile.contenttweaker.motortungstensteel.name= External Motor V
 
 tile.contenttweaker.castraw.name=Raw Casting Medium
 tile.contenttweaker.casthard.name=Hardened Casting Medium
-tile.contenttweaker.mouldhull.name= Machine Hull Mold
+tile.contenttweaker.mouldhull.name=Machine Hull Mold
+tile.contenttweaker.mouldpipemedium.name=Pipe Mold
+tile.contenttweaker.mouldpipesmall.name=Pipes Mold 
 tile.contenttweaker.mouldrods.name=Rods Mold
 tile.contenttweaker.mouldrings.name=Rings Mold
 
@@ -414,6 +424,9 @@ item.contenttweaker.motorev.name=EV Motor
 item.contenttweaker.motoriv.name=IV Motor
 
 item.contenttweaker.nethersludgebrick.name=Compressed Infernal Clay
+
+item.contenttweaker.pipemediumwax.name=Medium Wax Pipe
+item.contenttweaker.pipesmallwax.name=Small Wax Pipe
 
 item.contenttweaker.platealuminium.name=Aluminium Plate
 item.contenttweaker.plateconstantan.name=Constantan Plate

@@ -41,3 +41,21 @@ MouldHull.setToolLevel(0);
 MouldHull.setBlockSoundType(<soundtype:sand>);
 MouldHull.setSlipperiness(0.6);
 MouldHull.register();
+
+var MouldPipeMedium = VanillaFactory.createBlock("mouldpipemedium", <blockmaterial:ground>);
+MouldPipeMedium.setBlockHardness(5.0);
+MouldPipeMedium.setBlockResistance(5.0);
+MouldPipeMedium.setToolClass("shovel");
+MouldPipeMedium.setToolLevel(0);
+MouldPipeMedium.setBlockSoundType(<soundtype:sand>);
+MouldPipeMedium.setSlipperiness(0.6);
+MouldPipeMedium.register();
+
+var MouldPipeSmall = VanillaFactory.createBlock("mouldpipesmall", <blockmaterial:ground>);
+MouldPipeSmall.setBlockHardness(5.0);
+MouldPipeSmall.setBlockResistance(5.0);
+MouldPipeSmall.setToolClass("shovel");
+MouldPipeSmall.setToolLevel(0);
+MouldPipeSmall.setBlockSoundType(<soundtype:sand>);
+MouldPipeSmall.setSlipperiness(0.6);
+MouldPipeSmall.register();

@@ -12,7 +12,7 @@ Dropt.list("hull_bronze")
           .items([<ore:hullBronze>.firstItem], Dropt.range(1))
       )
   );
- 
+  
 Dropt.list("hull_steel")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:casthullsteel"])
@@ -20,7 +20,7 @@ Dropt.list("hull_steel")
           .items([<ore:hullSteel>.firstItem], Dropt.range(1))
       )
   );
-
+  
 Dropt.list("hull_aluminium")
   .add(Dropt.rule()
       .matchBlocks(["contenttweaker:casthullaluminium"])

@@ -218,6 +218,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:orepoorSilver>.add(<contenttweaker:orepoorsilver>);
 <ore:orepoorTin>.add(<contenttweaker:orepoorgraveltin>);
 
+#---Pipes---
+<ore:pipeMediumWax>.add(<contenttweaker:pipemediumwax>);
+<ore:pipeSmallWax>.add(<contenttweaker:pipesmallwax>);
+
 #---Plates---
 #<ore:plate>.add(<contenttweaker:plate>);
 <ore:plateCrystal>.add(<contenttweaker:platecrystal>);
