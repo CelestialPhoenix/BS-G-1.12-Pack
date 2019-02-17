@@ -19,6 +19,10 @@ calcium.addFlags(["GENERATE_ORE"]);
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
+var materialgold = <material:gold>;
+#materialgold.addToolDurability(128);
+#materialgold.addToolSpeed(2.0f);
+
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
 
