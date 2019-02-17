@@ -180,79 +180,79 @@ recipes.addShaped(<minecraft:torch>*2, [
 recipes.remove(<minecraft:diamond_shovel>);
 recipes.addShaped(<minecraft:diamond_shovel>,[
 [<ore:toolHeadShovelDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:diamond_sword>);
 recipes.addShaped(<minecraft:diamond_sword>,[
 [<ore:toolHeadSwordDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:diamond_pickaxe>);
 recipes.addShaped(<minecraft:diamond_pickaxe>,[
 [<ore:toolHeadPickaxeDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:diamond_axe>);
 recipes.addShaped(<minecraft:diamond_axe>,[
 [<ore:toolHeadAxeDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:diamond_hoe>);
 recipes.addShaped(<minecraft:diamond_hoe>,[
 [<ore:toolHeadHoeDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Gold
 recipes.remove(<minecraft:golden_shovel>);
 recipes.addShaped(<minecraft:golden_shovel>,[
 [<ore:toolHeadShovelGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:golden_sword>);
 recipes.addShaped(<minecraft:golden_sword>,[
 [<ore:toolHeadSwordGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:golden_pickaxe>);
 recipes.addShaped(<minecraft:golden_pickaxe>,[
 [<ore:toolHeadPickaxeGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:golden_axe>);
 recipes.addShaped(<minecraft:golden_axe>,[
 [<ore:toolHeadAxeGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:golden_hoe>);
 recipes.addShaped(<minecraft:golden_hoe>,[
 [<ore:toolHeadHoeGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Iron
 recipes.remove(<minecraft:iron_shovel>);
 recipes.addShaped(<minecraft:iron_shovel>,[
 [<ore:toolHeadShovelIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:iron_sword>);
 recipes.addShaped(<minecraft:iron_sword>,[
 [<ore:toolHeadSwordIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:iron_pickaxe>);
 recipes.addShaped(<minecraft:iron_pickaxe>,[
 [<ore:toolHeadPickaxeIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:iron_axe>);
 recipes.addShaped(<minecraft:iron_axe>,[
 [<ore:toolHeadAxeIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:iron_hoe>);
 recipes.addShaped(<minecraft:iron_hoe>,[
 [<ore:toolHeadHoeIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:shears>);
 recipes.addShapedMirrored(<minecraft:shears>, [
@@ -262,18 +262,18 @@ recipes.addShapedMirrored(<minecraft:shears>, [
 #Stone
 recipes.addShaped(<minecraft:stone_shovel>,[
 [<ore:toolHeadShovelStone>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:stone_sword>);
 <minecraft:stone_sword>.addTooltip("This item is disabled");
 
 recipes.addShaped(<minecraft:stone_pickaxe>,[
 [<ore:toolHeadPickaxeStone>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.addShaped(<minecraft:stone_axe>,[
 [<ore:toolHeadAxeStone>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:stone_hoe>);
 <minecraft:stone_hoe>.addTooltip("This item is disabled");
@@ -281,14 +281,14 @@ recipes.remove(<minecraft:stone_hoe>);
 #Wood
 recipes.addShaped(<minecraft:wooden_shovel>,[
 [<ore:toolHeadShovelWood>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:wooden_sword>);
 <minecraft:wooden_sword>.addTooltip("This item is disabled");
 
 recipes.addShaped(<minecraft:wooden_pickaxe>,[
 [<ore:toolHeadPickaxeWood>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<minecraft:wooden_axe>);
 <minecraft:wooden_axe>.addTooltip("This item is disabled");

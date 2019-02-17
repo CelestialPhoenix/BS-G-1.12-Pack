@@ -144,98 +144,98 @@ recipes.addShapeless(<projectred-exploration:backpack:15>, [<ore:prbackpack>, <o
 recipes.remove(<projectred-exploration:ruby_axe>);
 recipes.addShaped(<projectred-exploration:ruby_axe>, [
 [<ore:toolHeadAxeRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_axe>);
 recipes.addShaped(<projectred-exploration:sapphire_axe>, [
 [<ore:toolHeadAxeSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_axe>);
 recipes.addShaped(<projectred-exploration:peridot_axe>, [
 [<ore:toolHeadAxeGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Hoe
 recipes.remove(<projectred-exploration:ruby_hoe>);
 recipes.addShaped(<projectred-exploration:ruby_hoe>, [
 [<ore:toolHeadHoeRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_hoe>);
 recipes.addShaped(<projectred-exploration:sapphire_hoe>, [
 [<ore:toolHeadHoeSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_hoe>);
 recipes.addShaped(<projectred-exploration:peridot_hoe>, [
 [<ore:toolHeadHoeGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Pickaxe
 recipes.remove(<projectred-exploration:ruby_pickaxe>);
 recipes.addShaped(<projectred-exploration:ruby_pickaxe>, [
 [<ore:toolHeadPickaxeRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_pickaxe>);
 recipes.addShaped(<projectred-exploration:sapphire_pickaxe>, [
 [<ore:toolHeadPickaxeSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_pickaxe>);
 recipes.addShaped(<projectred-exploration:peridot_pickaxe>, [
 [<ore:toolHeadPickaxeGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Shovel
 recipes.remove(<projectred-exploration:ruby_shovel>);
 recipes.addShaped(<projectred-exploration:ruby_shovel>, [
 [<ore:toolHeadShovelRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_shovel>);
 recipes.addShaped(<projectred-exploration:sapphire_shovel>, [
 [<ore:toolHeadShovelSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_shovel>);
 recipes.addShaped(<projectred-exploration:peridot_shovel>, [
 [<ore:toolHeadShovelGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Sword
 recipes.remove(<projectred-exploration:ruby_sword>);
 recipes.addShaped(<projectred-exploration:ruby_sword>, [
 [<ore:toolHeadSwordRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_sword>);
 recipes.addShaped(<projectred-exploration:sapphire_sword>, [
 [<ore:toolHeadSwordSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_sword>);
 recipes.addShaped(<projectred-exploration:peridot_sword>, [
 [<ore:toolHeadSwordGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 #Saw
 recipes.remove(<projectred-exploration:golden_saw>);
 recipes.addShaped(<projectred-exploration:golden_saw>, [
-[<ore:stickWood>, <ore:plateGold>, <ore:plateGold>]]);
+[<ore:toolRodWood>, <ore:plateGold>, <ore:plateGold>]]);
 
 recipes.remove(<projectred-exploration:ruby_saw>);
 recipes.addShaped(<projectred-exploration:ruby_saw>, [
-[<ore:stickWood>, <ore:plateRuby>, <ore:plateRuby>]]);
+[<ore:toolRodWood>, <ore:plateRuby>, <ore:plateRuby>]]);
 
 recipes.remove(<projectred-exploration:sapphire_saw>);
 recipes.addShaped(<projectred-exploration:sapphire_saw>, [
-[<ore:stickWood>, <ore:plateSapphire>, <ore:plateSapphire>]]);
+[<ore:toolRodWood>, <ore:plateSapphire>, <ore:plateSapphire>]]);
 
 recipes.remove(<projectred-exploration:peridot_saw>);
 recipes.addShaped(<projectred-exploration:peridot_saw>, [
-[<ore:stickWood>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>]]);
+[<ore:toolRodWood>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>]]);
 
 #Sickle
 recipes.remove(<projectred-exploration:wooden_sickle>);
@@ -247,29 +247,29 @@ recipes.remove(<projectred-exploration:stone_sickle>);
 recipes.remove(<projectred-exploration:iron_sickle>);
 recipes.addShaped(<projectred-exploration:iron_sickle>, [
 [<ore:toolHeadSenseIron>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:golden_sickle>);
 recipes.addShaped(<projectred-exploration:golden_sickle>, [
 [<ore:toolHeadSenseGold>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:ruby_sickle>);
 recipes.addShaped(<projectred-exploration:ruby_sickle>, [
 [<ore:toolHeadSenseRuby>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:sapphire_sickle>);
 recipes.addShaped(<projectred-exploration:sapphire_sickle>, [
 [<ore:toolHeadSenseSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:peridot_sickle>);
 recipes.addShaped(<projectred-exploration:peridot_sickle>, [
 [<ore:toolHeadSenseGreenSapphire>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);
 
 recipes.remove(<projectred-exploration:diamond_sickle>);
 recipes.addShaped(<projectred-exploration:diamond_sickle>, [
 [<ore:toolHeadSenseDiamond>],
-[<ore:stickWood>]]);
+[<ore:toolRodWood>]]);

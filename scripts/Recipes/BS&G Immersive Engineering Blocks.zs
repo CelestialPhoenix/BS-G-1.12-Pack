@@ -124,10 +124,10 @@ recipes.addShaped(<immersiveengineering:metal_device1:1>, [
 
 #---Fluid Pipe
 recipes.removeShaped(<immersiveengineering:metal_device1:6>);
-recipes.addShaped(<immersiveengineering:metal_device1:6>*2, [
-[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
+recipes.addShaped(<immersiveengineering:metal_device1:6>*4, [
+[<ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>],
 [null, null, null], 
-[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
+[<ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>]]);
 
 #---Fluid Pump---
 recipes.removeShaped(<immersiveengineering:metal_device0:5>);

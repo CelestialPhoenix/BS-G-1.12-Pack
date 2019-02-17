@@ -8,6 +8,9 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
+var WoodRod = VanillaFactory.createItem("toolrodwood");
+WoodRod.register();
+
 var RodWax = VanillaFactory.createItem("rodwax");
 RodWax.register();
 

@@ -257,7 +257,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:sheetTin>.add(<contenttweaker:rolledtin>);
 <ore:sheetUranium>.add(<contenttweaker:rolleduranium>);
 
-#---Stone---
+#---Stone Tool Models---
 #<ore:head>.add(<contenttweaker:stone>);
 <ore:headFile>.add(<contenttweaker:filestone>);
 <ore:headHammer>.add(<contenttweaker:hammerstone>);
@@ -266,3 +266,6 @@ print("Tweak Tweak Tweak Tweak");
 <ore:headSense>.add(<contenttweaker:sensestone>);
 <ore:headSword>.add(<contenttweaker:swordstone>);
 <ore:headUniversalSpade>.add(<contenttweaker:universalspadestone>);
+
+#---Tool Rods---
+<ore:toolRodWood>.add(<contenttweaker:toolrodwood>);

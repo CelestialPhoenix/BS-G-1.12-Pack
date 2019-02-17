@@ -144,6 +144,7 @@ tile.contenttweaker.casingsteel.name=Machine Casing
 tile.contenttweaker.casingtitanium.name=Machine Casing IV
 tile.contenttweaker.casingtungstensteel.name=Machine Casing V
 
+tile.contenttweaker.casthullaluminium.name=Cast Aluminium Hull
 tile.contenttweaker.casthullbronze.name=Cast Bronze Hull
 tile.contenttweaker.casthullsteel.name=Cast Steel Hull
 
@@ -342,6 +343,7 @@ item.contenttweaker.gearsmalllumium.name=Small Lumium Gear
 item.contenttweaker.gearsmallsignalum.name=Small Signalum Gear
 item.contenttweaker.gearsmallstainless.name= Small Stainless Gear
 item.contenttweaker.gearsmallsteel.name=Small Steel Gear
+item.contenttweaker.gearsmallstone.name=Small Stone Gear
 item.contenttweaker.gearsmalltitanium.name=Small Titanium Gear
 item.contenttweaker.gearsmalltungstensteel.name=Small Tungstensteel Gear
 item.contenttweaker.gearsmallwax.name=Small Wax Gear
@@ -392,10 +394,18 @@ item.contenttweaker.moldheadsaw.name=Saw Blade Mold
 item.contenttweaker.moldheadsense.name=Sense Blade Mold
 item.contenttweaker.moldheadshovel.name=Shovel Head Mold
 item.contenttweaker.moldheadsword.name=Sword Blade Mold
-item.contenttweaker.moldhheaduniversalspade=Universal Spade Head Mold
+item.contenttweaker.moldheaduniversalspade.name=Universal Spade Head Mold
 
 item.contenttweaker.moldrings.name=Ring Mold
 item.contenttweaker.moldrods.name=Rod Mold
+
+item.contenttweaker.filestone.name=File Head Model
+item.contenttweaker.hoestone.name=Hoe Head Model
+item.contenttweaker.hammerstone.name=Hammer Head Model
+item.contenttweaker.plowstone.name=Plow Head Model
+item.contenttweaker.sensestone.name=Sense Blade Model
+item.contenttweaker.swordstone.name=Sword Blade Model
+item.contenttweaker.universalspadestone.name=Universal Spade Head Model
 
 item.contenttweaker.motorlv.name=LV Motor
 item.contenttweaker.motormv.name=MV Motor
@@ -438,6 +448,7 @@ item.contenttweaker.ringcopper.name=Copper Ring
 item.contenttweaker.ringiron.name=Iron Ring
 item.contenttweaker.ringstainless.name=Stainless Ring
 item.contenttweaker.ringsteel.name=Steel Ring
+item.contenttweaker.ringstone.name=Stone Ring
 item.contenttweaker.ringtin.name=Tin Ring
 item.contenttweaker.ringtitanium.name=Titanium Ring
 item.contenttweaker.ringtungsten.name=Tungsten Ring
@@ -487,6 +498,8 @@ item.contenttweaker.toolheadhoediamond.name=Diamond Hoe Blade
 item.contenttweaker.toolheadpickaxediamond.name=Diamond Pickaxe Head
 item.contenttweaker.toolheadshoveldiamond.name=Diamond Shovel Head
 item.contenttweaker.toolheadsworddiamond.name=Diamond Sword Blade
+
+item.contenttweaker.toolrodwood.name=Wooden Tool Rod
 
 item.contenttweaker.wirealuminium.name=Aluminium Wire
 item.contenttweaker.wireconstantan.name=Constantan Wire
