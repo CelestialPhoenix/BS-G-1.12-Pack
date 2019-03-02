@@ -14,7 +14,7 @@ recipes.addShaped(<forgecraft:stoneanvil>, [
 #Crucible
 recipes.remove(<forgecraft:softcrucible>);
 recipes.addShaped(<forgecraft:softcrucible>, [
-[<ore:ballClay>, null <ore:ballClay>],
-[<ore:ballClay>, null <ore:ballClay>],
+[<ore:ballClay>, null, <ore:ballClay>],
+[<ore:ballClay>, null, <ore:ballClay>],
 [<ore:ballClay>, <ore:ballClay>, <ore:ballClay>]]);
 
