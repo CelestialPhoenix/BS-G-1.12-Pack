@@ -22,3 +22,10 @@ print("Ever wondered what the Liquid Death tastes like?");
 #Brains
 <ore:brainJar>.add(<thaumcraft:jar_brain>);
 <ore:brainZombie>.add(<thaumcraft:brain>);
+
+#Dusts
+<ore:dustSalisMundis>.add(<thaumcraft:salis_mundus>);
+#Logs
+<ore:logGreatwood>.add(<thaumcraft:log_greatwood>);
+<ore:logSilverwood>.add(<thaumcraft:log_silverwood>);
+<ore:logTaintwood>.add(<thaumcraft:taint_log>);
