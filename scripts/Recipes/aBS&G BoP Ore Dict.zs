@@ -1,7 +1,7 @@
 #Name: Blood Sweat & Gears BoP Ore Dict.zs
 #Author: PhoePhoe
 
-print("");
+print("BoP ...BLeepBleepBoop - R2D2");
 
 #logs
 <ore:logSacredOak>.add(<biomesoplenty:log_0:4>);
@@ -21,3 +21,8 @@ print("");
 <ore:logEbony>.add(<biomesoplenty:log_3:6>);
 <ore:logEucalyptusBoP>.add(<biomesoplenty:log_3:7>);
 <ore:logDead>.add(<biomesoplenty:log_4:5>);
+
+#sandstone
+<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
+<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:1>);
+<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:2>);
