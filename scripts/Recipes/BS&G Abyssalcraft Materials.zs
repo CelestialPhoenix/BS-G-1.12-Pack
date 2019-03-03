@@ -3,6 +3,10 @@
 
 print("I'm not evil I promise");
 
+#---Naming---
+
+#Logs
+<abyssalcraft:dltlog>.displayName="Darklands Oak Log";
 #---Removed Recipes---
 
 #--Ingots--

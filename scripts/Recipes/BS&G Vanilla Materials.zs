@@ -3,7 +3,15 @@
 
 print("Mwah ha ha ha ha ha");
 
-#Changed Recipes
+#---Naming---
+#Logs
+<minecraft:log:0>.displayName="Oak Log";
+<minecraft:log:1>.displayName="Spruce Log";
+<minecraft:log:2>.displayName="Birch Log";
+<minecraft:log:3>.displayName="Jungle Log";
+<minecraft:log2:0>.displayName="Acacia Log";
+<minecraft:log2:1>.displayName="Dark Oak Log";
+#---Recipes---
 
 #---Hardmode redstone---
 
