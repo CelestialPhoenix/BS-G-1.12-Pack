@@ -25,3 +25,7 @@ furnace.remove(<forestry:ingot_tin>);
 #storage blocks
 recipes.removeShaped(<forestry:resource_storage:*>);
 recipes.removeShaped(<forestry:charcoal>);
+
+#---Naming---
+
+#---Recipes----

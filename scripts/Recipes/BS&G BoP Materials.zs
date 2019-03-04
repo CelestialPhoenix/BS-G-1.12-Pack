@@ -9,7 +9,7 @@ print("BoP ...BLeepBleepBoop - R2D2");
 recipes.removeShaped(<biomesoplenty:gem_block:*>);
 
 #---Naming---
-<biomesoplenty:log_0:4>.displayName="Sacred Oak Logs";
+<biomesoplenty:log_0:4>.displayName="Sacred Oak Log";
 <biomesoplenty:log_0:5>.displayName="Cherry Log";
 <biomesoplenty:log_0:6>.displayName="Umbran Log";
 <biomesoplenty:log_0:7>.displayName="Fir Log";
