@@ -29,7 +29,202 @@ recipes.removeShaped(<biomesoplenty:gem_block:*>);
 <biomesoplenty:log_4:5>.displayName="Dead Log";
 
 #---New Recipes---
-#-Planks
+#-Doors-
+
+recipes.remove(<biomesoplenty:sacred_oak_door>);
+recipes.addShapedMirrored(<biomesoplenty:sacred_oak_door>,[
+[<biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:0>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:0>, null],
+[<biomesoplenty:planks_0:0>, <biomesoplenty:planks_0:0>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:cherry_door>);
+recipes.addShapedMirrored(<biomesoplenty:cherry_door>,[
+[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, null],
+[<biomesoplenty:planks_0:1>, <biomesoplenty:planks_0:1>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:umbran_door>);
+recipes.addShapedMirrored(<biomesoplenty:umbran_door>,[
+[<biomesoplenty:planks_0:2>, <biomesoplenty:planks_0:2>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:2>, <biomesoplenty:planks_0:2>, null],
+[<biomesoplenty:planks_0:2>, <biomesoplenty:planks_0:2>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:fir_door>);
+recipes.addShapedMirrored(<biomesoplenty:fir_door>,[
+[<biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>, null],
+[<biomesoplenty:planks_0:3>, <biomesoplenty:planks_0:3>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:ethereal_door>);
+recipes.addShapedMirrored(<biomesoplenty:ethereal_door>,[
+[<biomesoplenty:planks_0:4>, <biomesoplenty:planks_0:4>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:4>, <biomesoplenty:planks_0:4>, null],
+[<biomesoplenty:planks_0:4>, <biomesoplenty:planks_0:4>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:magic_door>);
+recipes.addShapedMirrored(<biomesoplenty:magic_door>,[
+[<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, null],
+[<biomesoplenty:planks_0:5>, <biomesoplenty:planks_0:5>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:mangrove_door>);
+recipes.addShapedMirrored(<biomesoplenty:mangrove_door>,[
+[<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, null],
+[<biomesoplenty:planks_0:6>, <biomesoplenty:planks_0:6>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:palm_door>);
+recipes.addShapedMirrored(<biomesoplenty:palm_door>,[
+[<biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:7>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:7>, null],
+[<biomesoplenty:planks_0:7>, <biomesoplenty:planks_0:7>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:redwood_door>);
+recipes.addShapedMirrored(<biomesoplenty:redwood_door>,[
+[<biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>, null],
+[<biomesoplenty:planks_0:8>, <biomesoplenty:planks_0:8>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:willow_door>);
+recipes.addShapedMirrored(<biomesoplenty:willow_door>,[
+[<biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:9>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:9>, null],
+[<biomesoplenty:planks_0:9>, <biomesoplenty:planks_0:9>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:pine_door>);
+recipes.addShapedMirrored(<biomesoplenty:pine_door>,[
+[<biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>, null],
+[<biomesoplenty:planks_0:10>, <biomesoplenty:planks_0:10>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:hellbark_door>);
+recipes.addShapedMirrored(<biomesoplenty:hellbark_door>,[
+[<biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:11>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:11>, null],
+[<biomesoplenty:planks_0:11>, <biomesoplenty:planks_0:11>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:jacaranda_door>);
+recipes.addShapedMirrored(<biomesoplenty:jacaranda_door>,[
+[<biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>, null],
+[<biomesoplenty:planks_0:12>, <biomesoplenty:planks_0:12>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:mahogany_door>);
+recipes.addShapedMirrored(<biomesoplenty:mahogany_door>,[
+[<biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:13>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:13>, null],
+[<biomesoplenty:planks_0:13>, <biomesoplenty:planks_0:13>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:ebony_door>);
+recipes.addShapedMirrored(<biomesoplenty:ebony_door>,[
+[<biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:14>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:14>, null],
+[<biomesoplenty:planks_0:14>, <biomesoplenty:planks_0:14>, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:eucalyptus_door>);
+recipes.addShapedMirrored(<biomesoplenty:eucalyptus_door>,[
+[<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <ore:dustRedstone>],
+[<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, null],
+[<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <ore:dustRedstone>]]);
+
+#-Gate-
+recipes.remove(<biomesoplenty:sacred_oak_fence_gate>);
+recipes.addShaped(<biomesoplenty:sacred_oak_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:0>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:0>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:cherry_fence_gate>);
+recipes.addShaped(<biomesoplenty:cherry_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:1>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:1>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:umbran_fence_gate>);
+recipes.addShaped(<biomesoplenty:umbran_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:2>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:2>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:fir_fence_gate>);
+recipes.addShaped(<biomesoplenty:fir_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:3>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:3>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:ethereal_fence_gate>);
+recipes.addShaped(<biomesoplenty:ethereal_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:4>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:4>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:magic_fence_gate>);
+recipes.addShaped(<biomesoplenty:magic_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:5>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:5>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:mangrove_fence_gate>);
+recipes.addShaped(<biomesoplenty:mangrove_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:6>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:6>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:palm_fence_gate>);
+recipes.addShaped(<biomesoplenty:palm_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:7>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:7>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:redwood_fence_gate>);
+recipes.addShaped(<biomesoplenty:redwood_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:8>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:8>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:willow_fence_gate>);
+recipes.addShaped(<biomesoplenty:willow_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:9>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:9>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:pine_fence_gate>);
+recipes.addShaped(<biomesoplenty:pine_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:10>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:10>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:hellbark_fence_gate>);
+recipes.addShaped(<biomesoplenty:hellbark_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:11>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:11>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:jacaranda_fence_gate>);
+recipes.addShaped(<biomesoplenty:jacaranda_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:12>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:12>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:mahogany_fence_gate>);
+recipes.addShaped(<biomesoplenty:mahogany_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:13>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:13>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:ebony_fence_gate>);
+recipes.addShaped(<biomesoplenty:ebony_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:14>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:14>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+recipes.remove(<biomesoplenty:eucalyptus_fence_gate>);
+recipes.addShaped(<biomesoplenty:eucalyptus_fence_gate>,[
+[<ore:stickWood>, <biomesoplenty:planks_0:15>, <ore:stickWood>],
+[<ore:stickWood>, <biomesoplenty:planks_0:15>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+
+#-Planks-
 #Sacred Oak
 recipes.remove(<biomesoplenty:planks_0:0>);
 recipes.addShapeless(<biomesoplenty:planks_0:0>*2, [<ore:logSacredOak>]);
