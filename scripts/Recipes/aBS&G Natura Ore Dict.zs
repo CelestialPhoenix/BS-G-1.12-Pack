@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears TiCon Materials.zs
+#Name: Blood Sweat & Gears Natura Ore Dict.zs
 #Author: PhoePhoe
 
 print("O-Natura");
