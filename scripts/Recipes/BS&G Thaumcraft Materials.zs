@@ -49,10 +49,10 @@ recipes.removeShaped(<thaumcraft:slab_ancient>);
 recipes.addShaped(<thaumcraft:slab_ancient>*4,[
 [<thaumcraft:stone_ancient>, <thaumcraft:stone_ancient>, <thaumcraft:stone_ancient>]]);
 
-#Eldrich Stone
-recipes.removeShaped(<thaumcraft:slab_eldrich>);
-recipes.addShaped(<thaumcraft:slab_eldrich>*4,[
-[<thaumcraft:stone_eldrich_tile>, <thaumcraft:stone_eldrich_tile>, <thaumcraft:stone_eldrich_tile>]]);
+#Eldritch Stone
+recipes.removeShaped(<thaumcraft:slab_eldritch>);
+recipes.addShaped(<thaumcraft:slab_eldritch>*4,[
+[<thaumcraft:stone_eldritch_tile>, <thaumcraft:stone_eldritch_tile>, <thaumcraft:stone_eldritch_tile>]]);
 
 #Greatwood
 recipes.removeShaped(<thaumcraft:slab_greatwood>);
