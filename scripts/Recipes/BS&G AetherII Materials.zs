@@ -12,8 +12,14 @@ print("Adrift in the skies");
 <aether:golden_oak_log>.displayName="Amberoot Log";
 
 #---Recipes---
-#-Doors-
+#-Button-
+recipes.remove(<aether:skyroot_button>);
+recipes.addShapeless(<aether:skyroot_button>, [<ore:skyrootplanks>, <ore:dustRedstone>]);
 
+recipes.remove(<aether:holystone_button>);
+recipes.addShapeless(<aether:skyroot_button>, [<ore:holystone>, <ore:dustRedstone>]);
+
+#-Doors-
 recipes.remove(<aether:skyroot_door_item>);
 recipes.addShapedMirrored(<aether:skyroot_door_item>,[
 [<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:dustRedstone>],
@@ -25,6 +31,13 @@ recipes.addShapedMirrored(<aether:arkenium_door_item>,[
 [<aether:arkenium>, <aether:arkenium>, <ore:dustRedstone>],
 [<aether:arkenium>, <aether:arkenium>, null],
 [<aether:arkenium>, <aether:arkenium>, <ore:dustRedstone>]]);
+
+#-Gates-
+recipes.remove(<natura:skyroot_fence_gate>);
+recipes.addShaped(<natura:skyroot_fence_gate>,[
+[<ore:stickWood>, <ore:skyrootplanks>, <ore:stickWood>],
+[<ore:stickWood>, <ore:skyrootplanks>, <ore:stickWood>],
+[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
 
 #-Planks-
 #Greatwood
@@ -42,6 +55,17 @@ recipes.addShapeless(<aether:therawood_planks>*2, [<ore:logTherawood>]);
 #Wisproot
 recipes.remove(<aether:light_skyroot_planks>);
 recipes.addShapeless(<aether:light_skyroot_planks>*2, [<ore:logWisproot>]);
+
+#-Pressure Plates-
+recipes.remove(<aether:holystone_pressure_plate>);
+recipes.addShaped(<aether:holystone_pressure_plate>,[
+[<aether:holystone_slab>],
+[<ore:dustRedstone>]]);
+
+recipes.remove(<aether:skyroot_pressure_plate>);
+recipes.addShaped(<aether:skyroot_pressure_plate>,[
+[<aether:skyroot_slab>],
+[<ore:dustRedstone>]]);
 
 #-Slabs-
 #Skyroot
@@ -88,3 +112,10 @@ recipes.addShaped(<aether:mossy_holystone_slab>*4,[
 recipes.removeShaped(<aether:icestone_slab>);
 recipes.addShaped(<aether:icestone_slab>*4,[
 [<aether:icestone_bricks>, <aether:icestone_bricks>, <aether:icestone_bricks>]]);
+
+#-Trapdoor-
+recipes.remove(<aether:skyroot_trap_door>);
+recipes.addShaped(<aether:skyroot_trap_door>,[
+[<ore:dustRedstone>, null, <ore:dustRedstone>],
+[<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:skyrootplanks>],
+[<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:skyrootplanks>]]);
