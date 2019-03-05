@@ -12,6 +12,19 @@ print("Adrift in the skies");
 <aether:golden_oak_log>.displayName="Amberoot Log";
 
 #---Recipes---
+#-Doors-
+
+recipes.remove(<aether:skyroot_door_item>);
+recipes.addShapedMirrored(<aether:skyroot_door_item>,[
+[<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:dustRedstone>],
+[<ore:skyrootplanks>, <ore:skyrootplanks>, null],
+[<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:dustRedstone>]]);
+
+recipes.remove(<aether:arkenium_door_item>);
+recipes.addShapedMirrored(<aether:arkenium_door_item>,[
+[<aether:arkenium>, <aether:arkenium>, <ore:dustRedstone>],
+[<aether:arkenium>, <aether:arkenium>, null],
+[<aether:arkenium>, <aether:arkenium>, <ore:dustRedstone>]]);
 
 #-Planks-
 #Greatwood
