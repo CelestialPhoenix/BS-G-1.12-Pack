@@ -49,39 +49,39 @@ recipes.addShapedMirrored(<minecraft:iron_door>*2,[
 #Door Wood
 recipes.remove(<minecraft:wooden_door>);
 recipes.addShapedMirrored(<minecraft:wooden_door>,[
-[<ore:dustRedstone>, <ore:plankWood>, <ore:plankWood>],
-[null, <ore:plankWood>, <ore:plankWood>],
-[<ore:dustRedstone, <ore:plankWood>, <ore:plankWood>]]);
+[<minecraft:planks:0>, <minecraft:planks:0>, <ore:dustRedstone>],
+[<minecraft:planks:0>, <minecraft:planks:0>, null],
+[<minecraft:planks:0>, <minecraft:planks:0>, <ore:dustRedstone>]]);
 
 recipes.remove(<minecraft:spruce_door>);  
-recipes.addShaped(<minecraft:spruce_door>,[
-[<ore:dustRedstone>, <minecraft:planks:1>, <minecraft:planks:1>],
-[null, <minecraft:planks:1>, <minecraft:planks:1>],
-[<ore:dustRedstone>, <minecraft:planks:1>, <minecraft:planks:1>]]);
+recipes.addShapedMirrored(<minecraft:spruce_door>,[
+[<minecraft:planks:1>, <minecraft:planks:1>, <ore:dustRedstone>],
+[<minecraft:planks:1>, <minecraft:planks:1>, null],
+[<minecraft:planks:1>, <minecraft:planks:1>, <ore:dustRedstone>]]);
 
 recipes.remove(<minecraft:birch_door>);  
-recipes.addShaped(<minecraft:birch_door>,[
-[<ore:dustRedstone>, <minecraft:planks:2>, <minecraft:planks:2>],
-[null, <minecraft:planks:2>, <minecraft:planks:2>],
-[<ore:dustRedstone>, <minecraft:planks:2>, <minecraft:planks:2>]]);
+recipes.addShapedMirrored(<minecraft:birch_door>,[
+[<minecraft:planks:2>, <minecraft:planks:2>, <ore:dustRedstone>],
+[<minecraft:planks:2>, <minecraft:planks:2>, null],
+[<minecraft:planks:2>, <minecraft:planks:2>, <ore:dustRedstone>]]);
 
 recipes.remove(<minecraft:jungle_door>);  
-recipes.addShaped(<minecraft:jungle_door>,[
-[<ore:dustRedstone>, <minecraft:planks:3>, <minecraft:planks:3>],
-[null, <minecraft:planks:3>, <minecraft:planks:3>],
-[<ore:dustRedstone>, <minecraft:planks:3>, <minecraft:planks:3>]]);
+recipes.addShapedMirrored(<minecraft:jungle_door>,[
+[<minecraft:planks:3>, <minecraft:planks:3>, <ore:dustRedstone>],
+[<minecraft:planks:3>, <minecraft:planks:3>, null],
+[<minecraft:planks:3>, <minecraft:planks:3>, <ore:dustRedstone>]]);
 
 recipes.remove(<minecraft:acacia_door>);  
-recipes.addShaped(<minecraft:acacia_door>,[
-[<ore:dustRedstone>, <minecraft:planks:4>, <minecraft:planks:4>],
-[null, <minecraft:planks:4>, <minecraft:planks:4>],
-[<ore:dustRedstone>, <minecraft:planks:4>, <minecraft:planks:4>]]);
+recipes.addShapedMirrored(<minecraft:acacia_door>,[
+[<minecraft:planks:4>, <minecraft:planks:4>, <ore:dustRedstone>],
+[<minecraft:planks:4>, <minecraft:planks:4>, null],
+[<minecraft:planks:4>, <minecraft:planks:4>, <ore:dustRedstone>]]);
 
 recipes.remove(<minecraft:dark_oak_door>);  
-recipes.addShaped(<minecraft:dark_oak_door>,[
-[<ore:dustRedstone>, <minecraft:planks:5>, <minecraft:planks:5>],
-[null, <minecraft:planks:5>, <minecraft:planks:5>],
-[<ore:dustRedstone>, <minecraft:planks:5>, <minecraft:planks:5>]]);
+recipes.addShapedMirrored(<minecraft:dark_oak_door>,[
+[<minecraft:planks:5>, <minecraft:planks:5>, <ore:dustRedstone>],
+[<minecraft:planks:5>, <minecraft:planks:5>, null],
+[<minecraft:planks:5>, <minecraft:planks:5>, <ore:dustRedstone>]]);
 
 #Lever
 recipes.remove(<minecraft:lever>);
