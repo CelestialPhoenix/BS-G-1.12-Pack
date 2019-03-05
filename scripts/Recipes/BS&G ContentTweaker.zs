@@ -389,26 +389,6 @@ recipes.addShaped(<contenttweaker:universalspadestone>, [
 [<minecraft:cobblestone>, null, <minecraft:cobblestone>], 
 [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
-#---Moulds (Reusable)
-#mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
-
-#Components
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringStone>, <liquid:steel>, 576, true); #Ring
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickStone>, <liquid:steel>, 576, true); #Rod
-
-#Tools
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadaxe>, <minecraft:stone_axe>, <liquid:steel>, 576, true); #Axe
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadfile>, <ore:headFile>, <liquid:steel>, 576, true); #File
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <ore:headHammer>, <liquid:steel>, 576, true); #Hammer
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhoe>, <ore:headHoe>, <liquid:steel>, 576, true); #Hoe
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <minecraft:stone_pickaxe>, <liquid:steel>, 576, true); #Pickaxe
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadplow>, <ore:headPlow>, <liquid:steel>, 576, true); #Plow
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsaw>, <microblockcbe:saw_stone>, <liquid:steel>, 576, true); #Saw
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsense>, <ore:headSense>, <liquid:steel>, 576, true); #Sense
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <minecraft:stone_shovel>, <liquid:steel>, 576, true); #Shovel
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:headSword>, <liquid:steel>, 576, true); #Sword
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheaduniversalspade>, <ore:headUniversalSpade>, <liquid:steel>, 576, true); #Uni Spade
-
 #---Moulds (Single use)---
 
 #mouldhull

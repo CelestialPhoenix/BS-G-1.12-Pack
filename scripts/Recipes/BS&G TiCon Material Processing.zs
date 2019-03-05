@@ -5,6 +5,64 @@ print("I'll cast my eye on you");
 
 #name items
 
+#---Moulds (Reusable)
+#mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
+
+#-Components-
+#Rings
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringCopper>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringSteel>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringTin>, <liquid:steel>, 576, true);
+#Rods
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickCopper>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickSteel>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickStone>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrods>, <ore:stickTin>, <liquid:steel>, 576, true);
+
+#-Tools-
+#Axe
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadaxe>, <minecraft:stone_axe>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadaxe>, <abyssalcraft:daxe>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadaxe>, <primal:flint_axe>, <liquid:steel>, 576, true);
+
+#File
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadfile>, <ore:headFile>, <liquid:steel>, 576, true);
+
+#Hammer
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <primal:stone_gallagher>, <liquid:steel>, 576, true);
+
+#Hoe
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhoe>, <ore:headHoe>, <liquid:steel>, 576, true);
+
+#Pickaxe 
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <minecraft:stone_pickaxe>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <abyssalcraft:dpick>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <primal:flint_pickaxe>, <liquid:steel>, 576, true);
+
+#Plow
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadplow>, <ore:headPlow>, <liquid:steel>, 576, true);
+
+#Saw
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsaw>, <microblockcbe:saw_stone>, <liquid:steel>, 576, true);
+
+#Sense
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsense>, <ore:headSense>, <liquid:steel>, 576, true);
+
+#Shovel
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <minecraft:stone_shovel>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <abyssalcraft:dshovel>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <primal:flint_shovel>, <liquid:steel>, 576, true);
+
+#Sword
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:headSword>, <liquid:steel>, 576, true); #Sword
+
+#Uni Spade
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheaduniversalspade>, <ore:headUniversalSpade>, <liquid:steel>, 576, true); 
+
 #---Component Reusable Casting---
 
 #--Gears--
