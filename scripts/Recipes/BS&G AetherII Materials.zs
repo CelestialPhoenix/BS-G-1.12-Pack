@@ -33,8 +33,8 @@ recipes.addShapedMirrored(<aether:arkenium_door_item>,[
 [<aether:arkenium>, <aether:arkenium>, <ore:dustRedstone>]]);
 
 #-Gates-
-recipes.remove(<natura:skyroot_fence_gate>);
-recipes.addShaped(<natura:skyroot_fence_gate>,[
+recipes.remove(<aether:skyroot_fence_gate>);
+recipes.addShaped(<aether:skyroot_fence_gate>,[
 [<ore:stickWood>, <ore:skyrootplanks>, <ore:stickWood>],
 [<ore:stickWood>, <ore:skyrootplanks>, <ore:stickWood>],
 [<ore:dustRedstone>, null, <ore:dustRedstone>]]);
@@ -114,8 +114,8 @@ recipes.addShaped(<aether:icestone_slab>*4,[
 [<aether:icestone_bricks>, <aether:icestone_bricks>, <aether:icestone_bricks>]]);
 
 #-Trapdoor-
-recipes.remove(<aether:skyroot_trap_door>);
-recipes.addShaped(<aether:skyroot_trap_door>,[
+recipes.remove(<aether:skyroot_trapdoor>);
+recipes.addShaped(<aether:skyroot_trapdoor>,[
 [<ore:dustRedstone>, null, <ore:dustRedstone>],
 [<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:skyrootplanks>],
 [<ore:skyrootplanks>, <ore:skyrootplanks>, <ore:skyrootplanks>]]);
