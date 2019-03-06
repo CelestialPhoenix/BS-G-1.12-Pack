@@ -6,14 +6,10 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #---Axe---
 #Copper
 recipes.remove(<thermalfoundation:tool.axe_copper>);
-recipes.addShaped(<thermalfoundation:tool.axe_copper>, [
-[<ore:toolHeadAxeCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.axe_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.axe_tin>);
-recipes.addShaped(<thermalfoundation:tool.axe_tin>, [
-[<ore:toolHeadAxeTin>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.axe_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.axe_silver>);
 recipes.addShaped(<thermalfoundation:tool.axe_silver>, [
@@ -296,14 +292,10 @@ recipes.addShaped(<thermalfoundation:armor.plate_constantan>, [
 #---Excavators---
 #Copper
 recipes.remove(<thermalfoundation:tool.excavator_copper>);
-recipes.addShaped(<thermalfoundation:tool.excavator_copper>, [
-[<ore:toolHeadPlowCopper>],
-[<ore:stickTitanium>]]);
+<thermalfoundation:tool.excavator_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.excavator_tin>);
-recipes.addShaped(<thermalfoundation:tool.excavator_tin>, [
-[<ore:toolHeadPlowTin>],
-[<ore:stickTitanium>]]);
+<thermalfoundation:tool.excavator_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.excavator_silver>);
 recipes.addShaped(<thermalfoundation:tool.excavator_silver>, [
@@ -373,9 +365,7 @@ recipes.addShaped(<thermalfoundation:tool.excavator_gold>, [
 #---Hammers---
 #Copper
 recipes.remove(<thermalfoundation:tool.hammer_copper>);
-recipes.addShaped(<thermalfoundation:tool.hammer_copper>, [
-[<ore:toolHeadHammerCopper>],
-[<ore:stickTitanium>]]);
+<thermalfoundation:tool.hammer_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.hammer_tin>);
 recipes.addShaped(<thermalfoundation:tool.hammer_tin>, [
@@ -512,14 +502,10 @@ recipes.addShaped(<thermalfoundation:armor.helmet_constantan>, [
 #---Hoe---
 #Copper
 recipes.remove(<thermalfoundation:tool.hoe_copper>);
-recipes.addShaped(<thermalfoundation:tool.hoe_copper>, [
-[<ore:toolHeadHoeCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.hoe_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.hoe_tin>);
-recipes.addShaped(<thermalfoundation:tool.hoe_tin>, [
-[<ore:toolHeadHoeTin>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.hoe_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.hoe_silver>);
 recipes.addShaped(<thermalfoundation:tool.hoe_silver>, [
@@ -648,14 +634,10 @@ recipes.addShaped(<thermalfoundation:armor.legs_constantan>, [
 #---Pickaxe---
 #Copper
 recipes.remove(<thermalfoundation:tool.pickaxe_copper>);
-recipes.addShaped(<thermalfoundation:tool.pickaxe_copper>, [
-[<ore:toolHeadPickaxeCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.pickaxe_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.pickaxe_tin>);
-recipes.addShaped(<thermalfoundation:tool.pickaxe_tin>, [
-[<ore:toolHeadPickaxeTin>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.pickaxe_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.pickaxe_silver>);
 recipes.addShaped(<thermalfoundation:tool.pickaxe_silver>, [
@@ -859,14 +841,10 @@ recipes.addShaped(<thermalfoundation:tool.shield_diamond>, [
 #---Sickle--
 #Copper
 recipes.remove(<thermalfoundation:tool.sickle_copper>);
-recipes.addShaped(<thermalfoundation:tool.sickle_copper>, [
-[<ore:toolHeadSenseCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.sickle_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.sickle_tin>);
-recipes.addShaped(<thermalfoundation:tool.sickle_tin>, [
-[<ore:toolHeadSenseTin>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.sickle_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.sickle_silver>);
 recipes.addShaped(<thermalfoundation:tool.sickle_silver>, [
@@ -936,14 +914,10 @@ recipes.addShaped(<thermalfoundation:tool.sickle_diamond>, [
 #---Shovel---
 #Copper
 recipes.remove(<thermalfoundation:tool.shovel_copper>);
-recipes.addShaped(<thermalfoundation:tool.shovel_copper>, [
-[<ore:toolHeadShovelCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.shovel_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.shovel_tin>);
-recipes.addShaped(<thermalfoundation:tool.shovel_tin>, [
-[<ore:toolHeadShovelTin>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.shovel_tin>.addTooltip("This item is disabled");
 #Silver
 recipes.remove(<thermalfoundation:tool.shovel_silver>);
 recipes.addShaped(<thermalfoundation:tool.shovel_silver>, [
@@ -998,9 +972,7 @@ recipes.addShaped(<thermalfoundation:tool.shovel_constantan>, [
 #---Swords---
 #Copper
 recipes.remove(<thermalfoundation:tool.sword_copper>);
-recipes.addShaped(<thermalfoundation:tool.sword_copper>, [
-[<ore:toolHeadSwordCopper>],
-[<ore:toolRodWood>]]);
+<thermalfoundation:tool.sword_copper>.addTooltip("This item is disabled");
 #Tin
 recipes.remove(<thermalfoundation:tool.sword_tin>);
 recipes.addShaped(<thermalfoundation:tool.sword_tin>, [
