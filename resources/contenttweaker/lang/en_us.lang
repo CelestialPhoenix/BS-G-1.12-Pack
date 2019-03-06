@@ -144,9 +144,27 @@ tile.contenttweaker.casingsteel.name=Machine Casing
 tile.contenttweaker.casingtitanium.name=Machine Casing IV
 tile.contenttweaker.casingtungstensteel.name=Machine Casing V
 
+tile.contenttweaker.castaxebronze.name=Cast Bronze Axe Heads
+tile.contenttweaker.castaxecopper.name=Cast Copper Axe Heads
+tile.contenttweaker.castaxeiron.name=Cast Iron Axe Heads
+tile.contenttweaker.castaxesteel.name=Cast Steel Axe Heads
+tile.contenttweaker.castaxetin.name=Cast Tin Axe Heads
+
+tile.contenttweaker.casthoebronze.name=Cast Bronze Hoe Blades
+tile.contenttweaker.casthoecopper.name=Cast Copper Hoe Blades
+tile.contenttweaker.casthoeiron.name=Cast Iron Hoe Blades
+tile.contenttweaker.casthoesteel.name=Cast Steel Hoe Blades
+tile.contenttweaker.casthoetin.name=Cast Tin Hoe Blades
+
 tile.contenttweaker.casthullaluminium.name=Cast Aluminium Hull
 tile.contenttweaker.casthullbronze.name=Cast Bronze Hull
 tile.contenttweaker.casthullsteel.name=Cast Steel Hull
+
+tile.contenttweaker.castpickaxebronze.name=Cast Bronze Axe Heads
+tile.contenttweaker.castpickaxecopper.name=Cast Copper Axe Heads
+tile.contenttweaker.castpickaxeiron.name=Cast Iron Axe Heads
+tile.contenttweaker.castpickaxesteel.name=Cast Steel Axe Heads
+tile.contenttweaker.castpickaxetin.name=Cast Tin Axe Heads
 
 tile.contenttweaker.castpipemediumbronze.name=Cast Bronze Pipe
 tile.contenttweaker.castpipemediumcopper.name=Cast Copper Pipe
@@ -167,6 +185,18 @@ tile.contenttweaker.castrodcopper.name=Cast Copper Rods
 tile.contenttweaker.castrodiron.name=Cast Iron Rods
 tile.contenttweaker.castrodsteel.name=Cast Steel Rods
 tile.contenttweaker.castrodtin.name=Cast Tin Rods
+
+tile.contenttweaker.castshovelbronze.name=Cast Bronze Shovel Heads
+tile.contenttweaker.castshovelcopper.name=Cast Copper Shovel Heads
+tile.contenttweaker.castshoveliron.name=Cast Iron Shovel Heads
+tile.contenttweaker.castshovelsteel.name=Cast Steel Shovel Heads
+tile.contenttweaker.castshoveltin.name=Cast Tin Shovel Heads
+
+tile.contenttweaker.castswordbronze.name=Cast Bronze Sword Blades
+tile.contenttweaker.castswordcopper.name=Cast Copper Sword Blades
+tile.contenttweaker.castswordiron.name=Cast Iron Sword Blades
+tile.contenttweaker.castswordsteel.name=Cast Steel Sword Blades
+tile.contenttweaker.castswordtin.name=Cast Tin Sword Blades
 
 tile.contenttweaker.chassiswroughtiron.name=ULV Machine Chassis
 tile.contenttweaker.chassissteel.name=LV Machine Chassis
@@ -215,6 +245,12 @@ tile.contenttweaker.mouldpipemedium.name=Pipe Mold
 tile.contenttweaker.mouldpipesmall.name=Pipes Mold 
 tile.contenttweaker.mouldrods.name=Rods Mold
 tile.contenttweaker.mouldrings.name=Rings Mold
+
+tile.contenttweaker.mouldpickaxehead.name=Pickaxe Head Mold
+tile.contenttweaker.mouldaxehead.name=Axe Head Mold
+tile.contenttweaker.mouldshovelhead.name=Shovel Head Mold
+tile.contenttweaker.mouldswordhead.name=Sword Head Mold
+tile.contenttweaker.mouldhoehead.name=Hoe Head Mold
 
 tile.contenttweaker.woodrotten.name=Rotten Wood
 tile.contenttweaker.woodslimegreen.name=Slimy Wood

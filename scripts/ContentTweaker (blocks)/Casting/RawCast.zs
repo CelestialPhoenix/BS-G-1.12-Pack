@@ -15,6 +15,8 @@ CastRaw.setBlockSoundType(<soundtype:sand>);
 CastRaw.setSlipperiness(0.6);
 CastRaw.register();
 
+#---Components---
+
 var MouldRings = VanillaFactory.createBlock("mouldrings", <blockmaterial:ground>);
 MouldRings.setBlockHardness(5.0);
 MouldRings.setBlockResistance(5.0);
@@ -59,3 +61,49 @@ MouldPipeSmall.setToolLevel(0);
 MouldPipeSmall.setBlockSoundType(<soundtype:sand>);
 MouldPipeSmall.setSlipperiness(0.6);
 MouldPipeSmall.register();
+
+#---Tools---
+var MouldAxeHead = VanillaFactory.createBlock("mouldaxehead", <blockmaterial:ground>);
+MouldAxeHead.setBlockHardness(5.0);
+MouldAxeHead.setBlockResistance(5.0);
+MouldAxeHead.setToolClass("shovel");
+MouldAxeHead.setToolLevel(0);
+MouldAxeHead.setBlockSoundType(<soundtype:sand>);
+MouldAxeHead.setSlipperiness(0.6);
+MouldAxeHead.register();
+
+var MouldHoeHead = VanillaFactory.createBlock("mouldhoehead", <blockmaterial:ground>);
+MouldHoeHead.setBlockHardness(5.0);
+MouldHoeHead.setBlockResistance(5.0);
+MouldHoeHead.setToolClass("shovel");
+MouldHoeHead.setToolLevel(0);
+MouldHoeHead.setBlockSoundType(<soundtype:sand>);
+MouldHoeHead.setSlipperiness(0.6);
+MouldHoeHead.register();
+
+var MouldPickaxeHead = VanillaFactory.createBlock("mouldpickaxehead", <blockmaterial:ground>);
+MouldPickaxeHead.setBlockHardness(5.0);
+MouldPickaxeHead.setBlockResistance(5.0);
+MouldPickaxeHead.setToolClass("shovel");
+MouldPickaxeHead.setToolLevel(0);
+MouldPickaxeHead.setBlockSoundType(<soundtype:sand>);
+MouldPickaxeHead.setSlipperiness(0.6);
+MouldPickaxeHead.register();
+
+var MouldShovelHead = VanillaFactory.createBlock("mouldshovelhead", <blockmaterial:ground>);
+MouldShovelHead.setBlockHardness(5.0);
+MouldShovelHead.setBlockResistance(5.0);
+MouldShovelHead.setToolClass("shovel");
+MouldShovelHead.setToolLevel(0);
+MouldShovelHead.setBlockSoundType(<soundtype:sand>);
+MouldShovelHead.setSlipperiness(0.6);
+MouldShovelHead.register();
+
+var MouldSwordHead = VanillaFactory.createBlock("mouldswordhead", <blockmaterial:ground>);
+MouldSwordHead.setBlockHardness(5.0);
+MouldSwordHead.setBlockResistance(5.0);
+MouldSwordHead.setToolClass("shovel");
+MouldSwordHead.setToolLevel(0);
+MouldSwordHead.setBlockSoundType(<soundtype:sand>);
+MouldSwordHead.setSlipperiness(0.6);
+MouldSwordHead.register();

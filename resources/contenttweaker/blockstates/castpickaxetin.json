@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "contenttweaker:blocks/casts/castpickaxetin",
+         "down":"contenttweaker:blocks/casts/casthard",
+         "north":"contenttweaker:blocks/casts/casthard",
+         "south":"contenttweaker:blocks/casts/casthard",
+         "east":"contenttweaker:blocks/casts/casthard",
+         "west":"contenttweaker:blocks/casts/casthard",
+		 "particle":"contenttweaker:blocks/casts/casthard"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

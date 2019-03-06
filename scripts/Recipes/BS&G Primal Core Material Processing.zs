@@ -3,6 +3,39 @@
 
 print("Going Primal. Not unlike going commando");
 
+#---In World Crafting---
+#-Tool Mould-
+mods.primal.Axe.addRecipe(
+    "Axe_Mold_Craft", 
+    <contenttweaker:castraw>, 
+    <contenttweaker:mouldaxehead>
+);
+mods.primal.Axe.addRecipe(
+    "Hoe_Mold_Craft", 
+    <contenttweaker:mouldaxehead>, 
+    <contenttweaker:mouldhoehead>
+);
+mods.primal.Hoe.addRecipe(
+    "Hoe_Mold_Craft_Fast", 
+    <contenttweaker:castraw>, 
+    <contenttweaker:mouldhoehead>
+);
+mods.primal.Axe.addRecipe(
+    "Pickaxe_Mold_Craft", 
+    <contenttweaker:mouldshovelhead>, 
+    <contenttweaker:mouldpickaxehead>
+);
+mods.primal.Shovel.addRecipe(
+    "Shovel_Mold_Craft", 
+    <contenttweaker:castraw>, 
+    <contenttweaker:mouldshovelhead>
+);
+mods.primal.Axe.addRecipe(
+    "Sword_Mold_Craft", 
+    <contenttweaker:mouldaxehead>, 
+    <contenttweaker:mouldswordhead>
+);
+
 #---Charcoal Production---
 
 #--Log Stacks--
