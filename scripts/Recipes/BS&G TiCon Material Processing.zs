@@ -5,7 +5,7 @@ print("I'll cast my eye on you");
 
 #name items
 
-#---Moulds (Reusable)
+#---Moulds (Reusable)---
 #mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
 
 #-Components-
@@ -303,35 +303,35 @@ mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxebronze>, <contentt
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxecopper>, <contenttweaker:mouldaxehead>, <liquid:copper>, 2160, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxeiron>, <contenttweaker:mouldaxehead>, <liquid:iron>, 2160, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxesteel>, <contenttweaker:mouldaxehead>, <liquid:steel>, 2160, true);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxetin>, <contenttweaker:mouldaxehead>, <liquid:tin>, 2160, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxetin>, <contenttweaker:mouldaxehead>, <liquid:tin>, 2160, true);
 
 #Hoe
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoebronze>, <contenttweaker:mouldhoehead>, <liquid:bronze>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoecopper>, <contenttweaker:mouldhoehead>, <liquid:copper>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoeiron>, <contenttweaker:mouldhoehead>, <liquid:iron>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoesteel>, <contenttweaker:mouldhoehead>, <liquid:steel>, 1440, true);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoetin>, <contenttweaker:mouldhoehead>, <liquid:tin>, 1440, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoetin>, <contenttweaker:mouldhoehead>, <liquid:tin>, 1440, true);
 
 #Pickaxe
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxebronze>, <contenttweaker:mouldpickaxehead>, <liquid:bronze>, 1008, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxecopper>, <contenttweaker:mouldpickaxehead>, <liquid:copper>, 1008, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxeiron>, <contenttweaker:mouldpickaxehead>, <liquid:iron>, 1008, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxesteel>, <contenttweaker:mouldpickaxehead>, <liquid:steel>, 1008, true);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxetin>, <contenttweaker:mouldpickaxehead>, <liquid:tin>, 1008, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castpickaxetin>, <contenttweaker:mouldpickaxehead>, <liquid:tin>, 1008, true);
 
 #Shovel
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshovelbronze>, <contenttweaker:mouldshovelhead>, <liquid:bronze>, 720, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshovelcopper>, <contenttweaker:mouldshovelhead>, <liquid:copper>, 720, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshoveliron>, <contenttweaker:mouldshovelhead>, <liquid:iron>, 720, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshovelsteel>, <contenttweaker:mouldshovelhead>, <liquid:steel>, 720, true);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshoveltin>, <contenttweaker:mouldshovelhead>, <liquid:tin>, 720, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castshoveltin>, <contenttweaker:mouldshovelhead>, <liquid:tin>, 720, true);
 
 #Sword
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordbronze>, <contenttweaker:mouldswordhead>, <liquid:bronze>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordcopper>, <contenttweaker:mouldswordhead>, <liquid:copper>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordiron>, <contenttweaker:mouldswordhead>, <liquid:iron>, 1440, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordsteel>, <contenttweaker:mouldswordhead>, <liquid:steel>, 1440, true);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordtin>, <contenttweaker:mouldswordhead>, <liquid:tin>, 1440, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castswordtin>, <contenttweaker:mouldswordhead>, <liquid:tin>, 1440, true);
 
 #---Tool Part Reusable Casting---
 
