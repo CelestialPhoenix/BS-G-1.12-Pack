@@ -18,6 +18,7 @@ calcium.addFlags(["GENERATE_ORE"]);
 
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
+copper.setIngotMaterial(602, "copper", 0xFF4C00, "dull", 4, null, 3.5, 128, 1800);
 
 var materialgold = <material:gold>;
 #materialgold.addToolDurability(128);
