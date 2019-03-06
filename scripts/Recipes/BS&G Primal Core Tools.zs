@@ -3,241 +3,228 @@
 
 print("Going Primal. Not unlike going commando");
 
-#--Crafting tables--
-recipes.remove(<primal:worktable_shelf>);
-recipes.addShaped(<primal:worktable_shelf>, [
-[<ore:craftingTableWood>],
-[<ore:logOak>]]);
+#---Recipes---
 
-recipes.remove(<primal:worktable_shelf:1>);
-recipes.addShaped(<primal:worktable_shelf:1>, [
-[<ore:craftingTableWood>],
-[<ore:logSpruce>]]);
+#--Tools--
+#-Bone-
+#Axe
+recipes.remove(<primal:bone_hatchet>);
+recipes.addShapedMirrored(<primal:bone_hatchet>,[
+[<ore:bone>, <ore:bone>],
+[<ore:bone>, <ore:toolRodWood>],
+[null, <ore:toolRodWood>]]);
+<primal:bone_hatchet>.displayName="Bone Axe";
 
-recipes.remove(<primal:worktable_shelf:2>);
-recipes.addShaped(<primal:worktable_shelf:2>, [
-[<ore:craftingTableWood>],
-[<ore:logBirch>]]);
+#Hatchet
+#Renamed to axe
 
-recipes.remove(<primal:worktable_shelf:3>);
-recipes.addShaped(<primal:worktable_shelf:3>, [
-[<ore:craftingTableWood>],
-[<ore:logJungle>]]);
+#Hoe
+recipes.remove(<primal:bone_hoe>);
+<primal:bone_hoe>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:worktable_shelf:4>);
-recipes.addShaped(<primal:worktable_shelf:4>, [
-[<ore:craftingTableWood>],
-[<ore:logAcacia>]]);
+#Pickaxe
+recipes.remove(<primal:bone_pickaxe>);
+recipes.addShaped(<primal:bone_pickaxe>,[
+[<ore:bone>, <ore:bone>, <ore:bone>],
+[null, <ore:toolRodWood>, null],
+[null, <ore:toolRodWood>, null]]);
 
-recipes.remove(<primal:worktable_shelf:5>);
-recipes.addShaped(<primal:worktable_shelf:5>, [
-[<ore:craftingTableWood>],
-[<ore:logDarkOak>]]);
+#Saw
+recipes.remove(<primal:bone_saw>);
+<primal:bone_saw>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:worktable_shelf:6>);
-recipes.addShaped(<primal:worktable_shelf:6>, [
-[<ore:craftingTableWood>],
-[<ore:logIronwood>]]);
+#Shears
+recipes.remove(<primal:bone_shears>);
+<primal:bone_shears>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:worktable_shelf:7>);
-recipes.addShaped(<primal:worktable_shelf:7>, [
-[<ore:craftingTableWood>],
-[<ore:logYew>]]);
+#Shovel
+recipes.remove(<primal:bone_shovel>);
+recipes.addShaped(<primal:bone_shovel>,[
+[<ore:bone>],
+[<ore:toolRodWood>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:worktable_shelf:8>);
-recipes.addShaped(<primal:worktable_shelf:8>, [
-[<ore:craftingTableWood>],
-[<ore:logLacquer>]]);
+#Sword
+recipes.remove(<primal:sword_crude_bone>);
+<primal:sword_crude_flint>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:worktable_shelf:9>);
-recipes.addShaped(<primal:worktable_shelf:9>, [
-[<ore:craftingTableWood>],
-[<ore:logCorypha>]]);
+#-Diamond-
+#Axe
+recipes.remove(<primal:diamond_axe>);
+<primal:diamond_axe>.addTooltip("This item is disabled");
 
-#--Doors--
-recipes.remove(<primal:door_corypha>);
-recipes.addShapedMirrored(<primal:door_corypha>, [
-[<ore:dustRedstone>, <ore:plankCorypha>, <ore:plankCorypha>],
-[null, <ore:plankCorypha>, <ore:plankCorypha>],
-[<ore:dustRedstone>, <ore:plankCorypha>, <ore:plankCorypha>]]);
+#Hatchet
+recipes.remove(<primal:diamond_hatchet>);
+<primal:diamond_hatchet>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:door_ironwood>);
-recipes.addShapedMirrored(<primal:door_ironwood>, [
-[<ore:dustRedstone>, <ore:plankIronwood>, <ore:plankIronwood>],
-[null, <ore:plankIronwood>, <ore:plankIronwood>],
-[<ore:dustRedstone>, <ore:plankIronwood>, <ore:plankIronwood>]]);
+#Hoe
+recipes.remove(<primal:diamond_hoe>);
+<primal:diamond_hoe>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:door_yew>);
-recipes.addShapedMirrored(<primal:door_yew>, [
-[<ore:dustRedstone>, <ore:plankYew>, <ore:plankYew>],
-[null, <ore:plankYew>, <ore:plankYew>],
-[<ore:dustRedstone>, <ore:plankYew>, <ore:plankYew>]]);
+#Pickaxe
+recipes.remove(<primal:diamond_pickaxe>);
+<primal:diamond_pickaxe>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:door_lacquer>);
-recipes.addShapedMirrored(<primal:door_lacquer>, [
-[<ore:dustRedstone>, <ore:plankLacquer>, <ore:plankLacquer>],
-[null, <ore:plankLacquer>, <ore:plankLacquer>],
-[<ore:dustRedstone>, <ore:plankLacquer>, <ore:plankLacquer>]]);
+#Saw
+recipes.remove(<primal:diamond_saw>);
+<primal:diamond_saw>.addTooltip("This item is disabled");
 
-#--Drying Rack--
-recipes.remove(<primal:drying_rack>);
-recipes.addShaped(<primal:drying_rack>, [
-[<ore:slatOak>, <ore:slatOak>, <ore:slatOak>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Shovel
+recipes.remove(<primal:diamond_shovel>);
+<primal:diamond_shovel>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:drying_rack:1>);
-recipes.addShaped(<primal:drying_rack:1>, [
-[<ore:slatSpruce>, <ore:slatSpruce>, <ore:slatSpruce>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Workblade
+recipes.remove(<primal:diamond_workblade>);
+<primal:diamond_workblade>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:drying_rack:2>);
-recipes.addShaped(<primal:drying_rack:2>, [
-[<ore:slatBirch>, <ore:slatBirch>, <ore:slatBirch>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#-Emerald-
+#Axe
+recipes.remove(<primal:emerald_axe>);
+recipes.addShaped(<primal:emerald_axe>,[
+[<ore:toolHeadAxeEmerald>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:drying_rack:3>);
-recipes.addShaped(<primal:drying_rack:3>, [
-[<ore:slatJungle>, <ore:slatJungle>, <ore:slatJungle>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Hatchet
+recipes.remove(<primal:emerald_hatchet>);
+<primal:emerald_hatchet>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:drying_rack:4>);
-recipes.addShaped(<primal:drying_rack:4>, [
-[<ore:slatAcacia>, <ore:slatAcacia>, <ore:slatAcacia>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Hoe
+recipes.remove(<primal:emerald_hoe>);
+recipes.addShaped(<primal:emerald_hoe>,[
+[<ore:toolHeadHoeEmerald>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:drying_rack:5>);
-recipes.addShaped(<primal:drying_rack:5>, [
-[<ore:slatDarkOak>, <ore:slatDarkOak>, <ore:slatDarkOak>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Pickaxe
+recipes.remove(<primal:emerald_pickaxe>);
+recipes.addShaped(<primal:emerald_pickaxe>,[
+[<ore:toolHeadPickaxeEmerald>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:drying_rack:6>);
-recipes.addShaped(<primal:drying_rack:6>, [
-[<ore:slatIronwood>, <ore:slatIronwood>, <ore:slatIronwood>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Saw
+recipes.remove(<primal:emerald_saw>);
+<primal:emerald_saw>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:drying_rack:7>);
-recipes.addShaped(<primal:drying_rack:7>, [
-[<ore:slatYew>, <ore:slatYew>, <ore:slatYew>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Shovel
+recipes.remove(<primal:emerald_shovel>);
+recipes.addShaped(<primal:emerald_shovel>,[
+[<ore:toolHeadShovelEmerald>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:drying_rack:8>);
-recipes.addShaped(<primal:drying_rack:8>, [
-[<ore:slatLacquer>, <ore:slatLacquer>, <ore:slatLacquer>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#Workblade
+recipes.remove(<primal:emerald_workblade>);
+<primal:emerald_workblade>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:drying_rack:9>);
-recipes.addShaped(<primal:drying_rack:9>, [
-[<ore:slatCorypha>, <ore:slatCorypha>, <ore:slatCorypha>],
-[<ore:stickWood>, null, <ore:stickWood>],
-[<ore:stickWood>, null, <ore:stickWood>]]);
+#-Flint-
+#Axe
+recipes.remove(<primal:flint_axe>);
+recipes.addShapedMirrored(<primal:flint_axe>,[
+[<ore:itemFlint>, <ore:itemFlint>],
+[<ore:itemFlint>, <ore:toolRodWood>],
+[null, <ore:toolRodWood>]]);
 
-#--Gate--
-recipes.remove(<primal:gate_ironwood>);
-recipes.addShapedMirrored(<primal:gate_ironwood>, [
-[<ore:stickIronwood>, <ore:plankIronwood>, <ore:stickIronwood>],
-[<ore:stickIronwood>, <ore:plankIronwood>, <ore:stickIronwood>],
-[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+#Hatchet
+recipes.remove(<primal:flint_hatchet>);
+<primal:flint_hatchet>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:gate_corypha>);
-recipes.addShapedMirrored(<primal:gate_corypha>, [
-[<ore:stickCorypha>, <ore:plankCorypha>, <ore:stickCorypha>],
-[<ore:stickCorypha>, <ore:plankCorypha>, <ore:stickCorypha>],
-[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+#Hoe
+recipes.remove(<primal:flint_hoe>);
+<primal:flint_hoe>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:gate_yew>);
-recipes.addShapedMirrored(<primal:gate_yew>, [
-[<ore:stickYew>, <ore:plankYew>, <ore:stickYew>],
-[<ore:stickYew>, <ore:plankYew>, <ore:stickYew>],
-[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+#Pickaxe
+recipes.remove(<primal:flint_pickaxe>);
+recipes.addShaped(<primal:flint_pickaxe>,[
+[<ore:itemFlint>, <ore:itemFlint>, <ore:itemFlint>],
+[null, <ore:toolRodWood>, null],
+[null, <ore:toolRodWood>, null]]);
 
-recipes.remove(<primal:gate_lacquer>);
-recipes.addShapedMirrored(<primal:gate_lacquer>, [
-[<ore:stickLacquer>, <ore:plankLacquer>, <ore:stickLacquer>],
-[<ore:stickLacquer>, <ore:plankLacquer>, <ore:stickLacquer>],
-[<ore:dustRedstone>, null, <ore:dustRedstone>]]);
+#Saw
+recipes.remove(<primal:flint_saw>);
+<primal:flint_saw>.addTooltip("This item is disabled");
 
-#--Ladders--
-recipes.remove(<primal:ladder_acacia>);
-recipes.addShapeless(<primal:ladder_acacia>, [<ore:slatAcacia>]);
+#Shears
+recipes.remove(<primal:flint_shears>);
+<primal:flint_shears>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:ladder_bigoak>);
-recipes.addShapeless(<primal:ladder_bigoak>, [<ore:slatDarkOak>]);
+#Shovel
+recipes.remove(<primal:flint_shovel>);
+recipes.addShaped(<primal:flint_shovel>,[
+[<ore:itemFlint>],
+[<ore:toolRodWood>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:ladder_birch>);
-recipes.addShapeless(<primal:ladder_birch>, [<ore:slatBirch>]);
+#Sword
+recipes.remove(<primal:sword_crude_flint>);
+<primal:sword_crude_flint>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:ladder_jungle>);
-recipes.addShapeless(<primal:ladder_jungle>, [<ore:slatJungle>]);
+#Workblade
+recipes.remove(<primal:flint_workblade>);
+<primal:flint_workblade>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:ladder_oak>);
-recipes.addShapeless(<primal:ladder_oak>, [<ore:slatOak>]);
+#-Quartz-
+#Axe
+recipes.remove(<primal:quartz_axe>);
+recipes.addShaped(<primal:quartz_axe>,[
+[<ore:toolHeadAxeNetherQuartz>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:ladder_spruce>);
-recipes.addShapeless(<primal:ladder_spruce>, [<ore:slatpruce>]);
+recipes.addShaped(<primal:quartz_axe>,[
+[<ore:toolHeadAxeCertusQuartz>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:ladder_ironwood>);
-recipes.addShapeless(<primal:ladder_ironwood>, [<ore:slatIronwood>]);
+#Hatchet
+recipes.remove(<primal:quartz_hatchet>);
+<primal:quartz_hatchet>.addTooltip("This item is disabled");
 
-recipes.remove(<primal:ladder_corypha>);
-recipes.addShapeless(<primal:ladder_corypha>, [<ore:slatCorypha>]);
+#Hoe
+recipes.remove(<primal:quartz_hoe>);
+recipes.addShaped(<primal:quartz_hoe>,[
+[<ore:toolHeadHoeNetherQuartz>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:ladder_lacquer>);
-recipes.addShapeless(<primal:ladder_lacquer>, [<ore:slatLacquer>]);
+recipes.addShaped(<primal:quartz_hoe>,[
+[<ore:toolHeadHoeCertusQuartz>],
+[<ore:toolRodWood>]]);
 
-recipes.remove(<primal:ladder_yew>);
-recipes.addShapeless(<primal:ladder_yew>, [<ore:slatYew>]);
+#Pickaxe
+recipes.remove(<primal:quartz_pickaxe>);
+recipes.addShaped(<primal:quartz_pickaxe>,[
+[<ore:toolHeadPickaxeNetherQuartz>],
+[<ore:toolRodWood>]]);
 
-#--Ladders (block)--
-#in world only
-recipes.remove(<primal:ladder_block_smoothstone>);
-recipes.remove(<primal:ladder_block_andesite>);
-recipes.remove(<primal:ladder_block_granite>);
-recipes.remove(<primal:ladder_block_diorite>);
-recipes.remove(<primal:ladder_block_smoothandesite>);
-recipes.remove(<primal:ladder_block_smoothgranite>);
-recipes.remove(<primal:ladder_block_smoothdiorite>);
-recipes.remove(<primal:ladder_block_cobblestone>);
-recipes.remove(<primal:ladder_block_cobblestone_mossy>);
-recipes.remove(<primal:ladder_block_stonebrick>);
-recipes.remove(<primal:ladder_block_stonebrick_mossy>);
-recipes.remove(<primal:ladder_block_stonebrick_cracked>);
-recipes.remove(<primal:ladder_block_endstone>);
-recipes.remove(<primal:ladder_block_endbrick>);
-recipes.remove(<primal:ladder_block_netherrack>);
-recipes.remove(<primal:ladder_block_netherbrick>);
-recipes.remove(<primal:ladder_block_netherstone>);
+recipes.addShaped(<primal:quartz_pickaxe>,[
+[<ore:toolHeadPickaxeCertusQuartz>],
+[<ore:toolRodWood>]]);
 
-#--Log Piles--
+#Saw
+recipes.remove(<primal:quartz_saw>);
+<primal:quartz_saw>.addTooltip("This item is disabled");
 
-<primal:logs_stacked:0>.displayName = "Log Stack"; #Fair #Light
-<primal:logs_stacked:1>.displayName = "Hardwood Log Stack"; #Good #Dark
-<primal:logs_stacked:2>.displayName = "Softwood Log Stack"; #Poor #Light
-<primal:logs_stacked:3>.displayName = "Exotic Wood Log Stack"; #High #Light
-<primal:logs_stacked:4>.displayName = "Hardwood Log Stack"; #Good #Light
-<primal:logs_stacked:5>.displayName = "Log Stack"; #Fair #Dark
-<primal:logs_stacked:6>.displayName = "Exotic Log Stack"; #High #Dark
-<primal:logs_stacked:7>.displayName = "Softwood Log Stack"; #Poor #Dark
+#Shears
+recipes.remove(<primal:quartz_shears>);
+<primal:quartz_shears>.addTooltip("This item is disabled");
 
-#--Torch--
-recipes.remove(<primal:torch_wood>);
-recipes.remove(<primal:torch_nether>);
-recipes.remove(<primal:torch_nether_lit>);
+#Shovel
+recipes.remove(<primal:quartz_shovel>);
+recipes.addShaped(<primal:quartz_shovel>,[
+[<ore:toolHeadShovelNetherQuartz>],
+[<ore:toolRodWood>]]);
 
-recipes.addShaped(<primal:torch_nether_lit>, [
-[<ore:coal>],
-[<ore:stickNetherrack>]]);
-recipes.addShaped(<primal:torch_nether_lit>, [
-[<ore:charcoalcoal>],
-[<ore:stickNetherrack>]]);
-recipes.addShaped(<primal:torch_nether_lit>*2, [
-[<ore:fuelCoke>],
-[<ore:stickNetherrack>]]);
+recipes.addShaped(<primal:quartz_shovel>,[
+[<ore:toolHeadShovelCertusQuartz>],
+[<ore:toolRodWood>]]);
+
+#Sword
+recipes.remove(<primal:sword_crude_quartz>);
+recipes.addShaped(<primal:sword_crude_quartz>,[
+[<ore:toolHeadSwordNetherQuartz>],
+[<ore:toolRodWood>]]);
+
+recipes.addShaped(<primal:sword_crude_quartz>,[
+[<ore:toolHeadSwordCertusQuartz>],
+[<ore:toolRodWood>]]);
+
+#Workblade
+recipes.remove(<primal:quartz_workblade>);
+<primal:quartz_workblade>.addTooltip("This item is disabled");
+
+

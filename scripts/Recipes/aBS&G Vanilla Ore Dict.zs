@@ -23,6 +23,8 @@ print("Mwah ha ha ha ha ha");
 <ore:furnace>.add(<minecraft:furnace>);
 <ore:magmacream>.add(<minecraft:magma_cream>);
 
+<ore:itemFlint>.add(<minecraft:flint>);
+
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 
