@@ -4,7 +4,7 @@
 print("Going Primal. Not unlike going commando");
 
 #---In World Crafting---
-#-Tool Mould-
+#-Tool Moulds-
 mods.primal.Axe.addRecipe(
     "Axe_Mold_Craft", 
     <contenttweaker:castraw>, 
@@ -14,6 +14,11 @@ mods.primal.Axe.addRecipe(
     "Hoe_Mold_Craft", 
     <contenttweaker:mouldaxehead>, 
     <contenttweaker:mouldhoehead>
+);
+mods.primal.Gallagher.addRecipe(
+    "Hammer_Mold_Craft", 
+    <contenttweaker:castraw>, 
+    <contenttweaker:mouldhammerhead>
 );
 mods.primal.Hoe.addRecipe(
     "Hoe_Mold_Craft_Fast", 

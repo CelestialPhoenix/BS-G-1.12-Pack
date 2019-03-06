@@ -150,6 +150,10 @@ tile.contenttweaker.castaxeiron.name=Cast Iron Axe Heads
 tile.contenttweaker.castaxesteel.name=Cast Steel Axe Heads
 tile.contenttweaker.castaxetin.name=Cast Tin Axe Heads
 
+tile.contenttweaker.casthammerbronze.name=Cast Bronze Hammer Heads
+tile.contenttweaker.casthammeriron.name=Cast Iron Hammer Heads
+tile.contenttweaker.casthammersteel.name=Cast Steel Hammer Heads
+
 tile.contenttweaker.casthoebronze.name=Cast Bronze Hoe Blades
 tile.contenttweaker.casthoecopper.name=Cast Copper Hoe Blades
 tile.contenttweaker.casthoeiron.name=Cast Iron Hoe Blades
@@ -160,11 +164,11 @@ tile.contenttweaker.casthullaluminium.name=Cast Aluminium Hull
 tile.contenttweaker.casthullbronze.name=Cast Bronze Hull
 tile.contenttweaker.casthullsteel.name=Cast Steel Hull
 
-tile.contenttweaker.castpickaxebronze.name=Cast Bronze Axe Heads
-tile.contenttweaker.castpickaxecopper.name=Cast Copper Axe Heads
-tile.contenttweaker.castpickaxeiron.name=Cast Iron Axe Heads
-tile.contenttweaker.castpickaxesteel.name=Cast Steel Axe Heads
-tile.contenttweaker.castpickaxetin.name=Cast Tin Axe Heads
+tile.contenttweaker.castpickaxebronze.name=Cast Bronze Pickaxe Heads
+tile.contenttweaker.castpickaxecopper.name=Cast Copper Pickaxe Heads
+tile.contenttweaker.castpickaxeiron.name=Cast Iron Pickaxe Heads
+tile.contenttweaker.castpickaxesteel.name=Cast Steel Pickaxe Heads
+tile.contenttweaker.castpickaxetin.name=Cast Tin Pickaxe Heads
 
 tile.contenttweaker.castpipemediumbronze.name=Cast Bronze Pipe
 tile.contenttweaker.castpipemediumcopper.name=Cast Copper Pipe

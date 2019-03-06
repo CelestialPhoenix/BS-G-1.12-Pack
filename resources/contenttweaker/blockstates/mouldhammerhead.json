@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+         "up":"contenttweaker:blocks/casts/mouldhammerhead",
+         "down":"contenttweaker:blocks/casts/castraw",
+         "north":"contenttweaker:blocks/casts/castraw",
+         "south":"contenttweaker:blocks/casts/castraw",
+         "east":"contenttweaker:blocks/casts/castraw",
+         "west":"contenttweaker:blocks/casts/castraw",
+		 "particle":"contenttweaker:blocks/casts/castraw"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

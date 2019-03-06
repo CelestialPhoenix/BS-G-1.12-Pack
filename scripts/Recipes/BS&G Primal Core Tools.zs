@@ -160,6 +160,21 @@ recipes.remove(<primal:sword_crude_flint>);
 recipes.remove(<primal:flint_workblade>);
 <primal:flint_workblade>.addTooltip("This item is disabled");
 
+#-Iron-
+#Gallagher
+recipes.remove(<primal:iron_gallagher>);
+recipes.addShaped(<primal:iron_gallagher>,[
+[<ore:toolHeadHammerIron>],
+[<ore:toolRodWood>]]);
+
+#-Nether Stone-
+#Gallagher
+recipes.remove(<primal:nether_gallagher>);
+recipes.addShaped(<primal:nether_gallagher>,[
+[<ore:stoneNether>, <ore:stickWood>, <ore:stoneNether>],
+[<ore:stoneNether>, <ore:stickWood>,<ore:stoneNether>],
+[null, <ore:stickWood>, null]]);
+
 #-Quartz-
 #Axe
 recipes.remove(<primal:quartz_axe>);
@@ -169,6 +184,16 @@ recipes.addShaped(<primal:quartz_axe>,[
 
 recipes.addShaped(<primal:quartz_axe>,[
 [<ore:toolHeadAxeCertusQuartz>],
+[<ore:toolRodWood>]]);
+
+#Gallagher
+recipes.remove(<primal:quartz_gallagher>);
+recipes.addShaped(<primal:quartz_gallagher>,[
+[<ore:toolHeadHammerCertusQuartz>],
+[<ore:toolRodWood>]]);
+
+recipes.addShaped(<primal:quartz_gallagher>,[
+[<ore:toolHeadHammerNetherQuartz>],
 [<ore:toolRodWood>]]);
 
 #Hatchet
@@ -227,4 +252,15 @@ recipes.addShaped(<primal:sword_crude_quartz>,[
 recipes.remove(<primal:quartz_workblade>);
 <primal:quartz_workblade>.addTooltip("This item is disabled");
 
+#-Stone-
+#Gallagher
+recipes.remove(<primal:stone_gallagher>);
+recipes.addShaped(<primal:stone_gallagher>,[
+[<ore:stone>, <ore:stickWood>, <ore:stone>],
+[<ore:stone>, <ore:stickWood>,<ore:stone>],
+[null, <ore:stickWood>, null]]);
 
+recipes.addShaped(<primal:stone_gallagher>,[
+[<ore:stoneCobble>, <ore:stickWood>, <ore:stoneCobble>],
+[<ore:stoneCobble>, <ore:stickWood>,<ore:stoneCobble>],
+[null, <ore:stickWood>, null]]);

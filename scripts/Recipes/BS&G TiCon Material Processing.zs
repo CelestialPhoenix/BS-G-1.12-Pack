@@ -34,6 +34,9 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadfile>, <ore:headF
 
 #Hammer
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <primal:stone_gallagher>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <ore:toolHeadHammerBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <ore:toolHeadHammerIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhammer>, <ore:toolHeadHammerSteel>, <liquid:steel>, 576, true);
 
 #Hoe
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadhoe>, <ore:headHoe>, <liquid:steel>, 576, true);
@@ -298,12 +301,20 @@ mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castrodsteel>, <contenttw
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castrodtin>, <contenttweaker:mouldrods>, <liquid:tin>, 574, true);
 
 #---Tools Part Single Use Casting---
+#Wastes 1 tool head of materials for each 4 tool heads cast.
 #Axe
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxebronze>, <contenttweaker:mouldaxehead>, <liquid:bronze>, 2160, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxecopper>, <contenttweaker:mouldaxehead>, <liquid:copper>, 2160, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxeiron>, <contenttweaker:mouldaxehead>, <liquid:iron>, 2160, true);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxesteel>, <contenttweaker:mouldaxehead>, <liquid:steel>, 2160, true);
 #mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:castaxetin>, <contenttweaker:mouldaxehead>, <liquid:tin>, 2160, true);
+
+#Hammer
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthammerbronze>, <contenttweaker:mouldhammerhead>, <liquid:bronze>, 4320, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthammercopper>, <contenttweaker:mouldhammerhead>, <liquid:copper>, 4320, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthammeriron>, <contenttweaker:mouldhammerhead>, <liquid:iron>, 4320, true);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthammersteel>, <contenttweaker:mouldhammerhead>, <liquid:steel>, 4320, true);
+#mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthammertin>, <contenttweaker:mouldhammerhead>, <liquid:tin>, 4320, true);
 
 #Hoe
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:casthoebronze>, <contenttweaker:mouldhoehead>, <liquid:bronze>, 1440, true);

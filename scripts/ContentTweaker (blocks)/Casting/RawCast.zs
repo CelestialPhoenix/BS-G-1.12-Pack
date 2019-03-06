@@ -81,6 +81,15 @@ MouldHoeHead.setBlockSoundType(<soundtype:sand>);
 MouldHoeHead.setSlipperiness(0.6);
 MouldHoeHead.register();
 
+var MouldHammerHead = VanillaFactory.createBlock("mouldhammerhead", <blockmaterial:ground>);
+MouldHammerHead.setBlockHardness(5.0);
+MouldHammerHead.setBlockResistance(5.0);
+MouldHammerHead.setToolClass("shovel");
+MouldHammerHead.setToolLevel(0);
+MouldHammerHead.setBlockSoundType(<soundtype:sand>);
+MouldHammerHead.setSlipperiness(0.6);
+MouldHammerHead.register();
+
 var MouldPickaxeHead = VanillaFactory.createBlock("mouldpickaxehead", <blockmaterial:ground>);
 MouldPickaxeHead.setBlockHardness(5.0);
 MouldPickaxeHead.setBlockResistance(5.0);
