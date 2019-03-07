@@ -1,5 +1,5 @@
 #Name: Blood Sweat & Gears Gregtech Material Builder.zs
-#Author: PhoePhoe; with help from  Pyure, The awesome folks on the GT:CE discord
+#Author: PhoePhoe; with help from  Pyure, Agrax, The awesome folks on the GT:CE discord
 
 #loader gregtech
 
