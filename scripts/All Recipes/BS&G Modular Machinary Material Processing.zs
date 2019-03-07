@@ -7,3 +7,7 @@ print("These is not the files you are looking for");
 
 #go to .Minecraft/config/modularmachinary/recipes/[machine name]
 
+#=======================UPDATE=======================
+
+#MM processing recipes are now in Scripts/All Recipes/Modular Machinary [Machine Name].zs
+#existing .JSON scripts are to be moved over in a future date
