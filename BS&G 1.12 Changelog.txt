@@ -4,7 +4,131 @@ Read at your own risk.
 
 Mods with manually adjusted lang files; IC2
 
-11.0
+13.0 Friday release anyone?
+Updated Modular Machinery to 1.9.6
+
+12.0 Baby Shark
+Forge 14.23.5.2779
+Added Bee Better At Bees 2.0.3 by HellFirePvP
+Added Dynamic Trees 0.9.4 by ferreusveritas, mangoose3039
+Added Dynamic Trees BoP 1.4.1e by ferreusveritas, mangoose3039
+Added Dynamic Trees TC 1.4.1e by ferreusveritas, mangoose3039
+Added Kitsu's Forgecraft 1.6.4.2 by KitsuShadow et al
+Added LootTableTweaker 1.1.14 by Darkhax, MinecraftModDevelopment
+Added LootTweaker 0.0.8 by Daomephsta
+Added Primalcore 0.6.104 by An_Sar et al
+Updated Biomes-o-Plenty to 7.0.1.2425
+Updated ContentTweaker to 4.1.15
+Updated Forestry to 5.8.2.388
+Updated Gregtech to 1.6.0.0
+Removed LootTableTweaker
+Abyssalcraft
+-Added ore tags to logs
+-Nerfed slabs, planks
+-Renamed wood logs to actually inclue log in the name
+Aether
+-Added ore tags to logs
+-Nerfed slabs and planks
+-New recipes for doors, trapdoors, buttons, pressure plates, gates, buttons
+-Renamed wood logs to actually inclue log in the name
+Biomes-o-Plenty
+-Added ore tags to logs
+-New recipes for slabs, logs, doors, gates
+CoFH world
+-nerfed tree growth to 10% (10x slower)
+ContentTweaker
+-Added new cast and mould blocks for axe, hoe, pickaxe, shovel, sword, hammer
+Dynamic Trees
+-Reduced tree growthMultiplier to 0.2
+-Increased biome growth scale to 1.0
+-Increased forestness to 1.0
+-Seeds plant themselves in any biome
+-Increased seed branch drop to 1.0
+-Increased growthFolding to 4
+-Increased plantRate to 0.4
+-Increased diseaseRate to 0.008
+-Reduced seed despawn time to 600
+-Enabled dynamic cactus
+-Increased harvest multiplier to 2
+Forestry
+-nerfed slabs and planks
+-Renamed wood logs to actually inclue log in the name (bugged)
+-added redstone to fence gate, door recipes
+Kitsu's Forgecraft
+-removed crucible processing recipes
+-added new recipes for steel and damascus steel
+-removed duplicate items
+-fix for fussy anvil recipe
+-crucible can no longer be made with mud
+-ore tags for tool heads
+Natura
+-Added ore tags to logs
+-Renamed wood logs to actually inclue log in the name
+-new recipes for planks, slabs, buttons, pressure plates, trapdoors, doors, fence gates
+Primalcore
+-disabled clay bucket
+-disabled terracotta bucket
+-disabled torch death
+-disabled cauldron lava
+-disabled various grades of charcoal
+-enabled water mob item drop
+-enabled sharks to attack water mobs
+-disabled use of bonemeal
+-bed can't skip night 
+-disabled tool use in woodworking
+-disabled obisidian armour
+-enabled block harvesting by hand
+-diabled almost all the worldgen festures.
+Some may be re-added with CoFH later
+-new recipes for slabs, thinslabs, slats, wet thatch, torches, rock items, doors, gates, drying racks, crafting tables, log piles (+ mod wood support), adobe brick/mix
+-removed recipes for duplicate items
+-disabled ash layer production (hopefully)
+-disabled torch damaging entities
+-disabled tall grass roots
+-disabled slab and plank recipes
+-disabled extra animal drops
+-disabled extra flint, rocks drops
+-disabled hard leather
+-Added in world recipes for single use tool moulds
+-New tool recipes; flint, bone, emerald, diamond
+Quark
+-disabled dispenser block and seed placement
+-disabled better textures
+-disabled red creepers
+-disabled extra chest recipes
+-disabled stone tool flint recipe
+-disabled compass working everywhere
+-disabled hoe 5x5 plant breaker
+-disabled shearable chickens
+-disabled stair crafting making extra
+-disabled vanilla recipe book altogther
+-disabled nether and end compass
+-disabled emote system.
+--dug a large hole
+--threw emote system into hole
+--drowned emote system in napalm
+--dropped a lit match
+--filled hole with concrete
+--covered concrete with dirt
+--planted a forest
+--rented a woodchipper to be kept on stanby for anyone who asks after the emote system
+-disabled basalt and crystal caves from worldgen
+--crystal caves knocked out by making generation super rare
+-disabled granite diorite, andesite, limestone, basalt
+TiCon
+-New (additional) recipes for reuseable steel molds
+-Casting recipes for single use tool moulds
+Thaumcraft
+-Added ore tags to logs, salis mundis
+-New recipes for planks and slabs
+Vanilla
+-nerfed plank crafting. Though I already did this.
+-buffed slab crafting to 4 units.
+-Renamed wood logs to actually inclue log in the name
+-added ore tags to flint
+
+11.0oooh this one was tedious
+Forge 14.23.5.2779
 Updated CEU to 1.0.2.0
 Updated JEI to 4.14.4.264
 Updated Gregtech to 1.5.17.167
@@ -14,12 +138,26 @@ ContentTweaker
 -removed lv-hv coils
 -added simple coil, basic, modified, upgraded, improved, enchanced inductance and reactance coils
 -added recipes and ore tags for above
+-add reusable moulds for tool heads, rings, rods
+-added stone models for tool mold making, stone ring, stone small gear
+-added filled cast for aluminium machine hull
+-added wooden tool rod item. (Fix for tool crafting recipe clash)
+-added moulds, casts, and models for small/medium bronze/copper/steel pipes
+-fixed rods mould recipe
+Dropt
+-fixed machine hulls not dropping
 Gregtech
 -fixed recipe for Frost Proof Casing
 -extra recipe for Heat Proof Casing. Should reduce confusion about where rockwool comes from
 -removed crafting grid + tool recipes for plates, bolts, screws, rings ect... This is VERY tedious. Even more so than putting tools in the crafting grid.
+-new recipes for power tool heads.
+-new recipe for wooden gear, tiny wooden pipe
+-balanced enderium pipe throughput
 IC2
 -removed duplicate materials
+Immersive Engineering
+-removed duplicate tools
+-fixed recipe clash with Gtech stainless pipe
 Modular Machinery
 -looked at applying recipe modifiers to machines
 -modular machine recipes now use Zenscript instead of JSON
@@ -41,13 +179,21 @@ Railcraft
 -leaded glass has a less painful recipe
 -new recipes for crowbars and goggles
 -disabled vanilla style tools and armour (duplicate functionalty w/ TFo)
+-tempory crafting recipes for thick plates
+TiCon
+-Fixed table casting recipes not being in the table
+-New recipes for Gregtech tool heads, rings, rods
+-Casting recipes for Gtech pipes
 Thermal Foundation
 -new recipes for excavators
 -new recipes for shields
 -new recipes for shears
+-fixed recipe clash with Gtech
+-re enabled stone gear item
 Vanilla
 -new recipe for shears
 -ore tag for shield
+-fixed recipe clash with Gtech
 
 
 Big Fat 10.0b
