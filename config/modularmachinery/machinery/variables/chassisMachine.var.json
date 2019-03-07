@@ -1,27 +1,83 @@
 {  
    "chassisAny":[  
-      "techreborn:machine_casing@0",
-      "contenttweaker:chassisaluminium",
-      "techreborn:machine_casing@1",
-      "techreborn:machine_casing@2",
-      "contenttweaker:chassistungstensteel"
+      "contenttweaker:chassiswroughtiron",
+	  "contenttweaker:chassissteel",
+	  "contenttweaker:chassisaluminium",
+	  "contenttweaker:chassisstainless",
+	  "contenttweaker:chassistitanium",
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
    ],
    "chassisAny2":[  
-      "contenttweaker:chassisaluminium",
-      "techreborn:machine_casing@1",
-      "techreborn:machine_casing@2",
-      "contenttweaker:chassistungstensteel"
+	  "contenttweaker:chassissteel",
+	  "contenttweaker:chassisaluminium",
+	  "contenttweaker:chassisstainless",
+	  "contenttweaker:chassistitanium",
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
    ],
    "chassisAny3":[  
-      "techreborn:machine_casing@1",
-      "techreborn:machine_casing@2",
-      "contenttweaker:chassistungstensteel"
+	  "contenttweaker:chassisaluminium",
+	  "contenttweaker:chassisstainless",
+	  "contenttweaker:chassistitanium",
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
    ],
    "chassisAny4":[  
-      "techreborn:machine_casing@2",
-      "contenttweaker:chassistungstensteel"
+	  "contenttweaker:chassisstainless",
+	  "contenttweaker:chassistitanium",
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
    ],
    "chassisAny5":[  
-      "contenttweaker:chassistungstensteel"
+	  "contenttweaker:chassistitanium",
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny6":[  
+      "contenttweaker:chassistungstensteel",
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny7":[  
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny8":[  ,
+	  "contenttweaker:chassischrome",
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny9":[  
+	  "contenttweaker:chassisiridium",
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny10":[  
+	  "contenttweaker:chassisosmium",
+	  "contenttweaker:chassisdarmstadtium"
+   ],
+   "chassisAny11":[  
+	  "contenttweaker:chassisdarmstadtium"
    ]
 }

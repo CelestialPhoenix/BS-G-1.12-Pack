@@ -10,12 +10,14 @@
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
       "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7",
       "modularmachinery:blockfluidoutputhatch@1",
       "modularmachinery:blockfluidoutputhatch@2",
       "modularmachinery:blockfluidoutputhatch@3",
       "modularmachinery:blockfluidoutputhatch@4",
       "modularmachinery:blockfluidoutputhatch@5",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
    ],
    "chassisfluidIO3":[  
       "modularmachinery:blockfluidinputhatch@2",
@@ -23,38 +25,56 @@
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
       "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7",
       "modularmachinery:blockfluidoutputhatch@2",
       "modularmachinery:blockfluidoutputhatch@3",
       "modularmachinery:blockfluidoutputhatch@4",
       "modularmachinery:blockfluidoutputhatch@5",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
    ],
    "chassisfluidIO4":[  
       "modularmachinery:blockfluidinputhatch@3",
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
       "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7",
       "modularmachinery:blockfluidoutputhatch@3",
       "modularmachinery:blockfluidoutputhatch@4",
       "modularmachinery:blockfluidoutputhatch@5",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
    ],
    "chassisfluidIO5":[  
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
       "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7",
       "modularmachinery:blockfluidoutputhatch@4",
       "modularmachinery:blockfluidoutputhatch@5",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
    ],
    "chassisfluidIO6":[  
       "modularmachinery:blockfluidinputhatch@5",
       "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7",
       "modularmachinery:blockfluidoutputhatch@5",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
    ],
    "chassisfluidIO7":[  
       "modularmachinery:blockfluidinputhatch@6",
-      "modularmachinery:blockfluidoutputhatch@6"
+      "modularmachinery:blockfluidinputhatch@7",
+      "modularmachinery:blockfluidoutputhatch@6",
+	  "modularmachinery:blockfluidoutputhatch@7"
+   ],
+   "chassisfluidIO8":[  
+      "modularmachinery:blockfluidinputhatch@7",
+	  "modularmachinery:blockfluidoutputhatch@7"
+   ],
+   "chassisfluidIOPrecision":[  
+      "modularmachinery:blockfluidinputhatch@0",
+	  "modularmachinery:blockfluidoutputhatch@0"
    ]
 }

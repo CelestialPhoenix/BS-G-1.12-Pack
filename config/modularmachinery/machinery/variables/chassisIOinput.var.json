@@ -1,10 +1,10 @@
 {  
-   "chassisInput":[  
+   "chassisinput":[ 
       "modularmachinery:blockinputbus",
       "modularmachinery:blockenergyinputhatch",
       "modularmachinery:blockfluidinputhatch"
    ],
-   "chassisInput2":[  
+   "chassisinput2":[  
       "modularmachinery:blockinputbus@1",
       "modularmachinery:blockinputbus@2",
       "modularmachinery:blockinputbus@3",
@@ -17,14 +17,16 @@
       "modularmachinery:blockenergyinputhatch@4",
       "modularmachinery:blockenergyinputhatch@5",
       "modularmachinery:blockenergyinputhatch@6",
+      "modularmachinery:blockenergyinputhatch@7",
       "modularmachinery:blockfluidinputhatch@1",
       "modularmachinery:blockfluidinputhatch@2",
       "modularmachinery:blockfluidinputhatch@3",
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
    ],
-   "chassisInput3":[  
+   "chassisinput3":[  
       "modularmachinery:blockinputbus@2",
       "modularmachinery:blockinputbus@3",
       "modularmachinery:blockinputbus@4",
@@ -35,13 +37,15 @@
       "modularmachinery:blockenergyinputhatch@4",
       "modularmachinery:blockenergyinputhatch@5",
       "modularmachinery:blockenergyinputhatch@6",
+      "modularmachinery:blockenergyinputhatch@7",
       "modularmachinery:blockfluidinputhatch@2",
       "modularmachinery:blockfluidinputhatch@3",
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
    ],
-   "chassisInput4":[  
+   "chassisinput4":[  
       "modularmachinery:blockinputbus@3",
       "modularmachinery:blockinputbus@4",
       "modularmachinery:blockinputbus@5",
@@ -50,33 +54,53 @@
       "modularmachinery:blockenergyinputhatch@4",
       "modularmachinery:blockenergyinputhatch@5",
       "modularmachinery:blockenergyinputhatch@6",
+      "modularmachinery:blockenergyinputhatch@7",
       "modularmachinery:blockfluidinputhatch@3",
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
    ],
-   "chassisInput5":[  
+   "chassisinput5":[  
+      "modularmachinery:blockinputbus@3",
       "modularmachinery:blockinputbus@4",
       "modularmachinery:blockinputbus@5",
       "modularmachinery:blockinputbus@6",
+      "modularmachinery:blockenergyinputhatch@3",
       "modularmachinery:blockenergyinputhatch@4",
       "modularmachinery:blockenergyinputhatch@5",
       "modularmachinery:blockenergyinputhatch@6",
+      "modularmachinery:blockenergyinputhatch@7",
+      "modularmachinery:blockfluidinputhatch@3",
       "modularmachinery:blockfluidinputhatch@4",
       "modularmachinery:blockfluidinputhatch@5",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
    ],
-   "chassisInput6":[  
+   "chassisinput6":[  
       "modularmachinery:blockinputbus@5",
       "modularmachinery:blockinputbus@6",
       "modularmachinery:blockenergyinputhatch@5",
       "modularmachinery:blockenergyinputhatch@6",
+      "modularmachinery:blockenergyinputhatch@7",
       "modularmachinery:blockfluidinputhatch@5",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
    ],
-   "chassisInput7":[  
+   "chassisinput7":[  
       "modularmachinery:blockinputbus@6",
       "modularmachinery:blockenergyinputhatch@6",
-      "modularmachinery:blockfluidinputhatch@6"
+      "modularmachinery:blockenergyinputhatch@7",
+      "modularmachinery:blockfluidinputhatch@6",
+      "modularmachinery:blockfluidinputhatch@7"
+   ],
+   "chassisinput8":[  
+      "modularmachinery:blockenergyinputhatch@7",
+      "modularmachinery:blockfluidinputhatch@7"
+   ],
+   "chassisinputPrecision":[  
+      "modularmachinery:blockinputbus@0",
+      "modularmachinery:blockenergyinputhatch@0",
+      "modularmachinery:blockfluidinputhatch@0"
    ]
 }
