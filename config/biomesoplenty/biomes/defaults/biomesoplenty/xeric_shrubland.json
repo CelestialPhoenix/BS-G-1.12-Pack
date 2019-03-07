@@ -49,7 +49,7 @@
         }
       },
       "generationAttempts": 8,
-      "amountPerChunk": 30.0,
+      "amountPerChunk": 10.0,
       "enable": true
     },
     "miners_delight": {
@@ -63,20 +63,41 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
+    "dead_bushes": {
       "with": {
-        "block": "biomesoplenty:stone_formations",
+        "block": "minecraft:deadbush",
+        "properties": {}
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 1.0,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 1.0,
+      "enable": true,
+      "generators": {}
+    },
+    "desert_sprouts": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
         "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
+          "variant": "desertsprouts"
         }
       },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
+      "generationAttempts": 8,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "bromeliad": {
+      "with": {
+        "block": "biomesoplenty:flower_0",
+        "properties": {
+          "variant": "bromeliad"
+        }
+      },
+      "generationAttempts": 8,
+      "amountPerChunk": 0.2,
+      "enable": true
     },
     "roots": {
       "with": {
@@ -89,8 +110,19 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "trees": {
+    "desertgrass": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "desertgrass"
+        }
+      },
+      "generationAttempts": 8,
       "amountPerChunk": 2.0,
+      "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 1.0,
       "enable": true,
       "generators": {}
     },
@@ -104,89 +136,6 @@
       },
       "amountPerChunk": 12.0,
       "maxHeight": 32,
-      "enable": true
-    },
-    "tiny_cacti": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "tinycactus"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "dead_bushes": {
-      "with": {
-        "block": "minecraft:deadbush",
-        "properties": {}
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.8,
-      "enable": true,
-      "generators": {}
-    },
-    "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.8,
-      "enable": true
-    },
-    "desert_sprouts": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "desertsprouts"
-        }
-      },
-      "generationAttempts": 8,
-      "amountPerChunk": 5.5,
-      "enable": true
-    },
-    "bromeliad": {
-      "with": {
-        "block": "biomesoplenty:flower_0",
-        "properties": {
-          "variant": "bromeliad"
-        }
-      },
-      "generationAttempts": 8,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "cacti": {
-      "minHeight": 1,
-      "with": {
-        "block": "minecraft:cactus",
-        "properties": {
-          "age": "0"
-        }
-      },
-      "generationAttempts": 3,
-      "amountPerChunk": 0.5,
-      "maxHeight": 2,
-      "enable": true,
-      "randomDirection": false
-    },
-    "desertgrass": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "desertgrass"
-        }
-      },
-      "generationAttempts": 8,
-      "amountPerChunk": 1.2,
       "enable": true
     }
   },

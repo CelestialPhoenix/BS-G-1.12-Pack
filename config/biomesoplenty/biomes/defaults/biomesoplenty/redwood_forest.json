@@ -4,8 +4,8 @@
   "skyColor": -1,
   "fogDensity": 1.0,
   "hasBiomeEssence": true,
-  "variationBelow": 1.0,
-  "variationAbove": 1.0,
+  "variationBelow": 4.0,
+  "variationAbove": 10.0,
   "seaFloorBlock": {
     "block": "minecraft:dirt",
     "properties": {
@@ -76,17 +76,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "shrubs": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "shrub"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
     "double_fern": {
       "with": {
         "block": "minecraft:double_plant",
@@ -97,7 +86,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 8.0,
+      "amountPerChunk": 5.0,
       "enable": true,
       "withTop": {
         "block": "minecraft:double_plant",
@@ -117,20 +106,10 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
+    "grass": {
+      "amountPerChunk": 4.0,
       "enable": true,
-      "randomDirection": true
+      "generators": {}
     },
     "amber": {
       "minHeight": 4,
@@ -155,15 +134,16 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 10.0,
-      "enable": true,
-      "generators": {}
-    },
-    "grass": {
-      "amountPerChunk": 8.0,
-      "enable": true,
-      "generators": {}
+    "sprouts": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "sprout"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true
     },
     "red_mushrooms": {
       "with": {
@@ -173,6 +153,11 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
+    },
+    "trees": {
+      "amountPerChunk": 15.0,
+      "enable": true,
+      "generators": {}
     }
   },
   "weights": {

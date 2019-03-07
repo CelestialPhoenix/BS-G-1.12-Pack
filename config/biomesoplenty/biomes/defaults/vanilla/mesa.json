@@ -23,11 +23,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "flowers": {
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "generators": {}
-    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -38,21 +33,6 @@
       "generationAttempts": 64,
       "amountPerChunk": 0.25,
       "enable": true
-    },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 7,
-      "enable": true,
-      "randomDirection": true
     },
     "roots": {
       "with": {

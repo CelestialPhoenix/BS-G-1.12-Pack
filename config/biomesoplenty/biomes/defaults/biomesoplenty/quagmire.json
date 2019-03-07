@@ -61,21 +61,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "stone_formations": {
-      "minHeight": 1,
-      "with": {
-        "block": "biomesoplenty:stone_formations",
-        "properties": {
-          "position": "stalagmite_small",
-          "variant": "stone_formation"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 30.0,
-      "maxHeight": 5,
-      "enable": true,
-      "randomDirection": true
-    },
     "algae": {
       "with": {
         "block": "biomesoplenty:coral",
@@ -119,7 +104,7 @@
         }
       },
       "generationAttempts": 32,
-      "amountPerChunk": 2.0,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "small_lily": {
@@ -189,7 +174,7 @@
         }
       },
       "maxRadius": 8,
-      "amountPerChunk": 6.0,
+      "amountPerChunk": 10.0,
       "enable": true
     }
   },
