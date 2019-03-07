@@ -3,6 +3,15 @@
 
 print("Hello Boys- I'm Baaaaack!!!");
 
+#-Removed tools-
+#Flint Hoe
+recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {PrimaryMaterial: "flint", MaxDurability: 55, DigSpeed: 6.0 as float, AttackDamage: 1.0 as float, HarvestLevel: 1}}));
+#Flint Knife
+recipes.removeShaped(<gregtech:meta_tool:17>.withTag({"GT.ToolStats": {PrimaryMaterial: "flint", MaxDurability: 55, DigSpeed: 6.0 as float, AttackDamage: 1.0 as float, HarvestLevel: 1}}));
+#Flint Sword
+recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {PrimaryMaterial: "flint", MaxDurability: 55, DigSpeed: 6.0 as float, AttackDamage: 1.0 as float, HarvestLevel: 1}}));
+
+
 #Sword Blades
 recipes.removeShaped(<ore:toolHeadSwordAluminium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSwordChrome>.firstItem);
