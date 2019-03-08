@@ -214,7 +214,7 @@ mods.tconstruct.Casting.addBasinRecipe(<ore:stickSolderingAlloy>.firstItem, <con
 #StainlessSteel
 mods.tconstruct.Casting.addBasinRecipe(<ore:stickSteel>.firstItem, <contenttweaker:moldrods>, <liquid:steel>, 144, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addBasinRecipe(<ore:stickTinAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:tin_alloy>, 144, false);#Tin Alloy
+#mods.tconstruct.Casting.addBasinRecipe(<ore:stickTinAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:tin_alloy>, 144, false);#Tin Alloy
 #Topaz
 #Ultimet
 #Vanadium-Gallium
@@ -359,7 +359,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeMolybdenum>.firstItem, <c
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeSilver>.firstItem, <contenttweaker:moldheadaxe>, <liquid:silver>, 432, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeSilver>.firstItem, <contenttweaker:moldheadaxe>, <liquid:silver>, 432, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -368,7 +368,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeSilver>.firstItem, <conte
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeBrass>.firstItem, <contenttweaker:moldheadaxe>, <liquid:brass>, 432, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeBronze>.firstItem, <contenttweaker:moldheadaxe>, <liquid:bronze>, 432, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeCupronickel>.firstItem, <contenttweaker:moldheadaxe>, <liquid:cupronickel>, 432, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeCupronickel>.firstItem, <contenttweaker:moldheadaxe>, <liquid:cupronickel>, 432, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -380,7 +380,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxePigIron>.firstItem, <cont
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeSteel>.firstItem, <contenttweaker:moldheadaxe>, <liquid:steel>, 432, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeTinAlloy>.firstItem, <contenttweaker:moldheadaxe>, <liquid:tin_alloy>, 432, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadAxeTinAlloy>.firstItem, <contenttweaker:moldheadaxe>, <liquid:tin_alloy>, 432, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -440,7 +440,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileMolybdenum>.firstItem, <
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileSilver>.firstItem, <contenttweaker:moldheadfile>, <liquid:silver>, 288, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileSilver>.firstItem, <contenttweaker:moldheadfile>, <liquid:silver>, 288, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -449,7 +449,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileSilver>.firstItem, <cont
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileBrass>.firstItem, <contenttweaker:moldheadfile>, <liquid:brass>, 288, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileBronze>.firstItem, <contenttweaker:moldheadfile>, <liquid:bronze>, 288, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileCupronickel>.firstItem, <contenttweaker:moldheadfile>, <liquid:cupronickel>, 288, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileCupronickel>.firstItem, <contenttweaker:moldheadfile>, <liquid:cupronickel>, 288, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -461,7 +461,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFilePigIron>.firstItem, <con
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileSteel>.firstItem, <contenttweaker:moldheadfile>, <liquid:steel>, 288, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileTinAlloy>.firstItem, <contenttweaker:moldheadfile>, <liquid:tin_alloy>, 288, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadFileTinAlloy>.firstItem, <contenttweaker:moldheadfile>, <liquid:tin_alloy>, 288, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -521,7 +521,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerMolybdenum>.firstItem,
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerSilver>.firstItem, <contenttweaker:moldheadhammer>, <liquid:silver>, 864, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerSilver>.firstItem, <contenttweaker:moldheadhammer>, <liquid:silver>, 864, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -530,7 +530,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerSilver>.firstItem, <co
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerBrass>.firstItem, <contenttweaker:moldheadhammer>, <liquid:brass>, 864, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerBronze>.firstItem, <contenttweaker:moldheadhammer>, <liquid:bronze>, 864, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerCupronickel>.firstItem, <contenttweaker:moldheadhammer>, <liquid:cupronickel>, 864, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerCupronickel>.firstItem, <contenttweaker:moldheadhammer>, <liquid:cupronickel>, 864, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -542,7 +542,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerPigIron>.firstItem, <c
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerSteel>.firstItem, <contenttweaker:moldheadhammer>, <liquid:steel>, 864, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerTinAlloy>.firstItem, <contenttweaker:moldheadhammer>, <liquid:tin_alloy>, 864, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHammerTinAlloy>.firstItem, <contenttweaker:moldheadhammer>, <liquid:tin_alloy>, 864, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -602,7 +602,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeMolybdenum>.firstItem, <c
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeSilver>.firstItem, <contenttweaker:moldheadhoe>, <liquid:silver>, 288, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeSilver>.firstItem, <contenttweaker:moldheadhoe>, <liquid:silver>, 288, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -611,7 +611,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeSilver>.firstItem, <conte
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeBrass>.firstItem, <contenttweaker:moldheadhoe>, <liquid:brass>, 288, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeBronze>.firstItem, <contenttweaker:moldheadhoe>, <liquid:bronze>, 288, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeCupronickel>.firstItem, <contenttweaker:moldheadhoe>, <liquid:cupronickel>, 288, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeCupronickel>.firstItem, <contenttweaker:moldheadhoe>, <liquid:cupronickel>, 288, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -623,7 +623,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoePigIron>.firstItem, <cont
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeSteel>.firstItem, <contenttweaker:moldheadhoe>, <liquid:steel>, 288, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeTinAlloy>.firstItem, <contenttweaker:moldheadhoe>, <liquid:tin_alloy>, 288, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeTinAlloy>.firstItem, <contenttweaker:moldheadhoe>, <liquid:tin_alloy>, 288, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -683,7 +683,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowMolybdenum>.firstItem, <
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSilver>.firstItem, <contenttweaker:moldheadplow>, <liquid:silver>, 576, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSilver>.firstItem, <contenttweaker:moldheadplow>, <liquid:silver>, 576, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -692,7 +692,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSilver>.firstItem, <cont
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBrass>.firstItem, <contenttweaker:moldheadplow>, <liquid:brass>, 576, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBronze>.firstItem, <contenttweaker:moldheadplow>, <liquid:bronze>, 576, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowCupronickel>.firstItem, <contenttweaker:moldheadplow>, <liquid:cupronickel>, 576, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowCupronickel>.firstItem, <contenttweaker:moldheadplow>, <liquid:cupronickel>, 576, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -704,7 +704,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowPigIron>.firstItem, <con
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSteel>.firstItem, <contenttweaker:moldheadplow>, <liquid:steel>, 576, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowTinAlloy>.firstItem, <contenttweaker:moldheadplow>, <liquid:tin_alloy>, 576, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowTinAlloy>.firstItem, <contenttweaker:moldheadplow>, <liquid:tin_alloy>, 576, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -764,7 +764,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeMolybdenum>.firstItem
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeSilver>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:silver>, 432, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeSilver>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:silver>, 432, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -773,7 +773,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeSilver>.firstItem, <c
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeBrass>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:brass>, 432, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeBronze>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:bronze>, 432, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeCupronickel>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:cupronickel>, 432, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeCupronickel>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:cupronickel>, 432, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -785,7 +785,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxePigIron>.firstItem, <
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeSteel>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:steel>, 432, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeTinAlloy>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:tin_alloy>, 432, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPickaxeTinAlloy>.firstItem, <contenttweaker:moldheadpickaxe>, <liquid:tin_alloy>, 432, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -845,7 +845,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawMolybdenum>.firstItem, <c
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawSilver>.firstItem, <contenttweaker:moldheadsaw>, <liquid:silver>, 288, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawSilver>.firstItem, <contenttweaker:moldheadsaw>, <liquid:silver>, 288, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -854,7 +854,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawSilver>.firstItem, <conte
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawBrass>.firstItem, <contenttweaker:moldheadsaw>, <liquid:brass>, 288, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawBronze>.firstItem, <contenttweaker:moldheadsaw>, <liquid:bronze>, 288, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawCupronickel>.firstItem, <contenttweaker:moldheadsaw>, <liquid:cupronickel>, 288, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawCupronickel>.firstItem, <contenttweaker:moldheadsaw>, <liquid:cupronickel>, 288, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -866,7 +866,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawPigIron>.firstItem, <cont
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawSteel>.firstItem, <contenttweaker:moldheadsaw>, <liquid:steel>, 288, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawTinAlloy>.firstItem, <contenttweaker:moldheadsaw>, <liquid:tin_alloy>, 288, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSawTinAlloy>.firstItem, <contenttweaker:moldheadsaw>, <liquid:tin_alloy>, 288, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -926,7 +926,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseMolybdenum>.firstItem, 
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseSilver>.firstItem, <contenttweaker:moldheadsense>, <liquid:silver>, 432, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseSilver>.firstItem, <contenttweaker:moldheadsense>, <liquid:silver>, 432, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -935,7 +935,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseSilver>.firstItem, <con
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseBrass>.firstItem, <contenttweaker:moldheadsense>, <liquid:brass>, 432, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseBronze>.firstItem, <contenttweaker:moldheadsense>, <liquid:bronze>, 432, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseCupronickel>.firstItem, <contenttweaker:moldheadsense>, <liquid:cupronickel>, 432, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseCupronickel>.firstItem, <contenttweaker:moldheadsense>, <liquid:cupronickel>, 432, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -947,7 +947,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSensePigIron>.firstItem, <co
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseSteel>.firstItem, <contenttweaker:moldheadsense>, <liquid:steel>, 432, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseTinAlloy>.firstItem, <contenttweaker:moldheadsense>, <liquid:tin_alloy>, 432, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSenseTinAlloy>.firstItem, <contenttweaker:moldheadsense>, <liquid:tin_alloy>, 432, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -1007,7 +1007,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelMolybdenum>.firstItem,
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelSilver>.firstItem, <contenttweaker:moldheadshovel>, <liquid:silver>, 144, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelSilver>.firstItem, <contenttweaker:moldheadshovel>, <liquid:silver>, 144, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -1016,7 +1016,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelSilver>.firstItem, <co
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelBrass>.firstItem, <contenttweaker:moldheadshovel>, <liquid:brass>, 144, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelBronze>.firstItem, <contenttweaker:moldheadshovel>, <liquid:bronze>, 144, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelCupronickel>.firstItem, <contenttweaker:moldheadshovel>, <liquid:cupronickel>, 144, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelCupronickel>.firstItem, <contenttweaker:moldheadshovel>, <liquid:cupronickel>, 144, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -1028,7 +1028,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelPigIron>.firstItem, <c
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelSteel>.firstItem, <contenttweaker:moldheadshovel>, <liquid:steel>, 144, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelTinAlloy>.firstItem, <contenttweaker:moldheadshovel>, <liquid:tin_alloy>, 144, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadShovelTinAlloy>.firstItem, <contenttweaker:moldheadshovel>, <liquid:tin_alloy>, 144, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -1088,7 +1088,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordMolybdenum>.firstItem, 
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordSilver>.firstItem, <contenttweaker:moldheadsword>, <liquid:silver>, 288, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordSilver>.firstItem, <contenttweaker:moldheadsword>, <liquid:silver>, 288, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -1097,7 +1097,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordSilver>.firstItem, <con
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordBrass>.firstItem, <contenttweaker:moldheadsword>, <liquid:brass>, 288, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordBronze>.firstItem, <contenttweaker:moldheadsword>, <liquid:bronze>, 288, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordCupronickel>.firstItem, <contenttweaker:moldheadsword>, <liquid:cupronickel>, 288, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordCupronickel>.firstItem, <contenttweaker:moldheadsword>, <liquid:cupronickel>, 288, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -1109,7 +1109,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordPigIron>.firstItem, <co
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordSteel>.firstItem, <contenttweaker:moldheadsword>, <liquid:steel>, 288, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordTinAlloy>.firstItem, <contenttweaker:moldheadsword>, <liquid:tin_alloy>, 288, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadSwordTinAlloy>.firstItem, <contenttweaker:moldheadsword>, <liquid:tin_alloy>, 288, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron
@@ -1169,7 +1169,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeMolybdenum>.fi
 #Darmstadtium
 #Osmium
 #Palladium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeSilver>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:silver>, 864, false); #Silver
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeSilver>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:silver>, 864, false); #Silver
 #Thorium
 #Titanium
 #Tungsten
@@ -1178,7 +1178,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeSilver>.firstI
 #Blue Topaz
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeBrass>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:brass>, 864, false); #Brass
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeBronze>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:bronze>, 864, false); #Bronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeCupronickel>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:cupronickel>, 864, false); #Cupronickel
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeCupronickel>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:cupronickel>, 864, false); #Cupronickel
 #Diamond
 #Emerald
 #Green Sapphire
@@ -1190,7 +1190,7 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadePigIron>.first
 #StainlessSteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeSteel>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:steel>, 864, false); #Steel
 #Tanzanite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeTinAlloy>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:tin_alloy>, 864, false); #TinAlloy
+#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadUniversalSpadeTinAlloy>.firstItem, <contenttweaker:moldheaduniversalspade>, <liquid:tin_alloy>, 864, false); #TinAlloy
 #Topaz
 #Ultimet
 #Wrought Iron

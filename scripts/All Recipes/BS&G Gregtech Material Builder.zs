@@ -94,18 +94,18 @@ zinc.addFlags(["GENERATE_ROD"]);
 #631 Tungsten Dioxide
 
 #Adamantium
-val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 512, 5400);
+val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 10, 512, 5400);
 ingotadamantium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:sharpness> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:smite> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:bane_of_arthropods> * 5);
 
 #Ardite
-val ingotardite = MaterialRegistry.createIngotMaterial(602, "ardite", 0xFF4C00, "dull", 4, null, 3.5, 128, 1800);
+val ingotardite = MaterialRegistry.createIngotMaterial(602, "ardite", 0xFF4C00, "dull", 4, null, 3.5, 6.0, 128, 1800);
 ingotardite.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Enderium
-val ingotenderium = MaterialRegistry.createIngotMaterial(611, "enderium", 0x279C9C, "shiny", 1, [<material:lead>*3, <material:platinum>*1, <material:ender_pearl>*9], 3.5, 50, 4500);
+val ingotenderium = MaterialRegistry.createIngotMaterial(611, "enderium", 0x279C9C, "shiny", 1, [<material:lead>*3, <material:platinum>*1, <material:ender_pearl>*9], 3.5, 7.0, 50, 4500);
 ingotenderium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotenderium.addToolEnchantment(<enchantment:minecraft:silk_touch> * 1);
 ingotenderium.setFluidPipeProperties(500, 10000, true);
@@ -115,17 +115,17 @@ val ingotlumium = MaterialRegistry.createIngotMaterial(610, "lumium", 0xffe0a3, 
 ingotlumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Manasteel
-val ingotmanasteel = MaterialRegistry.createIngotMaterial(603, "manasteel", 0xA0E0FF, "shiny", 2, null, 2.0, 30);
+val ingotmanasteel = MaterialRegistry.createIngotMaterial(603, "manasteel", 0xA0E0FF, "shiny", 2, null, 2.0, 3.0, 30);
 ingotmanasteel.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:fortune> * 1);
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:looting> * 1);
 
 #Manyullyn
-val ingotmanyullyn = MaterialRegistry.createIngotMaterial(604, "manyullyn", 0x7141AB, "dull", 5, null, 4.5, 256, 3600);
+val ingotmanyullyn = MaterialRegistry.createIngotMaterial(604, "manyullyn", 0x7141AB, "dull", 5, null, 4.5, 8, 256, 3600);
 ingotmanyullyn.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Mithril
-val ingotmithril = MaterialRegistry.createIngotMaterial(605, "mithril", 0x1F788E, "shiny", 5, null, 3.5, 512);
+val ingotmithril = MaterialRegistry.createIngotMaterial(605, "mithril", 0x1F788E, "shiny", 5, null, 3.5, 9, 512);
 ingotmithril.addFlags("GENERATE_PLATE");
 ingotmithril.addToolEnchantment(<enchantment:minecraft:smite> * 10);
 ingotmithril.addToolEnchantment(<enchantment:minecraft:fortune> * 5);
@@ -138,12 +138,12 @@ ingotsignalum.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_FINE_WIRE");
 ingotsignalum.setCableProperties(32768, 2, 1);
 
 #Terrasteel
-val ingotterrasteel = MaterialRegistry.createIngotMaterial(606, "terrasteel", 0x64D29B, "shiny", 4, null, 5.5, 256, 3600);
+val ingotterrasteel = MaterialRegistry.createIngotMaterial(606, "terrasteel", 0x64D29B, "shiny", 4, null, 5.5, 8, 256, 3600);
 ingotterrasteel.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotterrasteel.addToolEnchantment(<enchantment:minecraft:knockback> * 5);
 
 #Thaumium
-val ingotthaumium = MaterialRegistry.createIngotMaterial(607, "thaumium", 0x615096, "shiny", 3, null, 3.5, 50);
+val ingotthaumium = MaterialRegistry.createIngotMaterial(607, "thaumium", 0x615096, "shiny", 3, null, 3.5, 6, 50);
 ingotthaumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Tungsten Thorium Alloy
@@ -151,11 +151,11 @@ val ingotwth = MaterialRegistry.createIngotMaterial(608, "tungsten_thorium_alloy
 ingotwth.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_LONG_ROD", "GENERATE_RING");
 
 #Void Metal
-val ingotvoidm = MaterialRegistry.createIngotMaterial(609, "void_metal", 0x1F0D35, "metallic", 4, null, 3.5, 100);
+val ingotvoidm = MaterialRegistry.createIngotMaterial(609, "void_metal", 0x1F0D35, "metallic", 4, null, 3.5, 7, 100);
 ingotvoidm.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Magnetic Cobalt
-val ingotmagcobalt = MaterialRegistry.createIngotMaterial(614, "cobalt_magnetic", 0x0250D0, "magnetic", 3, [<material:cobalt>*1], 8.0, 512);
+val ingotmagcobalt = MaterialRegistry.createIngotMaterial(614, "cobalt_magnetic", 0x0250D0, "magnetic", 3, [<material:cobalt>*1], 0, 512);
 ingotmagcobalt.addFlags("GENERATE_ROD");
 
 #Bertrandite

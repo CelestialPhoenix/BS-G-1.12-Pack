@@ -7,7 +7,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Tools in Crafting Grid removal---
 #Plates
 recipes.removeShaped(<ore:plateAluminium>.firstItem);
-recipes.removeShaped(<ore:plateAmericium>.firstItem);
+recipes.removeShaped(<gregtech:meta_item_1:12002>);
 recipes.removeShaped(<ore:plateAntimony>.firstItem);
 recipes.removeShaped(<ore:plateBeryllium>.firstItem);
 recipes.removeShaped(<ore:plateChrome>.firstItem);
@@ -460,84 +460,84 @@ recipes.removeShaped(<ore:ringTungstenThoriumAlloy>.firstItem);
 #Tool heads in BS&G Gregtech Tools.zs
 
 #Turbine Blade
-recipes.removeShaped(<ore:turbineBladeAluminium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeChrome>.firstItem);
-recipes.removeShaped(<ore:turbineBladeCobalt>.firstItem);
-recipes.removeShaped(<ore:turbineBladeIridium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeIron>.firstItem);
-recipes.removeShaped(<ore:turbineBladeManganese>.firstItem);
-recipes.removeShaped(<ore:turbineBladeMolybdenum>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNeodymium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeDarmstadtium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeOsmium>.firstItem);
-recipes.removeShaped(<ore:turbineBladePalladium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeSilver>.firstItem);
-recipes.removeShaped(<ore:turbineBladeThorium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTitanium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTungsten>.firstItem);
-recipes.removeShaped(<ore:turbineBladeUranium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeUranium235>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBlueTopaz>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBrass>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBronze>.firstItem);
-recipes.removeShaped(<ore:turbineBladeCupronickel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeDiamond>.firstItem);
-recipes.removeShaped(<ore:turbineBladeEmerald>.firstItem);
-recipes.removeShaped(<ore:turbineBladeGreenSapphire>.firstItem);
-recipes.removeShaped(<ore:turbineBladeInvar>.firstItem);
-recipes.removeShaped(<ore:turbineBladeMagnalium>.firstItem);
-recipes.removeShaped(<ore:turbineBladePigIron>.firstItem);
-recipes.removeShaped(<ore:turbineBladeRuby>.firstItem);
-recipes.removeShaped(<ore:turbineBladeSapphire>.firstItem);
-recipes.removeShaped(<ore:turbineBladeStainlessSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTanzanite>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTinAlloy>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTopaz>.firstItem);
-recipes.removeShaped(<ore:turbineBladeUltimet>.firstItem);
-recipes.removeShaped(<ore:turbineBladeWroughtIron>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNetherQuartz>.firstItem);
-recipes.removeShaped(<ore:turbineBladeCertusQuartz>.firstItem);
-recipes.removeShaped(<ore:turbineBladeOsmiridium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeOlivine>.firstItem);
-recipes.removeShaped(<ore:turbineBladeOpal>.firstItem);
-recipes.removeShaped(<ore:turbineBladeAmethyst>.firstItem);
-recipes.removeShaped(<ore:turbineBladeSterlingSilver>.firstItem);
-recipes.removeShaped(<ore:turbineBladeRoseGold>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBlackBronze>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBismuthBronze>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBlackSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeRedSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeBlueSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeDamascusSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTungstenSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeCobaltBrass>.firstItem);
-recipes.removeShaped(<ore:turbineBladeGarnetRed>.firstItem);
-recipes.removeShaped(<ore:turbineBladeGarnetYellow>.firstItem);
-recipes.removeShaped(<ore:turbineBladeVinteum>.firstItem);
-recipes.removeShaped(<ore:turbineBladeIronMagnetic>.firstItem);
-recipes.removeShaped(<ore:turbineBladeSteelMagnetic>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNeodymiumMagnetic>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTungstenCarbide>.firstItem);
-recipes.removeShaped(<ore:turbineBladeVanadiumSteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeHssg>.firstItem);
-recipes.removeShaped(<ore:turbineBladeHsse>.firstItem);
-recipes.removeShaped(<ore:turbineBladeHsss>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNaquadah>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNaquadahAlloy>.firstItem);
-recipes.removeShaped(<ore:turbineBladeNaquadahEnriched>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTritanium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeDuranium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeAdamantium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeArdite>.firstItem);
-recipes.removeShaped(<ore:turbineBladeManasteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeManyullyn>.firstItem);
-recipes.removeShaped(<ore:turbineBladeMithril>.firstItem);
-recipes.removeShaped(<ore:turbineBladeTerrasteel>.firstItem);
-recipes.removeShaped(<ore:turbineBladeThaumium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeVoidMetal>.firstItem);
-recipes.removeShaped(<ore:turbineBladeEnderium>.firstItem);
-recipes.removeShaped(<ore:turbineBladeCobaltMagnetic>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeAluminium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeChrome>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeCobalt>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeIridium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeIron>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeManganese>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeMolybdenum>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNeodymium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeDarmstadtium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeOsmium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladePalladium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeSilver>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeThorium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTitanium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTungsten>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeUranium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeUranium235>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBlueTopaz>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBrass>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBronze>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeCupronickel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeDiamond>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeEmerald>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeGreenSapphire>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeInvar>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeMagnalium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladePigIron>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeRuby>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeSapphire>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeStainlessSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTanzanite>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTinAlloy>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTopaz>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeUltimet>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeWroughtIron>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNetherQuartz>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeCertusQuartz>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeOsmiridium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeOlivine>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeOpal>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeAmethyst>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeSterlingSilver>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeRoseGold>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBlackBronze>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBismuthBronze>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBlackSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeRedSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeBlueSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeDamascusSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTungstenSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeCobaltBrass>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeGarnetRed>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeGarnetYellow>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeVinteum>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeIronMagnetic>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeSteelMagnetic>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNeodymiumMagnetic>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTungstenCarbide>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeVanadiumSteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeHssg>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeHsse>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeHsss>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNaquadah>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNaquadahAlloy>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeNaquadahEnriched>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTritanium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeDuranium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeAdamantium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeArdite>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeManasteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeManyullyn>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeMithril>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeTerrasteel>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeThaumium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeVoidMetal>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeEnderium>.firstItem);
+#recipes.removeShaped(<ore:turbineBladeCobaltMagnetic>.firstItem);
 
 
 #FineWire
@@ -722,7 +722,7 @@ recipes.addShaped(<metaitem:circuit.basic>, [
 #Master
 
 #Primitive [NAND Chip]
-recipes.remove(<metaitem:circuit.primitive>);
+#recipes.remove(<metaitem:circuit.primitive>);
 #only available in assembly machine
 
 #Coil Blocks
@@ -785,10 +785,10 @@ recipes.addShaped(<gregtech:wire_coil:7>, [
 #no recipe at time of writing
 
 #--Molds--
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearStone>, <liquid:steel>, 576, true); #Gear Large
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallStone>, <liquid:steel>, 576, true); #Gear Small
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrick>, <liquid:steel>, 576, true); #Ingot
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrickNether>, <liquid:steel>, 576, true); #Ingot
+#mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearStone>, <liquid:steel>, 576, true); #Gear Large
+#mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallStone>, <liquid:steel>, 576, true); #Gear Small
+#mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrick>, <liquid:steel>, 576, true); #Ingot
+#mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrickNether>, <liquid:steel>, 576, true); #Ingot
 
 #--Motors--
 #HV

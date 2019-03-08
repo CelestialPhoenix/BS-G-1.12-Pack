@@ -70,11 +70,11 @@ recipes.addShaped(<ore:toolHeadWrenchPalladium>.firstItem, [
 [<ore:platePalladium>, <ore:ringSteel>, <ore:platePalladium>], 
 [<ore:screwSteel>, <ore:platePalladium>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchSilver>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchSilver>.firstItem, [
-[null, <ore:plateSilver>, <ore:screwSteel>], 
-[<ore:plateSilver>, <ore:ringSteel>, <ore:plateSilver>], 
-[<ore:screwSteel>, <ore:plateSilver>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchSilver>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchSilver>.firstItem, [
+#[null, <ore:plateSilver>, <ore:screwSteel>], 
+#[<ore:plateSilver>, <ore:ringSteel>, <ore:plateSilver>], 
+#[<ore:screwSteel>, <ore:plateSilver>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchThorium>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchThaumium>.firstItem, [
@@ -124,11 +124,11 @@ recipes.addShaped(<ore:toolHeadWrenchBronze>.firstItem, [
 [<ore:plateBronze>, <ore:ringSteel>, <ore:plateBronze>], 
 [<ore:screwSteel>, <ore:plateBronze>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchCupronickel>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchCupronickel>.firstItem, [
-[null, <ore:plateCupronickel>, <ore:screwSteel>], 
-[<ore:plateCupronickel>, <ore:ringSteel>, <ore:plateCupronickel>], 
-[<ore:screwSteel>, <ore:plateCupronickel>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchCupronickel>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchCupronickel>.firstItem, [
+#[null, <ore:plateCupronickel>, <ore:screwSteel>], 
+#[<ore:plateCupronickel>, <ore:ringSteel>, <ore:plateCupronickel>], 
+#[<ore:screwSteel>, <ore:plateCupronickel>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchDiamond>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchDiamond>.firstItem, [
@@ -196,11 +196,11 @@ recipes.addShaped(<ore:toolHeadWrenchTanzanite>.firstItem, [
 [<ore:gemTanzanite>, <ore:ringSteel>, <ore:gemTanzanite>], 
 [<ore:screwSteel>, <ore:gemTanzanite>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchTinAlloy>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchTinAlloy>.firstItem, [
-[null, <ore:plateTinAlloy>, <ore:screwSteel>], 
-[<ore:plateTinAlloy>, <ore:ringSteel>, <ore:plateTinAlloy>], 
-[<ore:screwSteel>, <ore:plateTinAlloy>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchTinAlloy>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchTinAlloy>.firstItem, [
+#[null, <ore:plateTinAlloy>, <ore:screwSteel>], 
+#[<ore:plateTinAlloy>, <ore:ringSteel>, <ore:plateTinAlloy>], 
+#[<ore:screwSteel>, <ore:plateTinAlloy>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchTopaz>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchTopaz>.firstItem, [
@@ -220,17 +220,17 @@ recipes.addShaped(<ore:toolHeadWrenchWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, <ore:ringSteel>, <ore:plateWroughtIron>], 
 [<ore:screwSteel>, <ore:plateWroughtIron>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem, [
-[null, <ore:gemNetherQuartz>, <ore:screwSteel>], 
-[<ore:gemNetherQuartz>, <ore:ringSteel>, <ore:gemNetherQuartz>], 
-[<ore:screwSteel>, <ore:gemNetherQuartz>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchNetherQuartz>.firstItem, [
+#[null, <ore:gemNetherQuartz>, <ore:screwSteel>], 
+#[<ore:gemNetherQuartz>, <ore:ringSteel>, <ore:gemNetherQuartz>], 
+#[<ore:screwSteel>, <ore:gemNetherQuartz>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem, [
-[null, <ore:gemCertusQuartz>, <ore:screwSteel>], 
-[<ore:gemCertusQuartz>, <ore:ringSteel>, <ore:gemCertusQuartz>], 
-[<ore:screwSteel>, <ore:gemCertusQuartz>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchCertusQuartz>.firstItem, [
+#[null, <ore:gemCertusQuartz>, <ore:screwSteel>], 
+#[<ore:gemCertusQuartz>, <ore:ringSteel>, <ore:gemCertusQuartz>], 
+#[<ore:screwSteel>, <ore:gemCertusQuartz>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchOsmiridium>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchOsmiridium>.firstItem, [
@@ -329,23 +329,23 @@ recipes.addShaped(<ore:toolHeadWrenchVinteum>.firstItem, [
 [<ore:gemVinteum>, <ore:ringSteel>, <ore:gemVinteum>], 
 [<ore:screwSteel>, <ore:gemVinteum>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem, [
-[null, <ore:plateIronMagnetic>, <ore:screwSteel>], 
-[<ore:plateIronMagnetic>, <ore:ringSteel>, <ore:plateIronMagnetic>], 
-[<ore:screwSteel>, <ore:plateIronMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchIronMagnetic>.firstItem, [
+#[null, <ore:plateIronMagnetic>, <ore:screwSteel>], 
+#[<ore:plateIronMagnetic>, <ore:ringSteel>, <ore:plateIronMagnetic>], 
+#[<ore:screwSteel>, <ore:plateIronMagnetic>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem, [
-[null, <ore:plateSteelMagnetic>, <ore:screwSteel>], 
-[<ore:plateSteelMagnetic>, <ore:ringSteel>, <ore:plateSteelMagnetic>], 
-[<ore:screwSteel>, <ore:plateSteelMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchSteelMagnetic>.firstItem, [
+#[null, <ore:plateSteelMagnetic>, <ore:screwSteel>], 
+#[<ore:plateSteelMagnetic>, <ore:ringSteel>, <ore:plateSteelMagnetic>], 
+#[<ore:screwSteel>, <ore:plateSteelMagnetic>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem, [
-[null, <ore:plateNeodymiumMagnetic>, <ore:screwSteel>], 
-[<ore:plateNeodymiumMagnetic>, <ore:ringSteel>, <ore:plateNeodymiumMagnetic>], 
-[<ore:screwSteel>, <ore:plateNeodymiumMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchNeodymiumMagnetic>.firstItem, [
+#[null, <ore:plateNeodymiumMagnetic>, <ore:screwSteel>], 
+#[<ore:plateNeodymiumMagnetic>, <ore:ringSteel>, <ore:plateNeodymiumMagnetic>], 
+#[<ore:screwSteel>, <ore:plateNeodymiumMagnetic>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchTungstenCarbide>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchTungstenCarbide>.firstItem, [
@@ -461,11 +461,11 @@ recipes.addShaped(<ore:toolHeadWrenchEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ringSteel>, <ore:plateEnderium>], 
 [<ore:screwSteel>, <ore:plateEnderium>, null]]);
 
-recipes.removeShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem, [
-[null, <ore:plateCobaltMagnetic>, <ore:screwSteel>], 
-[<ore:plateCobaltMagnetic>, <ore:ringSteel>, <ore:plateCobaltMagnetic>], 
-[<ore:screwSteel>, <ore:plateCobaltMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadWrenchCobaltMagnetic>.firstItem, [
+#[null, <ore:plateCobaltMagnetic>, <ore:screwSteel>], 
+#[<ore:plateCobaltMagnetic>, <ore:ringSteel>, <ore:plateCobaltMagnetic>], 
+#[<ore:screwSteel>, <ore:plateCobaltMagnetic>, null]]);
 
 
 #UniversalSpade
@@ -480,7 +480,7 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeNeodymium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeDarmstadtium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeOsmium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadePalladium>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeSilver>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeSilver>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeThorium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeTitanium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeTungsten>.firstItem);
@@ -489,7 +489,7 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeUranium235>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeBlueTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeBronze>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeCupronickel>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeCupronickel>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeDiamond>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeEmerald>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeGreenSapphire>.firstItem);
@@ -501,12 +501,12 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeSapphire>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeTanzanite>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeTinAlloy>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeTinAlloy>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeUltimet>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeWroughtIron>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeOsmiridium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeOlivine>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeOpal>.firstItem);
@@ -524,9 +524,9 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeCobaltBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeGarnetRed>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeGarnetYellow>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeVinteum>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeIronMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeSteelMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeNeodymiumMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeIronMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeSteelMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeNeodymiumMagnetic>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeTungstenCarbide>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeVanadiumSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeHssg>.firstItem);
@@ -546,7 +546,7 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeTerrasteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeThaumium>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeVoidMetal>.firstItem);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeEnderium>.firstItem);
-recipes.removeShaped(<ore:toolHeadUniversalSpadeCobaltMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadUniversalSpadeCobaltMagnetic>.firstItem);
 
 #Sense
 recipes.removeShaped(<ore:toolHeadSenseAluminium>.firstItem);
@@ -560,7 +560,7 @@ recipes.removeShaped(<ore:toolHeadSenseNeodymium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseDarmstadtium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseOsmium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSensePalladium>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseSilver>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseSilver>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseThorium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseTitanium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseTungsten>.firstItem);
@@ -569,7 +569,7 @@ recipes.removeShaped(<ore:toolHeadSenseUranium235>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseBlueTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseBronze>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseCupronickel>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseCupronickel>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseDiamond>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseEmerald>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseGreenSapphire>.firstItem);
@@ -581,12 +581,12 @@ recipes.removeShaped(<ore:toolHeadSenseSapphire>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseTanzanite>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseTinAlloy>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseTinAlloy>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseUltimet>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseWroughtIron>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseNetherQuartz>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseNetherQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseOsmiridium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseOlivine>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseOpal>.firstItem);
@@ -604,9 +604,9 @@ recipes.removeShaped(<ore:toolHeadSenseCobaltBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseGarnetRed>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseGarnetYellow>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseVinteum>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseIronMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseSteelMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseNeodymiumMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseIronMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseSteelMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseNeodymiumMagnetic>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseTungstenCarbide>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseVanadiumSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseHssg>.firstItem);
@@ -626,7 +626,7 @@ recipes.removeShaped(<ore:toolHeadSenseTerrasteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseThaumium>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseVoidMetal>.firstItem);
 recipes.removeShaped(<ore:toolHeadSenseEnderium>.firstItem);
-recipes.removeShaped(<ore:toolHeadSenseCobaltMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadSenseCobaltMagnetic>.firstItem);
 
 #Plow
 recipes.removeShaped(<ore:toolHeadPlowAluminium>.firstItem);
@@ -640,7 +640,7 @@ recipes.removeShaped(<ore:toolHeadPlowNeodymium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowDarmstadtium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowOsmium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowPalladium>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowSilver>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowSilver>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowThorium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowTitanium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowTungsten>.firstItem);
@@ -649,7 +649,7 @@ recipes.removeShaped(<ore:toolHeadPlowUranium235>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowBlueTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowBronze>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowCupronickel>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowCupronickel>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowDiamond>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowEmerald>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowGreenSapphire>.firstItem);
@@ -661,12 +661,12 @@ recipes.removeShaped(<ore:toolHeadPlowSapphire>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowTanzanite>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowTinAlloy>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowTinAlloy>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowTopaz>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowUltimet>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowWroughtIron>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowNetherQuartz>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowCertusQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowNetherQuartz>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowCertusQuartz>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowOsmiridium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowOlivine>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowOpal>.firstItem);
@@ -684,9 +684,9 @@ recipes.removeShaped(<ore:toolHeadPlowCobaltBrass>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowGarnetRed>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowGarnetYellow>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowVinteum>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowIronMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowSteelMagnetic>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowNeodymiumMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowIronMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowSteelMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowNeodymiumMagnetic>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowTungstenCarbide>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowVanadiumSteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowHssg>.firstItem);
@@ -706,7 +706,7 @@ recipes.removeShaped(<ore:toolHeadPlowTerrasteel>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowThaumium>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowVoidMetal>.firstItem);
 recipes.removeShaped(<ore:toolHeadPlowEnderium>.firstItem);
-recipes.removeShaped(<ore:toolHeadPlowCobaltMagnetic>.firstItem);
+#recipes.removeShaped(<ore:toolHeadPlowCobaltMagnetic>.firstItem);
 
 #BuzzSaw
 recipes.removeShaped(<ore:toolHeadBuzzSawAluminium>.firstItem);
@@ -775,11 +775,11 @@ recipes.addShaped(<ore:toolHeadBuzzSawPalladium>.firstItem, [
 [<ore:platePalladium>, null, <ore:platePalladium>], 
 [null, <ore:platePalladium>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawSilver>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawSilver>.firstItem, [
-[null, <ore:plateSilver>, null], 
-[<ore:plateSilver>, null, <ore:plateSilver>], 
-[null, <ore:plateSilver>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawSilver>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawSilver>.firstItem, [
+#[null, <ore:plateSilver>, null], 
+#[<ore:plateSilver>, null, <ore:plateSilver>], 
+#[null, <ore:plateSilver>, null]]);
 
 recipes.removeShaped(<ore:toolHeadBuzzSawThorium>.firstItem);
 recipes.addShaped(<ore:toolHeadBuzzSawThaumium>.firstItem, [
@@ -829,11 +829,11 @@ recipes.addShaped(<ore:toolHeadBuzzSawBronze>.firstItem, [
 [<ore:plateBronze>, null, <ore:plateBronze>], 
 [null, <ore:plateBronze>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawCupronickel>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawCupronickel>.firstItem, [
-[null, <ore:plateCupronickel>, null], 
-[<ore:plateCupronickel>, null, <ore:plateCupronickel>], 
-[null, <ore:plateCupronickel>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawCupronickel>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawCupronickel>.firstItem, [
+#[null, <ore:plateCupronickel>, null], 
+#[<ore:plateCupronickel>, null, <ore:plateCupronickel>], 
+#[null, <ore:plateCupronickel>, null]]);
 
 recipes.removeShaped(<ore:toolHeadBuzzSawDiamond>.firstItem);
 recipes.addShaped(<ore:toolHeadBuzzSawDiamond>.firstItem, [
@@ -901,11 +901,11 @@ recipes.addShaped(<ore:toolHeadBuzzSawTanzanite>.firstItem, [
 [<ore:gemTanzanite>, null, <ore:gemTanzanite>], 
 [null, <ore:gemTanzanite>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawTinAlloy>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawTinAlloy>.firstItem, [
-[null, <ore:plateTinAlloy>, null], 
-[<ore:plateTinAlloy>, null, <ore:plateTinAlloy>], 
-[null, <ore:plateTinAlloy>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawTinAlloy>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawTinAlloy>.firstItem, [
+#[null, <ore:plateTinAlloy>, null], 
+#[<ore:plateTinAlloy>, null, <ore:plateTinAlloy>], 
+#[null, <ore:plateTinAlloy>, null]]);
 
 recipes.removeShaped(<ore:toolHeadBuzzSawTopaz>.firstItem);
 recipes.addShaped(<ore:toolHeadBuzzSawTopaz>.firstItem, [
@@ -925,17 +925,17 @@ recipes.addShaped(<ore:toolHeadBuzzSawWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], 
 [null, <ore:plateWroughtIron>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawNetherQuartz>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawNetherQuartz>.firstItem, [
-[null, <ore:gemNetherQuartz>, null], 
-[<ore:gemNetherQuartz>, null, <ore:gemNetherQuartz>], 
-[null, <ore:gemNetherQuartz>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawNetherQuartz>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawNetherQuartz>.firstItem, [
+#[null, <ore:gemNetherQuartz>, null], 
+#[<ore:gemNetherQuartz>, null, <ore:gemNetherQuartz>], 
+#[null, <ore:gemNetherQuartz>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawCertusQuartz>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawCertusQuartz>.firstItem, [
-[null, <ore:gemCertusQuartz>, null], 
-[<ore:gemCertusQuartz>, null, <ore:gemCertusQuartz>], 
-[null, <ore:gemCertusQuartz>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawCertusQuartz>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawCertusQuartz>.firstItem, [
+#[null, <ore:gemCertusQuartz>, null], 
+#[<ore:gemCertusQuartz>, null, <ore:gemCertusQuartz>], 
+#[null, <ore:gemCertusQuartz>, null]]);
 
 recipes.removeShaped(<ore:toolHeadBuzzSawOsmiridium>.firstItem);
 recipes.addShaped(<ore:toolHeadBuzzSawOsmiridium>.firstItem, [
@@ -1039,23 +1039,23 @@ recipes.addShaped(<ore:toolHeadBuzzSawVinteum>.firstItem, [
 [<ore:gemVinteum>, null, <ore:gemVinteum>], 
 [null, <ore:gemVinteum>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawIronMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawIronMagnetic>.firstItem, [
-[null, <ore:plateIronMagnetic>, null], 
-[<ore:plateIronMagnetic>, null, <ore:plateIronMagnetic>], 
-[null, <ore:plateIronMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawIronMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawIronMagnetic>.firstItem, [
+#[null, <ore:plateIronMagnetic>, null], 
+#[<ore:plateIronMagnetic>, null, <ore:plateIronMagnetic>], 
+#[null, <ore:plateIronMagnetic>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawSteelMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawSteelMagnetic>.firstItem, [
-[null, <ore:plateSteelMagnetic>, null], 
-[<ore:plateSteelMagnetic>, null, <ore:plateSteelMagnetic>], 
-[null, <ore:plateSteelMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawSteelMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawSteelMagnetic>.firstItem, [
+#[null, <ore:plateSteelMagnetic>, null], 
+#[<ore:plateSteelMagnetic>, null, <ore:plateSteelMagnetic>], 
+#[null, <ore:plateSteelMagnetic>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawNeodymiumMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawNeodymiumMagnetic>.firstItem, [
-[null, <ore:plateNeodymiumMagnetic>, null], 
-[<ore:plateNeodymiumMagnetic>, null, <ore:plateNeodymiumMagnetic>], 
-[null, <ore:plateNeodymiumMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawNeodymiumMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawNeodymiumMagnetic>.firstItem, [
+#[null, <ore:plateNeodymiumMagnetic>, null], 
+#[<ore:plateNeodymiumMagnetic>, null, <ore:plateNeodymiumMagnetic>], 
+#[null, <ore:plateNeodymiumMagnetic>, null]]);
 
 recipes.removeShaped(<ore:toolHeadBuzzSawTungstenCarbide>.firstItem);
 recipes.addShaped(<ore:toolHeadBuzzSawTungstenCarbide>.firstItem, [
@@ -1171,8 +1171,8 @@ recipes.addShaped(<ore:toolHeadBuzzSawEnderium>.firstItem, [
 [<ore:plateEnderium>, null, <ore:plateEnderium>], 
 [null, <ore:plateEnderium>, null]]);
 
-recipes.removeShaped(<ore:toolHeadBuzzSawCobaltMagnetic>.firstItem);
-recipes.addShaped(<ore:toolHeadBuzzSawCobaltMagnetic>.firstItem, [
-[null, <ore:plateCobaltMagnetic>, null], 
-[<ore:plateCobaltMagnetic>, null, <ore:plateCobaltMagnetic>], 
-[null, <ore:plateCobaltMagnetic>, null]]);
+#recipes.removeShaped(<ore:toolHeadBuzzSawCobaltMagnetic>.firstItem);
+#recipes.addShaped(<ore:toolHeadBuzzSawCobaltMagnetic>.firstItem, [
+#[null, <ore:plateCobaltMagnetic>, null], 
+#[<ore:plateCobaltMagnetic>, null, <ore:plateCobaltMagnetic>], 
+#[null, <ore:plateCobaltMagnetic>, null]]);
