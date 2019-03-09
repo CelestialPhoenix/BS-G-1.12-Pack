@@ -132,6 +132,13 @@ recipes.removeShaped(<ore:plateDuranium>.firstItem);
 #Glowstone
 #Nether Star
 recipes.removeShaped(<ore:plateYtterbium>.firstItem);
+#recipes.removeShaped(<ore:plateSiliconeRubber>.firstItem);
+recipes.removeShaped(<ore:platePolystyrene>.firstItem);
+#recipes.removeShaped(<ore:plateStyreneButadieneRubber>.firstItem);
+recipes.removeShaped(<ore:plateGalliumArsenide>.firstItem);
+recipes.removeShaped(<ore:platePolyphenyleneSulfide>.firstItem);
+recipes.removeShaped(<ore:plateIndiumGalliumPhosphide>.firstItem);
+recipes.removeShaped(<ore:plateNickelZincFerrite>.firstItem);
 recipes.removeShaped(<ore:plateAdamantium>.firstItem);
 recipes.removeShaped(<ore:plateArdite>.firstItem);
 recipes.removeShaped(<ore:plateManasteel>.firstItem);
@@ -244,6 +251,10 @@ recipes.removeShaped(<ore:stickNaquadria>.firstItem);
 recipes.removeShaped(<ore:stickTritanium>.firstItem);
 recipes.removeShaped(<ore:stickDuranium>.firstItem);
 #Nether Star
+recipes.removeShaped(<ore:stickSiliconRubber>.firstItem);
+recipes.removeShaped(<ore:stickStyreneButadieneRubber>.firstItem);
+recipes.removeShaped(<ore:stickPolyphenyleneSulfide>.firstItem);
+recipes.removeShaped(<ore:stickNickelZincFerrite>.firstItem);
 recipes.removeShaped(<ore:stickAdamantium>.firstItem);
 recipes.removeShaped(<ore:stickArdite>.firstItem);
 recipes.removeShaped(<ore:stickManasteel>.firstItem);
@@ -259,9 +270,13 @@ recipes.removeShaped(<ore:stickCobaltMagnetic>.firstItem);
 
 #Long Rods
 recipes.removeShaped(<ore:stickLongAmericium>.firstItem);
+recipes.removeShaped(<ore:stickLongIron>.firstItem);
 recipes.removeShaped(<ore:stickLongDarmstadtium>.firstItem);
 recipes.removeShaped(<ore:stickLongTitanium>.firstItem);
+recipes.removeShaped(<ore:stickLongBronze>.firstItem);
 recipes.removeShaped(<ore:stickLongMagnalium>.firstItem);
+recipes.removeShaped(<ore:stickLongStainlessSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongSteel>.firstItem);
 recipes.removeShaped(<ore:stickLongWroughtIron>.firstItem);
 recipes.removeShaped(<ore:stickLongTungstenSteel>.firstItem);
 recipes.removeShaped(<ore:stickLongNeodymiumMagnetic>.firstItem);
@@ -358,7 +373,9 @@ recipes.removeShaped(<ore:boltNaquadria>.firstItem);
 recipes.removeShaped(<ore:boltTritanium>.firstItem);
 recipes.removeShaped(<ore:boltDuranium>.firstItem);
 recipes.removeShaped(<ore:boltNetherStar>.firstItem);
-
+recipes.removeShaped(<ore:boltPolyphenyleneSulfide>.firstItem);
+recipes.removeShaped(<ore:boltNickelZincFerrite>.firstItem);
+recipes.removeShaped(<ore:boltPolyvinylChloride>.firstItem);
 
 #Screw
 #Cant say I ever gave you one ;)
@@ -430,6 +447,9 @@ recipes.removeShaped(<ore:screwNaquadahEnriched>.firstItem);
 recipes.removeShaped(<ore:screwNaquadria>.firstItem);
 recipes.removeShaped(<ore:screwTritanium>.firstItem);
 recipes.removeShaped(<ore:screwDuranium>.firstItem);
+recipes.removeShaped(<ore:screwPolyphenyleneSulfide>.firstItem);
+recipes.removeShaped(<ore:screwNickelZincFerrite>.firstItem);
+recipes.removeShaped(<ore:screwPolyvinylChloride>.firstItem);
 
 #Ring
 recipes.removeShaped(<ore:ringAluminium>.firstItem);
@@ -455,6 +475,8 @@ recipes.removeShaped(<ore:ringSteelMagnetic>.firstItem);
 recipes.removeShaped(<ore:ringHssg>.firstItem);
 recipes.removeShaped(<ore:ringHsse>.firstItem);
 recipes.removeShaped(<ore:ringPaper>.firstItem);
+recipes.removeShaped(<ore:ringStyreneButadieneRubber>.firstItem);
+recipes.removeShaped(<ore:ringSiliconRubber>.firstItem);
 recipes.removeShaped(<ore:ringTungstenThoriumAlloy>.firstItem);
 
 #Tool heads in BS&G Gregtech Tools.zs
@@ -656,6 +678,9 @@ recipes.removeShaped(<ore:gearHssg>.firstItem);
 recipes.removeShaped(<ore:gearHsse>.firstItem);
 recipes.removeShaped(<ore:gearHsss>.firstItem);
 recipes.removeShaped(<ore:gearNaquadahAlloy>.firstItem);
+recipes.removeShaped(<ore:ringStyreneButadieneRubber>.firstItem);
+recipes.removeShaped(<ore:gearSiliconRubber>.firstItem);
+recipes.removeShaped(<ore:gearStyreneButadieneRubber>.firstItem);
 
 #Wires (naked)
 recipes.removeShaped(<ore:wireGtSingleAluminium>.firstItem);
