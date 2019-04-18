@@ -36,9 +36,6 @@ MoldHeadHoe.register();
 var MoldHeadPickaxe = VanillaFactory.createItem("moldheadpickaxe");
 MoldHeadPickaxe.register();
 
-var MoldHeadSaw = VanillaFactory.createItem("moldheadsaw");
-MoldHeadSaw.register();
-
 var MoldHeadSense = VanillaFactory.createItem("moldheadsense");
 MoldHeadSense.register();
 

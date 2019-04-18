@@ -1,0 +1,18 @@
+{  
+   "machine":"lathe_advancedii",
+   "adapter":"modularmachinery:lathe_basic",
+    "modifiers": [
+        {
+            "io": "input",
+            "target": "energy",
+            "operation": 1,
+            "multiplier": 9.0
+        },
+        {
+            "io": "input",
+            "target": "duration",
+            "operation": 1,
+            "multiplier": 0.25
+        }
+    ]
+}

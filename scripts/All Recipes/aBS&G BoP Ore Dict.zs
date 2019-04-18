@@ -3,6 +3,18 @@
 
 print("BoP ...BLeepBleepBoop - R2D2");
 
+#---Duplicate Materials---
+#-gemstones-
+<ore:gemAmethyst>.remove(<biomesoplenty:gem:0>);
+<ore:gemRuby>.remove(<biomesoplenty:gem:1>);
+<ore:gemPeridot>.remove(<biomesoplenty:gem:2>);
+<ore:gemTopaz>.remove(<biomesoplenty:gem:3>);
+<ore:gemTanzanite>.remove(<biomesoplenty:gem:4>);
+<ore:gemMalachite>.remove(<biomesoplenty:gem:5>);
+<ore:gemSapphire>.remove(<biomesoplenty:gem:6>);
+<ore:gemAmber>.remove(<biomesoplenty:gem:7>);
+
+#---Ore Dicting---
 #logs
 <ore:logSacredOak>.add(<biomesoplenty:log_0:4>);
 <ore:logCherry>.add(<biomesoplenty:log_0:5>);
@@ -26,3 +38,7 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:1>);
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:2>);
+
+#stickwood
+<ore:stickWood>.remove(<biomesoplenty:bamboo>);
+<ore:stickWood>.remove(<biomesoplenty:plant_1:5>);

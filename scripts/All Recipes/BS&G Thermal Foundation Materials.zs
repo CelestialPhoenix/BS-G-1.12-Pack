@@ -5,6 +5,28 @@ print("There are no bodies buried into the foundations. You can stop looking now
 
 #banned items/recipes
 
+#---Naming Materials---
+#Thick Plates
+<thermalfoundation:material:32>.displayName= "Thick Iron Plate";
+<thermalfoundation:material:33>.displayName= "Thick Gold Plate";
+<thermalfoundation:material:320>.displayName= "Thick Copper Plate";
+<thermalfoundation:material:321>.displayName= "Thick Tin Plate";
+<thermalfoundation:material:322>.displayName= "Thick Silver Plate";
+<thermalfoundation:material:323>.displayName= "Thick Lead Plate";
+<thermalfoundation:material:324>.displayName= "Thick Aluminium Plate";
+<thermalfoundation:material:325>.displayName= "Thick Nickel Plate";
+<thermalfoundation:material:326>.displayName= "Thick Platinum Plate";
+<thermalfoundation:material:327>.displayName= "Thick Iridium Plate";
+<thermalfoundation:material:328>.displayName= "Thick Mithril Plate";
+<thermalfoundation:material:352>.displayName= "Thick Steel Plate";
+<thermalfoundation:material:353>.displayName= "Thick Electrum Plate";
+<thermalfoundation:material:354>.displayName= "Thick Invar Plate";
+<thermalfoundation:material:355>.displayName= "Thick Bronze Plate";
+<thermalfoundation:material:356>.displayName= "Thick Constantan Plate";
+<thermalfoundation:material:357>.displayName= "Thick Signalum Plate";
+<thermalfoundation:material:358>.displayName= "Thick Lumium Plate";
+<thermalfoundation:material:359>.displayName= "Thick Enderium Plate";
+
 #--Blocks [material storage]--
 #Storage blocks
 recipes.removeShaped(<thermalfoundation:storage:*>);

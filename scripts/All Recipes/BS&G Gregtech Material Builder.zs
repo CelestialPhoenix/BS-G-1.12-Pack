@@ -111,7 +111,7 @@ ingotenderium.addToolEnchantment(<enchantment:minecraft:silk_touch> * 1);
 ingotenderium.setFluidPipeProperties(500, 10000, true);
 
 #Lumium
-val ingotlumium = MaterialRegistry.createIngotMaterial(610, "lumium", 0xffe0a3, "shiny", 1, [<material:tin>*3, <material:silver>*1, <material:glowstone>*9], 3.5, 0);
+val ingotlumium = MaterialRegistry.createIngotMaterial(610, "lumium", 0xffe0a3, "shiny", 1, [<material:tin>*3, <material:silver>*1, <material:glowstone>*9], 3.5, 0, 0, 4500);
 ingotlumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Manasteel
@@ -133,7 +133,7 @@ ingotmithril.addToolEnchantment(<enchantment:minecraft:looting> * 5);
 #ingotmithril.macerateInto(<material:platinum>);
 
 #Signalum
-val ingotsignalum = MaterialRegistry.createIngotMaterial(612, "signalum", 0xF6872E, "shiny", 1, [<material:copper>*3, <material:silver>*1, <material:redstone>*9], 3.5, 0, 4500);
+val ingotsignalum = MaterialRegistry.createIngotMaterial(612, "signalum", 0xF6872E, "shiny", 1, [<material:copper>*3, <material:silver>*1, <material:redstone>*9], 3.5, 0, 0, 4500);
 ingotsignalum.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_FINE_WIRE");
 ingotsignalum.setCableProperties(32768, 2, 1);
 
@@ -147,7 +147,7 @@ val ingotthaumium = MaterialRegistry.createIngotMaterial(607, "thaumium", 0x6150
 ingotthaumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Tungsten Thorium Alloy
-val ingotwth = MaterialRegistry.createIngotMaterial(608, "tungsten_thorium_alloy", 0x2D1F1E, "shiny", 1, [<material:tungsten>*24, <material:thorium>*1], 3.5, 0, 4500);
+val ingotwth = MaterialRegistry.createIngotMaterial(608, "tungsten_thorium_alloy", 0x2D1F1E, "shiny", 1, [<material:tungsten>*24, <material:thorium>*1], 3.5, 0, 0, 4500);
 ingotwth.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_LONG_ROD", "GENERATE_RING");
 
 #Void Metal

@@ -41,7 +41,7 @@ print("Going Primal. Not unlike going commando");
 <ore:dustZinc>.remove(<primal:zinc_dust>);
 <ore:dustCrudeIron>.remove(<primal:crude_iron_dust>);
 <ore:dustWootz>.remove(<primal:wootz_dust>);
-<ore:dustTamahagne>.remove(<primal:tamahagane_dust>);
+<ore:dustTamahagane>.remove(<primal:tamahagane_dust>);
 <ore:dustShibuichi>.remove(<primal:shibuichi_dust>);
 <ore:dustAdamant>.remove(<primal:adamant_dust>);
 <ore:dustVanadium>.remove(<primal:vanadium_dust>);
@@ -112,9 +112,11 @@ print("Going Primal. Not unlike going commando");
 <ore:plateCrudeIron>.remove(<primal:crude_iron_plate>);
 <ore:plateWootz>.remove(<primal:wootz_plate>);
 <ore:plateTamahagane>.remove(<primal:tamahagane_plate>);
+<ore:plateSteel>.remove(<primal:tamahagane_plate>);
 <ore:plateShibuichi>.remove(<primal:shibuichi_plate>);
 <ore:plateAdamant>.remove(<primal:adamant_plate>);
 <ore:plateVanadium>.remove(<primal:vanadium_plate>);
+<ore:plateGold>.remove(<primal:gold_plate>);
 
 #---Changed tags---
 <ore:slabSoulGlass>.add(<primal:slab_soulglass>);

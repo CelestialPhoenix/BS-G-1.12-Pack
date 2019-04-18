@@ -4,8 +4,94 @@ Read at your own risk.
 
 Mods with manually adjusted lang files; IC2
 
-13.0 Friday release anyone?
+14.0 I wish I had time to play Interactions
+Updated Gregtech to 1.6.9.382
+ContentTweaker
+-added recipes for CT thick plate items
+Gregtech
+-removed knife, branch cutter, mortar, file meta-tools as I can't be bothered to change the recipes.
+--except the branch cutter. I quite enjoyed nuking that one.
+-new recipes for plunger, butchery knife, magnifing glass, scoop, wire cutter, screwdriver, crowbar, wrench metatools
+-fixed a few missed recipes for meta-material crafting with tools
+-new recipe for empty shape plate
+-removed crafting recipes for hard ingot, nugget items, metal/gem blocks,
+-new recipes for frames, turbine casings, soft meta items (plates, rods ect)
+-added Cyrotheum processing to VacFreeze
+-added snowball recipe to VacFreeze because why not
+-added Pyrotheym processing to EBF
+-removed nugget smelting from EBF
+-smelting removes magnetic effect
+-tweaked steel, annealed copper, kanthal, nichrome recipes
+IC2
+-fixed Gtech recipe being present for gold conduit
+Immersive Engineering
+-fixed/update metal press recipes for ring bending, fixed my stupidity
+Thaumcraft
+-removed duplicate materials from ore dictionary
+Thermal Foundation
+-fixed my derp with the ore-dict nuggets, electrum ingot
+
+13.0 Lucky
+Forge 14.23.5.2779
+Removed Thermal Expansion
+Updated Dropt to 1.14.0
+Updated Gregtech to 1.6.1.186 and broke everything
+Updated Gregtech to 1.6.3.358 and nothing broke
+Updated Gregtech to 1.6.4.365 and nothing broke? (hope not I'm releasing this version!)
 Updated Modular Machinery to 1.9.6
+Updated Railcraft to 12.0.0
+ContentTweaker
+-New Heavy Plate item for each gear material in Gtech. 47ish items created
+-New Thick Plate items; Darmstadtium, Titanium, TungstenSteel, Magnetic Steel, HSS-E, HSS-G
+-ore tags for the above
+-Removed heavy plate items.
+-Removed crude circuit board, good circuit, simple circuit board
+Modular Machinery
+-Names for new fluid and power chassis
+-Fixed recipe for gearbox chassis
+-Tweaked recipes for IO Chassis
+-Added Gtech power hatches to structure variables
+-Added control circuit to large pipe recipes in basic lathe
+-Added rod recipes to basic lathe
+-Added machine adapters to other tiers of lathe
+-Change CNC gear cutting to use blocks instead of heavy plates
+-Zenscript for CNC machine: gear/small gear/ring recipes, + recipes for new gear/ring types, Machine casing recipes
+Forestry
+-tidied Forestry CT files.
+-added a few electron tubes to ore:circuitPrimitive
+-new processing recipe for Gtech diode
+Gregtech
+-Fixed script errors brought up by the update
+-Fixed tool-use recipes for new materials
+-Fixed issue with Signalum/WTh Alloy not having BF temp and Hot Ingot
+-Tidied Gtech Materials.zs
+-Added various casting recipes for Gtech moulds to account for new early game components
+-New recipes for Basic circuit, good circuit
+-Tool free recipes for sword, pick, shovel, axe, hammer, hoe, sense, plow, uni. spade heads
+-Removed saw, buzzsaw tools
+-Removed wooden brick form, wooden mould, wood pin crafting
+-New recipe for wooden frame
+-Added tooltips to Gtech circuit items to make them more searchable in JEI
+-New recipe for coking oven, coking bricks, removed sub components
+-Toolless recipes for Bronze, Solid Steel, Clean Stainless, Stable Titanium, Robust TungstenSteel, Gearbox casings
+-Temp recipe for file heads. 
+IC2
+-tidied IC2 CT files
+-removed duplicate materials
+-new recipe for generator
+Immersive Engineering
+-added ore tags to wire connectors/relays
+Ore Dict (all mods)
+-Nuked a pile of duplicate entries
+Primal Core
+-added Ticon recipes to Primal drying rack
+TiCon
+-disabled yellow casts, drying rack, slimeboots, slimesling, stone rod (duplicate item)
+-new recipes for stone torch/ladder, ELFN, casting channel
+-removed saw casting recipes
+Vanilla
+-fixed stick recipes.
+
 
 12.0 Baby Shark
 Forge 14.23.5.2779

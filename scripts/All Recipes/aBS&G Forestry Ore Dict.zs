@@ -4,12 +4,39 @@
 print("Nice to see you, wouldn't want to tree you");
 
 #removed entries
+#Blocks
+<ore:blockApatite>.remove(<forestry:resource_storage:0>);
+<ore:blockCopper>.remove(<forestry:resource_storage:1>);
+<ore:blockTin>.remove(<forestry:resource_storage:2>);
+<ore:blockBronze>.remove(<forestry:resource_storage:3>);
+<ore:blockCharcoal>.remove(<forestry:charcoal>);
 
+#Ingots
 <ore:ingotBronze>.remove(<forestry:ingot_bronze>);
 <ore:ingotCopper>.remove(<forestry:ingot_copper>);
 <ore:ingotTin>.remove(<forestry:ingot_tin>);
 
 #Ore Dict
+
+#Circuit parts
+<ore:tubeCopper>.add(<forestry:thermionic_tubes:0>);
+<ore:tubeTin>.add(<forestry:thermionic_tubes:1>);
+<ore:tubeBronze>.add(<forestry:thermionic_tubes:2>);
+<ore:tubeIron>.add(<forestry:thermionic_tubes:3>);
+<ore:tubeGold>.add(<forestry:thermionic_tubes:4>);
+<ore:tubeDiamond>.add(<forestry:thermionic_tubes:5>);
+<ore:tubeObsidian>.add(<forestry:thermionic_tubes:6>);
+<ore:tubeBlaze>.add(<forestry:thermionic_tubes:7>);
+<ore:tubeRubber>.add(<forestry:thermionic_tubes:8>);
+<ore:tubeEmerald>.add(<forestry:thermionic_tubes:9>);
+<ore:tubeApatite>.add(<forestry:thermionic_tubes:10>);
+<ore:tubeLapis>.add(<forestry:thermionic_tubes:11>);
+<ore:tubeEnder>.add(<forestry:thermionic_tubes:12>);
+
+<ore:circuitPrimitive>.add(<forestry:thermionic_tubes:0>); #Copper
+<ore:circuitPrimitive>.add(<forestry:thermionic_tubes:1>); #Tin
+<ore:circuitPrimitive>.add(<forestry:thermionic_tubes:2>); #Bronze
+<ore:circuitPrimitive>.add(<forestry:thermionic_tubes:3>); #Iron
 
 #Logs
 <ore:logLarch>.add(<forestry:logs.0:0>);
@@ -42,7 +69,7 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:logCocobolo>.add(<forestry:logs.6:3>);
 <ore:logZebrawood>.add(<forestry:logs.7:0>);
 
-#Fireproof Logs
+#Logs (Fireproof)
 <ore:logFireproofLarch>.add(<forestry:logs.fireproof.0:0>);
 <ore:logFireproofTeak>.add(<forestry:logs.fireproof.0:1>);
 <ore:logFireproofDesertAcacia>.add(<forestry:logs.fireproof.0:2>);
@@ -72,3 +99,9 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:logFireproofPadauk>.add(<forestry:logs.fireproof.6:2>);
 <ore:logFireproofCocobolo>.add(<forestry:logs.fireproof.6:3>);
 <ore:logFireproofZebrawood>.add(<forestry:logs.fireproof.7:0>);
+
+#Machines
+<ore:machineSturdy>.add(<forestry:sturdy_machine>);
+<ore:machineReinforced>.add(<forestry:hardened_machine>);
+<ore:machineImregnated>.add(<forestry:impregnated_casing>);
+<ore:machineFlexible>.add(<forestry:flexible_casing>);

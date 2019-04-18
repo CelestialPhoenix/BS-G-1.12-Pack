@@ -380,3 +380,7 @@ recipes.addShaped(<biomesoplenty:wood_slab_1:6>*4,[
 recipes.removeShaped(<biomesoplenty:wood_slab_1:7>);
 recipes.addShaped(<biomesoplenty:wood_slab_1:7>*4,[
 [<biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>, <biomesoplenty:planks_0:15>]]);
+
+#--Sticks--
+recipes.addShapeless(<minecraft:stick>, [<biomesoplenty:bamboo>]);
+recipes.addShapeless(<minecraft:stick>, [<biomesoplenty:plant_1:5>]);

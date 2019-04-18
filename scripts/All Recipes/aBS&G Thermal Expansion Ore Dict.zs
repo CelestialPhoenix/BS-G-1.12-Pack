@@ -1,6 +1,6 @@
 #Name: Blood Sweat & Gears Thermal Expansion.zs
 #Author: PhoePhoe
-
+#norun
 print("");
 
 #Ore dicting

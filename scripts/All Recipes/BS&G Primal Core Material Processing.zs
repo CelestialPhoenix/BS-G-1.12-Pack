@@ -3,6 +3,64 @@
 
 print("Going Primal. Not unlike going commando");
 
+#---Drying Rack---
+#-Recipes from TiCon-
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Noodles", 
+    360, 
+    <tconstruct:spaghetti:1>,
+    <tconstruct:spaghetti:2>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Monster Meat", 
+    360, 
+    <minecraft:rotten_flesh>,
+    <tconstruct:edible:10>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Green Slime", 
+    360, 
+    <minecraft:slime_ball>,
+    <tconstruct:edible:30>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Blue Slime", 
+    360, 
+    <tconstruct:edible:1>,
+    <tconstruct:edible:30>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Purple Slime", 
+    360, 
+    <tconstruct:edible:2>,
+    <tconstruct:edible:32>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Blood", 
+    360, 
+    <tconstruct:edible:3>,
+    <tconstruct:edible:33>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Orange Slime", 
+    360, 
+    <tconstruct:edible:4>,
+    <tconstruct:edible:34>
+);
+
+mods.primal.DryingRack.addNonRottingRecipe(
+    "Ticon Dead Bush", 
+    360, 
+    <ore:treeSapling>,
+    <minecraft:deadbush>
+);
+
 #---In World Crafting---
 #-Tool Moulds-
 mods.primal.Axe.addRecipe(

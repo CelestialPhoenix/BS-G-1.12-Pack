@@ -43,6 +43,12 @@ recipes.remove(<minecraft:slime>);
 #magma block
 recipes.remove(<minecraft:magma>);
 
+#wooden bowl (fix Gtech knife recipe)
+recipes.remove(<minecraft:bowl>);
+recipes.addShaped(<minecraft:bowl>,[
+[<ore:plankWood>, null, <ore:plankWood>],
+[null, <ore:plankWood>, null]]);
+
 #---Removed Smelting Recipes---
 #Charcoal
 furnace.remove(<minecraft:coal:1>);
@@ -139,6 +145,18 @@ recipes.addShaped(<minecraft:golden_boots>,[
 [<ore:plateGold>, null, <ore:plateGold>]]);
 
 #---Crafting---
+
+#Cauldron
+recipes.remove(<minecraft:cauldron>);
+recipes.addShaped(<minecraft:cauldron>,[
+[<ore:plateIron>, null, <ore:plateIron>],
+[<ore:plateIron>, null, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<minecraft:cauldron>,[
+[<ore:plateSteel>, null, <ore:plateSteel>],
+[<ore:plateSteel>, null, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 #Hopper
 recipes.remove(<minecraft:hopper>);

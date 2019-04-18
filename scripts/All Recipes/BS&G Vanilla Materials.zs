@@ -13,7 +13,7 @@ print("Mwah ha ha ha ha ha");
 <minecraft:log2:1>.displayName="Dark Oak Log";
 #---Recipes---
 
-#---Hardmode redstone---
+#--Hardmode redstone--
 
 #Trapdoor Wood
 recipes.remove(<minecraft:trapdoor>);
@@ -251,4 +251,8 @@ recipes.addShaped(<minecraft:wooden_slab>*4,[
 [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
 
- 
+ #-Stick-
+ recipes.remove(<minecraft:stick>);
+ recipes.addShapeless(<minecraft:stick>*2, [<ore:plankWood>]);
+ recipes.addShapeless(<minecraft:stick>*2, [<ore:stickLongWood>]);
+ recipes.addShapeless(<minecraft:stick>, [<biomesoplenty:bamboo>]);

@@ -3,80 +3,104 @@
 
 print("IC what you did there");
 
-#banned items
-#materials
+#---Duplicate Materials---
+#-Blocks
+recipes.remove(<ic2:resource:5>); #Bronze
+recipes.remove(<ic2:resource:6>); #Copper
+recipes.remove(<ic2:resource:7>); #Lead
+recipes.remove(<ic2:resource:8>); #Steel
+recipes.remove(<ic2:resource:9>); #Tin
+recipes.remove(<ic2:resource:10>); #Uranium
+recipes.remove(<ic2:resource:15>); #Silver
+
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:5>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:6>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:7>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:8>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:9>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:10>);
+mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:15>);
+#--Dusts--
 #bronze
 recipes.remove(<ic2:dust:0>);
-<ore:dustBronze>.remove(<ic2:dust:0>);
 <ic2:dust:0>.addTooltip("This item is disabled");
+#clay
+recipes.remove(<ic2:dust:1>);
+<ic2:dust:1>.addTooltip("This item is disabled");
+#coal
+recipes.remove(<ic2:dust:2>);
+<ic2:dust:2>.addTooltip("This item is disabled");
+#hydrated coal
+recipes.remove(<ic2:dust:3>);
+<ic2:dust:0>.addTooltip("This item is disabled");
+#copper
+recipes.remove(<ic2:dust:4>);
+<ic2:dust:4>.addTooltip("This item is disabled");
+#diamond
+recipes.remove(<ic2:dust:5>);
+<ic2:dust:5>.addTooltip("This item is disabled");
+#energium
+recipes.remove(<ic2:dust:0>);
+<ic2:dust:0>.addTooltip("This item is disabled");
+#gold
+recipes.remove(<ic2:dust:7>);
+<ic2:dust:7>.addTooltip("This item is disabled");
+#iron
+recipes.remove(<ic2:dust:8>);
+<ic2:dust:0>.addTooltip("This item is disabled");
+#lapis
+recipes.remove(<ic2:dust:9>);
+<ic2:dust:9>.addTooltip("This item is disabled");
+#lead
+recipes.remove(<ic2:dust:10>);
+<ic2:dust:10>.addTooltip("This item is disabled");
+#lithium
+recipes.remove(<ic2:dust:11>);
+<ic2:dust:11>.addTooltip("This item is disabled");
+#obsidian
+recipes.remove(<ic2:dust:12>);
+<ic2:dust:12>.addTooltip("This item is disabled");
+#silicon dioxide
+#silver
+recipes.remove(<ic2:dust:14>);
+<ic2:dust:14>.addTooltip("This item is disabled");
+#stone
+#sulphur
+recipes.remove(<ic2:dust:16>);
+<ic2:dust:16>.addTooltip("This item is disabled");
+#tin
+recipes.remove(<ic2:dust:17>);
+<ic2:dust:17>.addTooltip("This item is disabled");
 
+#--Dust Tiny--
+
+#--Ingots--
 #copper
 recipes.remove(<ic2:ingot:2>);
 furnace.remove(<ic2:ingot:2>);
-<ore:ingotCopper>.remove(<ic2:ingot:2>);
 <ic2:ingot:2>.addTooltip("This item is disabled");
-recipes.remove(<ic2:dust:4>);
-<ore:dustCopper>.remove(<ic2:dust:4>);
-<ic2:dust:4>.addTooltip("This item is disabled");
-
-#gold
-recipes.remove(<ic2:dust:7>);
-<ore:dustGold>.remove(<ic2:dust:7>);
-<ic2:dust:7>.addTooltip("This item is disabled");
-
 #lead
 recipes.remove(<ic2:ingot:3>);
 furnace.remove(<ic2:ingot:3>);
-<ore:ingotLead>.remove(<ic2:ingot:3>);
 <ic2:ingot:3>.addTooltip("This item is disabled");
-recipes.remove(<ic2:dust:10>);
-<ore:dustLead>.remove(<ic2:dust:10>);
-<ic2:dust:10>.addTooltip("This item is disabled");
-
 #silver
 recipes.remove(<ic2:ingot:4>);
 furnace.remove(<ic2:ingot:4>);
-<ore:ingotSilver>.remove(<ic2:ingot:4>);
 <ic2:ingot:4>.addTooltip("This item is disabled");
-recipes.remove(<ic2:dust:14>);
-<ore:dustSilver>.remove(<ic2:dust:14>);
-<ic2:dust:14>.addTooltip("This item is disabled");
-
 #steel
 recipes.remove(<ic2:ingot:5>);
 furnace.remove(<ic2:ingot:5>);
-<ore:ingotSteel>.remove(<ic2:ingot:5>);
 <ic2:ingot:5>.addTooltip("This item is disabled");
-
-#sulphur
-recipes.remove(<ic2:dust:16>);
-<ore:dustSulfur>.remove(<ic2:dust:16>);
-<ic2:dust:16>.addTooltip("This item is disabled");
-
 #tin
 recipes.remove(<ic2:ingot:6>);
 furnace.remove(<ic2:ingot:6>);
-<ore:ingotTin>.remove(<ic2:ingot:6>);
 <ic2:ingot:6>.addTooltip("This item is disabled");
-recipes.remove(<ic2:dust:17>);
-<ore:dustTin>.remove(<ic2:dust:17>);
-<ic2:dust:17>.addTooltip("This item is disabled");
 
-#removed recipes
-#metal blocks
-recipes.removeShaped(<ic2:resource:5>);
-recipes.removeShaped(<ic2:resource:6>);
-recipes.removeShaped(<ic2:resource:7>);
-recipes.removeShaped(<ic2:resource:8>);
-recipes.removeShaped(<ic2:resource:9>);
-recipes.removeShaped(<ic2:resource:10>);
-recipes.removeShaped(<ic2:resource:15>);
 
-#recipes
+#---Recipes---
 
-#metal press
-
-#cutting (item casings)
+#-Item Casings-
+#Imeng press cutter
 recipes.remove(<ic2:casing:*>);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <contenttweaker:rolledbronze>, <contenttweaker:presstoolcutter>, 2000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <contenttweaker:rolledcopper>, <contenttweaker:presstoolcutter>, 2000, 1);

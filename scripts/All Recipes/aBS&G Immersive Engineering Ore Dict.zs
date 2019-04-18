@@ -4,7 +4,22 @@
 print("Trust me I'm an engineer");
 
 #Removing Entries
+
+#Blocks
+<ore:blockCopper>.remove(<immersiveengineering:storage:0>);
+<ore:blockAluminum>.remove(<immersiveengineering:storage:1>);
+<ore:blockLead>.remove(<immersiveengineering:storage:2>);
+<ore:blockSilver>.remove(<immersiveengineering:storage:3>);
+<ore:blockNickel>.remove(<immersiveengineering:storage:4>);
+<ore:blockUranium>.remove(<immersiveengineering:storage:5>);
+<ore:blockConstantan>.remove(<immersiveengineering:storage:6>);
+<ore:blockElectrum>.remove(<immersiveengineering:storage:7>);
+<ore:blockSteel>.remove(<immersiveengineering:storage:8>);
+<ore:blockFuelCoke>.remove(<immersiveengineering:stone_decoration:3>);
+
 #Dust
+<ore:dustCopper>.remove(<immersiveengineering:metal:9>);
+<ore:dustAluminum>.remove(<immersiveengineering:metal:10>);
 <ore:dustElectrum>.remove(<immersiveengineering:metal:16>);
 <ore:dustGold>.remove(<immersiveengineering:metal:19>);
 <ore:dustIron>.remove(<immersiveengineering:metal:18>);
@@ -18,6 +33,7 @@ print("Trust me I'm an engineer");
 
 #Ingots
 <ore:ingotCopper>.remove(<immersiveengineering:metal:0>);
+<ore:ingotConstantan>.remove(<immersiveengineering:metal:6>);
 <ore:ingotElectrum>.remove(<immersiveengineering:metal:7>);
 <ore:ingotLead>.remove(<immersiveengineering:metal:2>);
 <ore:ingotNickel>.remove(<immersiveengineering:metal:4>);
@@ -28,6 +44,7 @@ print("Trust me I'm an engineer");
 #nuggets
 <ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
 <ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
+<ore:nuggetConstantan>.remove(<immersiveengineering:metal:26>);
 <ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
 <ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
 <ore:nuggetNickel>.remove(<immersiveengineering:metal:24>);
@@ -52,8 +69,16 @@ print("Trust me I'm an engineer");
 <ore:plateSteel>.remove(<immersiveengineering:metal:38>);
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
 
-#Adding Entries
+#Ore Dicting
 #<ore:>.add(<immersiveengineering:>);
+
+#Connectors
+<ore:connectorLV>.add(<immersiveengineering:connector:0>);
+<ore:relayLV>.add(<immersiveengineering:connector:1>);
+<ore:connectorMV>.add(<immersiveengineering:connector:2>);
+<ore:relayMV>.add(<immersiveengineering:connector:3>);
+<ore:connectorHV>.add(<immersiveengineering:connector:4>);
+<ore:relayHV>.add(<immersiveengineering:connector:5>);
 
 <ore:glassInsulating>.add(<immersiveengineering:stone_decoration:8>);
 <ore:itemNozzle>.add(<immersiveengineering:toolupgrade:7>);

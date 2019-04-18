@@ -35,11 +35,14 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:dustCopper>.remove(<thermalfoundation:material:64>);
 <ore:dustConstantan>.remove(<thermalfoundation:material:100>);
 <ore:dustElectrum>.remove(<thermalfoundation:material:97>);
+<ore:dustEnderium>.remove(<thermalfoundation:material:103>);
+<ore:dustLumium>.remove(<thermalfoundation:material:102>);
 <ore:dustIron>.remove(<thermalfoundation:material:0>);
 <ore:dustInvar>.remove(<thermalfoundation:material:98>);
 <ore:dustIridium>.remove(<thermalfoundation:material:71>);
 <ore:dustNickel>.remove(<thermalfoundation:material:69>);
 <ore:dustPlatinum>.remove(<thermalfoundation:material:70>);
+<ore:dustSignalum>.remove(<thermalfoundation:material:101>);
 <ore:dustSilver>.remove(<thermalfoundation:material:66>);
 <ore:dustSulfur>.remove(<thermalfoundation:material:771>);
 <ore:dustSteel>.remove(<thermalfoundation:material:96>);
@@ -80,16 +83,19 @@ print("There are no bodies buried into the foundations. You can stop looking now
 
 #Ingots
 <ore:ingotAluminum>.remove(<thermalfoundation:material:132>);
-<ore:ingotAluminium>.add(<thermalfoundation:material:132>);
 <ore:ingotBronze>.remove(<thermalfoundation:material:163>);
 <ore:ingotConstantan>.remove(<thermalfoundation:material:164>);
 <ore:ingotCopper>.remove(<thermalfoundation:material:128>);
-<ore:ingotElectrum>.remove(<thermalfoundation:material:134>);
+<ore:ingotElectrum>.remove(<thermalfoundation:material:161>);
+<ore:ingotEnderium>.remove(<thermalfoundation:material:167>);
 <ore:ingotLead>.remove(<thermalfoundation:material:131>);
+<ore:ingotLumium>.remove(<thermalfoundation:material:166>);
 <ore:ingotInvar>.remove(<thermalfoundation:material:162>);
 <ore:ingotIridium>.remove(<thermalfoundation:material:135>);
+<ore:ingotMithril>.remove(<thermalfoundation:material:136>);
 <ore:ingotNickel>.remove(<thermalfoundation:material:133>);
 <ore:ingotPlatinum>.remove(<thermalfoundation:material:134>);
+<ore:ingotSignalum>.remove(<thermalfoundation:material:165>);
 <ore:ingotSilver>.remove(<thermalfoundation:material:130>);
 <ore:ingotSteel>.remove(<thermalfoundation:material:160>);
 <ore:ingotTin>.remove(<thermalfoundation:material:129>);
@@ -103,25 +109,25 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:nuggetBronze>.remove(<thermalfoundation:material:227>);
 <ore:nuggetConstantan>.remove(<thermalfoundation:material:228>);
 
-<ore:nuggetDiamond>.add(<thermalfoundation:material:16>);
-<ore:nuggetEmerald>.add(<thermalfoundation:material:17>);
-<ore:nuggetCopper>.add(<thermalfoundation:material:192>);
-<ore:nuggetTin>.add(<thermalfoundation:material:192>);
-<ore:nuggetSilver>.add(<thermalfoundation:material:194>);
-<ore:nuggetLead>.add(<thermalfoundation:material:195>);
-<ore:nuggetAluminum>.add(<thermalfoundation:material:196>);
-<ore:nuggetNickel>.add(<thermalfoundation:material:197>);
-<ore:nuggetPlatinum>.add(<thermalfoundation:material:198>);
-<ore:nuggetIridium>.add(<thermalfoundation:material:199>);
-<ore:nuggetMithril>.add(<thermalfoundation:material:200>);
-<ore:nuggetSteel>.add(<thermalfoundation:material:224>);
-<ore:nuggetElectrum>.add(<thermalfoundation:material:225>);
-<ore:nuggetInvar>.add(<thermalfoundation:material:226>);
-<ore:nuggetBronze>.add(<thermalfoundation:material:227>);
-<ore:nuggetConstantan>.add(<thermalfoundation:material:228>);
-<ore:nuggetSignalum>.add(<thermalfoundation:material:229>);
-<ore:nuggetLumium>.add(<thermalfoundation:material:230>);
-<ore:nuggetEnderium>.add(<thermalfoundation:material:231>);
+<ore:nuggetDiamond>.remove(<thermalfoundation:material:16>);
+<ore:nuggetEmerald>.remove(<thermalfoundation:material:17>);
+<ore:nuggetCopper>.remove(<thermalfoundation:material:192>);
+<ore:nuggetTin>.remove(<thermalfoundation:material:192>);
+<ore:nuggetSilver>.remove(<thermalfoundation:material:194>);
+<ore:nuggetLead>.remove(<thermalfoundation:material:195>);
+<ore:nuggetAluminum>.remove(<thermalfoundation:material:196>);
+<ore:nuggetNickel>.remove(<thermalfoundation:material:197>);
+<ore:nuggetPlatinum>.remove(<thermalfoundation:material:198>);
+<ore:nuggetIridium>.remove(<thermalfoundation:material:199>);
+<ore:nuggetMithril>.remove(<thermalfoundation:material:200>);
+<ore:nuggetSteel>.remove(<thermalfoundation:material:224>);
+<ore:nuggetElectrum>.remove(<thermalfoundation:material:225>);
+<ore:nuggetInvar>.remove(<thermalfoundation:material:226>);
+<ore:nuggetBronze>.remove(<thermalfoundation:material:227>);
+<ore:nuggetConstantan>.remove(<thermalfoundation:material:228>);
+<ore:nuggetSignalum>.remove(<thermalfoundation:material:229>);
+<ore:nuggetLumium>.remove(<thermalfoundation:material:230>);
+<ore:nuggetEnderium>.remove(<thermalfoundation:material:231>);
 
 #Ores
 #<ore:ore>.add(<thermalfoundation:ore:>);
@@ -140,76 +146,57 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #Plates to Thick Plates
 <ore:plateIron>.remove(<thermalfoundation:material:32>);
 <ore:plateThickIron>.add(<thermalfoundation:material:32>);
-<thermalfoundation:material:32>.displayName= "Thick Iron Plate";
 
 <ore:plateGold>.remove(<thermalfoundation:material:33>);
 <ore:plateThickGold>.add(<thermalfoundation:material:33>);
-<thermalfoundation:material:33>.displayName= "Thick Gold Plate";
 
 <ore:plateCopper>.remove(<thermalfoundation:material:320>);
 <ore:plateThickCopper>.add(<thermalfoundation:material:320>);
-<thermalfoundation:material:320>.displayName= "Thick Copper Plate";
 
 <ore:plateTin>.remove(<thermalfoundation:material:321>);
 <ore:plateThickTin>.add(<thermalfoundation:material:321>);
-<thermalfoundation:material:321>.displayName= "Thick Tin Plate";
 
 <ore:plateSilver>.remove(<thermalfoundation:material:322>);
 <ore:plateThickSilver>.add(<thermalfoundation:material:322>);
-<thermalfoundation:material:322>.displayName= "Thick Silver Plate";
 
 <ore:plateLead>.remove(<thermalfoundation:material:323>);
 <ore:plateThickLead>.add(<thermalfoundation:material:323>);
-<thermalfoundation:material:323>.displayName= "Thick Lead Plate";
 
 <ore:plateAluminum>.remove(<thermalfoundation:material:324>);
 <ore:plateThickAluminium>.add(<thermalfoundation:material:324>);
-<thermalfoundation:material:324>.displayName= "Thick Aluminium Plate";
 
 <ore:plateNickel>.remove(<thermalfoundation:material:325>);
 <ore:plateThickNickel>.add(<thermalfoundation:material:325>);
-<thermalfoundation:material:325>.displayName= "Thick Nickel Plate";
 
 <ore:platePlatinum>.remove(<thermalfoundation:material:326>);
 <ore:plateThickPlatinum>.add(<thermalfoundation:material:326>);
-<thermalfoundation:material:326>.displayName= "Thick Platinum Plate";
 
 <ore:plateIridium>.remove(<thermalfoundation:material:327>);
 <ore:plateThickIridium>.add(<thermalfoundation:material:327>);
-<thermalfoundation:material:327>.displayName= "Thick Iridium Plate";
 
 <ore:plateMithril>.remove(<thermalfoundation:material:328>);
 <ore:plateThickMithril>.add(<thermalfoundation:material:328>);
-<thermalfoundation:material:328>.displayName= "Thick Mithril Plate";
 
 <ore:plateSteel>.remove(<thermalfoundation:material:352>);
 <ore:plateThickSteel>.add(<thermalfoundation:material:352>);
-<thermalfoundation:material:352>.displayName= "Thick Steel Plate";
 
 <ore:plateElectrum>.remove(<thermalfoundation:material:353>);
 <ore:plateThickElectrum>.add(<thermalfoundation:material:353>);
-<thermalfoundation:material:353>.displayName= "Thick Electrum Plate";
 
 <ore:plateInvar>.remove(<thermalfoundation:material:354>);
 <ore:plateThickInvar>.add(<thermalfoundation:material:354>);
-<thermalfoundation:material:354>.displayName= "Thick Invar Plate";
 
 <ore:plateBronze>.remove(<thermalfoundation:material:355>);
 <ore:plateThickBronze>.add(<thermalfoundation:material:355>);
-<thermalfoundation:material:355>.displayName= "Thick Bronze Plate";
 
 <ore:plateConstantan>.remove(<thermalfoundation:material:356>);
 <ore:plateThickConstantan>.add(<thermalfoundation:material:356>);
-<thermalfoundation:material:356>.displayName= "Thick Constantan Plate";
 
 <ore:plateSignalum>.remove(<thermalfoundation:material:357>);
 <ore:plateThickSignalum>.add(<thermalfoundation:material:357>);
-<thermalfoundation:material:357>.displayName= "Thick Signalum Plate";
 
 <ore:plateLumium>.remove(<thermalfoundation:material:358>);
 <ore:plateThickLumium>.add(<thermalfoundation:material:358>);
-<thermalfoundation:material:358>.displayName= "Thick Lumium Plate";
 
 <ore:plateEnderium>.remove(<thermalfoundation:material:359>);
 <ore:plateThickEnderium>.add(<thermalfoundation:material:359>);
-<thermalfoundation:material:359>.displayName= "Thick Enderium Plate";

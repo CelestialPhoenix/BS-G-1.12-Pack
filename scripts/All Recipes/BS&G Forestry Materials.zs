@@ -9,6 +9,18 @@ mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gear_bronze>);
 mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gear_copper>);
 mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gear_tin>);
 
+recipes.removeShaped(<forestry:gear_bronze>);
+<ore:gearBronze>.remove(<forestry:gear_bronze>);
+<forestry:gear_bronze>.addTooltip("This item is disabled");
+
+recipes.removeShaped(<forestry:gear_copper>);
+<ore:gearCopper>.remove(<forestry:gear_copper>);
+<forestry:gear_copper>.addTooltip("This item is disabled");
+
+recipes.removeShaped(<forestry:gear_tin>);
+<ore:gearTin>.remove(<forestry:gear_tin>);
+<forestry:gear_tin>.addTooltip("This item is disabled");
+
 #ingots
 recipes.remove(<forestry:ingot_bronze>);
 furnace.remove(<forestry:ingot_bronze>);

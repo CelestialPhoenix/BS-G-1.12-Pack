@@ -13,6 +13,13 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:starQuantum>.add(<metaitem:quantumstar>);
 <ore:starGravity>.add(<metaitem:gravistar>);
 
+#-circuit boards
+<ore:boardBasic>.add(<metaitem:board.coated>);
+
+#-circuit parts-
+<ore:itemResistor>.add(<metaitem:component.resistor>);
+<ore:itemDiode>.add(<metaitem:component.diode>);
+
 #rods
 <ore:stickMagneticcobalt>.remove(<gregtech:meta_item_1:14514>);
 <ore:stickCobaltMagnetic>.add(<gregtech:meta_item_1:14514>);

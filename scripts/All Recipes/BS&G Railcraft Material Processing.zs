@@ -5,23 +5,61 @@ print("Handles like its on rails");
 
 #Right now there is no CT support for RC. This is coming in a future RC update
 
+#---Coking Oven---
+
+#---Blast Furnace---
+
+#---Rock Crusher---
+#Machine disabled- remove all recipes
+
+#---Rolling Machine---
+
 #Conduit
 #3 rods or ingots in a diagonal bottom left to top right
 
-#Heavy Plates
-#3x3 of plates in rolling machine
-#recipes.addShaped(<immersiveengineering:metal_device1:1>, [
-#[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],
-#[<ore:barsIron>, <ore:elementCupronickel>, <ore:barsIron>], 
-#[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]]);
+#Wires
+#3 rods in a diagonal bottom right to top left
 
-#Thick plates
+#Rods
+#3 ingots in a row (horizontal)
+
+#Rings
+#4 rods in a ring
+
+#--Thick plates--
 #2x2 of plates in rolling machine
 #Tempory Recipes
+
+#-CT Plates-
+recipes.addShaped(<ore:plateThickDarmstadtium>.firstItem, [
+[<ore:plateDarmstadtium>, <ore:plateDarmstadtium>],
+[<ore:plateDarmstadtium>, <ore:plateDarmstadtium>]]);
+
+recipes.addShaped(<ore:plateThickHsse>.firstItem, [
+[<ore:plateHsse>, <ore:plateHsse>],
+[<ore:plateHsse>, <ore:plateHsse>]]);
+
+recipes.addShaped(<ore:plateThickHssg>.firstItem, [
+[<ore:plateHssg>, <ore:plateHssg>],
+[<ore:plateHssg>, <ore:plateHssg>]]);
+
+recipes.addShaped(<ore:plateThickSteelMagnetic>.firstItem, [
+[<ore:plateSteelMagnetic>, <ore:plateSteelMagnetic>],
+[<ore:plateSteelMagnetic>, <ore:plateSteelMagnetic>]]);
+
 recipes.addShaped(<ore:plateThickStainlessSteel>.firstItem, [
 [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
 [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
+recipes.addShaped(<ore:plateThickTungstenSteel>.firstItem, [
+[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>],
+[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
+
+recipes.addShaped(<ore:plateThickTitanium>.firstItem, [
+[<ore:plateTitanium>, <ore:plateTitanium>],
+[<ore:plateTitanium>, <ore:plateTitanium>]]);
+
+#-TFo Plates- 
 recipes.addShaped(<ore:plateThickIron>.firstItem, [
 [<ore:plateIron>, <ore:plateIron>],
 [<ore:plateIron>, <ore:plateIron>]]);

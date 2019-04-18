@@ -22,67 +22,13 @@ print("IC what you did there");
 <ic2:cable:6>.withTag({type: 6 as byte, insulation: 0 as byte}).displayName="Power Splitter Conduit";
 
 #---BannedItems---
-
+#-Circuits-
+#use Gtech Circuits
+recipes.removeShaped(<ic2:crafting:2>);
+recipes.removeShaped(<ic2:crafting:1>);
 
 #---Recipes---
 
-#-Circuits-
-#advanced circuit
-recipes.removeShaped(<ic2:crafting:2>);
-recipes.addShaped(<ic2:crafting:2>, [
-[<ore:tubeDiamond>, <ore:wireFineGold>, <ore:tubeDiamond>],
-[<ore:wireFineGold>, <ore:circuitGood>, <ore:wireFineGold>], 
-[<ore:itemCircuitPartAdvanced>, <ore:wireFineGold>, <ore:itemCircuitPartAdvanced>]]);
-recipes.addShaped(<ic2:crafting:2>, [
-[<ore:tubeEmerald>, <ore:wireFineGold>, <ore:tubeEmerald>],
-[<ore:wireFineGold>, <ore:circuitGood>, <ore:wireFineGold>], 
-[<ore:itemCircuitPartAdvanced>, <ore:wireFineGold>, <ore:itemCircuitPartAdvanced>]]);
-recipes.addShaped(<ic2:crafting:2>, [
-[<ore:tubeDiamond>, <ore:wireFineElectrum>, <ore:tubeDiamond>],
-[<ore:wireFineElectrum>, <ore:circuitGood>, <ore:wireFineElectrum>], 
-[<ore:itemCircuitPartAdvanced>, <ore:wireFineElectrum>, <ore:itemCircuitPartAdvanced>]]);
-recipes.addShaped(<ic2:crafting:2>, [
-[<ore:tubeEmerald>, <ore:wireFineElectrum>, <ore:tubeEmerald>],
-[<ore:wireFineElectrum>, <ore:circuitGood>, <ore:wireFineElectrum>], 
-[<ore:itemCircuitPartAdvanced>, <ore:wireFineElectrum>, <ore:itemCircuitPartAdvanced>]]);
-
-#basic circuit
-recipes.removeShaped(<ic2:crafting:1>);
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeTin>, <ore:cableGtSingleCopper>, <ore:tubeTin>],
-[<ore:cableGtSingleCopper>, <ore:boardCrude>, <ore:cableGtSingleCopper>], 
-[<ore:tubeIron>, <ore:cableGtSingleCopper>, <ore:tubeIron>]]);
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeTin>, <ore:cableGtSingleRedAlloy>, <ore:tubeTin>],
-[<ore:cableGtSingleRedAlloy>, <ore:boardCrude>, <ore:cableGtSingleRedAlloy>], 
-[<ore:tubeIron>, <ore:cableGtSingleRedAlloy>, <ore:tubeIron>]]);
-
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeTin>, <ore:cableGtSingleCopper>, <ore:tubeTin>],
-[<ore:cableGtSingleCopper>, <ore:boardSimple>, <ore:cableGtSingleCopper>], 
-[<ore:tubeIron>, <ore:cableGtSingleCopper>, <ore:tubeIron>]]);
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeTin>, <ore:cableGtSingleRedAlloy>, <ore:tubeTin>],
-[<ore:cableGtSingleRedAlloy>, <ore:boardSimple>, <ore:cableGtSingleRedAlloy>], 
-[<ore:tubeIron>, <ore:cableGtSingleRedAlloy>, <ore:tubeIron>]]);
-
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeCopper>, <ore:cableGtSingleCopper>, <ore:tubeBronze>],
-[<ore:cableGtSingleCopper>, <ore:boardSimple>, <ore:cableGtSingleCopper>], 
-[<ore:tubeIron>, <ore:cableGtSingleCopper>, <ore:tubeIron>]]);
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeCopper>, <ore:cableGtSingleRedAlloy>, <ore:tubeCopper>],
-[<ore:cableGtSingleRedAlloy>, <ore:boardSimple>, <ore:cableGtSingleRedAlloy>], 
-[<ore:tubeIron>, <ore:cableGtSingleRedAlloy>, <ore:tubeIron>]]);
-
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeBronze>, <ore:cableGtSingleCopper>, <ore:tubeBronze>],
-[<ore:cableGtSingleCopper>, <ore:boardSimple>, <ore:cableGtSingleCopper>], 
-[<ore:tubeIron>, <ore:cableGtSingleCopper>, <ore:tubeIron>]]);
-recipes.addShaped(<ic2:crafting:1>, [
-[<ore:tubeBronze>, <ore:cableGtSingleRedAlloy>, <ore:tubeBronze>],
-[<ore:cableGtSingleRedAlloy>, <ore:boardSimple>, <ore:cableGtSingleRedAlloy>], 
-[<ore:tubeIron>, <ore:cableGtSingleRedAlloy>, <ore:tubeIron>]]);
 
 #-Conduits-
 #copper
@@ -107,5 +53,15 @@ recipes.remove(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}));
 recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}),
 [<ore:conduitTin>, <ore:plateRubber>]);
 
+#gold
+recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
 
-#-Machines-
+#--Machines--
+#Generator
+recipes.remove(<ic2:te:3>);
+recipes.addShaped(<ic2:te:3>, [
+[<ore:connectorLV>, <ore:coilSimple>, <ore:connectorLV>],
+[<ore:coilSimple>, <ore:casingLV>, <ore:coilSimple>], 
+[<ore:ringSteel>, <minecraft:furnace>, <ore:ringSteel>]]);
+<ic2:te:3>.displayName="Sterling Generator";
+<ic2:te:3>.addTooltip("Produces 40Rf/t");

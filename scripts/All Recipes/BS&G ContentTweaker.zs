@@ -56,28 +56,6 @@ furnace.addRecipe(<contenttweaker:casthard>, <contenttweaker:castraw>, 0.0);
 #rawcast
 recipes.addShapeless(<contenttweaker:castraw>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
 
-#---circuit parts---
-recipes.addShaped(<contenttweaker:boardcrude>, [
-[<ore:casingCopper>],
-[<ore:resinSticky>], 
-[<ore:plateWood>]]);
-
-#Board Simple
-#Recipe in BS&G zGregtech Material Processing
-
-recipes.addShaped(<contenttweaker:circuitgood>, [
-[<ore:tubeGold>, <ore:wireFineAnnealedCopper>, <ore:tubeGold>],
-[<ore:wireFineAnnealedCopper>, <ore:circuitBasic>, <ore:wireFineAnnealedCopper>], 
-[<ore:circuitPrimitive>, <ore:wireFineAnnealedCopper>, <ore:circuitPrimitive>]]);
-recipes.addShaped(<contenttweaker:circuitgood>, [
-[<ore:tubeLapis>, <ore:wireFineAnnealedCopper>, <ore:tubeLapis>],
-[<ore:wireFineAnnealedCopper>, <ore:circuitBasic>, <ore:wireFineAnnealedCopper>], 
-[<ore:circuitPrimitive>, <ore:wireFineAnnealedCopper>, <ore:circuitPrimitive>]]);
-recipes.addShaped(<contenttweaker:circuitgood>, [
-[<ore:tubeObsidian>, <ore:wireFineAnnealedCopper>, <ore:tubeObsidian>],
-[<ore:wireFineAnnealedCopper>, <ore:circuitBasic>, <ore:wireFineAnnealedCopper>], 
-[<ore:circuitPrimitive>, <ore:wireFineAnnealedCopper>, <ore:circuitPrimitive>]]);
-
 #--coils--
 #Simple
 recipes.addShaped(<contenttweaker:coilsimple>, [
@@ -149,7 +127,46 @@ recipes.addShaped(<contenttweaker:coilreactanceenhanced>, [
 [<ore:wireFinePlatinum>, <ore:stickNeodymium>, <ore:wireFinePlatinum>], 
 [<ore:ringTungstenSteel>, <ore:wireFinePlatinum>, <ore:wireFineRedAlloy>]]);
 
-#---dusts [full piles]---
+#--elements--
+recipes.addShaped(<contenttweaker:elementcopper>, [
+[<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>],
+[<ore:wireGtSingleCopper>, null, <ore:wireGtSingleCopper>], 
+[<ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>, <ore:wireGtSingleCopper>]]);
+
+recipes.addShaped(<contenttweaker:elementcupronickel>, [
+[<ore:wireGtSingleCupronickel>, <ore:wireGtSingleCupronickel>, <ore:wireGtSingleCupronickel>],
+[<ore:wireGtSingleCupronickel>, null, <ore:wireGtSingleCupronickel>], 
+[<ore:wireGtSingleCupronickel>, <ore:wireGtSingleCupronickel>, <ore:wireGtSingleCupronickel>]]);
+
+recipes.addShaped(<contenttweaker:elementkanthal>, [
+[<ore:wireGtSingleKanthal>, <ore:wireGtSingleKanthal>, <ore:wireGtSingleKanthal>],
+[<ore:wireGtSingleKanthal>, null, <ore:wireGtSingleKanthal>], 
+[<ore:wireGtSingleKanthal>, <ore:wireGtSingleKanthal>, <ore:wireGtSingleKanthal>]]);
+
+recipes.addShaped(<contenttweaker:elementnichrome>, [
+[<ore:wireGtSingleNichrome>, <ore:wireGtSingleNichrome>, <ore:wireGtSingleNichrome>],
+[<ore:wireGtSingleNichrome>, null, <ore:wireGtSingleNichrome>], 
+[<ore:wireGtSingleNichrome>, <ore:wireGtSingleNichrome>, <ore:wireGtSingleNichrome>]]);
+
+recipes.addShaped(<contenttweaker:elementtungstensteel>, [
+[<ore:wireGtSingleTungstenSteel>, <ore:wireGtSingleTungstenSteel>, <ore:wireGtSingleTungstenSteel>],
+[<ore:wireGtSingleTungstenSteel>, null, <ore:wireGtSingleTungstenSteel>], 
+[<ore:wireGtSingleTungstenSteel>, <ore:wireGtSingleTungstenSteel>, <ore:wireGtSingleTungstenSteel>]]);
+
+recipes.addShaped(<contenttweaker:elementhssg>, [
+[<ore:wireGtSingleHssg>, <ore:wireGtSingleHssg>, <ore:wireGtSingleHssg>],
+[<ore:wireGtSingleHssg>, null, <ore:wireGtSingleHssg>], 
+[<ore:wireGtSingleHssg>, <ore:wireGtSingleHssg>, <ore:wireGtSingleHssg>]]);
+
+recipes.addShaped(<contenttweaker:elementnaquadah>, [
+[<ore:wireGtSingleNaquadah>, <ore:wireGtSingleNaquadah>, <ore:wireGtSingleNaquadah>],
+[<ore:wireGtSingleNaquadah>, null, <ore:wireGtSingleNaquadah>], 
+[<ore:wireGtSingleNaquadah>, <ore:wireGtSingleNaquadah>, <ore:wireGtSingleNaquadah>]]);
+
+recipes.addShaped(<contenttweaker:elementnaquadahalloy>, [
+[<ore:wireGtSingleNaquadahAlloy>, <ore:wireGtSingleNaquadahAlloy>, <ore:wireGtSingleNaquadahAlloy>],
+[<ore:wireGtSingleNaquadahAlloy>, null, <ore:wireGtSingleNaquadahAlloy>], 
+[<ore:wireGtSingleNaquadahAlloy>, <ore:wireGtSingleNaquadahAlloy>, <ore:wireGtSingleNaquadahAlloy>]]);
 
 #--empty gearboxes--
 #steel
