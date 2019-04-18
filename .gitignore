@@ -1,3 +1,4 @@
+/.git
 /astralcorcery
 /crafttweaker_dump
 /crash-reports
@@ -11,7 +12,7 @@
 /snapshots-server
 /texturepacks
 BotaniaVars.dat
-.log
+*.log
 icon.png
 options.txt
 realms_persistance.json
