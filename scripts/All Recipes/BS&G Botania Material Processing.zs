@@ -1,6 +1,8 @@
 #Name: Blood Sweat & Gears Botania Material Processing.zs
 #Author: PhoePhoe
 
+import mods.botaniatweaks.Agglomeration;
+
 print("ooo eee ooo ah ah ting tang...");
 
 #---Pure Daisy---
@@ -67,3 +69,8 @@ mods.botania.PureDaisy.addRecipe(<minecraft:stone:4>, <minecraft:stone>); #diori
 mods.botania.PureDaisy.addRecipe(<minecraft:stone:5>, <minecraft:stone>); #andesite
 mods.botania.PureDaisy.addRecipe(<minecraft:stone:6>, <minecraft:stone>); #andesite
 
+#---Terrasteel Agglomeration Plate---
+
+#Terrasteel
+Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource:0>, <botania:manaresource:1>]);
+Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:ingotManasteel>, <ore:manaDiamond>, <ore:manaPearl>], 500000);
