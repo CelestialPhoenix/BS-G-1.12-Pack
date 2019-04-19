@@ -74,9 +74,9 @@ recipes.remove(<meta_tile_entity:ceu:cef.lv.16>);
 #MV
 recipes.remove(<meta_tile_entity:ceu:ceu.mv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:ceu.mv.1>, [
-[<ore:circuitGood>, <ore:coilReactanceModified>, <ore:circuitGood>], 
+[<ore:circuitGood>, <ore:coilReactanceGood>, <ore:circuitGood>], 
 [<ore:cableGtSingleCopper>, <ore:hullMV>, <ore:cableGtSingleCopper>], 
-[<ore:plateSteel>, <ore:coilReactanceModified>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:coilReactanceGood>, <ore:plateSteel>]]);
 
 recipes.remove(<meta_tile_entity:ceu:ceu.mv.4>);
 <meta_tile_entity:ceu:ceu.mv.4>.clearTooltip();
@@ -90,9 +90,9 @@ recipes.remove(<meta_tile_entity:ceu:ceu.mv.16>);
 
 recipes.remove(<meta_tile_entity:ceu:cef.mv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:cef.mv.1>, [
-[<ore:circuitGood>, <ore:coilInductanceModified>, <ore:circuitGood>], 
+[<ore:circuitGood>, <ore:coilInductanceGood>, <ore:circuitGood>], 
 [<ore:cableGtSingleCopper>, <ore:hullMV>, <ore:cableGtSingleCopper>], 
-[<ore:plateSteel>, <ore:coilInductanceModified>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:coilInductanceGood>, <ore:plateSteel>]]);
 
 recipes.remove(<meta_tile_entity:ceu:cef.mv.4>);
 <meta_tile_entity:ceu:cef.mv.4>.clearTooltip();
@@ -107,9 +107,9 @@ recipes.remove(<meta_tile_entity:ceu:cef.mv.16>);
 #HV
 recipes.remove(<meta_tile_entity:ceu:ceu.hv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:ceu.hv.1>, [
-[<ore:circuitAdvanced>, <ore:coilReactanceUpgraded>, <ore:circuitAdvanced>], 
+[<ore:circuitAdvanced>, <ore:coilReactanceAdvanced>, <ore:circuitAdvanced>], 
 [<ore:cableGtSingleTin>, <ore:hullHV>, <ore:cableGtSingleTin>], 
-[<ore:plateWroughtIron>, <ore:coilReactanceUpgraded>, <ore:plateWroughtIron>]]);
+[<ore:plateWroughtIron>, <ore:coilReactanceAdvanced>, <ore:plateWroughtIron>]]);
 
 recipes.remove(<meta_tile_entity:ceu:ceu.hv.4>);
 <meta_tile_entity:ceu:ceu.hv.4>.clearTooltip();
@@ -123,9 +123,9 @@ recipes.remove(<meta_tile_entity:ceu:ceu.hv.16>);
 
 recipes.remove(<meta_tile_entity:ceu:cef.hv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:cef.hv.1>, [
-[<ore:circuitAdvanced>, <ore:coilInductanceUpgraded>, <ore:circuitAdvanced>], 
+[<ore:circuitAdvanced>, <ore:coilInductanceAdvanced>, <ore:circuitAdvanced>], 
 [<ore:cableGtSingleTin>, <ore:hullHV>, <ore:cableGtSingleTin>], 
-[<ore:plateWroughtIron>, <ore:coilInductanceUpgraded>, <ore:plateWroughtIron>]]);
+[<ore:plateWroughtIron>, <ore:coilInductanceAdvanced>, <ore:plateWroughtIron>]]);
 
 recipes.remove(<meta_tile_entity:ceu:cef.hv.4>);
 <meta_tile_entity:ceu:cef.hv.4>.clearTooltip();
@@ -140,9 +140,9 @@ recipes.remove(<meta_tile_entity:ceu:cef.hv.16>);
 #EV
 recipes.remove(<meta_tile_entity:ceu:ceu.ev.1>);
 recipes.addShaped(<meta_tile_entity:ceu:ceu.ev.1>, [
-[<ore:circuitExtreme>, <ore:coilReactanceImproved>, <ore:circuitExtreme>], 
+[<ore:circuitExtreme>, <ore:coilReactanceExtreme>, <ore:circuitExtreme>], 
 [<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleTin>], 
-[<ore:plateStainlessSteel>, <ore:coilReactanceImproved>, <ore:plateStainlessSteel>]]);
+[<ore:plateStainlessSteel>, <ore:coilReactanceExtreme>, <ore:plateStainlessSteel>]]);
 
 recipes.remove(<meta_tile_entity:ceu:ceu.ev.4>);
 <meta_tile_entity:ceu:ceu.ev.4>.clearTooltip();
@@ -156,9 +156,9 @@ recipes.remove(<meta_tile_entity:ceu:ceu.ev.16>);
 
 recipes.remove(<meta_tile_entity:ceu:cef.ev.1>);
 recipes.addShaped(<meta_tile_entity:ceu:cef.ev.1>, [
-[<ore:circuitExtreme>, <ore:coilInductanceImproved>, <ore:circuitExtreme>], 
+[<ore:circuitExtreme>, <ore:coilInductanceExtreme>, <ore:circuitExtreme>], 
 [<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleAluminium>], 
-[<ore:plateStainlessSteel>, <ore:coilInductanceImproved>, <ore:plateStainlessSteel>]]);
+[<ore:plateStainlessSteel>, <ore:coilInductanceExtreme>, <ore:plateStainlessSteel>]]);
 
 recipes.remove(<meta_tile_entity:ceu:cef.ev.4>);
 <meta_tile_entity:ceu:cef.ev.4>.clearTooltip();
@@ -173,9 +173,9 @@ recipes.remove(<meta_tile_entity:ceu:cef.ev.16>);
 #IV
 recipes.remove(<meta_tile_entity:ceu:ceu.iv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:ceu.iv.1>, [
-[<ore:circuitElite>, <ore:coilReactanceEnhanced>, <ore:circuitElite>], 
+[<ore:circuitElite>, <ore:coilReactanceElite>, <ore:circuitElite>], 
 [<ore:cableGtSinglePlatinum>, <ore:hullIV>, <ore:cableGtSinglePlatinum>], 
-[<ore:plateTitanium>, <ore:coilReactanceEnhanced>, <ore:plateTitanium>]]);
+[<ore:plateTitanium>, <ore:coilReactanceElite>, <ore:plateTitanium>]]);
 
 recipes.remove(<meta_tile_entity:ceu:ceu.iv.4>);
 <meta_tile_entity:ceu:ceu.iv.4>.clearTooltip();
@@ -189,9 +189,9 @@ recipes.remove(<meta_tile_entity:ceu:ceu.iv.16>);
 
 recipes.remove(<meta_tile_entity:ceu:cef.iv.1>);
 recipes.addShaped(<meta_tile_entity:ceu:cef.iv.1>, [
-[<ore:circuitElite>, <ore:coilInductanceEnhanced>, <ore:circuitElite>], 
+[<ore:circuitElite>, <ore:coilInductanceElite>, <ore:circuitElite>], 
 [<ore:cableGtSinglePlatinum>, <ore:hullIV>, <ore:cableGtSinglePlatinum>], 
-[<ore:plateTitanium>, <ore:coilInductanceEnhanced>, <ore:plateTitanium>]]);
+[<ore:plateTitanium>, <ore:coilInductanceElite>, <ore:plateTitanium>]]);
 
 recipes.remove(<meta_tile_entity:ceu:cef.iv.4>);
 <meta_tile_entity:ceu:cef.iv.4>.clearTooltip();
