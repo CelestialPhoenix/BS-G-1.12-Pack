@@ -294,15 +294,15 @@ item.contenttweaker.clusterzirconium.name=Native Zirconium Cluster
 
 item.contenttweaker.coilsimple.name=Simple Coil
 item.contenttweaker.coilinductancebasic.name=Basic Inductance Coil
-item.contenttweaker.coilinductancemodified.name=Modified Inductance Coil
-item.contenttweaker.coilinductanceupgraded.name=Upgraded Inductance Coil
-item.contenttweaker.coilinductanceimproved.name=Improved Inductance Coil
-item.contenttweaker.coilinductanceenhanced.name=Enhanced Inductance Coil
+item.contenttweaker.coilinductancemodified.name=Good Inductance Coil
+item.contenttweaker.coilinductanceupgraded.name=Advanced Inductance Coil
+item.contenttweaker.coilinductanceimproved.name=Extreme Inductance Coil
+item.contenttweaker.coilinductanceenhanced.name=Elite Inductance Coil
 item.contenttweaker.coilreactancebasic.name=Basic Reactance Coil
-item.contenttweaker.coilreactancemodified.name=Modified Reactance Coil
-item.contenttweaker.coilreactanceupgraded.name=Upgraded Reactance Coil
-item.contenttweaker.coilreactanceimproved.name=Improved Reactance Coil
-item.contenttweaker.coilreactanceenhanced.name=Enhanced Reactance Coil
+item.contenttweaker.coilreactancemodified.name=Good Reactance Coil
+item.contenttweaker.coilreactanceupgraded.name=Advanced Reactance Coil
+item.contenttweaker.coilreactanceimproved.name=Extreme Reactance Coil
+item.contenttweaker.coilreactanceenhanced.name=Elite Reactance Coil
 
 item.contenttweaker.crushedbandediron.name=Crushed Banded Iron
 item.contenttweaker.crushedbrownlimonite.name=Crushed Brown Limonite
