@@ -24,14 +24,6 @@ val electrolyzer as RecipeMap = RecipeMap.getByName("electrolyzer");
 
 electrolyzer
     .recipeBuilder()
-    .inputs(<ore:hullSteel>.firstItem, <ore:dustZinc>.firstItem)
-    .outputs(<ore:casingLV>.firstItem)
-    .duration(200)
-    .EUt(120)
-    .buildAndRegister();
-
-electrolyzer
-    .recipeBuilder()
     .inputs(<ore:hullSteel>.firstItem)
 	.fluidInputs([<liquid:zinc> * 144])
     .outputs(<ore:casingLV>.firstItem)
