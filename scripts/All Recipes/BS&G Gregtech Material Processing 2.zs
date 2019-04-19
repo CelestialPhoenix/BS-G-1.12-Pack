@@ -30,7 +30,44 @@ print("Hello Boys- I'm Baaaaack!!!");
 #    .duration(60)
 #    .EUt(30)
 #    .buildAndRegister();
-	
+
+
+#---Polarizer---
+val polarizer as RecipeMap = RecipeMap.getByName("polarizer");
+
+#MagneticCobalt
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:dustCobalt>.firstItem)
+	.outputs([<ore:dustCobaltMagnetic>.firstItem])
+    .duration(16)
+    .EUt(16)
+    .buildAndRegister();
+
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:nuggetCobalt>.firstItem)
+	.outputs([<ore:nuggetCobaltMagnetic>.firstItem])
+    .duration(16)
+    .EUt(16)
+    .buildAndRegister();
+
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:ingotCobalt>.firstItem)
+	.outputs([<ore:ingotCobaltMagnetic>.firstItem])
+    .duration(16)
+    .EUt(16)
+    .buildAndRegister();
+
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:stickCobalt>.firstItem)
+	.outputs([<ore:stickCobaltMagnetic>.firstItem])
+    .duration(16)
+    .EUt(16)
+    .buildAndRegister();
+
 #---Vac Freeze---
 val vacuum_freezer as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 
