@@ -19,6 +19,25 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #XXXXXX
 
+#---Polarizer---
+val electrolyzer as RecipeMap = RecipeMap.getByName("electrolyzer");
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(<ore:hullSteel>.firstItem, <ore:dustZinc>.firstItem)
+    .outputs(<ore:casingLV>.firstItem)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(<ore:hullSteel>.firstItem)
+	.fluidInputs([<liquid:zinc> * 144])
+    .outputs(<ore:casingLV>.firstItem)
+    .duration(200)
+    .EUt(60)
+    .buildAndRegister();
 
 #---Forming Press---
 #val forming_press as RecipeMap = RecipeMap.getByName("forming_press");
