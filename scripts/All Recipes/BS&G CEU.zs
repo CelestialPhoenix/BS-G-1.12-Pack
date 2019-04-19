@@ -136,3 +136,70 @@ recipes.remove(<meta_tile_entity:ceu:cef.hv.9>);
 recipes.remove(<meta_tile_entity:ceu:cef.hv.16>);
 <meta_tile_entity:ceu:cef.hv.16>.clearTooltip();
 <meta_tile_entity:ceu:cef.hv.16>.addTooltip("This item is disabled");
+
+#EV
+recipes.remove(<meta_tile_entity:ceu:ceu.ev.1>);
+recipes.addShaped(<meta_tile_entity:ceu:ceu.ev.1>, [
+[<ore:circuitExtreme>, <ore:coilReactanceImproved>, <ore:circuitExtreme>], 
+[<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleTin>], 
+[<ore:plateStainlessSteel>, <ore:coilReactanceImproved>, <ore:plateStainlessSteel>]]);
+
+recipes.remove(<meta_tile_entity:ceu:ceu.ev.4>);
+<meta_tile_entity:ceu:ceu.ev.4>.clearTooltip();
+<meta_tile_entity:ceu:ceu.ev.4>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:ceu.ev.9>);
+<meta_tile_entity:ceu:ceu.ev.9>.clearTooltip();
+<meta_tile_entity:ceu:ceu.ev.9>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:ceu.ev.16>);
+<meta_tile_entity:ceu:ceu.ev.16>.clearTooltip();
+<meta_tile_entity:ceu:ceu.ev.16>.addTooltip("This item is disabled");
+
+recipes.remove(<meta_tile_entity:ceu:cef.ev.1>);
+recipes.addShaped(<meta_tile_entity:ceu:cef.ev.1>, [
+[<ore:circuitExtreme>, <ore:coilInductanceImproved>, <ore:circuitExtreme>], 
+[<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleAluminium>], 
+[<ore:plateStainlessSteel>, <ore:coilInductanceImproved>, <ore:plateStainlessSteel>]]);
+
+recipes.remove(<meta_tile_entity:ceu:cef.ev.4>);
+<meta_tile_entity:ceu:cef.ev.4>.clearTooltip();
+<meta_tile_entity:ceu:cef.ev.4>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:cef.ev.9>);
+<meta_tile_entity:ceu:cef.ev.9>.clearTooltip();
+<meta_tile_entity:ceu:cef.ev.9>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:cef.ev.16>);
+<meta_tile_entity:ceu:cef.ev.16>.clearTooltip();
+<meta_tile_entity:ceu:cef.ev.16>.addTooltip("This item is disabled");
+
+#IV
+recipes.remove(<meta_tile_entity:ceu:ceu.iv.1>);
+recipes.addShaped(<meta_tile_entity:ceu:ceu.iv.1>, [
+[<ore:circuitElite>, <ore:coilReactanceEnhanced>, <ore:circuitElite>], 
+[<ore:cableGtSinglePlatinum>, <ore:hullIV>, <ore:cableGtSinglePlatinum>], 
+[<ore:plateTitanium>, <ore:coilReactanceEnhanced>, <ore:plateTitanium>]]);
+
+recipes.remove(<meta_tile_entity:ceu:ceu.iv.4>);
+<meta_tile_entity:ceu:ceu.iv.4>.clearTooltip();
+<meta_tile_entity:ceu:ceu.iv.4>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:ceu.iv.9>);
+<meta_tile_entity:ceu:ceu.iv.9>.clearTooltip();
+<meta_tile_entity:ceu:ceu.iv.9>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:ceu.iv.16>);
+<meta_tile_entity:ceu:ceu.iv.16>.clearTooltip();
+<meta_tile_entity:ceu:ceu.iv.16>.addTooltip("This item is disabled");
+
+recipes.remove(<meta_tile_entity:ceu:cef.iv.1>);
+recipes.addShaped(<meta_tile_entity:ceu:cef.iv.1>, [
+[<ore:circuitElite>, <ore:coilInductanceEnhanced>, <ore:circuitElite>], 
+[<ore:cableGtSinglePlatinum>, <ore:hullIV>, <ore:cableGtSinglePlatinum>], 
+[<ore:plateTitanium>, <ore:coilInductanceEnhanced>, <ore:plateTitanium>]]);
+
+recipes.remove(<meta_tile_entity:ceu:cef.iv.4>);
+<meta_tile_entity:ceu:cef.iv.4>.clearTooltip();
+<meta_tile_entity:ceu:cef.iv.4>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:cef.iv.9>);
+<meta_tile_entity:ceu:cef.iv.9>.clearTooltip();
+<meta_tile_entity:ceu:cef.iv.9>.addTooltip("This item is disabled");
+recipes.remove(<meta_tile_entity:ceu:cef.iv.16>);
+<meta_tile_entity:ceu:cef.iv.16>.clearTooltip();
+<meta_tile_entity:ceu:cef.iv.16>.addTooltip("This item is disabled");
+
