@@ -45,6 +45,17 @@ CNCBasicCasingSteel.addItemOutput(<ore:hullSteel>);
 CNCBasicCasingSteel.addItemOutput(<ore:dustSteel>, 1);
 CNCBasicCasingSteel.build();
 
+val CNCBasicCasingWroughtIron = mods.modularmachinery.RecipeBuilder.newBuilder("cncbasiccasingwroughtiron", "cnc_basic", 600, 0);
+
+CNCBasicCasingWroughtIron.addEnergyPerTickInput(120);
+CNCBasicCasingWroughtIron.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configuration: 10}));
+CNCBasicCasingWroughtIron.setChance(0);
+CNCBasicCasingWroughtIron.addItemInput(<ore:blockWroughtIron>);
+CNCBasicCasingWroughtIron.addFluidInput(<liquid:lubricant>*300);
+CNCBasicCasingWroughtIron.addItemOutput(<ore:casingULV>);
+CNCBasicCasingWroughtIron.addItemOutput(<ore:dustWroughtIron>, 1);
+CNCBasicCasingWroughtIron.build();
+
 val CNCBasicCasingAluminium = mods.modularmachinery.RecipeBuilder.newBuilder("cncbasiccasingAluminium", "cnc_basic", 600, 0);
 
 CNCBasicCasingAluminium.addEnergyPerTickInput(120);
