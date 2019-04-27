@@ -175,7 +175,7 @@ gemeuclase.addFlags("GENERATE_ORE");
 #Blue Alloy
 val ingotbluealloy = MaterialRegistry.createIngotMaterial(618, "blue_alloy", 0x3B8FDD, "metallic", 1, [<material:electrum>*2, <material:electrotine>*5], 3.5, 0);
 ingotbluealloy.addFlags("GENERATE_FINE_WIRE", "DECOMPOSITION_BY_CENTRIFUGING");
-ingotbluealloy.setCableProperties(512, 1, 1);
+ingotbluealloy.setCableProperties(512, 2, 1);
 
 #Huttonite
 val gemhuttonite = MaterialRegistry.createGemMaterial(619, "huttonite", 0x29491E, "gem_horizontal", 1, [<material:thorium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
