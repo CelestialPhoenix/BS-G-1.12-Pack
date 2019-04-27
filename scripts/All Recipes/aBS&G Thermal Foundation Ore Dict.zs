@@ -53,7 +53,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:dustMithril>.remove(<thermalfoundation:material:72>);
 <ore:dustCoal>.remove(<thermalfoundation:material:768>);
 <ore:dustCharcoal>.remove(<thermalfoundation:material:769>);
-<ore:dustObsidian>.remove(<thermalfoundation:material:780>);
+<ore:dustObsidian>.remove(<thermalfoundation:material:770>);
 
 <ore:dustSaltpeter>.remove(<thermalfoundation:material:722>);
 
