@@ -19,6 +19,40 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #XXXXXX
 
+#---Mixer---
+val mixer as RecipeMap = RecipeMap.getByName("mixer");
+
+#--Dust/Powder Mixing--
+#Gunpowder
+mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem], null).remove();
+mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem], null).remove();
+mixer.findRecipe(8, [<ore:dustSmallSaltpeter>.firstItem*2, <ore:dustSmallSulfur>.firstItem, <ore:dustSmallCoal>.firstItem], null).remove();
+mixer.findRecipe(8, [<ore:dustSmallSaltpeter>.firstItem*2, <ore:dustSmallSulfur>.firstItem, <ore:dustSmallCharcoal>.firstItem], null).remove();
+mixer.findRecipe(8, [<ore:dustTinySaltpeter>.firstItem*2, <ore:dustTinySulfur>.firstItem, <ore:dustTinyCoal>.firstItem], null).remove();
+mixer.findRecipe(8, [<ore:dustTinySaltpeter>.firstItem*2, <ore:dustTinySulfur>.firstItem, <ore:dustTinyCharcoal>.firstItem], null).remove();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSaltpeter>.firstItem, <ore:dustSulfur>.firstItem, <ore:dustCarbon>.firstItem)
+    .outputs(<ore:dustGunpowder>.firstItem*3)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSaltpeter>.firstItem, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem)
+    .outputs(<ore:dustGunpowder>.firstItem*3)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSaltpeter>.firstItem, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem)
+    .outputs(<ore:dustGunpowder>.firstItem*3)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
 
