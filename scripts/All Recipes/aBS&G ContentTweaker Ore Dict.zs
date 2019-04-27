@@ -319,7 +319,6 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Stone Tool Models---
 #<ore:head>.add(<contenttweaker:stone>);
-<ore:headFile>.add(<contenttweaker:filestone>);
 <ore:headHammer>.add(<contenttweaker:hammerstone>);
 <ore:headHoe>.add(<contenttweaker:hoestone>);
 <ore:headPlow>.add(<contenttweaker:plowstone>);

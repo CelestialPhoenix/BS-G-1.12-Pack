@@ -375,11 +375,6 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 
 #--Tools--
 
-#file
-recipes.addShaped(<contenttweaker:filestone>, [
-[<minecraft:cobblestone>, null],
-[null, <minecraft:cobblestone>]]);
-
 #hammer
 recipes.addShaped(<contenttweaker:hammerstone>, [
 [<minecraft:cobblestone>, <minecraft:cobblestone>],

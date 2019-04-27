@@ -8,9 +8,6 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
-var FileStone = VanillaFactory.createItem("filestone");
-FileStone.register();
-
 var HammerStone = VanillaFactory.createItem("hammerstone");
 HammerStone.register();
 
