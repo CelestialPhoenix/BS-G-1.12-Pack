@@ -36,6 +36,7 @@ print("Green Glowey Energy");
 <ore:dustObsidian>.remove(<nuclearcraft:gem_dust:3>);
 <ore:dustCoal>.remove(<nuclearcraft:gem_dust:4>);
 <ore:dustSulfur>.remove(<nuclearcraft:gem_dust:6>);
+<ore:dustCoal>.remove(<nuclearcraft:gem_dust:7>);
 <ore:dustArsenic>.remove(<nuclearcraft:gem_dust:10>);
 
 

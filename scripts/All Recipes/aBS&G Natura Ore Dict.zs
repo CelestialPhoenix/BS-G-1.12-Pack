@@ -3,6 +3,10 @@
 
 print("O-Natura");
 
+#dusts
+<ore:dustSulfur>.remove(<natura:materials:4>);
+<ore:dustSulphur>.remove(<natura:materials:4>);
+
 #logs
 
 <ore:logMaple>.add(<natura:overworld_logs:0>);

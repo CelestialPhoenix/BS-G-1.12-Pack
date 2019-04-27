@@ -79,6 +79,32 @@ recipes.remove(<thermalfoundation:material:771>);
 #Tin
 <thermalfoundation:material:65>.addTooltip("This item is disabled");
 
+#-Magical Dusts-
+#Blaze in Vanilla Materials.zs
+
+#Blizz
+recipes.remove(<thermalfoundation:material:2049>);
+#Blitz
+recipes.remove(<thermalfoundation:material:2051>);
+#Basalz
+recipes.remove(<thermalfoundation:material:2053>);
+
+#Pyro
+recipes.remove(<thermalfoundation:material:1024>);
+recipes.addShapeless(<thermalfoundation:material:1024>, [<ore:dustBlaze>, <ore:dustBlaze>, <ore:powderMana>, <ore:dustSulfur>]);
+
+#Cyro
+recipes.remove(<thermalfoundation:material:1025>);
+recipes.addShapeless(<thermalfoundation:material:1025>, [<ore:dustBlizz>, <ore:dustBlizz>, <ore:powderMana>, <minecraft:snowball>]);
+
+#Aero
+recipes.remove(<thermalfoundation:material:1026>);
+recipes.addShapeless(<thermalfoundation:material:1026>, [<ore:dustBlitz>, <ore:dustBlitz>, <ore:powderMana>, <ore:dustSaltpeter>]);
+
+#Petro
+recipes.remove(<thermalfoundation:material:1027>);
+recipes.addShapeless(<thermalfoundation:material:1027>, [<ore:dustBasalz>, <ore:dustBasalz>, <ore:powderMana>, <ore:dustObsidian>]);
+
 #--Ingots--
 #Aluminium
 recipes.remove(<thermalfoundation:material:132>);

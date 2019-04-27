@@ -55,6 +55,8 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:dustCharcoal>.remove(<thermalfoundation:material:769>);
 <ore:dustObsidian>.remove(<thermalfoundation:material:780>);
 
+<ore:dustSaltpeter>.remove(<thermalfoundation:material:722>);
+
 #Gears
 #<ore:gear>.remove(<thermalfoundation:material:>);
 <ore:gearWood>.remove(<thermalfoundation:material:22>);

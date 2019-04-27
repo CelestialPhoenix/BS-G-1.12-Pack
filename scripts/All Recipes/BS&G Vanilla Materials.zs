@@ -13,6 +13,9 @@ print("Mwah ha ha ha ha ha");
 <minecraft:log2:1>.displayName="Dark Oak Log";
 #---Recipes---
 
+#--Hardcore Grinding--
+recipes.remove(<minecraft:blaze_powder>, <minecraft:blaze_rod>);
+
 #--Hardmode redstone--
 
 #Trapdoor Wood

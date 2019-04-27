@@ -25,7 +25,7 @@ print("Trust me I'm an engineer");
 <ore:dustIron>.remove(<immersiveengineering:metal:18>);
 <ore:dustLead>.remove(<immersiveengineering:metal:11>);
 <ore:dustNickel>.remove(<immersiveengineering:metal:13>);
-<ore:dustSaltpetre>.remove(<immersiveengineering:material:24>);
+<ore:dustSaltpeter>.remove(<immersiveengineering:material:24>);
 <ore:dustSilver>.remove(<immersiveengineering:metal:12>);
 <ore:dustSteel>.remove(<immersiveengineering:metal:17>);
 <ore:dustSulfur>.remove(<immersiveengineering:material:25>);
