@@ -53,6 +53,40 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#-Magic Powder-
+#Pyro
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBlaze>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:powderMana>.firstItem)
+    .outputs(<ore:dustPyrotheum>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+#Cyro
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBlizz>.firstItem*2, <minecraft:snowball>.firstItem, <ore:powderMana>.firstItem)
+    .outputs(<ore:dustCyrotheum>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+#Aero
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBlitz>.firstItem*2, <ore:dustSaltpeter>.firstItem, <ore:powderMana>.firstItem)
+    .outputs(<ore:dustAerotheum>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+#Petro
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBasalz>.firstItem*2, <ore:dustObsidian>.firstItem, <ore:powderMana>.firstItem)
+    .outputs(<ore:dustPetrotheum>.firstItem*3)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
 
