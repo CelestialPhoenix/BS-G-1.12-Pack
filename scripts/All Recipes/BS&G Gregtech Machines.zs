@@ -193,15 +193,18 @@ recipes.addShaped(<gregtech:metal_casing:8>, [
 [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], 
 [null, <ore:ingotBrick>, null]]);
 
-recipes.remove(<gregtech:machine:526>);
-recipes.addShaped(<gregtech:machine:526>, [
+recipes.remove(<meta_tile_entity:gregtech:coke_oven>);
+recipes.addShaped(<meta_tile_entity:gregtech:coke_oven>, [
 [<gregtech:metal_casing:8>, <ore:plateIron>, <gregtech:metal_casing:8>], 
 [<ore:plateIron>, null, <ore:plateIron>], 
 [<gregtech:metal_casing:8>, <ore:plateIron>, <gregtech:metal_casing:8>]]);
 
-#primitative BF
-recipes.remove(<gregtech:machine:510>);
-recipes.addShaped(<gregtech:machine:510>, [
+recipes.remove(<meta_tile_entity:gregtech:coke_oven_hatch>);
+recipes.addShapeless(<meta_tile_entity:gregtech:coke_oven_hatch>, [<gregtech:metal_casing:8>, <ore:trapdoorWood>]);
+
+#primitive BF
+recipes.remove(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>);
+recipes.addShaped(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>, [
 [<ore:brickInfernal>, <minecraft:furnace>, <ore:brickInfernal>], 
 [<ore:brickInfernal>, null, <ore:brickInfernal>], 
 [<ore:brickInfernal>, <minecraft:furnace>, <ore:brickInfernal>]]);
@@ -209,164 +212,165 @@ recipes.addShaped(<gregtech:machine:510>, [
 #---single block machines---
 #Alloy Smelter
 #LV
-recipes.remove(<gregtech:machine:70>);
-recipes.addShaped(<gregtech:machine:70>, [
+recipes.remove(<meta_tile_entity:gregtech:alloy_smelter.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.lv>, [
 [<ore:circuitBasic>, <ore:elementCopper>, <ore:circuitBasic>], 
 [<ore:elementCopper>, <ore:hullLV>, <ore:elementCopper>], 
 [<ore:cableGtSingleTin>, <ore:elementCopper>, <ore:cableGtSingleTin>]]);
 #MV
-recipes.remove(<gregtech:machine:71>);
-recipes.addShaped(<gregtech:machine:71>, [
+recipes.remove(<meta_tile_entity:gregtech:alloy_smelter.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.mv>, [
 [<ore:circuitGood>, <ore:elementCupronickel>, <ore:circuitGood>], 
 [<ore:elementCupronickel>, <ore:hullMV>, <ore:elementCupronickel>], 
 [<ore:cableGtSingleCopper>, <ore:elementCupronickel>, <ore:cableGtSingleCopper>]]);
 #HV
-recipes.remove(<gregtech:machine:72>);
-recipes.addShaped(<gregtech:machine:72>, [
+recipes.remove(<meta_tile_entity:gregtech:alloy_smelter.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.hv>, [
 [<ore:circuitAdvanced>, <ore:elementKanthal>, <ore:circuitAdvanced>], 
 [<ore:elementKanthal>, <ore:hullHV>, <ore:elementKanthal>], 
 [<ore:cableGtSingleGold>, <ore:elementKanthal>, <ore:cableGtSingleGold>]]);
 #EV
-recipes.remove(<gregtech:machine:73>);
-recipes.addShaped(<gregtech:machine:73>, [
+recipes.remove(<meta_tile_entity:gregtech:alloy_smelter.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.ev>, [
 [<ore:circuitExtreme>, <ore:elementNichrome>, <ore:circuitExtreme>], 
 [<ore:elementNichrome>, <ore:hullEV>, <ore:elementNichrome>], 
 [<ore:cableGtSingleAluminium>, <ore:elementNichrome>, <ore:cableGtSingleAluminium>]]);
 
 #Bending Machine
 #LV
-recipes.remove(<gregtech:machine:120>);
-recipes.addShaped(<gregtech:machine:120>, [
+recipes.remove(<meta_tile_entity:gregtech:bender.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:bender.lv>, [
 [<ore:pistonLV>, null, <ore:pistonLV>], 
 [<ore:circuitBasic>, <ore:hullLV>, <ore:circuitBasic>], 
 [<ore:motorLV>, <ore:cableGtSingleTin>, <ore:motorLV>]]);
 
 #MV
-recipes.remove(<gregtech:machine:121>);
-recipes.addShaped(<gregtech:machine:121>, [
+recipes.remove(<meta_tile_entity:gregtech:bender.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:bender.mv>, [
 [<ore:pistonMV>, null, <ore:pistonMV>], 
 [<ore:circuitGood>, <ore:hullMV>, <ore:circuitGood>], 
 [<ore:motorMV>, <ore:cableGtSingleCopper>, <ore:motorMV>]]);
 
 #HV
-recipes.remove(<gregtech:machine:122>);
-recipes.addShaped(<gregtech:machine:122>, [
+recipes.remove(<meta_tile_entity:gregtech:bender.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:bender.hv>, [
 [<ore:pistonHV>, null, <ore:pistonHV>], 
 [<ore:circuitAdvanced>, <ore:hullHV>, <ore:circuitAdvanced>], 
 [<ore:motorHV>, <ore:cableGtSingleGold>, <ore:motorHV>]]);
 
 #EV
-recipes.remove(<gregtech:machine:123>);
-recipes.addShaped(<gregtech:machine:123>, [
+recipes.remove(<meta_tile_entity:gregtech:bender.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:bender.ev>, [
 [<ore:pistonEV>, null, <ore:pistonEV>], 
 [<ore:circuitExtreme>, <ore:hullEV>, <ore:circuitExtreme>], 
 [<ore:motorEV>, <ore:cableGtSingleAluminium>, <ore:motorEV>]]);
 
 #Extruder
 #LV
-recipes.remove(<gregtech:machine:270>);
-recipes.addShaped(<gregtech:machine:270>, [
-[<ore:elementCopper>, <ore:elementCopper>, <ore:circuitBasic>], 
-[<ore:pistonLV>, <ore:hullLV>, <ore:pipeSmallSteel>], 
-[<ore:elementCopper>, <ore:elementCopper>, <ore:circuitBasic>]]);
+#recipes.remove(<meta_tile_entity:gregtech:extruder.lv>);
+#recipes.addShaped(<meta_tile_entity:gregtech:extruder.lv>, [
+#[<ore:elementCopper>, <ore:elementCopper>, <ore:circuitBasic>], 
+#[<ore:pistonLV>, <ore:hullLV>, <ore:pipeSmallSteel>], 
+#[<ore:elementCopper>, <ore:elementCopper>, <ore:circuitBasic>]]);
 #MV
-recipes.remove(<gregtech:machine:271>);
-recipes.addShaped(<gregtech:machine:271>, [
+recipes.remove(<meta_tile_entity:gregtech:extruder.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:extruder.mv>, [
 [<ore:elementCupronickel>, <ore:elementCupronickel>, <ore:circuitGood>], 
 [<ore:pistonMV>, <ore:hullMV>, <ore:pipeSmallSteel>], 
 [<ore:elementCupronickel>, <ore:elementCupronickel>, <ore:circuitGood>]]);
 #HV
-recipes.remove(<gregtech:machine:272>);
-recipes.addShaped(<gregtech:machine:272>, [
+recipes.remove(<meta_tile_entity:gregtech:extruder.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:extruder.hv>, [
 [<ore:elementKanthal>, <ore:elementKanthal>, <ore:circuitAdvanced>], 
 [<ore:pistonHV>, <ore:hullHV>, <ore:pipeSmallSteel>], 
 [<ore:elementKanthal>, <ore:elementKanthal>, <ore:circuitAdvanced>]]);
 #EV
-recipes.remove(<gregtech:machine:273>);
-recipes.addShaped(<gregtech:machine:273>, [
+recipes.remove(<meta_tile_entity:gregtech:extruder.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:extruder.ev>, [
 [<ore:elementNichrome>, <ore:elementNichrome>, <ore:circuitExtreme>], 
 [<ore:pistonEV>, <ore:hullEV>, <ore:pipeSmallSteel>], 
 [<ore:elementNichrome>, <ore:elementNichrome>, <ore:circuitExtreme>]]);
 
 #Fluid Heater
 #LV
-recipes.remove(<gregtech:machine:310>);
-recipes.addShaped(<gregtech:machine:310>, [
+recipes.remove(<meta_tile_entity:gregtech:fluid_heater.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.lv>, [
 [<ore:elementCopper>, <ore:blockGlass>, <ore:elementCopper>], 
 [<ore:pumpLV>, <ore:hullLV>, <ore:pumpLV>], 
 [<ore:cableGtSingleTin>, <ore:circuitBasic>, <ore:cableGtSingleTin>]]);
 #MV
-recipes.remove(<gregtech:machine:311>);
-recipes.addShaped(<gregtech:machine:311>, [
+recipes.remove(<meta_tile_entity:gregtech:fluid_heater.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.mv>, [
 [<ore:elementCupronickel>, <ore:blockGlassHardened>, <ore:elementCupronickel>], 
 [<ore:pumpMV>, <ore:hullMV>, <ore:pumpMV>], 
 [<ore:cableGtSingleCopper>, <ore:circuitGood>, <ore:cableGtSingleCopper>]]);
 #HV
-recipes.remove(<gregtech:machine:312>);
-recipes.addShaped(<gregtech:machine:312>, [
+recipes.remove(<meta_tile_entity:gregtech:fluid_heater.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.hv>, [
 [<ore:elementKanthal>, <ore:blockGlassHardened>, <ore:elementKanthal>], 
 [<ore:pumpHV>, <ore:hullHV>, <ore:pumpHV>], 
 [<ore:cableGtSingleGold>, <ore:circuitAdvanced>, <ore:cableGtSingleGold>]]);
 #EV
-recipes.remove(<gregtech:machine:313>);
-recipes.addShaped(<gregtech:machine:313>, [
+recipes.remove(<meta_tile_entity:gregtech:fluid_heater.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.ev>, [
 [<ore:elementNichrome>, <ore:blockGlassHardened>, <ore:elementNichrome>], 
 [<ore:pumpEV>, <ore:hullEV>, <ore:pumpEV>], 
 [<ore:cableGtSingleAluminium>, <ore:circuitExtreme>, <ore:cableGtSingleAluminium>]]);
 
 #Furnace
 #LV
-recipes.remove(<gregtech:machine:50>);
-recipes.addShaped(<gregtech:machine:50>, [
+recipes.remove(<meta_tile_entity:gregtech:electric_furnace.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.lv>, [
 [<ore:circuitBasic>, <ore:blockGlass>, <ore:circuitBasic>], 
 [<ore:elementCopper>, <ore:hullLV>, <ore:elementCopper>], 
 [<ore:cableGtSingleTin>, <ore:blockGlass>, <ore:cableGtSingleTin>]]);
 #MV
-recipes.remove(<gregtech:machine:51>);
-recipes.addShaped(<gregtech:machine:51>, [
+recipes.remove(<meta_tile_entity:gregtech:electric_furnace.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.mv>, [
 [<ore:circuitGood>, <ore:blockGlassHardened>, <ore:circuitGood>], 
 [<ore:elementCupronickel>, <ore:hullMV>, <ore:elementCupronickel>], 
 [<ore:cableGtSingleCopper>, <ore:blockGlassHardened>, <ore:cableGtSingleCopper>]]);
 #HV
-recipes.remove(<gregtech:machine:52>);
-recipes.addShaped(<gregtech:machine:52>, [
+recipes.remove(<meta_tile_entity:gregtech:electric_furnace.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.hv>, [
 [<ore:circuitAdvanced>, <ore:blockGlassHardened>, <ore:circuitAdvanced>], 
 [<ore:elementKanthal>, <ore:hullHV>, <ore:elementKanthal>], 
 [<ore:cableGtSingleGold>, <ore:blockGlassHardened>, <ore:cableGtSingleGold>]]);
 #EV
-recipes.remove(<gregtech:machine:53>);
-recipes.addShaped(<gregtech:machine:53>, [
+recipes.remove(<meta_tile_entity:gregtech:electric_furnace.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.ev>, [
 [<ore:circuitExtreme>, <ore:blockGlassHardened>, <ore:circuitExtreme>], 
 [<ore:elementNichrome>, <ore:hullEV>, <ore:elementNichrome>], 
 [<ore:cableGtSingleAluminium>, <ore:blockGlassHardened>, <ore:cableGtSingleAluminium>]]);
 
 #Thermal Centrifuge
 #LV
-recipes.remove(<gregtech:machine:460>);
-recipes.addShaped(<gregtech:machine:460>, [
+recipes.remove(<meta_tile_entity:gregtech:thermal_centrifuge.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:thermal_centrifuge.lv>, [
 [<ore:circuitBasic>, <ore:motorLV>, <ore:circuitBasic>], 
 [<ore:elementCopper>, <ore:hullLV>, <ore:elementCopper>], 
 [<ore:cableGtSingleTin>, <ore:motorLV>, <ore:cableGtSingleTin>]]);
 #MV
-recipes.remove(<gregtech:machine:461>);
-recipes.addShaped(<gregtech:machine:461>, [
+recipes.remove(<meta_tile_entity:gregtech:thermal_centrifuge.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:thermal_centrifuge.mv>, [
 [<ore:circuitGood>, <ore:motorMV>, <ore:circuitGood>], 
 [<ore:elementCupronickel>, <ore:hullMV>, <ore:elementCupronickel>], 
 [<ore:cableGtSingleCopper>, <ore:motorMV>, <ore:cableGtSingleCopper>]]);
 #HV
-recipes.remove(<gregtech:machine:462>);
-recipes.addShaped(<gregtech:machine:462>, [
+recipes.remove(<meta_tile_entity:gregtech:thermal_centrifuge.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:thermal_centrifuge.hv>, [
 [<ore:circuitAdvanced>, <ore:motorHV>, <ore:circuitAdvanced>], 
 [<ore:elementKanthal>, <ore:hullHV>, <ore:elementKanthal>], 
 [<ore:cableGtSingleGold>, <ore:motorHV>, <ore:cableGtSingleGold>]]);
 #EV
-recipes.remove(<gregtech:machine:463>);
-recipes.addShaped(<gregtech:machine:463>, [
+recipes.remove(<meta_tile_entity:gregtech:thermal_centrifuge.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:thermal_centrifuge.ev>, [
 [<ore:circuitExtreme>, <ore:motorEV>, <ore:circuitExtreme>], 
 [<ore:elementNichrome>, <ore:hullEV>, <ore:elementNichrome>], 
 [<ore:cableGtSingleAluminium>, <ore:motorEV>, <ore:cableGtSingleAluminium>]]);
 
 #---Pipes---
+#Large in MM lathe
 
 #TungstenSteel
 recipes.remove(<ore:pipeSmallTungstenSteel>.firstItem);
@@ -381,8 +385,6 @@ recipes.addShaped(<ore:pipeMediumTungstenSteel>.firstItem*2, [
 [null, null, null], 
 [<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]]);
 
-#Large in MM lathe
-
 #Titanium
 recipes.remove(<ore:pipeSmallTitanium>.firstItem);
 recipes.addShaped(<ore:pipeSmallTitanium>.firstItem*4, [
@@ -395,8 +397,6 @@ recipes.addShaped(<ore:pipeMediumTitanium>.firstItem*2, [
 [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>], 
 [null, null, null], 
 [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
-
-#Large in MM lathe
 
 #Polytetrafluoroethylene
 recipes.remove(<ore:pipeSmallPolytetrafluoroethylene>.firstItem);
@@ -411,8 +411,6 @@ recipes.addShaped(<ore:pipeMediumPolytetrafluoroethylene>.firstItem*2, [
 [null, null, null], 
 [<ore:platePolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>]]);
 
-#Large in MM lathe
-
 #Polyethylene
 recipes.remove(<ore:pipeSmallPlastic>.firstItem);
 recipes.addShaped(<ore:pipeSmallPlastic>.firstItem*4, [
@@ -425,8 +423,6 @@ recipes.addShaped(<ore:pipeMediumPlastic>.firstItem*2, [
 [<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>], 
 [null, null, null], 
 [<ore:platePlastic>, <ore:platePlastic>, <ore:platePlastic>]]);
-
-#Large in MM lathe
 
 #Copper
 recipes.remove(<ore:pipeSmallCopper>.firstItem);
@@ -441,8 +437,6 @@ recipes.addShaped(<ore:pipeMediumCopper>.firstItem*2, [
 [null, null, null], 
 [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
 
-#Large in MM lathe
-
 #Bronze
 recipes.remove(<ore:pipeSmallBronze>.firstItem);
 recipes.addShaped(<ore:pipeSmallBronze>.firstItem*4, [
@@ -455,8 +449,6 @@ recipes.addShaped(<ore:pipeMediumBronze>.firstItem*2, [
 [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], 
 [null, null, null], 
 [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
-
-#Large in MM lathe
 
 #Steel
 recipes.remove(<ore:pipeSmallSteel>.firstItem);
@@ -471,8 +463,6 @@ recipes.addShaped(<ore:pipeMediumSteel>.firstItem*2, [
 [null, null, null], 
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-#Large in MM lathe
-
 #Stainless Steel
 recipes.remove(<ore:pipeSmallStainlessSteel>.firstItem);
 recipes.addShaped(<ore:pipeSmallStainlessSteel>.firstItem*4, [
@@ -486,8 +476,6 @@ recipes.addShaped(<ore:pipeMediumStainlessSteel>.firstItem*2, [
 [null, null, null], 
 [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
-#Large in MM lathe
-
 #Enderium
 recipes.remove(<ore:pipeSmallEnderium>.firstItem);
 recipes.addShaped(<ore:pipeSmallEnderium>.firstItem*4, [
@@ -500,8 +488,6 @@ recipes.addShaped(<ore:pipeMediumEnderium>.firstItem*2, [
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>], 
 [null, null, null], 
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
-
-#Large in MM lathe
 
 #Wood
 recipes.remove(<ore:pipeTinyWood>.firstItem);
@@ -538,5 +524,3 @@ recipes.addShaped(<ore:pipeLargeWood>.firstItem, [
 #[<ore:plate>, <ore:plate>, <ore:plate>], 
 #[null, null, null], 
 #[<ore:plate>, <ore:plate>, <ore:plate>]]);
-
-#Large in MM lathe

@@ -53,7 +53,16 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
-#-Magic Powder-
+#BlueAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
+    .outputs(<ore:dustBlueAlloy>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#-Magic Powders-
 #Pyro
 mixer
     .recipeBuilder()
