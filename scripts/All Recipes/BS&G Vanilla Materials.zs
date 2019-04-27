@@ -13,6 +13,12 @@ print("Mwah ha ha ha ha ha");
 <minecraft:log2:1>.displayName="Dark Oak Log";
 #---Recipes---
 
+#Gunpowder
+recipes.remove(<minecraft:gunpowder>, <ore:dustSulfur>);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCharcoal>]);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCoal>]);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCarbon>]);
+
 #--Hardcore Grinding--
 recipes.remove(<minecraft:blaze_powder>, <minecraft:blaze_rod>);
 
