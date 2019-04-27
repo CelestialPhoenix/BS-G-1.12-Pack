@@ -3,6 +3,12 @@
 
 print("There are no bodies buried into the foundations. You can stop looking now.");
 
+#---Magic Dust Crafing-Processing removal---
+recipes.remove(<*>, <thermalfoundation:material:1024>);
+recipes.remove(<*>, <thermalfoundation:material:1025>);
+#recipes.remove(<*>, <thermalfoundation:material:1026>); #Aero dust- currently no recipes using this
+recipes.remove(<*>, <thermalfoundation:material:1027>);
+
 #---machine parts---
 #redstone servo
 recipes.remove(<thermalfoundation:material:512>);

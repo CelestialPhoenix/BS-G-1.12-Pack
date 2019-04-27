@@ -62,11 +62,11 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
-#Cyro
+#Cryo
 mixer
     .recipeBuilder()
-    .inputs(<ore:dustBlizz>.firstItem*2, <minecraft:snowball>.firstItem, <ore:powderMana>.firstItem)
-    .outputs(<ore:dustCyrotheum>.firstItem*2)
+    .inputs(<ore:dustBlizz>.firstItem*2, <ore:snowball>.firstItem, <ore:powderMana>.firstItem)
+    .outputs(<ore:dustCryotheum>.firstItem*2)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
