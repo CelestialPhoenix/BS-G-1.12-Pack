@@ -117,6 +117,14 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungs
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtitanium>, <contenttweaker:gearboxemptytitanium>, <liquid:gearboxoil>*8000);
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungstensteel>, <contenttweaker:gearboxemptytungstensteel>, <liquid:gearboxoil>*16000);
 
+#---Crusher---
+#Elemental Dusts
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlaze>.firstItem*3, <ore:rodBlaze>, 4096, <ore:dustSulfur>.firstItem, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlizz>.firstItem*3, <ore:rodBlizz>, 4096, <minecraft:snowball>, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlitz>.firstItem*3, <ore:rodBlitz>, 4096, <ore:dustSaltpeter>.firstItem, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalz>.firstItem*3, <ore:rodBasalz>, 4096, <ore:dustObsidian>.firstItem, 0.5);
+
 #---Metal Press---
 #--removed recipes--
 #IC2 plates [plate mould]
