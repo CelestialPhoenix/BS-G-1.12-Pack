@@ -113,6 +113,10 @@ tile.contenttweaker.oreobsidianscheelite.name=Scheelite
 tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 
+tile.contenttweaker.oreomotholchromite.name=Omothol Basalt Chromite
+tile.contenttweaker.oreomotholbasaltuvarovite.name=Omothol Basalt Uvarovite
+tile.contenttweaker.oreomotholbasaltyellowgarnet.name=Omothol Basalt Yellow Garnet
+
 tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
 tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
 tile.contenttweaker.orepoorgalena.name=Galena
@@ -132,6 +136,8 @@ tile.contenttweaker.BlackGranite.name=Black Granite
 tile.contenttweaker.dolomite.name=Dolomite
 tile.contenttweaker.dreadedobsidian.name=Dreaded Obsidian
 tile.contenttweaker.marble.name=Marble
+tile.contenttweaker.omotholbasalt.name=Omothol Basalt
+tile.contenttweaker.omotholmarble.name=Omothol Marble
 
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
