@@ -34,6 +34,7 @@ recipes.removeShaped(<thermalfoundation:storage_alloy:*>);
 
 #--Dusts--
 #Aluminium
+recipes.remove(<thermalfoundation:material:68>);
 <thermalfoundation:material:68>.addTooltip("This item is disabled");
 #Bronze
 recipes.remove(<thermalfoundation:material:99>);
@@ -62,10 +63,13 @@ recipes.remove(<thermalfoundation:material:98>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:98>);
 <thermalfoundation:material:98>.addTooltip("This item is disabled");
 #Iridium
+recipes.remove(<thermalfoundation:material:71>);
 <thermalfoundation:material:71>.addTooltip("This item is disabled");
 #Nickel
+recipes.remove(<thermalfoundation:material:69>);
 <thermalfoundation:material:69>.addTooltip("This item is disabled");
 #Platinum
+recipes.remove(<thermalfoundation:material:70>);
 <thermalfoundation:material:70>.addTooltip("This item is disabled");
 #Signalum
 recipes.remove(<thermalfoundation:material:101>);
@@ -78,6 +82,8 @@ recipes.remove(<thermalfoundation:material:771>);
 <thermalfoundation:material:96>.addTooltip("This item is disabled");
 #Tin
 <thermalfoundation:material:65>.addTooltip("This item is disabled");
+
+recipes.remove(<thermalfoundation:material:72>);
 
 #-Magical Dusts-
 #Blaze in Vanilla Materials.zs

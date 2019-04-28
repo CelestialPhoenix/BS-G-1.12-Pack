@@ -19,7 +19,8 @@ calcium.addFlags(["GENERATE_ORE"]);
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
-var materialgold = <material:gold>;
+var chrome = <material:chrome>;
+chrome.addFlags(["GENERATE_ORE"]);
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -50,6 +51,9 @@ titanium.addFlags(["GENERATE_ORE"]);
 
 var tungsten = <material:tungsten>;
 tungsten.addFlags(["GENERATE_ORE"]);
+
+var uvarovite = <material:uvarovite>;
+uvarovite.addFlags(["GENERATE_ORE"]);
 
 var zinc = <material:zinc>;
 zinc.addFlags(["GENERATE_ROD"]);
