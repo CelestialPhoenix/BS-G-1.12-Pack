@@ -14,9 +14,6 @@ HammerStone.register();
 var HoeStone = VanillaFactory.createItem("hoestone");
 HoeStone.register();
 
-var PlowStone = VanillaFactory.createItem("plowstone");
-PlowStone.register();
-
 var SenseStone = VanillaFactory.createItem("sensestone");
 SenseStone.register();
 

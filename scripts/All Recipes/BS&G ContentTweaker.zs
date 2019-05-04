@@ -385,11 +385,6 @@ recipes.addShaped(<contenttweaker:hammerstone>, [
 recipes.addShaped(<contenttweaker:hoestone>, [
 [<minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
-#plow
-recipes.addShaped(<contenttweaker:plowstone>, [
-[<minecraft:cobblestone>, <minecraft:cobblestone>],
-[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
 #sword
 recipes.addShaped(<contenttweaker:swordstone>, [
 [<minecraft:cobblestone>],

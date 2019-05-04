@@ -21,9 +21,6 @@ MoldRods.register();
 var MoldHeadAxe = VanillaFactory.createItem("moldheadaxe");
 MoldHeadAxe.register();
 
-var MoldHeadPlow = VanillaFactory.createItem("moldheadplow");
-MoldHeadPlow.register();
-
 var MoldHeadHammer = VanillaFactory.createItem("moldheadhammer");
 MoldHeadHammer.register();
 

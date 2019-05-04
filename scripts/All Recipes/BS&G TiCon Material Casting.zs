@@ -62,8 +62,6 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <primal
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadPickaxeBronze>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadPickaxeIron>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadPickaxeSteel>, <liquid:steel>, 576, true);
-#Plow
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadplow>, <ore:headPlow>, <liquid:steel>, 576, true);
 #Sense
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsense>, <ore:headSense>, <liquid:steel>, 576, true);
 #Shovel
@@ -599,87 +597,6 @@ mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeManyullyn>.firstItem, <co
 #Mithril
 #Terrasteel
 mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadHoeThaumium>.firstItem, <contenttweaker:moldheadhoe>, <liquid:thaumium>, 288, false); #Thaumium
-#Voidmetal
-#Enderium
-#MagneticCobalt
-
-#--Plow--
-#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlow>.firstItem, <contenttweaker:moldheadplow>, <liquid:>, 576, false); #
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowAluminium>.firstItem, <contenttweaker:moldheadplow>, <liquid:aluminium>, 576, false); #Aluminium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowChrome>.firstItem, <contenttweaker:moldheadplow>, <liquid:chrome>, 576, false); #Chrome
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowCobalt>.firstItem, <contenttweaker:moldheadplow>, <liquid:cobalt>, 576, false); #Cobalt
-#Iridium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowIron>.firstItem, <contenttweaker:moldheadplow>, <liquid:iron>, 576, false); #Iron
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowManganese>.firstItem, <contenttweaker:moldheadplow>, <liquid:manganese>, 576, false); #Manganese
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowMolybdenum>.firstItem, <contenttweaker:moldheadplow>, <liquid:molybdenum>, 576, false); #Molybdenum
-#Neodymium
-#Darmstadtium
-#Osmium
-#Palladium
-#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSilver>.firstItem, <contenttweaker:moldheadplow>, <liquid:silver>, 576, false); #Silver
-#Thorium
-#Titanium
-#Tungsten
-#Uranium
-#Uranium235
-#Blue Topaz
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBrass>.firstItem, <contenttweaker:moldheadplow>, <liquid:brass>, 576, false); #Brass
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBronze>.firstItem, <contenttweaker:moldheadplow>, <liquid:bronze>, 576, false); #Bronze
-#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowCupronickel>.firstItem, <contenttweaker:moldheadplow>, <liquid:cupronickel>, 576, false); #Cupronickel
-#Diamond
-#Emerald
-#Green Sapphire
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowInvar>.firstItem, <contenttweaker:moldheadplow>, <liquid:invar>, 576, false); #Invar
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowMagnalium>.firstItem, <contenttweaker:moldheadplow>, <liquid:magnalium>, 576, false); #Magnalium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowPigIron>.firstItem, <contenttweaker:moldheadplow>, <liquid:pig_iron>, 576, false); #PigIron
-#Ruby
-#Sapphire
-#StainlessSteel
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSteel>.firstItem, <contenttweaker:moldheadplow>, <liquid:steel>, 576, false); #Steel
-#Tanzanite
-#mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowTinAlloy>.firstItem, <contenttweaker:moldheadplow>, <liquid:tin_alloy>, 576, false); #TinAlloy
-#Topaz
-#Ultimet
-#Wrought Iron
-#NetherQuartz
-#CertusQuartz
-#Osmoiridium
-#Olivine
-#Opal
-#Amethyst
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowSterlingSilver>.firstItem, <contenttweaker:moldheadplow>, <liquid:sterling_silver>, 576, false); #SterlingSilver
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowRoseGold>.firstItem, <contenttweaker:moldheadplow>, <liquid:rose_gold>, 576, false); #RoseGold
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBlackBronze>.firstItem, <contenttweaker:moldheadplow>, <liquid:black_bronze>, 576, false); #BlackBronze
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowBismuthBronze>.firstItem, <contenttweaker:moldheadplow>, <liquid:bismuth_bronze>, 576, false); #BismuthBronze
-#BlackSteel
-#RedSteel
-#BlueSteel
-#DamascusSteel
-#TungstenSteel
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowCobaltBrass>.firstItem, <contenttweaker:moldheadplow>, <liquid:cobalt_brass>, 576, false); #CobaltBrass
-#GarnetYellow
-#GarnetRed
-#Vintium
-#MagneticIron
-#MagneticSteel
-#MagneticNeodymium
-#TungstenCarbide
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowVanadiumSteel>.firstItem, <contenttweaker:moldheadplow>, <liquid:vanadium_steel>, 576, false); #Vandiumsteel
-#HSSG
-#HSSE
-#HSSS
-#Naquadah
-#NaquadahAlloy
-#NaquadahEnriched
-#Tritanium
-#Duranium
-#Adamantium
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowArdite>.firstItem, <contenttweaker:moldheadplow>, <liquid:ardite>, 576, false); #Ardite
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowManasteel>.firstItem, <contenttweaker:moldheadplow>, <liquid:manasteel>, 576, false); #Manasteel
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowManyullyn>.firstItem, <contenttweaker:moldheadplow>, <liquid:manyullyn>, 576, false); #Manyullyn
-#Mithril
-#Terrasteel
-mods.tconstruct.Casting.addTableRecipe(<ore:toolHeadPlowThaumium>.firstItem, <contenttweaker:moldheadplow>, <liquid:thaumium>, 576, false); #Thaumium
 #Voidmetal
 #Enderium
 #MagneticCobalt

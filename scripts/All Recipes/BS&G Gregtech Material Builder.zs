@@ -96,6 +96,8 @@ zinc.addFlags(["GENERATE_ROD"]);
 #629 Wolframite
 #630 Ferberite
 #631 Tungsten Dioxide
+#632 Sheldonite
+#633 Bowieite
 
 #Adamantium
 val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 10, 512, 5400);
@@ -232,3 +234,27 @@ dustFerberite.addFlags("GENERATE_ORE");
 
 #Tungsten Dioxide
 val dustTungstendioxide = MaterialRegistry.createDustMaterial(631, "tungstendioxide", 0xBC821E, "shiny", 1, [<material:tungsten>*1, <material:oxygen>*2]);
+
+#Sheldonite
+val dustSheldonite = MaterialRegistry.createDustMaterial(632, "sheldonite", 0xD5D5A2, "shiny", 4, [<material:platinum>*2, <material:nickel>*1, <material:calcite>*2, <material:sulfur>*1]);
+dustSheldonite.addFlags("GENERATE_ORE");
+
+#Bowieite
+val dustBowieite = MaterialRegistry.createDustMaterial(633, "bowieite", 0x666666, "shiny", 4, [<material:iridium>*1, <material:platinum>*2, <material:sulfur>*4]);
+dustBowieite.addFlags("GENERATE_ORE");
+
+#Xenotime
+val gemXenotime = MaterialRegistry.createGemMaterial(634, "xenotime", 0x4F0F0F, "gem_vertical", 3, [<material:yttrium>*1, <material:phosphorus>*1, <material:oxygen>*4], 1.0, 0);
+gemXenotime.addFlags("GENERATE_ORE");
+
+#Gadolinite
+val dustGadolinite = MaterialRegistry.createDustMaterial(635, "gadolinite", 0x2D2D2D, "dull", 4, [<material:rare_earth>*2, <material:iron>*1, <material:beryllium>*2, <material:silicon>*2, <material:oxygen>*10]);
+dustGadolinite.addFlags("GENERATE_ORE");
+
+#Fergusonite
+val dustFergusonite = MaterialRegistry.createDustMaterial(636, "fergusonite", 0x554333, "shiny", 4, [<material:rare_earth>*1, <material:yttrium>*1, <material:niobium>*1, <material:oxygen>*4]);
+dustFergusonite.addFlags("GENERATE_ORE");
+
+#MonaziteNd
+val gemMonaziteND = MaterialRegistry.createGemMaterial(637, "monazite_nd", 0x324632, "gem_vertical", 4, [<material:neodymium>*1, <material:phosphate>*1]);
+gemMonaziteND.addFlags("GENERATE_ORE");

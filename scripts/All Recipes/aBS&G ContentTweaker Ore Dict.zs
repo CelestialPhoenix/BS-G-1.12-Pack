@@ -192,6 +192,11 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreTungstate>.add(<contenttweaker:oreobsidiantungstate>);
 <ore:oreWolframite>.add(<contenttweaker:oreobsidianwolframite>);
 
+#Omothol Basalt
+<ore:oreChromite>.add(<contenttweaker:oreomotholbasaltchromite>);
+<ore:oreUvarovite>.add(<contenttweaker:oreomotholbasaltuvarovite>);
+<ore:oreGarnetYellow>.add(<contenttweaker:oreomotholbasaltyellowgarnet>);
+
 #Rich/Large
 #<ore:orerich>.add(<contenttweaker:ore>);
 <ore:orerichDiamond>.add(<contenttweaker:orelargediamond>);
@@ -321,7 +326,6 @@ print("Tweak Tweak Tweak Tweak");
 #<ore:head>.add(<contenttweaker:stone>);
 <ore:headHammer>.add(<contenttweaker:hammerstone>);
 <ore:headHoe>.add(<contenttweaker:hoestone>);
-<ore:headPlow>.add(<contenttweaker:plowstone>);
 <ore:headSense>.add(<contenttweaker:sensestone>);
 <ore:headSword>.add(<contenttweaker:swordstone>);
 <ore:headUniversalSpade>.add(<contenttweaker:universalspadestone>);
