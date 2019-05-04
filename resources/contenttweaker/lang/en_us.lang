@@ -113,9 +113,21 @@ tile.contenttweaker.oreobsidianscheelite.name=Scheelite
 tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 
-tile.contenttweaker.oreomotholchromite.name=Omothol Basalt Chromite
+tile.contenttweaker.oreomotholfergusonite.name=Omothol Fergusonite
+tile.contenttweaker.oreomotholgadolinite.name=Omothol Gadolinite
+tile.contenttweaker.oreomotholmonazitend.name=Omothol Monazite-(Nd)
+tile.contenttweaker.oreomotholxenotime.name=Omothol Xenotime
+
+tile.contenttweaker.oreomotholbasaltchromite.name=Omothol Basalt Chromite
 tile.contenttweaker.oreomotholbasaltuvarovite.name=Omothol Basalt Uvarovite
 tile.contenttweaker.oreomotholbasaltyellowgarnet.name=Omothol Basalt Yellow Garnet
+
+tile.contenttweaker.oreomotholmarblebornite.name=Omothol Marble Bornite
+tile.contenttweaker.oreomotholmarblebowieite.name=Omothol Marble Bowieite
+tile.contenttweaker.oreomotholmarblechalcocite.name=Omothol Marble Chalcocite
+tile.contenttweaker.oreomotholmarblecooperite.name=Omothol Marble Cooperite
+tile.contenttweaker.oreomotholmarblepentlandite.name=Omothol Marble Pentlandite
+tile.contenttweaker.oreomotholmarblesheldonite.name=Omothol Marble Sheldonite
 
 tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
 tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
