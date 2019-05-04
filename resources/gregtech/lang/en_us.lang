@@ -34,6 +34,11 @@ material.xenotime=Xenotime
 material.gadolinite=Gadolinite
 material.fergusonite=Fergusonite
 material.monazite_nd=Monazite-(Nd)
+material.naquadite=Naquadite
+material.naqulinite=Naqulinite
+material.naquarrite=Naquarrite
+material.xifengite=Xifengite
+material.xilingolite=Xilingolite
 
 material.cooperite=Cooperite
 material.sulfur=Sulphur
