@@ -97,11 +97,14 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterAluminium>.add(<contenttweaker:clusteraluminium>);
 <ore:clusterAntimony>.add(<contenttweaker:clusterantimony>);
 <ore:clusterBeryllium>.add(<contenttweaker:clusterberyllium>);
+<ore:clusterChrome>.add(<contenttweaker:clusterchrome>);
 <ore:clusterCobalt>.add(<contenttweaker:clustercobalt>);
+<ore:clusterIridium>.add(<contenttweaker:clusteriridium>);
 <ore:clusterLithium>.add(<contenttweaker:clusterlithium>);
 <ore:clusterMagnesium>.add(<contenttweaker:clustermagnesium>);
 <ore:clusterManganese>.add(<contenttweaker:clustermanganese>);
 <ore:clusterMolybdenum>.add(<contenttweaker:clustermolybdenum>);
+<ore:clusterNeodymium>.add(<contenttweaker:clusterneodymium>);
 <ore:clusterNickel>.add(<contenttweaker:clusternickel>);
 <ore:clusterPotassium>.add(<contenttweaker:clusterpotassium>);
 <ore:clusterPlatinum>.add(<contenttweaker:clusterplatinum>);
@@ -112,6 +115,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterThorium>.add(<contenttweaker:clusterthorium>);
 <ore:clusterTungsten>.add(<contenttweaker:clustertungsten>);
 <ore:clusterUranium>.add(<contenttweaker:clusteruranium>);
+<ore:clusterYttrium>.add(<contenttweaker:clusteryttrium>);
 <ore:clusterZinc>.add(<contenttweaker:clusterzinc>);
 <ore:clusterZirconium>.add(<contenttweaker:clusterzirconium>);
 
@@ -192,10 +196,23 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreTungstate>.add(<contenttweaker:oreobsidiantungstate>);
 <ore:oreWolframite>.add(<contenttweaker:oreobsidianwolframite>);
 
-#Omothol Basalt
+#Omothol
+#<ore:ore>.add(<contenttweaker:oreomothol>);
+<ore:oreFergusonite>.add(<contenttweaker:oreomotholfergusonite>);
+<ore:oreGadolinite>.add(<contenttweaker:oreomotholgadolinite>);
+<ore:oreMonaziteNd>.add(<contenttweaker:oreomotholmonazitend>);
+<ore:oreXenotine>.add(<contenttweaker:oreomotholxenotime>);
+#Basalt
 <ore:oreChromite>.add(<contenttweaker:oreomotholbasaltchromite>);
 <ore:oreUvarovite>.add(<contenttweaker:oreomotholbasaltuvarovite>);
 <ore:oreGarnetYellow>.add(<contenttweaker:oreomotholbasaltyellowgarnet>);
+#Marble
+<ore:oreBowieite>.add(<contenttweaker:oreomotholmarblebowieite>);
+<ore:oreBornite>.add(<contenttweaker:oreomotholmarblebornite>);
+<ore:oreChalcocite>.add(<contenttweaker:oreomotholmarblechalcocite>);
+<ore:oreCooperite>.add(<contenttweaker:oreomotholmarblecooperite>);
+<ore:orePentlandite>.add(<contenttweaker:oreomotholmarblepentlandite>);
+<ore:oreSheldonite>.add(<contenttweaker:oreomotholmarblesheldonite>);
 
 #Rich/Large
 #<ore:orerich>.add(<contenttweaker:ore>);

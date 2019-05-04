@@ -15,15 +15,18 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 <contenttweaker:clusterantimony>.addTooltip("Sb");
 <contenttweaker:clusterberyllium>.addTooltip("Be");
 #Cinnabar in Thaumcraft.zs
+<contenttweaker:clusterchrome>.addTooltip("Cr");
 <contenttweaker:clustercobalt>.addTooltip("Co");
 #Copper in Thaumcraft.zs
 #Gold in Thaumcraft.zs
+<contenttweaker:clusteriridium>.addTooltip("Ir");
 #Iron in Thaumcraft.zs
 #Lead in Thaumcraft.zs
 <contenttweaker:clusterlithium>.addTooltip("Li");
 <contenttweaker:clustermagnesium>.addTooltip("Mg");
 <contenttweaker:clustermanganese>.addTooltip("Mn");
 <contenttweaker:clustermolybdenum>.addTooltip("Mo");
+<contenttweaker:clusterneodymium>.addTooltip("Nd");
 <contenttweaker:clusternickel>.addTooltip("Ni");
 <contenttweaker:clusterplatinum>.addTooltip("Pt");
 <contenttweaker:clusterpotassium>.addTooltip("K");
@@ -35,6 +38,7 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 <contenttweaker:clustertitanium>.addTooltip("Ti");
 <contenttweaker:clusterthorium>.addTooltip("Th");
 <contenttweaker:clusteruranium>.addTooltip("U");
+<contenttweaker:clusteryttrium>.addTooltip("Y");
 <contenttweaker:clusterzinc>.addTooltip("Zn");
 <contenttweaker:clusterzirconium>.addTooltip("Zr");
 

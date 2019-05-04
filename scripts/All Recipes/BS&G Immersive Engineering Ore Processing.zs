@@ -187,6 +187,26 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*3, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*4, <ore:oreUraninite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 
 #--Omothol--
+#Chrome
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem*3, <ore:oreChromite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem*4, <ore:oreChrome>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem, <ore:oreUvarovite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem, <ore:oreGarnetYellow>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+
+#Iridium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotIridium>.firstItem*3, <ore:oreBowieite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotIridium>.firstItem*4, <ore:oreIridium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*3, <ore:oreSheldonite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*4, <ore:oreBornite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*3, <ore:oreChalcocite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+
+#Rare Earth
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBeryllium>.firstItem*2, <ore:oreGadolinite>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotNiobium>.firstItem*1, <ore:oreFergusonite>, <ore:itemSlagRich>.firstItem*8, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNeodymium>.firstItem*3, <ore:oreMonaziteNd>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNeodymium>.firstItem*4, <ore:oreNeodymium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotYttrium>.firstItem*3, <ore:oreXenotime>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotYttrium>.firstItem*4, <ore:oreYttrium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 
 #--Darklands--
 
@@ -198,15 +218,18 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*4, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*2, <ore:clusterAluminium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Aluminium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAntimony>.firstItem*2, <ore:clusterAntimony>, <ore:itemSlagRich>.firstItem, 20, 2048); #Antimony
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBeryllium>.firstItem*2, <ore:clusterBeryllium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Beryllium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem*2, <ore:clusterChrome>, <ore:itemSlagRich>.firstItem, 20, 2048); #Chrome
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCobalt>.firstItem*2, <ore:clusterCobalt>, <ore:itemSlagRich>.firstItem, 20, 2048); #Cobalt
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*2, <ore:clusterCopper>, <ore:itemSlagRich>.firstItem, 20, 2048); #Copper
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotGold>.firstItem*2, <ore:clusterGold>, <ore:itemSlagRich>.firstItem, 20, 2048); #Gold
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotIridium>.firstItem*2, <ore:clusterIridium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Iridium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotIron>.firstItem*2, <ore:clusterIron>, <ore:itemSlagRich>.firstItem, 20, 2048); #Iron
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotLead>.firstItem*2, <ore:clusterLead>, <ore:itemSlagRich>.firstItem, 20, 2048); #Lead
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:clusterLithium>, <ore:itemSlagRich>.firstItem*2, 20, 2048); #Lithium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotMagnesium>.firstItem*2, <ore:clusterMagnesium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Magnesium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotManganese>.firstItem*2, <ore:clusterManganese>, <ore:itemSlagRich>.firstItem, 20, 2048); #Manganese
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotMolybdenum>.firstItem*2, <ore:clusterMolybdenum>, <ore:itemSlagRich>.firstItem, 20, 2048); #Molybdenum
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNeodymium>.firstItem*2, <ore:clusterNeodymium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Neodymium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNickel>.firstItem*2, <ore:clusterNickel>, <ore:itemSlagRich>.firstItem, 20, 2048); #Nickel
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*2, <ore:clusterPlatinum>, <ore:itemSlagRich>.firstItem, 20, 2048); #Platinum
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:clusterPotassium>, <ore:itemSlagRich>.firstItem*2, 20, 2048); #Potassium
@@ -220,6 +243,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotTitanium>.firstItem*
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotThorium>.firstItem*2, <ore:clusterThorium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Thorium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotTungsten>.firstItem*2, <ore:clusterTungsten>, <ore:itemSlagRich>.firstItem, 20, 2048); #Tungsten
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*2, <ore:clusterUranium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Uranium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotYttrium>.firstItem*2, <ore:clusterYttrium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Yttrium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*2, <ore:clusterZinc>, <ore:itemSlagRich>.firstItem, 20, 2048); #Zinc
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZirconium>.firstItem*2, <ore:clusterZirconium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Zirconium
 
@@ -393,6 +417,27 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_brannerite_0:4>, <ore:
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uraninite_0:4>, <ore:oreUraninite>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Uranium
 
 #--Omothol--
+#Chrome
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_chromite_0:4>, <ore:oreChromite>, 4096, <ore:crushedChromite>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_chrome_0:4>, <ore:oreChrome>, 4096, <ore:crushedChrome>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uvarovite_0:4>, <ore:oreUvarovite>, 4096, <ore:crushedUvarovite>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_garnet_yellow_0:4>, <ore:oreGarnetYellow>, 4096, <ore:crushedGarnetYellow>.firstItem, 0.1); 
+
+#Iridium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bowieite_0:4>, <ore:oreBowieite>, 4096, <ore:crushedBowieite>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_iridium_0:4>, <ore:oreIridium>, 4096, <ore:crushedIridium>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sheldonite_0:4>, <ore:oreSheldonite>, 4096, <ore:crushedSheldonite>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bornite_0:4>, <ore:oreBornite>, 4096, <ore:crushedBornite>.firstItem, 0.1); 
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_chalcocite_0:4>, <ore:oreChalcocite>, 4096, <ore:crushedChalcocite>.firstItem, 0.1); 
+
+#Rare Earth
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_fergusonite_0:4>, <ore:oreFergusonite>, 4096, <ore:crushedFergusonite>.firstItem, 0.1); #
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_gadolinite_0:4>, <ore:oreGadolinite>, 4096, <ore:crushedGadolinite>.firstItem, 0.1); #
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_monazite_nd_0:4>, <ore:oreMonaziteNd>, 4096, <ore:crushedMonaziteNd>.firstItem, 0.1); #
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_xenotime_0:4>, <ore:oreXenotime>, 4096, <ore:crushedXenotime>.firstItem, 0.1); #
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_neodymium_0:4>, <ore:oreNeodymium>, 4096, <ore:crushedNeodymium>.firstItem, 0.1); #
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_yttrium_0:4>, <ore:oreYttrium>, 4096, <ore:crushedYttrium>.firstItem, 0.1); #
+
 #--Darklands--
 
 #Native Cluster Crushing
@@ -400,15 +445,18 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uraninite_0:4>, <ore:o
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustAluminium>.firstItem*2, <ore:clusterAluminium>, 4096, null, 0.1); #Aluminium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustAntimony>.firstItem*2, <ore:clusterAntimony>, 4096, null, 0.1); #Antimony
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBeryllium>.firstItem*2, <ore:clusterBeryllium>, 4096, null, 0.1); #Beryllium
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustChrome>.firstItem*2, <ore:clusterChrome>, 4096, null, 0.1); #Chrome
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCobalt>.firstItem*2, <ore:clusterCobalt>, 4096, null, 0.1); #Cobalt
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCopper>.firstItem*2, <ore:clusterCopper>, 4096, null, 0.1); #Copper
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustGold>.firstItem*2, <ore:clusterGold>, 4096, null, 0.1); #Gold
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustIridium>.firstItem*2, <ore:clusterIridium>, 4096, null, 0.1); #Iridium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustIron>.firstItem*2, <ore:clusterIron>, 4096, null, 0.1); #Iron
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustLead>.firstItem*2, <ore:clusterLead>, 4096, null, 0.1); #Lead
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustLithium>.firstItem*2, <ore:clusterLithium>, 4096, null, 0.1); #Lithium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustMagnesium>.firstItem*2, <ore:clusterMagnesium>, 4096, null, 0.1); #Magnesium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustManganese>.firstItem*2, <ore:clusterManganese>, 4096, null, 0.1); #Manganese
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustMolybdenum>.firstItem*2, <ore:clusterMolybdenum>, 4096, null, 0.1); #Molybdenum
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustNeodymium>.firstItem*2, <ore:clusterNeodymium>, 4096, null, 0.1); #Neodymium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustNickel>.firstItem*2, <ore:clusterNickel>, 4096, null, 0.1); #Nickel
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustPlatinum>.firstItem*2, <ore:clusterPlatinum>, 4096, null, 0.1); #Platinum
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustPotassium>.firstItem*2, <ore:clusterPotassium>, 4096, null, 0.1); #Potassium
@@ -422,6 +470,7 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustThorium>.firstItem*2, <ore:
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustTitanium>.firstItem*2, <ore:clusterTitanium>, 4096, null, 0.1); #Titanium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustTungsten>.firstItem*2, <ore:clusterTungsten>, 4096, null, 0.1); #Tungsten
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustUranium>.firstItem*2, <ore:clusterUranium>, 4096, null, 0.1); #Uranium
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustYttrium>.firstItem*2, <ore:clusterYttrium>, 4096, null, 0.1); #Yttrium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustZinc>.firstItem*2, <ore:clusterZinc>, 4096, null, 0.1); #Zinc
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustZirconium>.firstItem*2, <ore:clusterZirconium>, 4096, null, 0.1); #Zirconium
 

@@ -20,8 +20,14 @@ ClusterAntimony.register();
 var ClusterBeryllium = VanillaFactory.createItem("clusterberyllium");
 ClusterBeryllium.register();
 
+var ClusterChrome = VanillaFactory.createItem("clusterchrome");
+ClusterChrome.register();
+
 var ClusterCobalt = VanillaFactory.createItem("clustercobalt");
 ClusterCobalt.register();
+
+var ClusterIridium = VanillaFactory.createItem("clusteriridium");
+ClusterIridium.register();
 
 var ClusterLithium = VanillaFactory.createItem("clusterlithium");
 ClusterLithium.register();
@@ -34,6 +40,9 @@ ClusterManganese.register();
 
 var ClusterMolybdenum = VanillaFactory.createItem("clustermolybdenum");
 ClusterMolybdenum.register();
+
+var ClusterNeodymium = VanillaFactory.createItem("clusterneodymium");
+ClusterNeodymium.register();
 
 var ClusterNickel = VanillaFactory.createItem("clusternickel");
 ClusterNickel.register();
@@ -64,6 +73,9 @@ ClusterTungsten.register();
 
 var ClusterUranium = VanillaFactory.createItem("clusteruranium");
 ClusterUranium.register();
+
+var ClusterYttrium = VanillaFactory.createItem("clusteryttrium");
+ClusterYttrium.register();
 
 var ClusterZinc = VanillaFactory.createItem("clusterzinc");
 ClusterZinc.register();

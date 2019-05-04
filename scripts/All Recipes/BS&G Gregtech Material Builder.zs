@@ -55,6 +55,9 @@ tungsten.addFlags(["GENERATE_ORE"]);
 var uvarovite = <material:uvarovite>;
 uvarovite.addFlags(["GENERATE_ORE"]);
 
+var yttrium = <material:yttrium>;
+yttrium.addFlags(["GENERATE_ORE"]);
+
 var zinc = <material:zinc>;
 zinc.addFlags(["GENERATE_ROD"]);
 
@@ -98,6 +101,14 @@ zinc.addFlags(["GENERATE_ROD"]);
 #631 Tungsten Dioxide
 #632 Sheldonite
 #633 Bowieite
+#634 Xenotime
+#635 Gadolinite
+#636 Fergusonite
+#637 MonaziteNd
+#638 Naquadite
+#639 Naqulinite 
+#640 Naquarrite
+#641 Xifengite 
 
 #Adamantium
 val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 10, 512, 5400);
@@ -258,3 +269,23 @@ dustFergusonite.addFlags("GENERATE_ORE");
 #MonaziteNd
 val gemMonaziteND = MaterialRegistry.createGemMaterial(637, "monazite_nd", 0x324632, "gem_vertical", 4, [<material:neodymium>*1, <material:phosphate>*1]);
 gemMonaziteND.addFlags("GENERATE_ORE");
+
+#Naquadite
+val dustNaquadite = MaterialRegistry.createDustMaterial(638, "naquadite", 0x000020, "shiny", 4, [<material:naquadah>*1, <material:silicon>*1, <material:oxygen>*3]);
+dustNaquadite.addFlags("GENERATE_ORE");
+
+#Naqulinite 
+val dustNaqulinite = MaterialRegistry.createDustMaterial(639, "naqulinite", 0x002000, "shiny", 4, [<material:iron>*2, <material:sulfur>*3, <material:naquadite>*2, <material:hydrogen>*3, <material:silicon>*1]);
+dustNaqulinite.addFlags("GENERATE_ORE");
+
+#Naquarrite
+val gemNaquarrite  = MaterialRegistry.createGemMaterial(640, "naquarrite", 0x200000, "gem_horizontal", 4, [<material:nickel>*1, <material:naquadria>*1, <material:cobalt>*1, <material:naquadite>*2, <material:hydrogen>*3, <material:silicon>*1]);
+gemNaquarrite .addFlags("GENERATE_ORE");
+
+#Xifengite
+val dustXifengite = MaterialRegistry.createDustMaterial(641, "xifengite", 0x888888, "shiny", 4, [<material:iron>*5, <material:silicon>*3]);
+dustXifengite.addFlags("GENERATE_ORE");
+
+#Xilingolite 
+val dustXilingolite = MaterialRegistry.createDustMaterial(642, "xilingolite", 0x656565, "shiny", 4, [<material:lead>*3, <material:bismuth>*2, <material:sulfur>*6]);
+dustXilingolite.addFlags("GENERATE_ORE");
