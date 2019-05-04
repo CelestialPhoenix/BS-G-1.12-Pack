@@ -129,6 +129,12 @@ tile.contenttweaker.oreomotholmarblecooperite.name=Omothol Marble Cooperite
 tile.contenttweaker.oreomotholmarblepentlandite.name=Omothol Marble Pentlandite
 tile.contenttweaker.oreomotholmarblesheldonite.name=Omothol Marble Sheldonite
 
+tile.contenttweaker.orenaquarricdarkstonenaquadite.name=Naquarric Darkstone Naquadite
+tile.contenttweaker.orenaquarricdarkstonenaqulinite.name=Naquarric Darkstone Naqulinite
+tile.contenttweaker.orenaquarricdarkstonenaquarrite.name=Naquarric Darkstone Naquarrite
+tile.contenttweaker.orenaquarricdarkstonexifengite.name=Naquarric Darkstone Xifengite
+tile.contenttweaker.orenaquarricdarkstonexilingolite.name=Naquarric Darkstone Xilingolite
+
 tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
 tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
 tile.contenttweaker.orepoorgalena.name=Galena
@@ -150,6 +156,7 @@ tile.contenttweaker.dreadedobsidian.name=Dreaded Obsidian
 tile.contenttweaker.marble.name=Marble
 tile.contenttweaker.omotholbasalt.name=Omothol Basalt
 tile.contenttweaker.omotholmarble.name=Omothol Marble
+tile.contenttweaker.naquarricdarkstone.name=Naquarric Darkstone
 
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
