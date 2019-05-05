@@ -39,9 +39,9 @@ mods.thaumcraft.Crucible.registerRecipe("oreBeryl", "METALPURIFICATION", <ore:cl
 mods.thaumcraft.Crucible.registerRecipe("oreBeryllium", "METALPURIFICATION", <ore:clusterBeryllium>.firstItem, <ore:crushedPurifiedBeryllium>, [<aspect:metallum>*15, <aspect:desiderium>*5, <aspect:alkimia>*5]);
 
 #Bismuth
-mods.thaumcraft.Crucible.registerRecipe("oreBerryite", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurified>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);
-mods.thaumcraft.Crucible.registerRecipe("oreBismuthinite", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurified>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);
-mods.thaumcraft.Crucible.registerRecipe("oreBismuth", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurified>, [<aspect:metallum>*15, <aspect:instrumentum>*5]);
+mods.thaumcraft.Crucible.registerRecipe("oreBerryite", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurifiedBerryite>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreBismuthinite", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurifiedBismuthinite>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreBismuth", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurifiedBismuth>, [<aspect:metallum>*15, <aspect:instrumentum>*5]);
 
 #Chrome
 mods.thaumcraft.Crucible.registerRecipe("oreChromite", "METALPURIFICATION", <ore:clusterChrome>.firstItem, <ore:crushedPurifiedChromite>, [<aspect:metallum>*15, <aspect:auram>*8, <aspect:machina>*8, <aspect:instrumentum>*8, <aspect:permutatio>*8]);

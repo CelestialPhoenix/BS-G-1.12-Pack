@@ -97,7 +97,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterAluminium>.add(<contenttweaker:clusteraluminium>);
 <ore:clusterAntimony>.add(<contenttweaker:clusterantimony>);
 <ore:clusterBeryllium>.add(<contenttweaker:clusterberyllium>);
-<ore:clusterBismuth>.add(<contenttweaker:clusterBismuth>);
+<ore:clusterBismuth>.add(<contenttweaker:clusterbismuth>);
 <ore:clusterChrome>.add(<contenttweaker:clusterchrome>);
 <ore:clusterCobalt>.add(<contenttweaker:clustercobalt>);
 <ore:clusterIridium>.add(<contenttweaker:clusteriridium>);

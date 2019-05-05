@@ -118,9 +118,9 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*4, <ore:oreAluminium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*3, <ore:oreBauxite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 #Bismuth
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBerryite>.firstItem*2, <ore:oreBerryite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*2, <ore:oreBerryite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*4, <ore:oreBismuth>, <ore:itemSlagRich>.firstItem, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuthinite>.firstItem*3, <ore:oreBismuthinite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*3, <ore:oreBismuthinite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 #Copper (tetrahedrite)
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*2, <ore:oreTetrahedrite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 
