@@ -27,6 +27,8 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 <contenttweaker:clustermanganese>.addTooltip("Mn");
 <contenttweaker:clustermolybdenum>.addTooltip("Mo");
 <contenttweaker:clusterneodymium>.addTooltip("Nd");
+<contenttweaker:clusternaquadah>.addTooltip("Nq");
+<contenttweaker:clusternaquadria>.addTooltip("Nq");
 <contenttweaker:clusternickel>.addTooltip("Ni");
 <contenttweaker:clusterplatinum>.addTooltip("Pt");
 <contenttweaker:clusterpotassium>.addTooltip("K");
