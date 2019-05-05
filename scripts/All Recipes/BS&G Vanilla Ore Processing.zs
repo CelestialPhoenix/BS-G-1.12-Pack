@@ -14,6 +14,7 @@ print("Direworlf's favourite flavour of icecream");
 #furnace.addRecipe(<ore:ingotAluminium>.firstItem*2, <ore:clusterAluminium>, 0.0);
 furnace.addRecipe(<ore:ingotAntimony>.firstItem*2 , <ore:clusterAntimony>, 0.0);
 furnace.addRecipe(<ore:ingotBeryllium>.firstItem*2, <ore:clusterBeryllium>, 0.0);
+furnace.addRecipe(<ore:ingotBismuth>.firstItem*2, <ore:clusterBismuth>, 0.0);
 furnace.addRecipe(<ore:ingotCobalt>.firstItem*2, <ore:clusterCobalt>, 0.0);
 furnace.addRecipe(<ore:ingotLithium>.firstItem*2, <ore:clusterLithium>, 0.0);
 furnace.addRecipe(<ore:ingotMagnesium>.firstItem*2, <ore:clusterMagnesium>, 0.0);

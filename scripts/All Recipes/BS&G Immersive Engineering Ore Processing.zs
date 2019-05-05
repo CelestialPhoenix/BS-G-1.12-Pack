@@ -117,6 +117,10 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore
 #Aluminium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*4, <ore:oreAluminium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*3, <ore:oreBauxite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+#Bismuth
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBerryite>.firstItem*2, <ore:oreBerryite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*4, <ore:oreBismuth>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuthinite>.firstItem*3, <ore:oreBismuthinite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 #Copper (tetrahedrite)
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*2, <ore:oreTetrahedrite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 
@@ -225,6 +229,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotLead>.firstItem*2, <ore
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*2, <ore:clusterAluminium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Aluminium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAntimony>.firstItem*2, <ore:clusterAntimony>, <ore:itemSlagRich>.firstItem, 20, 2048); #Antimony
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBeryllium>.firstItem*2, <ore:clusterBeryllium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Beryllium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*2, <ore:clusterBismuth>, <ore:itemSlagRich>.firstItem, 20, 2048); #Bismuth
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem*2, <ore:clusterChrome>, <ore:itemSlagRich>.firstItem, 20, 2048); #Chrome
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCobalt>.firstItem*2, <ore:clusterCobalt>, <ore:itemSlagRich>.firstItem, 20, 2048); #Cobalt
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*2, <ore:clusterCopper>, <ore:itemSlagRich>.firstItem, 20, 2048); #Copper
@@ -357,6 +362,10 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zinc_0:4>, <ore:oreZin
 #Aluminium
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_aluminium_0:4>, <ore:oreAluminium>, 4096, <ore:crushedBauxite>.firstItem, 0.1); #Crushed Bauxite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bauxite_0:4>, <ore:oreBauxite>, 4096, <ore:crushedAluminium>.firstItem, 0.1); #Crushed Aluminium
+#Bismuth
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_berryite_0:4>, <ore:oreBerryite>, 4096, <ore:crushedBerryite>.firstItem, 0.1); #Berryite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bismuth_0:4>, <ore:oreBismuth>, 4096, <ore:crushedBismuth>.firstItem, 0.1); #Bismuth
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bismuthinite_0:4>, <ore:oreBismuthinite>, 4096, <ore:crushedBismuthinite>.firstItem, 0.1); #Bismuthinite
 #Copper [tetrahedrite]
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tetrahedrite_0:4>, <ore:oreTetrahedrite>, 4096, <ore:crushedCopper>.firstItem, 0.1); #Crushed Copper
 
@@ -461,6 +470,7 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_xilingolite_0:4>, <ore
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustAluminium>.firstItem*2, <ore:clusterAluminium>, 4096, null, 0.1); #Aluminium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustAntimony>.firstItem*2, <ore:clusterAntimony>, 4096, null, 0.1); #Antimony
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBeryllium>.firstItem*2, <ore:clusterBeryllium>, 4096, null, 0.1); #Beryllium
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBismuth>.firstItem*2, <ore:clusterBismuth>, 4096, null, 0.1); #Bismuth
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustChrome>.firstItem*2, <ore:clusterChrome>, 4096, null, 0.1); #Chrome
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCobalt>.firstItem*2, <ore:clusterCobalt>, 4096, null, 0.1); #Cobalt
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCopper>.firstItem*2, <ore:clusterCopper>, 4096, null, 0.1); #Copper

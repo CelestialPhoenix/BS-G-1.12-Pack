@@ -77,6 +77,8 @@ tile.contenttweaker.oreendstoneuraninite.name=Uraninite
 
 tile.contenttweaker.oreholyaluminium.name=Aluminium Ore
 tile.contenttweaker.oreholybauxite.name=Bauxite
+tile.contenttweaker.oreholyberryite.name=Berryite
+tile.contenttweaker.oreholybismuthinite.name=Bismuthinite
 tile.contenttweaker.oreholycopper.name=Copper Ore
 tile.contenttweaker.oreholystibnite.name=Stibnite
 tile.contenttweaker.oreholytetrahedrite.name=Tetrahedrite
@@ -113,27 +115,27 @@ tile.contenttweaker.oreobsidianscheelite.name=Scheelite
 tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 
-tile.contenttweaker.oreomotholfergusonite.name=Omothol Fergusonite
-tile.contenttweaker.oreomotholgadolinite.name=Omothol Gadolinite
-tile.contenttweaker.oreomotholmonazitend.name=Omothol Monazite-(Nd)
-tile.contenttweaker.oreomotholxenotime.name=Omothol Xenotime
+tile.contenttweaker.oreomotholfergusonite.name=Fergusonite
+tile.contenttweaker.oreomotholgadolinite.name=Gadolinite
+tile.contenttweaker.oreomotholmonazitend.name=Monazite-(Nd)
+tile.contenttweaker.oreomotholxenotime.name=Xenotime
 
-tile.contenttweaker.oreomotholbasaltchromite.name=Omothol Basalt Chromite
-tile.contenttweaker.oreomotholbasaltuvarovite.name=Omothol Basalt Uvarovite
-tile.contenttweaker.oreomotholbasaltyellowgarnet.name=Omothol Basalt Yellow Garnet
+tile.contenttweaker.oreomotholbasaltchromite.name=Chromite
+tile.contenttweaker.oreomotholbasaltuvarovite.name=Uvarovite
+tile.contenttweaker.oreomotholbasaltyellowgarnet.name=OYellow Garnet
 
-tile.contenttweaker.oreomotholmarblebornite.name=Omothol Marble Bornite
-tile.contenttweaker.oreomotholmarblebowieite.name=Omothol Marble Bowieite
-tile.contenttweaker.oreomotholmarblechalcocite.name=Omothol Marble Chalcocite
-tile.contenttweaker.oreomotholmarblecooperite.name=Omothol Marble Cooperite
-tile.contenttweaker.oreomotholmarblepentlandite.name=Omothol Marble Pentlandite
-tile.contenttweaker.oreomotholmarblesheldonite.name=Omothol Marble Sheldonite
+tile.contenttweaker.oreomotholmarblebornite.name=Bornite
+tile.contenttweaker.oreomotholmarblebowieite.name=Bowieite
+tile.contenttweaker.oreomotholmarblechalcocite.name=Chalcocite
+tile.contenttweaker.oreomotholmarblecooperite.name=Cooperite
+tile.contenttweaker.oreomotholmarblepentlandite.name=Pentlandite
+tile.contenttweaker.oreomotholmarblesheldonite.name=Sheldonite
 
-tile.contenttweaker.orenaquarricdarkstonenaquadite.name=Naquarric Darkstone Naquadite
-tile.contenttweaker.orenaquarricdarkstonenaqulinite.name=Naquarric Darkstone Naqulinite
-tile.contenttweaker.orenaquarricdarkstonenaquarrite.name=Naquarric Darkstone Naquarrite
-tile.contenttweaker.orenaquarricdarkstonexifengite.name=Naquarric Darkstone Xifengite
-tile.contenttweaker.orenaquarricdarkstonexilingolite.name=Naquarric Darkstone Xilingolite
+tile.contenttweaker.orenaquarricdarkstonenaquadite.name=Naquadite
+tile.contenttweaker.orenaquarricdarkstonenaqulinite.name=Naqulinite
+tile.contenttweaker.orenaquarricdarkstonenaquarrite.name=Naquarrite
+tile.contenttweaker.orenaquarricdarkstonexifengite.name=Xifengite
+tile.contenttweaker.orenaquarricdarkstonexilingolite.name=Xilingolite
 
 tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
 tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
@@ -299,6 +301,7 @@ item.contenttweaker.circuitgood.name=Good Circuit
 item.contenttweaker.clusteraluminium.name=Native Aluminium Cluster
 item.contenttweaker.clusterantimony.name=Native Antimony Cluster
 item.contenttweaker.clusterberyllium.name=Native Beryllium Cluster
+item.contenttweaker.clusterbismuth.name=Native Bismuth Cluster
 item.contenttweaker.clusterchrome.name=Native Chrome Cluster
 item.contenttweaker.clustercobalt.name=Native Cobalt Cluster
 item.contenttweaker.clusteriridium.name=Native Iridium Cluster

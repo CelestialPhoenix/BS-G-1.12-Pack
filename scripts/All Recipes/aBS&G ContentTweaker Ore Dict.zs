@@ -97,6 +97,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterAluminium>.add(<contenttweaker:clusteraluminium>);
 <ore:clusterAntimony>.add(<contenttweaker:clusterantimony>);
 <ore:clusterBeryllium>.add(<contenttweaker:clusterberyllium>);
+<ore:clusterBismuth>.add(<contenttweaker:clusterBismuth>);
 <ore:clusterChrome>.add(<contenttweaker:clusterchrome>);
 <ore:clusterCobalt>.add(<contenttweaker:clustercobalt>);
 <ore:clusterIridium>.add(<contenttweaker:clusteriridium>);
@@ -176,8 +177,11 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreLazurite>.add(<contenttweaker:oremarblelazuriteloose>);
 
 #Holy
+#<ore:ore>.add(<contenttweaker:oreholy>);
 <ore:oreAluminium>.add(<contenttweaker:oreholyaluminium>);
 <ore:oreBauxite>.add(<contenttweaker:oreholybauxite>);
+<ore:oreBerryite>.add(<contenttweaker:oreholyberryite>);
+<ore:oreBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
 <ore:oreCopper>.add(<contenttweaker:oreholycopper>);
 <ore:oreStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);

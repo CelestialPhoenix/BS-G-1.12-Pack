@@ -14,6 +14,7 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 <contenttweaker:clusteraluminium>.addTooltip("Al");
 <contenttweaker:clusterantimony>.addTooltip("Sb");
 <contenttweaker:clusterberyllium>.addTooltip("Be");
+<contenttweaker:clusterbismuth>.addTooltip("Bi");
 #Cinnabar in Thaumcraft.zs
 <contenttweaker:clusterchrome>.addTooltip("Cr");
 <contenttweaker:clustercobalt>.addTooltip("Co");

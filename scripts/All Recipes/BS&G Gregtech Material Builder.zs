@@ -109,6 +109,10 @@ zinc.addFlags(["GENERATE_ROD"]);
 #639 Naqulinite 
 #640 Naquarrite
 #641 Xifengite 
+#642 Xilingolite
+#643 Berryite
+#644 Bismuthinite
+
 
 #Adamantium
 val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 10, 512, 5400);
@@ -289,3 +293,12 @@ dustXifengite.addFlags("GENERATE_ORE");
 #Xilingolite 
 val dustXilingolite = MaterialRegistry.createDustMaterial(642, "xilingolite", 0x656565, "shiny", 5, [<material:lead>*3, <material:bismuth>*2, <material:sulfur>*6]);
 dustXilingolite.addFlags("GENERATE_ORE");
+
+#Berryite
+val dustBerryite = MaterialRegistry.createDustMaterial(643, "berryite", 0x565F83, "shiny", 5, [<material:lead>*3, <material:silver>*2, <material:copper>*3, <material:bismuth>*7, <material:sulfur>*16]);
+dustBerryite.addFlags("GENERATE_ORE");
+
+#Bismuthinite
+val dustBismuthinite = MaterialRegistry.createDustMaterial(644, "bismuthinite", 0xCCCCCC, "shiny", 5, [<material:bismuth>*2, <material:sulfur>*3]);
+dustBismuthinite.addFlags("GENERATE_ORE");
+
