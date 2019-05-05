@@ -104,6 +104,8 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterMagnesium>.add(<contenttweaker:clustermagnesium>);
 <ore:clusterManganese>.add(<contenttweaker:clustermanganese>);
 <ore:clusterMolybdenum>.add(<contenttweaker:clustermolybdenum>);
+<ore:clusterNaquadah>.add(<contenttweaker:clusternaquadah>);
+<ore:clusterNaquadria>.add(<contenttweaker:clusternaquadria>);
 <ore:clusterNeodymium>.add(<contenttweaker:clusterneodymium>);
 <ore:clusterNickel>.add(<contenttweaker:clusternickel>);
 <ore:clusterPotassium>.add(<contenttweaker:clusterpotassium>);
@@ -179,6 +181,13 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreCopper>.add(<contenttweaker:oreholycopper>);
 <ore:oreStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
+
+#Naquarric Darkstone
+<ore:oreNaquadite>.add(<contenttweaker:orenaquarricdarkstonenaquadite>);
+<ore:oreNaquarrite>.add(<contenttweaker:orenaquarricdarkstonenaquarrite>);
+<ore:oreNaquilinite>.add(<contenttweaker:orenaquarricdarkstonenaqulinite>);
+<ore:oreXifengite>.add(<contenttweaker:orenaquarricdarkstonexifengite>);
+<ore:oreXilingolite>.add(<contenttweaker:orenaquarricdarkstonexilingolite>);
 
 #Nether
 <ore:oreRedstone>.add(<contenttweaker:orenetherredstone>);

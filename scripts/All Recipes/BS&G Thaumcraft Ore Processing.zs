@@ -95,6 +95,16 @@ mods.thaumcraft.Crucible.registerRecipe("oreMolybdenum", "METALPURIFICATION", <o
 mods.thaumcraft.Crucible.registerRecipe("orePowellite", "METALPURIFICATION", <ore:clusterMolybdenum>.firstItem, <ore:crushedPurifiedPowellite>, [<aspect:metallum>*27, <aspect:instrumentum>*8, <aspect:fabrico>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreWulfenite", "METALPURIFICATION", <ore:clusterMolybdenum>.firstItem, <ore:crushedPurifiedWulfenite>, [<aspect:metallum>*26, <aspect:instrumentum>*8, <aspect:fabrico>*8]);
 
+#Naquadah
+mods.thaumcraft.Crucible.registerRecipe("oreNaquadah", "METALPURIFICATION", <ore:clusterNaquadah>.firstItem, <ore:crushedPurifiedNaquadah>, [<aspect:metallum>*15, <aspect:alienis>*5, <aspect:tenebrae>*5, <aspect:auram>*5, <aspect:potentia>*5, <aspect:lux>*5, <aspect:vitium>*5, <aspect:desiderium>*5]);
+mods.thaumcraft.Crucible.registerRecipe("oreNaquadite", "METALPURIFICATION", <ore:clusterNaquadah>.firstItem, <ore:crushedPurifiedNaquadite>, [<aspect:metallum>*15, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:desiderium>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreNaquarrite", "METALPURIFICATION", <ore:clusterNaquadah>.firstItem, <ore:crushedPurifiedNaquarrite>, [<aspect:metallum>*15, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:desiderium>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreNaqulinite", "METALPURIFICATION", <ore:clusterNaquadah>.firstItem, <ore:crushedPurifiedNaqulinite>, [<aspect:metallum>*15, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:desiderium>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreNaquadria", "METALPURIFICATION", <ore:clusterNaquadria>.firstItem, <ore:crushedPurifiedNaquarrite>, [<aspect:metallum>*15, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:desiderium>*8]);
+
+mods.thaumcraft.Crucible.registerRecipe("oreXifengite", "METALPURIFICATION", <ore:clusterIron>.firstItem, <ore:crushedPurifiedXifengite>, [<aspect:metallum>*15]);
+mods.thaumcraft.Crucible.registerRecipe("oreXilingoliteLead", "METALPURIFICATION", <ore:clusterLead>.firstItem, <ore:crushedPurifiedXilingolite>, [<aspect:metallum>*15, <aspect:ordo>*8]);
+
 #Nickel [cobalt]
 mods.thaumcraft.Crucible.registerRecipe("oreCobalt", "METALPURIFICATION", <ore:clusterCobalt>.firstItem, <ore:crushedPurifiedCobalt>, [<aspect:metallum>*15, <aspect:instrumentum>*5]);
 mods.thaumcraft.Crucible.registerRecipe("oreCobaltite", "METALPURIFICATION", <ore:clusterCobalt>.firstItem, <ore:crushedPurifiedCobaltite>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);

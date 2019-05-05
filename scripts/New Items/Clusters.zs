@@ -41,6 +41,12 @@ ClusterManganese.register();
 var ClusterMolybdenum = VanillaFactory.createItem("clustermolybdenum");
 ClusterMolybdenum.register();
 
+var ClusterNaquadah = VanillaFactory.createItem("clusternaquadah");
+ClusterNaquadah.register();
+
+var ClusterNaquadria = VanillaFactory.createItem("clusternaquadria");
+ClusterNaquadria.register();
+
 var ClusterNeodymium = VanillaFactory.createItem("clusterneodymium");
 ClusterNeodymium.register();
 

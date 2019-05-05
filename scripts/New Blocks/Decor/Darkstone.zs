@@ -13,5 +13,4 @@ NaquarricDarkstone.setToolClass("pickaxe");
 NaquarricDarkstone.setToolLevel(2);
 NaquarricDarkstone.setBlockSoundType(<soundtype:stone>);
 NaquarricDarkstone.setSlipperiness(0.6);
-NaquarricDarkstone.setLightValue(6);
 NaquarricDarkstone.register();

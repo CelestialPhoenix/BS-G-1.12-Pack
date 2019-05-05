@@ -13,5 +13,4 @@ OreNaquarricDarkstoneXilingolite.setToolClass("pickaxe");
 OreNaquarricDarkstoneXilingolite.setToolLevel(5);
 OreNaquarricDarkstoneXilingolite.setBlockSoundType(<soundtype:stone>);
 OreNaquarricDarkstoneXilingolite.setSlipperiness(0.6);
-OreNaquarricDarkstoneXilingolite.setLightValue(6);
 OreNaquarricDarkstoneXilingolite.register();
