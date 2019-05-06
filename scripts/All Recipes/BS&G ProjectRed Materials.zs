@@ -63,9 +63,9 @@ recipes.addShapeless(<projectred-core:resource_item:505>*3, [<ore:dustGlowstone>
 recipes.remove(<projectred-core:resource_item:506>);
 recipes.addShapeless(<projectred-core:resource_item:506>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyePink>, <ore:dyePink>]);
 recipes.remove(<projectred-core:resource_item:507>);
-recipes.addShapeless(<projectred-core:resource_item:507>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyeGrey>, <ore:dyeGrey>]);
+recipes.addShapeless(<projectred-core:resource_item:507>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyeGray>, <ore:dyeGray>]);
 recipes.remove(<projectred-core:resource_item:508>);
-recipes.addShapeless(<projectred-core:resource_item:508>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyeLightGrey>, <ore:dyeLightGrey>]);
+recipes.addShapeless(<projectred-core:resource_item:508>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyeLightGray>, <ore:dyeLightGray>]);
 recipes.remove(<projectred-core:resource_item:509>);
 recipes.addShapeless(<projectred-core:resource_item:509>*3, [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dyeCyan>, <ore:dyeCyan>]);
 recipes.remove(<projectred-core:resource_item:510>);
