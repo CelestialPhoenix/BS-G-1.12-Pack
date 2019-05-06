@@ -44,4 +44,5 @@ furnace.addRecipe(<ore:nuggetNickel>.firstItem*3, <contenttweaker:orepoorsandnic
 furnace.addRecipe(<ore:nuggetSilver>.firstItem*3, <contenttweaker:orepoorsilver>, 0.0);
 furnace.addRecipe(<ore:nuggetTin>.firstItem*3, <contenttweaker:orepoorgraveltin>, 0.0);
 
-#---Gregtech Ores Smelting
+#---Gregtech Ores Smelting---
+#furnace.addRecipe(<ore:ingot>.firstItem, <ore:ore>, 0.0);
