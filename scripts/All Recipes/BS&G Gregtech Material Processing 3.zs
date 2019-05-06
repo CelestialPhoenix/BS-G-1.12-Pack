@@ -23,6 +23,15 @@ print("Hello Boys- I'm Baaaaack!!!");
 val mixer as RecipeMap = RecipeMap.getByName("mixer");
 
 #--Dust/Powder Mixing--
+#BlueAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
+    .outputs(<ore:dustBlueAlloy>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+	
 #Gunpowder
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem], null).remove();
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem], null).remove();
@@ -52,12 +61,116 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
-
-#BlueAlloy
+#Illumar
 mixer
     .recipeBuilder()
-    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
-    .outputs(<ore:dustBlueAlloy>.firstItem*7)
+    .inputs(<ore:dyeWhite>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:500>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeOrange>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:501>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeMagenta>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:502>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeLightBlue>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:503>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeYellow>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:504>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeLime>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:505>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyePink>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:506>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeGray>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:507>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeLightGray>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:508>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeCyan>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:509>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyePurple>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:510>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBlue>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:511>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBrown>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:512>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeGreen>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:513>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeRed>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:514>*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBlack>.firstItem*2, <ore:dustGlowstone>.firstItem*2)
+    .outputs(<projectred-core:resource_item:515>*4)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
