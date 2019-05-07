@@ -1,6 +1,8 @@
 #Name: Blood Sweat & Gears Thaumcraft Ore Dict.zs
 #Author: PhoePhoe
 
+import mods.thaumcraft.Infusion;
+
 print("Ever wondered what the Liquid Death tastes like?");
 
 #---Tooltips---
@@ -68,6 +70,10 @@ recipes.addShaped(<thaumcraft:slab_silverwood>*4,[
 
 recipes.remove(<thaumcraft:nugget:9>);
 <thaumcraft:nugget:9>.displayName="Vis Crystal Seed";
+#mods.thaumcraft.Infusion.registerRecipe("seedNetherQuartz", "", <thaumcraft:nugget:9>, 3, [<aspect:vitreus>*16, <aspect:praecantatio>*4], <ore:gemExquisiteNetherQuartz>, [null]);
+#mods.thaumcraft.Infusion.registerRecipe("seedCertusQuartz", "", <thaumcraft:nugget:9>, 3, [<aspect:vitreus>*16, <aspect:praecantatio>*4], <ore:gemExquisiteCertusQuartz>, [null]);
+#mods.thaumcraft.Infusion.registerRecipe("seedQuartzite", "", <thaumcraft:nugget:9>, 3, [<aspect:vitreus>*16, <aspect:praecantatio>*4], <ore:gemExquisiteQuartzite>, [null]);
+mods.thaumcraft.Infusion.registerRecipe("seedDiamond", "", <thaumcraft:nugget:9>, 3, [<aspect:vitreus>*16, <aspect:praecantatio>*4], <ore:gemExquisiteDiamond>, [null]);
 
 var crystalAer=(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));
 mods.thaumcraft.Crucible.registerRecipe("crystalAer", "", crystalAer*2, crystalAer, [<aspect:vitreus>*2, <aspect:aer>*1]);
