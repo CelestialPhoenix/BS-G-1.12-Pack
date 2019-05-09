@@ -479,7 +479,7 @@ recipes.addShaped(<ore:toolHeadPickaxeTungstenCarbide>.firstItem, [
 [<ore:plateTungstenCarbide>, <ore:ingotTungstenCarbide>, <ore:plateTungstenCarbide>]]);
 recipes.removeShaped(<ore:toolHeadPickaxeVanadiumSteel>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeVanadiumSteel>.firstItem, [
-[<ore:plateVanadiumSteel>, <ore:ingotVanadiumSteel>, <ore:plateHssg>]]);
+[<ore:plateVanadiumSteel>, <ore:ingotVanadiumSteel>, <ore:plateVanadiumSteel>]]);
 recipes.removeShaped(<ore:toolHeadPickaxeHssg>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeHssg>.firstItem, [
 [<ore:plateHssg>, <ore:ingotHssg>, <ore:plateHssg>]]);
