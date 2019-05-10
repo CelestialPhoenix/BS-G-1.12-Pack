@@ -87,6 +87,11 @@ tile.contenttweaker.orelargemarblelapis.name=Lapis Ore
 tile.contenttweaker.orelargemarblelapisloose.name=Lapis Ore
 tile.contenttweaker.orelargemarblelazurite.name=Lazurite
 tile.contenttweaker.orelargemarblelazuriteloose.name=Lazurite
+
+tile.contenttweaker.orelodestonegold.name=Gold Ore
+tile.contenttweaker.orelodestonemagnetite.name=Magnetite
+tile.contenttweaker.orelodestonevanadiummagnetite.name=Vanadium Magnetite
+
 tile.contenttweaker.oremarblelapis.name=Lapis Ore
 tile.contenttweaker.oremarblelapisloose.name=Lapis Ore
 tile.contenttweaker.oremarblelazurite.name=Lazurite
@@ -155,6 +160,7 @@ tile.contenttweaker.basalt.name=Basalt
 tile.contenttweaker.BlackGranite.name=Black Granite
 tile.contenttweaker.dolomite.name=Dolomite
 tile.contenttweaker.dreadedobsidian.name=Dreaded Obsidian
+tile.contenttweaker.lodestone.name=Lodestone
 tile.contenttweaker.marble.name=Marble
 tile.contenttweaker.omotholbasalt.name=Omothol Basalt
 tile.contenttweaker.omotholmarble.name=Omothol Marble
@@ -322,6 +328,7 @@ item.contenttweaker.clustertitanium.name=Native Titanium Cluster
 item.contenttweaker.clusterthorium.name=Native Thorium Cluster
 item.contenttweaker.clustertungsten.name=Native Tungsten Cluster
 item.contenttweaker.clusteruranium.name=Native Uranium Cluster
+item.contenttweaker.clustervanadium.name=Native Vanadium Cluster
 item.contenttweaker.clusteryttrium.name=Native Yttrium Cluster
 item.contenttweaker.clusterzinc.name=Native Zinc Cluster
 item.contenttweaker.clusterzirconium.name=Native Zirconium Cluster
