@@ -150,7 +150,9 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotThorium>.firstItem*4, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem, <ore:oreMonazite>, <ore:itemSlagRich>.firstItem*8, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem, <ore:oreRareEarth>, <ore:itemSlagRich>.firstItem*8, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotThorium>.firstItem*4, <ore:oreThorium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
-
+#Vanadium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotVanadium>.firstItem*4, <ore:oreVanadium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotVanadium>.firstItem*4, <ore:oreVanadiumMagnetite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 #--Dreadlands--
 #Magnesium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotMagnesium>.firstItem*3, <ore:oreMagnesite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
@@ -257,6 +259,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotTitanium>.firstItem*
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotThorium>.firstItem*2, <ore:clusterThorium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Thorium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotTungsten>.firstItem*2, <ore:clusterTungsten>, <ore:itemSlagRich>.firstItem, 20, 2048); #Tungsten
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*2, <ore:clusterUranium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Uranium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotVanadium>.firstItem*2, <ore:clusterVanadium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Vanadium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotYttrium>.firstItem*2, <ore:clusterYttrium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Yttrium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*2, <ore:clusterZinc>, <ore:itemSlagRich>.firstItem, 20, 2048); #Zinc
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZirconium>.firstItem*2, <ore:clusterZirconium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Zirconium
@@ -394,6 +397,9 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_huttonite_0:4>, <ore:o
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_monazite_0:4>, <ore:oreMonazite>, 4096, <ore:crushedRareEarth>.firstItem, 0.1); #Crushed Rare Earth
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_rare_earth_0:4>, <ore:oreRareEarth>, 4096, <ore:crushedNeodymium>.firstItem, 0.1); #Crushed Neodymium
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_thorium_0:4>, <ore:oreThorium>, 4096, <ore:crushedLead>.firstItem, 0.1); #Crushed Lead
+#Vanadium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_0:4>, <ore:oreVanadium>, 4096, <ore:crushed>.firstItem, 0.1); #Vanadium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_magnetite_0:4>, <ore:oreVanadiumMagnetite>, 4096, <ore:crushed>.firstItem, 0.1); #Vanadium Magnetite
 
 #--Dreadlands--
 #Magnesium
@@ -498,6 +504,7 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustThorium>.firstItem*2, <ore:
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustTitanium>.firstItem*2, <ore:clusterTitanium>, 4096, null, 0.1); #Titanium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustTungsten>.firstItem*2, <ore:clusterTungsten>, 4096, null, 0.1); #Tungsten
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustUranium>.firstItem*2, <ore:clusterUranium>, 4096, null, 0.1); #Uranium
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustVanadium>.firstItem*2, <ore:clusterVanadium>, 4096, null, 0.1); #Vanadium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustYttrium>.firstItem*2, <ore:clusterYttrium>, 4096, null, 0.1); #Yttrium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustZinc>.firstItem*2, <ore:clusterZinc>, 4096, null, 0.1); #Zinc
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustZirconium>.firstItem*2, <ore:clusterZirconium>, 4096, null, 0.1); #Zirconium

@@ -83,6 +83,9 @@ ClusterTungsten.register();
 var ClusterUranium = VanillaFactory.createItem("clusteruranium");
 ClusterUranium.register();
 
+var ClusterVanadium = VanillaFactory.createItem("clustervanadium");
+ClusterVanadium.register();
+
 var ClusterYttrium = VanillaFactory.createItem("clusteryttrium");
 ClusterYttrium.register();
 

@@ -118,6 +118,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterThorium>.add(<contenttweaker:clusterthorium>);
 <ore:clusterTungsten>.add(<contenttweaker:clustertungsten>);
 <ore:clusterUranium>.add(<contenttweaker:clusteruranium>);
+<ore:clusterVanadium>.add(<contenttweaker:clustervanadium>);
 <ore:clusterYttrium>.add(<contenttweaker:clusteryttrium>);
 <ore:clusterZinc>.add(<contenttweaker:clusterzinc>);
 <ore:clusterZirconium>.add(<contenttweaker:clusterzirconium>);
@@ -169,6 +170,12 @@ print("Tweak Tweak Tweak Tweak");
 #<ore:ore>.add(<contenttweaker:oreendstone>);
 <ore:oreBrannerite>.add(<contenttweaker:oreendstonebrannerite>);
 <ore:oreUraninite>.add(<contenttweaker:oreendstoneuraninite>);
+
+#Lodestone
+#<ore:ore>.add(<contenttweaker:orelodestone>);
+<ore:oreGold>.add(<contenttweaker:orelodestonegold>);
+<ore:oreMagnetite>.add(<contenttweaker:orelodestonemagnetite>);
+<ore:oreVanadiumMagnetite>.add(<contenttweaker:orelodestonevanadiummagnetite>);
 
 #Marble
 <ore:oreLapis>.add(<contenttweaker:oremarblelapis>);

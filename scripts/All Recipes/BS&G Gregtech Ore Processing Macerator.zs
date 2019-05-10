@@ -267,6 +267,14 @@ macerator
     .buildAndRegister();
 macerator
     .recipeBuilder()
+    .inputs(<ore:clusterVanadium>.firstItem)
+    .outputs(<ore:dustVanadium>.firstItem*2)
+	.chancedOutput(<ore:dustVanadium>.firstItem, 2000, 1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+macerator
+    .recipeBuilder()
     .inputs(<ore:clusterYttrium>.firstItem)
     .outputs(<ore:dustYttrium>.firstItem*2)
 	.chancedOutput(<ore:dustYttrium>.firstItem, 2000, 1000)

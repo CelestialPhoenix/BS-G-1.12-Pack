@@ -116,6 +116,8 @@ mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTungsten>.firstItem, <
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUraninite>.firstItem, <ore:crushedUraninite>, 10); #Uraninite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUranium>.firstItem, <ore:crushedUranium>, 10); #Uranium
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUvarovite>.firstItem, <ore:crushedUvarovite>, 10); #Uvarovite
+mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedVanadium>.firstItem, <ore:crushedVanadium>, 10); #Vanadium
+mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedVanadiumMagnetite>.firstItem, <ore:crushedVanadiumMagnetite>, 10); #VanadiumMagnetite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXenotime>.firstItem, <ore:crushedXenotime>, 10); #Xenotime
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXifengite>.firstItem, <ore:crushedXifengite>, 10); #Xifengite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXilingolite>.firstItem, <ore:crushedXilingolite>, 10); #Xilingolite
@@ -235,6 +237,8 @@ mods.botania.ManaInfusion.addInfusion(<ore:dustTungsten>.firstItem, <ore:dustImp
 mods.botania.ManaInfusion.addInfusion(<ore:dustUraninite>.firstItem, <ore:dustImpureUraninite>, 10); #Uraninite
 mods.botania.ManaInfusion.addInfusion(<ore:dustUranium>.firstItem, <ore:dustImpureUranium>, 10); #Uranium
 mods.botania.ManaInfusion.addInfusion(<ore:dustUvarovite>.firstItem, <ore:dustImpureUvarovite>, 10); #Uvarovite
+mods.botania.ManaInfusion.addInfusion(<ore:dustVanadium>.firstItem, <ore:dustImpureVanadium>, 10); #Vanadium
+mods.botania.ManaInfusion.addInfusion(<ore:dustVanadiumMagnetite>.firstItem, <ore:dustImpureVanadiumMagmetite>, 10); #VanadiumMagnetite
 mods.botania.ManaInfusion.addInfusion(<ore:dustWulfenite>.firstItem, <ore:dustImpureWulfenite>, 10); #Wulfenite
 mods.botania.ManaInfusion.addInfusion(<ore:dustXenotime>.firstItem, <ore:dustImpureXenotime>, 10); #Xenotime
 mods.botania.ManaInfusion.addInfusion(<ore:dustXifengite>.firstItem, <ore:dustImpureXifengite>, 10); #Xifengite
@@ -413,6 +417,9 @@ mods.botania.PureDaisy.addRecipe(<ore:oreCoffinite>, <gregtech:ore_uranium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:orePitchblende>, <gregtech:ore_uranium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreThorite>, <gregtech:ore_thorium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreZircon>, <gregtech:ore_zirconium_0>);
+
+#Vanadium
+mods.botania.PureDaisy.addRecipe(<ore:oreVanadiumMagnetite>, <gregtech:ore_vanadium_magnetite_0>);
 
 #Zinc [sphalerite]
 mods.botania.PureDaisy.addRecipe(<ore:oreSphalerite>, <gregtech:ore_zinc_0>);

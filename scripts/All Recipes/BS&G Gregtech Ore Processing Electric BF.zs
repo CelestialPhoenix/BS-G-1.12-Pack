@@ -90,6 +90,16 @@ electricBF
 
 electricBF
     .recipeBuilder()
+    .inputs(<ore:clusterVanadium>.firstItem)
+    .outputs(<ore:ingotHotVanadium>.firstItem*2)
+	.chancedOutput(<ore:ingotHotVanadium>.firstItem, 2000, 1000)
+	.property("temperature", 2183)
+    .duration(2200)
+    .EUt(120)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
     .inputs(<ore:clusterYttrium>.firstItem)
     .outputs(<ore:ingotHotYttrium>.firstItem*2)
 	.chancedOutput(<ore:ingotHotYttrium>.firstItem, 2000, 1000)

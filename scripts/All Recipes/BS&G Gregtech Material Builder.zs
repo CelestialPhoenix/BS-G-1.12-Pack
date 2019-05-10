@@ -52,6 +52,9 @@ titanium.addFlags(["GENERATE_ORE"]);
 var tungsten = <material:tungsten>;
 tungsten.addFlags(["GENERATE_ORE"]);
 
+var vanadium = <material:vanadium>;
+vanadium.addFlags(["GENERATE_ORE"]);
+
 var uvarovite = <material:uvarovite>;
 uvarovite.addFlags(["GENERATE_ORE"]);
 
