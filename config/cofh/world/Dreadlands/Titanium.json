@@ -39,65 +39,53 @@
                "material":[  
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":2,
-                     "weight":35
+                     "metadata":2
                   },
                   {  
                      "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   }
                ],
                "gen-body":[  
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":2,
-                     "weight":35
+                     "metadata":2
                   },
                   {  
                      "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   }
                ],
                "min-height":5,
@@ -141,65 +129,53 @@
                "material":[  
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":2,
-                     "weight":35
+                     "metadata":2
                   },
                   {  
                      "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   }
                ],
                "gen-body":[  
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":2,
-                     "weight":35
+                     "metadata":2
                   },
                   {  
                      "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0,
-                     "weight":2
+                     "metadata":0
                   },
                   {  
                      "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0,
-                     "weight":35
+                     "metadata":0
                   }
                ],
                "min-height":5,
@@ -518,21 +494,19 @@
             }
          ],
          "cluster-count":600,
-         "chunk-chance":100,
+         "chunk-chance":200,
          "min-height":20,
          "vein-height":90,
          "vein-diameter":60,
          "vertical-density":0,
          "horizontal-density":15,
          "biome":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
                {  
                   "type":"id",
-                  "entry":[  
-                     "purified_dreadlands",
-					 "dreadlands",
-					 "dreadlands_forest"
+                  "entry":[
+					 "abyssalcraft:dreadlands"
                   ]
                }
             ]

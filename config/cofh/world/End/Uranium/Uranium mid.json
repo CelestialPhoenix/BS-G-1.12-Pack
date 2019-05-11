@@ -1,9 +1,9 @@
-#Name: Blood Sweat & Gears Uranium Mid.zs
+#Name: Blood Sweat & Gears Uranium Top.zs
 #Author: PhoePhoe
 
 {  
    "populate":{  
-      "enduraniummid":{  
+      "enduraniumtop":{  
          "distribution":"fractal",
          "generator":[  
             {  
@@ -16,14 +16,24 @@
                      "weight":20
                   },
                   {  
-                     "name":"contenttweaker:oreendstonebrannerite",
-                     "metadata":0,
-                     "weight":13
+                     "name":"gregtech:ore_zircon_0",
+                     "metadata":7,
+                     "weight":2
                   },
                   {  
-                     "name":"contenttweaker:oreendstoneuraninite",
-                     "metadata":0,
-                     "weight":2
+                     "name":"gregtech:ore_coffinite_0",
+                     "metadata":7,
+                     "weight":15
+                  },
+                  {  
+                     "name":"gregtech:ore_thorite_0",
+                     "metadata":13,
+                     "weight":5
+                  },
+                  {  
+                     "name":"gregtech:ore_pitchblende_0",
+                     "metadata":13,
+                     "weight":5
                   },
                   {  
                      "name":"minecraft:end_stone",
@@ -54,17 +64,27 @@
                   {  
                      "name":"gregtech:ore_lead_0",
                      "metadata":7,
-                     "weight":20
-                  },
-                  {  
-                     "name":"contenttweaker:oreendstonebrannerite",
-                     "metadata":0,
                      "weight":2
                   },
                   {  
-                     "name":"contenttweaker:oreendstoneuraninite",
-                     "metadata":0,
-                     "weight":8
+                     "name":"gregtech:ore_zircon_0",
+                     "metadata":7,
+                     "weight":20
+                  },
+                  {  
+                     "name":"gregtech:ore_coffinite_0",
+                     "metadata":7,
+                     "weight":5
+                  },
+                  {  
+                     "name":"gregtech:ore_thorite_0",
+                     "metadata":13,
+                     "weight":15
+                  },
+                  {  
+                     "name":"gregtech:ore_pitchblende_0",
+                     "metadata":13,
+                     "weight":5
                   },
                   {  
                      "name":"minecraft:end_stone",
@@ -89,7 +109,7 @@
          ],
          "cluster-count":80,
          "chunk-chance":1600,
-         "min-height":80,
+         "min-height":120,
          "vein-height":60,
          "vein-diameter":60,
          "vertical-density":15,

@@ -30,13 +30,15 @@
 			   [  
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":2,
-                     "weight":35
+                     "metadata":2
                   },
                   {  
                      "name":"abyssalcraft:stone",
-                     "metadata":3,
-                     "weight":35
+                     "metadata":3
+                  },
+				  {  
+                     "name":"abyssalcraft:dreadlandsdirt",
+                     "metadata":0
                   }
                ],
                "radius":5,
@@ -79,7 +81,7 @@
             }
          ],
          "cluster-count":300,
-         "chunk-chance":100,
+         "chunk-chance":80,
          "min-height":5,
          "vein-height":75,
          "vein-diameter":40,
@@ -87,13 +89,12 @@
          "horizontal-density":30,
          "retrogen":"true",
          "biome":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
                {  
                   "type":"id",
                   "entry":[  
-					 "dreadlands_forest",
-					 "dreadlands_mountains"
+					 "abyssalcraft:dreadlands_forest"
                   ]
                }
             ]

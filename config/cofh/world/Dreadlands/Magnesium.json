@@ -76,14 +76,12 @@
          "horizontal-density":40,
          "retrogen":"true",
          "biome":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
                {  
                   "type":"id",
                   "entry":[  
-                     "purified_dreadlands",
-					 "dreadlands",
-					 "dreadlands_mountains"
+					 "abyssalcraft:purified_dreadlands"
                   ]
                }
             ]

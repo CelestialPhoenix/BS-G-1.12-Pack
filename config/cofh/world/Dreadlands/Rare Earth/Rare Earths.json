@@ -1,9 +1,9 @@
-#Name: Blood Sweat & Gears Rare Earths 2.zs
+#Name: Blood Sweat & Gears Rare Earths.zs
 #Author: PhoePhoe
 
 {  
    "populate":{  
-      "rareearth2":{  
+      "rareearth":{  
          "distribution":"fractal",
          "generator":[  
             {  
@@ -28,24 +28,32 @@
                ],
                "material":[  
                   {  
-                     "name":"abyssalcraft:stone",
-                     "metadata":1,
-                     "weight":85
-                  },
-                  {  
-                     "name":"abyssalcraft:abyssalsand",
-                     "metadata":0,
-                     "weight":85
-                  },
-                  {  
                      "name":"gregtech:granite",
-                     "metadata":0,
-                     "weight":85
+                     "metadata":0
+                  },
+				  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":2
                   },
                   {  
-                     "name":"abyssalcraft:fusedabyssalsand",
-                     "metadata":0,
-                     "weight":85
+                     "name":"contenttweaker:dreadedobsidian",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianaluminium",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianbauxite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianilmenite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianpsudobrookite",
+                     "metadata":0
                   }
                ],
                "min-height":12,
@@ -71,24 +79,32 @@
                ],
                "material":[  
                   {  
-                     "name":"abyssalcraft:stone",
-                     "metadata":1,
-                     "weight":85
-                  },
-                  {  
-                     "name":"abyssalcraft:abyssalsand",
-                     "metadata":0,
-                     "weight":85
-                  },
-                  {  
                      "name":"gregtech:granite",
-                     "metadata":0,
-                     "weight":85
+                     "metadata":0
+                  },
+				  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":2
                   },
                   {  
-                     "name":"abyssalcraft:fusedabyssalsand",
-                     "metadata":0,
-                     "weight":85
+                     "name":"contenttweaker:dreadedobsidian",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianaluminium",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianbauxite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianilmenite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oredreadedobsidianpsudobrookite",
+                     "metadata":0
                   }
                ],
                "min-height":12,
@@ -114,24 +130,16 @@
                ],
                "material":[  
                   {  
-                     "name":"abyssalcraft:stone",
-                     "metadata":1,
-                     "weight":85
-                  },
-                  {  
-                     "name":"abyssalcraft:abyssalsand",
-                     "metadata":0,
-                     "weight":85
-                  },
-                  {  
                      "name":"gregtech:granite",
-                     "metadata":0,
-                     "weight":85
+                     "metadata":0
                   },
-                  {  
-                     "name":"abyssalcraft:fusedabyssalsand",
-                     "metadata":0,
-                     "weight":85
+				  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":2
+                  },
+				  {  
+                     "name":"abyssalcraft:dreadlandsdirt",
+                     "metadata":0
                   }
                ],
                "min-height":12,
@@ -214,17 +222,28 @@
             }
          ],
          "cluster-count":60,
-         "chunk-chance":200,
-         "min-height":32,
+         "chunk-chance":45,
+         "min-height":16,
          "vein-height":70,
          "vein-diameter":50,
          "vertical-density":400,
          "horizontal-density":50,
          "retrogen":"true",
+         "biome":{  
+            "restriction":"whitelist",
+            "value":[  
+               {  
+                  "type":"id",
+                  "entry":[  
+					 "abyssalcraft:dreadlands_mountains"
+                  ]
+               }
+            ]
+         },
          "dimension":{  
             "restriction":"whitelist",
             "value":[  
-               50
+               51
             ]
          }
       }
