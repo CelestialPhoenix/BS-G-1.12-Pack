@@ -118,7 +118,7 @@
                "block":[  
                   {  
                      "name":"gregtech:ore_gold_0",
-                     "metadata":0,
+                     "metadata":6,
                      "weight":40
                   },
                   {  
@@ -154,7 +154,12 @@
                }
             ]
          },
-         "dimension":"all"
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               -1
+            ]
+         }
       }
    }
 }

@@ -1,0 +1,37 @@
+#Name: Blood Sweat & Gears Nitre Scattered.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "nitrescattered":{  
+         "distribution":"uniform",
+         "generator":{  
+            "type":"cluster",
+            "block":[  
+                  {  
+                     "name":"minecraft:soul_sand",
+                     "metadata":0,
+                     "weight":10
+                  },
+                  {  
+                     "name":"contenttweaker:oresoulnitre",
+                     "metadata":0,
+                     "weight":10
+                  }
+            ],
+            "material":"minecraft:soul_sand",
+            "cluster-size":5
+         },
+         "cluster-count":512,
+         "min-height":0,
+         "max-height":128,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               -1
+            ]
+         }
+      }
+   }
+}

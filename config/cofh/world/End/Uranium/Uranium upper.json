@@ -3,7 +3,7 @@
 
 {  
    "populate":{  
-      "enduraniumtop":{  
+      "enduraniumupper":{  
          "distribution":"fractal",
          "generator":[  
             {  

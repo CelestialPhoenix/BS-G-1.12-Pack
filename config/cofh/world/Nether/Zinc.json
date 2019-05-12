@@ -12,24 +12,34 @@
                {  
                   "name":"gregtech:ore_zinc_0",
                   "metadata":6,
-                  "weight":10
+                  "weight":5
                },
                {  
                   "name":"gregtech:ore_sphalerite_0",
+                  "metadata":6,
+                  "weight":10
+               },
+               {  
+                  "name":"gregtech:ore_goslarite_0",
+                  "metadata":6,
+                  "weight":15
+               },
+               {  
+                  "name":"gregtech:ore_sulfur_0",
                   "metadata":6,
                   "weight":20
                },
                {  
                   "name":"minecraft:netherrack",
                   "metadata":0,
-                  "weight":100
+                  "weight":300
                }
             ],
             "material":"minecraft:netherrack",
             "cluster-size":300,
             "sparse":"true"
          },
-         "cluster-count":120,
+         "cluster-count":20,
          "chunk-chance":100,
          "min-height":32,
          "vein-height":30,

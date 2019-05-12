@@ -30,7 +30,7 @@
                "minecraft:netherrack"
             ],
 			"gen-body":"minecraft:netherrack",
-            "min-height":40,
+            "min-height":60,
 			"height-mod":1,
 			"smooth":"false",
 			"fat":"true"
