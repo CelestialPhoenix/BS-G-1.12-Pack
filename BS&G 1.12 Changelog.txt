@@ -4,10 +4,80 @@ Read at your own risk.
 
 Mods with manually adjusted lang files; IC2
 
+15.0 Full Mineral Suite
+Updated Gregtech to 1.8.0.398
+Updated Gregtech to 1.8.0.399
+Removed Dynamic Trees + Add ons
+AbyssalCraft
+-Added Chrome deposit (Yellow Garnet/Uvarorvite/Chromite) to Omothol
+-Added Iridium deposit (Bornite/Bowieite/Chalcocite/Cooperite/Pentlandite/Sheldonite) to Omothol
+-Added Rare Earths deposit (Gadolinite/Fergusonite/Monazite (Nd)/Xenotime) to Omothol
+-Moved Uranium/Zirconium deposit from Wasteland to Omothol. Tweaked mineral list to suite.
+-Moved Rare Earths deposit from Wasteland to Dreadlands.
+-Tweaked Dreadlands ore deposits, fixed biome distributions
+-Added Lodestone (Gold/Magnetite/Vanadium-Magnetite) to Wasteland
+Aether
+-Added Bismuth deposit (Berryite/Bismuthinite) to the Aether
+-Added Diamond geodes to the Aether
+Botania
+-added ore processing for Yellow Garnet/Uvarorvite/Chromite/Chrome, Bornite/Bowieite/Chalcocite/Sheldonite/Iridium, Gadolinite/Fergusonite/Monazite (Nd)/Xenotime/Neodymium/Yttrium, Naquadah/Naquadite/Naqulinite/Naquarrite/Xifengite/Xilingolite, Berryite/Bismuthinite/Bismuth, Vanadium/Vanadium-Magnetite, Goslarite
+ContentTweaker
+-Added ore tags for Omothol basalt Yellow Garnet, Uvarovite, Chromite
+-Tweaked textures for Omothol basalt, Yellow Garnet, Uvarovite, Chromite
+-Added Omothol marble Bornite, Bowieite, Chalcocite, Cooperite, Pentlandite, Sheldonite
+-Added Omothol Gadolinite, Fergusonite, Monazite (Nd), Xenotime
+-Added Chrome, Iridium, Neodymium, Yttrium, Naquadah, Naqudaria, Bismuth, Vanadium native clusters
+-Added Naquarric Darkstone, ND Naquadite, Naqulinite, Naquarrite, Xifengite, Xilingolite
+-Added Holystone Berryite, Bismuthinite
+-Added Lodestone, + Magnetite, Vanadium-Magnetite, Gold varients
+-Added Omothol Pitchblende, Uraninite, Brannerite, Zircon
+-Changed Soul Nitre to have tag ore:oreSaltpeter. Should now work for Gtech processing
+Gregtech
+-Added Sheldonite, Bowieite, Xenotime, Gadolinite, Fergusonite, Monazite (Nd) materials
+-Added GENERATE_ORE flag to Yttrium
+-Added Naquadite, Naqulinite, Naquarrite, Xifengite, Xilingolite
+-Added Berryite, Bismuthinite
+-Added mixer recipes for illumar
+-Added macerator processing for native clusters
+-Added EBF processing for native clusters
+-Added Goslarite
+ImEng
+-added ore processing for Yellow Garnet/Uvarorvite/Chromite/Chrome, Bornite/Bowieite/Chalcocite/Sheldonite/Iridium, Gadolinite/Fergusonite/Monazite (Nd)/Xenotime/Neodymium/Yttrium, Naquadah/Naquadite/Naqulinite/Naquarrite/Xifengite/Xilingolite, Vanadium/Vanadium-Magnetite, Goslarite, Chrome, Iridium, Neodymium, Yttrium, Naquadah, Naqudaria, Bismuth, Vanadium native clusters
+Project Red
+-fixed issues with illumar crafting recipes
+Thaumcraft
+-added ore processing for Yellow Garnet/Uvarorvite/Chromite/Chrome, Bornite/Bowieite/Chalcocite/Sheldonite/Iridium, Gadolinite/Fergusonite/Monazite (Nd)/Xenotime/Neodymium/Yttrium, Naquadah/Naquadite/Naqulinite/Naquarrite/Xifengite/Xilingolite, Berryite/Bismuthinite/Bismuth, Vanadium-Magnetite, Goslarite
+-Added new (lossless) way of making vis crystals. Very automation/logistics friendly.
+-Added new (brutal) way of making the initial quartz nuggets
+-Renamed quartz nugget to Vis Crystal Seed
+Vanilla
+-Added processing for Bismuth native cluster
+-Downgraded mineral quality of End Uranium deposit. Added Zircon to the mix.
+-Fixed biome listings for ore generation
+-Tweaked Lapis, Galena, Zinc, Sulfur generation
+-Fixed issue with overworld gold appearing in Nether gold deposit
+-Added a scattered nitre deposit to the Nether
+
+14.0b Oops! my bad!
+Updated Gregtech to 1.7.1.394
+CraftTweaker
+-fixed issue where all the crafting table recipes went missing
+ContentTweaker
+-Added Omothol ore;
+-omothol basalt yellow garnet, uvarovite, chromite
+-Added Omothol basalt and marble
+Gregtech
+-Added GENERATE_ORE to uvarorvite, chrome
+
 14.0 I wish I had time to play Interactions
+Forge 14.23.5.2779
+Added Botania Tweaks 1.8.4 by quat1024
 Updated Gregtech to 1.6.9.382
+CEU
+-finished/fixed recipe changes
 ContentTweaker
 -added recipes for CT thick plate items
+-renamed coils to match circuit tier names
 Gregtech
 -removed knife, branch cutter, mortar, file meta-tools as I can't be bothered to change the recipes.
 --except the branch cutter. I quite enjoyed nuking that one.
@@ -22,14 +92,35 @@ Gregtech
 -removed nugget smelting from EBF
 -smelting removes magnetic effect
 -tweaked steel, annealed copper, kanthal, nichrome recipes
+-removed redstone recipe for magnetic iron
+-processing recipes for magnetic cobalt
+-removed assembling machine recipes for machine casings
+-high efficiceny recipe for LV machine casing 
+-fixed magnetic cobalt naming
+-added macerator recipes for elemental rods to dusts
+-fixed mixer recipes for gunpowder
+-added mixer recipes for magic elemental dusts
+-changed Gtech machine recipes to reference MetaTileEntities instead of internal names
+-added blue alloy recipes to alloy smelter, mixer
+-changed (buffed) blue alloy cable amperage to 2
 IC2
 -fixed Gtech recipe being present for gold conduit
 Immersive Engineering
 -fixed/update metal press recipes for ring bending, fixed my stupidity
+-added processing for elemental dusts
+Ore Dictionary
+-removed duplicate entries- multiple mods
 Thaumcraft
 -removed duplicate materials from ore dictionary
 Thermal Foundation
 -fixed my derp with the ore-dict nuggets, electrum ingot
+-tweaked recipes for magical elemental dusts
+-remvoed rod to dust crafting for elementals
+TiCon
+-removed Gtech file stuff
+Vanilla
+-fixed that mess of recipes for gunpowder
+-removed dust crafting from blaze rods
 
 13.0 Lucky
 Forge 14.23.5.2779
