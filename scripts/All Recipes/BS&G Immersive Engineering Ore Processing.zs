@@ -107,8 +107,9 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustAsh>.firstItem*4, <ore:o
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotIron>.firstItem*2, <ore:oreNetherrackPyrite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustAsh>.firstItem*4, <ore:oreNetherrackSulfur>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 #Zinc [sphalerite]
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore:oreSphalerite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*3, <ore:oreSphalerite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore:oreZinc>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*2, <ore:oreGoslarite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 #Zinc [netherrack]
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore:oreNetherrackSphalerite>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotZinc>.firstItem*4, <ore:oreNetherrackZinc>, <ore:itemSlagRich>.firstItem, 2000, 2048);
@@ -360,6 +361,7 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sulfur_0:4>, <ore:oreS
 #Zinc [sphalerite]
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sphalerite_0:4>, <ore:oreSphalerite>, 4096, <ore:crushedZinc>.firstItem, 0.1); #Crushed Zinc
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zinc_0:4>, <ore:oreZinc>, 4096, <ore:crushedSphalerite>.firstItem, 0.1); #Crushed Sphalerite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_goslarite_0:4>, <ore:oreGoslarite>, 4096, <ore:crushedGoslarite>.firstItem, 0.1); #Goslarite
 
 #--Aether--
 #Aluminium

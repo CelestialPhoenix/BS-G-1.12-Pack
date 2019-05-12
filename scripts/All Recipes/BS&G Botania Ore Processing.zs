@@ -49,6 +49,7 @@ mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGadolinite>.firstItem,
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGalena>.firstItem, <ore:crushedGalena>, 10); #Galena
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGarnierite>.firstItem, <ore:crushedGarnierite>, 10); #Garnierite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGold>.firstItem, <ore:crushedGold>, 10); #Gold
+mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGoslarite>.firstItem, <ore:crushedgoslarite>, 10); #Goslarite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGreenSapphire>.firstItem, <ore:crushedGreenSapphire>, 10); #GreenSapphire
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedHubnerite>.firstItem, <ore:crushedHubnerite>, 10); #Hubnerite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedHuttonite>.firstItem, <ore:crushedHuttonite>, 10); #Huttonite
@@ -170,6 +171,7 @@ mods.botania.ManaInfusion.addInfusion(<ore:dustGadolinite>.firstItem, <ore:dustI
 mods.botania.ManaInfusion.addInfusion(<ore:dustGalena>.firstItem, <ore:dustImpureGalena>, 10); #Galena
 mods.botania.ManaInfusion.addInfusion(<ore:dustGarnierite>.firstItem, <ore:dustImpureGarnierite>, 10); #Garnierite
 mods.botania.ManaInfusion.addInfusion(<ore:dustGold>.firstItem, <ore:dustImpureGold>, 10); #Gold
+mods.botania.ManaInfusion.addInfusion(<ore:dustGoslarite>.firstItem, <ore:dustImpureGoslarite>, 10); #Goslarite
 mods.botania.ManaInfusion.addInfusion(<ore:dustGreenSapphire>.firstItem, <ore:dustImpureGreenSapphire>, 10); #GreenSapphire
 mods.botania.ManaInfusion.addInfusion(<ore:dustHubnerite>.firstItem, <ore:dustImpureHubnerite>, 10); #Hubnerite
 mods.botania.ManaInfusion.addInfusion(<ore:dustHuttonite>.firstItem, <ore:dustImpureHuttonite>, 10); #Huttonite
@@ -423,5 +425,6 @@ mods.botania.PureDaisy.addRecipe(<ore:oreVanadiumMagnetite>, <gregtech:ore_vanad
 
 #Zinc [sphalerite]
 mods.botania.PureDaisy.addRecipe(<ore:oreSphalerite>, <gregtech:ore_zinc_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreGoslarite>, <gregtech:ore_zinc_0>); 
 mods.botania.PureDaisy.addRecipe(<ore:oreZinc>, <gregtech:ore_zinc_0>);
 

@@ -184,4 +184,5 @@ mods.thaumcraft.Crucible.registerRecipe("oreVanadiumMagnetite", "METALPURIFICATI
 
 #Zinc
 mods.thaumcraft.Crucible.registerRecipe("oreSphlaerite", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedSphalerite>, [<aspect:metallum>*15, <aspect:victus>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreGoslarite", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedGoslarite>, [<aspect:metallum>*15, <aspect:victus>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreZinc", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedZinc>, [<aspect:metallum>*15, <aspect:victus>*5]);
