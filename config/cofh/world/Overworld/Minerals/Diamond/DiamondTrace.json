@@ -49,20 +49,23 @@
                   "entry":[  
                      "frozen_ocean",
                      "frozen_river",
+					 "ice_flats",
                      "ice_plains",
                      "ice_mountains",
-                     "glacier",
+                     "biomesoplenty:glacier",
                      "ice_plains_spikes",
-                     "cold_desert"
+                     "biomesoplenty:cold_desert",
+					 "biomesoplenty:tundra",
+					 "biomesoplenty:snowy_tundra",
+					 "mutated_ice_flats"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

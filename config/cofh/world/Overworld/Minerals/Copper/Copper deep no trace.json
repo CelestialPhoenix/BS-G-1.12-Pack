@@ -51,33 +51,37 @@
                      "birch_forest",
                      "birch_forest_hills",
                      "roofed_forest",
-                     "bamboo_forest",
-                     "boreal_forest",
-                     "coniferous_forest",
-                     "eucalyptus_forest",
-                     "maple_woods",
-                     "orchard",
-                     "temperate_rainforest",
+					 "mutated_birch_forest",
+					 "mutated_birch_forest_hills",
+					 "mutated_roofed_forest",
+					 "mutated_forest",
+                     "biomesoplenty:bamboo_forest",
+                     "biomesoplenty:boreal_forest",
+                     "biomesoplenty:coniferous_forest",
+                     "biomesoplenty:eucalyptus_forest",
+                     "biomesoplenty:maple_woods",
+                     "biomesoplenty:orchard",
+                     "biomesoplenty:temperate_rainforest",
                      "birch_forest_m",
                      "birch_forest_hills_m",
                      "roofed_forest_m",
                      "mega_spruce_m",
-                     "cherry_blossom_grove",
-                     "dead_forest",
-                     "grove",
-                     "land_of_lakes",
-                     "sacred_springs",
-                     "shield",
-                     "origin_island"
+                     "biomesoplenty:cherry_blossom_grove",
+                     "biomesoplenty:dead_forest",
+                     "biomesoplenty:grove",
+                     "biomesoplenty:land_of_lakes",
+                     "biomesoplenty:sacred_springs",
+                     "biomesoplenty:shield",
+                     "biomesoplentyorigin_island",
+					 "thaumcraft:magical_forest"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

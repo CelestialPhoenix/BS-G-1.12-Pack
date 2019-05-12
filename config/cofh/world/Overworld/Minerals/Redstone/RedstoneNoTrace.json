@@ -51,20 +51,25 @@
                      "jungle",
                      "jungle_hills",
                      "jungle_edge",
-                     "rainforest",
-                     "tropical_rainforest",
-                     "tropical_island",
+					 "biomesoplenty:bamboo_forest",
+					 "biomesoplenty:eucalyptus_forest",
+					 "biomesoplenty:mystic_grove",
+                     "biomesoplenty:rainforest",
+                     "biomesoplenty:tropical_rainforest",
+                     "biomesoplenty:tropical_island",
+					 "biomesoplenty:volcanic_island"
                      "jungle_m",
-                     "jungle_edge_m"
+                     "jungle_edge_m",
+					 "mutated_jungle",
+					 "mutated_jungle_edge"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

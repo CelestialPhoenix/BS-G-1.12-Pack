@@ -1,6 +1,5 @@
 #Name: Blood Sweat & Gears Sapphire.zs
 #Author: PhoePhoe
-
 {  
    "populate":{  
       "Sapphire":{  
@@ -36,7 +35,7 @@
                "height":15,
                "slim":"false"
             },
-			{
+            {  
                "type":"plate",
                "weight":100,
                "block":[  
@@ -66,7 +65,7 @@
                "height":15,
                "slim":"false"
             },
-			{
+            {  
                "type":"plate",
                "weight":20,
                "block":[  
@@ -121,7 +120,10 @@
                      "weight":85
                   }
                ],
-               "material":"minecraft:stone",
+               "material":[
+			   "minecraft:stone",
+			   "abyssalcraft:stone"
+			   ]
                "radius":3,
                "height":15,
                "slim":"false"
@@ -154,30 +156,53 @@
                      "savanna_plateau",
                      "mesa_plateau_f",
                      "mesa_plateau",
-                     "alps",
-                     "crag",
-                     "highland",
-                     "mountain_peaks",
-                     "overgrown_cliffs",
-                     "mountain_foothills",
-                     "desert_m",
-                     "extreme_hills_m",
-                     "taiga_m",
-                     "swampland_m",
-                     "jungle_m",
-                     "jungle_edge_m",
-                     "birch_forest_m",
-                     "birch_forest_hills_m",
-                     "roofed_forest_m",
-                     "mega_spruce_m",
-                     "extreme_mills+_m",
-                     "savanna_m",
-                     "savanna_plateau_m",
-                     "mesa_plateau_f_m",
-                     "mesa_plains_m",
-                     "volcanic_island"
+                     "smaller_extreme_hills",
+                     "extreme_hills_with_trees",
+                     "biomesoplenty:alps",
+                     "biomesoplenty:crag",
+                     "biomesoplenty:highland",
+                     "biomesoplenty:mountain_peaks",
+                     "biomesoplenty:overgrown_cliffs",
+                     "biomesoplenty:mountain_foothills",
+                     "biomesoplenty:desert_m",
+                     "biomesoplenty:extreme_hills_m",
+                     "biomesoplenty:taiga_m",
+                     "biomesoplenty:swampland_m",
+                     "biomesoplenty:jungle_m",
+                     "biomesoplenty:jungle_edge_m",
+                     "biomesoplenty:birch_forest_m",
+                     "biomesoplenty:birch_forest_hills_m",
+                     "biomesoplenty:roofed_forest_m",
+                     "biomesoplenty:mega_spruce_m",
+                     "biomesoplenty:extreme_mills+_m",
+                     "biomesoplenty:savanna_m",
+                     "biomesoplenty:savanna_plateau_m",
+                     "biomesoplenty:mesa_plateau_f_m",
+                     "biomesoplenty:mesa_plains_m",
+                     "biomesoplenty:volcanic_island",
+                     "abyssalcraft:darklands_mountains",
+                     "mutated_jungle",
+                     "mutated_jungle_edge",
+                     "mutated_birch_forest",
+                     "mutated_birch_forest_hills",
+                     "mutated_roofed_forest",
+                     "mutated_taiga_cold",
+                     "mutated_redwood_taiga",
+                     "mutated_redwood_taiga_hills",
+                     "mutated_extreme_hills_with_trees",
+                     "mutated_savanna",
+                     "mutated_savanna_rock",
+                     "mutated_mesa",
+                     "mutated_mesa_rock",
+                     "mutated_mesa_clear_rock"
                   ]
                }
+            ]
+         },
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               0
             ]
          }
       }

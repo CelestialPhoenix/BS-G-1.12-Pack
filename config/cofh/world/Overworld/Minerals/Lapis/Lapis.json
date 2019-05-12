@@ -62,7 +62,13 @@
                "filler":[  
 
                ],
-               "material":"minecraft:stone",
+               "material":[  
+                  "minecraft:dirt",
+                  "minecraft:sand",
+                  "minecraft:sandstone",
+                  "minecraft:clay",
+                  "minecraft:gravel"
+               ],
                "cluster-size":256
             },
             {  
@@ -95,12 +101,12 @@
                ]
             }
          ],
-         "cluster-count":1000,
-         "chunk-chance":15,
+         "cluster-count":100,
+         "chunk-chance":300,
          "min-height":1,
-         "vein-height":50,
+         "vein-height":70,
          "vein-diameter":80,
-         "vertical-density":100,
+         "vertical-density":0,
          "horizontal-density":15,
          "retrogen":"true",
          "biome":{  
@@ -112,17 +118,16 @@
                      "ocean",
                      "frozen_ocean",
                      "deep_ocean",
-                     "coral_reef",
-                     "kelp_forest"
+                     "biomesoplenty:coral_reef",
+                     "biomesoplenty:kelp_forest"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

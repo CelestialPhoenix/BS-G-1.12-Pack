@@ -72,23 +72,28 @@
                   "type":"id",
                   "entry":[  
                      "swampland",
-                     "fen",
-                     "lush_swamp",
-                     "marsh",
-                     "quagmire",
-                     "wetland",
-                     "mangrove",
-                     "bayou",
-                     "moor"
+					 "mutated_swampland",
+					 "abyssalcraft:coralium_infested_swamp",
+                     "biomesoplenty:fen",
+                     "biomesoplenty:lush_swamp",
+                     "biomesoplenty:marsh",
+                     "biomesoplenty:quagmire",
+                     "biomesoplenty:wetland",
+                     "biomesoplenty:mangrove",
+                     "biomesoplenty:bayou",
+                     "biomesoplenty:moor",
+					 "biomesoplenty:bog",
+					 "biomesoplenty:dead_swamp",
+					 "biomesoplenty:fen",
+					 "biomesoplenty:land_of_lakes"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

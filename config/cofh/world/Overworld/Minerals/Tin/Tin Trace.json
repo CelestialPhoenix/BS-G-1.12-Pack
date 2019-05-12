@@ -84,16 +84,23 @@
                      "cold_taiga_hills",
                      "mega_taiga",
                      "mega_taiga_hills",
-                     "taiga_m"
+                     "taiga_m",
+					 "redwood_taiga",
+					 "redwood_taiga_hills",
+					 "biomesoplenty:boreal_forest",
+					 "biomesoplenty:coniferous_forest",
+					 "biomesoplenty:snowy_coniferous_forest",
+					 "mutated_taiga_cold",
+					 "mutated_redwood_taiga",
+					 "mutated_redwood_taiga_hills"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

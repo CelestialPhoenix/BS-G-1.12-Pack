@@ -129,30 +129,31 @@
                      "plains",
                      "savanna",
                      "savanna_plateau",
-                     "flower_field",
-                     "grassland",
-                     "meadow",
-                     "outback",
-                     "prairie",
-                     "shrubland",
-                     "sunflower_plains",
+					 "savanna_rock",
+                     "biomesoplenty:flower_field",
+                     "biomesoplenty:grassland",
+                     "biomesoplenty:meadow",
+                     "biomesoplenty:outback",
+                     "biomesoplenty:prairie",
+                     "biomesoplenty:shrubland",
+                     "biomesoplenty:sunflower_plains",
                      "savanna_m",
                      "savanna_plateau_m",
-                     "brushland",
-                     "chaparral",
-                     "lavender_field",
-                     "tundra",
-                     "flower_forest",
-                     "heathland"
+					 "mutated_plains",
+                     "biomesoplenty:brushland",
+                     "biomesoplenty:chaparral",
+                     "biomesoplenty:lavender_field",
+                     "biomesoplenty:tundra",
+                     "biomesoplenty:flower_forest",
+                     "biomesoplenty:heathland"
                   ]
                }
             ]
          },
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          }
       }

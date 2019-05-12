@@ -8,7 +8,7 @@
          "generator":[  
             {  
                "type":"spike",
-               "weight":3,
+               "weight":12,
                "block":[  
                   {  
                      "name":"contenttweaker:orepoorgalena",
@@ -75,7 +75,7 @@
                "cluster-size":32
             }
          ],
-         "cluster-count":800,
+         "cluster-count":200,
          "chunk-chance":500,
          "min-height":45,
          "vein-height":70,
@@ -83,10 +83,9 @@
          "vertical-density":400,
          "horizontal-density":8,
          "dimension":{  
-            "restriction":"blacklist",
+            "restriction":"whitelist",
             "value":[  
-               -1,
-               1
+               0
             ]
          },
          "retrogen":"true",
@@ -101,7 +100,12 @@
                      "mesa_plateau",
                      "mesa_(bryce)",
                      "mesa_plateau_f_m",
-                     "mesa_plains_m"
+                     "mesa_plains_m",
+					 "mutated_mesa",
+					 "mutated_mesa_rock",
+					 "mutated_mesa_clear_rock",
+					 "mesa_clear_rock",
+					 "mesa_rock"
                   ]
                }
             ]
