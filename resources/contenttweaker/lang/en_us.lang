@@ -120,10 +120,14 @@ tile.contenttweaker.oreobsidianscheelite.name=Scheelite
 tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 
+tile.contenttweaker.oreomotholbrannerite.name=Brannerite
 tile.contenttweaker.oreomotholfergusonite.name=Fergusonite
 tile.contenttweaker.oreomotholgadolinite.name=Gadolinite
 tile.contenttweaker.oreomotholmonazitend.name=Monazite-(Nd)
+tile.contenttweaker.oreomotholpitchblende.name=Pitchblende
+tile.contenttweaker.oreomotholuraninite.name=Uraninite
 tile.contenttweaker.oreomotholxenotime.name=Xenotime
+tile.contenttweaker.oreomotholzircon.name=Zircon
 
 tile.contenttweaker.oreomotholbasaltchromite.name=Chromite
 tile.contenttweaker.oreomotholbasaltuvarovite.name=Uvarovite

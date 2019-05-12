@@ -15,3 +15,13 @@ OreEndstoneUraninite.setBlockSoundType(<soundtype:stone>);
 OreEndstoneUraninite.setSlipperiness(0.6);
 OreEndstoneUraninite.setLightValue(11);
 OreEndstoneUraninite.register();
+
+var OreOmotholUraninite = VanillaFactory.createBlock("oreomotholuraninite", <blockmaterial:rock>);
+OreOmotholUraninite.setBlockHardness(3.0);
+OreOmotholUraninite.setBlockResistance(15.0);
+OreOmotholUraninite.setToolClass("pickaxe");
+OreOmotholUraninite.setToolLevel(3);
+OreOmotholUraninite.setBlockSoundType(<soundtype:stone>);
+OreOmotholUraninite.setSlipperiness(0.6);
+OreOmotholUraninite.setLightValue(11);
+OreOmotholUraninite.register();

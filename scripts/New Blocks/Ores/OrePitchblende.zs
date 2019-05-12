@@ -15,3 +15,13 @@ OreBasaltPitchblende.setBlockSoundType(<soundtype:stone>);
 OreBasaltPitchblende.setSlipperiness(0.6);
 OreBasaltPitchblende.setLightValue(8);
 OreBasaltPitchblende.register();
+
+var OreOmotholPitchblende = VanillaFactory.createBlock("oreomotholpitchblende", <blockmaterial:rock>);
+OreOmotholPitchblende.setBlockHardness(3.0);
+OreOmotholPitchblende.setBlockResistance(15.0);
+OreOmotholPitchblende.setToolClass("pickaxe");
+OreOmotholPitchblende.setToolLevel(3);
+OreOmotholPitchblende.setBlockSoundType(<soundtype:stone>);
+OreOmotholPitchblende.setSlipperiness(0.6);
+OreOmotholPitchblende.setLightValue(8);
+OreOmotholPitchblende.register();

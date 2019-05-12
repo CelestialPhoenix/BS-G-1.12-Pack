@@ -131,7 +131,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreDiamond>.add(<contenttweaker:orediamond>);
 <ore:oreLignite>.add(<contenttweaker:orelignite>);
 <ore:oreLignite>.add(<contenttweaker:oreligniteloose>);
-<ore:oreNitre>.add(<contenttweaker:oresoulnitre>);
+<ore:oreSaltpeter>.add(<contenttweaker:oresoulnitre>);
 <ore:oreRedstone>.add(<contenttweaker:oreredstone>);
 
 <ore:oreLignite>.add(<contenttweaker:oredirtlignite>);
@@ -218,10 +218,14 @@ print("Tweak Tweak Tweak Tweak");
 
 #Omothol
 #<ore:ore>.add(<contenttweaker:oreomothol>);
+<ore:oreBrannerite>.add(<contenttweaker:oreomotholbrannerite>);
 <ore:oreFergusonite>.add(<contenttweaker:oreomotholfergusonite>);
 <ore:oreGadolinite>.add(<contenttweaker:oreomotholgadolinite>);
 <ore:oreMonaziteNd>.add(<contenttweaker:oreomotholmonazitend>);
+<ore:orePitchblende>.add(<contenttweaker:oreomotholpitchblende>);
+<ore:oreUraninite>.add(<contenttweaker:oreomotholuraninite>);
 <ore:oreXenotine>.add(<contenttweaker:oreomotholxenotime>);
+<ore:oreZircon>.add(<contenttweaker:oreomotholzircon>);
 #Basalt
 <ore:oreChromite>.add(<contenttweaker:oreomotholbasaltchromite>);
 <ore:oreUvarovite>.add(<contenttweaker:oreomotholbasaltuvarovite>);
