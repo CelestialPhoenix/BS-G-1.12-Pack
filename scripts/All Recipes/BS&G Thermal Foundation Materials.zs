@@ -88,6 +88,9 @@ recipes.remove(<thermalfoundation:material:72>);
 #-Magical Dusts-
 #Blaze in Vanilla Materials.zs
 
+#Magic Dust
+<thermalfoundation:material:1028>.displayName="Avogadro's Compound";
+
 #Blizz
 recipes.remove(<thermalfoundation:material:2049>);
 #Blitz

@@ -183,12 +183,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*4, 
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*3, <ore:oreSheldonite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*3, <ore:oreSperrylite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 #Tungsten
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstendioxide>.firstItem*12, <ore:oreFerberite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstendioxide>.firstItem*12, <ore:oreHubnerite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstendioxide>.firstItem*12, <ore:oreScheelite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstendioxide>.firstItem*12, <ore:oreTungstate>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstatePure>.firstItem*12, <ore:oreFerberite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstatePure>.firstItem*12, <ore:oreHubnerite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstatePure>.firstItem*12, <ore:oreScheelite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstatePure>.firstItem*12, <ore:oreTungstate>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotTungsten>.firstItem*4, <ore:oreTungsten>, <ore:itemSlagRich>.firstItem, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstendioxide>.firstItem*12, <ore:oreWolframite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTungstatePure>.firstItem*12, <ore:oreWolframite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 #Uranium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*3, <ore:oreBrannerite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotUranium>.firstItem*4, <ore:oreUraninite>, <ore:itemSlagRich>.firstItem, 2000, 2048);

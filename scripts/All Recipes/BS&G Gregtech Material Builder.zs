@@ -117,6 +117,17 @@ zinc.addFlags(["GENERATE_ROD"]);
 #644 Bismuthinite
 #655 Goslarite
 
+#665 Lithrage
+#666 Argite
+#667 Corundum
+#668 Natria
+#669 Ratsbane
+#670 Cobaltic
+#671 Eskolaite
+#672 Aurite
+#673 Baria
+#674 Zincite
+
 #Adamantium
 val ingotadamantium = MaterialRegistry.createIngotMaterial(601, "adamantium", 0xEAEDF7, "metallic", 6, null, 10, 10, 512, 5400);
 ingotadamantium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
@@ -250,8 +261,8 @@ dustWolframite.addFlags("GENERATE_ORE");
 val dustFerberite = MaterialRegistry.createDustMaterial(630, "ferberite", 0x030303, "dull", 4, [<material:iron>*2, <material:tungsten>*1, <material:oxygen>*4]);
 dustFerberite.addFlags("GENERATE_ORE");
 
-#Tungsten Dioxide
-val dustTungstendioxide = MaterialRegistry.createDustMaterial(631, "tungstendioxide", 0xBC821E, "shiny", 1, [<material:tungsten>*1, <material:oxygen>*2]);
+#Tungstate
+val dustTungstate = MaterialRegistry.createDustMaterial(631, "tungstate_pure", 0xBC821E, "shiny", 1, [<material:tungsten>*1, <material:oxygen>*4]);
 
 #Sheldonite
 val dustSheldonite = MaterialRegistry.createDustMaterial(632, "sheldonite", 0xD5D5A2, "shiny", 4, [<material:platinum>*2, <material:nickel>*1, <material:calcite>*2, <material:sulfur>*1]);
@@ -274,7 +285,7 @@ val dustFergusonite = MaterialRegistry.createDustMaterial(636, "fergusonite", 0x
 dustFergusonite.addFlags("GENERATE_ORE");
 
 #MonaziteNd
-val gemMonaziteND = MaterialRegistry.createGemMaterial(637, "monazite_nd", 0x324632, "gem_vertical", 4, [<material:neodymium>*1, <material:phosphate>*1]);
+val gemMonaziteND = MaterialRegistry.createGemMaterial(637, "monazite_nd", 0x324632, "gem_vertical", 4, [<material:neodymium>*1, <material:rare_earth>*1, <material:phosphate>*1]);
 gemMonaziteND.addFlags("GENERATE_ORE");
 
 #Naquadite
@@ -308,3 +319,105 @@ dustBismuthinite.addFlags("GENERATE_ORE");
 #Goslarite
 val dustGoslarite = MaterialRegistry.createDustMaterial(645, "goslarite", 0xEEEEEE, "dull", 1, [<material:zinc>*1, <material:sulfur>*1, <material:oxygen>*4]);
 dustGoslarite.addFlags("GENERATE_ORE");
+
+#665 Lithrage
+val dustLithrage = MaterialRegistry.createDustMaterial(665, "lithrage", 0xEE2222, "dull", 1, [<material:lead>*1, <material:oxygen>*1]);
+
+#666 Argite
+val dustArgite = MaterialRegistry.createDustMaterial(666, "argite", 0xDDDDFF, "dull", 1, [<material:silver>*1, <material:oxygen>*1]);
+
+#667 Corundum
+val dustCorundum = MaterialRegistry.createDustMaterial(667, "corundum", 0x994444, "shiny", 1, [<material:aluminium>*2, <material:oxygen>*3]);
+
+#668 Natria
+val dustNatria = MaterialRegistry.createDustMaterial(668, "natria", 0x223344, "shiny", 1, [<material:sodium>*1, <material:oxygen>*1]);
+
+#669 Ratsbane
+val dustRatsbane = MaterialRegistry.createDustMaterial(669, "ratsbane", 0xFFFFFF, "dull", 1, [<material:arsenic>*2, <material:oxygen>*3]);
+
+#670 Cobaltic
+val dustCobaltic = MaterialRegistry.createDustMaterial(670, "cobaltic", 0x111111, "dull", 1, [<material:cobalt>*2, <material:oxygen>*3]);
+
+#671 Eskolaite
+val dustEskolaite = MaterialRegistry.createDustMaterial(671, "eskolaite", 0x338833, "dull", 1, [<material:chrome>*2, <material:oxygen>*3]);
+
+#672 Aurite
+val dustAurite = MaterialRegistry.createDustMaterial(672, "aurite", 0x224444, "dull", 1, [<material:gold>*1, <material:oxygen>*1]);
+
+#673 Baria
+val dustBaria = MaterialRegistry.createDustMaterial(673, "baria", 0xEEEEEE, "dull", 1, [<material:barium>*1, <material:oxygen>*1]);
+
+#674 Zincite
+val dustZincite = MaterialRegistry.createDustMaterial(674, "zincite", 0x665522, "shiny", 1, [<material:zinc>*1, <material:oxygen>*1]);
+
+#675 Bismite
+val dustBismite = MaterialRegistry.createDustMaterial(675, "bismite", 0x444455, "dull", 1, [<material:bismuth>*2, <material:oxygen>*3]);
+
+#676 Antimonate
+val dustAntimonate = MaterialRegistry.createDustMaterial(676, "antimonate", 0xAAAAAA, "dull", 1, [<material:antimony>*2, <material:oxygen>*3]);
+
+#677 Bromellite
+val dustBromellite = MaterialRegistry.createDustMaterial(677, "bromellite", 0xEEEEBB, "dull", 1, [<material:beryllium>*1, <material:oxygen>*1]);
+
+#678 Paramontroseite
+val dustParamontroseite = MaterialRegistry.createDustMaterial(678, "paramontroseite", 0x333333, "shiny", 1, [<material:vanadium>*1, <material:oxygen>*2]);
+
+#679 Coltan
+val dustColtan = MaterialRegistry.createDustMaterial(679, "coltan", 0xBBBBBB, "dull", 1, [<material:tantalum>*1, <material:oxygen>*2]);
+
+#680 Lithia
+val dustLithia = MaterialRegistry.createDustMaterial(680, "lithia", 0xFFEEEE, "dull", 1, [<material:lithium>*1, <material:oxygen>*1]);
+
+#681 Didymium
+val dustDidymium = MaterialRegistry.createDustMaterial(681, "didymium", 0x332222, "dull", 1, [<material:neodymium>*2, <material:oxygen>*3]);
+
+#682 Cadmite
+val dustCadmite = MaterialRegistry.createDustMaterial(682, "cadmite", 0x223322, "dull", 1, [<material:cadmium>*2, <material:oxygen>*3]);
+
+#683 Yttria
+val dustYttria = MaterialRegistry.createDustMaterial(683, "yttria", 0xF7F7F7, "dull", 1, [<material:yttrium>*2, <material:oxygen>*3]);
+
+#684 Ceria
+val dustCeria = MaterialRegistry.createDustMaterial(684, "ceria", 0xFFFFEE, "dull", 1, [<material:cerium>*1, <material:oxygen>*2]);
+
+#685 Lanthana
+val dustLanthana = MaterialRegistry.createDustMaterial(685, "lanthana", 0xFFFFFF, "dull", 1, [<material:lanthanum>*2, <material:oxygen>*3]);
+
+#686 Caesite
+val dustCaesite = MaterialRegistry.createDustMaterial(686, "caesite", 0xEE6611, "dull", 1, [<material:caesium>*2, <material:oxygen>*1]);
+
+#687 Scorched Earth
+val dustScorchedEarth = MaterialRegistry.createDustMaterial(687, "scorched_earth", 0x050505, "dull", 1, null);
+
+#688 Molybdite
+val dustMolybdite = MaterialRegistry.createDustMaterial(688, "molybdite", 0xDDDD99, "dull", 1, [<material:molybdenum>*1, <material:oxygen>*3]);
+
+#699 Sheldite
+val dustSheldite = MaterialRegistry.createDustMaterial(689, "sheldite", 0xCCCCCC, "dull", 1, [<material:platinum>*1, <material:oxygen>*2]);
+
+#690 Pallas
+val dustPallas = MaterialRegistry.createDustMaterial(690, "pallas", 0xC5C5C5, "dull", 1, [<material:palladium>*1, <material:oxygen>*2]);
+
+#691 Baddeleyite
+val dustBaddeleyite = MaterialRegistry.createDustMaterial(691, "baddeleyite", 0x111111, "shiny", 1, [<material:zirconium>*1, <material:oxygen>*2]);
+
+#692 Thorianite
+val dustThorianite = MaterialRegistry.createDustMaterial(692, "thorianite", 0x050505, "shiny", 1, [<material:thorium>*1, <material:oxygen>*2]);
+
+#693 Iridite
+val dustIridite = MaterialRegistry.createDustMaterial(693, "iridite", 0xFBFBFB, "dull", 1, [<material:iridium>*1, <material:oxygen>*2]);
+
+#694 Columbite
+val dustColumbite = MaterialRegistry.createDustMaterial(694, "columbite", 0x999944, "dull", 1, [<material:niobium>*2, <material:oxygen>*6]);
+
+#695 Naquoxiite
+val dustNaquoxiite = MaterialRegistry.createDustMaterial(695, "naquoxiite", 0x010101, "dull", 1, [<material:naquadah>*1, <material:oxygen>*3]);
+
+#696 Naquothxa
+val dustNaquothxa = MaterialRegistry.createDustMaterial(696, "naquothxa", 0x000000, "shiny", 1, [<material:naquadria>*1, <material:oxygen>*3]);
+
+#697 Montroydite
+val dustMontroydite = MaterialRegistry.createDustMaterial(697, "montroydite", 0xFF3300, "dull", 1, [<material:mercury>*1, <material:oxygen>*1]);
+
+#val dust = MaterialRegistry.createDustMaterial(69, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#val dust = MaterialRegistry.createDustMaterial(69, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
