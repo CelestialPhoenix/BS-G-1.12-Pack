@@ -90,6 +90,8 @@ recipes.remove(<thermalfoundation:material:72>);
 
 #Magic Dust
 <thermalfoundation:material:1028>.displayName="Avogadro's Compound";
+#--//--Tempory Recipe!!--//--#
+recipes.addShapeless(<thermalfoundation:material:1028>, [<ore:dustBlaze>, <ore:dustBlizz>, <ore:dustBlitz>, <ore:dustBasalz>, <ore:powderMana>, <ore:dustSalisMundis>]);
 
 #Blizz
 recipes.remove(<thermalfoundation:material:2049>);

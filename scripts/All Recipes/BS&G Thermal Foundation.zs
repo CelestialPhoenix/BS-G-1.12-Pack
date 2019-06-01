@@ -183,6 +183,25 @@ recipes.remove(<ore:gemRutile>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustThorite>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:gemThorite>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustChrome>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustGadolinite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustNaquarrite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:gemNaquarrite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustBismuthinite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustYttrium>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustXilingolite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustNaquadite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<primal:vanadium_dust>, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustXenotime>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:gemXenotime>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustMonaziteNd>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:gemMonaziteNd>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustGoslarite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustNaqulinite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustBerryite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustFergusonite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustBowieite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustXifengite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustSheldonite>.firstItem, <ore:dustPetrotheum>);
 
 #---machine parts---
 #redstone servo

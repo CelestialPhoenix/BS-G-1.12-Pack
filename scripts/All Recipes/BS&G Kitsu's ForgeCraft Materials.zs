@@ -2,7 +2,7 @@
 #Author: PhoePhoe
 
 print("Not making a joke about fried chicken");
-
+#norun
 #Duplicate materials
 #Ingots
 recipes.remove(<forgecraft:ironingotball>);

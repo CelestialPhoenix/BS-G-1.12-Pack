@@ -1,6 +1,6 @@
 #Name: Blood Sweat & Gears Kitsu's Forgecraft Material Processing.zs
 #Author: PhoePhoe
-
+#norun
 print("Not making a joke about fried chicken");
 
 #Duplicate entries
