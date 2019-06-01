@@ -3,6 +3,13 @@
 
 print("Going Primal. Not unlike going commando");
 
+#---Cauldron---
+#mods.primal.Cauldron.removeRecipe(); //use string recipe name
+#/primal recipes cauldron 
+mods.primal.Cauldron.removeRecipe("primal:item_forge_bucketfilled_obsidian_water");
+mods.primal.Cauldron.removeRecipe("primal:item_forge_bucketfilled_obsidian_lava");
+mods.primal.Cauldron.removeRecipe("primal:cow_cheese");
+
 #---Drying Rack---
 #-Recipes from TiCon-
 mods.primal.DryingRack.addNonRottingRecipe(

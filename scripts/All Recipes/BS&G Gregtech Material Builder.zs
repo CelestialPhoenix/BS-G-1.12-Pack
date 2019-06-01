@@ -21,6 +21,8 @@ copper.addFlags(["GENERATE_RING"]);
 
 var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
+#var sulfur = <material:sulfur> as DustMaterial;
+#sulfur.oreByProducts(<material:copper>);
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -57,6 +59,8 @@ vanadium.addFlags(["GENERATE_ORE"]);
 
 var uvarovite = <material:uvarovite>;
 uvarovite.addFlags(["GENERATE_ORE"]);
+#uvarovite.oreByProducts + [<material:copper>, <material:gold>, <material:iron>];
+#var testByproducts = [<material:copper>, <material:gold>, <material:iron>] as String[];
 
 var yttrium = <material:yttrium>;
 yttrium.addFlags(["GENERATE_ORE"]);
@@ -116,6 +120,7 @@ zinc.addFlags(["GENERATE_ROD"]);
 #643 Berryite
 #644 Bismuthinite
 #655 Goslarite
+#656 
 
 #665 Lithrage
 #666 Argite
@@ -196,7 +201,7 @@ ingotmagcobalt.addFlags("GENERATE_ROD");
 #Bertrandite
 val gembertrandite = MaterialRegistry.createGemMaterial(615, "bertrandite", 0x0F3E4E2, "gem_horizontal", 1, [<material:beryllium>*4, <material:silicon>*2, <material:oxygen>*9, <material:hydrogen>*2], 1.0, 0);
 gembertrandite.addFlags("GENERATE_ORE", "NO_SMELTING");
-#gembertrandite.oreByProducts(<material:emerald>, <material:beryllium>);
+#gembertrandite.oreByProducts += (<material:copper>);
 
 #Electrotine
 val dustElectrotine = MaterialRegistry.createDustMaterial(616, "electrotine", 0x04A3D3, "shiny", 1, [<material:sapphire>*2, <material:silicon>*4, <material:cinnabar>*3, <material:aluminium>*1]);
