@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears Gregtech Materials Processing Electroyzer---.zs
+#Name: Blood Sweat & Gears Gregtech Materials Processing Electrolyzer---.zs
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
 import mods.gregtech.recipe.RecipeMap;

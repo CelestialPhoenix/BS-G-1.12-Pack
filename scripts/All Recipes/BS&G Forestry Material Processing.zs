@@ -5,6 +5,9 @@ print("Nice to see you, wouldn't want to tree you");
 
 #name items
 
+#---Bottler---
+#-Removing Buckets-
+
 #---Still [distilling fluids]---
 #mods.forestry.Still.addRecipe(<liquid:outout>*20, <liquid:input>*20, ticktime); 
 mods.forestry.Still.addRecipe(<liquid:lubricant>*5, <liquid:creosote>*20, 100);
