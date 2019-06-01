@@ -1,10 +1,14 @@
 #Name: Blood Sweat & Gears Gregtech Material Builder.zs
-#Author: PhoePhoe; with help from  Pyure, Agrax, The awesome folks on the GT:CE discord
+#Author: PhoePhoe; with help from  Pyure, Agrax, LordPINE, The awesome folks on the GT:CE discord
 
 #loader gregtech
 
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.material.DustMaterial;
+import mods.gregtech.material.FluidMaterial;
+import mods.gregtech.material.Material;
+import mods.gregtech.material.SolidMaterial;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
@@ -21,8 +25,9 @@ copper.addFlags(["GENERATE_RING"]);
 
 var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
+
 #var sulfur = <material:sulfur> as DustMaterial;
-#sulfur.oreByProducts(<material:copper>);
+#sulfur.oreByProducts += <material:uvarovite> as DustMaterial;
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -201,15 +206,15 @@ val gemUytenbogaardite = MaterialRegistry.createGemMaterial(538, "uytenbogaardti
 dustBowieite.addFlags("GENERATE_ORE");
 
 #Xanthoconite
-val gemXanthoconite = MaterialRegistry.createGemMaterial(538, "xanthoconite", 0xB55917, "gem_vertical", 4, [<material:silver>*3, <material:arsenic>*1, <material:sulfur>*3]);
+val gemXanthoconite = MaterialRegistry.createGemMaterial(539, "xanthoconite", 0xB55917, "gem_vertical", 4, [<material:silver>*3, <material:arsenic>*1, <material:sulfur>*3]);
 dustBowieite.addFlags("GENERATE_ORE");
 
 #[S]-Skaergaardite
-val dustSSkaergaardite = MaterialRegistry.createDustMaterial(539, "skaergaardite_s", 0x7A6455, "shiny", 5, [<material:palladium>*4, <material:copper>*3, <material:sulfur>*3]);
+val dustSSkaergaardite = MaterialRegistry.createDustMaterial(540, "skaergaardite_s", 0x7A6455, "shiny", 5, [<material:palladium>*4, <material:copper>*3, <material:sulfur>*3]);
 dustBowieite.addFlags("GENERATE_ORE");
 
 #[Ir]-Bowieite
-val dustIrBowieite = MaterialRegistry.createDustMaterial(525, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
+val dustIrBowieite = MaterialRegistry.createDustMaterial(541, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
 dustBowieite.addFlags("GENERATE_ORE");
 
 #---Oxides---
