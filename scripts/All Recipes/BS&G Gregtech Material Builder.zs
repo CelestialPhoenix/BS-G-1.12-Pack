@@ -196,6 +196,22 @@ dustBismuthinite.addFlags("GENERATE_ORE");
 val dustGoslarite = MaterialRegistry.createDustMaterial(537, "goslarite", 0xEEEEEE, "dull", 1, [<material:zinc>*1, <material:sulfur>*1, <material:oxygen>*4]);
 dustGoslarite.addFlags("GENERATE_ORE");
 
+#Uytenbogaardtite
+val gemUytenbogaardite = MaterialRegistry.createGemMaterial(538, "uytenbogaardtite", 0x551515, "ruby", 4, [<material:silver>*3, <material:gold>*1, <material:sulfur>*2]);
+dustBowieite.addFlags("GENERATE_ORE");
+
+#Xanthoconite
+val gemXanthoconite = MaterialRegistry.createGemMaterial(538, "xanthoconite", 0xB55917, "gem_vertical", 4, [<material:silver>*3, <material:arsenic>*1, <material:sulfur>*3]);
+dustBowieite.addFlags("GENERATE_ORE");
+
+#[S]-Skaergaardite
+val dustSSkaergaardite = MaterialRegistry.createDustMaterial(539, "skaergaardite_s", 0x7A6455, "shiny", 5, [<material:palladium>*4, <material:copper>*3, <material:sulfur>*3]);
+dustBowieite.addFlags("GENERATE_ORE");
+
+#[Ir]-Bowieite
+val dustIrBowieite = MaterialRegistry.createDustMaterial(525, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
+dustBowieite.addFlags("GENERATE_ORE");
+
 #---Oxides---
 # (EBF magic processing)
 #--Pure Oxides--

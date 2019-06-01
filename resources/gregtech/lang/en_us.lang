@@ -43,6 +43,10 @@ material.xilingolite=Xilingolite
 material.berryite=Berryite
 material.bismuthinite=Bismuthinite
 material.goslarite=Goslarite
+material.uytenbogaardtite=Uytenbogaardite
+material.xanthoconite=Xanthoconite
+material.skaergaardite_s=[S]-Skaergaardite
+material.bowieite_ir=[Ir]-Bowieite
 
 material.lithrage=Lithrage
 material.argite=Argite
