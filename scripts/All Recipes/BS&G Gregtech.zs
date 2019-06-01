@@ -12,21 +12,6 @@ print("Hello Boys- I'm Baaaaack!!!");
 #--Chemical Formula--
 #<gregtech:meta_item_1:>.addTooltip(""); #
 
-#Zircon (remove incorrect)
-#<gregtech:meta_item_1:623>.clearTooltip(); #Dust Tiny
-#<gregtech:meta_item_1:1623>.clearTooltip(); #Dust Small
-#<gregtech:meta_item_1:2623>.clearTooltip(); #Dust 
-#<gregtech:meta_item_1:3623>.clearTooltip(); #ust Impure
-#<gregtech:meta_item_1:4623>.clearTooltip(); #Dust Purified
-#<gregtech:meta_item_1:5623>.clearTooltip(); #Crushed
-#<gregtech:meta_item_1:6623>.clearTooltip(); #Crushed Purified
-#<gregtech:meta_item_1:7623>.clearTooltip(); #Centrifuged
-#<gregtech:meta_item_1:8623>.clearTooltip(); #Gem
-#<gregtech:meta_item_2:22623>.clearTooltip(); #Gem Chipped
-#<gregtech:meta_item_2:23623>.clearTooltip(); #Gem Flawed
-#<gregtech:meta_item_2:24623>.clearTooltip(); #Gem Flawless
-#<gregtech:meta_item_2:25623>.clearTooltip(); #Gem Exquisite
-#Zircon (correct)
 <gregtech:meta_item_1:623>.addTooltip("ZrSiO₄"); #Dust Tiny
 <gregtech:meta_item_1:1623>.addTooltip("ZrSiO₄"); #Dust Small
 <gregtech:meta_item_1:2623>.addTooltip("ZrSiO₄"); #Dust 
@@ -80,6 +65,73 @@ print("Hello Boys- I'm Baaaaack!!!");
 <metaitem:circuit.wetware_super_computer>.addTooltip("A Superconductor Circuit");
 <metaitem:circuit.wetware_mainframe>.addTooltip("An Infinite Circuit");
 
+#---Ore Block Names---
+#<gregtech:ore__0:0>.displayName="";
+#-Overworld-
+<gregtech:ore_chalcopyrite_0:0>.displayName="Chalcopyrite";
+<gregtech:ore_malachite_0:0>.displayName="Malachite";
+
+<gregtech:ore_galena_0:0>.displayName="Galena";
+
+<gregtech:ore_yellow_limonite_0:0>.displayName="Yellow Limonite";
+<gregtech:ore_brown_limonite_0:0>.displayName="Brown Limonite";
+<gregtech:ore_iron_0:0>.displayName="iron";
+<gregtech:ore_magnetite_0:0>.displayName="magneite";
+
+<gregtech:ore_cobaltite_0:0>.displayName="Cobaltite";
+<gregtech:ore_garnierite_0:0>.displayName="Garnierite";
+<gregtech:ore_pentlandite_0:0>.displayName="Pentlandite";
+
+<gregtech:ore_redstone_0:0>.displayName="Redstone";
+
+<gregtech:ore_sapphire_0:0>.displayName="Sapphire";
+<gregtech:ore_green_sapphire_0:0>.displayName="Green Sapphire";
+<gregtech:ore_pyrope_0:0>.displayName="Pyrope";
+
+<gregtech:ore_cassiterite_0:0>.displayName="Cassiterite";
+
+#-Nether-
+<gregtech:ore_quartzite_0:6>.displayName="Quartzite";
+<gregtech:ore_nether_quartz_0:6>.displayName="Quartz";
+
+<gregtech:ore_cinnabar_0:6>.displayName="Cinnabar";
+<gregtech:ore_ruby_0:6>.displayName="Ruby";
+
+<gregtech:ore_pyrite_0:6>.displayName="Pyrite";
+
+<gregtech:ore_goslarite_0:6>.displayName="Goslarite";
+<gregtech:ore_sphalerite_0:6>.displayName="Sphalerite";
+
+#-Aether-
+#-Wasteland-
+<gregtech:ore_beryllium_0:13>.displayName="Beryllium";
+<gregtech:ore_bertrandite_0:13>.displayName="Bertrandite";
+<gregtech:ore_emerald_0:13>.displayName="Emerald";
+<gregtech:ore_euclase_0:13>.displayName="Euclase";
+
+#-Dreadlands-
+<gregtech:ore_bastnasite_0:5>.displayName="Bastnasite";
+<gregtech:ore_monazite_0:5>.displayName="Monazite";
+<gregtech:ore_electrotine_0:5>.displayName="Electrotine";
+<gregtech:ore_huttonite_0:5>.displayName="Huttonite";
+
+<gregtech:ore_powellite_0:5>.displayName="Powellite";
+<gregtech:ore_molybdenite_0:5>.displayName="Molybdenite";
+<gregtech:ore_wulfenite_0:5>.displayName="Wulfenite";
+
+#-End-
+<gregtech:ore_pentlandite_0:7>.displayName="Pentlandite";
+<gregtech:ore_cooperite_0:7>.displayName="Cooperite";
+<gregtech:ore_braggite_0:7>.displayName="Braggite";
+<gregtech:ore_sperrylite_0:7>.displayName="Sperrylite";
+
+<gregtech:ore_zircon_0:7>.displayName="Zircon";
+<gregtech:ore_coffinite_0:7>.displayName="Coffinite";
+<gregtech:ore_thorite_0:7>.displayName="Thorite";
+<gregtech:ore_pitchblende_0:7>.displayName="Pitchblende";
+
+#-Omothol-
+#-Darklands-
 
 #---Removed Items---
 #Wood Mould
