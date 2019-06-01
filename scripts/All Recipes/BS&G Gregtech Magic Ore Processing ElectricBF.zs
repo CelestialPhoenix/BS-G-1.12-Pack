@@ -771,6 +771,17 @@ electricBF
     .EUt(1000)
     .buildAndRegister();
 
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSheldonite>.firstItem*3)
+	.fluidInputs([<liquid:aerotheum>*750])
+    .outputs(<ore:dustScorchedSheldonite>.firstItem*1, <ore:dustSmallGarnierite>.firstItem*2)
+	.fluidOutputs([<liquid:sulfur_trioxide>*2000])
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
 #---Rare Earth Group---
 electricBF
     .recipeBuilder()

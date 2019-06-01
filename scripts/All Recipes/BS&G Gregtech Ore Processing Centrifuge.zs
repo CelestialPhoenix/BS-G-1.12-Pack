@@ -124,6 +124,16 @@ centrifuge
     .EUt(20)
     .buildAndRegister();
 
+electrolyzer.findRecipe(60, [<ore:dustScorchedSheldonite>.firstItem*5], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustScorchedSheldonite>.firstItem*5)
+	.outputs(<ore:dustSheldite>.firstItem*1, <ore:dustQuicklime>.firstItem*1)
+	.fluidOutputs([<liquid:carbon_dioxide>*3000])
+    .duration(400)
+    .EUt(20)
+    .buildAndRegister();
+
 electrolyzer.findRecipe(60, [<ore:dustScorchedThorite>.firstItem*3], null).remove();
 centrifuge
     .recipeBuilder()

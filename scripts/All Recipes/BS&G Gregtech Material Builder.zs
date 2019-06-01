@@ -487,7 +487,9 @@ val dustScorchedElectrotine = MaterialRegistry.createDustMaterial(719, "scorched
 #720 Scorched Clay 
 val dustScorchedClay = MaterialRegistry.createDustMaterial(720, "scorched_clay", 0x030303, "dull", 1, [<material:natria>*2, <material:lithia>*1, <material:corundum>*1]);
 
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#721 Scorched Sheldonite
+val dustScorchedSheldonite = MaterialRegistry.createDustMaterial(721, "scorched_sheldonite", 0x010100, "dull", 1, [<material:sheldite>*1, <material:quicklime>*1, <material:carbon_dioxide>*3]);
+
 #72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
 #72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
 #72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
