@@ -200,7 +200,14 @@ macerator
     .duration(400)
     .EUt(12)
     .buildAndRegister();
-#Quicksilver (liquid)
+macerator
+    .recipeBuilder()
+    .inputs(<ore:clusterQuicksilver>.firstItem)
+    .outputs(<ore:quicksilver>.firstItem*2)
+	.chancedOutput(<ore:nuggetQuicksilver>.firstItem, 2000, 1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
 macerator
     .recipeBuilder()
     .inputs(<ore:clusterSilver>.firstItem)

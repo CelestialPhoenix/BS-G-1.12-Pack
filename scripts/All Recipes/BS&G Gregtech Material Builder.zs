@@ -419,5 +419,81 @@ val dustNaquothxa = MaterialRegistry.createDustMaterial(696, "naquothxa", 0x0000
 #697 Montroydite
 val dustMontroydite = MaterialRegistry.createDustMaterial(697, "montroydite", 0xFF3300, "dull", 1, [<material:mercury>*1, <material:oxygen>*1]);
 
-#val dust = MaterialRegistry.createDustMaterial(69, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#val dust = MaterialRegistry.createDustMaterial(69, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#698 Scorched Sodalite
+val dustScorchedSodalite = MaterialRegistry.createDustMaterial(698, "scorched_sodalite", 0x000011, "dull", 1, [<material:corundum>*3, <material:silicon_dioxide>*6, <material:natria>*8]);
+
+#699 Scorched Redstone
+val dustScorchedRedstone = MaterialRegistry.createDustMaterial(699, "scorched_redstone", 0x110000, "dull", 1, [<material:banded_iron>*15, <material:corundum>*2, <material:eskolaite>*1, <material:montroydite>*36]);
+
+#700 Scorched Pyrope
+val dustScorchedPyrope = MaterialRegistry.createDustMaterial(700, "scorched_pyrope", 0x000707, "dull", 1, [<material:corundum>*2, <material:magnesia>*1]);
+
+#701 Scorched Berryite
+val dustScorchedBerryite = MaterialRegistry.createDustMaterial(701, "scorched_berryite", 0x000005, "dull", 1, [<material:bismite>*7, <material:lithrage>*6, <material:cuprite>*3, <material:argite>*4]);
+
+#702 Scorched Tetrahedrite
+val dustScorchedTetrahedrite = MaterialRegistry.createDustMaterial(702, "scorched_tetrahedrite", 0x110000, "dull", 1, [<material:cuprite>*6, <material:antimonate>*1, <material:banded_iron>*1]);
+
+#703 Scorched Euclase
+val dustScorchedEuclase = MaterialRegistry.createDustMaterial(703, "scorched_euclase", 0x000011, "dull", 1, [<material:bromellite>*2, <material:corundum>*1]);
+
+#704 Scorched Emerald
+val dustScorchedEmerald = MaterialRegistry.createDustMaterial(704, "scorched_emerald", 0x001100, "dull", 1, [<material:bromellite>*3, <material:corundum>*1]);
+
+#705 Scorched Lepidolite
+val dustScorchedLepidolite = MaterialRegistry.createDustMaterial(705, "scorched_lepidolite", 0x110500, "dull", 1, [<material:potash>*1, <material:lithia>*3, <material:corundum>*2]);
+
+#706 Scorched Spodumene
+val dustScorchedSpodumene = MaterialRegistry.createDustMaterial(706, "scorched_spodumene", 0x050505, "dull", 1, [<material:lithia>*2, <material:corundum>*1, <material:silicon_dioxide>*4]);
+
+#707 Scorched Cooperite
+val dustScorchedCooperite = MaterialRegistry.createDustMaterial(707, "scorched_cooperite", 0x050505, "dull", 1, [<material:sheldite>*3, <material:garnierite>*1, <material:pallas>*1]);
+
+#708 Scorched Braggite
+val dustScorchedBraggite = MaterialRegistry.createDustMaterial(708, "scorched_braggite", 0x050505, "dull", 1, [<material:sheldite>*2, <material:pallas>*1, <material:garnierite>*1]);
+
+#709 Ferric Pyrolusite
+val dustFerricPyrolusite = MaterialRegistry.createDustMaterial(709, "ferric_pyrolusite", 0x000505, "dull", 1, [<material:pyrolusite>*2, <material:banded_iron>*1]);
+#710  Scorched Thorite
+val dustScorchedThorite = MaterialRegistry.createDustMaterial(710, "scorched_thorite", 0x050505, "dull", 1, [<material:thorianite>*1, <material:uraninite>*1, <material:silicon_dioxide>*1]);
+
+#711 Scorched Pitchblende
+val dustScorchedPitchblende = MaterialRegistry.createDustMaterial(711, "scorched_pitchblende", 0x050500, "dull", 1, [<material:uraninite>*3, <material:thorianite>*1, <material:lithrage>*1]);
+
+#712 Scorched Garnet
+val dustScorchedGarnet = MaterialRegistry.createDustMaterial(712, "scorched_garnet", 0x050005, "dull", 1, [<material:quicklime>*1, <material:silicon_dioxide>*1]);
+
+#713 Scorched Gadolinite
+val dust = MaterialRegistry.createDustMaterial(713, "scorched_gadolinite", 0x000000, "dull", 1, [<material:scorched_earth>*4, <material:banded_iron>*1, <material:bromellite>*4, <material:silicon_dioxide>*4]);
+
+#714 Scorched Fergusonite 
+val dustScorchedFergusonite = MaterialRegistry.createDustMaterial(714, "scorched_fergusonite", 0x030300, "dull", 1, [<material:scorched_earth>*2, <material:yttria>*1, <material:columbite>*1]);
+
+#715 Scorched Monazite 
+val dustScorchedMonaziteNd = MaterialRegistry.createDustMaterial(715, "scorched_monazite_nd", 0x001100, "dull", 1, [<material:didymium>*2, <material:scorched_earth>*1, <material:phosphate>*1]);
+
+#716 Scorched Naqulinite
+val dustScorchedNaqulinite = MaterialRegistry.createDustMaterial(716, "scorched_naqulinite", 0x000000, "dull", 1, [<material:banded_iron>*4, <material:naquoxiite>*1, <material:silicon_dioxide>*4, <material:sulfur_trioxide>*48]);
+
+#717 Scorched Naquarrite 
+val dustScorchedNaquarrite = MaterialRegistry.createDustMaterial(717, "scorched_naquarrite", 0x050000, "dull", 1, [<material:garnierite>*4, <material:naquothxa>*4, <material:cobaltic>*2, <material:naquoxiite>*1]);
+
+#718 Scorched Quartz 
+val dustScorchedQuzrtz = MaterialRegistry.createDustMaterial(718, "scorched_quartz", 0x050505, "dull", 1, [<material:silicon_dioxide>*1]);
+
+#719 Scorched Electrotine 
+val dustScorchedElectrotine = MaterialRegistry.createDustMaterial(719, "scorched_electrotine", 0x051105, "dull", 1, [<material:corundum>*5, <material:montroydite>*3]);
+
+#720 Scorched Clay 
+val dustScorchedClay = MaterialRegistry.createDustMaterial(720, "scorched_clay", 0x030303, "dull", 1, [<material:natria>*2, <material:lithia>*1, <material:corundum>*1]);
+
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
+#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
