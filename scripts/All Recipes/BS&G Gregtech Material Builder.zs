@@ -215,7 +215,7 @@ dustSSkaergaardite.addFlags("GENERATE_ORE");
 
 #[Ir]-Bowieite
 val dustIrBowieite = MaterialRegistry.createDustMaterial(541, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
-dustBowieite.addFlags("GENERATE_ORE");
+dustIrBowieite.addFlags("GENERATE_ORE");
 
 #---Oxides---
 # (EBF magic processing)

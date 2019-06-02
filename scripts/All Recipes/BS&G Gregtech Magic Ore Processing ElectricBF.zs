@@ -894,7 +894,7 @@ electricBF
 
 electricBF
     .recipeBuilder()
-    .inputs(<ore:dustUytenbogaardite>.firstItem*3)
+    .inputs(<ore:dustUytenbogaardtite>.firstItem*3)
 	.fluidInputs([<liquid:aerotheum>*750])
     .outputs(<ore:dustSmallArgite>.firstItem*6, <ore:dustSmallAurite>.firstItem*2)
 	.fluidOutputs([<liquid:sulfur_trioxide>*4000])

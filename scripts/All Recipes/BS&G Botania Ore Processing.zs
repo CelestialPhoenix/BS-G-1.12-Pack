@@ -366,7 +366,7 @@ mods.botania.PureDaisy.addRecipe(<ore:orePentlandite>, <gregtech:ore_nickel_0>);
 
 #Osmium [Group]
 mods.botania.PureDaisy.addRecipe(<ore:oreIridium>, <gregtech:ore_bowieite_ir_0>);
-mods.botania.PureDaisy.addRecipe(<ore:orePalladium>, <gregtech:ore_skaergaasdite_s_0>);
+mods.botania.PureDaisy.addRecipe(<ore:orePalladium>, <gregtech:ore_skaergaardite_s_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreSilver>, <gregtech:ore_uytenbogaardtite_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreSilver>, <gregtech:ore_xanthoconite_0>);
 
