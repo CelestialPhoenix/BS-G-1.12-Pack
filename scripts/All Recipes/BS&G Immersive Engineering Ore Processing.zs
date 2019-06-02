@@ -223,7 +223,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadah>.firstItem*3, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadah>.firstItem*3, <ore:oreNaqulinite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotIron>.firstItem*3, <ore:oreXifengite>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotLead>.firstItem*2, <ore:oreXilingolite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
-
+#Osmium
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotHotIridium>.firstItem*3, <ore:oreBowieiteIr>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPalladium>.firstItem*3, <ore:oreSkaergaardite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSilver>.firstItem*3, <ore:oreUytenbogaardtite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSilver>.firstItem*3, <ore:oreXanthoconite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPalladium>.firstItem*4, <ore:orePalladium>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 #Crushed Ores
 
 #Native Clusters
@@ -248,6 +253,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadah>.firstItem*2, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadria>.firstItem*2, <ore:clusterNaquadria>, <ore:itemSlagRich>.firstItem, 20, 2048); #Naquadria
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNeodymium>.firstItem*2, <ore:clusterNeodymium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Neodymium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNickel>.firstItem*2, <ore:clusterNickel>, <ore:itemSlagRich>.firstItem, 20, 2048); #Nickel
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPalladium>.firstItem*2, <ore:clusterPalladium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Palladium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*2, <ore:clusterPlatinum>, <ore:itemSlagRich>.firstItem, 20, 2048); #Platinum
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:clusterPotassium>, <ore:itemSlagRich>.firstItem*2, 20, 2048); #Potassium
 #mods.immersiveengineering.ArcFurnace.addRecipe(ingot*2, <ore:clusterQuartz>, <ore:itemSlagRich>.firstItem, 20, 2048); #Quartz
@@ -472,6 +478,13 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_naquarrite_0:4>, <ore:
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_naqulinite_0:4>, <ore:oreNaqulinite>, 4096, <ore:crushedNaqulinite>.firstItem, 0.1); #Naqulinite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_xifengite_0:4>, <ore:oreXifengite>, 4096, <ore:crushedXifengite>.firstItem, 0.1); #Xifengite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_xilingolite_0:4>, <ore:oreXilingolite>, 4096, <ore:crushedXilingolite>.firstItem, 0.1); #Xilingolite
+
+#Osmium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bowieite_ir_0:4>, <ore:oreBowieiteIr>, 4096, <ore:crushedBowieiteIr>.firstItem, 0.1); #Crushed BowieiteIr
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_skaergaardite_s_0:4>, <ore:oreSkaergaarditeS>, 4096, <ore:crushedSkaergaarditeS>.firstItem, 0.1); #Crushed Skaergaardite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uytenbogaardtite_0:4>, <ore:oreUytenbogaardtite>, 4096, <ore:crushedUytenbogaardtite>.firstItem, 0.1); #Crushed Uytenbogaardtite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_xanthoconite_0:4>, <ore:oreXanthoconite>, 4096, <ore:crushedXanthoconite>.firstItem, 0.1); #Crushed Xanthoconite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_palladium_0:4>, <ore:orePalladium>, 4096, <ore:crushedPalladium>.firstItem, 0.1); #Crushed Palladium
 
 #Native Cluster Crushing
 #mods.immersiveengineering.Crusher.addRecipe(<ore:dust>.firstItem*2, <ore:cluster>, 4096, null, 0.1); #

@@ -186,6 +186,14 @@ macerator
     .buildAndRegister();
 macerator
     .recipeBuilder()
+    .inputs(<ore:clusterPalladium>.firstItem)
+    .outputs(<ore:dustPalladium>.firstItem*2)
+	.chancedOutput(<ore:dustPalladium>.firstItem, 2000, 1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+macerator
+    .recipeBuilder()
     .inputs(<ore:clusterPlatinum>.firstItem)
     .outputs(<ore:dustPlatinum>.firstItem*2)
 	.chancedOutput(<ore:dustPlatinum>.firstItem, 2000, 1000)

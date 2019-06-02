@@ -119,7 +119,8 @@ mods.thaumcraft.Crucible.registerRecipe("orePentlandite", "METALPURIFICATION", <
 
 #Osmium Group
 mods.thaumcraft.Crucible.registerRecipe("oreBowieiteIr", "METALPURIFICATION", <ore:clusterIridium>.firstItem, <ore:crushedPurifiedBowieiteIr>, [<aspect:metallum>*15, <aspect:auram>*8, <aspect:desiderium>*8, <aspect:machina>*8, <aspect:sensus>*8, <aspect:alkimia>*8]);
-mods.thaumcraft.Crucible.registerRecipe("oreSkaergaardite", "METALPURIFICATION", <ore:clusterPalladium>.firstItem, <ore:crushedPurifiedSkaergaardite>, [<aspect:metallum>*22, <aspect:desiderium>*8, <aspect:humanus>*8, <aspect:alkimia>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreSkaergaardite", "METALPURIFICATION", <ore:clusterPalladium>.firstItem, <ore:crushedPurifiedSkaergaarditeS>, [<aspect:metallum>*22, <aspect:desiderium>*8, <aspect:humanus>*8, <aspect:alkimia>*8]);
+mods.thaumcraft.Crucible.registerRecipe("orePalladium", "METALPURIFICATION", <ore:clusterPalladium>.firstItem, <ore:crushedPurifiedPalladium>, [<aspect:metallum>*22, <aspect:desiderium>*5, <aspect:humanus>*5, <aspect:alkimia>*5]);
 mods.thaumcraft.Crucible.registerRecipe("oreUytenbogaardtite", "METALPURIFICATION", <ore:clusterSilver>.firstItem, <ore:crushedPurifiedUytenbogaardtite>, [<aspect:metallum>*18, <aspect:desiderium>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreXanthoconite", "METALPURIFICATION", <ore:clusterSilver>.firstItem, <ore:crushedPurifiedXanthoconite>, [<aspect:metallum>*18, <aspect:desiderium>*8]);
 
