@@ -23,11 +23,11 @@ calcium.addFlags(["GENERATE_ORE"]);
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
-var chrome = <material:chrome>;
-chrome.addFlags(["GENERATE_ORE"]);
+#var chrome = <material:chrome>;
+#chrome.addFlags(["GENERATE_ORE"]);
 
-#var sulfur = <material:sulfur> as DustMaterial;
-#sulfur.oreByProducts += <material:uvarovite> as DustMaterial;
+var chrome = <material:chrome> as DustMaterial;
+chrome.oreByProducts += <material:copper> as DustMaterial;
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
