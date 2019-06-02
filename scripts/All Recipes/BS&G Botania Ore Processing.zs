@@ -79,6 +79,7 @@ mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNaqulinite>.firstItem,
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNeodymium>.firstItem, <ore:crushedNeodymium>, 10); #Neodymium
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNetherQuartz>.firstItem, <ore:crushedNetherQuartz>, 10); #NetherQuartz
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNickel>.firstItem, <ore:crushedNickel>, 10); #Nickel
+mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPalladium>.firstItem, <ore:crushedPalladium>, 10); #Palladium
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPentlandite>.firstItem, <ore:crushedPentlandite>, 10); #Pentlandite
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPitchblende>.firstItem, <ore:crushedPitchblende>, 10); #Pitchblende
 mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPlatinum>.firstItem, <ore:crushedPlatinum>, 10); #Platinum
@@ -205,6 +206,7 @@ mods.botania.ManaInfusion.addInfusion(<ore:dustNaqulinite>.firstItem, <ore:dustI
 mods.botania.ManaInfusion.addInfusion(<ore:dustNeodymium>.firstItem, <ore:dustImpureNeodymium>, 10); #Neodymium
 mods.botania.ManaInfusion.addInfusion(<ore:dustNetherQuartz>.firstItem, <ore:dustImpureNetherQuartz>, 10); #NetherQuartz
 mods.botania.ManaInfusion.addInfusion(<ore:dustNickel>.firstItem, <ore:dustImpureNickel>, 10); #Nickel
+mods.botania.ManaInfusion.addInfusion(<ore:dustPalladium>.firstItem, <ore:dustImpurePalladium>, 10); #Palladium
 mods.botania.ManaInfusion.addInfusion(<ore:dustPentlandite>.firstItem, <ore:dustImpurePentlandite>, 10); #Pentlandite
 mods.botania.ManaInfusion.addInfusion(<ore:dustPitchblende>.firstItem, <ore:dustImpurePitchblende>, 10); #Pitchblende
 mods.botania.ManaInfusion.addInfusion(<ore:dustPlatinum>.firstItem, <ore:dustImpurePlatinum>, 10); #Platinum
@@ -365,10 +367,10 @@ mods.botania.PureDaisy.addRecipe(<ore:oreNickel>, <gregtech:ore_nickel_0>);
 mods.botania.PureDaisy.addRecipe(<ore:orePentlandite>, <gregtech:ore_nickel_0>);
 
 #Osmium [Group]
-mods.botania.PureDaisy.addRecipe(<ore:oreIridium>, <gregtech:ore_bowieite_ir_0>);
-mods.botania.PureDaisy.addRecipe(<ore:orePalladium>, <gregtech:ore_skaergaardite_s_0>);
-mods.botania.PureDaisy.addRecipe(<ore:oreSilver>, <gregtech:ore_uytenbogaardtite_0>);
-mods.botania.PureDaisy.addRecipe(<ore:oreSilver>, <gregtech:ore_xanthoconite_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreBowieiteIr>, <gregtech:ore_iridium_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreSkaergaarditeS>, <gregtech:ore_palladium_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreUytenbogaardtite>, <gregtech:ore_silver_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreXanthoconite>, <gregtech:ore_silver_0>);
 
 #Platinum
 mods.botania.PureDaisy.addRecipe(<ore:oreBraggite>, <gregtech:ore_platinum_0>);
