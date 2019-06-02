@@ -110,6 +110,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterNeodymium>.add(<contenttweaker:clusterneodymium>);
 <ore:clusterNickel>.add(<contenttweaker:clusternickel>);
 <ore:clusterPotassium>.add(<contenttweaker:clusterpotassium>);
+<ore:clusterPalladium>.add(<contenttweaker:clusterpalladium>);
 <ore:clusterPlatinum>.add(<contenttweaker:clusterplatinum>);
 <ore:clusterQuicksilver>.add(<contenttweaker:clusterquicksilver>);
 <ore:clusterSodium>.add(<contenttweaker:clustersodium>);
