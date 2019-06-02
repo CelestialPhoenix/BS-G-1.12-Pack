@@ -871,7 +871,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustNaqulinite>.firstItem*11)
-	.fluidInputs([<liquid:aerotheum>*250])
+	.fluidInputs([<liquid:aerotheum>*2750])
     .outputs(<ore:dustScorchedNaqulinite>.firstItem*15)
 	.fluidOutputs([<liquid:steam>*240000])
 	.property("temperature", 4000)
@@ -882,9 +882,55 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustNaquarrite>.firstItem*9)
-	.fluidInputs([<liquid:aerotheum>*250])
+	.fluidInputs([<liquid:aerotheum>*2250])
     .outputs(<ore:dustScorchedNaquarrite>.firstItem*5)
 	.fluidOutputs([<liquid:steam>*240000])
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+#---Osmium Group---
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustUytenbogaardite>.firstItem*3)
+	.fluidInputs([<liquid:aerotheum>*750])
+    .outputs(<ore:dustSmallArgite>.firstItem*6, <ore:dustSmallAurite>.firstItem*2)
+	.fluidOutputs([<liquid:sulfur_trioxide>*4000])
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustXanthoconite>.firstItem*7)
+	.fluidInputs([<liquid:aerotheum>*1750])
+    .outputs(<ore:dustArgite>.firstItem*3, <ore:dustRatsbane>.firstItem*1)
+	.fluidOutputs([<liquid:sulfur_trioxide>*12000])
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSkaergaarditeS>.firstItem*5)
+	.fluidInputs([<liquid:aerotheum>*1250])
+    .outputs(<ore:dustPallas>.firstItem*2, <ore:dustSmallCuprite>.firstItem*3)
+	.fluidOutputs([<liquid:sulfur_trioxide>*6000])
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustBowieiteIr>.firstItem*9)
+	.fluidInputs([<liquid:aerotheum>*2150])
+    .outputs(<ore:dustIridite>.firstItem*3, <ore:dustSheldite>.firstItem*2)
+	.fluidOutputs([<liquid:sulfur_trioxide>*16000])
 	.property("temperature", 4000)
     .duration(600)
     .EUt(1000)

@@ -203,15 +203,15 @@ dustGoslarite.addFlags("GENERATE_ORE");
 
 #Uytenbogaardtite
 val gemUytenbogaardite = MaterialRegistry.createGemMaterial(538, "uytenbogaardtite", 0x551515, "ruby", 4, [<material:silver>*3, <material:gold>*1, <material:sulfur>*2]);
-dustBowieite.addFlags("GENERATE_ORE");
+gemUytenbogaardite.addFlags("GENERATE_ORE");
 
 #Xanthoconite
 val gemXanthoconite = MaterialRegistry.createGemMaterial(539, "xanthoconite", 0xB55917, "gem_vertical", 4, [<material:silver>*3, <material:arsenic>*1, <material:sulfur>*3]);
-dustBowieite.addFlags("GENERATE_ORE");
+gemXanthoconite.addFlags("GENERATE_ORE");
 
 #[S]-Skaergaardite
 val dustSSkaergaardite = MaterialRegistry.createDustMaterial(540, "skaergaardite_s", 0x7A6455, "shiny", 5, [<material:palladium>*4, <material:copper>*3, <material:sulfur>*3]);
-dustBowieite.addFlags("GENERATE_ORE");
+dustSSkaergaardite.addFlags("GENERATE_ORE");
 
 #[Ir]-Bowieite
 val dustIrBowieite = MaterialRegistry.createDustMaterial(541, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
