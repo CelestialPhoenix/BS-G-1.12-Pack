@@ -8,6 +8,18 @@ print("Nice to see you, wouldn't want to tree you");
 #---Bottler---
 #-Removing Buckets-
 
+#---Charcoal Pile---
+#removing charcoal pile as its effectivly identical to Primal's one
+#mods.forestry.CharcoalWall.removeWall(<>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:clay>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:dirt>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<forestry:loam>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:end_stone>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:end_bricks>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:gravel>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<minecraft:netherrack>.asBlock());
+mods.forestry.CharcoalWall.removeWall(<forestry:ash_brick>.asBlock());
+
 #---Still [distilling fluids]---
 #mods.forestry.Still.addRecipe(<liquid:outout>*20, <liquid:input>*20, ticktime); 
 mods.forestry.Still.addRecipe(<liquid:lubricant>*5, <liquid:creosote>*20, 100);
