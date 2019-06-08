@@ -1,0 +1,56 @@
+#Name: Blood Sweat & Gears DarkSpikes.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "DarkSpikes":{  
+         "distribution":"fractal",
+         "generator":[  
+            {  
+               "type":"stalagmite",
+               "weight":100,
+               "block":[  
+                  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":0,
+                     "weight":5
+                  }
+               ],
+               "material":[  
+                  {  
+                     "name":"abyssalcraft:stone",
+                     "metadata":0,
+                     "weight":100
+                  }
+               ],
+               "gen-body":[  
+                  "minecraft:air",
+				  "abyssalcraft:stone"
+               ],
+               "min-height":4,
+               "height-variance":10,
+               "gen-size":0,
+               "height-mod":2,
+               "size-variance":2,
+               "smooth":"false",
+               "fat":"true"
+            },
+			
+         ],
+         "cluster-count":20,
+         "chunk-chance":75,
+         "min-height":60,
+         "vein-height":70,
+         "vein-diameter":90,
+         "vertical-density":0,
+         "horizontal-density":0,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               53
+            ]
+         }
+      }
+   }
+}

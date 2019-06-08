@@ -1,0 +1,46 @@
+#Name: Blood Sweat & Gears DarkSpire.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{  
+      "DarkSpire":{  
+         "distribution":"uniform",
+         "generator":{  
+            "type":"stalagmite",
+            "block":[  
+               {  
+                  "name":"abyssalcraft:stone",
+                  "metadata":0,
+                  "weight":50
+               }
+            ],
+            "material":[  
+               "abyssalcraft:stone",
+			   "minecraft:air"
+            ],
+            "gen-body":[  
+               "abyssalcraft:stone",
+			   "minecraft:air"
+            ],
+            "min-height":64,
+            "height-variance":64,
+            "gen-size":4,
+            "height-mod":32,
+            "size-variance":15,
+            "smooth":"true",
+            "fat":"true"
+         },
+         "cluster-count":1,
+         "chunk-chance":256,
+         "min-height":3,
+         "max-height":10,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               53
+            ]
+         }
+      }
+   }
+}
