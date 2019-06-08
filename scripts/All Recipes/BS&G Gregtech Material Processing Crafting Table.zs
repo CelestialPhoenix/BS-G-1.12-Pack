@@ -1,6 +1,8 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing Crafting Table.zs
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
+#Gtech tools-in-crafting-grid mechanic
+
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -10,6 +12,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 recipes.remove(<ore:dustClay>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustBrick>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustWheat>.firstItem, <gregtech:meta_tool:12>);
+recipes.remove(<ore:dustWheat>.firstItem, <minecraft:wheat>);
 recipes.remove(<minecraft:flint>, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustPaper>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustSugar>.firstItem, <gregtech:meta_tool:12>);
@@ -26,13 +29,18 @@ recipes.remove(<ore:dustSilver>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustElectrum>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustLead>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustGold>.firstItem, <gregtech:meta_tool:12>);
-recipes.remove(<ore:dustWrought>.firstItem, <gregtech:meta_tool:12>);
+recipes.remove(<ore:dustWroughtIron>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustInvar>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustIronMagnetic>.firstItem, <gregtech:meta_tool:12>);
+##
 recipes.remove(<ore:dustZinc>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustCoal>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustCharcoal>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustCoke>.firstItem, <gregtech:meta_tool:12>);
+recipes.remove(<ore:dustCoke>.firstItem, <ore:gemCoke>.firstItem);
+recipes.remove(<ore:dustCoke>.firstItem, <ore:gemFlawlessCoke>.firstItem);
+recipes.remove(<ore:dustCoke>.firstItem, <ore:gemExquisiteCoke>.firstItem);
+recipes.remove(<ore:dustCoke>.firstItem);
 recipes.remove(<ore:dustSmallCoal>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustSmallCoke>.firstItem, <gregtech:meta_tool:12>);
 recipes.remove(<ore:dustSmallLignite>.firstItem, <gregtech:meta_tool:12>);

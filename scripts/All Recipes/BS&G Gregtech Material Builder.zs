@@ -23,11 +23,12 @@ calcium.addFlags(["GENERATE_ORE"]);
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
-#var chrome = <material:chrome>;
-#chrome.addFlags(["GENERATE_ORE"]);
+var chrome = <material:chrome>;
+chrome.addFlags(["GENERATE_ORE"]);
 
-var chrome = <material:chrome> as DustMaterial;
-chrome.oreByProducts += <material:copper> as DustMaterial;
+#var chrome = <material:chrome> as DustMaterial;
+#chrome.addFlags(["GENERATE_ORE"]);
+#chrome.oreByProducts += <material:copper>;
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -94,7 +95,6 @@ gembertrandite.addFlags("GENERATE_ORE", "NO_SMELTING");
 #Electrotine
 val dustElectrotine = MaterialRegistry.createDustMaterial(511, "electrotine", 0x04A3D3, "shiny", 1, [<material:sapphire>*2, <material:silicon>*4, <material:cinnabar>*3, <material:aluminium>*1]);
 dustElectrotine.addFlags("GENERATE_ORE", "DECOMPOSITION_BY_CENTRIFUGING");
-#<material:electrotine>.getOreByProducts(<material:iron>, <material:copper>, <material:nickel>, <material:lead>);
 
 #Euclase
 val gemeuclase = MaterialRegistry.createGemMaterial(512, "euclase", 0x7AD4EF, "gem_vertical", 1, [<material:beryllium>*1, <material:aluminium>*1, <material:silicon>*1, <material:oxygen>*5, <material:hydrogen>*1], 1.0, 0);

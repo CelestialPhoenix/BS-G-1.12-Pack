@@ -67,6 +67,11 @@ tile.contenttweaker.oredirtlignite.name=Lignite
 tile.contenttweaker.oredolomitemagnesite.name=Magnesite
 tile.contenttweaker.oredolomitemalachite.name=Malachite
 
+tile.contenttweaker.oredarkstonebowieiteir.name=[Ir]-Bowieite
+tile.contenttweaker.oredarkstoneskaergaardites.name=[S]-Skaergaardite
+tile.contenttweaker.oredarkstoneuytenbogaardtite.name=Uytenbogaardite
+tile.contenttweaker.oredarkstonexanthoconite.name=Xanthoconite
+
 tile.contenttweaker.oredreadedobsidianaluminium.name=Aluminium Ore
 tile.contenttweaker.oredreadedobsidianbauxite.name=Bauxite
 tile.contenttweaker.oredreadedobsidianilmenite.name=Ilmenite
