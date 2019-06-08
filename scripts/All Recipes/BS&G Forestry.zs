@@ -49,4 +49,4 @@ furnace.addRecipe(<forestry:beeswax>, <ore:beeComb>, 0.0);
 
 #wood nerf
 #Trololoolololollololololoollloolollololololololo :-)
-furnace.addRecipe(<forestry:ash>*2, <ore:logWood>);
+furnace.addRecipe(<ore:dustAsh>.firstItem*2, <ore:logWood>);
