@@ -3,11 +3,16 @@
 
 print("Nice to see you, wouldn't want to tree you");
 
-#smelting wax
-furnace.addRecipe(<forestry:beeswax>, <ore:beeComb>, 0.0);
+#---crafting----
+#log pile
+#-decor only. Using primal charcoal mechanic-
+recipes.remove(<forestry:wood_pile>); #proper
+recipes.remove(<forestry:wood_pile_decorative>); #decor
+recipes.addShaped(<forestry:wood_pile_decorative>, [
+[<ore:logWood>, <ore:logWood>],
+[<ore:logWood>, <ore:logWood>]]);
 
-#crafting
-
+#---Machines---
 #machine casings
 recipes.removeShaped(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [
@@ -36,7 +41,10 @@ recipes.addShaped(<forestry:wax_cast>, [
 [<ore:itemBeeswax>, null, <ore:itemBeeswax>], 
 [<ore:itemBeeswax>, <ore:itemBeeswax>, <ore:itemBeeswax>]]);
 
-#smelting
+#---smelting---
+#smelting wax
+furnace.addRecipe(<forestry:beeswax>, <ore:beeComb>, 0.0);
+
 #wood nerf
 #Trololoolololollololololoollloolollololololololo :-)
 furnace.addRecipe(<forestry:ash>*2, <ore:logWood>);
