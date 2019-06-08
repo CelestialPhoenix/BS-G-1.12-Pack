@@ -6,8 +6,10 @@ print("Nice to see you, wouldn't want to tree you");
 #---crafting----
 #log pile
 #-decor only. Using primal charcoal mechanic-
-recipes.remove(<forestry:wood_pile>); #proper
-recipes.remove(<forestry:wood_pile_decorative>); #decor
+recipes.remove(<forestry:wood_pile>); 
+<forestry:wood_pile>.addTooltip("This item is disabled");
+<forestry:wood_pile>.addTooltip("Use Primal log stacks");
+recipes.remove(<forestry:wood_pile_decorative>); 
 recipes.addShaped(<forestry:wood_pile_decorative>, [
 [<ore:logWood>, <ore:logWood>],
 [<ore:logWood>, <ore:logWood>]]);
