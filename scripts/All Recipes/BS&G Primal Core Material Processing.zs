@@ -106,6 +106,10 @@ mods.primal.Axe.addRecipe(
     <contenttweaker:mouldswordhead>
 );
 
+#---Sariras---
+#Clear all recipes
+mods.primal.Smelter.removeAll()
+
 #---Charcoal Production---
 
 #--Log Stacks--
