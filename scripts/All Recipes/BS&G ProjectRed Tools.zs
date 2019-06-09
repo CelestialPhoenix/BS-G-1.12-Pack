@@ -37,33 +37,35 @@ recipes.addShaped(<projectred-exploration:sapphire_helmet>, [
 [<ore:plateSapphire>, <ore:plateSapphire>, <ore:plateSapphire>],
 [<ore:plateSapphire>, null, <ore:plateSapphire>]]);
 
-#Ruby Chestplate
+#Sapphire Chestplate
 recipes.remove(<projectred-exploration:sapphire_chestplate>);
 recipes.addShaped(<projectred-exploration:sapphire_chestplate>, [
 [<ore:plateSapphire>, null, <ore:plateSapphire>],
 [<ore:plateSapphire>, <ore:plateSapphire>, <ore:plateSapphire>],
 [<ore:plateSapphire>, <ore:plateSapphire>, <ore:plateSapphire>]]);
 
-#Ruby Legs
+#Sapphire Legs
 recipes.remove(<projectred-exploration:sapphire_leggings>);
 recipes.addShaped(<projectred-exploration:sapphire_leggings>, [
 [<ore:plateSapphire>, <ore:plateSapphire>, <ore:plateSapphire>],
 [<ore:plateSapphire>, null, <ore:plateSapphire>],
 [<ore:plateSapphire>, null, <ore:plateSapphire>]]);
 
-#Ruby Boots
+#Sapphire Boots
 recipes.remove(<projectred-exploration:sapphire_boots>);
 recipes.addShaped(<projectred-exploration:sapphire_boots>, [
 [<ore:plateSapphire>, null, <ore:plateSapphire>],
 [<ore:plateSapphire>, null, <ore:plateSapphire>]]);
 
 #Peridot Helm
+<projectred-exploration:peridot_helmet>.displayName="Green Sapphire Helmet";
 recipes.remove(<projectred-exploration:peridot_helmet>);
 recipes.addShaped(<projectred-exploration:peridot_helmet>, [
 [<ore:plateGreenSapphire>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>],
 [<ore:plateGreenSapphire>, null, <ore:plateGreenSapphire>]]);
 
 #Peridot Chestplate
+<projectred-exploration:peridot_chestplate>.displayName="Green Sapphire Chestplate";
 recipes.remove(<projectred-exploration:peridot_chestplate>);
 recipes.addShaped(<projectred-exploration:peridot_chestplate>, [
 [<ore:plateGreenSapphire>, null, <ore:plateGreenSapphire>],
@@ -71,6 +73,7 @@ recipes.addShaped(<projectred-exploration:peridot_chestplate>, [
 [<ore:plateGreenSapphire>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>]]);
 
 #Peridot Legs
+<projectred-exploration:peridot_leggings>.displayName="Green Sapphire Leggings";
 recipes.remove(<projectred-exploration:peridot_leggings>);
 recipes.addShaped(<projectred-exploration:peridot_leggings>, [
 [<ore:plateGreenSapphire>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>],
@@ -78,6 +81,7 @@ recipes.addShaped(<projectred-exploration:peridot_leggings>, [
 [<ore:plateGreenSapphire>, null, <ore:plateGreenSapphire>]]);
 
 #Peridot Boots
+<projectred-exploration:peridot_boots>.displayName="Green Sapphire Boots";
 recipes.remove(<projectred-exploration:peridot_boots>);
 recipes.addShaped(<projectred-exploration:peridot_boots>, [
 [<ore:plateGreenSapphire>, null, <ore:plateGreenSapphire>],
@@ -151,6 +155,7 @@ recipes.addShaped(<projectred-exploration:sapphire_axe>, [
 [<ore:toolHeadAxeSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_axe>.displayName="Green Sapphire Axe";
 recipes.remove(<projectred-exploration:peridot_axe>);
 recipes.addShaped(<projectred-exploration:peridot_axe>, [
 [<ore:toolHeadAxeGreenSapphire>],
@@ -167,6 +172,7 @@ recipes.addShaped(<projectred-exploration:sapphire_hoe>, [
 [<ore:toolHeadHoeSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_hoe>.displayName="Green Sapphire Hoe";
 recipes.remove(<projectred-exploration:peridot_hoe>);
 recipes.addShaped(<projectred-exploration:peridot_hoe>, [
 [<ore:toolHeadHoeGreenSapphire>],
@@ -183,6 +189,7 @@ recipes.addShaped(<projectred-exploration:sapphire_pickaxe>, [
 [<ore:toolHeadPickaxeSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_pickaxe>.displayName="Green Sapphire Pickaxe";
 recipes.remove(<projectred-exploration:peridot_pickaxe>);
 recipes.addShaped(<projectred-exploration:peridot_pickaxe>, [
 [<ore:toolHeadPickaxeGreenSapphire>],
@@ -199,6 +206,7 @@ recipes.addShaped(<projectred-exploration:sapphire_shovel>, [
 [<ore:toolHeadShovelSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_shovel>.displayName="Green Sapphire Shovel";
 recipes.remove(<projectred-exploration:peridot_shovel>);
 recipes.addShaped(<projectred-exploration:peridot_shovel>, [
 [<ore:toolHeadShovelGreenSapphire>],
@@ -215,6 +223,7 @@ recipes.addShaped(<projectred-exploration:sapphire_sword>, [
 [<ore:toolHeadSwordSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_sword>.displayName="Green Sapphire Sword";
 recipes.remove(<projectred-exploration:peridot_sword>);
 recipes.addShaped(<projectred-exploration:peridot_sword>, [
 [<ore:toolHeadSwordGreenSapphire>],
@@ -233,6 +242,7 @@ recipes.remove(<projectred-exploration:sapphire_saw>);
 recipes.addShaped(<projectred-exploration:sapphire_saw>, [
 [<ore:toolRodWood>, <ore:plateSapphire>, <ore:plateSapphire>]]);
 
+<projectred-exploration:peridot_saw>.displayName="Green Sapphire Saw";
 recipes.remove(<projectred-exploration:peridot_saw>);
 recipes.addShaped(<projectred-exploration:peridot_saw>, [
 [<ore:toolRodWood>, <ore:plateGreenSapphire>, <ore:plateGreenSapphire>]]);
@@ -264,6 +274,7 @@ recipes.addShaped(<projectred-exploration:sapphire_sickle>, [
 [<ore:toolHeadSenseSapphire>],
 [<ore:toolRodWood>]]);
 
+<projectred-exploration:peridot_sickle>.displayName="Green Sapphire Sickle";
 recipes.remove(<projectred-exploration:peridot_sickle>);
 recipes.addShaped(<projectred-exploration:peridot_sickle>, [
 [<ore:toolHeadSenseGreenSapphire>],

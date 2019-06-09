@@ -108,7 +108,7 @@ mods.primal.Axe.addRecipe(
 
 #---Sariras---
 #Clear all recipes
-mods.primal.Smelter.removeAll()
+mods.primal.Smelter.removeAll();
 
 #---Charcoal Production---
 

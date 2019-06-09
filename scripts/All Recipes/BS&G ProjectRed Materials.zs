@@ -7,6 +7,7 @@ print("");
 recipes.remove(<projectred-exploration:stone:5>); #Ruby
 recipes.remove(<projectred-exploration:stone:6>); #Sapphire
 recipes.remove(<projectred-exploration:stone:7>); #Peridot
+<projectred-exploration:stone:7>.displayName="Block of Green Sapphire";
 recipes.remove(<projectred-exploration:stone:8>); #Copper
 recipes.remove(<projectred-exploration:stone:9>); #Tin
 recipes.remove(<projectred-exploration:stone:10>); #Silver
@@ -117,6 +118,11 @@ recipes.remove(<projectred-expansion:jetpack>); #Jetpack
 <projectred-expansion:jetpack>.addTooltip("This item is disabled");
 recipes.remove(<projectred-expansion:electric_screwdriver>); #Screwdriver
 <projectred-expansion:electric_screwdriver>.addTooltip("This item is disabled");
+
+#Walls
+<projectred-exploration:stone_wall:7>.displayName="Green Sapphire Wall";
+#Wall blocks can be made with chisel
+recipes.remove(<projectred-exploration:stone_wall:*>);
 
 #Wire
 #naked
