@@ -20,6 +20,9 @@ antimony.addFlags(["GENERATE_ORE"]);
 var calcium = <material:calcium>;
 calcium.addFlags(["GENERATE_ORE"]);
 
+var cobalt = <material:cobalt>;
+cobalt.addFlags(["GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
+
 var copper = <material:copper>;
 copper.addFlags(["GENERATE_RING"]);
 
