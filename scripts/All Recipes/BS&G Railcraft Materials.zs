@@ -24,6 +24,13 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:2>); #Steel
 recipes.remove(<railcraft:gear:3>); #Bushing
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:4>); #Bronze
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:5>); #Invar
+<railcraft:gear:0>.addTooltip("This item is disabled");
+<railcraft:gear:1>.addTooltip("This item is disabled");
+<railcraft:gear:2>.addTooltip("This item is disabled");
+<railcraft:gear:3>.addTooltip("This item is disabled");
+<railcraft:gear:4>.addTooltip("This item is disabled");
+<railcraft:gear:5>.addTooltip("This item is disabled");
+
 #Ingots
 recipes.remove(<railcraft:ingot:0>); #Steel
 <railcraft:ingot:0>.addTooltip("This item is disabled");
