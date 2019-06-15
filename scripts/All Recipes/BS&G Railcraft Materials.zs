@@ -138,3 +138,99 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<railcraft:glass:0>*9, <ore:dus
 <railcraft:glass:13>.displayName="Green Leaded Glass";
 <railcraft:glass:14>.displayName="Red Leaded Glass";
 <railcraft:glass:15>.displayName="Black Leaded Glass";
+
+#--Building Stones--
+#Abyssal Stone
+mods.chisel.Carving.addGroup("Abyssal_Stone");
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:generic:8>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:0>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:1>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:2>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:3>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:4>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_abyssal:5>);
+
+#Bleached Bone
+mods.chisel.Carving.addGroup("Bleached_Bone");
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:0>);
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:1>);
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:2>);
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:3>);
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:4>);
+mods.chisel.Carving.addVariation("Bleached_Bone", <railcraft:brick_bleachedbone:5>);
+
+#Blood Stained
+mods.chisel.Carving.addGroup("Blood_Stained");
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:0>);
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:1>);
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:2>);
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:3>);
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:4>);
+mods.chisel.Carving.addVariation("Blood_Stained", <railcraft:brick_bloodstained:5>);
+
+#Frost Bound
+mods.chisel.Carving.addGroup("Frost_Bound");
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:0>);
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:1>);
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:2>);
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:3>);
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:4>);
+mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:5>);
+
+#Infernal
+mods.chisel.Carving.addGroup("Infernal");
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:0>);
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:1>);
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:2>);
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:3>);
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:4>);
+mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:5>);
+
+#Quarried
+mods.chisel.Carving.addGroup("Quarried_Stone");
+mods.chisel.Carving.addVariation("Quarried_Stone", <railcraft:generic:9>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:0>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:1>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:2>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:3>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:4>);
+mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:5>);
+
+#Sandy
+mods.chisel.Carving.addGroup("Sandy");
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:0>);
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:1>);
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:2>);
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:3>);
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:4>);
+mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:5>);
+
+#Red Sandy
+mods.chisel.Carving.addGroup("Red_Sandy");
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:0>);
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:1>);
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:2>);
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:3>);
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:4>);
+mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:5>);
+
+#Red Nether Brick
+mods.chisel.Carving.addGroup("Red_Nether_Brick");
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <minecraft:red_nether_brick>);
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <railcraft:brick_red_nether:1>);
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <railcraft:brick_red_nether:2>);
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <railcraft:brick_red_nether:3>);
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <railcraft:brick_red_nether:4>);
+mods.chisel.Carving.addVariation("Red_Nether_Brick", <railcraft:brick_red_nether:5>);
+
+#Diorite in Chisel Material Processing
+#Granite in Chisel Material Processing
+
+#Pearlized
+mods.chisel.Carving.addGroup("Pearlized");
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:0>);
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:1>);
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:2>);
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:3>);
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:4>);
+mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:5>);
