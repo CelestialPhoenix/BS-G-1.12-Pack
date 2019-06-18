@@ -492,17 +492,17 @@ recipes.removeShaped(<ore:stickTitanium>.firstItem);
 recipes.removeShaped(<ore:stickTungsten>.firstItem);
 recipes.removeShaped(<ore:stickUranium235>.firstItem);
 recipes.removeShaped(<ore:stickZinc>.firstItem);
-#Almandine
+recipes.removeShaped(<ore:stickAlmandine>.firstItem);
 recipes.removeShaped(<ore:stickAnnealedCopper>.firstItem);
 recipes.removeShaped(<ore:stickBatteryAlloy>.firstItem);
-#Blue Topaz
+recipes.removeShaped(<ore:stickBlueTopaz>.firstItem); #Blue Topaz
 recipes.removeShaped(<ore:stickBrass>.firstItem);
 recipes.removeShaped(<ore:stickBronze>.firstItem);
 recipes.removeShaped(<ore:stickCupronickel>.firstItem);
 #Diamond
 recipes.removeShaped(<ore:stickElectrum>.firstItem);
-#Emerald
-#Rutile
+recipes.removeShaped(<ore:stickEmerald>.firstItem); #Emerald
+recipes.removeShaped(<ore:stickRutile>.firstItem); #Rutile
 recipes.removeShaped(<ore:stickInvar>.firstItem);
 recipes.removeShaped(<ore:stickKanthal>.firstItem);
 #Lazurite
@@ -512,34 +512,34 @@ recipes.removeShaped(<ore:stickNiobiumNitride>.firstItem);
 recipes.removeShaped(<ore:stickNiobiumTitanium>.firstItem);
 recipes.removeShaped(<ore:stickPigIron>.firstItem);
 recipes.removeShaped(<ore:stickEpoxid>.firstItem);
-recipes.addShapedMirrored(<ore:stickEpoxid>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickEpoxid>.firstItem*4, [
 [<ore:ingotEpoxid>, null],
 [null, <ore:ingotEpoxid>]]);
 recipes.removeShaped(<ore:stickRubber>.firstItem);
-recipes.addShapedMirrored(<ore:stickRubber>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickRubber>.firstItem*4, [
 [<ore:ingotRubber>, null],
 [null, <ore:ingotRubber>]]);
-#Ruby
-#Sapphire
-#Sodalite
+recipes.removeShaped(<ore:stickRuby>.firstItem); #Ruby
+recipes.removeShaped(<ore:stickSapphire>.firstItem); #Sapphire
+recipes.removeShaped(<ore:stickSodalite>.firstItem); #Sodalite
 recipes.removeShaped(<ore:stickSolderingAlloy>.firstItem);
 recipes.removeShaped(<ore:stickStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:stickSteel>.firstItem);
-#Tanzanite
+recipes.removeShaped(<ore:stickTanzanite>.firstItem); #Tanzanite
 recipes.removeShaped(<ore:stickTinAlloy>.firstItem);
-#Topaz
+recipes.removeShaped(<ore:stickTopaz>.firstItem); #Topaz
 recipes.removeShaped(<ore:stickUltimet>.firstItem);
 recipes.removeShaped(<ore:stickVanadiumGallium>.firstItem);
 recipes.removeShaped(<ore:stickWroughtIron>.firstItem);
 recipes.removeShaped(<ore:stickYttriumBariumCuprate>.firstItem);
-#NetherQuartz
-#CertusQuartz
-#Jasper
+recipes.removeShaped(<ore:stickNetherQuartz>.firstItem); #NetherQuartz
+recipes.removeShaped(<ore:stickCertusQuartz>.firstItem);#CertusQuartz
+recipes.removeShaped(<ore:stickJasper>.firstItem); #Jasper
 recipes.removeShaped(<ore:stickOsmiridium>.firstItem);
-#Olivine
-#Opal
-#Amathyst
-#Lapis
+recipes.removeShaped(<ore:stickOlivine>.firstItem); #Olivine
+recipes.removeShaped(<ore:stickOpal>.firstItem); #Opal
+recipes.removeShaped(<ore:stickAmethyst>.firstItem); #Amethyst
+recipes.removeShaped(<ore:stickLapis>.firstItem); #Lapis
 recipes.removeShaped(<ore:stickSterlingSilver>.firstItem);
 recipes.removeShaped(<ore:stickRoseGold>.firstItem);
 recipes.removeShaped(<ore:stickBlackBronze>.firstItem);
@@ -550,9 +550,9 @@ recipes.removeShaped(<ore:stickBlueSteel>.firstItem);
 recipes.removeShaped(<ore:stickDamascusSteel>.firstItem);
 recipes.removeShaped(<ore:stickTungstenSteel>.firstItem);
 recipes.removeShaped(<ore:stickCobaltBrass>.firstItem);
-#RedGarnet
-#YellowGarnet
-#Vinteum
+recipes.removeShaped(<ore:stickGarnetRed>.firstItem); #RedGarnet
+recipes.removeShaped(<ore:stickGarnetYellow>.firstItem); #YellowGarnet
+recipes.removeShaped(<ore:stickVinteum>.firstItem); #Vinteum
 recipes.removeShaped(<ore:stickIronMagnetic>.firstItem);
 recipes.removeShaped(<ore:stickSteelMagnetic>.firstItem);
 recipes.removeShaped(<ore:stickNeodymiumMagnetic>.firstItem);
@@ -567,17 +567,17 @@ recipes.removeShaped(<ore:stickNaquadahEnriched>.firstItem);
 recipes.removeShaped(<ore:stickNaquadria>.firstItem);
 recipes.removeShaped(<ore:stickTritanium>.firstItem);
 recipes.removeShaped(<ore:stickDuranium>.firstItem);
-#Nether Star
+recipes.removeShaped(<ore:stickNetherStar>.firstItem); #Nether Star
 recipes.removeShaped(<ore:stickSiliconRubber>.firstItem);
-recipes.addShapedMirrored(<ore:stickSiliconRubber>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickSiliconRubber>.firstItem*4, [
 [<ore:ingotSiliconRubber>, null],
 [null, <ore:ingotSiliconRubber>]]);
 recipes.removeShaped(<ore:stickStyreneButadieneRubber>.firstItem);
-recipes.addShapedMirrored(<ore:stickStyreneButadieneRubber>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickStyreneButadieneRubber>.firstItem*4, [
 [<ore:ingotStyreneButadieneRubber>, null],
 [null, <ore:ingotStyreneButadieneRubber>]]);
 recipes.removeShaped(<ore:stickPolyphenyleneSulfide>.firstItem);
-recipes.addShapedMirrored(<ore:stickPolyphenyleneSulfide>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickPolyphenyleneSulfide>.firstItem*4, [
 [<ore:ingotPolyphenyleneSulfide>, null],
 [null, <ore:ingotPolyphenyleneSulfide>]]);
 recipes.removeShaped(<ore:stickNickelZincFerrite>.firstItem);
@@ -594,27 +594,112 @@ recipes.removeShaped(<ore:stickEnderium>.firstItem);
 recipes.removeShaped(<ore:stickSignalum>.firstItem);
 recipes.removeShaped(<ore:stickCobaltMagnetic>.firstItem);
 recipes.removeShaped(<ore:stickPolyvinylChloride>.firstItem);
-recipes.addShapedMirrored(<ore:stickPolyvinylChloride>.firstItem*2, [
+recipes.addShapedMirrored(<ore:stickPolyvinylChloride>.firstItem*4, [
 [<ore:ingotPolyvinylChloride>, null],
 [null, <ore:ingotPolyvinylChloride>]]);
 
 #Long Rods
+recipes.removeShaped(<ore:stickLongAluminium>.firstItem);
 recipes.removeShaped(<ore:stickLongAmericium>.firstItem);
+recipes.removeShaped(<ore:stickLongAntimony>.firstItem);
+recipes.removeShaped(<ore:stickLongChrome>.firstItem);
+recipes.removeShaped(<ore:stickLongCopper>.firstItem);
+recipes.removeShaped(<ore:stickLongGold>.firstItem);
+recipes.removeShaped(<ore:stickLongIridium>.firstItem);
 recipes.removeShaped(<ore:stickLongIron>.firstItem);
+recipes.removeShaped(<ore:stickLongLead>.firstItem);
 recipes.removeShaped(<ore:stickLongDarmstadtium>.firstItem);
+recipes.removeShaped(<ore:stickLongOsmium>.firstItem);
+recipes.removeShaped(<ore:stickLongPalladium>.firstItem);
+recipes.removeShaped(<ore:stickLongPlatinum>.firstItem);
+recipes.removeShaped(<ore:stickLongPlutonium>.firstItem);
+recipes.removeShaped(<ore:stickLongPlutonium241>.firstItem);
+recipes.removeShaped(<ore:stickLongPotassium>.firstItem);
+recipes.removeShaped(<ore:stickLongPraseodymium>.firstItem);
+recipes.removeShaped(<ore:stickLongPromethium>.firstItem);
+recipes.removeShaped(<ore:stickLongSilver>.firstItem);
+recipes.removeShaped(<ore:stickLongTin>.firstItem);
 recipes.removeShaped(<ore:stickLongTitanium>.firstItem);
+recipes.removeShaped(<ore:stickLongTungsten>.firstItem);
+recipes.removeShaped(<ore:stickLongAlmandine>.firstItem);
+recipes.removeShaped(<ore:stickLongAnnealedCopper>.firstItem);
+recipes.removeShaped(<ore:stickLongBatteryAlloy>.firstItem);
+recipes.removeShaped(<ore:stickLongBlueTopaz>.firstItem);
+recipes.removeShaped(<ore:stickLongBrass>.firstItem);
 recipes.removeShaped(<ore:stickLongBronze>.firstItem);
+recipes.removeShaped(<ore:stickLongCupronickel>.firstItem);
+recipes.removeShaped(<ore:stickLongElectrum>.firstItem);
+recipes.removeShaped(<ore:stickLongEmerald>.firstItem);
+recipes.removeShaped(<ore:stickLongRutile>.firstItem);
+recipes.removeShaped(<ore:stickLongInvar>.firstItem);
+recipes.removeShaped(<ore:stickLongKanthal>.firstItem);
 recipes.removeShaped(<ore:stickLongMagnalium>.firstItem);
+recipes.removeShaped(<ore:stickLongNichrome>.firstItem);
+recipes.removeShaped(<ore:stickLongNiobiumNitride>.firstItem);
 recipes.removeShaped(<ore:stickLongStainlessSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongNiobiumTitanium>.firstItem);
+recipes.removeShaped(<ore:stickLongPigIron>.firstItem);
+recipes.removeShaped(<ore:stickLongEpoxid>.firstItem);
+recipes.addShapedMirrored(<ore:stickLongEpoxid>.firstItem, [
+[<ore:stickEpoxid>, null],
+[null, <ore:stickEpoxid>]]);
+recipes.removeShaped(<ore:stickLongRuby>.firstItem);
+recipes.removeShaped(<ore:stickLongSapphire>.firstItem);
+recipes.removeShaped(<ore:stickLongSolderingAlloy>.firstItem);
 recipes.removeShaped(<ore:stickLongSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongTanzanite>.firstItem);
+recipes.removeShaped(<ore:stickLongTinAlloy>.firstItem);
+recipes.removeShaped(<ore:stickLongTopaz>.firstItem);
+recipes.removeShaped(<ore:stickLongUltimet>.firstItem);
 recipes.removeShaped(<ore:stickLongWood>.firstItem);
 recipes.removeShaped(<ore:stickLongWroughtIron>.firstItem);
+recipes.removeShaped(<ore:stickLongYttriumBariumCuprate>.firstItem);
+recipes.removeShaped(<ore:stickLongNetherQuartz>.firstItem);
+recipes.removeShaped(<ore:stickLongCertusQuartz>.firstItem);
+recipes.removeShaped(<ore:stickLongJasper>.firstItem);
+recipes.removeShaped(<ore:stickLongOsmiridium>.firstItem);
+recipes.removeShaped(<ore:stickLongOlivine>.firstItem);
+recipes.removeShaped(<ore:stickLongOpal>.firstItem);
+recipes.removeShaped(<ore:stickLongAmethyst>.firstItem);
+recipes.removeShaped(<ore:stickLongLapis>.firstItem);
+recipes.removeShaped(<ore:stickLongSterlingSilver>.firstItem);
+recipes.removeShaped(<ore:stickLongRoseGold>.firstItem);
+recipes.removeShaped(<ore:stickLongBlackBronze>.firstItem);
+recipes.removeShaped(<ore:stickLongBismuthBronze>.firstItem);
+recipes.removeShaped(<ore:stickLongBlackSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongRedSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongBlueSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongDamascusSteel>.firstItem);
 recipes.removeShaped(<ore:stickLongTungstenSteel>.firstItem);
+recipes.removeShaped(<ore:stickLongCobaltBrass>.firstItem);
+recipes.removeShaped(<ore:stickLongGarnetRed>.firstItem);
+recipes.removeShaped(<ore:stickLongGarnetYellow>.firstItem);
+recipes.removeShaped(<ore:stickLongVinteum>.firstItem);
+recipes.removeShaped(<ore:stickLongIronMagnetic>.firstItem);
+recipes.removeShaped(<ore:stickLongSteelMagnetic>.firstItem);
 recipes.removeShaped(<ore:stickLongNeodymiumMagnetic>.firstItem);
+recipes.removeShaped(<ore:stickLongTungstenCarbide>.firstItem);
+recipes.removeShaped(<ore:stickLongVanadiumSteel>.firstItem);
 recipes.removeShaped(<ore:stickLongHssg>.firstItem);
 recipes.removeShaped(<ore:stickLongHsse>.firstItem);
+recipes.removeShaped(<ore:stickLongHsss>.firstItem);
+recipes.removeShaped(<ore:stickLongNaquadah>.firstItem);
+recipes.removeShaped(<ore:stickLongNaquadahAlloy>.firstItem);
+recipes.removeShaped(<ore:stickLongNaquadahEnriched>.firstItem);
+recipes.removeShaped(<ore:stickLongNaquadria>.firstItem);
+recipes.removeShaped(<ore:stickLongTritanium>.firstItem);
+recipes.removeShaped(<ore:stickLongDuranium>.firstItem);
+recipes.removeShaped(<ore:stickLongNetherStar>.firstItem);
+recipes.removeShaped(<ore:stickLongPolyphenyleneSulfide>.firstItem);
+recipes.addShapedMirrored(<ore:stickLongPolyphenyleneSulfide>.firstItem, [
+[<ore:stickPolyphenyleneSulfide>, null],
+[null, <ore:stickPolyphenyleneSulfide>]]);
+recipes.removeShaped(<ore:stickLongNickelZincFerrite>.firstItem);
 recipes.removeShaped(<ore:stickLongTungstenThoriumAlloy>.firstItem);
-
+recipes.removeShaped(<ore:stickLongPolyvinylChloride>.firstItem);
+recipes.addShapedMirrored(<ore:stickLongPolyvinylChloride>.firstItem, [
+[<ore:stickPolyvinylChloride>, null],
+[null, <ore:stickPolyvinylChloride>]]);
 #Long wood stick stupidity fix
 recipes.remove(<biomesoplenty:bamboo>, <ore:stickLongWood>.firstItem);
 
