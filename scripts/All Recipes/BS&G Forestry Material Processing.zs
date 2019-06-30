@@ -7,6 +7,13 @@ print("Nice to see you, wouldn't want to tree you");
 
 #---Bottler---
 #-Removing Buckets-
+//No CT support for bottler
+
+#---Carpenter---
+#-Survivalist Tools-
+mods.forestry.Carpenter.removeRecipe(<forestry:ingot_bronze>);
+mods.forestry.Carpenter.addRecipe(<ore:ingotBronze>.firstItem*3, [[<forestry:broken_bronze_pickaxe>]], 30);
+mods.forestry.Carpenter.addRecipe(<ore:ingotBronze>.firstItem*3, [[<forestry:broken_bronze_shovel>]], 30);
 
 #---Charcoal Pile---
 #removing charcoal pile as its effectivly identical to Primal's one
@@ -23,6 +30,9 @@ mods.forestry.CharcoalWall.removeWall(<forestry:ash_brick>.asBlock());
 #---Still [distilling fluids]---
 #mods.forestry.Still.addRecipe(<liquid:outout>*20, <liquid:input>*20, ticktime); 
 mods.forestry.Still.addRecipe(<liquid:lubricant>*5, <liquid:creosote>*20, 100);
+
+#Squeezer
+#mods.forestry.Squeezer.removeRecipe(<liquid:*>, [<forestry:ingot_tin>]);
 
 #---Thermionic Fabricator---
 

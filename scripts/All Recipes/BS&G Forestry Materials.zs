@@ -1,7 +1,11 @@
 #Name: Blood Sweat & Gears Forestry Materials.zs
 #Author: PhoePhoe
 
+import mods.gregtech.recipe.RecipeMap;
+
 print("Nice to see you, wouldn't want to tree you");
+
+val PlasmaArc as RecipeMap = RecipeMap.getByName("plasma_arc_furnace");
 
 #removed recipes
 #gears
@@ -24,15 +28,19 @@ recipes.removeShaped(<forestry:gear_tin>);
 #ingots
 recipes.remove(<forestry:ingot_bronze>);
 furnace.remove(<forestry:ingot_bronze>);
-<forestry:ingot_bronze>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotBronze>.firstItem, [<forestry:ingot_bronze>]);
+<forestry:ingot_bronze>.displayName="Ancient Bronze Ingot";
 
 recipes.remove(<forestry:ingot_copper>);
 furnace.remove(<forestry:ingot_copper>);
-<forestry:ingot_copper>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotCopper>.firstItem, [<forestry:ingot_copper>]);
+<forestry:ingot_copper>.displayName="Ancient Copper Ingot";
 
 recipes.remove(<forestry:ingot_tin>);
 furnace.remove(<forestry:ingot_tin>);
-<forestry:ingot_tin>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotTin>.firstItem, [<forestry:ingot_tin>]);
+<forestry:ingot_tin>.addTooltip("Place in crafting grid");
+<forestry:ingot_tin>.displayName="Ancient Tin Ingot";
 
 #storage blocks
 recipes.removeShaped(<forestry:resource_storage:*>);

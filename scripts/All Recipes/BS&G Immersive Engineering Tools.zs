@@ -5,15 +5,15 @@ print("Trust me I'm an engineer");
 
 #Duplicate tools with TFo
 recipes.remove(<immersiveengineering:pickaxe_steel>);
-<immersiveengineering:pickaxe_steel>.addTooltip("This item is disabled");
+<immersiveengineering:pickaxe_steel>.displayName="Ancient Steel Pickaxe";
 
 recipes.remove(<immersiveengineering:shovel_steel>);
-<immersiveengineering:shovel_steel>.addTooltip("This item is disabled");
+<immersiveengineering:shovel_steel>.displayName="Ancient Steel Shovel";
 
 recipes.remove(<immersiveengineering:axe_steel>);
-<immersiveengineering:axe_steel>.addTooltip("This item is disabled");
+<immersiveengineering:axe_steel>.displayName="Ancient Steel Axe";
 
 recipes.remove(<immersiveengineering:sword_steel>);
-<immersiveengineering:sword_steel>.addTooltip("This item is disabled");
+<immersiveengineering:sword_steel>.displayName="Ancient Steel Sword";
 
 #New Tool recipes

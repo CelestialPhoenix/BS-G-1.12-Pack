@@ -20,10 +20,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:itemResistor>.add(<metaitem:component.resistor>);
 <ore:itemDiode>.add(<metaitem:component.diode>);
 
-#rods
-<ore:stickMagneticcobalt>.remove(<gregtech:meta_item_1:14514>);
-<ore:stickCobaltMagnetic>.add(<gregtech:meta_item_1:14514>);
-
+#-ingots-
+#<ore:ingotManasteel>.remove(<metaitem:manasteel.ingot>);
 #---machine blocks---
 
 #machine casing

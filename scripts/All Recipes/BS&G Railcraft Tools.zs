@@ -5,16 +5,16 @@ print("Handles like its on rails");
 
 #---Armour---
 recipes.remove(<railcraft:armor_helmet_steel>);
-<railcraft:armor_helmet_steel>.addTooltip("This item is disabled");
+<railcraft:armor_helmet_steel>.displayName= "Old Style Steel Helm";
 
 recipes.remove(<railcraft:armor_chestplate_steel>);
-<railcraft:armor_chestplate_steel>.addTooltip("This item is disabled");
+<railcraft:armor_chestplate_steel>.displayName= "Old Style Steel Breastplate";
 
 recipes.remove(<railcraft:armor_leggings_steel>);
-<railcraft:armor_leggings_steel>.addTooltip("This item is disabled");
+<railcraft:armor_leggings_steel>.displayName= "Old Style Steel Legs";
 
 recipes.remove(<railcraft:armor_boots_steel>);
-<railcraft:armor_boots_steel>.addTooltip("This item is disabled");
+<railcraft:armor_boots_steel>.displayName= "Old Style Steel Boots";
 
 #goggles
 recipes.remove(<railcraft:armor_goggles>);
@@ -28,7 +28,7 @@ recipes.addShaped(<railcraft:armor_goggles>, [
 
 #Axe
 recipes.remove(<railcraft:tool_axe_steel>);
-<railcraft:tool_axe_steel>.addTooltip("This item is disabled");
+<railcraft:tool_axe_steel>.displayName= "Old Style Steel Hatchet";
 
 #Crowbar Iron
 recipes.remove(<railcraft:tool_crowbar_iron>);
@@ -46,23 +46,23 @@ recipes.addShaped(<railcraft:tool_crowbar_steel>, [
 
 #Hoe
 recipes.remove(<railcraft:tool_hoe_steel>);
-<railcraft:tool_hoe_steel>.addTooltip("This item is disabled");
+<railcraft:tool_hoe_steel>.displayName= "Old Style Steel Hoe";
 
 #Pickaxe
 recipes.remove(<railcraft:tool_pickaxe_steel>);
-<railcraft:tool_pickaxe_steel>.addTooltip("This item is disabled");
+<railcraft:tool_pickaxe_steel>.displayName= "Old Style Steel Pick";
 
 #Shears
 recipes.remove(<railcraft:tool_shears_steel>);
-<railcraft:tool_shears_steel>.addTooltip("This item is disabled");
+<railcraft:tool_shears_steel>.displayName= "Old Style Steel Shears";
 
 #Shovel
 recipes.remove(<railcraft:tool_shovel_steel>);
-<railcraft:tool_shovel_steel>.addTooltip("This item is disabled");
+<railcraft:tool_shovel_steel>.displayName= "Old Style Steel Spade";
 
 #Spike Mauls
 #These seem ok
 
 #Sword
 recipes.remove(<railcraft:tool_sword_steel>);
-<railcraft:tool_sword_steel>.addTooltip("This item is disabled");
+<railcraft:tool_sword_steel>.displayName= "Old Style Steel Broardsword";
