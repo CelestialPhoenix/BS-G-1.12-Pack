@@ -6,6 +6,11 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #banned items/recipes
 
 #---Naming Materials---
+
+#Slag
+<thermalfoundation:material:864>.displayName= "Clinker";
+<thermalfoundation:material:865>.displayName= "Lustrous Clinker";
+
 #Thick Plates
 <thermalfoundation:material:32>.displayName= "Thick Iron Plate";
 <thermalfoundation:material:33>.displayName= "Thick Gold Plate";

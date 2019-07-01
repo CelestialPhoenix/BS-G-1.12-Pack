@@ -28,6 +28,10 @@ recipes.remove(<minecraft:slime>);
 <minecraft:slime>.addTooltip("This item is disabled");
 <minecraft:slime>.addShiftTooltip("Ugly as sin. Green slime and redstone just looks wrong when used together");
 
+#---Renamed Items---
+<minecraft:end_stone>.displayName="Xenolith";
+<minecraft:end_bricks>.displayName="Xenolith Bricks";
+
 #---Tooltips---
 #Chemical formulae
 #<minecraft:>.addTooltip(""); #

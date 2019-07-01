@@ -1,9 +1,59 @@
 #Name: Blood Sweat & Gears BoP Materials.zs
 #Author: PhoePhoe
 
-print("BoP ...BLeepBleepBoop - R2D2");
+print("BoP ..Boop...BLeepBleepBoop - R2D2");
 
-#removed recipes
+#---Tweaked Recipes---
+#-Gemstones-
+#Amethyst
+furnace.remove(<biomesoplenty:gem:0>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:0>);
+recipes.addShapeless(<ore:gemAmethyst>.firstItem, [<biomesoplenty:gem:0>]);
+<biomesoplenty:gem:0>.displayName="Cut Amethyst";
+
+#Ruby
+furnace.remove(<biomesoplenty:gem:1>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:1>);
+recipes.addShapeless(<ore:gemRuby>.firstItem, [<biomesoplenty:gem:1>]);
+<biomesoplenty:gem:1>.displayName="Cut Ruby";
+
+#Peridot
+furnace.remove(<biomesoplenty:gem:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:2>);
+recipes.addShapeless(<ore:gemGreenSapphire>.firstItem, [<biomesoplenty:gem:2>]);
+<biomesoplenty:gem:2>.displayName="Cut Green Sapphire";
+
+#Topaz
+furnace.remove(<biomesoplenty:gem:3>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:3>);
+recipes.addShapeless(<ore:gemTopaz>.firstItem, [<biomesoplenty:gem:3>]);
+<biomesoplenty:gem:3>.displayName="Cut Topaz";
+
+#Tanzanite
+furnace.remove(<biomesoplenty:gem:4>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:4>);
+recipes.addShapeless(<ore:gemTanzanite>.firstItem, [<biomesoplenty:gem:4>]);
+<biomesoplenty:gem:4>.displayName="Cut Tanzanite";
+
+#Malachite
+furnace.remove(<biomesoplenty:gem:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:5>);
+#recipes.addShapeless(<ore:gemMalachite>.firstItem, [<biomesoplenty:gem:5>]);
+<biomesoplenty:gem:5>.displayName="Cut Malachite";
+
+#Sapphire
+furnace.remove(<biomesoplenty:gem:6>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:6>);
+recipes.addShapeless(<ore:gemSapphire>.firstItem, [<biomesoplenty:gem:6>]);
+<biomesoplenty:gem:6>.displayName="Cut Sapphire";
+
+#Amber
+furnace.remove(<biomesoplenty:gem:7>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:7>);
+recipes.addShapeless(<ore:gemAmber>.firstItem, [<biomesoplenty:gem:7>]);
+<biomesoplenty:gem:7>.displayName="Cut Amber";
+
+#---Removed recipes---
 #recipes.removeShaped(<>);
 #storage blocks
 recipes.removeShaped(<biomesoplenty:gem_block:*>);

@@ -8,17 +8,19 @@ print("I'm not evil I promise");
 #Logs
 <abyssalcraft:dltlog>.displayName="Darklands Oak Log";
 
+#---Dungeon Loot---
+#--Ingots--
+furnace.remove(<abyssalcraft:tiningot>); #Tin
+recipes.remove(<abyssalcraft:tiningot>); #Tin
+recipes.addShapeless(<ore:ingotTin>.firstItem, [<abyssalcraft:tiningot>]);
+<abyssalcraft:tiningot>.displayName="Strange Tin Ingot";
+
+furnace.remove(<abyssalcraft:copperingot>); #Copper
+recipes.remove(<abyssalcraft:copperingot>); #Copper
+recipes.addShapeless(<ore:ingotCopper>.firstItem, [<abyssalcraft:copperingot>]);
+<abyssalcraft:copperingot>.displayName="Strange Copper Ingot";
 
 #---Removed Recipes---
-
-#--Ingots--
-#-Smelting-
-#furnace.remove(<abyssalcraft:copperingot>); #Copper
-furnace.remove(<abyssalcraft:tiningot>); #Tin
-
-#-Crafting-
-recipes.remove(<abyssalcraft:copperingot>); #Copper
-recipes.remove(<abyssalcraft:tiningot>); #Tin
 
 #storage blocks
 recipes.removeShaped(<abyssalcraft:ingotblock:*>);

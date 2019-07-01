@@ -663,6 +663,49 @@ mods.chisel.Carving.addVariation("blockUranium", <ic2:resource:10>);
 #botania:biomestoneb_7
 #botania:dreamwood_1
 #botania:livingrock_1
+mods.chisel.Carving.removeGroup("botania:livingrock_1");
+mods.chisel.Carving.addGroup("LivingRock");
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock:0>);
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock:1>);
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock:2>);
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock:3>);
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock:4>);
+mods.chisel.Carving.addVariation("LivingRock", <botania:livingrock0wall:0>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:0>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:1>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:2>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:3>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:4>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:5>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:6>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:7>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:8>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:9>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:10>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:11>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:12>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:13>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:14>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick_botania_livingrock_1:15>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:0>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:1>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:2>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:3>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:4>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:5>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:6>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:7>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:8>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick1_botania_livingrock_1:9>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:0>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:1>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:2>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:3>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:4>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:5>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:6>);
+mods.chisel.Carving.addVariation("LivingRock", <unlimitedchiselworks:chisel_stonebrick2_botania_livingrock_1:7>);
+
 #botania:livingwood_1
 #botania:quartztypeblaze_0
 #botania:quartztypedark_0

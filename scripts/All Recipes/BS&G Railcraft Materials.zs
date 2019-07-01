@@ -33,39 +33,49 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:5>); #Invar
 
 #Ingots
 recipes.remove(<railcraft:ingot:0>); #Steel
-<railcraft:ingot:0>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotSteel>.firstItem, [<railcraft:ingot:0>]);
+<railcraft:ingot:0>.displayName="Old Styled Steel Ingot";
 
 recipes.remove(<railcraft:ingot:1>); #Copper
-<railcraft:ingot:1>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotCopper>.firstItem, [<railcraft:ingot:1>]);
+<railcraft:ingot:1>.displayName="Old Styled Copper Ingot";
 
 recipes.remove(<railcraft:ingot:2>); #Tin
-<railcraft:ingot:2>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotTin>.firstItem, [<railcraft:ingot:2>]);
+<railcraft:ingot:2>.displayName="Old Styled Tin Ingot";
 
 recipes.remove(<railcraft:ingot:3>); #Lead
-<railcraft:ingot:3>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotLead>.firstItem, [<railcraft:ingot:3>]);
+<railcraft:ingot:3>.displayName="Old Styled Lead Ingot";
 
 recipes.remove(<railcraft:ingot:4>); #Silver
-<railcraft:ingot:4>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotSilver>.firstItem, [<railcraft:ingot:4>]);
+<railcraft:ingot:4>.displayName="Old Styled Silver Ingot";
 
 recipes.remove(<railcraft:ingot:5>); #Bronze
-<railcraft:ingot:5>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotBronze>.firstItem, [<railcraft:ingot:5>]);
+<railcraft:ingot:5>.displayName="Old Styled Bronze Ingot";
 
 recipes.remove(<railcraft:ingot:6>); #Nickel
-<railcraft:ingot:6>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotNickel>.firstItem, [<railcraft:ingot:6>]);
+<railcraft:ingot:6>.displayName="Old Styled Nickel Ingot";
 
 recipes.remove(<railcraft:ingot:7>); #Invar
 mods.immersiveengineering.AlloySmelter.removeRecipe(<railcraft:ingot:7>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<railcraft:ingot:9>);
-<railcraft:ingot:7>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotInvar>.firstItem, [<railcraft:ingot:7>]);
+<railcraft:ingot:7>.displayName="Old Styled Invar Ingot";
 
 recipes.remove(<railcraft:ingot:8>); #Zinc
-mods.immersiveengineering.BlastFurnace.removeRecipe(<railcraft:ingot:9>);
-<railcraft:ingot:8>.addTooltip("This item is disabled");
+mods.immersiveengineering.BlastFurnace.removeRecipe(<railcraft:ingot:8>);
+recipes.addShapeless(<ore:ingotZinc>.firstItem, [<railcraft:ingot:8>]);
+<railcraft:ingot:8>.displayName="Old Styled Zinc Ingot";
 
 recipes.remove(<railcraft:ingot:9>); #Brass
 mods.immersiveengineering.AlloySmelter.removeRecipe(<railcraft:ingot:9>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<railcraft:ingot:9>);
-<railcraft:ingot:9>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotBrass>.firstItem, [<railcraft:ingot:9>]);
+<railcraft:ingot:9>.displayName="Old Styled Brass Ingot";
 
 #Nuggets
 recipes.remove(<railcraft:nugget:0>); #Steel

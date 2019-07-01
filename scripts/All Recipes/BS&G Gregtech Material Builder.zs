@@ -418,7 +418,7 @@ ingotadamantium.addToolEnchantment(<enchantment:minecraft:bane_of_arthropods> * 
 #--Mod Integration--
 #-Botania-
 #Manasteel
-val ingotmanasteel = MaterialRegistry.createIngotMaterial(683, "manasteel", 0x7080CC, "shiny", 2, null, 2.0, 3.0, 30);
+val ingotmanasteel = MaterialRegistry.createIngotMaterial(683, "manasteel", 0x6060FF, "shiny", 2, null, 2.0, 3.0, 30);
 ingotmanasteel.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:fortune> * 1);
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:looting> * 1);
