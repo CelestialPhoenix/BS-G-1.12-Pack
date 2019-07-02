@@ -3,6 +3,22 @@
 
 print("Going Primal. Not unlike going commando");
 
+#---Renaming---
+#Endstone
+<primal:ladder_block_endstone>.displayName="Xenolith Ladder Block";
+<primal:ladder_block_endbrick>.displayName="Xenolith Ladder Block";
+<primal:rock_end:0>.displayName="Lump of Xenolith";
+
+#Eroded Endstone
+<primal:eroded_end_stone:0>.displayName="Eroded Xenolith";
+<primal:eroded_end_stone:1>.displayName="Smooth Eroded Xenolith";
+<primal:eroded_end_stone:2>.displayName="Stacked Eroded Xenolith";
+<primal:eroded_end_stone:3>.displayName="Eroded Xenolith Brick";
+<primal:eroded_end_stone:4>.displayName="Eroded Xenolith Cobble";
+<primal:eroded_end_stone:5>.displayName="Chiseled Eroded Xenolith";
+<primal:eroded_end_stone:6>.displayName="Mysterious Eroded Xenolith";
+<primal:eroded_end_stone:7>.displayName="Eroded Xenolith Pillar";
+<primal:wall:11>.displayName="Eroded Xenolith Wall";
 #--Crafting tables--
 recipes.remove(<primal:worktable_shelf>);
 recipes.addShaped(<primal:worktable_shelf>, [

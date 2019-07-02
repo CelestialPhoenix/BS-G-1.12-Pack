@@ -108,6 +108,10 @@ material.scorched_clay=Scorched Clay
 material.scorched_sheldonite=Scorched Sheldonite
 
 material.cooperite=Cooperite
+material.endstone=Xenolith
 material.sulfur=Sulphur
 material.uranium=Uranium
 material.tungstate=(Li)-Tungstate
+
+item.material.oreprefix.oreEndstone=Xenolith %s Ore
+item.material.oreprefix.oreEnd=Xenolith %s Ore
