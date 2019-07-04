@@ -9,6 +9,7 @@
 mods.ltt.LootTable.removeGlobalItem("abyssalcraft:mre");
 
 #IC2
+mods.ltt.LootTable.removeModEntry("ic2");
 mods.ltt.LootTable.removeGlobalItem("ic2:ingot:2"); //Copper
 mods.ltt.LootTable.removeGlobalItem("ic2:ingot:6"); //Tin
 mods.ltt.LootTable.removeGlobalItem("ic2:misc_resource:1"); //Iridium ore
@@ -18,6 +19,7 @@ mods.ltt.LootTable.removeGlobalItem("ic2:misc_resource:2"); //Iridium shard
 mods.ltt.LootTable.removeGlobalItem("metaitem:bottle.purple.drink");
 
 #Nuclearcraft
+mods.ltt.LootTable.removeModEntry("nuclearcraft");
 mods.ltt.LootTable.removeGlobalItem("nuclearcraft:dominos");
 mods.ltt.LootTable.removeGlobalItem("nuclearcraft:part:0");
 mods.ltt.LootTable.removeGlobalItem("nuclearcraft:part:1");

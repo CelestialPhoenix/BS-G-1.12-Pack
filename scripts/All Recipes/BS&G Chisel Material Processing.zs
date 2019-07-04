@@ -476,6 +476,21 @@ mods.chisel.Carving.addVariation("blockGold", <chisel:blockgold:11>);
 mods.chisel.Carving.addVariation("blockGold", <chisel:blockgold:12>);
 mods.chisel.Carving.addVariation("blockGold", <chisel:blockgold:13>);
 mods.chisel.Carving.addVariation("blockGold", <chisel:blockgold:14>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:0>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:1>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:2>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:3>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:4>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:5>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:6>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:7>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:8>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:9>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:10>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:11>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:12>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:13>);
+mods.chisel.Carving.addVariation("blockGold", <chisel:gold:14>);
 
 #blockInvar
 mods.chisel.Carving.removeGroup("blockInvar");
@@ -510,6 +525,21 @@ mods.chisel.Carving.addVariation("blockIron", <chisel:blockiron:11>);
 mods.chisel.Carving.addVariation("blockIron", <chisel:blockiron:12>);
 mods.chisel.Carving.addVariation("blockIron", <chisel:blockiron:13>);
 mods.chisel.Carving.addVariation("blockIron", <chisel:blockiron:14>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:0>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:1>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:2>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:3>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:4>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:5>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:6>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:7>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:8>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:9>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:10>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:11>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:12>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:13>);
+mods.chisel.Carving.addVariation("blockIron", <chisel:iron:14>);
 
 #blockLapis
 mods.chisel.Carving.removeGroup("blockLapis");
