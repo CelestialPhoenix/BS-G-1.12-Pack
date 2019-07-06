@@ -16,8 +16,8 @@ mods.ltt.LootTable.removeGlobalItem("ic2:misc_resource:1"); //Iridium ore
 mods.ltt.LootTable.removeGlobalItem("ic2:misc_resource:2"); //Iridium shard
 
 #Gregtech
-mods.ltt.LootTable.removeGlobalItem("metaitem:bottle.purple.drink");
-
+mods.ltt.LootTable.removeGlobalItem("metaitem:bottle.purple.drink"); //<gregtech:meta_item_2:32100>
+mods.ltt.LootTable.removeGlobalItem("gregtech:meta_item_2:32100");
 #Nuclearcraft
 mods.ltt.LootTable.removeModEntry("nuclearcraft");
 mods.ltt.LootTable.removeGlobalItem("nuclearcraft:dominos");
