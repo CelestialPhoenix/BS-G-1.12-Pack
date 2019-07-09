@@ -17,7 +17,77 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
-	
+
+#Bog Earth
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem*4, <ore:sand>.firstItem*4, <ore:itemMulch>.firstItem)
+	.fluidInputs([<liquid:water>*1000])
+    .outputs(<forestry:bog_earth>*8)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Compost
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem, <minecraft:wheat>*4)
+    .outputs(<forestry:fertilizer_bio>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem, <ore:dustAsh>.firstItem*4)
+    .outputs(<forestry:fertilizer_bio>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem, <ore:treeSapling>.firstItem*4)
+    .outputs(<forestry:fertilizer_bio>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem, <natura:materials>*4)
+    .outputs(<forestry:fertilizer_bio>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Fertalizer (Industrial)
+mixer
+    .recipeBuilder()
+    .inputs(<ore:sand>.firstItem*2, <ore:dustApatite>.firstItem)
+    .outputs(<forestry:fertilizer_compound>*8)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustAsh>.firstItem*8, <ore:dustApatite>.firstItem)
+    .outputs(<forestry:fertilizer_compound>*16)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:sand>.firstItem*2, <ore:dustSmallCalcium>.firstItem*3, <ore:dustSmallPhosphate>.firstItem*2)
+    .outputs(<forestry:fertilizer_compound>*8)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustAsh>.firstItem*8, <ore:dustSmallCalcium>.firstItem*3, <ore:dustSmallPhosphate>.firstItem*2)
+    .outputs(<forestry:fertilizer_compound>*16)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #Gunpowder
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem], null).remove();
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem], null).remove();
@@ -47,6 +117,17 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
+
+#Humus
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem*8, <ore:itemMulch>.firstItem)
+	.fluidInputs([<liquid:water>*1000])
+    .outputs(<forestry:humus>*8)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #Illumar
 mixer
     .recipeBuilder()

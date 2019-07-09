@@ -3,7 +3,7 @@
 
 print("Nice to see you, wouldn't want to tree you");
 
-#removed entries
+#---Removed Entries---
 #Blocks
 <ore:blockApatite>.remove(<forestry:resource_storage:0>);
 <ore:blockCopper>.remove(<forestry:resource_storage:1>);
@@ -11,13 +11,20 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:blockBronze>.remove(<forestry:resource_storage:3>);
 <ore:blockCharcoal>.remove(<forestry:charcoal>);
 
+#Gems
+<ore:gemApatite>.remove(<forestry:apatite>);
+
+#Gears
+<ore:gearBronze>.remove(<forestry:gear_bronze>);
+<ore:gearCopper>.remove(<forestry:gear_copper>);
+<ore:gearTin>.remove(<forestry:gear_tin>);
+
 #Ingots
 <ore:ingotBronze>.remove(<forestry:ingot_bronze>);
 <ore:ingotCopper>.remove(<forestry:ingot_copper>);
 <ore:ingotTin>.remove(<forestry:ingot_tin>);
 
-#Ore Dict
-
+#---Ore Dict---
 #Circuit parts
 <ore:tubeCopper>.add(<forestry:thermionic_tubes:0>);
 <ore:tubeTin>.add(<forestry:thermionic_tubes:1>);
@@ -105,3 +112,7 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:machineReinforced>.add(<forestry:hardened_machine>);
 <ore:machineImregnated>.add(<forestry:impregnated_casing>);
 <ore:machineFlexible>.add(<forestry:flexible_casing>);
+
+#Resources
+<ore:fertilizerIndustrial>.add(<forestry:fertilizer_compound>);
+<ore:itemMulch>.add(<forestry:mulch>);

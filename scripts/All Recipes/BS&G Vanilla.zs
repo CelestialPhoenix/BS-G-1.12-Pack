@@ -29,6 +29,15 @@ recipes.remove(<minecraft:slime>);
 <minecraft:slime>.addShiftTooltip("Ugly as sin. Green slime and redstone just looks wrong when used together");
 
 #---Renamed Items---
+#Logs
+<minecraft:log:0>.displayName="Oak Log";
+<minecraft:log:1>.displayName="Spruce Log";
+<minecraft:log:2>.displayName="Birch Log";
+<minecraft:log:3>.displayName="Jungle Log";
+<minecraft:log2:0>.displayName="Acacia Log";
+<minecraft:log2:1>.displayName="Dark Oak Log";
+
+#Xenolith
 <minecraft:end_stone>.displayName="Xenolith";
 <minecraft:end_bricks>.displayName="Xenolith Bricks";
 

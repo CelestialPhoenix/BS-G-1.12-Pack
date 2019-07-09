@@ -14,16 +14,17 @@ mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gear_copper>);
 mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gear_tin>);
 
 recipes.removeShaped(<forestry:gear_bronze>);
-<ore:gearBronze>.remove(<forestry:gear_bronze>);
 <forestry:gear_bronze>.addTooltip("This item is disabled");
 
 recipes.removeShaped(<forestry:gear_copper>);
-<ore:gearCopper>.remove(<forestry:gear_copper>);
 <forestry:gear_copper>.addTooltip("This item is disabled");
 
 recipes.removeShaped(<forestry:gear_tin>);
-<ore:gearTin>.remove(<forestry:gear_tin>);
 <forestry:gear_tin>.addTooltip("This item is disabled");
+
+#gems
+recipes.remove(<forestry:apatite>);
+<forestry:apatite>.addTooltip("This item is disabled");
 
 #ingots
 recipes.remove(<forestry:ingot_bronze>);
@@ -47,6 +48,8 @@ recipes.removeShaped(<forestry:resource_storage:*>);
 recipes.removeShaped(<forestry:charcoal>);
 
 #---Naming---
+<forestry:fertilizer_compound>.displayName="Industrial Fertalizer";
+
 #Logs
 <forestry:logs.0:0>.displayName="Larch Log";
 <forestry:logs.0:1>.displayName="Teak Log";
@@ -118,7 +121,35 @@ recipes.removeShaped(<forestry:charcoal>);
 <forestry:logs.vanilla.fireproof.1:1>.displayName="Fireproof Dark Oak Log";
 
 #---Recipes----
+#Bog Earth
+recipes.remove(<forestry:bog_earth>);
+recipes.addShapeless(<forestry:bog_earth>*6, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:itemMulch>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
+recipes.addShapeless(<forestry:bog_earth>*6, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:fertilizerIndustrial>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
+recipes.addShapeless(<forestry:bog_earth>*6, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:fertilizerOrganic>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
 
+#-Compost-
+recipes.addShaped(<forestry:fertilizer_bio>*3,[
+[null, <natura:materials>, null],
+[<natura:materials>, <ore:dirt>, <natura:materials>],
+[null, <natura:materials>, null]]);
+
+recipes.addShaped(<forestry:fertilizer_bio>*5,[
+[null, <ore:sapling>, null],
+[<ore:sapling>, <ore:dirt>, <ore:treeSapling>],
+[null, <ore:sapling>, null]]);
+
+#-Fertalizer-
+recipes.remove(<forestry:fertilizer_compound>);
+recipes.addShapeless(<forestry:fertilizer_compound>*6, [<ore:sand>, <ore:gemApatite>, <ore:sand>]);
+recipes.addShapeless(<forestry:fertilizer_compound>*12, [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:gemApatite>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>]);
+
+#-Humus-
+recipes.remove(<forestry:humus>);
+recipes.addShapeless(<forestry:humus>*6, [<ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:itemMulch>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
+recipes.addShapeless(<forestry:humus>*6, [<ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:fertilizerIndustrial>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
+recipes.addShapeless(<forestry:humus>*6, [<ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:fertilizerOrganic>, <ore:dirt>, <ore:dirt>, <ore:dirt>, <ore:dirt>]);
+
+#---Hardmode Redstone---
 #--Doors--
 recipes.remove(<forestry:doors.larch>);  
 recipes.addShapedMirrored(<forestry:doors.larch>,[

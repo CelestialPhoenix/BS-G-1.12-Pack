@@ -3,14 +3,6 @@
 
 print("Mwah ha ha ha ha ha");
 
-#---Naming---
-#Logs
-<minecraft:log:0>.displayName="Oak Log";
-<minecraft:log:1>.displayName="Spruce Log";
-<minecraft:log:2>.displayName="Birch Log";
-<minecraft:log:3>.displayName="Jungle Log";
-<minecraft:log2:0>.displayName="Acacia Log";
-<minecraft:log2:1>.displayName="Dark Oak Log";
 #---Recipes---
 
 #Gunpowder
@@ -19,38 +11,37 @@ recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpe
 recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCoal>]);
 recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCarbon>]);
 
+#String
+recipes.remove(<minecraft:string>, <natura:materials:3>);
+recipes.remove(<minecraft:string>, <immersiveengineering:material:4>);
+recipes.addShapeless(<minecraft:string>, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
+
+#Wool
+recipes.remove(<minecraft:wool>, <natura:materials:3>);
+#recipes.remove(<minecraft:wool>, <biomesoplenty:double_plant:1>);
+#recipes.remove(<minecraft:wool>, <biomesoplenty:plant_1:4>);
+
 #--Hardcore Grinding--
 recipes.remove(<minecraft:blaze_powder>, <minecraft:blaze_rod>);
+recipes.remove(<minecraft:dye:15>); //Bonemeal
 
 #--Hardmode redstone--
 
 #Trapdoor Wood
 recipes.remove(<minecraft:trapdoor>);
-recipes.addShaped(<minecraft:trapdoor>,[
+recipes.addShaped(<minecraft:trapdoor>*2,[
 [<ore:dustRedstone>, null, <ore:dustRedstone>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
 #Trapdoor Iron
-recipes.remove(<minecraft:iron_trapdoor>);
-recipes.addShaped(<minecraft:iron_trapdoor>,[
-[<ore:dustRedstone>, null, <ore:dustRedstone>],
-[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-  
 recipes.addShaped(<minecraft:iron_trapdoor>*2,[
 [<ore:dustRedstone>, null, <ore:dustRedstone>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 #Door Iron
-recipes.remove(<minecraft:iron_door>);
 recipes.addShapedMirrored(<minecraft:iron_door>,[
-[<ore:dustRedstone>, <ore:ingotIron>, <ore:ingotIron>],
-[null, <ore:ingotIron>, <ore:ingotIron>],
-[<ore:dustRedstone>, <ore:ingotIron>, <ore:ingotIron>]]);
-
-recipes.addShapedMirrored(<minecraft:iron_door>*2,[
 [<ore:dustRedstone>, <ore:plateIron>, <ore:plateIron>],
 [null, <ore:plateIron>, <ore:plateIron>],
 [<ore:dustRedstone>, <ore:plateIron>, <ore:plateIron>]]);  

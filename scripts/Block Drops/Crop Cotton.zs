@@ -7,7 +7,7 @@ print(".addDrop(Dropt.drop([<ore:theBass>.firstItem]);");
 
 Dropt.list("crop_cotton")
   .add(Dropt.rule()
-      .matchBlocks(["natura:cotton_crop:*"])
+      .matchBlocks(["natura:cotton_crop:0", "natura:cotton_crop:1", "natura:cotton_crop:2", "natura:cotton_crop:3"])
       .addDrop(Dropt.drop()
 	      .selector(Dropt.weight(100))
       )

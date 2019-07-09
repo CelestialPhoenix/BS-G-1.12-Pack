@@ -96,6 +96,8 @@ print("IC what you did there");
 <ore:casingSteel>.add(<ic2:casing:5>);
 <ore:casingTin>.add(<ic2:casing:6>);
 
+<ore:fertilizerOrganic>.add(<ic2:crop_res:2>);
+
 <ore:ingotMixed>.add(<ic2:ingot:0>);
 
 <ore:plateAdvancedalloy>.add(<ic2:crafting:3>);

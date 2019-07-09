@@ -20,6 +20,8 @@ print("IC what you did there");
 <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}).displayName="Insulated Tin Conduit";
 <ic2:cable:5>.withTag({type: 5 as byte, insulation: 0 as byte}).displayName="Power Detection Conduit";
 <ic2:cable:6>.withTag({type: 6 as byte, insulation: 0 as byte}).displayName="Power Splitter Conduit";
+#Fertalizer
+<ic2:crop_res:2>.displayName="Organic Fertalizer";
 
 #---BannedItems---
 #-Circuits-
