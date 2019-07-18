@@ -3,6 +3,11 @@
 
 print("I'll cast my eye on you");
 
+#---Block Casting---
+#Chisel
+mods.tconstruct.Casting.addBasinRecipe(<chisel:lavastone:0>, <ore:stoneCobble>, <liquid:lava>, 200, true, 100);
+mods.tconstruct.Casting.addBasinRecipe(<chisel:waterstone:0>, <ore:stoneCobble>, <liquid:water>, 200, true, 100);
+
 #---Moulds (Reusable)---
 #mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
 

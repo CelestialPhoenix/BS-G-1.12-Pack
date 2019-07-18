@@ -16,6 +16,21 @@ recipes.remove(<minecraft:string>, <natura:materials:3>);
 recipes.remove(<minecraft:string>, <immersiveengineering:material:4>);
 recipes.addShapeless(<minecraft:string>, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 
+#Clay
+recipes.remove(<minecraft:clay_ball>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+
+#Mycelium
+recipes.remove(<minecraft:mycelium>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+
+#Obsidian
+recipes.remove(<minecraft:obsidian>); #Fix this stupid recipe
+
+#Podzol
+recipes.remove(<minecraft:dirt:2>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+
+#Sand
+recipes.remove(<minecraft:sand>, <minecraft:water_bucket>); #Fix BoP bucket stupidity
+
 #Wool
 recipes.remove(<minecraft:wool>, <natura:materials:3>);
 #recipes.remove(<minecraft:wool>, <biomesoplenty:double_plant:1>);
@@ -35,6 +50,7 @@ recipes.addShaped(<minecraft:trapdoor>*2,[
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
 #Trapdoor Iron
+recipes.remove(<minecraft:iron_trapdoor>);
 recipes.addShaped(<minecraft:iron_trapdoor>*2,[
 [<ore:dustRedstone>, null, <ore:dustRedstone>],
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],

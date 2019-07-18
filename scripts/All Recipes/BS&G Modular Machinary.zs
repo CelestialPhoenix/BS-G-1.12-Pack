@@ -122,6 +122,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:0>);
 recipes.addShaped(<modularmachinery:blockinputbus:0>, [
 [<ore:chestWood>],
 [<ore:hullBronze>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:0>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:0>, [<modularmachinery:blockinputbus:0>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:0>, [<modularmachinery:blockoutputbus:0>]);
 
@@ -130,6 +131,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:1>);
 recipes.addShaped(<modularmachinery:blockinputbus:1>, [
 [<ore:chestWood>],
 [<ore:hullSteel>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:1>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:1>, [<modularmachinery:blockinputbus:1>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:1>, [<modularmachinery:blockoutputbus:1>]);
 
@@ -138,6 +140,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:2>);
 recipes.addShaped(<modularmachinery:blockinputbus:2>, [
 [<ore:chestWood>],
 [<ore:hullLV>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:2>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:2>, [<modularmachinery:blockinputbus:2>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:2>, [<modularmachinery:blockoutputbus:2>]);
 
@@ -146,6 +149,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:3>);
 recipes.addShaped(<modularmachinery:blockinputbus:3>, [
 [<ore:chestWood>],
 [<ore:hullMV>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:3>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:3>, [<modularmachinery:blockinputbus:3>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:3>, [<modularmachinery:blockoutputbus:3>]);
 
@@ -154,6 +158,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:4>);
 recipes.addShaped(<modularmachinery:blockinputbus:4>, [
 [<ore:chestWood>],
 [<ore:hullHV>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:4>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:4>, [<modularmachinery:blockinputbus:4>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:4>, [<modularmachinery:blockoutputbus:4>]);
 
@@ -162,6 +167,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:5>);
 recipes.addShaped(<modularmachinery:blockinputbus:5>, [
 [<ore:chestWood>],
 [<ore:hullEV>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:5>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:5>, [<modularmachinery:blockinputbus:5>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:5>, [<modularmachinery:blockoutputbus:5>]);
 
@@ -170,6 +176,7 @@ recipes.removeShaped(<modularmachinery:blockinputbus:6>);
 recipes.addShaped(<modularmachinery:blockinputbus:6>, [
 [<ore:chestWood>],
 [<ore:hullIV>]]);
+recipes.removeShaped(<modularmachinery:blockoutputbus:6>);
 recipes.addShapeless(<modularmachinery:blockoutputbus:6>, [<modularmachinery:blockinputbus:6>]);
 recipes.addShapeless(<modularmachinery:blockinputbus:6>, [<modularmachinery:blockoutputbus:6>]);
 
@@ -180,6 +187,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:0>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:0>, [
 [<ore:pipeSmallCopper>],
 [<ore:hullBronze>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:0>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:0>, [<modularmachinery:blockfluidinputhatch:0>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:0>, [<modularmachinery:blockfluidoutputhatch:0>]);
 
@@ -188,6 +196,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:1>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:1>, [
 [<ore:pipeSmallBronze>],
 [<ore:hullSteel>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:1>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidinputhatch:1>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>, [<modularmachinery:blockfluidoutputhatch:1>]);
 
@@ -196,6 +205,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:2>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>, [
 [<ore:pipeSmallSteel>],
 [<ore:hullLV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:2>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:2>, [<modularmachinery:blockfluidinputhatch:2>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:2>, [<modularmachinery:blockfluidoutputhatch:2>]);
 
@@ -204,6 +214,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:3>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:3>, [
 [<ore:pipeSmallPlastic>],
 [<ore:hullMV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:3>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:3>, [<modularmachinery:blockfluidinputhatch:3>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:3>, [<modularmachinery:blockfluidoutputhatch:3>]);
 
@@ -212,6 +223,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:4>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:4>, [
 [<ore:pipeSmallStainlessSteel>],
 [<ore:hullHV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:4>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:4>, [<modularmachinery:blockfluidinputhatch:4>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:4>, [<modularmachinery:blockfluidoutputhatch:4>]);
 
@@ -220,6 +232,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:5>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:5>, [
 [<ore:pipeSmallTitanium>],
 [<ore:hullEV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:5>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:5>, [<modularmachinery:blockfluidinputhatch:5>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:5>, [<modularmachinery:blockfluidoutputhatch:5>]);
 
@@ -228,6 +241,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:6>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:6>, [
 [<ore:pipeSmallTungstenSteel>],
 [<ore:hullIV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:6>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:6>, [<modularmachinery:blockfluidinputhatch:6>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:6>, [<modularmachinery:blockfluidoutputhatch:6>]);
 
@@ -236,6 +250,7 @@ recipes.removeShaped(<modularmachinery:blockfluidinputhatch:7>);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch:7>, [
 [<ore:pipeLargeTungstenSteel>],
 [<ore:hullLuV>]]);
+recipes.removeShaped(<modularmachinery:blockfluidoutputhatch:7>);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:7>, [<modularmachinery:blockfluidinputhatch:7>]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:7>, [<modularmachinery:blockfluidoutputhatch:7>]);
 
@@ -246,6 +261,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:0>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:0>, [
 [<ore:cableGtSingle>],
 [<ore:hullBronze>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:0>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:0>, [<modularmachinery:blockenergyinputhatch:0>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:0>, [<modularmachinery:blockenergyoutputhatch:0>]);
 
@@ -254,6 +270,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:1>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:1>, [
 [<ore:cableGtSingleRedAlloy>],
 [<ore:hullSteel>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:1>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:1>, [<modularmachinery:blockenergyinputhatch:1>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:1>, [<modularmachinery:blockenergyoutputhatch:1>]);
 
@@ -262,6 +279,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:2>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:2>, [
 [<ore:cableGtSingleTin>],
 [<ore:hullLV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:2>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:2>, [<modularmachinery:blockenergyinputhatch:2>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:2>, [<modularmachinery:blockenergyoutputhatch:2>]);
 
@@ -270,6 +288,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:3>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:3>, [
 [<ore:cableGtSingleCopper>],
 [<ore:hullMV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:3>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:3>, [<modularmachinery:blockenergyinputhatch:3>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:3>, [<modularmachinery:blockenergyoutputhatch:3>]);
 
@@ -278,6 +297,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:4>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:4>, [
 [<ore:cableGtSingleGold>],
 [<ore:hullHV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:4>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:4>, [<modularmachinery:blockenergyinputhatch:4>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:4>, [<modularmachinery:blockenergyoutputhatch:4>]);
 
@@ -286,6 +306,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:5>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:5>, [
 [<ore:cableGtSingleAluminium>],
 [<ore:hullEV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:5>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:5>, [<modularmachinery:blockenergyinputhatch:5>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:5>, [<modularmachinery:blockenergyoutputhatch:5>]);
 
@@ -294,6 +315,7 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:6>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>, [
 [<ore:cableGtSinglePlatinum>],
 [<ore:hullIV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:6>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:6>, [<modularmachinery:blockenergyinputhatch:6>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:6>, [<modularmachinery:blockenergyoutputhatch:6>]);
 
@@ -302,5 +324,6 @@ recipes.removeShaped(<modularmachinery:blockenergyinputhatch:7>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [
 [<ore:cableGtSingleVanadiumGallium>],
 [<ore:hullIV>]]);
+recipes.removeShaped(<modularmachinery:blockenergyoutputhatch:7>);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:7>, [<modularmachinery:blockenergyinputhatch:7>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:7>, [<modularmachinery:blockenergyoutputhatch:7>]);

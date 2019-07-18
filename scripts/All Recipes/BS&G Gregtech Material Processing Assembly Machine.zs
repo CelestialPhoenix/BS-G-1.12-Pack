@@ -36,6 +36,16 @@ theassembler
     .EUt(4)
     .buildAndRegister();
 
+#IC2
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAdvancedalloy>*6, <ore:dustRedstone>.firstItem*2)
+    .outputs(<ic2:reinforced_door>)
+	.property("circuit", 6)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
+
 #Vanilla
 theassembler.findRecipe(4, [<ore:plateIron>.firstItem * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
 theassembler
@@ -57,30 +67,10 @@ theassembler
     .EUt(4)
     .buildAndRegister();
 
-#-Wood Doors-
-#Aether
-theassembler
-    .recipeBuilder()
-    .inputs(<ore:skyrootplanks>.firstItem*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<aether:skyroot_door_item>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
-#BoP
-theassembler.findRecipe(4, [<biomesoplenty:planks_0:0> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<biomesoplenty:planks_0:0>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<biomesoplenty:sacred_oak_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
+#-Metal Trapdoors-
 #Vanilla
-theassembler.findRecipe(4, [<minecraft:planks> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+/*
+theassembler.findRecipe(4, [<minecraft:planks> * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
 theassembler
     .recipeBuilder()
     .inputs(<minecraft:planks>*3, <ore:dustRedstone>.firstItem*2)
@@ -89,53 +79,32 @@ theassembler
     .duration(200)
     .EUt(4)
     .buildAndRegister();
-
+*/
+#-Wood Doors-
+#BoP
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:0> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:1> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:2> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:3> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:4> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:5> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:6> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:7> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:8> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:9> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:10> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:11> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:12> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:13> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:14> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+theassembler.findRecipe(4, [<biomesoplenty:planks_0:15> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
+#Vanilla
+theassembler.findRecipe(4, [<minecraft:planks:0> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
 theassembler.findRecipe(4, [<minecraft:planks:1> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<minecraft:planks:1>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<minecraft:spruce_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 theassembler.findRecipe(4, [<minecraft:planks:2> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<minecraft:planks:2>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<minecraft:birch_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 theassembler.findRecipe(4, [<minecraft:planks:3> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<minecraft:planks:3>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<minecraft:jungle_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 theassembler.findRecipe(4, [<minecraft:planks:4> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<minecraft:planks:4>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<minecraft:acacia_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 theassembler.findRecipe(4, [<minecraft:planks:5> * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
-theassembler
-    .recipeBuilder()
-    .inputs(<minecraft:planks:5>*3, <ore:dustRedstone>.firstItem*2)
-    .outputs(<minecraft:dark_oak_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
+#-Wood Trapdoors-
+#Vanilla
+theassembler.findRecipe(4, [<ore:plankWood>.firstItem * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();

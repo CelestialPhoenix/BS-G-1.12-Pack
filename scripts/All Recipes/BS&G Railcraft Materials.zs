@@ -244,3 +244,26 @@ mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:2>);
 mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:3>);
 mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:4>);
 mods.chisel.Carving.addVariation("Pearlized", <railcraft:brick_pearlized:5>);
+
+#---Items---
+#Bag of Cement
+<railcraft:concrete>.displayName="Cement Powder";
+recipes.remove(<railcraft:concrete>);
+recipes.addShaped(<railcraft:concrete>*4, [
+[<ore:dustQuicklime>, <ore:dustQuicklime>, <ore:dustQuicklime>],
+[<ore:dustQuicklime>, <ore:sand>, <ore:dustQuicklime>], 
+[<ore:dustQuicklime>, <ore:dustQuicklime>, <ore:dustQuicklime>]]);
+
+#---Rails ect---
+#Reinforced Concrete
+recipes.remove(<railcraft:reinforced_concrete>);
+recipes.addShapedMirrored(<railcraft:reinforced_concrete>*8, [
+[<ore:sand>, <railcraft:rebar>, <ore:gravel>],
+[<railcraft:rebar>, <ore:dustCement>, <railcraft:rebar>], 
+[<ore:gravel>, <railcraft:rebar>, <ore:sand>]]);
+
+#Stone Tie
+recipes.remove(<railcraft:tie:1>);
+recipes.addShapedMirrored(<railcraft:tie:1>, [
+[null, <ore:dustCement>, null], 
+[<ore:sand>, <railcraft:rebar>, <ore:gravel>]]);

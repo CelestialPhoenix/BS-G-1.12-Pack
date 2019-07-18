@@ -3,7 +3,7 @@
 
 print("Trust me I'm an engineer");
 
-#Duplicate tools with TFo
+#---Duplicate tools---
 recipes.remove(<immersiveengineering:pickaxe_steel>);
 <immersiveengineering:pickaxe_steel>.displayName="Ancient Steel Pickaxe";
 
@@ -16,4 +16,10 @@ recipes.remove(<immersiveengineering:axe_steel>);
 recipes.remove(<immersiveengineering:sword_steel>);
 <immersiveengineering:sword_steel>.displayName="Ancient Steel Sword";
 
-#New Tool recipes
+#---New Tool Recipes---
+#Jerrycan
+recipes.remove(<immersiveengineering:jerrycan>);
+recipes.addShaped(<immersiveengineering:jerrycan>, [
+[<ore:plateSteel>, <ore:stickSteel>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:dyeGreen>, <ore:plateSteel>], 
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);

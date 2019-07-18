@@ -28,6 +28,15 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#Cement
+mixer
+    .recipeBuilder()
+    .inputs(<ore:sand>.firstItem, <ore:dustQuicklime>*8)
+    .outputs(<railcraft:concrete>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #Compost
 mixer
     .recipeBuilder()

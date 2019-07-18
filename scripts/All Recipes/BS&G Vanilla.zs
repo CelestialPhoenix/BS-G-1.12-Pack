@@ -23,6 +23,10 @@ var piston= <minecraft:piston>;
 recipes.remove(<minecraft:bucket>);
 <minecraft:bucket>.addTooltip("This item is disabled");
 <minecraft:bucket>.addShiftTooltip("This item is still disabled. Pressing shift wont change that. :)");
+
+recipes.remove(<minecraft:water_bucket>);
+furnace.setFuel(<minecraft:lava_bucket>, 0);
+
 #Slime Block
 recipes.remove(<minecraft:slime>);
 <minecraft:slime>.addTooltip("This item is disabled");

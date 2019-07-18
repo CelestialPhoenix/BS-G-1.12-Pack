@@ -40,7 +40,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 <gregtech:meta_item_1:12622>.addTooltip("Zr"); #Plate
 <gregtech:meta_item_1:13622>.addTooltip("Zr"); #Plate Dense
 
-#--Circuit Descriptions--
+#---Tooltips---
 #-Circuits-
 #<metaitem:circuit.>.addTooltip("Circuit");
 <metaitem:circuit.basic>.addTooltip("A Basic Circuit");
@@ -64,6 +64,13 @@ print("Hello Boys- I'm Baaaaack!!!");
 <metaitem:circuit.wetware_assembly>.addTooltip("An Ultimate Circuit");
 <metaitem:circuit.wetware_super_computer>.addTooltip("A Superconductor Circuit");
 <metaitem:circuit.wetware_mainframe>.addTooltip("An Infinite Circuit");
+
+#-Robot Arms-
+<metaitem:robot.arm.hv>.addShiftTooltip("Roboteers stand by");
+<metaitem:robot.arm.hv>.addShiftTooltip("...3!");
+<metaitem:robot.arm.hv>.addShiftTooltip("...2!");
+<metaitem:robot.arm.hv>.addShiftTooltip("...1!");
+<metaitem:robot.arm.hv>.addShiftTooltip(format.bold("ACTIVATE!"));
 
 #---Ore Block Names---
 #<gregtech:ore__0:0>.displayName="";

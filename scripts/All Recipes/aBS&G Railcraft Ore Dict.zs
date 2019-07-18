@@ -78,3 +78,6 @@ print("Handles like its on rails");
 <ore:plateInvar>.remove(<railcraft:plate:9>);
 <ore:plateZinc>.remove(<railcraft:plate:10>);
 <ore:plateBrass>.remove(<railcraft:plate:11>);
+
+#---Ore Dicting---
+<ore:dustCement>.add(<railcraft:concrete>);

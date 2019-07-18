@@ -23,21 +23,27 @@ mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:15>);
 #--Dusts--
 #bronze
 recipes.remove(<ic2:dust:0>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:0>);
 <ic2:dust:0>.addTooltip("This item is disabled");
 #clay
 recipes.remove(<ic2:dust:1>);
 <ic2:dust:1>.addTooltip("This item is disabled");
 #coal
 recipes.remove(<ic2:dust:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:2>);
 <ic2:dust:2>.addTooltip("This item is disabled");
 #hydrated coal
 recipes.remove(<ic2:dust:3>);
 <ic2:dust:0>.addTooltip("This item is disabled");
+#hydrated tin
+recipes.remove(<ic2:dust:29>);
+<ic2:dust:29>.addTooltip("This item is disabled");
 #copper
 recipes.remove(<ic2:dust:4>);
 <ic2:dust:4>.addTooltip("This item is disabled");
 #diamond
 recipes.remove(<ic2:dust:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:5>);
 <ic2:dust:5>.addTooltip("This item is disabled");
 #energium
 recipes.remove(<ic2:dust:0>);
@@ -50,6 +56,7 @@ recipes.remove(<ic2:dust:8>);
 <ic2:dust:0>.addTooltip("This item is disabled");
 #lapis
 recipes.remove(<ic2:dust:9>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:9>);
 <ic2:dust:9>.addTooltip("This item is disabled");
 #lead
 recipes.remove(<ic2:dust:10>);
@@ -59,6 +66,7 @@ recipes.remove(<ic2:dust:11>);
 <ic2:dust:11>.addTooltip("This item is disabled");
 #obsidian
 recipes.remove(<ic2:dust:12>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:12>);
 <ic2:dust:12>.addTooltip("This item is disabled");
 #silicon dioxide
 #silver
@@ -70,6 +78,7 @@ recipes.remove(<ic2:dust:16>);
 <ic2:dust:16>.addTooltip("This item is disabled");
 #tin
 recipes.remove(<ic2:dust:17>);
+mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:17>);
 <ic2:dust:17>.addTooltip("This item is disabled");
 
 #--Dust Tiny--
@@ -96,6 +105,48 @@ recipes.remove(<ic2:ingot:6>);
 furnace.remove(<ic2:ingot:6>);
 <ic2:ingot:6>.addTooltip("This item is disabled");
 
+#--Plates--
+#Bronze
+recipes.remove(<ic2:plate:0>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:0>); #generic plates
+<ic2:plate:0>.addTooltip("This item is disabled");
+#Copper
+recipes.remove(<ic2:plate:1>);
+<ic2:plate:1>.addTooltip("This item is disabled");
+#Gold
+recipes.remove(<ic2:plate:2>);
+<ic2:plate:2>.addTooltip("This item is disabled");
+#Iron
+recipes.remove(<ic2:plate:3>);
+<ic2:plate:3>.addTooltip("This item is disabled");
+#Lapis
+<ic2:plate:4>.addTooltip("This item is disabled");
+#Iron
+recipes.remove(<ic2:plate:4>);
+<ic2:plate:4>.addTooltip("This item is disabled");
+#Lead
+recipes.remove(<ic2:plate:5>);
+<ic2:plate:5>.addTooltip("This item is disabled");
+#Obsidian
+<ic2:plate:6>.addTooltip("This item is disabled");
+#Steel
+<ic2:plate:7>.addTooltip("This item is disabled");
+#Tin
+<ic2:plate:8>.addTooltip("This item is disabled");
+#All
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:*>); #generic plates
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>); #iridium alloy plate
+
+#Plate Dense
+<ic2:plate:9>.addTooltip("This item is disabled");
+<ic2:plate:10>.addTooltip("This item is disabled");
+<ic2:plate:11>.addTooltip("This item is disabled");
+<ic2:plate:12>.addTooltip("This item is disabled");
+<ic2:plate:13>.addTooltip("This item is disabled");
+<ic2:plate:14>.addTooltip("This item is disabled");
+<ic2:plate:15>.addTooltip("This item is disabled");
+<ic2:plate:16>.addTooltip("This item is disabled");
+<ic2:plate:17>.addTooltip("This item is disabled");
 
 #---Recipes---
 

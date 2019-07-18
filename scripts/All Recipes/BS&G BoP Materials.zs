@@ -53,6 +53,10 @@ mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:7>);
 recipes.addShapeless(<ore:gemAmber>.firstItem, [<biomesoplenty:gem:7>]);
 <biomesoplenty:gem:7>.displayName="Cut Amber";
 
+#-Materials-
+#Clay
+recipes.remove(<biomesoplenty:mud>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+
 #---Removed recipes---
 #recipes.removeShaped(<>);
 #storage blocks

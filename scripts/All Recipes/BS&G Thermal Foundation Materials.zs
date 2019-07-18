@@ -198,6 +198,8 @@ recipes.remove(<thermalfoundation:material:227>);
 recipes.remove(<thermalfoundation:material:228>);
 #Copper
 recipes.remove(<thermalfoundation:material:192>);
+#Diamond
+recipes.remove(<thermalfoundation:material:16>);
 #Enderium
 recipes.remove(<thermalfoundation:material:231>);
 #Electrum

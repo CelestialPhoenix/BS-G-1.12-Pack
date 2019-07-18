@@ -74,3 +74,20 @@ recipes.addShaped(<tconstruct:stone_torch>, [
 recipes.addShaped(<tconstruct:stone_torch>*2, [
 [<ore:fuelCoke>],
 [<ore:stickStone>]]);
+
+#Tinker Tank
+recipes.remove(<tconstruct:tinker_tank_controller>);
+recipes.addShaped(<tconstruct:tinker_tank_controller>, [
+[<ore:plateIron>, <ore:ingotBrickSeared>, <ore:plateIron>],
+[<ore:ingotBrickSeared>, <ore:plateIron>, <ore:ingotBrickSeared>], 
+[<ore:plateIron>, <ore:ingotBrickSeared>, <ore:plateIron>]]);
+
+recipes.addShaped(<tconstruct:tinker_tank_controller>, [
+[<ore:plateWroughtIron>, <ore:ingotBrickSeared>, <ore:plateWroughtIron>],
+[<ore:ingotBrickSeared>, <ore:plateWroughtIron>, <ore:ingotBrickSeared>], 
+[<ore:plateWroughtIron>, <ore:ingotBrickSeared>, <ore:plateWroughtIron>]]);
+
+recipes.addShaped(<tconstruct:tinker_tank_controller>, [
+[<ore:plateSteel>, <ore:ingotBrickSeared>, <ore:plateSteel>],
+[<ore:ingotBrickSeared>, <ore:plateSteel>, <ore:ingotBrickSeared>], 
+[<ore:plateSteel>, <ore:ingotBrickSeared>, <ore:plateSteel>]]);

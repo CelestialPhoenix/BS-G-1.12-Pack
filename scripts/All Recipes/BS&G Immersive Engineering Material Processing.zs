@@ -103,6 +103,8 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem, <or
 
 #---Bottling Plant---
 #mods.immersiveengineering.BottlingMachine.addRecipe(<output>, <input>, <liquid:input>*amount);
+mods.immersiveengineering.BottlingMachine.addRecipe(<chisel:lavastone>, <ore:stoneCobble>, <liquid:lava>*100);
+mods.immersiveengineering.BottlingMachine.addRecipe(<chisel:waterstone>, <ore:stoneCobble>, <liquid:water>*100);
 
 #Gearbox filling
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxsteel>, <contenttweaker:gearboxemptysteel>, <liquid:lubricant>*1000);
@@ -127,9 +129,8 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalz>.firstItem*3, <ore:r
 
 #---Metal Press---
 #--removed recipes--
-#IC2 plates [plate mould]
-mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:*>); #generic plates
-mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>); #iridium alloy plate
+#IC2 plates [plate mould]- in IC2 Materials.zs
+
 #ImEng Electrode
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
 #Thermal foundation plates/gears see Thermal Foundation Materials.zs

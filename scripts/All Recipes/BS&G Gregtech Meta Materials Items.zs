@@ -1236,16 +1236,16 @@ recipes.addShaped(<ore:rotorTitanium>.firstItem, [
 #Bronze
 recipes.remove(<ore:rotorBronze>.firstItem);
 recipes.addShaped(<ore:rotorBronze>.firstItem, [
-[<ore:plate>, <ore:screw>, <ore:plate>], 
-[<ore:screw>, <ore:ring>, <ore:screw>], 
-[<ore:plate>, <ore:screw>, <ore:plate>]]);
+[<ore:plateBronze>, <ore:screwBronze>, <ore:plateBronze>], 
+[<ore:screwBronze>, <ore:ringBronze>, <ore:screwBronze>], 
+[<ore:plateBronze>, <ore:screwBronze>, <ore:plateBronze>]]);
 
 #Stainless
 recipes.remove(<ore:rotorStainlessSteel>.firstItem);
 recipes.addShaped(<ore:rotorStainlessSteel>.firstItem, [
-[<ore:plateStainless>, <ore:screwStainless>, <ore:plateStainless>], 
-[<ore:screwStainless>, <ore:ringStainless>, <ore:screwStainless>], 
-[<ore:plateStainless>, <ore:screwStainless>, <ore:plateStainless>]]);
+[<ore:plateStainlessSteel>, <ore:screwStainlessSteel>, <ore:plateStainlessSteel>], 
+[<ore:screwStainlessSteel>, <ore:ringStainlessSteel>, <ore:screwStainlessSteel>], 
+[<ore:plateStainlessSteel>, <ore:screwStainlessSteel>, <ore:plateStainlessSteel>]]);
 
 #Steel
 recipes.remove(<ore:rotorSteel>.firstItem);

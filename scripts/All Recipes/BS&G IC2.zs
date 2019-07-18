@@ -24,6 +24,10 @@ print("IC what you did there");
 <ic2:crop_res:2>.displayName="Organic Fertalizer";
 
 #---BannedItems---
+#-Cells-
+recipes.remove(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "lava", Amount: 1000}})); #Lava Cell
+recipes.remove(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})); #Water Cell
+
 #-Circuits-
 #use Gtech Circuits
 recipes.removeShaped(<ic2:crafting:2>);
@@ -58,6 +62,17 @@ recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as by
 #gold
 recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
 
+#--Items--
+#Coffee
+recipes.remove(<ic2:mug:1>);
+
+#TFBP
+recipes.remove(<ic2:tfbp:5>);
+recipes.addShaped(<ic2:tfbp:5>, [
+[null, <ore:sugarcane>, null],
+[<ore:sugarcane>, <ic2:tfbp>, <ore:coilSimple>], 
+[null, <ore:sugarcane>, null]]);
+
 #--Machines--
 #Generator
 recipes.remove(<ic2:te:3>);
@@ -66,4 +81,13 @@ recipes.addShaped(<ic2:te:3>, [
 [<ore:coilSimple>, <ore:casingLV>, <ore:coilSimple>], 
 [<ore:ringSteel>, <minecraft:furnace>, <ore:ringSteel>]]);
 <ic2:te:3>.displayName="Sterling Generator";
-<ic2:te:3>.addTooltip("Produces 40Rf/t");
+<ic2:te:3>.addTooltip("Generates 40Rf/t");
+
+recipes.remove(<ic2:te:56>); #Ore Washer
+#--Misc--
+#Reinforced Door
+recipes.remove(<ic2:reinforced_door>);
+recipes.addShapedMirrored(<ic2:reinforced_door>, [
+[<ore:plateAdvancedalloy>, <ore:plateAdvancedalloy>, <ore:dustRedstone>],
+[<ore:plateAdvancedalloy>, <ore:plateAdvancedalloy>, null], 
+[<ore:plateAdvancedalloy>, <ore:plateAdvancedalloy>, <ore:dustRedstone>]]);

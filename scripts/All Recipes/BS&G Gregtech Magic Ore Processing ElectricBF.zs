@@ -936,6 +936,373 @@ electricBF
     .EUt(1000)
     .buildAndRegister();
 
+#----Native Clusters----
+/*
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:cluster>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dust>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+*/
+
+
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterAluminium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustCorundum>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterAntimony>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustAntimonate>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterBeryllium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustBromellite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterBismuth>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustBismite>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+#Cinnabar doesn't exist. See Quiclsilver
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterChrome>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustEskolaite>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterCobalt>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustCobaltic>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterCopper>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustCuprite>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+	
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterGold>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustAurite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterIridium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dust>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterIron>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustBandedIron>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterLead>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustLithrage>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterLithium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustLithia>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterMagnesium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustMagnesia>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterManganese>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustPyrolusite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterMolybdenum>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustMolybdite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterNeodymium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustDidymium>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterNaquadah>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustNaquoxiite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterNaquadria>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustNaquothxa>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterNickel>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustGarnierite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterOsmium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustOsmiite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterPalladium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustPallas>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterPlatinum>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustSheldite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterPotassium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustPotash>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterQuicksilver>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustMolybdenite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterSilver>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustArgite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterSodium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustNatria>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterTantalum>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustColtan>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterTin>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustCassiterite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterTitanium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustRutile>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterThorium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustThorianite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterUranium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustUraninite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterVanadium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustParamontroseite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterYttrium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustYttria>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterZinc>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustZincite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterZirconium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustBaddeleyite>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
 #----Minerals from Rock/Stone ect----	
 electricBF
     .recipeBuilder()
@@ -988,6 +1355,8 @@ electricBF
 #Sapphire
 #Green Sapphire
 #Magnesia
+#---Tin---
+#Cassiterite
 #---Saltpeter/Nitre---
 #Potash
 #---Gold/Quartz Group---
@@ -1238,6 +1607,18 @@ electricBF
     .inputs(<ore:dustMagnesia>.firstItem, <ore:dustCarbon>.firstItem*8, <ore:dustMagicCatalyst>.firstItem*1)
     .outputs(<ore:ingotMagnesium>.firstItem)
 	.outputs(<ore:nuggetMagnesium>.firstItem*3)
+	.fluidOutputs([<liquid:carbon_dioxide>*24000])
+	.property("temperature", 1700)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+#---Tin Group---
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustCassiterite>.firstItem, <ore:dustCarbon>.firstItem*8, <ore:dustMagicCatalyst>.firstItem*1)
+    .outputs(<ore:ingotTin>.firstItem)
+	.outputs(<ore:nuggetTin>.firstItem*)
 	.fluidOutputs([<liquid:carbon_dioxide>*24000])
 	.property("temperature", 1700)
     .duration(600)

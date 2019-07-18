@@ -24,14 +24,13 @@ var cobalt = <material:cobalt>;
 cobalt.addFlags(["GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
 
 var copper = <material:copper>;
-copper.addFlags(["GENERATE_RING"]);
+copper.addFlags(["GENERATE_RING", "GENERATE_DENSE"]);
 
 var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
 
-#var chrome = <material:chrome> as DustMaterial;
-#chrome.addFlags(["GENERATE_ORE"]);
-#chrome.oreByProducts += <material:copper>;
+var gold = <material:gold>;
+gold.addFlags(["GENERATE_DENSE"]);
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -92,7 +91,7 @@ ingotzirconum.addFlags("GENERATE_PLATE", "GENERATE_ORE");
 #---New Ores---
 #Bertrandite
 val gembertrandite = MaterialRegistry.createGemMaterial(510, "bertrandite", 0x0F3E4E2, "gem_horizontal", 1, [<material:beryllium>*4, <material:silicon>*2, <material:oxygen>*9, <material:hydrogen>*2], 1.0, 0);
-gembertrandite.addFlags("GENERATE_ORE", "NO_SMELTING");
+gembertrandite.addFlags("GENERATE_ORE", "NO_SMELTING", "HIGH_SIFTER_OUTPUT");
 #gembertrandite.oreByProducts += (<material:copper>);
 
 #Electrotine
@@ -101,7 +100,7 @@ dustElectrotine.addFlags("GENERATE_ORE", "DECOMPOSITION_BY_CENTRIFUGING");
 
 #Euclase
 val gemeuclase = MaterialRegistry.createGemMaterial(512, "euclase", 0x7AD4EF, "gem_vertical", 1, [<material:beryllium>*1, <material:aluminium>*1, <material:silicon>*1, <material:oxygen>*5, <material:hydrogen>*1], 1.0, 0);
-gemeuclase.addFlags("GENERATE_ORE");
+gemeuclase.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Huttonite
 val gemhuttonite = MaterialRegistry.createGemMaterial(513, "huttonite", 0x29491E, "gem_horizontal", 1, [<material:thorium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
@@ -113,12 +112,12 @@ dustCoffinite.addFlags("GENERATE_ORE");
 
 #Thorite
 val gemthorite = MaterialRegistry.createGemMaterial(515, "thorite", 0x744214, "gem_vertical", 1, [<material:thorium>*1, <material:uranium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
-gemthorite.addFlags("GENERATE_ORE");
+gemthorite.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Zircon
 #val gemzircon = MaterialRegistry.createGemMaterial(516, "zircon", 0xF1B7B7, "gem_vertical", 3, [<material:zirconium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
 val gemzircon = MaterialRegistry.createGemMaterial(516, "zircon", 0xF1B7B7, "gem_vertical", 3, null, 1.0, 0);
-gemzircon.addFlags("GENERATE_ORE");
+gemzircon.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Psudobrookite
 val gempsudobrookite = MaterialRegistry.createGemMaterial(517, "psudobrookite", 0x1B1B1B, "gem_horizontal", 3, [<material:iron>*1, <material:rutile>*1, <material:oxygen>*3], 1.0, 0);
@@ -182,7 +181,7 @@ dustNaqulinite.addFlags("GENERATE_ORE");
 
 #Naquarrite
 val gemNaquarrite  = MaterialRegistry.createGemMaterial(532, "naquarrite", 0x200000, "gem_horizontal", 6, [<material:nickel>*1, <material:naquadria>*1, <material:cobalt>*1, <material:naquadite>*2, <material:hydrogen>*3, <material:silicon>*1]);
-gemNaquarrite .addFlags("GENERATE_ORE");
+gemNaquarrite .addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Xifengite
 val dustXifengite = MaterialRegistry.createDustMaterial(533, "xifengite", 0x888888, "shiny", 5, [<material:iron>*5, <material:silicon>*3]);
@@ -206,11 +205,11 @@ dustGoslarite.addFlags("GENERATE_ORE");
 
 #Uytenbogaardtite
 val gemUytenbogaardite = MaterialRegistry.createGemMaterial(538, "uytenbogaardtite", 0x551515, "ruby", 4, [<material:silver>*3, <material:gold>*1, <material:sulfur>*2]);
-gemUytenbogaardite.addFlags("GENERATE_ORE");
+gemUytenbogaardite.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Xanthoconite
 val gemXanthoconite = MaterialRegistry.createGemMaterial(539, "xanthoconite", 0xB55917, "gem_vertical", 4, [<material:silver>*3, <material:arsenic>*1, <material:sulfur>*3]);
-gemXanthoconite.addFlags("GENERATE_ORE");
+gemXanthoconite.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #[S]-Skaergaardite
 val dustSSkaergaardite = MaterialRegistry.createDustMaterial(540, "skaergaardite_s", 0x7A6455, "shiny", 5, [<material:palladium>*4, <material:copper>*3, <material:sulfur>*3]);
@@ -321,6 +320,9 @@ val dustNaquothxa = MaterialRegistry.createDustMaterial(591, "naquothxa", 0x0000
 
 #Montroydite
 val dustMontroydite = MaterialRegistry.createDustMaterial(592, "montroydite", 0xFF3300, "dull", 1, [<material:mercury>*1, <material:oxygen>*1]);
+
+#Osmiite
+val dustOsmiite = MaterialRegistry.createDustMaterial(592, "osmiite", 0x101030, "dull", 1, [<material:osmium>*1, <material:oxygen>*4]);
 
 #--Mixed Oxides--
 #Scorched Earth

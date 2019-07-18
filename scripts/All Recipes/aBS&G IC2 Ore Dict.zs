@@ -85,6 +85,17 @@ print("IC what you did there");
 <ore:plateSteel>.remove(<ic2:plate:7>);
 <ore:plateTin>.remove(<ic2:plate:8>);
 
+#plates dense
+<ore:plateDenseBronze>.remove(<ic2:plate:9>);
+<ore:plateDenseCopper>.remove(<ic2:plate:10>);
+<ore:plateDenseGold>.remove(<ic2:plate:11>);
+<ore:plateDenseIron>.remove(<ic2:plate:12>);
+<ore:plateDenseLapis>.remove(<ic2:plate:13>);
+<ore:plateDenseLead>.remove(<ic2:plate:14>);
+<ore:plateDenseObsidian>.remove(<ic2:plate:15>);
+<ore:plateDenseSteel>.remove(<ic2:plate:16>);
+<ore:plateDenseTin>.remove(<ic2:plate:17>);
+
 #ore dict 
 <ore:ballRubber>.add(<ic2:crafting:0>);
 

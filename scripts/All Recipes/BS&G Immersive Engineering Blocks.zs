@@ -80,6 +80,14 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
 
+#---Decorative Blocks---
+#-Concrete-
+recipes.removeShaped(<immersiveengineering:stone_decoration:5>);
+recipes.addShaped(<immersiveengineering:stone_decoration:5>*8, [
+[<ore:sand>, <ore:blockGravel>, <ore:sand>],
+[<ore:blockGravel>, <ore:dustCement>, <ore:blockGravel>], 
+[<ore:sand>, <ore:blockGravel>, <ore:sand>]]);
+
 #---dynamo---
 recipes.removeShaped(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [

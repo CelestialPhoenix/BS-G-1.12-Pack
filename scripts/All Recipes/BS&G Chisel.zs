@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears Chisel.zs
+#Name: Blood Sweat & Gears Chisel Materials.zs
 #Author: PhoePhoe
 
 print("A chip of the old block");
@@ -74,4 +74,8 @@ print("A chip of the old block");
 <unlimitedchiselworks:chisel_stonebrick2_primal_eroded_end_stone_3:6>.displayName="Eroded Xenolith Brick";
 <unlimitedchiselworks:chisel_stonebrick2_primal_eroded_end_stone_3:7>.displayName="Eroded Xenolith Brick";
 
+#---Recipes---
+#Recipes in respective mod material processing.zs
+recipes.removeShaped(<chisel:lavastone:0>);
+recipes.removeShaped(<chisel:waterstone:0>);
 
