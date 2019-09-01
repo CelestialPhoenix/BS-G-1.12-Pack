@@ -39,7 +39,7 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 [<ore:pistonIV>, <ore:ringTungstenSteel>, <ore:pistonIV>], 
 [<ore:toolHeadDrillTungstenCarbide>, <ore:pistonIV>, <ore:circuitMaster>]]);
 
-#---Industrial Crafting Unit---
+/*#---Industrial Crafting Unit---
 
 #autocrafter basic
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:autocrafter_basic"}), [
@@ -76,7 +76,7 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 [<ore:robotarmLV>, <ore:circuitGood>, <ore:robotarmLV>],
 [<ore:ringSteel>, <ore:plateSteel>, <ore:ringSteel>], 
 [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]]);
-
+*/
 #---Lathe---
 
 #lathe_basic
@@ -109,4 +109,8 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 [<ore:motorIV>, <ore:ringTungstenSteel>, <ore:stickTungstenSteel>], 
 [<ore:circuitMaster>, <ore:plateTungstenSteel>, <ore:circuitMaster>]]);
 
-#mixing plant?
+#---Sifting Table---
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_basic"}), [
+[<ore:cableGtSingleTin>, null, <ore:cableGtSingleTin>],
+[null, <ore:cableGtSingleTin>, null], 
+[<ore:circuitBasic>, <ore:plateSteel>, <ore:circuitBasic>]]);
