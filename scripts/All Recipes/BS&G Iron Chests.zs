@@ -4,7 +4,7 @@
 print("Stop staring at my chest");
 
 #name items
-
+#norun
 #ore dict listings
 <ore:chestSteel>.add(<ironchest:iron_chest:0>);
 <ore:chestGold>.add(<ironchest:iron_chest:1>);

@@ -81,7 +81,7 @@ print("IC what you did there");
 <ore:plateIron>.remove(<ic2:plate:3>);
 <ore:plateLapis>.remove(<ic2:plate:4>);
 <ore:plateLead>.remove(<ic2:plate:5>);
-<ore:plateObsidian>.remove(<ic2:plate:6>);
+#<ore:plateObsidian>.remove(<ic2:plate:6>); #This item is needed!!
 <ore:plateSteel>.remove(<ic2:plate:7>);
 <ore:plateTin>.remove(<ic2:plate:8>);
 

@@ -6,8 +6,22 @@ print("Going Primal. Not unlike going commando");
 #--Bricks and Blocks--
 furnace.remove(<ore:ingotIron>, <ore:oreIron>);
 
-#Adobe brick
-furnace.addRecipe(<primal:adobe_brick_dry>, <primal:adobe_clump>, 0.0);
+#Wet Bricks
+recipes.addShapeless(<primal:mud_brick_wet>, [<primal:mud_clump>, <primal:mud_clump>]);
+recipes.addShapeless(<primal:terra_brick_wet>, [<primal:terra_clump>, <primal:terra_clump>]);
+recipes.addShapeless(<primal:cinis_brick_wet>, [<primal:cinis_clump>, <primal:cinis_clump>]);
+recipes.addShapeless(<primal:adobe_brick_wet>, [<primal:adobe_clump>, <primal:adobe_clump>]);
+
+#Dry Bricks
+recipes.remove(<primal:terra_brick_dry>);
+recipes.addShapeless(<primal:terra_brick_dry>*4, [<primal:terracotta_block>]);
+
+recipes.remove(<primal:cinis_brick_dry>);
+recipes.addShapeless(<primal:cinis_brick_dry>*4, [<primal:ciniscotta_block>]);
+
+recipes.remove(<primal:adobe_brick_dry>);
+recipes.addShapeless(<primal:adobe_brick_dry>*4, [<primal:adobe_brick>]);
+
 #Adobe mix
 recipes.remove(<primal:adobe_clump>);
 recipes.addShapeless(<primal:adobe_clump>, [<ore:ballmud>, <ore:thatchingWet>]);

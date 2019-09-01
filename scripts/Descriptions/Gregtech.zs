@@ -8,7 +8,7 @@
 //Draws 1 amp, up to its design voltage.
 //Must provide sufficient power to complete the recipe.
 //Will not attempt to process recipes which exceed its voltage rating.
-
+//Overclocking- 2.7x faster, 4x power usage
 #-Electric Multi Block-
 //Each energy input hatch can draw 2 amps
 //Multiple energy hatches can be used to provide more power and 'overclock' the machine

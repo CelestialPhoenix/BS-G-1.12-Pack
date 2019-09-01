@@ -127,8 +127,8 @@ recipes.remove(<ic2:plate:4>);
 #Lead
 recipes.remove(<ic2:plate:5>);
 <ic2:plate:5>.addTooltip("This item is disabled");
-#Obsidian
-<ic2:plate:6>.addTooltip("This item is disabled");
+#Obsidian- This item is needed!!
+#<ic2:plate:6>.addTooltip("This item is disabled");
 #Steel
 <ic2:plate:7>.addTooltip("This item is disabled");
 #Tin

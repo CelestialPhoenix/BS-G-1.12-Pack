@@ -127,16 +127,10 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Ores---
 #<ore:ore>.add(<contenttweaker:ore>);
-<ore:oreAnthracite>.add(<contenttweaker:oreanthracite>);
-<ore:oreAnthracite>.add(<contenttweaker:oreanthraciteloose>);
 <ore:oreDiamond>.add(<contenttweaker:orediamondloose>);
 <ore:oreDiamond>.add(<contenttweaker:orediamond>);
-<ore:oreLignite>.add(<contenttweaker:orelignite>);
-<ore:oreLignite>.add(<contenttweaker:oreligniteloose>);
 <ore:oreSaltpeter>.add(<contenttweaker:oresoulnitre>);
 <ore:oreRedstone>.add(<contenttweaker:oreredstone>);
-
-<ore:oreLignite>.add(<contenttweaker:oredirtlignite>);
 
 #Abyssal
 #<ore:ore>.add(<contenttweaker:oreabyssal>);
@@ -156,6 +150,9 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreThorite>.add(<contenttweaker:orebasaltthorite>);
 <ore:oreZircon>.add(<contenttweaker:orebasaltzircon>);
 
+#Dirt
+<ore:oreLignite>.add(<contenttweaker:oredirtlignite>);
+
 #Dolomite
 #<ore:ore>.add(<contenttweaker:oredolomite>);
 <ore:oreMagnesite>.add(<contenttweaker:oredolomitemagnesite>);
@@ -172,12 +169,6 @@ print("Tweak Tweak Tweak Tweak");
 #<ore:ore>.add(<contenttweaker:oreendstone>);
 <ore:oreBrannerite>.add(<contenttweaker:oreendstonebrannerite>);
 <ore:oreUraninite>.add(<contenttweaker:oreendstoneuraninite>);
-
-#Lodestone
-#<ore:ore>.add(<contenttweaker:orelodestone>);
-<ore:oreGold>.add(<contenttweaker:orelodestonegold>);
-<ore:oreMagnetite>.add(<contenttweaker:orelodestonemagnetite>);
-<ore:oreVanadiumMagnetite>.add(<contenttweaker:orelodestonevanadiummagnetite>);
 
 #Marble
 <ore:oreLapis>.add(<contenttweaker:oremarblelapis>);

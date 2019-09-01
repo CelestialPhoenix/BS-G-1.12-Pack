@@ -19,6 +19,13 @@ print("Going Primal. Not unlike going commando");
 <primal:eroded_end_stone:6>.displayName="Mysterious Eroded Xenolith";
 <primal:eroded_end_stone:7>.displayName="Eroded Xenolith Pillar";
 <primal:wall:11>.displayName="Eroded Xenolith Wall";
+
+#---Disabled Items---
+recipes.remove(<primal:kiln_adobe>);//stock item due to be removed
+<primal:kiln_adobe>.addTooltip("This is up to the mod dev- nothing to do with the pack");
+
+#---Recipes---
+
 #--Crafting tables--
 recipes.remove(<primal:worktable_shelf>);
 recipes.addShaped(<primal:worktable_shelf>, [

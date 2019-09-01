@@ -322,7 +322,7 @@ val dustNaquothxa = MaterialRegistry.createDustMaterial(591, "naquothxa", 0x0000
 val dustMontroydite = MaterialRegistry.createDustMaterial(592, "montroydite", 0xFF3300, "dull", 1, [<material:mercury>*1, <material:oxygen>*1]);
 
 #Osmiite
-val dustOsmiite = MaterialRegistry.createDustMaterial(592, "osmiite", 0x101030, "dull", 1, [<material:osmium>*1, <material:oxygen>*4]);
+val dustOsmiite = MaterialRegistry.createDustMaterial(593, "osmiite", 0x101030, "dull", 1, [<material:osmium>*1, <material:oxygen>*4]);
 
 #--Mixed Oxides--
 #Scorched Earth

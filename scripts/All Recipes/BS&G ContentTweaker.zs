@@ -415,7 +415,7 @@ recipes.addShapeless(<contenttweaker:mouldhull>, [<contenttweaker:hullwax>, <con
 recipes.addShapeless(<contenttweaker:mouldpipemedium>, [<contenttweaker:pipemediumwax>, <contenttweaker:castraw>]);
 
 #mould pipe small
-recipes.addShaped(<contenttweaker:mouldrings>, [
+recipes.addShaped(<contenttweaker:mouldpipesmall>, [
 [null, <ore:pipeSmallWax>, null],
 [<ore:pipeSmallWax>, <contenttweaker:castraw>, <ore:pipeSmallWax>], 
 [null, <ore:pipeSmallWax>, null]]);
