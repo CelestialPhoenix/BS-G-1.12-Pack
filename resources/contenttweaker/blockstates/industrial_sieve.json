@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "contenttweaker:blocks/machines/industrial_sieve_top",
+	  "down": "contenttweaker:blocks/machines/industrial_sieve_bottom",
+	  "north": "contenttweaker:blocks/machines/industrial_sieve_side",
+	  "south": "contenttweaker:blocks/machines/industrial_sieve_side",
+	  "east": "contenttweaker:blocks/machines/industrial_sieve_side",
+	  "west": "contenttweaker:blocks/machines/industrial_sieve_side",
+	  "particle": "contenttweaker:blocks/machines/industrial_sieve_side"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

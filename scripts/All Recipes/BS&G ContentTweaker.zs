@@ -270,6 +270,12 @@ recipes.addShaped(<contenttweaker:rollers>, [
 [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>], 
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
+#sieves
+recipes.addShaped(<contenttweaker:industrial_sieve>*3, [
+[<ore:plankTreatedWood>, <ore:barsIron>, <ore:plankTreatedWood>],
+[<ore:plankTreatedWood>, null, <ore:plankTreatedWood>], 
+[<ore:plankTreatedWood>, <ore:filterItem>, <ore:plankTreatedWood>]]);
+
 #--mechanical components--
 #for iron/steel see immersive engineering files
 #aluminium

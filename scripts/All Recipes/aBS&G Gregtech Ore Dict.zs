@@ -20,6 +20,12 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:itemResistor>.add(<metaitem:component.resistor>);
 <ore:itemDiode>.add(<metaitem:component.diode>);
 
+#-filters-
+<ore:filterItem>.add(<metaitem:item_filter>);
+<ore:filterSmart>.add(<metaitem:smart_item_filter>);
+<ore:filterFluid>.add(<metaitem:fluid_filter>);
+<ore:filterOreDict>.add(<metaitem:ore_dictionary_filter>);
+
 #-ingots-
 #<ore:ingotManasteel>.remove(<metaitem:manasteel.ingot>);
 #---machine blocks---

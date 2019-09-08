@@ -1,3 +1,5 @@
+//---New Materials---
+//-Materials-
 material.adamantium=Adamantium
 material.ardite=Ardite
 material.enderium=Enderium
@@ -12,6 +14,7 @@ material.tungsten_thorium_alloy=Tungsten-Thorium Alloy
 material.void_metal=Void Metal
 material.cobalt_magnetic=Magnetic Cobalt
 
+//-Ores-
 material.bertrandite=Bertrandite
 material.euclase=Euclase
 material.electrotine=Electrotine
@@ -48,6 +51,7 @@ material.xanthoconite=Xanthoconite
 material.skaergaardite_s=[S]-Skaergaardite
 material.bowieite_ir=[Ir]-Bowieite
 
+//-Oxides-
 material.lithrage=Lithrage
 material.argite=Argite
 material.corundum=Corundum
@@ -83,6 +87,7 @@ material.naquothxa=Naquothxa
 material.montroydite=Montroydite
 material.osmiite=Osmiite
 
+//-Complex Oxides-
 material.scorched_sodalite=Scorched Sodalite
 material.scorched_redstone=Scorched Redstone
 material.scorched_pyrope=Scorched Pyrope
@@ -108,6 +113,7 @@ material.scorched_naquarrite=Scorched Naquarrite
 material.scorched_clay=Scorched Clay
 material.scorched_sheldonite=Scorched Sheldonite
 
+//---Renamed Gtech Materials---
 material.cooperite=Cooperite
 material.endstone=Xenolith
 material.sulfur=Sulphur
@@ -116,3 +122,19 @@ material.tungstate=(Li)-Tungstate
 
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
+
+//---Renamed Gtech Blocks/Items---
+item.coal.gemExquisite=Huge Lump of Coal
+item.coal.gemFlawless=Large Lump of Coal
+item.coal.gemFlawed=Small Lump of Coal
+item.coal.gemChipped=Tiny Lump of Coal
+
+item.coke.gemExquisite=Huge Lump of Coal Coke
+item.coke.gemFlawless=Large Lump of Coal Coke
+item.coke.gemFlawed=Small Lump of Coal Coke
+item.coke.gemChipped=Tiny Lump of Coal Coke
+
+item.lignite.gemExquisite=Huge Lump of Lignite Coal
+item.lignite.gemFlawless=Large Lump of Lignite Coal
+item.lignite.gemFlawed=Small Lump of Lignite Coal
+item.lignite.gemChipped=Tiny Lump of Lignite Coal

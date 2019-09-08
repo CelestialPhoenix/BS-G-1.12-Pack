@@ -279,6 +279,8 @@ tile.contenttweaker.hullsteel.name=Machine Hull
 tile.contenttweaker.hulltitanium.name=Machine Hull IV
 tile.contenttweaker.hulltungstensteel.name=Machine Hull V
 
+tile.contenttweaker.industrial_sieve.name=Industrial Sieve
+
 tile.contenttweaker.motoraluminium.name=External Motor II
 tile.contenttweaker.motorstainless.name=External Motor III
 tile.contenttweaker.motorsteel.name=External Motor
