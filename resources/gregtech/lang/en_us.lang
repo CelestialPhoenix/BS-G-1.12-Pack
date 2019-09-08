@@ -123,7 +123,7 @@ material.tungstate=(Li)-Tungstate
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
 
-//---Renamed Gtech Blocks/Items---
+//---Renamed Gtech Items---
 item.coal.gemExquisite=Huge Lump of Coal
 item.coal.gemFlawless=Large Lump of Coal
 item.coal.gemFlawed=Small Lump of Coal
