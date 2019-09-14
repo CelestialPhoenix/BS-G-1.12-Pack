@@ -24,11 +24,15 @@ furnace.addRecipe(<ore:dustRedstone>.firstItem, <minecraft:wooden_pressure_plate
 furnace.addRecipe(<ore:dustRedstone>.firstItem, <minecraft:noteblock>);
 furnace.addRecipe(<ore:dustRedstone>.firstItem, <minecraft:redstone_torch>);
 
+furnace.addRecipe(<ore:nuggetIron>.firstItem*9, <minecraft:iron_ingot>);
+furnace.addRecipe(<ore:nuggetIron>.firstItem*4, <minecraft:tripwire_hook>);
 furnace.addRecipe(<ore:ingotIron>.firstItem*3, <minecraft:iron_door>);
 furnace.addRecipe(<ore:ingotIron>.firstItem*3, <minecraft:iron_trapdoor>);
-furnace.addRecipe(<ore:nuggetIron>.firstItem*4, <minecraft:tripwire_hook>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <minecraft:heavy_weighted_pressure_plate>);
+furnace.addRecipe(<ore:ingotIron>.firstItem*9, <minecraft:iron_block>);
 
+furnace.addRecipe(<ore:nuggetGold>.firstItem*9, <minecraft:gold_ingot>);
 furnace.addRecipe(<ore:ingotGold>.firstItem, <minecraft:light_weighted_pressure_plate>);
+furnace.addRecipe(<ore:ingotGold>.firstItem*9, <minecraft:gold_block>);
 
 furnace.addRecipe(<ore:gemDiamond>.firstItem, <minecraft:jukebox>);

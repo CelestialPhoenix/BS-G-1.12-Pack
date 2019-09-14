@@ -3,6 +3,13 @@
 
 print("Handles like its on rails");
 
+#---Renaming---
+#Granite
+<railcraft:brick_granite:0>.displayName="Pink Granite Fine Bricks";
+<railcraft:brick_granite:1>.displayName="Fitted Pink Granite";
+<railcraft:brick_granite:3>.displayName="Ornate Pink Granite";
+<railcraft:brick_granite:4>.displayName="Etched Pink Granite";
+<railcraft:brick_granite:5>.displayName="Pink Granite Cobblestone";
 
 #---Boilers---
 

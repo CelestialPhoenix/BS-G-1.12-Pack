@@ -4,10 +4,18 @@
 print("The post duck says...?");
 
 #---Renaming---
+#Endstone
 <quark:biotite_ore>.displayName="Xenolith Biotite Ore";
 <quark:end_bricks_wall>.displayName="Xenolith Brick Wall";
 <quark:end_bricks_stairs>.displayName="Xenolith Brick Stairs";
 <quark:end_bricks_slab>.displayName="Xenolith Brick Slab";
+
+#Granite
+<quark:stone_granite_slab>.displayName="Pink Granite Slab";
+<quark:world_stone_bricks>.displayName="Pink Granite Bricks";
+<quark:stone_granite_bricks_stairs>.displayName="Pink Granite Brick Stairs";
+<quark:stone_granite_bricks_slab>.displayName="Pink Granite Brick Slab";
+<quark:stone_granite_bricks_wall>.displayName="Pink Granite Brick Wall";
 
 #---Recipes---
 #--Hardmode Redstone--

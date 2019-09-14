@@ -20,6 +20,13 @@ print("Going Primal. Not unlike going commando");
 <primal:eroded_end_stone:7>.displayName="Eroded Xenolith Pillar";
 <primal:wall:11>.displayName="Eroded Xenolith Wall";
 
+#Granite
+<primal:ladder_block_granite>.displayName="Pink Granite Ladder";
+<primal:ladder_block_smoothgranite>.displayName="Smooth Pink Granite Ladder";
+<quark:stone_granite_wall>.displayName="Pink Granite Wall";
+<quark:stone_granite_stairs>.displayName="Pink Granite Stairs";
+<primal:rock_granite>.displayName="Lump of Pink Granite";
+
 #---Disabled Items---
 recipes.remove(<primal:kiln_adobe>);//stock item due to be removed
 <primal:kiln_adobe>.addTooltip("This is up to the mod dev- nothing to do with the pack");

@@ -74,6 +74,41 @@ print("A chip of the old block");
 <unlimitedchiselworks:chisel_stonebrick2_primal_eroded_end_stone_3:6>.displayName="Eroded Xenolith Brick";
 <unlimitedchiselworks:chisel_stonebrick2_primal_eroded_end_stone_3:7>.displayName="Eroded Xenolith Brick";
 
+#Granite
+<chisel:granite:0>.displayName="Pink Granite";
+<chisel:granite:1>.displayName="Pink Granite";
+<chisel:granite:2>.displayName="Pink Granite";
+<chisel:granite:3>.displayName="Pink Granite";
+<chisel:granite:4>.displayName="Pink Granite";
+<chisel:granite:5>.displayName="Pink Granite";
+<chisel:granite:6>.displayName="Pink Granite";
+<chisel:granite:7>.displayName="Pink Granite";
+<chisel:granite:8>.displayName="Pink Granite";
+<chisel:granite:9>.displayName="Pink Granite";
+<chisel:granite:10>.displayName="Pink Granite";
+<chisel:granite:11>.displayName="Pink Granite";
+<chisel:granite:12>.displayName="Pink Granite";
+<chisel:granite:13>.displayName="Pink Granite";
+<chisel:granite:14>.displayName="Pink Granite";
+<chisel:granite:15>.displayName="Pink Granite";
+<chisel:granite1:0>.displayName="Pink Granite";
+<chisel:granite1:1>.displayName="Pink Granite";
+<chisel:granite1:2>.displayName="Pink Granite";
+<chisel:granite1:3>.displayName="Pink Granite";
+<chisel:granite1:4>.displayName="Pink Granite";
+<chisel:granite1:5>.displayName="Pink Granite";
+<chisel:granite1:6>.displayName="Pink Granite";
+<chisel:granite1:7>.displayName="Pink Granite";
+<chisel:granite1:8>.displayName="Pink Granite";
+<chisel:granite1:9>.displayName="Pink Granite";
+<chisel:granite2:0>.displayName="Pink Granite";
+<chisel:granite2:1>.displayName="Pink Granite";
+<chisel:granite2:2>.displayName="Pink Granite";
+<chisel:granite2:3>.displayName="Pink Granite";
+<chisel:granite2:4>.displayName="Pink Granite";
+<chisel:granite2:5>.displayName="Pink Granite";
+<chisel:granite2:6>.displayName="Pink Granite";
+
 #---Recipes---
 #Recipes in respective mod material processing.zs
 recipes.removeShaped(<chisel:lavastone:0>);
