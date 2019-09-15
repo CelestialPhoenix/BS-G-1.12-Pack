@@ -15,6 +15,14 @@ print("Adrift in the skies");
 <ore:logWisproot>.add(<aether:light_skyroot_log>);
 <ore:logAmberoot>.add(<aether:golden_oak_log>);
 
-<ore:treeSapling>.add(<aether:aether_sapling:*>);
-<ore:treeSapling>.add(<aether:orange_tree>);
-
+<ore:treeSapling>.add(<aether:unique_sapling:1>);
+<ore:treeSapling>.add(<aether:unique_sapling>);
+<ore:treeSapling>.add(<aether:greatroot_sapling:1>);
+<ore:treeSapling>.add(<aether:greatroot_sapling>);
+<ore:treeSapling>.add(<aether:greatroot_sapling:2>);
+<ore:treeSapling>.add(<aether:wisproot_sapling>);
+<ore:treeSapling>.add(<aether:wisproot_sapling:1>);
+<ore:treeSapling>.add(<aether:wisproot_sapling:2>);
+<ore:treeSapling>.add(<aether:skyroot_sapling:1>);
+<ore:treeSapling>.add(<aether:skyroot_sapling:2>);
+<ore:treeSapling>.add(<aether:skyroot_sapling>);
