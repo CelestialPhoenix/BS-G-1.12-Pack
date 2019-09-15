@@ -352,6 +352,7 @@ recipes.addShaped(<minecraft:iron_trapdoor>*2,[
 [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 #Door Iron
+recipes.remove(<minecraft:iron_door>);
 recipes.addShapedMirrored(<minecraft:iron_door>,[
 [<ore:dustRedstone>, <ore:plateIron>, <ore:plateIron>],
 [null, <ore:plateIron>, <ore:plateIron>],

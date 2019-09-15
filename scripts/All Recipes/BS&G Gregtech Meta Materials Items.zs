@@ -294,6 +294,7 @@ recipes.removeShaped(<ore:plateErbium>.firstItem);
 recipes.removeShaped(<ore:plateEuropium>.firstItem);
 recipes.removeShaped(<ore:plateGallium>.firstItem);
 recipes.removeShaped(<ore:plateGold>.firstItem);
+recipes.removeShaped(<ore:plateGold>);
 recipes.removeShaped(<ore:plateIridium>.firstItem);
 recipes.removeShaped(<ore:plateIron>.firstItem);
 recipes.removeShaped(<ore:plateLead>.firstItem);
