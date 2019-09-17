@@ -120,6 +120,7 @@ material.sulfur=Sulphur
 material.uranium=Uranium
 material.tungstate=(Li)-Tungstate
 
+//---Renamed Gtech Ores---
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
 
