@@ -22,6 +22,10 @@ recipes.remove(<minecraft:clay_ball>, <minecraft:water_bucket>); #Fix TFo bucket
 #Mycelium
 recipes.remove(<minecraft:mycelium>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
 
+#Nether Brick (item)
+furnace.remove(<minecraft:netherbrick>);
+furnace.addRecipe(<minecraft:netherbrick> , <contenttweaker:netherclay>, 0.0);
+
 #Obsidian
 recipes.remove(<minecraft:obsidian>); #Fix this stupid recipe
 
