@@ -55,6 +55,17 @@ recipes.addShaped(<railcraft:charge_feeder>, [
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>]]);
 
 #Coke Oven
+recipes.remove(<railcraft:coke_oven>);
+recipes.addShaped(<railcraft:coke_oven>*4, [
+[null, <railcraft:brick_sandy:*>, null],
+[<railcraft:brick_sandy:*>, <ore:furnace>, <railcraft:brick_sandy:*>],
+[null, <railcraft:brick_sandy:*>, null]]);
+
+recipes.remove(<railcraft:coke_oven_red>);
+recipes.addShaped(<railcraft:coke_oven_red>*4, [
+[null, <railcraft:brick_red_sandy:*>, null],
+[<railcraft:brick_red_sandy:*>, <ore:furnace>, <railcraft:brick_red_sandy:*>],
+[null, <railcraft:brick_red_sandy:*>, null]]);
 
 #Crusher
 recipes.remove(<railcraft:rock_crusher>);

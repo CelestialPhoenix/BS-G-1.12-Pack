@@ -17,14 +17,17 @@ recipes.addShaped(<immersiveengineering:stone_decoration:10>*2, [
 #---blast furnace bricks---
 #basic BF
 recipes.removeShaped(<immersiveengineering:stone_decoration:1>);
-furnace.addRecipe(<immersiveengineering:stone_decoration:1>, <ore:blockInfernalclay>);
+recipes.addShaped(<immersiveengineering:stone_decoration:1>*4, [
+[null, <railcraft:brick_infernal:*>, null],
+[<railcraft:brick_infernal:*>, <ore:furnace>, <railcraft:brick_infernal:*>], 
+[null, <railcraft:brick_infernal:*>, null]]);
 
 #improved BF
 recipes.removeShaped(<immersiveengineering:stone_decoration:2>);
 recipes.addShaped(<immersiveengineering:stone_decoration:2>*4, [
-[<ore:brickInfernal>, <ore:plateSteel>, <ore:brickInfernal>],
-[<ore:plateSteel>, <ore:brickInfernal>, <ore:plateSteel>], 
-[<ore:brickInfernal>, <ore:plateSteel>, <ore:brickInfernal>]]);
+[<railcraft:brick_infernal:*>, <ore:plateSteel>, <railcraft:brick_infernal:*>],
+[<ore:plateSteel>, <ore:furnace>, <ore:plateSteel>], 
+[<railcraft:brick_infernal:*>, <ore:plateSteel>, <railcraft:brick_infernal:*>]]);
 
 #---Blast Furnace PreHeater---
 recipes.removeShaped(<immersiveengineering:metal_device1>);
@@ -34,9 +37,16 @@ recipes.addShaped(<immersiveengineering:metal_device1>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 #---coking oven bricks---
-recipes.removeShaped(<immersiveengineering:stone_decoration>);
-recipes.addShapeless(<immersiveengineering:stone_decoration>, [<ore:ballClay>, <ore:blockSand>]);
-recipes.addShapeless(<immersiveengineering:stone_decoration>*4, [<ore:blockClay>, <ore:blockSand>, <ore:blockSand>, <ore:blockSand>, <ore:blockSand>]);
+recipes.removeShaped(<immersiveengineering:stone_decoration:0>);
+recipes.addShaped(<immersiveengineering:stone_decoration:0>*4, [
+[<railcraft:brick_sandy:*>, null, <railcraft:brick_sandy:*>],
+[null, <ore:furnace>, null], 
+[<railcraft:brick_sandy:*>, null, <railcraft:brick_sandy:*>]]);
+
+recipes.addShaped(<immersiveengineering:stone_decoration:0>*4, [
+[<railcraft:brick_red_sandy:*>, null, <railcraft:brick_red_sandy:*>],
+[null, <ore:furnace>, null], 
+[<railcraft:brick_red_sandy:*>, null, <railcraft:brick_red_sandy:*>]]);
 
 #---Coil Blocks---
 #lv

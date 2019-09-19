@@ -188,10 +188,10 @@ recipes.addShaped(<gregtech:machine_casing:13>, [
 #---Multi Block Machines---
 #Coking Oven
 recipes.remove(<gregtech:metal_casing:8>);
-recipes.addShaped(<gregtech:metal_casing:8>, [
-[null, <ore:ingotBrick>, null], 
-[<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], 
-[null, <ore:ingotBrick>, null]]);
+recipes.addShaped(<gregtech:metal_casing:8>*2, [
+[<contenttweaker:bricksandy>, <contenttweaker:bricksandy>, <contenttweaker:bricksandy>], 
+[<contenttweaker:bricksandy>, null, <contenttweaker:bricksandy>], 
+[<contenttweaker:bricksandy>, <contenttweaker:bricksandy>, <contenttweaker:bricksandy>]]);
 
 recipes.remove(<meta_tile_entity:gregtech:coke_oven>);
 recipes.addShaped(<meta_tile_entity:gregtech:coke_oven>, [
