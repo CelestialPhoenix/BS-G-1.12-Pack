@@ -193,11 +193,16 @@ recipes.addShaped(<gregtech:metal_casing:8>*2, [
 [<contenttweaker:bricksandy>, null, <contenttweaker:bricksandy>], 
 [<contenttweaker:bricksandy>, <contenttweaker:bricksandy>, <contenttweaker:bricksandy>]]);
 
+recipes.addShaped(<gregtech:metal_casing:8>*2, [
+[<contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>], 
+[<contenttweaker:brickredsandy>, null, <contenttweaker:brickredsandy>], 
+[<contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>]]);
+
 recipes.remove(<meta_tile_entity:gregtech:coke_oven>);
 recipes.addShaped(<meta_tile_entity:gregtech:coke_oven>, [
-[<gregtech:metal_casing:8>, <ore:plateIron>, <gregtech:metal_casing:8>], 
-[<ore:plateIron>, null, <ore:plateIron>], 
-[<gregtech:metal_casing:8>, <ore:plateIron>, <gregtech:metal_casing:8>]]);
+[<gregtech:metal_casing:8>, null, <gregtech:metal_casing:8>], 
+[null, <ore:furnace>, null], 
+[<gregtech:metal_casing:8>, null, <gregtech:metal_casing:8>]]);
 
 recipes.remove(<meta_tile_entity:gregtech:coke_oven_hatch>);
 recipes.addShapeless(<meta_tile_entity:gregtech:coke_oven_hatch>, [<gregtech:metal_casing:8>, <ore:trapdoorWood>]);
