@@ -5,7 +5,7 @@ print("Handles like its on rails");
 
 #---Removed items---
 
-#Blocks
+#Storage Blocks
 recipes.remove(<railcraft:metal:0>); #Copper
 recipes.remove(<railcraft:metal:1>); #Tin
 recipes.remove(<railcraft:metal:2>); #Lead
@@ -188,6 +188,11 @@ mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:4>);
 mods.chisel.Carving.addVariation("Frost_Bound", <railcraft:brick_frostbound:5>);
 
 #Infernal
+recipes.remove(<railcraft:brick_infernal:*>);
+recipes.addShaped(<railcraft:brick_infernal:0>, [
+[<contenttweaker:blastbrick>, <contenttweaker:blastbrick>],
+[<contenttweaker:blastbrick>, <contenttweaker:blastbrick>]]);
+
 mods.chisel.Carving.addGroup("Infernal");
 mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:0>);
 mods.chisel.Carving.addVariation("Infernal", <railcraft:brick_infernal:1>);
@@ -207,6 +212,11 @@ mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:4>);
 mods.chisel.Carving.addVariation("Abyssal_Stone", <railcraft:brick_quarried:5>);
 
 #Sandy
+recipes.remove(<railcraft:brick_sandy:*>);
+recipes.addShaped(<railcraft:brick_sandy:0>, [
+[<contenttweaker:bricksandy>, <contenttweaker:bricksandy>],
+[<contenttweaker:bricksandy>, <contenttweaker:bricksandy>]]);
+
 mods.chisel.Carving.addGroup("Sandy");
 mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:0>);
 mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:1>);
@@ -216,6 +226,11 @@ mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:4>);
 mods.chisel.Carving.addVariation("Sandy", <railcraft:brick_sandy:5>);
 
 #Red Sandy
+recipes.remove(<railcraft:brick_red_sandy:*>);
+recipes.addShaped(<railcraft:brick_red_sandy:0>, [
+[<contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>],
+[<contenttweaker:brickredsandy>, <contenttweaker:brickredsandy>]]);
+
 mods.chisel.Carving.addGroup("Red_Sandy");
 mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:0>);
 mods.chisel.Carving.addVariation("Red_Sandy", <railcraft:brick_red_sandy:1>);

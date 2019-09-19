@@ -54,6 +54,8 @@ recipes.addShaped(<railcraft:charge_feeder>, [
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>],
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>]]);
 
+#Coke Oven
+
 #Crusher
 recipes.remove(<railcraft:rock_crusher>);
 <railcraft:rock_crusher>.addTooltip("This item is disabled");

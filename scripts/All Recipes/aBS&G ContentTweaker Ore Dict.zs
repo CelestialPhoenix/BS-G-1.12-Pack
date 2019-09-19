@@ -7,7 +7,6 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Bricks---
 <ore:blockInfernalclay>.add(<contenttweaker:nethersludgeblock>);
-<ore:brickInfernalclay>.add(<contenttweaker:nethersludgebrick>);
 <ore:brickInfernal>.add(<contenttweaker:blastbrick>);
 
 #---Circuits---

@@ -53,8 +53,10 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 #apple.displayName = "Tomato";
 
 #---bricks/blast furnace parts---
-#blastbrick
+#--Bricks--
 furnace.addRecipe(<contenttweaker:blastbrick>, <ore:clayInfernal>);
+furnace.addRecipe(<contenttweaker:bricksandy>, <contenttweaker:claySandy>);
+furnace.addRecipe(<contenttweaker:brickredsandy>, <contenttweaker:clayredsandy>);
 
 #---casting medium---
 #hardcast

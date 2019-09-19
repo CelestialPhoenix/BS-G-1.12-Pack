@@ -9,13 +9,13 @@ print("Hello Boys- I'm Baaaaack!!!");
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
 #--Bricks--
 #Contenttweaker
-compressor
+/*compressor
     .recipeBuilder()
     .inputs(<contenttweaker:nethersludgeblock>)
     .outputs(<contenttweaker:nethersludgebrick>)
     .duration(100)
     .EUt(2)
-    .buildAndRegister();
+    .buildAndRegister();*/
 	
 #Primal
 compressor
