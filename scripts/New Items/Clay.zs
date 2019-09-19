@@ -8,17 +8,17 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
-var Netherclay = VanillaFactory.createItem("netherclay");
+var Netherclay = VanillaFactory.createItem("claynether");
 Netherclay.register();
 
-var Infernalclay = VanillaFactory.createItem("netherclay");
+var Infernalclay = VanillaFactory.createItem("clayinfernal");
 Infernalclay.register();
 
-var Groutclay = VanillaFactory.createItem("groutclay");
+var Groutclay = VanillaFactory.createItem("claygrout");
 Groutclay.register();
 
-var Sandyclay = VanillaFactory.createItem("sandyclay");
+var Sandyclay = VanillaFactory.createItem("claysandy");
 Sandyclay.register();
 
-var Redsandyclay = VanillaFactory.createItem("redsadyclay");
+var Redsandyclay = VanillaFactory.createItem("clayredsandy");
 Redsandyclay.register();

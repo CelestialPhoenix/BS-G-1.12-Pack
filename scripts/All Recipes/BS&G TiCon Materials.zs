@@ -11,5 +11,14 @@ recipes.remove(<tconstruct:slime:*>);
 #storage blocks
 recipes.removeShaped(<tconstruct:metal:*>);
 
-#New Recipes
+#---New Recipes---
 
+#Grout
+recipes.removeShaped(<tconstruct:soil:0>);
+recipes.addShaped(<tconstruct:soil:0>,[
+[<contenttweaker:claygrout>, <contenttweaker:claygrout>],
+[<contenttweaker:claygrout>, <contenttweaker:claygrout>]]);
+
+#Seared Brick
+furnace.remove(<tconstruct:materials>);
+furnace.addRecipe(<tconstruct:materials> , <contenttweaker:claygrout>, 0.0);

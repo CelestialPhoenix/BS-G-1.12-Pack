@@ -54,17 +54,28 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 
 #---bricks/blast furnace parts---
 #blastbrick
-furnace.addRecipe(<contenttweaker:blastbrick>, <ore:brickInfernalclay>);
-#block sludge
-recipes.addShapeless(<contenttweaker:nethersludgeblock>*3, [<ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>, <ore:soulSand>, <ore:blockMagma>, <ore:soulSand>, <ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>]);
-#sludgebrick
-
+furnace.addRecipe(<contenttweaker:blastbrick>, <ore:clayInfernal>);
 
 #---casting medium---
 #hardcast
 furnace.addRecipe(<contenttweaker:casthard>, <contenttweaker:castraw>, 0.0);
 #rawcast
 recipes.addShapeless(<contenttweaker:castraw>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
+
+#--Clays--
+recipes.addShapeless(<contenttweaker:claygrout>*2, [<ore:sand>, <ore:gravel>, <ore:clayball>]);
+recipes.addShapeless(<contenttweaker:claygrout>*8, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:blockClay>]);
+recipes.addShapeless(<contenttweaker:claygrout>*4, [<tconstruct:soil:0>]);
+
+recipes.addShapeless(<contenttweaker:clayinfernal>*8, [<ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>, <ore:soulSand>, <ore:blockMagma>, <ore:soulSand>, <ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>]);
+
+recipes.addShapeless(<contenttweaker:claynether>*4, [<ore:dustNetherrack>, <ore:dustNetherrack>, <ore:soulSand>, <ore:dustNetherrack>, <ore:dustNetherrack>]);
+
+recipes.addShapeless(<contenttweaker:claysandy>, [<ore:sand>, <ore:clayball>]);
+recipes.addShapeless(<contenttweaker:claysandy>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:blockClay>]);
+
+recipes.addShapeless(<contenttweaker:clayredsandy>, [<ore:sandRed>, <ore:gravel>, <ore:clayball>]);
+recipes.addShapeless(<contenttweaker:clayredsandy>, [<ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:blockClay>]);
 
 #--coils--
 #Simple

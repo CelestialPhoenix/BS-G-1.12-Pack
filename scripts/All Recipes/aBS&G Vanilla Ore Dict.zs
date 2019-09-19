@@ -28,6 +28,8 @@ print("Mwah ha ha ha ha ha");
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 
+<ore:sandRed>.add(<minecraft:sand:1>);
+
 <ore:shieldWood>.add(<minecraft:shield>);
 
 <ore:stoneAny>.add(<minecraft:stone:*>);
