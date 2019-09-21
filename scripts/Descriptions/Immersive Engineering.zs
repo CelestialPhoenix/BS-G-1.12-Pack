@@ -5,4 +5,6 @@
 
 #--Gravel--
 
-mods.jei.JEI.addDescription([<immersiveengineering:tool>],"Used (right click) to form the multiblock structures from Immersive Engineering");
+mods.jei.JEI.addDescription([<immersiveengineering:tool>],"Used (right-click) to form the multiblock structures from Immersive Engineering");
+
+mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Coking oven forms a 3x3x3 solid cube", "Use (right-click) an Engineer's Hammer to activate the structure");
