@@ -52,6 +52,18 @@ recipes.addShaped(<forestry:can>*6, [
 [null, <ore:ingotIron>, null], 
 [<ore:ingotIron>, null, <ore:ingotIron>]]);
 
+#smoker
+recipes.removeShaped(<forestry:smoker>);
+recipes.addShaped(<forestry:smoker>, [
+[<ore:leather>, <ore:stickWood>, <ore:nuggetIron>], 
+[<ore:leather>, <minecraft:flint_and_steel>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
+
+recipes.addShaped(<forestry:smoker>, [
+[<ore:leather>, <ore:stickWood>, <ore:nuggetTin>], 
+[<ore:leather>, <minecraft:flint_and_steel>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
+
 #wax cast
 recipes.removeShaped(<forestry:wax_cast>);
 recipes.addShaped(<forestry:wax_cast>, [
