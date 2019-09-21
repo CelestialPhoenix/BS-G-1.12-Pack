@@ -213,16 +213,16 @@ recipes.addShaped(<minecraft:piston>,[
 
 #Hardmode Torch
 recipes.remove(<minecraft:torch>);
-recipes.addShaped(<minecraft:torch>, [
+recipes.addShaped(<primal:torch_wood>, [
 [<ore:coal>],
 [<ore:stickWood>]]);
 
 recipes.remove(<minecraft:torch>);
-recipes.addShaped(<minecraft:torch>, [
+recipes.addShaped(<primal:torch_wood>, [
 [<ore:charcoal>],
 [<ore:stickWood>]]);
 
-recipes.addShaped(<minecraft:torch>*2, [
+recipes.addShaped(<primal:torch_wood>*2, [
 [<ore:fuelCoke>],
 [<ore:stickWood>]]);
 
