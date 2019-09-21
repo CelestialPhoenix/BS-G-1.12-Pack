@@ -62,7 +62,7 @@ furnace.addRecipe(<contenttweaker:brickredsandy>, <contenttweaker:clayredsandy>)
 #hardcast
 furnace.addRecipe(<contenttweaker:casthard>, <contenttweaker:castraw>, 0.0);
 #rawcast
-recipes.addShapeless(<contenttweaker:castraw>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
+recipes.addShapeless(<contenttweaker:castraw>*4, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
 
 #--Clays--
 recipes.addShapeless(<contenttweaker:claygrout>*2, [<ore:sand>, <ore:gravel>, <ore:clayball>]);
