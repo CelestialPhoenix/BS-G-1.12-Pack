@@ -17,6 +17,17 @@ recipes.remove(<immersiveengineering:sword_steel>);
 <immersiveengineering:sword_steel>.displayName="Ancient Steel Sword";
 
 #---New Tool Recipes---
+#Hammer
+recipes.addShaped(<immersiveengineering:tool>, [
+[null, <ore:ingotTin>, <ore:string>],
+[null, <ore:stickWood>, <ore:ingotTin>], 
+[<ore:stickWood>, null, null]]);
+
+recipes.addShaped(<immersiveengineering:tool>, [
+[null, <ore:ingotCopper>, <ore:string>],
+[null, <ore:stickWood>, <ore:ingotCopper>], 
+[<ore:stickWood>, null, null]]);
+
 #Jerrycan
 recipes.remove(<immersiveengineering:jerrycan>);
 recipes.addShaped(<immersiveengineering:jerrycan>, [
