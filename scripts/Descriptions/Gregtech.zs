@@ -17,6 +17,10 @@
 #-Generators-
 //Generates 1 amp at its design voltage
 #--Steam--
+
+#-Steam Machine Hulls-
+mods.jei.JEI.addDescription([<gregtech:machine_casing:10>, <gregtech:machine_casing:12>],"Hulls can also be obtained by breaking open the appropriate castings.");
+
 #-LP Steam Machines-
 mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:steam_extractor_bronze>, <meta_tile_entity:gregtech:steam_macerator_bronze>, <meta_tile_entity:gregtech:steam_compressor_bronze>, <meta_tile_entity:gregtech:steam_hammer_bronze>, <meta_tile_entity:gregtech:steam_furnace_bronze>, <meta_tile_entity:gregtech:steam_alloy_smelter_bronze>],"Low pressure steam driven machinery. Will process recipes equivilant to 8Eu/t.", "You must provide sufficient steam to complete the recipe, otherwise the machine will stall and need to start over.");
 
