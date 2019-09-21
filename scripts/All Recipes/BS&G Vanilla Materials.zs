@@ -18,6 +18,7 @@ recipes.addShapeless(<minecraft:string>, [<ore:cropCotton>, <ore:cropCotton>, <o
 
 #Clay
 recipes.remove(<minecraft:clay_ball>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+recipes.addShapeless(<minecraft:clay_ball>, <minecraft:clay>]); #Adds recovery recipe for clay ball
 
 #Mycelium
 recipes.remove(<minecraft:mycelium>, <minecraft:water_bucket>); #Fix TFo bucket stupidity

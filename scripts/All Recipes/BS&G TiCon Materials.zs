@@ -14,7 +14,7 @@ recipes.removeShaped(<tconstruct:metal:*>);
 #---New Recipes---
 
 #Grout
-recipes.removeShaped(<tconstruct:soil:0>);
+recipes.remove(<tconstruct:soil:0>);
 recipes.addShaped(<tconstruct:soil:0>,[
 [<contenttweaker:claygrout>, <contenttweaker:claygrout>],
 [<contenttweaker:claygrout>, <contenttweaker:claygrout>]]);
