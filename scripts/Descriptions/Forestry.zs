@@ -8,3 +8,5 @@ mods.jei.JEI.addDescription([<forestry:can>, <forestry:refractory>, <forestry:ca
 mods.jei.JEI.addDescription([<forestry:capsule>],"Unsuitable for hot fluids. Duh");
 
 #mods.jei.JEI.addDescription([<forestry:smoker>],"Use (right click) on a wild hive.");
+
+mods.jei.JEI.addDescription([<forestry:scoop>],"Used (left click) to collect wild bees from hives.");
