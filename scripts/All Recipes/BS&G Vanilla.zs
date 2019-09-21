@@ -219,7 +219,7 @@ recipes.addShaped(<minecraft:torch>, [
 
 recipes.remove(<minecraft:torch>);
 recipes.addShaped(<minecraft:torch>, [
-[<ore:charcoalcoal>],
+[<ore:charcoal>],
 [<ore:stickWood>]]);
 
 recipes.addShaped(<minecraft:torch>*2, [
