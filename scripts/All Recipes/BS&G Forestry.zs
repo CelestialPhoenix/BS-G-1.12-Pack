@@ -37,6 +37,21 @@ recipes.addShaped(<forestry:still>, [
 [<ore:plateSteel>, <ore:elementCupronickel>, <ore:plateSteel>]]);
 
 #---items---
+
+#cans
+recipes.removeShaped(<forestry:can>);
+recipes.addShaped(<forestry:can>*6, [
+[null, <ore:ingotTin>, null], 
+[<ore:ingotTin>, null, <ore:ingotTin>]]);
+
+recipes.addShaped(<forestry:can>*6, [
+[null, <ore:ingotCopper>, null], 
+[<ore:ingotCopper>, null, <ore:ingotCopper>]]);
+
+recipes.addShaped(<forestry:can>*6, [
+[null, <ore:ingotIron>, null], 
+[<ore:ingotIron>, null, <ore:ingotIron>]]);
+
 #wax cast
 recipes.removeShaped(<forestry:wax_cast>);
 recipes.addShaped(<forestry:wax_cast>, [
