@@ -48,6 +48,12 @@ mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material
 #<ore:dust>.remove(<immersiveengineering:metal:>);
 #<immersiveengineering:metal:>.addTooltip("This item is disabled");
 
+#aluminium
+recipes.removeShapeless(<immersiveengineering:metal:10>);
+
+#copper
+recipes.removeShapeless(<immersiveengineering:metal:9>);
+
 #electrum
 recipes.removeShapeless(<immersiveengineering:metal:16>);
 <immersiveengineering:metal:16>.addTooltip("This item is disabled");

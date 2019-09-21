@@ -22,6 +22,10 @@ recipes.addShapeless(<ore:ingotCopper>.firstItem, [<abyssalcraft:copperingot>]);
 
 #---Removed Recipes---
 
+#dusts
+recipes.removeShaped(<acintegration:dust:0>); #Abyssalnite
+recipes.removeShaped(<acintegration:dust:1>); #Refined Coralium
+
 #storage blocks
 recipes.removeShaped(<abyssalcraft:ingotblock:*>);
 
