@@ -5,4 +5,6 @@
 
 #--Gravel--
 
-mods.jei.JEI.addDescription([<railcraft:coke_oven>, <railcraft:coke_oven_red>],"Coking oven forms a 3x3x3 hollow cube", "Structure cannot share a wall with other coking ovens.", "Both types of coke brick can be mixed together");
+mods.jei.JEI.addDescription([<railcraft:coke_oven>, <railcraft:coke_oven_red>],"Coking oven forms a 3x3x3 hollow cube", 
+"Structure cannot share a wall with other coking ovens.", 
+"Both types of coke brick can be mixed together");
