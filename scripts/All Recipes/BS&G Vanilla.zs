@@ -18,6 +18,19 @@ var diamond= <minecraft:diamond>;
 
 var piston= <minecraft:piston>;
 
+#---Fuel Values---
+#furnace.setFuel(IIngredient input, int burnTime);
+# 1 smelt = 200 ticks
+# Coal = 1600
+furnace.setFuel(<ore:logWood>, 600);
+furnace.setFuel(<ore:plankWood>, 100);
+furnace.setFuel(<minecraft:coal:1>, 800);
+
+furnace.setFuel(<ore:blockCharcoal>, 7200);
+furnace.setFuel(<ore:dustCharcoal>, 800);
+furnace.setFuel(<ore:dustSmallCharcoal>, 200);
+furnace.setFuel(<ore:dustTinyCharcoal>, 80);
+
 #---Banned Items---
 #Bucket
 recipes.remove(<minecraft:bucket>);
