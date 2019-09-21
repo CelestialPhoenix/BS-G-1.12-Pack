@@ -76,6 +76,11 @@ mods.jei.JEI.addDescription([<metaitem:robot.arm.lv>, <metaitem:robot.arm.mv>, <
 mods.jei.JEI.addDescription([<metaitem:robot.arm.lv>, <metaitem:robot.arm.mv>, <metaitem:robot.arm.hv>, <metaitem:robot.arm.ev>, <metaitem:robot.arm.iv>, <metaitem:robot.arm.luv>, <metaitem:robot.arm.zpm>, <metaitem:robot.arm.uv>], "Any rumours of a robot uprising are clearly fake news and should not be any cause for concern. Robotic intelligence uses a perfectly safe and non-malevolent AI to function. There is nothing to worry about.");
 
 #---Tools---
+
+#-Axe-
+mods.jei.JEI.addDescription([<gregtech:meta_tool:3>], "Chops entire trees in one go.", 
+"Crouch (hold shift) to disable this effect");
+
 #-Crowbar-
 mods.jei.JEI.addDescription([<gregtech:meta_tool:10>],"Used (right click) to remove machine modules.",
 "Center= remove front module",
