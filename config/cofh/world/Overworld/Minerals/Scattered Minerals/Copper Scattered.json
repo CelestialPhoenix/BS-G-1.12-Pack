@@ -9,8 +9,8 @@
             "type":"cluster",
             "block":[  
                {  
-                  "name":"gregtech:ore_copper_0",
-                  "metadata":0,
+                  "name":"railcraft:ore_metal_poor",
+                  "metadata":2,
                   "weight":90
                },
                {  

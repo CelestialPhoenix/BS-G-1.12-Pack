@@ -9,7 +9,7 @@
             "type":"cluster",
             "block":[  
                {  
-                  "name":"minecraft:iron_ore",
+                  "name":"railcraft:ore_metal_poor",
                   "metadata":0,
                   "weight":90
                },
