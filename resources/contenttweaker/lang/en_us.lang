@@ -310,6 +310,9 @@ item.contenttweaker.blastbrick.name=Infernal Brick
 item.contenttweaker.boardcrude.name= Crude Circuit Board
 item.contenttweaker.boardsimple.name= Simple Circuit Board
 
+item.contenttweaker.bricksandy.name=Sandy Brick
+item.contenttweaker.brickredsandy.name= Red Sandy Brick
+
 item.contenttweaker.itemcasingaluminium.name=Aluminium Item Casing
 item.contenttweaker.itemcasingchrome.name=Chrome Item Casing
 item.contenttweaker.itemcasingiridium.name=Iridium Item Casing
@@ -528,6 +531,8 @@ item.contenttweaker.nethersludgebrick.name=Compressed Infernal Clay
 
 item.contenttweaker.pipemediumwax.name=Medium Wax Pipe
 item.contenttweaker.pipesmallwax.name=Small Wax Pipe
+
+item.contenttweaker.propellerwood.name=Wooden Propeller
 
 item.contenttweaker.platealuminium.name=Aluminium Plate
 item.contenttweaker.plateconstantan.name=Constantan Plate
