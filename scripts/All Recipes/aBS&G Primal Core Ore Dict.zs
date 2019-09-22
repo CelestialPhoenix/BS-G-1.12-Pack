@@ -24,6 +24,13 @@ print("Going Primal. Not unlike going commando");
 <ore:blockPlatinum>.remove(<primal:metalblock:14>);
 <ore:blockNickel>.remove(<primal:metalblock:15>);
 
+#-boats-
+<ore:boat>.add(<primal:boat_ironwood>);
+<ore:boat>.add(<primal:boat_yew>);
+<ore:boat>.add(<primal:boat_lacquer>);
+<ore:boat>.add(<primal:boat_corypha>);
+
+
 #-dusts-
 #<ore:dust>.remove(<primal:_dust>);
 <ore:dustMagnetite>.remove(<primal:magnetite_dust>);

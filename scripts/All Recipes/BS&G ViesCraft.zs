@@ -9,15 +9,15 @@ print("With a crew of drunken pilots...");
 <vc:item_airship_ignition>.displayName="Sterling Engine";
 recipes.remove(<vc:item_airship_ignition>);
 recipes.addShaped(<vc:item_airship_ignition>,[
-[<ore:plankWood>, <ore:gearWood>, <ore:plankWood>],
-[<ore:slatWood>, <ore:piston>, <ore:slatWood>],
+[<ore:stickTreatedWood>, <ore:gearWood>, <ore:stickTreatedWood>],
+[<ore:gearWood>, <ore:piston>, <ore:gearWood>],
 [null, <ore:furnace>, null]]);
 
 #Airship Frame
 recipes.remove(<vc:item_airship_frame>);
 recipes.addShaped(<vc:item_airship_frame>,[
-[<ore:cordageQuality>, <ore:thinwood>, <ore:cordageQuality>],
-[<ore:blockLever>, <ore:boat>, <ore:blockLever>],
+[<ore:cordageQuality>, <ore:thinWood>, <ore:cordageQuality>],
+[null, <ore:boat>, null],
 [<ore:cordageQuality>, <ore:blockLever>, <ore:cordageQuality>]]);
 
 #Airship Engine
@@ -25,5 +25,12 @@ recipes.addShaped(<vc:item_airship_frame>,[
 recipes.remove(<vc:item_airship_engine>);
 recipes.addShaped(<vc:item_airship_engine>,[
 [<ore:gearWood>, <ore:stickWood>, <ore:cordageQuality>],
-[<ore:cordageQuality>, <ore:gearSmallWood>, <ore:cordageQuality>],
-[<ore:cordageQuality>, <ore:stickWood>, <ore:rotorWood>]]);
+[<ore:cordageQuality>, <ore:gearWood>, <ore:cordageQuality>],
+[<ore:cordageQuality>, <ore:stickWood>, <contenttweaker:propellerwood>]]);
+
+#Airship Balloon
+#No changes required
+recipes.remove(<vc:airships/item_airship>);
+recipes.addShaped(<vc:airships/item_airship>,[
+[null, <vc:item_airship_balloon>, null],
+[<vc:item_airship_engine>, <vc:item_airship_frame>, <vc:item_airship_engine>]]);

@@ -52,6 +52,14 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 <contenttweaker:castrodbronze>.displayName = "Cast Bronze Rods";
 #apple.displayName = "Tomato";
 
+#--//--Recipes--//--
+
+#---Airship Parts--
+recipes.addShaped(<contenttweaker:propellerwood>,[
+[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>],
+[null, <ore:gearWood>, null],
+[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
+
 #---bricks/blast furnace parts---
 #--Bricks--
 furnace.addRecipe(<contenttweaker:blastbrick>, <contenttweaker:clayinfernal>);

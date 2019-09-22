@@ -15,6 +15,24 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:gemAmber>.remove(<biomesoplenty:gem:7>);
 
 #---Ore Dicting---
+#boats
+<ore:boat>.add(<biomesoplenty:boat_sacred_oak>);
+<ore:boat>.add(<biomesoplenty:boat_cherry>);
+<ore:boat>.add(<biomesoplenty:boat_umbran>);
+<ore:boat>.add(<biomesoplenty:boat_fir>);
+<ore:boat>.add(<biomesoplenty:boat_ethereal>);
+<ore:boat>.add(<biomesoplenty:boat_magic>);
+<ore:boat>.add(<biomesoplenty:boat_mangrove>);
+<ore:boat>.add(<biomesoplenty:boat_palm>);
+<ore:boat>.add(<biomesoplenty:boat_redwood>);
+<ore:boat>.add(<biomesoplenty:boat_willow>);
+<ore:boat>.add(<biomesoplenty:boat_pine>);
+<ore:boat>.add(<biomesoplenty:boat_hellbark>);
+<ore:boat>.add(<biomesoplenty:boat_jacaranda>);
+<ore:boat>.add(<biomesoplenty:boat_mahogany>);
+<ore:boat>.add(<biomesoplenty:boat_ebony>);
+<ore:boat>.add(<biomesoplenty:boat_eucalyptus>);
+
 #logs
 <ore:logSacredOak>.add(<biomesoplenty:log_0:4>);
 <ore:logCherry>.add(<biomesoplenty:log_0:5>);

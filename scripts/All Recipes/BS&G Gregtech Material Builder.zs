@@ -73,9 +73,6 @@ uvarovite.addFlags(["GENERATE_ORE"]);
 #uvarovite.oreByProducts + [<material:copper>, <material:gold>, <material:iron>];
 #var testByproducts = [<material:copper>, <material:gold>, <material:iron>] as String[];
 
-var wood = <material:wood>;
-wood.addFlags(["GENERATE_ROTOR"]);
-
 var yttrium = <material:yttrium>;
 yttrium.addFlags(["GENERATE_ORE"]);
 
