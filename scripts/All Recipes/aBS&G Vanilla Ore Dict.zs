@@ -25,6 +25,13 @@ print("Mwah ha ha ha ha ha");
 <ore:snowball>.add(<minecraft:snowball>);
 <ore:itemFlint>.add(<minecraft:flint>);
 
+<ore:boat>.add(<minecraft:boat>);
+<ore:boat>.add(<minecraft:spruce_boat>);
+<ore:boat>.add(<minecraft:birch_boat>);
+<ore:boat>.add(<minecraft:jungle_boat>);
+<ore:boat>.add(<minecraft:acacia_boat>);
+<ore:boat>.add(<minecraft:dark_oak_boat>);
+
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 
