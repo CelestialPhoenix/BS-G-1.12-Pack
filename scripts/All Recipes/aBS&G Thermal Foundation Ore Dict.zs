@@ -114,7 +114,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:nuggetDiamond>.remove(<thermalfoundation:material:16>);
 <ore:nuggetEmerald>.remove(<thermalfoundation:material:17>);
 <ore:nuggetCopper>.remove(<thermalfoundation:material:192>);
-<ore:nuggetTin>.remove(<thermalfoundation:material:192>);
+<ore:nuggetTin>.remove(<thermalfoundation:material:193>);
 <ore:nuggetSilver>.remove(<thermalfoundation:material:194>);
 <ore:nuggetLead>.remove(<thermalfoundation:material:195>);
 <ore:nuggetAluminum>.remove(<thermalfoundation:material:196>);

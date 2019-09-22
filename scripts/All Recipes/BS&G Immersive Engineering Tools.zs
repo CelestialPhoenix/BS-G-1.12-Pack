@@ -18,14 +18,10 @@ recipes.remove(<immersiveengineering:sword_steel>);
 
 #---New Tool Recipes---
 #Hammer
+recipes.remove(<immersiveengineering:tool>);
 recipes.addShaped(<immersiveengineering:tool>, [
-[null, <ore:ingotTin>, <ore:string>],
-[null, <ore:stickWood>, <ore:ingotTin>], 
-[<ore:stickWood>, null, null]]);
-
-recipes.addShaped(<immersiveengineering:tool>, [
-[null, <ore:ingotCopper>, <ore:string>],
-[null, <ore:stickWood>, <ore:ingotCopper>], 
+[null, <ore:stoneCobble>, <ore:string>],
+[null, <ore:stickWood>, <ore:stoneCobble>], 
 [<ore:stickWood>, null, null]]);
 
 #Jerrycan
