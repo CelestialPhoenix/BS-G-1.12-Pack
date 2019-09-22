@@ -30,8 +30,10 @@ recipes.addShaped(<vc:item_airship_engine>,[
 
 #Airship Balloon
 #No changes required
+
+#Finished Airship
 recipes.remove(<vc:airships/item_airship>);
 recipes.addShaped(<vc:airships/item_airship>,[
 [null, <vc:item_airship_balloon>, null],
-[<vc:item_airship_engine>, <ore:gearWood>, <vc:item_airship_engine>],
+[<vc:item_airship_engine>, <vc:item_airship_ignition>, <vc:item_airship_engine>],
 [null, <vc:item_airship_frame>, null]]);
