@@ -37,7 +37,7 @@
             "large-spikes":"false"
          },
          "cluster-count":10,
-         "chunk-chance":50,
+         "chunk-chance":100,
          "min-height":0,
          "vein-height":100,
          "vein-diameter":30,
