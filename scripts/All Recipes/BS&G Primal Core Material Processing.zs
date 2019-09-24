@@ -75,7 +75,7 @@ mods.primal.Axe.addRecipe(
     <contenttweaker:castraw>, 
     <contenttweaker:mouldaxehead>
 );
-mods.primal.Axe.addRecipe(
+mods.primal.Shovel.addRecipe(
     "Hoe_Mold_Craft", 
     <contenttweaker:mouldaxehead>, 
     <contenttweaker:mouldhoehead>
