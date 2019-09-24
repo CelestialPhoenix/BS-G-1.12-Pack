@@ -270,6 +270,21 @@ recipes.addShaped(<meta_tile_entity:gregtech:bender.ev>, [
 [<ore:circuitExtreme>, <ore:hullEV>, <ore:circuitExtreme>], 
 [<ore:motorEV>, <ore:cableGtSingleAluminium>, <ore:motorEV>]]);
 
+#Boiler
+#Bronze 
+recipes.remove(<meta_tile_entity:gregtech:steam_boiler_coal_bronze>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_boiler_coal_bronze>, [
+[<ore:pipeSmallBronze>, null, <ore:pipeSmallBronze>], 
+[<ore:blockBrick>, <ore:hullBronze>, <ore:blockBrick>], 
+[<ore:blockBrick>, <ore:furnace>, <ore:blockBrick>]]);
+
+#Steel
+recipes.remove(<meta_tile_entity:gregtech:steam_boiler_coal_steel>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_boiler_coal_steel>, [
+[<ore:pipeSmallSteel>, null, <ore:pipeSmallSteel>], 
+[<ore:blockBrick>, <ore:hullSteel>, <ore:blockBrick>], 
+[<ore:blockBrick>, <ore:furnace>, <ore:blockBrick>]]);
+
 #Extruder
 #LV
 #recipes.remove(<meta_tile_entity:gregtech:extruder.lv>);
