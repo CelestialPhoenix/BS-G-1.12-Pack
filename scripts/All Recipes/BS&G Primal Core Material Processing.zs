@@ -80,9 +80,9 @@ mods.primal.Shovel.addRecipe(
     <contenttweaker:mouldaxehead>, 
     <contenttweaker:mouldhoehead>
 );
-mods.primal.Gallagher.addRecipe(
+mods.primal.Shovel.addRecipe(
     "Hammer_Mold_Craft", 
-    <contenttweaker:castraw>, 
+    <contenttweaker:mouldshovelhead>, 
     <contenttweaker:mouldhammerhead>
 );
 mods.primal.Hoe.addRecipe(
