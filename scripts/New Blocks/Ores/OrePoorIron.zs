@@ -13,5 +13,6 @@ OrePoorGravelIron.setToolClass("shovel");
 OrePoorGravelIron.setToolLevel(0);
 OrePoorGravelIron.setBlockSoundType(<soundtype:stone>);
 OrePoorGravelIron.setSlipperiness(0.6);
+OrePoorGravelIron.setGravity(true);
 OrePoorGravelIron.register();
 

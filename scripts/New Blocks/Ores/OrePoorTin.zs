@@ -13,4 +13,5 @@ OrePoorGravelTin.setToolClass("shovel");
 OrePoorGravelTin.setToolLevel(0);
 OrePoorGravelTin.setBlockSoundType(<soundtype:stone>);
 OrePoorGravelTin.setSlipperiness(0.6);
+OrePoorGravelTin.setGravity(true);
 OrePoorGravelTin.register();

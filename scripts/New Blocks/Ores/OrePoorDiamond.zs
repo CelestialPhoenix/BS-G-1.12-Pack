@@ -13,6 +13,7 @@ OrePoorGravelDiamond.setToolClass("shovel");
 OrePoorGravelDiamond.setToolLevel(0);
 OrePoorGravelDiamond.setBlockSoundType(<soundtype:stone>);
 OrePoorGravelDiamond.setSlipperiness(0.6);
+OrePoorGravelDiamond.setGravity(true);
 OrePoorGravelDiamond.register();
 
 var OrePoorBlackGranitelDiamond = VanillaFactory.createBlock("oreblackgranitepoordiamond", <blockmaterial:rock>);

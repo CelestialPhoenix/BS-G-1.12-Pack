@@ -13,6 +13,7 @@ OrePoorSandNickel.setToolClass("shovel");
 OrePoorSandNickel.setToolLevel(0);
 OrePoorSandNickel.setBlockSoundType(<soundtype:stone>);
 OrePoorSandNickel.setSlipperiness(0.6);
+OrePoorSandNickel.setGravity(true);
 OrePoorSandNickel.register();
 
 var OrePoorRedsandNickel = VanillaFactory.createBlock("orepoorredsandnickel", <blockmaterial:rock>);
@@ -22,4 +23,5 @@ OrePoorRedsandNickel.setToolClass("shovel");
 OrePoorRedsandNickel.setToolLevel(0);
 OrePoorRedsandNickel.setBlockSoundType(<soundtype:stone>);
 OrePoorRedsandNickel.setSlipperiness(0.6);
+OrePoorRedsandNickel.setGravity(true);
 OrePoorRedsandNickel.register();

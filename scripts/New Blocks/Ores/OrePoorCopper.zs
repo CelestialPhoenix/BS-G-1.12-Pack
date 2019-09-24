@@ -13,4 +13,5 @@ OreGravelPoorCopper.setToolClass("shovel");
 OreGravelPoorCopper.setToolLevel(0);
 OreGravelPoorCopper.setBlockSoundType(<soundtype:stone>);
 OreGravelPoorCopper.setSlipperiness(0.6);
+OreGravelPoorCopper.setGravity(true);
 OreGravelPoorCopper.register();
