@@ -1472,3 +1472,6 @@ print("A chip of the old block");
 <ore:stone>.remove(<chisel:stonebrick2:5>);
 <ore:stone>.remove(<chisel:stonebrick2:6>);
 <ore:stone>.remove(<chisel:stonebrick2:7>);
+
+#Treated Wood
+<ore:plankTreatedWood>.remove(<unlimitedchiselworks:chisel_planks_oak_immersiveengineering_treated_wood_0>);

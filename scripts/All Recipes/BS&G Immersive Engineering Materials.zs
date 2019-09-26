@@ -12,6 +12,14 @@ recipes.removeShaped(<immersiveengineering:stone_decoration:3>);
 
 #crafting
 
+#---Materials---
+#Treated Wood
+recipes.removeShaped(<immersiveengineering:treated_wood>);
+recipes.addShaped(<immersiveengineering:treated_wood>*8, [
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ore:plankWood>, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>) , <ore:plankWood>], 
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
 #---Mechanical Components
 #mechcomp iron
 recipes.removeShaped(<immersiveengineering:material:8>);
@@ -87,7 +95,7 @@ recipes.addShaped(<immersiveengineering:toolupgrade:8>, [
 recipes.removeShaped(<immersiveengineering:toolupgrade:9>);
 recipes.addShapeless(<immersiveengineering:toolupgrade:9>, [<ore:tubeCopper>, <ore:tubeBronze>, <ore:screwBrass>, <ore:wireFineCopper>, <ore:tubeGold>, <ore:wireFineCopper>, <ore:screwBrass>, <ore:tubeTin>, <ore:wireFineCopper>]);
 
-#Flast Bulb
+#Flash Bulb
 
 #Shock Emmiters
 recipes.removeShaped(<immersiveengineering:toolupgrade:11>);
