@@ -70,11 +70,10 @@ print("Trust me I'm an engineer");
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
 
 #Treated Wood
-<ore:plankTreatedWood>.remove(<immersiveengineering:treated_wood:1>);
-<ore:plankTreatedWood>.remove(<immersiveengineering:treated_wood:2>);
-
-<ore:slabTreatedWood>.remove(<immersiveengineering:treated_wood_slab:1>);
-<ore:slabTreatedWood>.remove(<immersiveengineering:treated_wood_slab:2>);
+<ore:plankTreatedWood>.remove(<immersiveengineering:treated_wood:*>);
+<ore:plankTreatedWood>.add(<immersiveengineering:treated_wood:0>);
+<ore:slabTreatedWood>.remove(<immersiveengineering:treated_wood_slab:*>);
+<ore:slabTreatedWood>.add(<immersiveengineering:treated_wood_slab:0>);
 
 #Ore Dicting
 #<ore:>.add(<immersiveengineering:>);
