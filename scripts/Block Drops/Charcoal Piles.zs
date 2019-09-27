@@ -9,7 +9,7 @@ Dropt.list("charcoal_poor")
   .add(Dropt.rule()
       .matchBlocks(["primal:charcoal_stack:0"])
       .addDrop(Dropt.drop()
-          .items([<minecraft:coal:1>], Dropt.range(5, 6, 2))
+          .items([<minecraft:coal:1>], Dropt.range(3, 7, 2))
       )
   );
 
@@ -17,7 +17,7 @@ Dropt.list("charcoal_fair")
   .add(Dropt.rule()
       .matchBlocks(["primal:charcoal_stack:1"])
       .addDrop(Dropt.drop()
-          .items([<minecraft:coal:1>], Dropt.range(6, 8, 2))
+          .items([<minecraft:coal:1>], Dropt.range(4, 8, 2))
       )
   );
 
@@ -25,7 +25,7 @@ Dropt.list("charcoal_good")
   .add(Dropt.rule()
       .matchBlocks(["primal:charcoal_stack:2"])
       .addDrop(Dropt.drop()
-          .items([<minecraft:coal:1>], Dropt.range(7, 10, 2))
+          .items([<minecraft:coal:1>], Dropt.range(5, 9, 2))
       )
   );
 
@@ -33,7 +33,7 @@ Dropt.list("charcoal_high")
   .add(Dropt.rule()
       .matchBlocks(["primal:charcoal_stack:3"])
       .addDrop(Dropt.drop()
-          .items([<minecraft:coal:1>], Dropt.range(8, 12, 2))
+          .items([<minecraft:coal:1>], Dropt.range(6, 10, 2))
       )
   );
 
