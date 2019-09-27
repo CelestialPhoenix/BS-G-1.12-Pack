@@ -78,13 +78,24 @@ recipes.remove(<railcraft:equipment:0>);
 
 #Rolling machine (powered)
 recipes.remove(<railcraft:equipment:1>);
-<railcraft:equipment:1>.addTooltip("Can be powered directly off a charge driver");
 recipes.addShaped(<railcraft:equipment:1>, [
 [<ore:tubeIron>, <ore:gearSmallSteel>, <ore:tubeIron>],
 [<ore:gearSmallSteel>, <contenttweaker:rollers>, <ore:gearSmallSteel>],
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
-
+<railcraft:equipment:1>.addTooltip("Can be powered directly off a charge driver");
 #Steam Turbine
+
+#Water Tower
+recipes.remove(<railcraft:tank_water>);
+recipes.addShaped(<railcraft:tank_water>*6, [
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+[<ore:plateBronze>, <ore:slimeball>, <ore:plateBronze>],
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<railcraft:tank_water>*6, [
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+[<ore:plateIron>, <ore:slimeball>, <ore:plateIron>],
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 #---Tanks---
 #vroom vroom
