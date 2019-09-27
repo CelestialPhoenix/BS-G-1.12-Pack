@@ -22,7 +22,7 @@ var piston= <minecraft:piston>;
 #furnace.setFuel(IIngredient input, int burnTime);
 # 1 smelt = 200 ticks
 # Coal = 1600
-furnace.setFuel(<ore:logWood>, 800);
+furnace.setFuel(<ore:logWood>, 400);
 furnace.setFuel(<ore:plankWood>, 100);
 furnace.setFuel(<minecraft:coal:1>, 800);
 

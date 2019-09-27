@@ -120,7 +120,7 @@ recipes.addShaped(<primal:logs_stacked:0>, [
 [<ore:logOak>, <ore:logOak>, <ore:logOak>]]);
 
 recipes.remove(<primal:logs_stacked:1>);
-recipes.addShaped(<primal:logs_stacked:1>, [
+recipes.addShaped(<ore:logStackFairDark>.firstItem, [
 [<ore:logSpruce>, <ore:logSpruce>, <ore:logSpruce>],
 [<ore:logSpruce>, <ore:logSpruce>, <ore:logSpruce>],
 [<ore:logSpruce>, <ore:logSpruce>, <ore:logSpruce>]]);
