@@ -4,7 +4,12 @@
 print("Direworlf's favourite flavour of icecream");
 
 
-#---Smelting Recycling---
+#---Smelting--- 
+#--Recycling--
+#--Ingot Smelting (from block)--
+#furnace.addRecipe(<ore:ingot>.firstItem*9, <ore:block>);
+furnace.addRecipe(<ore:ingotBronze>.firstItem*9, <ore:blockBronze>);
+
 #Vanilla
 furnace.addRecipe(<ore:dustRedstone>.firstItem*2, <minecraft:trapdoor>);
 furnace.addRecipe(<ore:dustRedstone>.firstItem*2, <minecraft:wooden_door>);
