@@ -8,6 +8,9 @@ recipes.remove(<tconstruct:slime:*>);
 <tconstruct:slime:*>.addTooltip("This item is disabled");
 
 #Remove Recipes
+#nuggets
+recipes.removeShaped(<tconstruct:nuggets:*>);
+
 #storage blocks
 recipes.removeShaped(<tconstruct:metal:*>);
 

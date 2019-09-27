@@ -19,6 +19,9 @@ print("Ever wondered what the Liquid Death tastes like?");
 <thaumcraft:cluster:6>.addTooltip("HgS"); #Cinnabar
 
 #---Removed Entires---
+#nuggets
+recipes.remove(<thaumcraft:nugget:*>);
+
 #plates
 recipes.remove(<thaumcraft:plate:0>);
 recipes.remove(<thaumcraft:plate:2>);
