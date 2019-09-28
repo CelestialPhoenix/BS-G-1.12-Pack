@@ -56,9 +56,9 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 
 #---Airship Parts--
 recipes.addShaped(<contenttweaker:propellerwood>,[
-[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>],
-[null, <ore:gearWood>, null],
-[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
+[null, null, <ore:slabTreatedWood>],
+[null, <ore:plankTreatedWood>, null],
+[<ore:slabTreatedWood>, null, null]]);
 
 #---bricks/blast furnace parts---
 #--Bricks--
