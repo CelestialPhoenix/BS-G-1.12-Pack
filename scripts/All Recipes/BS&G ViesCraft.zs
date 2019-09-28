@@ -45,6 +45,8 @@ recipes.addShaped(<vc:airships/item_airship>,[
 
 #--Upgrades--
 #-Balloon-
+<vc:upgrades/item_upgrade_airship_balloon:*>.clearTooltip();
+
 <vc:upgrades/item_upgrade_airship_balloon:0>.displayName="Rubberised Fabric";
 recipes.remove(<vc:upgrades/item_upgrade_airship_balloon:0>*4);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:0>,[

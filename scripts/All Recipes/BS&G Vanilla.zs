@@ -31,6 +31,12 @@ furnace.setFuel(<ore:dustCharcoal>, 800);
 furnace.setFuel(<ore:dustSmallCharcoal>, 200);
 furnace.setFuel(<ore:dustTinyCharcoal>, 80);
 
+#---Grass Drops---
+#vanilla.seeds.addSeed(<minecraft:carrot> % 1);
+#vanilla.seeds.removeSeed(item);
+vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
+vanilla.seeds.addSeed(<immersiveengineering:seed> % 10);
+
 #---Banned Items---
 #Bucket
 recipes.remove(<minecraft:bucket>);
