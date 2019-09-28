@@ -61,7 +61,7 @@ furnace.addRecipe(<ore:ingotBorosilicateGlass>.firstItem*9, <ore:blockBorosilica
 furnace.addRecipe(<ore:ingotSiliconRubber>.firstItem*9, <ore:blockSiliconRubber>);
 furnace.addRecipe(<ore:ingotPolystyrene>.firstItem*9, <ore:blockPolystyrene>);
 furnace.addRecipe(<ore:ingotStyreneButadieneRubber>.firstItem*9, <ore:blockStyreneButadieneRubber>);
-furnace.addRecipe(<ore:ingotPolyphemyleneSulfide>.firstItem*9, <ore:blockPolyphenyleneSulfide>);
+furnace.addRecipe(<ore:ingotPolyphenyleneSulfide>.firstItem*9, <ore:blockPolyphenyleneSulfide>);
 furnace.addRecipe(<ore:ingotIndiumGalliumPhosphide>.firstItem*9, <ore:blockIndiumGalliumPhosphide>);
 furnace.addRecipe(<ore:ingotReinforcedEpoxyResin>.firstItem*9, <ore:blockReinforcedEpoxyResin>);
 furnace.addRecipe(<ore:ingotZirconium>.firstItem*9, <ore:blockZirconium>);
