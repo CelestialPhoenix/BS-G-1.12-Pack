@@ -531,12 +531,12 @@ recipes.addShaped(<ore:logStackHighDark>.firstItem*2, [
 #See stock recipes at start of #--Log Stacks--
 
 #-Thaumcraft-
-recipes.addShaped(<ore:logStackGoodDark>.firstItem*2, [
+recipes.addShaped(<ore:logStackGoodDark>.firstItem, [
 [<ore:logGreatwood>, <ore:logGreatwood>, <ore:logGreatwood>],
 [<ore:logGreatwood>, <ore:logGreatwood>, <ore:logGreatwood>],
 [<ore:logGreatwood>, <ore:logGreatwood>, <ore:logGreatwood>]]);
 
-recipes.addShaped(<ore:logStackHighLight>.firstItem*2, [
+recipes.addShaped(<ore:logStackHighLight>.firstItem, [
 [<ore:logSilverwood>, <ore:logSilverwood>, <ore:logSilverwood>],
 [<ore:logSilverwood>, <ore:logSilverwood>, <ore:logSilverwood>],
 [<ore:logSilverwood>, <ore:logSilverwood>, <ore:logSilverwood>]]);
