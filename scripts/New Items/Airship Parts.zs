@@ -10,3 +10,6 @@ import mods.contenttweaker.Commands;
 
 var PropellerWood = VanillaFactory.createItem("propellerwood");
 PropellerWood.register();
+
+var PropellerWoodEnhanced = VanillaFactory.createItem("propellerwoodenhanced");
+PropellerWoodEnhanced.register();

@@ -493,6 +493,8 @@ item.contenttweaker.ingottungstencarbide.name=Tungstencarbide Ingot
 item.contenttweaker.ingottungstensteel.name=Tungstensteel Ingot
 item.contenttweaker.ingotzinc.name=Zinc Ingot
 
+item.contenttweaker.leafhemp.name=Hemp Leaves
+
 item.contenttweaker.mechcompaluminium.name=Aluminium Mechanical Component
 item.contenttweaker.mechcompstainless.name=Stainless Mechanical Component
 item.contenttweaker.mechcomptitanium.name=Titanium Mechanical Component
@@ -533,6 +535,7 @@ item.contenttweaker.pipemediumwax.name=Medium Wax Pipe
 item.contenttweaker.pipesmallwax.name=Small Wax Pipe
 
 item.contenttweaker.propellerwood.name=Wooden Propeller
+item.contenttweaker.propellerwoodenhanced.name=Large Wooden Propeller
 
 item.contenttweaker.platealuminium.name=Aluminium Plate
 item.contenttweaker.plateconstantan.name=Constantan Plate
