@@ -18,6 +18,28 @@ Dropt.list("crop_hemp_mature_lower")
       .matchBlocks(["immersiveengineering:hemp:4"])
       .addDrop(Dropt.drop()
 	      .selector(Dropt.weight(100))
-          .items([<immersiveengineering:material:4>], Dropt.range(0, 2, 2))
+          .items([<contenttweaker:hempleaf>], Dropt.range(1, 2, 2))
       )
   );
+
+Dropt.list("crop_hemp_mature_upper")
+  .add(Dropt.rule()
+      .matchBlocks(["immersiveengineering:hemp:5"])
+      .addDrop(Dropt.drop()
+	      .selector(Dropt.weight(100))
+          .items([<contenttweaker:hempleaf>], Dropt.range(1, 2, 2))
+		  .items([<immersiveengineering:seed>], Dropt.range(0, 1, 2))
+      )
+  );
+ 
+ /*
+ Dropt.list("crop_hemp_mature_upper")
+  .add(Dropt.rule()
+      .matchBlocks(["immersiveengineering:hemp:4"])
+    .add(Dropt.rule()
+      .matchBlocks(["minecraft:stone", "minecraft:cobblestone"])
+      .matchDrops([<minecraft:cobblestone>])
+      .replaceStrategy("REPLACE_ITEMS")
+      .addDrop(Dropt.drop())
+  );*/
+  
