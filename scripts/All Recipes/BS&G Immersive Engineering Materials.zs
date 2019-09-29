@@ -206,9 +206,9 @@ recipes.addShaped(<immersiveengineering:wirecoil:2>, [
 #hemp decor
 recipes.removeShaped(<immersiveengineering:wirecoil:3>);
 recipes.addShaped(<immersiveengineering:wirecoil:3>, [
-[<ore:fibreHemp>, <ore:fibreHemp>, <ore:fibreHemp>],
-[<ore:fibreHemp>, <ore:stickTreatedWood>, <ore:fibreHemp>],
-[<ore:fibreHemp>, <ore:fibreHemp>, <ore:fibreHemp>]]);
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>],
+[<contenttweaker:hempstring>, <ore:stickTreatedWood>, <contenttweaker:hempstring>],
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>]]);
 
 #steel decor
 recipes.removeShaped(<immersiveengineering:wirecoil:4>);

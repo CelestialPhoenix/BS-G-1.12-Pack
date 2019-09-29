@@ -414,6 +414,9 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 [null, null, <ore:itemBeeswax>], 
 [null, <ore:itemBeeswax>, null], 
 [<ore:itemBeeswax>, null, null]]);
+#--Plants--
+#Hemp
+recipes.addShapeless(<contenttweaker:hempstring>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);
 
 #--Tools--
 
