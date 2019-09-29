@@ -462,6 +462,8 @@ item.contenttweaker.gearsmalltitanium.name=Small Titanium Gear
 item.contenttweaker.gearsmalltungstensteel.name=Small Tungstensteel Gear
 item.contenttweaker.gearsmallwax.name=Small Wax Gear
 
+item.contenttweaker.hempleaf.name=Hemp Leaves
+
 item.contenttweaker.hotadamantium.name=Hot Adamatium Ingot
 item.contenttweaker.hotardite.name=Hot Ardite Ingot
 item.contenttweaker.hotenderium.name=Hot Enderium Ingot
@@ -492,8 +494,6 @@ item.contenttweaker.ingottungsten.name=Tungsten Ingot
 item.contenttweaker.ingottungstencarbide.name=Tungstencarbide Ingot
 item.contenttweaker.ingottungstensteel.name=Tungstensteel Ingot
 item.contenttweaker.ingotzinc.name=Zinc Ingot
-
-item.contenttweaker.leafhemp.name=Hemp Leaves
 
 item.contenttweaker.mechcompaluminium.name=Aluminium Mechanical Component
 item.contenttweaker.mechcompstainless.name=Stainless Mechanical Component
