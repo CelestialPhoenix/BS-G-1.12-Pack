@@ -88,6 +88,9 @@ print("Tweak Tweak Tweak Tweak");
 <ore:mechcompTitanium>.add(<contenttweaker:mechcomptitanium>);
 <ore:mechcompTungstensteel>.add(<contenttweaker:mechcomptungstensteel>);
 
+#---Misc---
+<ore:string>.add(<contenttweaker:hempstring>);
+
 #---Motors---
 #<ore:motor>.add(<contenttweaker:motor>);
 

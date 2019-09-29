@@ -13,3 +13,6 @@ import mods.contenttweaker.Commands;
 
 var HempLeaf = VanillaFactory.createItem("hempleaf");
 HempLeaf.register();
+
+var HempString = VanillaFactory.createItem("hempstring");
+HempString.register();
