@@ -12,6 +12,6 @@ Dropt.list("Silverwood sapling")
           .selector(Dropt.weight(1))
 		  .items([<thaumcraft:sapling_silverwood>], Dropt.range(1)))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(192)) #Drops nothing
+          .selector(Dropt.weight(256)) #Drops nothing
       )
   );
