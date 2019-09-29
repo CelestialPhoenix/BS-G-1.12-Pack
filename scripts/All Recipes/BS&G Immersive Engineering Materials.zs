@@ -20,6 +20,13 @@ recipes.addShaped(<immersiveengineering:treated_wood>*8, [
 [<ore:plankWood>, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>) , <ore:plankWood>], 
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
+#Tough Fabric
+recipes.removeShaped(<immersiveengineering:material:5>);
+recipes.addShaped(<immersiveengineering:material:5>, [
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>],
+[<contenttweaker:hempstring>, <ore:stickTreatedWood>, <contenttweaker:hempstring>], 
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>]]);
+
 #---Mechanical Components
 #mechcomp iron
 recipes.removeShaped(<immersiveengineering:material:8>);
