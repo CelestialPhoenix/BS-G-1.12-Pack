@@ -8,7 +8,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
 
-#Elemental Rods
+#-Elemental Rods-
 macerator.findRecipe(8, [<ore:rodBlaze>.firstItem], null).remove();
 macerator
     .recipeBuilder()
@@ -48,4 +48,13 @@ macerator
 	.chancedOutput(<ore:dustBasalz>.firstItem, 2500, 1000)
     .duration(200)
     .EUt(8)
+    .buildAndRegister();
+
+#-Plants-
+macerator
+    .recipeBuilder()
+    .inputs(<ore:rodBasalz>.firstItem)
+    .outputs(<ore:dustBasalz>.firstItem)
+    .duration(100)
+    .EUt(2)
     .buildAndRegister();

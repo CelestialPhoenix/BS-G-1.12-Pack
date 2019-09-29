@@ -28,7 +28,6 @@ Dropt.list("crop_hemp_mature_upper")
       .addDrop(Dropt.drop()
 	      .selector(Dropt.weight(100))
           .items([<contenttweaker:hempleaf>], Dropt.range(1, 2, 2))
-		  .items([<immersiveengineering:seed>], Dropt.range(0, 1, 2))
       )
   );
  
