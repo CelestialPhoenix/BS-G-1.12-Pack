@@ -60,6 +60,11 @@ recipes.addShaped(<contenttweaker:propellerwood>,[
 [null, <ore:plankTreatedWood>, null],
 [<ore:slabTreatedWood>, null, null]]);
 
+recipes.addShaped(<contenttweaker:propellerwoodenhanced>,[
+[<ore:slabTreatedWood>, null, <ore:slabTreatedWood>],
+[null, <ore:plankTreatedWood>, null],
+[<ore:slabTreatedWood>, null, <ore:slabTreatedWood>]]);
+
 #---bricks/blast furnace parts---
 #--Bricks--
 furnace.addRecipe(<contenttweaker:blastbrick>, <contenttweaker:clayinfernal>);
