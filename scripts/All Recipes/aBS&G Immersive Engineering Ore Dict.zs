@@ -118,7 +118,7 @@ print("Trust me I'm an engineer");
 <ore:wirespoolCopper>.add(<immersiveengineering:wirecoil:0>);
 <ore:wirespoolElectrum>.add(<immersiveengineering:wirecoil:1>);
 <ore:wirespoolAluminium>.add(<immersiveengineering:wirecoil:2>);
-<ore:wirespoolSteel>.add(<immersiveengineering:wirecoil:3>);
-<ore:wirespoolHemp>.add(<immersiveengineering:wirecoil:4>);
+<ore:wirespoolSteel>.add(<immersiveengineering:wirecoil:4>);
+<ore:wirespoolHemp>.add(<immersiveengineering:wirecoil:3>);
 <ore:wirespoolRedalloy>.add(<immersiveengineering:wirecoil:5>);
 
