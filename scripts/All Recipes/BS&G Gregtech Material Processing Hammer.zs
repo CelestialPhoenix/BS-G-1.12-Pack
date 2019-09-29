@@ -24,7 +24,7 @@ hammer
     .recipeBuilder()
     .inputs(<contenttweaker:hempleaf>)
     .outputs(<immersiveengineering:material:4>)
-    .duration(100)
+    .duration(40)
     .EUt(2)
     .buildAndRegister();
 
@@ -33,6 +33,6 @@ hammer
     .recipeBuilder()
     .inputs(<minecraft:reeds>)
     .outputs(<ore:dustPaper>.firstItem)
-    .duration(100)
+    .duration(40)
     .EUt(2)
     .buildAndRegister();
