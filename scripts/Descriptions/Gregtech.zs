@@ -82,8 +82,8 @@ mods.jei.JEI.addDescription([<metaitem:robot.arm.lv>, <metaitem:robot.arm.mv>, <
 #---Tools---
 
 #-Axe-
-mods.jei.JEI.addDescription([<gregtech:meta_tool:3>], "Chops entire trees in one go.", 
-"Crouch (hold shift) to disable this effect");
+mods.jei.JEI.addDescription([<gregtech:meta_tool:3>], "Chops entire trees in one go, working from the top down", 
+"Crouch (hold shift) to disable this effect.", "This effect can spread into adjecent trees if they grow close enough.");
 
 #-Crowbar-
 mods.jei.JEI.addDescription([<gregtech:meta_tool:10>],"Used (right click) to remove machine modules.",
