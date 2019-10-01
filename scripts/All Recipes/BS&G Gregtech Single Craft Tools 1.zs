@@ -24,6 +24,16 @@ recipes.remove(<gregtech:meta_tool:12>);
 <gregtech:meta_tool:12>.addTooltip("This item is disabled");
 <gregtech:meta_tool:12>.addShiftTooltip("I'm sorry Arch. Please forgive me");
 
+#Flint Sword
+recipes.remove(<gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+<gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).clearTooltip();
+<gregtech:meta_tool>.withTag({ench: [{lvl: 2 as short, id: 20 as short}], "GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).addTooltip("This item is disabled");
+
+#Flint Hoe
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).clearTooltip();
+<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).addTooltip("This item is disabled");
+
 #----Changed Recipes---
 #-Plunger- <gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "blue_steel"}})
 recipes.remove(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "bismuth_bronze"}}));
