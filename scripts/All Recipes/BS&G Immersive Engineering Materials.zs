@@ -14,11 +14,20 @@ recipes.removeShaped(<immersiveengineering:stone_decoration:3>);
 
 #---Materials---
 #Treated Wood
-recipes.removeShaped(<immersiveengineering:treated_wood>);
+recipes.remove(<immersiveengineering:treated_wood>);
 recipes.addShaped(<immersiveengineering:treated_wood>*8, [
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [<ore:plankWood>, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>) , <ore:plankWood>], 
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
+#Treated Wood Slab
+recipes.remove(<immersiveengineering:treated_wood_slab>);
+recipes.addShaped(<immersiveengineering:treated_wood>*4, [
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+
+#Treated Wood Stick
+recipes.addShaped(<immersiveengineering:treated_wood>*2, [
+[<ore:plankTreatedWood>]]);
 
 #Tough Fabric
 recipes.removeShaped(<immersiveengineering:material:5>);
