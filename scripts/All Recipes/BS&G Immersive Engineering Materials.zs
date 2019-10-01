@@ -22,11 +22,11 @@ recipes.addShaped(<immersiveengineering:treated_wood>*8, [
 
 #Treated Wood Slab
 recipes.remove(<immersiveengineering:treated_wood_slab>);
-recipes.addShaped(<immersiveengineering:treated_wood>*4, [
+recipes.addShaped(<immersiveengineering:treated_wood_slab>*4, [
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 #Treated Wood Stick
-recipes.addShaped(<immersiveengineering:treated_wood>*2, [
+recipes.addShaped(<immersiveengineering:material>*2, [
 [<ore:plankTreatedWood>]]);
 
 #Tough Fabric
