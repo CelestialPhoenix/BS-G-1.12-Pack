@@ -233,7 +233,20 @@ recipes.addShaped(<primal:torch_wood>*2, [
 [<ore:stickWood>]]);
 
 #---Tools---
+#-misc tools-
+#Compass
+recipes.remove(<minecraft:compass>);
+recipes.addShaped(<minecraft:compass>,[
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:dustRedstone>, <ore:nuggetIron>],
+[<ore:nuggetIron>, <ore:nuggetIron>, <ore:nuggetIron>]]);
 
+recipes.addShaped(<minecraft:compass>,[
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:dustRedstone>, <ore:nuggetTin>],
+[<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
+
+#-General tools-
 #Diamond
 recipes.remove(<minecraft:diamond_shovel>);
 recipes.addShaped(<minecraft:diamond_shovel>,[
