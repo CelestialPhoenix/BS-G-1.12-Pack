@@ -121,6 +121,11 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:5>,[
 [<ore:fabricHemp>, <vc:upgrades/item_upgrade_airship_balloon:4>, <ore:fabricHemp>],
 [<ore:fabricHemp>, <ore:cordageQuality>, <ore:fabricHemp>]]);
 
+recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:5>,[
+[<ore:fabricHemp>, <vc:upgrades/item_upgrade_airship_balloon:4>, <ore:fabricHemp>],
+[<ore:fabricHemp>, <vc:upgrades/item_upgrade_airship_balloon:4>, <ore:fabricHemp>],
+[<ore:fabricHemp>, <ore:wirespoolHemp>, <ore:fabricHemp>]]);
+
 #-Core- (modules)
 #-Engine- (fuel efficiency)
 #-Frame- (speed)
@@ -146,14 +151,14 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:2>,[
 <vc:upgrades/item_upgrade_airship_frame:3>.addTooltip("Frame Upgrade III");
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:3>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:3>,[
-[null, <ore:gearWood>, <ore:cordageQuality>],
+[<ore:plateTin>, <ore:gearWood>, <ore:cordageQuality>],
 [<ore:doorWood>, <ore:stickLongBronze>, null],
-[null, <ore:gearWood>, <ore:cordageQuality>]]);
+[<ore:plateTin>, <ore:gearWood>, <ore:cordageQuality>]]);
 
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:3>,[
-[null, <ore:gearWood>, <ore:wirespoolHemp>],
+[<ore:plateTin>, <ore:gearWood>, <ore:wirespoolHemp>],
 [<ore:doorWood>, <ore:stickLongBronze>, null],
-[null, <ore:gearWood>, <ore:wirespoolHemp>]]);
+[<ore:plateTin>, <ore:gearWood>, <ore:wirespoolHemp>]]);
 
 <vc:upgrades/item_upgrade_airship_frame:4>.displayName="Ailerons";
 <vc:upgrades/item_upgrade_airship_frame:4>.addTooltip("Frame Upgrade IV");

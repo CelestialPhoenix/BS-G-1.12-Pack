@@ -112,6 +112,7 @@ print("A chip of the old block");
 #---Recipes---
 #Charcoal
 recipes.removeShaped(<chisel:block_charcoal:*>);
+recipes.removeShaped(<chisel:block_charcoal2:*>);
 
 #Recipes in respective mod material processing.zs
 recipes.removeShaped(<chisel:lavastone:0>);

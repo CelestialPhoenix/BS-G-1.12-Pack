@@ -66,13 +66,7 @@ recipes.addShaped(<tconstruct:stone_ladder>*3, [
 #Stone Torch
 recipes.remove(<tconstruct:stone_torch>);
 recipes.addShaped(<tconstruct:stone_torch>, [
-[<ore:gemCoal>],
-[<ore:stickStone>]]);
-recipes.addShaped(<tconstruct:stone_torch>, [
-[<ore:charcoal>],
-[<ore:stickStone>]]);
-recipes.addShaped(<tconstruct:stone_torch>*2, [
-[<ore:fuelCoke>],
+[<ore:dustSmallGlowstone>],
 [<ore:stickStone>]]);
 
 #Tinker Tank
