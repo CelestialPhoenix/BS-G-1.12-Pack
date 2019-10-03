@@ -98,20 +98,18 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:5>,[
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:0>);
 <vc:upgrades/item_upgrade_airship_frame:1>.addTooltip("This item is disabled");
 
-<vc:upgrades/item_upgrade_airship_frame:1>.displayName="Streamlined Hull";
+<vc:upgrades/item_upgrade_airship_frame:1>.displayName="Streamlined Bow";
 <vc:upgrades/item_upgrade_airship_frame:1>.addTooltip("Frame Upgrade I");
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:1>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:1>,[
-[null, null, null],
-[<ore:thinWood>, <ore:boat>, <ore:thinWood>],
+[<ore:slabTreatedWood>, <ore:thinWood>, <ore:stickTreatedWood>],
 [<ore:thinWood>, <ore:thinWood>, null]]);
 
-<vc:upgrades/item_upgrade_airship_frame:2>.displayName="Sleek Bow";
+<vc:upgrades/item_upgrade_airship_frame:2>.displayName="Sleek Hull";
 <vc:upgrades/item_upgrade_airship_frame:2>.addTooltip("Frame Upgrade II");
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:2>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:2>,[
-[<immersiveengineering:treated_wood_stairs0>, null, null],
-[<ore:slabTreatedWood>, <ore:thinWood>, <ore:stickTreatedWood>],
+[<ore:thinWood>, <ore:boat>, <ore:thinWood>],
 [<ore:thinWood>, <ore:thinWood>, null]]);
 
 <vc:upgrades/item_upgrade_airship_frame:3>.displayName="Enhanced Rudder";
@@ -122,13 +120,13 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:3>,[
 [<ore:doorWood>, <ore:stickLongBronze>, null],
 [null, <ore:gearWood>, <ore:cordageQuality>]]);
 
-<vc:upgrades/item_upgrade_airship_frame:4>.displayName="Aerilons";
+<vc:upgrades/item_upgrade_airship_frame:4>.displayName="Ailerons";
 <vc:upgrades/item_upgrade_airship_frame:4>.addTooltip("Frame Upgrade IV");
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:4>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:4>,[
-[<ore:plateBrass>, <ore:trapdoorWood>, <ore:cordageQuality>],
+[<ore:plateTin>, <ore:trapdoorWood>, <ore:cordageQuality>],
 [<ore:gearWood>, <ore:stickLongBronze>, <ore:gearWood>],
-[<ore:plateBrass>, <ore:trapdoorWood>, <ore:cordageQuality>]]);
+[<ore:plateTin>, <ore:trapdoorWood>, <ore:cordageQuality>]]);
 
 <vc:upgrades/item_upgrade_airship_frame:5>.displayName="Ergonomic Controls";
 <vc:upgrades/item_upgrade_airship_frame:5>.addTooltip("Frame Upgrade V");

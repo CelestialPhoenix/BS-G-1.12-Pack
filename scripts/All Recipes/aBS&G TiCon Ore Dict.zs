@@ -29,6 +29,9 @@ print("Is that a nerfbat in your pants or are you happy to see me?");
 <ore:oreCobalt>.remove(<tconstruct:ore:0>);
 <ore:oreArdite>.remove(<tconstruct:ore:1>);
 
+#slimeballs
+<ore:blockSlime>.remove(<tconstruct:edible:3>);
+
 #slimeblocks
 <ore:blockSlime>.remove(<tconstruct:slime:*>);
 

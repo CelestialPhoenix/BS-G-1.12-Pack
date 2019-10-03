@@ -36,6 +36,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #Storage blocks
 recipes.removeShaped(<thermalfoundation:storage:*>);
 recipes.removeShaped(<thermalfoundation:storage_alloy:*>);
+recipes.removeShaped(<thermalfoundation:storage_resource>);
 
 #--Dusts--
 #Aluminium

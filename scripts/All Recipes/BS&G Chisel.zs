@@ -110,6 +110,9 @@ print("A chip of the old block");
 <chisel:granite2:6>.displayName="Pink Granite";
 
 #---Recipes---
+#Charcoal
+recipes.removeShaped(<chisel:block_charcoal:*>);
+
 #Recipes in respective mod material processing.zs
 recipes.removeShaped(<chisel:lavastone:0>);
 recipes.removeShaped(<chisel:waterstone:0>);

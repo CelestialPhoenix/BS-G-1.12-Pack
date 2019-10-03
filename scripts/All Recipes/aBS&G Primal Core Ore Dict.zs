@@ -125,6 +125,11 @@ print("Going Primal. Not unlike going commando");
 <ore:plateVanadium>.remove(<primal:vanadium_plate>);
 <ore:plateGold>.remove(<primal:gold_plate>);
 
+#slimeballs
+<ore:slimeball>.remove(<primal:muck>);
+<ore:slimeball>.remove(<primal:muck_molten>);
+<ore:slimeball>.remove(<primal:sinuous_resin>);
+
 #---Changed tags---
 <ore:slabSoulGlass>.add(<primal:slab_soulglass>);
 
