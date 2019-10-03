@@ -6,9 +6,51 @@
       "DiamondGeodeMid":{  
          "distribution":"fractal",
          "generator":[  
-            {  
+                        {  
+               "type":"plate",
+               "weight":10,
+               "block":[  
+                  {  
+                     "name":"contenttweaker:orepoorgraveldiamond",
+                     "metadata":0,
+                     "weight":1
+                  },
+                  {  
+                     "name":"minecraft:gravel",
+                     "metadata":0,
+                     "weight":10
+                  },
+                  {  
+                     "name":"minecraft:grass",
+                     "metadata":0,
+                     "weight":150
+                  }
+               ],
+               "material":[  
+                  {  
+                     "name":"minecraft:grass",
+                     "metadata":0
+                  },
+				  {  
+                     "name":"minecraft:gravel",
+                     "metadata":0
+                  },
+				  {  
+                     "name":"minecraft:snow_layer",
+                     "metadata":0
+                  },
+				  {  
+                     "name":"biomesoplenty:grass",
+                     "metadata":1
+                  }
+               ],
+               "radius":30,
+               "height":10,
+               "slim":"true"
+            },
+			{  
                "type":"geode",
-               "weight":100,
+               "weight":90,
                "block":[  
                   {  
                      "name":"contenttweaker:orediamond",
@@ -95,7 +137,9 @@
                      "biomesoplenty:cold_desert",
 					 "biomesoplenty:tundra",
 					 "biomesoplenty:snowy_tundra",
-					 "mutated_ice_flats"
+					 "mutated_ice_flats",
+					 "biomesoplenty:alps",
+					 "biomesoplenty:alps_foothills"
                   ]
                }
             ]
