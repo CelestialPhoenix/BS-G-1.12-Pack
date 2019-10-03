@@ -30,6 +30,15 @@ recipes.addShapeless(<primal:adobe_clump>, [<ore:ballmud>, <ore:itemStraw>, <ore
 recipes.addShapeless(<primal:adobe_clump>, [<ore:ballmud>, <ore:string>, <ore:string>, <ore:string>]);
 recipes.addShapeless(<primal:adobe_clump>, [<ore:ballmud>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]);
 
+#--Materials---
+#Leather
+recipes.remove(<primal:leather_strip>);
+<primal:leather_strip>.addTooltip("This item is disabled");
+
+recipes.remove(<primal:leather_cordage>);
+recipes.addShaped(<primal:leather_cordage>*6, [
+[<ore:leather>, <ore:leather>]]);
+
 #--Rocks--
 #do it in world
 recipes.remove(<primal:ancient_ice_chunk>);

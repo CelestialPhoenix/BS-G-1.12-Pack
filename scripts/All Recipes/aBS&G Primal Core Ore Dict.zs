@@ -73,6 +73,10 @@ print("Going Primal. Not unlike going commando");
 <ore:ingotAdamant>.remove(<primal:adamant_ingot>);
 <ore:ingotVanadium>.remove(<primal:vanadium_ingot>);
 
+#-leather-
+<ore:leatherStrip>.remove(<primal:leather_strip>);
+<ore:stripLeather>.remove(<primal:leather_strip>);
+
 #-nuggets-
 #<ore:nugget>.remove(<primal:_nugget>);
 <ore:nuggetSteel>.remove(<primal:steel_nugget>);
