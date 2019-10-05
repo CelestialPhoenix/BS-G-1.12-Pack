@@ -11,5 +11,4 @@ Dropt.list("Block Grass")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(1))
 		  .items([<minecraft:dirt>], Dropt.range(1)))
-      )
-  );
+);

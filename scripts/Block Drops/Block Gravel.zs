@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears Cast Rings.zs
+#Name: Blood Sweat & Gears Cast Block Gravel.zs
 #Author: PhoePhoe
 
 import mods.dropt.Dropt;

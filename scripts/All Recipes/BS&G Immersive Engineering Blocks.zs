@@ -29,6 +29,11 @@ recipes.addShaped(<immersiveengineering:stone_decoration:2>*4, [
 [<ore:plateSteel>, <ore:furnace>, <ore:plateSteel>], 
 [<railcraft:brick_infernal:*>, <ore:plateSteel>, <railcraft:brick_infernal:*>]]);
 
+recipes.addShaped(<immersiveengineering:stone_decoration:2>*4, [
+[<immersiveengineering:stone_decoration:1>, <ore:plateSteel>, <immersiveengineering:stone_decoration:1>],
+[<ore:plateSteel>, null, <ore:plateSteel>], 
+[<immersiveengineering:stone_decoration:1>, <ore:plateSteel>, <immersiveengineering:stone_decoration:1>]]);
+
 #---Blast Furnace PreHeater---
 recipes.removeShaped(<immersiveengineering:metal_device1>);
 recipes.addShaped(<immersiveengineering:metal_device1>, [
