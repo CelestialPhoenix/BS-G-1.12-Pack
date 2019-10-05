@@ -133,7 +133,10 @@
                   }
                ],
                "material":[  
-                  "minecraft:sand"
+                  {  
+                     "name":"minecraft:sand",
+                     "metadata":0
+                  }
                ],
                "radius":35,
                "height":80,
