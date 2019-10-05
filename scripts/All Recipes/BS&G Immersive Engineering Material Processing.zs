@@ -95,7 +95,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTinAlloy>.firstItem*2
 mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotInvar>.firstItem, <ore:dustInvar>, 2000);
 
 #Steel
-#mods.immersiveengineering.BlastFurnace.removeRecipe(ingotSteel>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 1200, <ore:itemSlag>.firstItem);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem*9, <ore:blockIron>, 10000, <ore:itemSlag>.firstItem*9);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotSteel>.firstItem, <ore:dustIron>, 1000, <ore:itemSlag>.firstItem);

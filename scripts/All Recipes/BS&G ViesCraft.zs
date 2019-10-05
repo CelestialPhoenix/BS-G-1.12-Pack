@@ -127,9 +127,10 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:5>,[
 [<ore:fabricHemp>, <ore:wirespoolHemp>, <ore:fabricHemp>]]);
 
 #-Core- (modules)
-#-Engine- (fuel efficiency)
-#-Frame- (speed)
 
+#-Engine- (fuel efficiency)
+
+#-Frame- (speed)
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:0>);
 <vc:upgrades/item_upgrade_airship_frame:1>.addTooltip("This item is disabled");
 
