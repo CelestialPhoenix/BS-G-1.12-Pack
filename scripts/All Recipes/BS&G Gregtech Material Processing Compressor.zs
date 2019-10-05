@@ -57,7 +57,7 @@ compressor
     .inputs(<ore:dustObsidian>*3)
     .outputs(<ore:plateObsidian>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 #-Gemstone plates-
@@ -66,7 +66,7 @@ compressor
     .inputs(<ore:dust>*3)
     .outputs(<ore:plate>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 */
 compressor
@@ -74,7 +74,7 @@ compressor
     .inputs(<ore:dustAlmandine>*3)
     .outputs(<ore:plateAlmandine>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -82,7 +82,7 @@ compressor
     .inputs(<ore:dustBlueTopaz>*3)
     .outputs(<ore:plateBlueTopaz>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -90,7 +90,7 @@ compressor
     .inputs(<ore:dustDiamond>*3)
     .outputs(<ore:plateDiamond>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -98,7 +98,7 @@ compressor
     .inputs(<ore:dustEmerald>*3)
     .outputs(<ore:plateEmerald>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -106,7 +106,7 @@ compressor
     .inputs(<ore:dustGreenSapphire>*3)
     .outputs(<ore:plateGreenSapphire>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -114,7 +114,7 @@ compressor
     .inputs(<ore:dustRutile>*3)
     .outputs(<ore:plateRutile>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -122,7 +122,7 @@ compressor
     .inputs(<ore:dustLazurite>*3)
     .outputs(<ore:plateLazurite>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -130,7 +130,7 @@ compressor
     .inputs(<ore:dustRuby>*3)
     .outputs(<ore:plateRuby>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -138,7 +138,7 @@ compressor
     .inputs(<ore:dustSapphire>*3)
     .outputs(<ore:plateSapphire>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -146,7 +146,7 @@ compressor
     .inputs(<ore:dustSodalite>*3)
     .outputs(<ore:plateSodalite>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -154,7 +154,7 @@ compressor
     .inputs(<ore:dustTanzanite>*3)
     .outputs(<ore:plateTanzanite>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -162,7 +162,7 @@ compressor
     .inputs(<ore:dustTopaz>*3)
     .outputs(<ore:plateTopaz>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -170,7 +170,7 @@ compressor
     .inputs(<ore:dustNetherQuartz>*3)
     .outputs(<ore:plateNetherQuartz>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -178,7 +178,7 @@ compressor
     .inputs(<ore:dustCertusQuartz>*3)
     .outputs(<ore:plateCertusQuartz>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -186,7 +186,7 @@ compressor
     .inputs(<ore:dustJasper>*3)
     .outputs(<ore:plateJasper>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -194,7 +194,7 @@ compressor
     .inputs(<ore:dustGlass>*3)
     .outputs(<ore:plateGlass>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -202,7 +202,7 @@ compressor
     .inputs(<ore:dustOlivine>*3)
     .outputs(<ore:plateOlivine>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -210,7 +210,7 @@ compressor
     .inputs(<ore:dustOpal>*3)
     .outputs(<ore:plateOpal>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -218,7 +218,7 @@ compressor
     .inputs(<ore:dustAmethyst>*3)
     .outputs(<ore:plateAmethyst>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -226,7 +226,7 @@ compressor
     .inputs(<ore:dustLapis>*3)
     .outputs(<ore:plateLapis>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -234,7 +234,7 @@ compressor
     .inputs(<ore:dustGarnetRed>*3)
     .outputs(<ore:plateGarnetRed>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -242,7 +242,7 @@ compressor
     .inputs(<ore:dustGarnetYellow>*3)
     .outputs(<ore:plateGarnetYellow>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
 
 compressor
@@ -250,5 +250,5 @@ compressor
     .inputs(<ore:dustVinteum>*3)
     .outputs(<ore:plateVinteum>.firstItem*2)
     .duration(600)
-    .EUt(4)
+    .EUt(2)
     .buildAndRegister();
