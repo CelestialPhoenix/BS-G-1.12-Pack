@@ -9,7 +9,7 @@ import mods.contenttweaker.Block;
 var OreSoulNickel = VanillaFactory.createBlock("oresoulnitre", <blockmaterial:rock>);
 OreSoulNickel.setBlockHardness(3.0);
 OreSoulNickel.setBlockResistance(15.0);
-OreSoulNickel.setToolClass("pickaxe");
+OreSoulNickel.setToolClass("shovel");
 OreSoulNickel.setToolLevel(1);
 OreSoulNickel.setBlockSoundType(<soundtype:stone>);
 OreSoulNickel.setSlipperiness(0.6);
