@@ -11,6 +11,9 @@ recipes.remove(<tconstruct:slime:*>);
 #nuggets
 recipes.removeShaped(<tconstruct:nuggets:*>);
 
+#ingots
+recipes.removeShaped(<tconstruct:ingots:*>);
+
 #storage blocks
 recipes.removeShaped(<tconstruct:metal:*>);
 
