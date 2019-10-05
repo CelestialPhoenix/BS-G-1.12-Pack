@@ -41,7 +41,11 @@ print("Trust me I'm an engineer");
 <ore:ingotSteel>.remove(<immersiveengineering:metal:8>);
 <ore:ingotUranium>.remove(<immersiveengineering:metal:5>);
 
-#nuggets
+#Misc Materials
+<ore:crystalSlag>.remove(<immersiveengineering:material:7>);
+<ore:itemSlag>.remove(<immersiveengineering:material:7>);
+
+#Nuggets
 <ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
 <ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
 <ore:nuggetConstantan>.remove(<immersiveengineering:metal:26>);
