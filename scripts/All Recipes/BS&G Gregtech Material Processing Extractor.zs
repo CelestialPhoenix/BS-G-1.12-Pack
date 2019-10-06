@@ -13,7 +13,7 @@ extractor.findRecipe(5, [<metaitem:rubber_drop>*1], null).remove();
 extractor
     .recipeBuilder()
     .inputs(<ore:resinSticky>.firstItem)
-    .outputs(<ore:dustRawRubber>.firstItem*3)
+    .outputs(<ore:dustRawRubber>.firstItem*2)
     .duration(200)
     .EUt(5)
     .buildAndRegister();
