@@ -23,6 +23,16 @@ theassembler.findRecipe(16, [<ore:plateDarmstadtium>.firstItem * 8, <metaitem:ci
 
 #electricBF.findRecipe(120, [<ore:dustTinySilicon>.firstItem, <metaitem:circuit.integrated>], null).remove();
 
+#Replacing Gtech rubber with IC2
+theassembler.findRecipe(8, [<ore:plateWood>.firstItem * 8, <metaitem:rubber_drop>*1], [<liquid:glue>*100]).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateWood>*8, <metaitem:rubber_drop>*1)
+	.fluidInputs([<liquid:glue>*100])
+    .outputs(<metaitem:board.coated>)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
 
 #--Hardmode Redstone Recipes--
 #-Metal Doors-
