@@ -37,30 +37,81 @@ recipes.removeShaped(<ic2:crafting:1>);
 
 
 #-Conduits-
-#copper
+val ConduitAluminium = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte});
+val ConduitCopper = <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte});
+val ConduitFibre = <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte});
+val ConduitGold = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte});
+val ConduitTin = <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
+
+#Aluminium
+recipes.remove(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}));
+recipes.addShaped(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})*2, [
+[null, null, <ore:stickAluminium>],
+[null, <ore:stickAluminium>, null], 
+[<ore:stickAluminium>, null, null]]);
+
+#Aluminium Insulated
+recipes.remove(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}));
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}),
+[ConduitAluminium, <ore:plateRubber>]);
+#Aluminium 2x Insulated
+recipes.remove(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}));
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}),
+[ConduitGold, <ore:plateRubber>, <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}),
+[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}), <ore:plateRubber>]);
+#Aluminium 3x Insulated
+recipes.remove(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}));
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}),
+[ConduitGold, <ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}),
+[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}), <ore:plateRubber>, <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}),
+[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}), <ore:plateRubber>]);
+
+#Copper
 recipes.remove(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}));
 recipes.addShaped(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})*2, [
 [null, null, <ore:stickCopper>],
 [null, <ore:stickCopper>, null], 
 [<ore:stickCopper>, null, null]]);
-#copper insulation
+
+#Copper Insulated
 recipes.remove(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}));
 recipes.addShapeless(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}),
-[<ore:conduitCopper>, <ore:plateRubber>]);
+[ConduitCopper, <ore:plateRubber>]);
 
-#tin
+#Gold
+recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
+recipes.addShaped(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})*2, [
+[null, null, <ore:stickGold>],
+[null, <ore:stickGold>, null], 
+[<ore:stickGold>, null, null]]);
+
+#Fibre
+
+#Gold Insulated
+recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}));
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}),
+[ConduitGold, <ore:plateRubber>]);
+#Gold 2x Insulated
+recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}));
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}),
+[ConduitGold, <ore:plateRubber>, <ore:plateRubber>]);
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}),
+[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}), <ore:plateRubber>]);
+
+#Tin
 recipes.remove(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}));
 recipes.addShaped(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})*2, [
 [null, null, <ore:stickTin>],
 [null, <ore:stickTin>, null], 
 [<ore:stickTin>, null, null]]);
-#tin insulation
+
+#Tin Insulated
 recipes.remove(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}));
 recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}),
-[<ore:conduitTin>, <ore:plateRubber>]);
-
-#gold
-recipes.remove(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
+[ConduitTin, <ore:plateRubber>]);
 
 #--Items--
 #Coffee
