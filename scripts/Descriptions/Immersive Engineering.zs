@@ -17,6 +17,5 @@ mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration:1>],"Crude b
 mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Alloy kiln forms a 2x2x2 solid cube", 
 "Use (right-click) an Engineer's Hammer to activate the structure");
 
-#--Kinetic Dynamo/Waterwheel/Windmill
-mods.jei.JEI.addDescription([<immersiveengineering:wooden_device1>],"Placed onto the side of a kinetic dynamo", "occupies a 5x5x1 (vertical) space centered on the dynamo", 
-"Generate a small amount of Rf from flowing water", "Up to 3 waterwheels can be connected to the dynamo");
+#--Kinetic Dynamo (+Waterwheel/Windmill)
+mods.jei.JEI.addDescription([<immersiveengineering:wooden_device1>],"Generates a small amount of Rf from flowing water", "Placed onto the front of a kinetic dynamo", "Occupies a 7x7x1 space (ignoring corners) centered on the dynamo", "Up to 3 waterwheels can be connected to the dynamo");
