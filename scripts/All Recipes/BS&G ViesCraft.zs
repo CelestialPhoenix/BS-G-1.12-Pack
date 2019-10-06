@@ -60,7 +60,7 @@ recipes.addShaped(<vc:airships/item_airship>,[
 
 #--Upgrades--
 #-Balloon- (altitude)
-<vc:upgrades/item_upgrade_airship_balloon:0>.displayName="Rubberised Fabric";
+<vc:upgrades/item_upgrade_airship_balloon:0>.displayName="Sealed Fabric";
 recipes.remove(<vc:upgrades/item_upgrade_airship_balloon:0>*4);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:0>,[
 [<ore:plateRubber>, <ore:fabricHemp>],

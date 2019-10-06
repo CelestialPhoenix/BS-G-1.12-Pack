@@ -103,21 +103,45 @@ recipes.addShaped(<railcraft:tank_water>*6, [
 #Iron Tank Valve
 recipes.remove(<railcraft:tank_iron_valve:0>);
 recipes.addShaped(<railcraft:tank_iron_valve:0>, [
-[<ore:lever>],
-[<railcraft:tank_iron_valve:*>]]);
+[<ore:blockLever>],
+[<railcraft:tank_iron_wall:*>]]);
 
 recipes.addShaped(<railcraft:tank_iron_valve:0>*8, [
 [<railcraft:tank_iron_valve:*>, <railcraft:tank_iron_valve:*>, <railcraft:tank_iron_valve:*>],
 [<railcraft:tank_iron_valve:*>, <ore:dyeWhite>, <railcraft:tank_iron_valve:*>],
 [<railcraft:tank_iron_valve:*>, <railcraft:tank_iron_valve:*>, <railcraft:tank_iron_valve:*>]]);
 
+#Iron Tank Wall
+recipes.remove(<railcraft:tank_iron_wall:0>);
+recipes.addShaped(<railcraft:tank_iron_wall:0>*12, [
+[<ore:plateIron>, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<railcraft:tank_iron_wall:0>*8, [
+[<railcraft:tank_iron_wall:*>, <railcraft:tank_iron_wall:*>, <railcraft:tank_iron_wall:*>],
+[<railcraft:tank_iron_wall:*>, <ore:dyeWhite>, <railcraft:tank_iron_wall:*>],
+[<railcraft:tank_iron_wall:*>, <railcraft:tank_iron_wall:*>, <railcraft:tank_iron_wall:*>]]);
+
 #Steel Tank Valve
 recipes.remove(<railcraft:tank_steel_valve:0>);
 recipes.addShaped(<railcraft:tank_steel_valve:0>, [
-[<ore:lever>],
-[<railcraft:tank_steel_valve:*>]]);
+[<ore:blockLever>],
+[<railcraft:tank_steel_wall:*>]]);
 
 recipes.addShaped(<railcraft:tank_steel_valve:0>*8, [
 [<railcraft:tank_steel_valve:*>, <railcraft:tank_steel_valve:*>, <railcraft:tank_steel_valve:*>],
 [<railcraft:tank_steel_valve:*>, <ore:dyeWhite>, <railcraft:tank_steel_valve:*>],
 [<railcraft:tank_steel_valve:*>, <railcraft:tank_steel_valve:*>, <railcraft:tank_steel_valve:*>]]);
+
+#Steel Tank Wall
+recipes.remove(<railcraft:tank_steel_wall:0>);
+recipes.addShaped(<railcraft:tank_steel_wall:0>*12, [
+[<ore:plateSteel>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:plateSteel>]]);
+
+recipes.addShaped(<railcraft:tank_steel_wall:0>*8, [
+[<railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>],
+[<railcraft:tank_steel_wall:*>, <ore:dyeWhite>, <railcraft:tank_steel_wall:*>],
+[<railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>]]);
