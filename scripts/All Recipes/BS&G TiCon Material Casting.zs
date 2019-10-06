@@ -29,6 +29,9 @@ mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:ge
 #Ingot
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrick>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrickNether>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:bricksandy>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:brickredsandy>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:blastbrick>, <liquid:steel>, 576, true);
 #Ring
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringBronze>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringCopper>, <liquid:steel>, 576, true);
@@ -68,7 +71,10 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:to
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadPickaxeIron>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadPickaxeSteel>, <liquid:steel>, 576, true);
 #Sense
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsense>, <ore:headSense>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadSenseBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadSenseIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadSenseSteel>, <liquid:steel>, 576, true);
+
 #Shovel
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <minecraft:stone_shovel>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadshovel>, <abyssalcraft:dshovel>, <liquid:steel>, 576, true);
@@ -81,7 +87,9 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:tool
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:toolHeadSwordIron>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadsword>, <ore:toolHeadSwordSteel>, <liquid:steel>, 576, true);
 #Uni Spade
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheaduniversalspade>, <ore:headUniversalSpade>, <liquid:steel>, 576, true); 
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadUniversalSpadeBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadUniversalSpadeIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldheadpickaxe>, <ore:toolHeadUniversalSpadeSteel>, <liquid:steel>, 576, true);
 
 #---Component Reusable Casting---
 

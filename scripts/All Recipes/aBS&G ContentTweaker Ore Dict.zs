@@ -329,7 +329,6 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);
-<ore:ringStone>.add(<contenttweaker:ringstone>);
 <ore:ringWax>.add(<contenttweaker:ringwax>);
 
 #---Rods---
@@ -360,11 +359,6 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Stone Tool Models---
 #<ore:head>.add(<contenttweaker:stone>);
-<ore:headHammer>.add(<contenttweaker:hammerstone>);
-<ore:headHoe>.add(<contenttweaker:hoestone>);
-<ore:headSense>.add(<contenttweaker:sensestone>);
-<ore:headSword>.add(<contenttweaker:swordstone>);
-<ore:headUniversalSpade>.add(<contenttweaker:universalspadestone>);
 
 #---Tool Rods---
 <ore:toolRodWood>.add(<contenttweaker:toolrodwood>);

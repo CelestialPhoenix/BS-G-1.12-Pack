@@ -235,7 +235,7 @@ recipes.addShaped(<contenttweaker:gearboxemptytungstensteel>, [
 [<ore:plateTungstensteel>, null, <ore:plateTungstensteel>], 
 [<ore:plateTungstensteel>, <ore:mechcompTungstensteel>, <ore:plateTungstensteel>]]);
 
-#---Filled Gearboxes
+#---Filled Gearboxes---
 #filling disabled due to major dupe bug with .giveBack
 recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, canLubricant.transformReplace(<forestry:can>*2), canLubricant]);
 recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, capsuleLubricant.transformReplace(<forestry:capsule>*2), capsuleLubricant]);
@@ -364,19 +364,12 @@ recipes.addShaped(<contenttweaker:motortungstensteel>, [
 
 #---Models---
 
-#--Components--
 #-Stone Models-
 #gear small stone
 recipes.addShaped(<contenttweaker:gearsmallstone>, [
 [null, <minecraft:stone_slab>, null],
 [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>], 
 [null, <minecraft:stone_slab>, null]]);
-
-#ringstone
-recipes.addShaped(<contenttweaker:ringstone>, [
-[null, <minecraft:stone>, null],
-[<minecraft:stone>, null, <minecraft:stone>], 
-[null, <minecraft:stone>, null]]);
 
 #-Wax Models-
 #gear small wax
@@ -414,32 +407,63 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 [null, null, <ore:itemBeeswax>], 
 [null, <ore:itemBeeswax>, null], 
 [<ore:itemBeeswax>, null, null]]);
+
+#--Molds--
+recipes.addShaped(<contenttweaker:moldrods>, [
+[null, null, null],
+[null, <metaitem:shape.empty>, null], 
+[null, null, <gregtech:meta_tool:13>]]);
+
+recipes.addShaped(<contenttweaker:moldheadhoe>, [
+[null, null, <metaitem:shape.empty>],
+[null, null, null], 
+[null, <gregtech:meta_tool:13>, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadpickaxe>, [
+[null, null, null],
+[null, null, null], 
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadaxe>, [
+[null, null, <metaitem:shape.empty>],
+[<gregtech:meta_tool:13>, null, null], 
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadshovel>, [
+[null, null, <metaitem:shape.empty>],
+[null, null, null], 
+[<gregtech:meta_tool:13>, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheaduniversalspade>, [
+[null, null, null],
+[<metaitem:shape.empty>, null, <gregtech:meta_tool:13>], 
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadsword>, [
+[<gregtech:meta_tool:13>, null, null],
+[null, null, null], 
+[null, null, <metaitem:shape.empty>]]);
+
+recipes.addShaped(<contenttweaker:moldrings>, [
+[null, null, null],
+[null, <metaitem:shape.empty>, <gregtech:meta_tool:13>], 
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadsense>, [
+[null, null, null],
+[<gregtech:meta_tool:13>, null, <metaitem:shape.empty>], 
+[null, null, null]]);
+
+recipes.addShaped(<contenttweaker:moldheadhammer>, [
+[null, null, null],
+[<gregtech:meta_tool:13>, null, null], 
+[null, null, <metaitem:shape.empty>]]);
+
+
+
 #--Plants--
 #Hemp
 recipes.addShapeless(<contenttweaker:hempstring>, [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>]);
-
-#--Tools--
-
-#hammer
-recipes.addShaped(<contenttweaker:hammerstone>, [
-[<minecraft:cobblestone>, <minecraft:cobblestone>],
-[<minecraft:cobblestone>, <minecraft:cobblestone>], 
-[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
-#hoe
-recipes.addShaped(<contenttweaker:hoestone>, [
-[<minecraft:cobblestone>, <minecraft:cobblestone>]]);
-
-#sword
-recipes.addShaped(<contenttweaker:swordstone>, [
-[<minecraft:cobblestone>],
-[<minecraft:cobblestone>]]);
-
-#universal spade
-recipes.addShaped(<contenttweaker:universalspadestone>, [
-[null, <minecraft:cobblestone>, null],
-[<minecraft:cobblestone>, null, <minecraft:cobblestone>], 
-[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 #---Moulds (Single use)---
 
