@@ -46,3 +46,4 @@ furnace.addRecipe(<ore:nuggetTin>.firstItem*3, <contenttweaker:orepoorgraveltin>
 
 #---Gregtech Ores Smelting---
 #furnace.addRecipe(<ore:ingot>.firstItem, <ore:ore>, 0.0);
+furnace.addRecipe(<ore:dustSulfur>.firstItem, <ore:dustImpureSulfur>, 0.0);
