@@ -149,6 +149,8 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>); #iridium al
 <ic2:plate:17>.addTooltip("This item is disabled");
 
 #---Recipes---
+#Rubber ball
+furnace.remove(<ic2:crafting:0>);
 
 #-Item Casings-
 #Imeng press cutter
