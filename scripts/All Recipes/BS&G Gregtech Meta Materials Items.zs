@@ -462,6 +462,8 @@ recipes.addShaped(<ore:platePolytetrafluoroethylene>.firstItem*2, [
 recipes.removeShaped(<ore:plateReinforcedEpoxyResin>.firstItem);
 recipes.addShaped(<ore:plateReinforcedEpoxyResin>.firstItem*2, [
 [<ore:ingotReinforcedEpoxyResin>, <ore:ingotReinforcedEpoxyResin>]]);
+recipes.addShaped(<ore:plateRubber>.firstItem*2, [
+[<ore:ingotRubber>, <ore:ingotRubber>]]);
 
 #Rod
 recipes.removeShapeless(<ore:stickIronMagnetic>.firstItem); #Magnetic iron redstone crafting recipe
