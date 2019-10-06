@@ -13,3 +13,6 @@ mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Coking ov
 mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration:1>],"Crude blast furnace forms a 3x3x3 solid cube", 
 "Use (right-click) an Engineer's Hammer to activate the structure", 
 "Consumes charcoal and coal coke as fuel to produce steel from iron.");
+
+mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Alloy kiln forms a 2x2x2 solid cube", 
+"Use (right-click) an Engineer's Hammer to activate the structure");
