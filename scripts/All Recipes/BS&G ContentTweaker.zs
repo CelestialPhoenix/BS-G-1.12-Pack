@@ -412,51 +412,51 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 recipes.addShaped(<contenttweaker:moldrods>, [
 [null, null, null],
 [null, <metaitem:shape.empty>, null], 
-[null, null, <gregtech:meta_tool:13>]]);
+[null, null, <gregtech:meta_tool:6>]]);
 
 recipes.addShaped(<contenttweaker:moldheadhoe>, [
-[null, null, <metaitem:shape.empty>],
-[null, null, null], 
-[null, <gregtech:meta_tool:13>, null]]);
-
-recipes.addShaped(<contenttweaker:moldheadpickaxe>, [
 [null, null, null],
 [null, null, null], 
-[null, null, null]]);
+[<gregtech:meta_tool:6>, null, <metaitem:shape.empty>]]);
+
+recipes.addShaped(<contenttweaker:moldheadpickaxe>, [
+[null, null, <metaitem:shape.empty>],
+[null, null, null], 
+[null, <gregtech:meta_tool:6>, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadaxe>, [
 [null, null, <metaitem:shape.empty>],
-[<gregtech:meta_tool:13>, null, null], 
+[<gregtech:meta_tool:6>, null, null], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadshovel>, [
 [null, null, <metaitem:shape.empty>],
 [null, null, null], 
-[<gregtech:meta_tool:13>, null, null]]);
+[<gregtech:meta_tool:6>, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheaduniversalspade>, [
 [null, null, null],
-[<metaitem:shape.empty>, null, <gregtech:meta_tool:13>], 
+[<metaitem:shape.empty>, null, <gregtech:meta_tool:6>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadsword>, [
-[<gregtech:meta_tool:13>, null, null],
+[<gregtech:meta_tool:6>, null, null],
 [null, null, null], 
 [null, null, <metaitem:shape.empty>]]);
 
 recipes.addShaped(<contenttweaker:moldrings>, [
 [null, null, null],
-[null, <metaitem:shape.empty>, <gregtech:meta_tool:13>], 
+[null, <metaitem:shape.empty>, <gregtech:meta_tool:6>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadsense>, [
 [null, null, null],
-[<gregtech:meta_tool:13>, null, <metaitem:shape.empty>], 
+[<gregtech:meta_tool:6>, null, <metaitem:shape.empty>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadhammer>, [
 [null, null, null],
-[<gregtech:meta_tool:13>, null, null], 
+[<gregtech:meta_tool:6>, null, null], 
 [null, null, <metaitem:shape.empty>]]);
 
 
