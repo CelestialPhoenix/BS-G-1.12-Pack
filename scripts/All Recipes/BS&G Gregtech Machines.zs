@@ -216,6 +216,20 @@ recipes.addShaped(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>, [
 
 #---single block machines---
 #Alloy Smelter
+#LP Steam
+recipes.remove(<meta_tile_entity:gregtech:steam_alloy_smelter_bronze>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_alloy_smelter_bronze>, [
+[<ore:pipeSmallBronze>, <ore:pipeSmallBronze>, <ore:pipeSmallBronze>], 
+[<ore:furnace>, <ore:hullBronzeBrick>, <ore:furnace>], 
+[<ore:pipeSmallBronze>, <ore:pipeSmallBronze>, <ore:pipeSmallBronze>]]);
+
+#HP Steam
+recipes.remove(<meta_tile_entity:gregtech:steam_alloy_smelter_steel>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_alloy_smelter_steel>, [
+[<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>], 
+[<ore:furnace>, <ore:hullSteelBrick>, <ore:furnace>], 
+[<ore:pipeSmallSteel>, <ore:pipeSmallSteel>, <ore:pipeSmallSteel>]]);
+
 #LV
 recipes.remove(<meta_tile_entity:gregtech:alloy_smelter.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.lv>, [
