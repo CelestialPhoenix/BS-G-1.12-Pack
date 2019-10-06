@@ -107,7 +107,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration:5>*8, [
 recipes.removeShaped(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [
 [<ore:plankTreatedWood>, <ore:ringSteel>, <ore:plankTreatedWood>],
-[<ore:cableGtSingleTin>, <ore:coilSimple>, <ore:cableGtSingleTin>], 
+[<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), <ore:coilSimple>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte})], 
 [<ore:plankTreatedWood>, <ore:ringSteel>, <ore:plankTreatedWood>]]);
 
 #---Engineering blocks---
