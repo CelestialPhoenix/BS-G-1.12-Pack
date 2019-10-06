@@ -10,9 +10,9 @@ print("Trust me I'm an engineer");
 #---alloy kiln bricks---
 recipes.removeShaped(<immersiveengineering:stone_decoration:10>);
 recipes.addShaped(<immersiveengineering:stone_decoration:10>*2, [
-[<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>],
-[<ore:ingotBrick>, <ore:stoneFurnace>, <ore:ingotBrick>], 
-[<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
+[<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>],
+[<ore:sandstone>, <ore:furnace>, <ore:sandstone>], 
+[<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>]]);
 
 #---blast furnace bricks---
 #basic BF
