@@ -13,7 +13,7 @@ centrifuge
     .recipeBuilder()
     .inputs(<ore:resinSticky>.firstItem)
     .outputs(<ore:dustRawRubber>.firstItem*3)
-	.chancedOutput(<metaitem:plant_ball:>, 1000, 850)
+	.chancedOutput(<metaitem:plant_ball>, 1000, 850)
 	.fluidOutputs([<liquid:glue>*100])
     .duration(200)
     .EUt(5)
