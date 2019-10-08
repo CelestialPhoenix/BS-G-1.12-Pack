@@ -40,7 +40,7 @@ recipes.addShaped(<forestry:still>, [
 recipes.removeShaped(<forestry:worktable>);
 recipes.addShaped(<forestry:worktable>, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-[<ore:slabTreatedWood>, <ore:machineSturdy>, <ore:slabTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:hullBronze>, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, <ore:chestWood>, <ore:slabTreatedWood>]]);
 
 #---items---
