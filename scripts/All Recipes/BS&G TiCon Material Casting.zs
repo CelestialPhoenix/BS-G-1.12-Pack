@@ -12,6 +12,8 @@ mods.tconstruct.Casting.addBasinRecipe(<chisel:waterstone:0>, <ore:stoneCobble>,
 #mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldhead>, <input>, <liquid:steel>, 576, true); #
 
 #-Component Moulds (Reusable)-
+#Blank Mold
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.empty>, null, <liquid:steel>, 576, true);
 #Gear
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearStone>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearBronze>, <liquid:steel>, 576, true);
