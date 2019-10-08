@@ -507,7 +507,7 @@ recipes.addShaped(<contenttweaker:presstoolringbender>, [
 #roller
 recipes.addShaped(<contenttweaker:presstoolroller>, [
 [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-[<ore:plateSteel>, <ore:rodSteel>, <ore:plateSteel>], 
+[<ore:plateSteel>, null, <ore:plateSteel>], 
 [<ore:ringSteel>, <ore:blockSteel>, <ore:ringSteel>]]);
 
 #---sheetmetal blocks---

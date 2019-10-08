@@ -19,15 +19,15 @@ recipes.addShaped(<forestry:wood_pile_decorative>, [
 recipes.removeShaped(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [
 [null, <ore:casingBronze>, null],
-[<ore:casingBronze>, <ore:machineBronze>, <ore:casingBronze>], 
+[<ore:casingBronze>, <ore:hullSteel>, <ore:casingBronze>], 
 [null, <ore:casingBronze>, null]]);
 
 #thermfab
 recipes.removeShaped(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
-[<ore:plateSteel>, <forestry:worktable>, <ore:plateSteel>],
-[<ore:plateSteel>, <ore:machineSturdy>, <ore:plateSteel>], 
-[<ore:plateSteel>, null, <ore:plateSteel>]]);
+[null, <forestry:worktable>, null],
+[null, <ore:machineSturdy>, null], 
+[null, <ore:coilSimple>, null]]);
 
 #still
 recipes.removeShaped(<forestry:still>);
@@ -35,6 +35,13 @@ recipes.addShaped(<forestry:still>, [
 [<ore:tank>, <ore:elementCupronickel>, <ore:tank>],
 [<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
 [<ore:plateSteel>, <ore:elementCupronickel>, <ore:plateSteel>]]);
+
+#worktable
+recipes.removeShaped(<forestry:worktable>);
+recipes.addShaped(<forestry:worktable>, [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[<ore:slabTreatedWood>, <ore:machineSturdy>, <ore:slabTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:chestWood>, <ore:slabTreatedWood>]]);
 
 #---items---
 
