@@ -23,6 +23,7 @@ print("Ever wondered what the Liquid Death tastes like?");
 recipes.remove(<thaumcraft:nugget:*>);
 
 #-Plates-
+<thaumcraft:plate:*>.addTooltip("This item is disabled");
 #Crafting
 recipes.remove(<thaumcraft:plate:0>);
 recipes.remove(<thaumcraft:plate:1>);
