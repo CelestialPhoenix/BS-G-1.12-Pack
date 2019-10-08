@@ -73,6 +73,13 @@ print("Trust me I'm an engineer");
 <ore:plateSteel>.remove(<immersiveengineering:metal:38>);
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
 
+#Scaffolding
+<ore:scaffoldingAluminum>.remove(<immersiveengineering:metal_decoration1:6>);
+<ore:scaffoldingAluminum>.remove(<immersiveengineering:metal_decoration1:7>);
+
+<ore:scaffoldingSteel>.remove(<immersiveengineering:metal_decoration1:2>);
+<ore:scaffoldingSteel>.remove(<immersiveengineering:metal_decoration1:3>);
+
 #Treated Wood
 <ore:plankTreatedWood>.remove(<immersiveengineering:treated_wood:*>);
 <ore:plankTreatedWood>.add(<immersiveengineering:treated_wood:0>);

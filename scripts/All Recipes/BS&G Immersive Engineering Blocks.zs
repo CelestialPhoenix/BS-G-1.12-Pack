@@ -194,20 +194,42 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:5>*2, [
 
 #---Scaffolding---
 
-#aluminium
-recipes.removeShaped(<immersiveengineering:metal_decoration1:5>);
-recipes.addShapeless(<immersiveengineering:metal_decoration1:5>, [<ore:frameGtAluminium>]);
+#Aluminium
+recipes.remove(<immersiveengineering:metal_decoration1:5>);
+recipes.remove(<immersiveengineering:metal_decoration1:6>);
+recipes.remove(<immersiveengineering:metal_decoration1:7>);
 
-#steel
-recipes.removeShaped(<immersiveengineering:metal_decoration1:1>);
-recipes.addShapeless(<immersiveengineering:metal_decoration1:1>, [<ore:frameGtSteel>]);
+recipes.addShaped(<immersiveengineering:metal_decoration1:5>*6, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[null, <ore:stickAluminium>, null], 
+[<ore:stickAluminium>, null, <ore:stickAluminium>]]);
 
-#wood
+mods.chisel.Carving.addGroup("scaffolding_aluminium");
+mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:metal_decoration1:5>);
+mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:metal_decoration1:6>);
+mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:metal_decoration1:7>);
+
+#Steel
+recipes.remove(<immersiveengineering:metal_decoration1:1>);
+recipes.remove(<immersiveengineering:metal_decoration1:2>);
+recipes.remove(<immersiveengineering:metal_decoration1:3>);
+
+recipes.addShaped(<immersiveengineering:metal_decoration1:1>*6, [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[null, <ore:stickSteel>, null], 
+[<ore:stickSteel>, null, <ore:stickSteel>]]);
+
+mods.chisel.Carving.addGroup("scaffolding_steel");
+mods.chisel.Carving.addVariation("scaffolding_steel", <immersiveengineering:metal_decoration1:1>);
+mods.chisel.Carving.addVariation("scaffolding_steel", <immersiveengineering:metal_decoration1:2>);
+mods.chisel.Carving.addVariation("scaffolding_steel", <immersiveengineering:metal_decoration1:3>);
+
+#Treated Wood
 recipes.removeShaped(<immersiveengineering:material:9>);
 recipes.addShaped(<immersiveengineering:material:9>*2, [
 [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>],
-[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>], 
-[<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>]]);
+[null, <ore:stickTreatedWood>, null], 
+[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
 
 #---sheetmetal blocks---
 recipes.removeShaped(<immersiveengineering:sheetmetal:0>);
