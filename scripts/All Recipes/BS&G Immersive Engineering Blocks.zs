@@ -196,7 +196,7 @@ recipes.remove(<immersiveengineering:metal_decoration1:5>);
 recipes.remove(<immersiveengineering:metal_decoration1:6>);
 recipes.remove(<immersiveengineering:metal_decoration1:7>);
 
-recipes.addShaped(<immersiveengineering:metal_decoration1:5>*6, [
+recipes.addShaped(<immersiveengineering:metal_decoration1:5>*3, [
 [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
 [null, <ore:stickAluminium>, null], 
 [<ore:stickAluminium>, null, <ore:stickAluminium>]]);
@@ -211,7 +211,7 @@ recipes.remove(<immersiveengineering:metal_decoration1:1>);
 recipes.remove(<immersiveengineering:metal_decoration1:2>);
 recipes.remove(<immersiveengineering:metal_decoration1:3>);
 
-recipes.addShaped(<immersiveengineering:metal_decoration1:1>*6, [
+recipes.addShaped(<immersiveengineering:metal_decoration1:1>*3, [
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
 [null, <ore:stickSteel>, null], 
 [<ore:stickSteel>, null, <ore:stickSteel>]]);
