@@ -25,9 +25,9 @@ recipes.addShaped(<forestry:sturdy_machine>, [
 #thermfab
 recipes.removeShaped(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
-[null, <forestry:worktable>, null],
-[null, <ore:machineSturdy>, null], 
-[null, <ore:coilSimple>, null]]);
+[<ore:casingTin>, <forestry:worktable>, <ore:casingTin>],
+[<ore:casingTin>, <ore:machineSturdy>, <ore:casingTin>], 
+[<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>]]);
 
 #still
 recipes.removeShaped(<forestry:still>);
