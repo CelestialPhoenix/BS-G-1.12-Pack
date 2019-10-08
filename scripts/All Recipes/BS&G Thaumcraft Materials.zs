@@ -19,15 +19,21 @@ print("Ever wondered what the Liquid Death tastes like?");
 <thaumcraft:cluster:6>.addTooltip("HgS"); #Cinnabar
 
 #---Removed Entires---
-#nuggets
+#-Nuggets-
 recipes.remove(<thaumcraft:nugget:*>);
 
-#plates
+#-Plates-
+#Crafting
 recipes.remove(<thaumcraft:plate:0>);
+recipes.remove(<thaumcraft:plate:1>);
 recipes.remove(<thaumcraft:plate:2>);
+recipes.remove(<thaumcraft:plate:3>);
 
-#removes plates fomr IE metal press
-mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:*>);
+#MetalPress
+mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:0>);
+mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:1>);
+mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:2>);
+mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:3>);
 
 #---Naming---
 

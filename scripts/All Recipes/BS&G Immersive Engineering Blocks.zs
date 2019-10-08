@@ -127,7 +127,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [
 #redstone
 recipes.removeShaped(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [
-[<ore:piston>],
+[null, <ore:piston>, null],
 [<ore:dustRedstone>, <ore:scaffoldingSteel>, <ore:dustRedstone>]]);
 
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [
