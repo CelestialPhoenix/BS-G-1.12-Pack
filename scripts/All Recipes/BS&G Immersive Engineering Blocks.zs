@@ -116,7 +116,7 @@ recipes.addShaped(<immersiveengineering:metal_device1:2>, [
 recipes.removeShaped(<immersiveengineering:metal_decoration0:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [
 [<ore:mechcompAluminium>],
-[<ore:scaffoldingAluminium]]);
+[<ore:scaffoldingAluminium>]]);
 
 #heavy
 recipes.removeShaped(<immersiveengineering:metal_decoration0:5>);
