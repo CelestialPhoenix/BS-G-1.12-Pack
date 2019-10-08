@@ -116,22 +116,19 @@ recipes.addShaped(<immersiveengineering:metal_device1:2>, [
 recipes.removeShaped(<immersiveengineering:metal_decoration0:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:4>*2, [
 [<ore:mechcompAluminium>],
-[<ore:scaffoldingAluminium], 
-[<ore:mechcompAluminium>]]);
+[<ore:scaffoldingAluminium]]);
 
 #heavy
 recipes.removeShaped(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>*2, [
 [<ore:mechcompSteel>],
-[<ore:scaffoldingSteel>], 
-[<ore:mechcompSteel>]]);
+[<ore:scaffoldingSteel>]]);
 
 #redstone
 recipes.removeShaped(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [
 [<ore:piston>],
-[<ore:scaffoldingSteel>], 
-[<ore:dustRedstone>]]);
+[<ore:dustRedstone>, <ore:scaffoldingSteel>, <ore:dustRedstone>]]);
 
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>*2, [
 [<ore:piston>],
