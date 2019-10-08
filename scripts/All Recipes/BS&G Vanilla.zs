@@ -246,6 +246,16 @@ recipes.addShaped(<minecraft:compass>,[
 [<ore:nuggetTin>, <ore:dustRedstone>, <ore:nuggetTin>],
 [<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
 
+#Flint'n'Steel
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShaped(<minecraft:flint_and_steel>,[
+[<ore:nuggetIron>, null],
+[null, <ore:gemFlint>]]);
+
+recipes.addShaped(<minecraft:flint_and_steel>,[
+[<ore:nuggetSteel>, null],
+[null, <ore:gemFlint>]]);
+
 #-General tools-
 #Diamond
 recipes.remove(<minecraft:diamond_shovel>);
