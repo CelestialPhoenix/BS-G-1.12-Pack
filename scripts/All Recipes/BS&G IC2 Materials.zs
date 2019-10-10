@@ -155,10 +155,4 @@ furnace.remove(<ic2:crafting:0>);
 #-Item Casings-
 #Imeng press cutter
 recipes.remove(<ic2:casing:*>);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <contenttweaker:rolledbronze>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <contenttweaker:rolledcopper>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:2>, <contenttweaker:rolledgold>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:3>, <contenttweaker:rollediron>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:4>, <contenttweaker:rolledlead>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:5>, <contenttweaker:rolledsteel>, <contenttweaker:presstoolcutter>, 2000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:6>, <contenttweaker:rolledtin>, <contenttweaker:presstoolcutter>, 2000, 1);
+#recipes in immersive engineering material processing

@@ -354,7 +354,14 @@ mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyphenyleneSulfide>.fi
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltNickelZincFerrite>.firstItem*2, <ore:stickNickelZincFerrite>.firstItem, <contenttweaker:presstoolcutter>, 2000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyvinylChloride>.firstItem*2, <ore:stickPolyvinylChloride>.firstItem, <contenttweaker:presstoolcutter>, 2000, 1);
 
-
+#---cutting (item casings)---
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <contenttweaker:platebronze>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <contenttweaker:platecopper>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:2>, <contenttweaker:plategold>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:3>, <contenttweaker:plateiron>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:4>, <contenttweaker:platelead>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:5>, <contenttweaker:platesteel>, <contenttweaker:presstoolcutter>, 2000, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:6>, <contenttweaker:platetin>, <contenttweaker:presstoolcutter>, 2000, 1);
 
 #---rolling (cable)---
 mods.immersiveengineering.MetalPress.addRecipe(<ore:wireGtSingleSolderingAlloy>.firstItem, <ore:stickSolderingAlloy>, <contenttweaker:presstoolroller>, 2000, 1);
