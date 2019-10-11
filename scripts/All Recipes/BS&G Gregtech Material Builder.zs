@@ -47,6 +47,9 @@ magnesium.addFlags(["GENERATE_ORE"]);
 val manganese = <material:manganese>;
 manganese.addFlags(["GENERATE_ORE"]);
 
+val nickel = <material:nickel>;
+nickel.addFlags(["GENERATE_ROD"]);
+
 var potassium = <material:potassium>;
 potassium.addFlags(["GENERATE_ORE"]);
 
@@ -55,6 +58,9 @@ sodium.addFlags(["GENERATE_ORE"]);
 
 val rare_earth = <material:rare_earth>;
 rare_earth.addFlags(["GENERATE_ORE"]);
+
+val redalloy = <material:red_alloy>;
+redalloy.addFlags(["GENERATE_ROD"]);
 
 var tantalum = <material:tantalum>;
 tantalum.addFlags(["GENERATE_ORE"]);
