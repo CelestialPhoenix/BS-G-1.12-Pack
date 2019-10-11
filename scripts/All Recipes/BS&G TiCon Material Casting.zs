@@ -264,6 +264,7 @@ mods.tconstruct.Casting.addBasinRecipe(<ore:stickBlackBronze>.firstItem, <conten
 #BlueSteel
 #DamascusSteel
 #TungstenSteel
+mods.tconstruct.Casting.addBasinRecipe(<ore:stickRedAlloy>.firstItem, <contenttweaker:moldrods>, <liquid:red_alloy>, 144, false); #RedAlloy
 mods.tconstruct.Casting.addBasinRecipe(<ore:stickCobaltBrass>.firstItem, <contenttweaker:moldrods>, <liquid:cobalt_brass>, 144, false); #CobaltBrass
 #GarnetRed
 #GarnetYellow
