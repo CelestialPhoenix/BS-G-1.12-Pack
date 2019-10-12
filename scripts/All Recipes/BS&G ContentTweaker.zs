@@ -445,8 +445,8 @@ recipes.addShaped(<contenttweaker:moldheadsword>, [
 [null, null, <metaitem:shape.empty>]]);
 
 recipes.addShaped(<contenttweaker:moldrings>, [
-[null, null, null],
-[null, <metaitem:shape.empty>, <gregtech:meta_tool:6>], 
+[null, <metaitem:shape.empty>, <gregtech:meta_tool:6>],
+[null, null, null], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadsense>, [
