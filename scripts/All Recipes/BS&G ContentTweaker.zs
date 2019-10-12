@@ -9,6 +9,9 @@ var canLubricant=<forestry:can:1>.withTag({Fluid: {FluidName: "lubricant", Amoun
 var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}});
 
 #Tooltips
+#-Manuals-
+<contenttweaker:manualmetalpress>.addTooltip("Short guide viewable in JEI");
+
 #-Native Clusters-
 #<contenttweaker:cluster>.addTooltip("");
 <contenttweaker:clusteraluminium>.addTooltip("Al");
@@ -458,8 +461,6 @@ recipes.addShaped(<contenttweaker:moldheadhammer>, [
 [null, null, null],
 [<gregtech:meta_tool:6>, null, null], 
 [null, null, <metaitem:shape.empty>]]);
-
-
 
 #--Plants--
 #Hemp
