@@ -34,6 +34,29 @@ recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 8
 <gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).clearTooltip();
 <gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}).addTooltip("This item is disabled");
 
+#----Changed Stats---
+#--Flint--
+#Pickaxe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.addShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
+[<ore:gemFlint>, <ore:gemFlint>, <ore:gemFlint>],
+[null, <ore:stickWood>, null],
+[null, <ore:stickWood>, null]]);
+
+#Shovel
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.addShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
+[null, <ore:gemFlint>, null],
+[null, <ore:stickWood>, null],
+[null, <ore:stickWood>, null]]);
+
+#Axe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.addShapedMirrored(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
+[<ore:gemFlint>, <ore:gemFlint>, null],
+[<ore:gemFlint>, <ore:stickWood>, null],
+[null, <ore:stickWood>, null]]);
+
 #----Changed Recipes---
 #-Plunger- <gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "blue_steel"}})
 recipes.remove(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "bismuth_bronze"}}));
