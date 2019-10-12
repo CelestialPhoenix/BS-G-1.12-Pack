@@ -36,7 +36,7 @@ recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {MaxDurability: 8
 
 #----Changed Stats---
 #--Flint--
-#Pickaxe
+#Pickaxe <gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}})
 recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
 recipes.addShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
 [<ore:gemFlint>, <ore:gemFlint>, <ore:gemFlint>],
