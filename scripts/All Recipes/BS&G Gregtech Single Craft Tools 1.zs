@@ -44,15 +44,15 @@ recipes.addShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability
 [null, <ore:stickWood>, null]]);
 
 #Shovel
-recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
-recipes.addShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.addShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
 [null, <ore:gemFlint>, null],
 [null, <ore:stickWood>, null],
 [null, <ore:stickWood>, null]]);
 
 #Axe
-recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
-recipes.addShapedMirrored(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {MaxDurability: 80, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}));
+recipes.addShapedMirrored(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {MaxDurability: 64, DigSpeed: 6.0 as float, AttackDamage: 2.0 as float, Material: "flint", HarvestLevel: 1}}), [
 [<ore:gemFlint>, <ore:gemFlint>, null],
 [<ore:gemFlint>, <ore:stickWood>, null],
 [null, <ore:stickWood>, null]]);
