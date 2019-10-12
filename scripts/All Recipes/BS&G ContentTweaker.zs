@@ -411,8 +411,8 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 #--Molds--
 recipes.addShaped(<contenttweaker:moldrods>, [
 [null, null, null],
-[null, <metaitem:shape.empty>, null], 
-[null, null, <gregtech:meta_tool:6>]]);
+[<gregtech:meta_tool:6>, null, null], 
+[<metaitem:shape.empty>, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadhoe>, [
 [null, null, null],
