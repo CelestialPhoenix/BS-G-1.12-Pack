@@ -16,6 +16,33 @@ recipes.remove(<immersiveengineering:axe_steel>);
 recipes.remove(<immersiveengineering:sword_steel>);
 <immersiveengineering:sword_steel>.displayName="Ancient Steel Sword";
 
+#--Armour Recipes---
+<immersiveengineering:steel_armor_head>.displayName="Damascus Steel Helmet";
+recipes.remove(<immersiveengineering:steel_armor_head>);
+recipes.addShaped(<immersiveengineering:steel_armor_head>, [
+[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>],
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>]]);
+
+<immersiveengineering:steel_armor_chest>.displayName="Damascus Steel Chestplate";
+recipes.remove(<immersiveengineering:steel_armor_chest>);
+recipes.addShaped(<immersiveengineering:steel_armor_chest>, [
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>],
+[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>], 
+[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>]]);
+
+<immersiveengineering:steel_armor_legs>.displayName="Damascus Steel Leggings";
+recipes.remove(<immersiveengineering:steel_armor_legs>);
+recipes.addShaped(<immersiveengineering:steel_armor_legs>, [
+[<ore:plateDamascusSteel>, <ore:plateDamascusSteel>, <ore:plateDamascusSteel>],
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>],
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>]]);
+
+<immersiveengineering:steel_armor_feet>.displayName="Damascus Steel Boots";
+recipes.remove(<immersiveengineering:steel_armor_feet>);
+recipes.addShaped(<immersiveengineering:steel_armor_feet>, [
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>],
+[<ore:plateDamascusSteel>, null, <ore:plateDamascusSteel>]]);
+
 #---New Tool Recipes---
 #Hammer
 recipes.remove(<immersiveengineering:tool>);
