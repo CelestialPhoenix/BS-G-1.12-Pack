@@ -148,3 +148,9 @@ recipes.remove(<metaitem:wooden_form.brick>);
 <metaitem:wooden_form.brick>.addTooltip("This item is disabled");
 
 #---Recipes---
+#Small Chest
+recipes.remove(<meta_tile_entity:gregtech:small_wooden_chest>);
+recipes.addShaped(<meta_tile_entity:gregtech:small_wooden_chest>*4, [
+[<ore:plateWood>, <ore:plateWood>], 
+[<ore:plateWood>, <ore:plateWood>]]);
+
