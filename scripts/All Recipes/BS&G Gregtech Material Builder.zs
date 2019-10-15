@@ -33,7 +33,7 @@ var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
 
 var gold = <material:gold>;
-gold.addFlags(["GENERATE_DENSE"]);
+gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -61,6 +61,9 @@ rare_earth.addFlags(["GENERATE_ORE"]);
 
 val redalloy = <material:red_alloy>;
 redalloy.addFlags(["GENERATE_ROD"]);
+
+var rose_gold = <material:rose_gold>;
+rose_gold.addFlags(["GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
 
 var tantalum = <material:tantalum>;
 tantalum.addFlags(["GENERATE_ORE"]);
