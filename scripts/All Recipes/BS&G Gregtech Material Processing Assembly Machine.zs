@@ -190,8 +190,8 @@ theassembler
 #Stripes
 theassembler
     .recipeBuilder()
-    .inputs(<ore:gearSmallGold>*1, <buildcrafttransport:pipe_obsidian_item>*1)
-    .outputs(<buildcrafttransport:pipe_stripes_item>*8)
+    .inputs(<ore:gearSmallGold>*2, <buildcrafttransport:pipe_obsidian_item>*1)
+    .outputs(<buildcrafttransport:pipe_stripes_item>*1)
 	.property("circuit", 6)
     .duration(180)
     .EUt(8)
@@ -199,8 +199,8 @@ theassembler
 
 theassembler
     .recipeBuilder()
-    .inputs(<ore:gearSmallRoseGold>*1, <buildcrafttransport:pipe_obsidian_item>*1)
-    .outputs(<buildcrafttransport:pipe_stripes_item>*8)
+    .inputs(<ore:gearSmallRoseGold>*2, <buildcrafttransport:pipe_obsidian_item>*1)
+    .outputs(<buildcrafttransport:pipe_stripes_item>*1)
 	.property("circuit", 6)
     .duration(180)
     .EUt(8)
