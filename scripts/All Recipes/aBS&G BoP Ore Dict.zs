@@ -54,8 +54,8 @@ print("BoP ...BLeepBleepBoop - R2D2");
 
 #sandstone
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
-<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:1>);
-<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:2>);
+
+<ore:slabSandstone>.add(<biomesoplenty:other_slab:1>);
 
 #stickwood
 <ore:stickWood>.remove(<biomesoplenty:bamboo>);

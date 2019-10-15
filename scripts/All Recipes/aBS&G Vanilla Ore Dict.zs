@@ -39,7 +39,14 @@ print("Mwah ha ha ha ha ha");
 
 <ore:shieldWood>.add(<minecraft:shield>);
 
+<ore:sandstone>.remove(<minecraft:sandstone:1>);
+<ore:sandstone>.remove(<minecraft:sandstone:2>);
+<ore:sandstone>.remove(<minecraft:red_sandstone:1>);
+<ore:sandstone>.remove(<minecraft:red_sandstone:2>);
+
 <ore:slabSandstone>.add(<minecraft:stone_slab:1>);
+<ore:slabSandstone>.add(<minecraft:stone_slab2>);
+
 <ore:slabStone>.add(<minecraft:stone_slab>);
 
 <ore:stoneAny>.add(<minecraft:stone:*>);

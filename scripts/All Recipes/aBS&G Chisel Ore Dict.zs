@@ -413,6 +413,9 @@ print("A chip of the old block");
 <ore:blockPlatinum>.remove(<chisel:blockplatinum:5>);
 <ore:blockPlatinum>.remove(<chisel:blockplatinum:6>);
 
+#Sandstone
+
+
 #Silver
 <ore:blockSilver>.remove(<chisel:blocksilver:0>);
 <ore:blockSilver>.remove(<chisel:blocksilver:1>);
@@ -1309,6 +1312,23 @@ print("A chip of the old block");
 <ore:sandstone>.remove(<chisel:sandstonered2:4>);
 <ore:sandstone>.remove(<chisel:sandstonered2:5>);
 <ore:sandstone>.remove(<chisel:sandstonered2:6>);
+<ore:sandstone>.remove(<chisel:sandstonered2:7>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:0>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:1>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:2>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:3>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:4>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:5>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:6>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:7>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:8>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:9>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:10>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:11>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:12>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:13>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:14>);
+<ore:sandstone>.remove(<chisel:sandstonered-scribbles:15>);
 
 #Sandstone (yellow)
 <ore:sandstone>.remove(<chisel:sandstoneyellow:0>);
@@ -1350,6 +1370,23 @@ print("A chip of the old block");
 <ore:sandstone>.remove(<chisel:sandstoneyellow2:4>);
 <ore:sandstone>.remove(<chisel:sandstoneyellow2:5>);
 <ore:sandstone>.remove(<chisel:sandstoneyellow2:6>);
+<ore:sandstone>.remove(<chisel:sandstoneyellow2:7>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:0>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:1>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:2>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:3>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:4>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:5>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:6>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:7>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:8>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:9>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:10>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:11>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:12>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:13>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:14>);
+<ore:sandstone>.remove(<chisel:sandstone-scribbles:15>);
 
 #Stone/Stonebrick
 <ore:brickStone>.remove(<chisel:stonebrick:0>);

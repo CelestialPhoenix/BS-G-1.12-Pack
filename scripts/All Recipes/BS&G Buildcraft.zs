@@ -109,12 +109,22 @@ recipes.addShapedMirrored(<buildcrafttransport:pipe_void_item>*6, [
 #Obsidian
 recipes.remove(<buildcrafttransport:pipe_obsidian_item>);
 recipes.addShaped(<buildcrafttransport:pipe_obsidian_item>*6, [
+[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>], 
+[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>], 
+[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>]]);
+
+recipes.addShaped(<buildcrafttransport:pipe_obsidian_item>*6, [
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>]]);
 
 #Diamond
 recipes.remove(<buildcrafttransport:pipe_diamond_item>);
+recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
+[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>], 
+[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>], 
+[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>]]);
+
 recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
 [<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
 [<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
