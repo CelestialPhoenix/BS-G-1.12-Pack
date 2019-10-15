@@ -33,110 +33,110 @@ furnace.addRecipe(<buildcrafttransport:waterproof>*3, <ore:leather>, 0.0);
 #Wood
 recipes.remove(<buildcrafttransport:pipe_wood_item>);
 recipes.addShaped(<buildcrafttransport:pipe_wood_item>*6, [
-[<ore:slabTreatedWood>, <ore:paneGlass>, <ore:slabTreatedWood>], 
-[<ore:slabTreatedWood>, <ore:paneGlass>, <ore:slabTreatedWood>], 
-[<ore:slabTreatedWood>, <ore:paneGlass>, <ore:slabTreatedWood>]]);
+[<ore:slabTreatedWood>, <ore:paneGlassColourless>, <ore:slabTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:paneGlassColourless>, <ore:slabTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:paneGlassColourless>, <ore:slabTreatedWood>]]);
 
 #Cobblestone
 recipes.remove(<buildcrafttransport:pipe_cobble_item>);
 recipes.addShaped(<buildcrafttransport:pipe_cobble_item>*6, [
-[<ore:slabCobblestone>, <ore:paneGlass>, <ore:slabCobblestone>], 
-[<ore:slabCobblestone>, <ore:paneGlass>, <ore:slabCobblestone>], 
-[<ore:slabCobblestone>, <ore:paneGlass>, <ore:slabCobblestone>]]);
+[<ore:slabCobblestone>, <ore:paneGlassColourless>, <ore:slabCobblestone>], 
+[<ore:slabCobblestone>, <ore:paneGlassColourless>, <ore:slabCobblestone>], 
+[<ore:slabCobblestone>, <ore:paneGlassColourless>, <ore:slabCobblestone>]]);
 
 #Stone
 recipes.remove(<buildcrafttransport:pipe_stone_item>);
 recipes.addShaped(<buildcrafttransport:pipe_stone_item>*6, [
-[<ore:slabStone>, <ore:paneGlass>, <ore:slabStone>], 
-[<ore:slabStone>, <ore:paneGlass>, <ore:slabStone>], 
-[<ore:slabStone>, <ore:paneGlass>, <ore:slabStone>]]);
+[<ore:slabStone>, <ore:paneGlassColourless>, <ore:slabStone>], 
+[<ore:slabStone>, <ore:paneGlassColourless>, <ore:slabStone>], 
+[<ore:slabStone>, <ore:paneGlassColourless>, <ore:slabStone>]]);
 
 #Quartz
 recipes.remove(<buildcrafttransport:pipe_quartz_item>);
 recipes.addShaped(<buildcrafttransport:pipe_quartz_item>*6, [
-[<ore:plateNetherQuartz>, <ore:paneGlass>, <ore:plateNetherQuartz>], 
-[<ore:plateNetherQuartz>, <ore:paneGlass>, <ore:plateNetherQuartz>], 
-[<ore:plateNetherQuartz>, <ore:paneGlass>, <ore:plateNetherQuartz>]]);
+[<ore:plateNetherQuartz>, <ore:paneGlassColourless>, <ore:plateNetherQuartz>], 
+[<ore:plateNetherQuartz>, <ore:paneGlassColourless>, <ore:plateNetherQuartz>], 
+[<ore:plateNetherQuartz>, <ore:paneGlassColourless>, <ore:plateNetherQuartz>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_quartz_item>*6, [
-[<ore:plateCertusQuartz>, <ore:paneGlass>, <ore:plateCertusQuartz>], 
-[<ore:plateCertusQuartz>, <ore:paneGlass>, <ore:plateCertusQuartz>], 
-[<ore:plateCertusQuartz>, <ore:paneGlass>, <ore:plateCertusQuartz>]]);
+[<ore:plateCertusQuartz>, <ore:paneGlassColourless>, <ore:plateCertusQuartz>], 
+[<ore:plateCertusQuartz>, <ore:paneGlassColourless>, <ore:plateCertusQuartz>], 
+[<ore:plateCertusQuartz>, <ore:paneGlassColourless>, <ore:plateCertusQuartz>]]);
 
 #Iron
 recipes.remove(<buildcrafttransport:pipe_iron_item>);
 recipes.addShaped(<buildcrafttransport:pipe_iron_item>*6, [
-[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>], 
-[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>], 
-[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>]]);
+[<ore:plateIron>, <ore:paneGlassColourless>, <ore:plateIron>], 
+[<ore:plateIron>, <ore:paneGlassColourless>, <ore:plateIron>], 
+[<ore:plateIron>, <ore:paneGlassColourless>, <ore:plateIron>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_iron_item>*6, [
-[<ore:plateWroughtIron>, <ore:paneGlass>, <ore:plateWroughtIron>], 
-[<ore:plateWroughtIron>, <ore:paneGlass>, <ore:plateWroughtIron>], 
-[<ore:plateWroughtIron>, <ore:paneGlass>, <ore:plateWroughtIron>]]);
+[<ore:plateWroughtIron>, <ore:paneGlassColourless>, <ore:plateWroughtIron>], 
+[<ore:plateWroughtIron>, <ore:paneGlassColourless>, <ore:plateWroughtIron>], 
+[<ore:plateWroughtIron>, <ore:paneGlassColourless>, <ore:plateWroughtIron>]]);
 
 #Gold
 recipes.remove(<buildcrafttransport:pipe_gold_item>);
 recipes.addShaped(<buildcrafttransport:pipe_gold_item>*6, [
-[<ore:plateGold>, <ore:paneGlass>, <ore:plateGold>], 
-[<ore:plateGold>, <ore:paneGlass>, <ore:plateGold>], 
-[<ore:plateGold>, <ore:paneGlass>, <ore:plateGold>]]);
+[<ore:plateGold>, <ore:paneGlassColourless>, <ore:plateGold>], 
+[<ore:plateGold>, <ore:paneGlassColourless>, <ore:plateGold>], 
+[<ore:plateGold>, <ore:paneGlassColourless>, <ore:plateGold>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_gold_item>*6, [
-[<ore:plateRoseGold>, <ore:paneGlass>, <ore:plateRoseGold>], 
-[<ore:plateRoseGold>, <ore:paneGlass>, <ore:plateRoseGold>], 
-[<ore:plateRoseGold>, <ore:paneGlass>, <ore:plateRoseGold>]]);
+[<ore:plateRoseGold>, <ore:paneGlassColourless>, <ore:plateRoseGold>], 
+[<ore:plateRoseGold>, <ore:paneGlassColourless>, <ore:plateRoseGold>], 
+[<ore:plateRoseGold>, <ore:paneGlassColourless>, <ore:plateRoseGold>]]);
 
 #Clay (renamed to Silver)
 <buildcrafttransport:pipe_clay_item>.displayName= "Silver Transport Pipe";
 recipes.remove(<buildcrafttransport:pipe_clay_item>);
 recipes.addShaped(<buildcrafttransport:pipe_clay_item>*6, [
-[<ore:plateSilver>, <ore:paneGlass>, <ore:plateSilver>], 
-[<ore:plateSilver>, <ore:paneGlass>, <ore:plateSilver>], 
-[<ore:plateSilver>, <ore:paneGlass>, <ore:plateSilver>]]);
+[<ore:plateSilver>, <ore:paneGlassColourless>, <ore:plateSilver>], 
+[<ore:plateSilver>, <ore:paneGlassColourless>, <ore:plateSilver>], 
+[<ore:plateSilver>, <ore:paneGlassColourless>, <ore:plateSilver>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_clay_item>*6, [
-[<ore:plateSterlingSilver>, <ore:paneGlass>, <ore:plateSterlingSilver>], 
-[<ore:plateSterlingSilver>, <ore:paneGlass>, <ore:plateSterlingSilver>], 
-[<ore:plateSterlingSilver>, <ore:paneGlass>, <ore:plateSterlingSilver>]]);
+[<ore:plateSterlingSilver>, <ore:paneGlassColourless>, <ore:plateSterlingSilver>], 
+[<ore:plateSterlingSilver>, <ore:paneGlassColourless>, <ore:plateSterlingSilver>], 
+[<ore:plateSterlingSilver>, <ore:paneGlassColourless>, <ore:plateSterlingSilver>]]);
 
 #Sandstone
 recipes.remove(<buildcrafttransport:pipe_sandstone_item>);
 recipes.addShaped(<buildcrafttransport:pipe_sandstone_item>*6, [
-[<ore:slabSandstone>, <ore:paneGlass>, <ore:slabSandstone>], 
-[<ore:slabSandstone>, <ore:paneGlass>, <ore:slabSandstone>], 
-[<ore:slabSandstone>, <ore:paneGlass>, <ore:slabSandstone>]]);
+[<ore:slabSandstone>, <ore:paneGlassColourless>, <ore:slabSandstone>], 
+[<ore:slabSandstone>, <ore:paneGlassColourless>, <ore:slabSandstone>], 
+[<ore:slabSandstone>, <ore:paneGlassColourless>, <ore:slabSandstone>]]);
 
 #Void
 recipes.remove(<buildcrafttransport:pipe_void_item>);
 recipes.addShapedMirrored(<buildcrafttransport:pipe_void_item>*6, [
-[<ore:dyeBlack>, <ore:paneGlass>, <ore:plateRedstone>], 
-[<ore:dyeBlack>, <ore:paneGlass>, <ore:plateRedstone>], 
-[<ore:dyeBlack>, <ore:paneGlass>, <ore:plateRedstone>]]);
+[<ore:dyeBlack>, <ore:paneGlassColourless>, <ore:plateRedstone>], 
+[<ore:dyeBlack>, <ore:paneGlassColourless>, <ore:plateRedstone>], 
+[<ore:dyeBlack>, <ore:paneGlassColourless>, <ore:plateRedstone>]]);
 
 #Obsidian
 recipes.remove(<buildcrafttransport:pipe_obsidian_item>);
 recipes.addShaped(<buildcrafttransport:pipe_obsidian_item>*6, [
-[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>], 
-[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>], 
-[<ore:blockObsidian>, <ore:paneGlass>, <ore:blockObsidian>]]);
+[<ore:blockObsidian>, <ore:paneGlassColourless>, <ore:blockObsidian>], 
+[<ore:blockObsidian>, <ore:paneGlassColourless>, <ore:blockObsidian>], 
+[<ore:blockObsidian>, <ore:paneGlassColourless>, <ore:blockObsidian>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_obsidian_item>*6, [
-[<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
-[<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
-[<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>]]);
+[<ore:plateObsidian>, <ore:paneGlassColourless>, <ore:plateObsidian>], 
+[<ore:plateObsidian>, <ore:paneGlassColourless>, <ore:plateObsidian>], 
+[<ore:plateObsidian>, <ore:paneGlassColourless>, <ore:plateObsidian>]]);
 
 #Diamond
 recipes.remove(<buildcrafttransport:pipe_diamond_item>);
 recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
-[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>], 
-[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>], 
-[<ore:gemDiamond>, <ore:paneGlass>, <ore:gemDiamond>]]);
+[<ore:gemDiamond>, <ore:paneGlassColourless>, <ore:gemDiamond>], 
+[<ore:gemDiamond>, <ore:paneGlassColourless>, <ore:gemDiamond>], 
+[<ore:gemDiamond>, <ore:paneGlassColourless>, <ore:gemDiamond>]]);
 
 recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
-[<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
-[<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
-[<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>]]);
+[<ore:plateDiamond>, <ore:paneGlassColourless>, <ore:plateDiamond>], 
+[<ore:plateDiamond>, <ore:paneGlassColourless>, <ore:plateDiamond>], 
+[<ore:plateDiamond>, <ore:paneGlassColourless>, <ore:plateDiamond>]]);
 
 #Wooden-Diamond
 #Diazuli

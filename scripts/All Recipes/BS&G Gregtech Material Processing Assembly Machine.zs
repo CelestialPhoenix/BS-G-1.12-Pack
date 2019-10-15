@@ -288,6 +288,15 @@ theassembler
     .EUt(8)
     .buildAndRegister();
 
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_diamond_wood_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_diamond_wood_fluid>*1)
+    .duration(90)
+    .EUt(8)
+    .buildAndRegister();
+
 #-Power Pipes-
 theassembler
     .recipeBuilder()
