@@ -20,7 +20,7 @@ recipes.addShaped(<buildcraftfactory:chute>, [
 
 #--Materials--
 #Pipe Sealent 
-recipes/remove(<buildcrafttransport:waterproof>);
+recipes.remove(<buildcrafttransport:waterproof>);
 furnace.addRecipe(<buildcrafttransport:waterproof>*2, <ore:slimeball>, 0.0);
 furnace.addRecipe(<buildcrafttransport:waterproof>, <tconstruct:edible:3>, 0.0);
 furnace.addRecipe(<buildcrafttransport:waterproof>*3, <ore:leather>, 0.0);
@@ -152,8 +152,14 @@ recipes.addShaped(<buildcrafttransport:pipe_stripes_item>, [
 
 #-Power Pipes-
 <buildcrafttransport:pipe_wood_power>.displayName= "Laser Insertion Conduit";
+recipes.remove(<buildcrafttransport:pipe_wood_power>);
 <buildcrafttransport:pipe_cobble_power>.displayName= "Mk1 Laser Conduit";
+recipes.remove(<buildcrafttransport:pipe_cobble_power>);
 <buildcrafttransport:pipe_stone_power>.displayName= "Mk2 Laser Conduit";
+recipes.remove(<buildcrafttransport:pipe_stone_power>);
 <buildcrafttransport:pipe_quartz_power>.displayName= "Mk 3 Laser Conduit";
+recipes.remove(<buildcrafttransport:pipe_quartz_power>);
 <buildcrafttransport:pipe_gold_power>.displayName= "Mk 4 Laser Conduit";
+recipes.remove(<buildcrafttransport:pipe_gold_power>);
 <buildcrafttransport:pipe_sandstone_power>.displayName= "Laser Isolation Conduit";
+recipes.remove(<buildcrafttransport:pipe_sandstone_power>);

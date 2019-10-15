@@ -212,7 +212,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_wood_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_wood_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -221,7 +221,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_cobble_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_cobble_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -230,7 +230,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_quartz_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_quartz_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -239,7 +239,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_gold_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_gold_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -248,7 +248,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_iron_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_iron_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -257,7 +257,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_clay_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_clay_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -266,7 +266,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_sandstone_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_sandstone_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -275,7 +275,7 @@ theassembler
     .inputs(<buildcrafttransport:pipe_void_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_void_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
     .buildAndRegister();
 
@@ -284,8 +284,79 @@ theassembler
     .inputs(<buildcrafttransport:pipe_diamond_item>*1)
 	.fluidInputs([<liquid:glue>*50])
     .outputs(<buildcrafttransport:pipe_diamond_fluid>*1)
-    .duration(180)
+    .duration(90)
     .EUt(8)
+    .buildAndRegister();
+
+#-Power Pipes-
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickGold>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_wood_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickRoseGold>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_wood_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickIron>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_cobble_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickSteel>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_stone_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickAluminium>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_quartz_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickLumium>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_gold_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:stickPlatinum>*12, <ore:lensGlass>*2, <ore:plateGlass>*3])
+	.fluidInputs([<liquid:redstone>*288])
+    .outputs(<buildcrafttransport:pipe_sandstone_power>*8)
+	.property("circuit", 6)
+    .duration(240)
+    .EUt(64)
     .buildAndRegister();
 
 #Replacing Gtech rubber with IC2

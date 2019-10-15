@@ -24,6 +24,6 @@ mods.jei.JEI.addDescription([<buildcrafttransport:pipe_diamond_item>],"Sorts ite
 mods.jei.JEI.addDescription([<buildcrafttransport:pipe_stripes_item>],"Can place and (when powered) retract blocks");
 
 #-Power Pipes-
-mods.jei.JEI.addDescription([<buildcrafttransport:pipe_wood_power>],"Connects the Laser Apature into the Laser Conduit");
-mods.jei.JEI.addDescription([<buildcrafttransport:pipe_cobble_power>, <buildcrafttransport:pipe_stone_power>, <buildcrafttransport:pipe_quartz_power>, <buildcrafttransport:pipe_gold_power>],"Uses a high powered laser for Rf power transmission");
-mods.jei.JEI.addDescription([<buildcrafttransport:pipe_sandstone_power>],"Uses a high powered laser for Rf power transmission", "Will not connect to block/machines, only other Laser Conduit");
+mods.jei.JEI.addDescription([<buildcrafttransport:pipe_wood_power>],"Uses a high powered laser for Rf power transmission", "Connects the Laser Apature into the Laser Conduit");
+mods.jei.JEI.addDescription([<buildcrafttransport:pipe_cobble_power>, <buildcrafttransport:pipe_stone_power>, <buildcrafttransport:pipe_quartz_power>, <buildcrafttransport:pipe_gold_power>],"Uses a high powered laser for Rf power transmission", "Will automatically connect to a Laser Reciever and laser driven machinery");
+mods.jei.JEI.addDescription([<buildcrafttransport:pipe_sandstone_power>],"Uses a high powered laser for Rf power transmission", "Will only other Laser Conduit");
