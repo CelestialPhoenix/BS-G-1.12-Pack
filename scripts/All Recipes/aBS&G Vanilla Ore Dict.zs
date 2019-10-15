@@ -39,6 +39,9 @@ print("Mwah ha ha ha ha ha");
 
 <ore:shieldWood>.add(<minecraft:shield>);
 
+<ore:slabSandstone>.add(<minecraft:stone_slab:1>);
+<ore:slabStone>.add(<minecraft:stone_slab>);
+
 <ore:stoneAny>.add(<minecraft:stone:*>);
 <ore:stoneAny>.add(<minecraft:cobblestone>);
 <ore:stoneAny>.add(<minecraft:mossy_cobblestone>);

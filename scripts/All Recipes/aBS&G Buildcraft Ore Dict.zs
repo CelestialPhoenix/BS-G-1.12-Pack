@@ -7,4 +7,4 @@ print("");
 
 
 #ore dicting
-<ore:tank>.add(<buildcraftfactory:tank>);
+<ore:tankGlass>.add(<buildcraftfactory:tank>);
