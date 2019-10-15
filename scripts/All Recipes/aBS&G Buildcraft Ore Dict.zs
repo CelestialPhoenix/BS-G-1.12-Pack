@@ -3,8 +3,5 @@
 
 print("");
 
-#Duplicate items
-
-
 #ore dicting
 <ore:tankGlass>.add(<buildcraftfactory:tank>);
