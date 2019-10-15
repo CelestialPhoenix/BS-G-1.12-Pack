@@ -206,6 +206,88 @@ theassembler
     .EUt(8)
     .buildAndRegister();
 
+#-Fluid Pipes-
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_wood_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_wood_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_cobble_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_cobble_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_quartz_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_quartz_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_gold_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_gold_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_iron_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_iron_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_clay_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_clay_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_sandstone_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_sandstone_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_void_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_void_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<buildcrafttransport:pipe_diamond_item>*1)
+	.fluidInputs([<liquid:glue>*50])
+    .outputs(<buildcrafttransport:pipe_diamond_fluid>*1)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
 #Replacing Gtech rubber with IC2
 theassembler.findRecipe(8, [<ore:plateWood>.firstItem * 8, <metaitem:rubber_drop>*1], [<liquid:glue>*100]).remove();
 theassembler
