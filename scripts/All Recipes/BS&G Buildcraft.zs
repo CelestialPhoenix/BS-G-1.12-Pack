@@ -107,18 +107,30 @@ recipes.addShapedMirrored(<buildcrafttransport:pipe_void_item>*6, [
 [<ore:dyeBlack>, <ore:paneGlass>, <ore:plateRedstone>]]);
 
 #Obsidian
-recipes.remove(<buildcrafttransport:pipe_void_item>);
-recipes.addShapedMirrored(<buildcrafttransport:pipe_void_item>*6, [
+recipes.remove(<buildcrafttransport:pipe_obsidian_item>);
+recipes.addShaped(<buildcrafttransport:pipe_obsidian_item>*6, [
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>], 
 [<ore:plateObsidian>, <ore:paneGlass>, <ore:plateObsidian>]]);
 
 #Diamond
 recipes.remove(<buildcrafttransport:pipe_diamond_item>);
-recipes.addShapedMirrored(<buildcrafttransport:pipe_diamond_item>*6, [
+recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
 [<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
 [<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>], 
 [<ore:plateDiamond>, <ore:paneGlass>, <ore:plateDiamond>]]);
+
+#Wooden-Diamond
+#Diazuli
+#Emazuli
+
+#Stripes
+recipes.remove(<buildcrafttransport:pipe_stripes_item>);
+recipes.addShaped(<buildcrafttransport:pipe_stripes_item_item>, [
+[<ore:gearGold>, <buildcrafttransport:pipe_obsidian_item>, <ore:gearGold>]]);
+
+recipes.addShaped(<buildcrafttransport:pipe_stripes_item_item>, [
+[<ore:gearRoseGold>, <buildcrafttransport:pipe_obsidian_item>, <ore:gearRoseGold>]]);
 
 #-Power Pipes-
 

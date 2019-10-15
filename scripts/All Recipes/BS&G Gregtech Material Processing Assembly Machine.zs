@@ -184,6 +184,28 @@ theassembler
     .EUt(8)
     .buildAndRegister();
 
+#Wooden-Diamond
+#Diazuli
+#Emazuli
+#Stripes
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:gearSmallGold>*1, <buildcrafttransport:pipe_obsidian_item>*1)
+    .outputs(<buildcrafttransport:pipe_stripes_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:gearSmallRoseGold>*1, <buildcrafttransport:pipe_obsidian_item>*1)
+    .outputs(<buildcrafttransport:pipe_stripes_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
 #Replacing Gtech rubber with IC2
 theassembler.findRecipe(8, [<ore:plateWood>.firstItem * 8, <metaitem:rubber_drop>*1], [<liquid:glue>*100]).remove();
 theassembler
