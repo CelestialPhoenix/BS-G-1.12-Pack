@@ -21,7 +21,168 @@ theassembler.findRecipe(16, [<ore:plateIridium>.firstItem * 8, <metaitem:circuit
 theassembler.findRecipe(16, [<ore:plateOsmium>.firstItem * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})], null).remove();
 theassembler.findRecipe(16, [<ore:plateDarmstadtium>.firstItem * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})], null).remove();
 
-#electricBF.findRecipe(120, [<ore:dustTinySilicon>.firstItem, <metaitem:circuit.integrated>], null).remove();
+#--Buildcraft--
+#-Item Pipes-
+#Wood
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateWood>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_wood_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Cobble
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:slabCobblestone>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_cobble_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Stone
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateStone>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_stone_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Quartz
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateNetherQuartz>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_quartz_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateCertusQuartz>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_quartz_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Iron
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateIron>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_iron_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateWroughtIron>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_iron_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Gold
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateGold>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_gold_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateRoseGold>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_gold_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Clay (renamed to Silver)
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateSilver>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_clay_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateSterlingSilver>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_clay_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Sandstone
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:slabSandstone>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_sandstone_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Void
+theassembler
+    .recipeBuilder()
+    .inputs([<ore:plateRedstone>*3, <ore:dyeBlack>*3])
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_void_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Obsidian
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateObsidian>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_obsidian_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
+
+#Diamond
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateDiamond>*6)
+	.fluidInputs([<liquid:glass>*164])
+    .outputs(<buildcrafttransport:pipe_diamond_item>*8)
+	.property("circuit", 6)
+    .duration(180)
+    .EUt(8)
+    .buildAndRegister();
 
 #Replacing Gtech rubber with IC2
 theassembler.findRecipe(8, [<ore:plateWood>.firstItem * 8, <metaitem:rubber_drop>*1], [<liquid:glue>*100]).remove();
