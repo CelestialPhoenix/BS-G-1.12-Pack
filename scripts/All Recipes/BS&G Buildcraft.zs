@@ -126,10 +126,10 @@ recipes.addShaped(<buildcrafttransport:pipe_diamond_item>*6, [
 
 #Stripes
 recipes.remove(<buildcrafttransport:pipe_stripes_item>);
-recipes.addShaped(<buildcrafttransport:pipe_stripes_item_item>, [
+recipes.addShaped(<buildcrafttransport:pipe_stripes_item>, [
 [<ore:gearGold>, <buildcrafttransport:pipe_obsidian_item>, <ore:gearGold>]]);
 
-recipes.addShaped(<buildcrafttransport:pipe_stripes_item_item>, [
+recipes.addShaped(<buildcrafttransport:pipe_stripes_item>, [
 [<ore:gearRoseGold>, <buildcrafttransport:pipe_obsidian_item>, <ore:gearRoseGold>]]);
 
 #-Power Pipes-
