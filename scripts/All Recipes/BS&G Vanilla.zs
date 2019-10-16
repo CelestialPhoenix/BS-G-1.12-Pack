@@ -202,7 +202,7 @@ recipes.addShaped(<minecraft:cauldron>,[
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>,[
 [<ore:plateSteel>, null, <ore:plateSteel>],
-[<ore:plateSteel>, <ore:chest>, <ore:plateSteel>],
+[<ore:plateSteel>, <ore:chestWood>, <ore:plateSteel>],
 [null, <ore:plateSteel>, null]]);
 
 #Piston
