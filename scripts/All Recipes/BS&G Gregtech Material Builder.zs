@@ -17,6 +17,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 var antimony = <material:antimony>;
 antimony.addFlags(["GENERATE_ORE"]);
 
+var brass = <material:brass>;
+brass.addFlags(["GENERATE_SMALL_GEAR"]);
+
 var calcium = <material:calcium>;
 calcium.addFlags(["GENERATE_ORE"]);
 

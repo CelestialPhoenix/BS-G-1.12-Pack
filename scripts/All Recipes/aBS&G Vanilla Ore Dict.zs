@@ -19,6 +19,7 @@ print("Mwah ha ha ha ha ha");
 <ore:blockSand>.add(<minecraft:sand>);
 <ore:blockMagma>.add(<minecraft:magma>);
 <ore:barsIron>.add(<minecraft:iron_bars>);
+<ore:clock>.add(<minecraft:clock>);
 <ore:eyeEnder>.add(<minecraft:ender_eye>);
 <ore:furnace>.add(<minecraft:furnace>);
 <ore:magmacream>.add(<minecraft:magma_cream>);

@@ -246,6 +246,13 @@ recipes.addShaped(<minecraft:compass>,[
 [<ore:nuggetTin>, <ore:dustRedstone>, <ore:nuggetTin>],
 [<ore:nuggetTin>, <ore:nuggetTin>, <ore:nuggetTin>]]);
 
+#Clock
+recipes.remove(<minecraft:clock>);
+recipes.addShaped(<minecraft:clock>,[
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:dustRedstone>, <ore:nuggetGold>],
+[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
+
 #Flint'n'Steel
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShaped(<minecraft:flint_and_steel>,[
