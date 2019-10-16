@@ -6,7 +6,7 @@ print("Stop staring at my chest");
 
 #---Recipes---
 #-Parts for Buildcraft conversion-
-<energyconverters:energy_bridge>.displayName="Laser Driver";
+<energyconverters:energy_bridge>.addTooltip("Laser Driver");
 recipes.remove(<energyconverters:energy_bridge>);
 recipes.addShaped(<energyconverters:energy_bridge>, [
 [<ore:casingAluminium>, <ore:circuitGood>, <ore:wirespoolElectrum>],
