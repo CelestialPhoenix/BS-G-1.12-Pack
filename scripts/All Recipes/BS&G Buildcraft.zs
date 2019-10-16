@@ -164,38 +164,38 @@ recipes.addShaped(<buildcrafttransport:pipe_stripes_item>, [
 [<ore:gearRoseGold>, <buildcrafttransport:pipe_obsidian_item>, <ore:gearRoseGold>]]);
 
 #-Power Pipes-
-<buildcrafttransport:pipe_wood_power>.displayName= "Laser Insertion Conduit";
 <buildcrafttransport:pipe_wood_power>.clearTooltip();
+<buildcrafttransport:pipe_wood_power>.addTooltip("Laser Insertion Conduit");
 <buildcrafttransport:pipe_wood_power>.addTooltip("~8kRf/t");
 <buildcrafttransport:pipe_wood_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_wood_power>);
 
-<buildcrafttransport:pipe_cobble_power>.displayName= "Mk1 Laser Conduit";
 <buildcrafttransport:pipe_cobble_power>.clearTooltip();
+<buildcrafttransport:pipe_cobble_power>.addTooltip("Mk1 Laser Conduit");
 <buildcrafttransport:pipe_cobble_power>.addTooltip("~2kRf/t");
 <buildcrafttransport:pipe_cobble_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_cobble_power>);
 
-<buildcrafttransport:pipe_stone_power>.displayName= "Mk2 Laser Conduit";
 <buildcrafttransport:pipe_stone_power>.clearTooltip();
+<buildcrafttransport:pipe_stone_power>.addTooltip("Mk2 Laser Conduit");
 <buildcrafttransport:pipe_stone_power>.addTooltip("~4kRf/t");
 <buildcrafttransport:pipe_stone_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_stone_power>);
 
-<buildcrafttransport:pipe_quartz_power>.displayName= "Mk 3 Laser Conduit";
 <buildcrafttransport:pipe_quartz_power>.clearTooltip();
+<buildcrafttransport:pipe_quartz_power>.addTooltip("Mk 3 Laser Conduit");
 <buildcrafttransport:pipe_quartz_power>.addTooltip("~16kRf/t");
 <buildcrafttransport:pipe_quartz_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_quartz_power>);
 
-<buildcrafttransport:pipe_gold_power>.displayName= "Mk 4 Laser Conduit";
 <buildcrafttransport:pipe_gold_power>.clearTooltip();
+<buildcrafttransport:pipe_gold_power>.addTooltip("Mk 4 Laser Conduit");
 <buildcrafttransport:pipe_gold_power>.addTooltip("~32kRf/t");
 <buildcrafttransport:pipe_gold_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_gold_power>);
 
-<buildcrafttransport:pipe_sandstone_power>.displayName= "Laser Isolation Conduit";
 <buildcrafttransport:pipe_sandstone_power>.clearTooltip();
+<buildcrafttransport:pipe_sandstone_power>.addTooltip("Laser Isolation Conduit");
 <buildcrafttransport:pipe_sandstone_power>.addTooltip("~16kRf/t");
 <buildcrafttransport:pipe_sandstone_power>.addTooltip("Work in progress- above limit isn't currently enforced");
 recipes.remove(<buildcrafttransport:pipe_sandstone_power>);
