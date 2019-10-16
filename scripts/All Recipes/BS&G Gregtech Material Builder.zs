@@ -13,8 +13,8 @@ import mods.gregtech.material.SolidMaterial;
 print("Hello Boys- I'm Baaaaack!!!");
 
 #---Existing Materials---
-var aluminium = <material:aluminium>;
-aluminium.addFlags({"GENERATE_ROTOR"});
+#var aluminium = <material:aluminium>;
+#aluminium.addFlags({"GENERATE_ROTOR"});
 
 var antimony = <material:antimony>;
 antimony.addFlags(["GENERATE_ORE"]);
