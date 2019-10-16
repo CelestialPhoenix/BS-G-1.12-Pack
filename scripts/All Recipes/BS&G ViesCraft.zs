@@ -67,27 +67,30 @@ recipes.addShaped(<vc:airship_workbench>,[
 [<ore:gearBronze>]]);
 
 #Bombs
+recipes.remove(<vc:item_bomb:0>);
+<vc:item_bomb:0>.addTooltip("This item is disabled");
+
 recipes.remove(<vc:item_bomb:1>);
 recipes.addShaped(<vc:item_bomb:1>,[
-[null, <ore:thinWood>, null],
-[<ore:thinWood>, <minecraft:tnt>, <ore:thinWood>],
-[<ore:buttonWood>, <ore:thinWood>, null]]);
+[<ore:thinWood>, <ore:thinWood>, null],
+[null, <minecraft:tnt>, <ore:thinWood>],
+[<ore:buttonWood>, null, <ore:thinWood>]]);
 
 recipes.addShaped(<vc:item_bomb:1>,[
-[null, <ore:thinWood>, null],
-[<ore:thinWood>, <immersiveengineering:wooden_device0:4>, <ore:thinWood>],
-[<ore:buttonWood>, <ore:thinWood>, null]]);
+[<ore:thinWood>, <ore:thinWood>, null],
+[null, <immersiveengineering:wooden_device0:4>, <ore:thinWood>],
+[<ore:buttonWood>, null, <ore:thinWood>]]);
 
 recipes.remove(<vc:item_bomb:2>);
 recipes.addShaped(<vc:item_bomb:2>,[
-[null, <ore:thinWood>, <minecraft:tnt>],
-[<ore:thinWood>, <minecraft:tnt>, <ore:thinWood>],
-[<ore:buttonWood>, <ore:thinWood>, null]]);
+[<ore:thinWood>, <ore:thinWood>, <minecraft:tnt>],
+[null, <minecraft:tnt>, <ore:thinWood>],
+[<ore:buttonWood>, null, <ore:thinWood>]]);
 
 recipes.addShaped(<vc:item_bomb:2>,[
-[null, <ore:thinWood>, <immersiveengineering:wooden_device0:4>],
-[<ore:thinWood>, <immersiveengineering:wooden_device0:4>, <ore:thinWood>],
-[<ore:buttonWood>, <ore:thinWood>, null]]);
+[<ore:thinWood>, <ore:thinWood>, <immersiveengineering:wooden_device0:4>],
+[null, <immersiveengineering:wooden_device0:4>, <ore:thinWood>],
+[<ore:buttonWood>, null, <ore:thinWood>]]);
 
 <vc:item_bomb:3>.displayName="Carpet Bomb";
 recipes.remove(<vc:item_bomb:3>);
@@ -146,7 +149,7 @@ recipes.remove(<vc:upgrades/item_upgrade_airship_balloon:3>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:3>,[
 [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>],
 [<ore:fabricHemp>, <vc:upgrades/item_upgrade_airship_balloon>, <ore:fabricHemp>],
-[<ore:fabricHemp>, <ore:ringBrass>, <ore:fabricHemp>]]);
+[<ore:fabricHemp>, <ore:ringBronze>, <ore:fabricHemp>]]);
 
 <vc:upgrades/item_upgrade_airship_balloon:4>.addTooltip("Gas Envelope");
 <vc:upgrades/item_upgrade_airship_balloon:4>.addTooltip("Balloon Upgrade IV");
@@ -154,12 +157,12 @@ recipes.remove(<vc:upgrades/item_upgrade_airship_balloon:4>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:4>,[
 [<vc:upgrades/item_upgrade_airship_balloon>, <vc:upgrades/item_upgrade_airship_balloon>, <vc:upgrades/item_upgrade_airship_balloon>],
 [<vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>],
-[<ore:cordageQuality>, <ore:ringCopper>, <ore:cordageQuality>]]);
+[<ore:cordageQuality>, <ore:ringBrass>, <ore:cordageQuality>]]);
 
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:4>,[
 [<vc:upgrades/item_upgrade_airship_balloon>, <vc:upgrades/item_upgrade_airship_balloon>, <vc:upgrades/item_upgrade_airship_balloon>],
 [<vc:item_airship_balloon>, <vc:item_airship_balloon>, <vc:item_airship_balloon>],
-[<ore:wirespoolHemp>, <ore:ringCopper>, <ore:wirespoolHemp>]]);
+[<ore:wirespoolHemp>, <ore:ringBrass>, <ore:wirespoolHemp>]]);
 
 <vc:upgrades/item_upgrade_airship_balloon:5>.addTooltip("High Altitude Gas Bags");
 <vc:upgrades/item_upgrade_airship_balloon:5>.addTooltip("Balloon Upgrade V");
@@ -225,7 +228,7 @@ recipes.remove(<vc:upgrades/item_upgrade_airship_engine:1>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_engine:1>,[
 [null, <ore:slabStone>, null],
 [<ore:slabStone>, <ore:gearStone>, <ore:slabStone>],
-[null, <ore:slabstone>, null]]);
+[null, <ore:slabStone>, null]]);
 
 <vc:upgrades/item_upgrade_airship_engine:2>.addTooltip("Air intake");
 <vc:upgrades/item_upgrade_airship_engine:2>.addTooltip("Engine Upgrade II");
@@ -239,17 +242,17 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_engine:2>,[
 <vc:upgrades/item_upgrade_airship_engine:3>.addTooltip("Engine Upgrade III");
 recipes.remove(<vc:upgrades/item_upgrade_airship_engine:3>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_engine:3>,[
-[null, <ore:ringBronze>, null],
-[<ore:stickBronze>, null, <ore:stickBronze>],
-[<ore:pipeSmallBronze>, <ore:blockLever>, <ore:pipeSmallBronze>]]);
+[<ore:ingotBrick>, null, <ore:ingotBrick>],
+[<ore:plateCupronickel>, <ore:plateCupronickel>, <ore:plateCupronickel>],
+[<ore:ingotBrick>, null, <ore:ingotBrick>]]);
 
 <vc:upgrades/item_upgrade_airship_engine:4>.addTooltip("Dual Pistons");
 <vc:upgrades/item_upgrade_airship_engine:4>.addTooltip("Engine Upgrade IV");
 recipes.remove(<vc:upgrades/item_upgrade_airship_engine:4>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_engine:4>,[
-[<ore:ingotBrick>, null, <ore:ingotBrick>],
-[<ore:plateCupronickel>, <ore:plateCupronickel>, <ore:plateCupronickel>],
-[<ore:ingotBrick>, null, <ore:ingotBrick>]]);
+[null, <ore:ringBronze>, null],
+[<ore:stickBronze>, null, <ore:stickBronze>],
+[<ore:pipeSmallBronze>, <ore:blockLever>, <ore:pipeSmallBronze>]]);
 
 <vc:upgrades/item_upgrade_airship_engine:5>.addTooltip("Clockwork Mechanics");
 <vc:upgrades/item_upgrade_airship_engine:5>.addTooltip("Runs like clockwork");
@@ -346,19 +349,19 @@ recipes.addShaped(<vc:modules/item_module_type:3>,[
 #Speed
 recipes.remove(<vc:modules/item_module_type:4>);
 recipes.addShaped(<vc:modules/item_module_type:4>,[
-[<ore:gearSteelSmall>, <ore:ringSteel>, null],
+[<ore:gearSmallSteel>, <ore:ringSteel>, null],
 [<ore:cordageQuality>, <ore:stickLongSteel>, <ore:cordageQuality>],
 [null, <ore:ringSteel>, <contenttweaker:propellerwoodenhanced>]]);
 
 recipes.remove(<vc:modules/item_module_type:5>);
 recipes.addShaped(<vc:modules/item_module_type:5>,[
-[<ore:gearBrassSmall>, <ore:ringBrass>, null],
+[<ore:gearSmallBrass>, <ore:ringBrass>, null],
 [<ore:cordageQuality>, <ore:stickLongBrass>, <ore:cordageQuality>],
 [null, <ore:ringBrass>, <ore:rotorTin>]]);
 
 recipes.remove(<vc:modules/item_module_type:6>);
 recipes.addShaped(<vc:modules/item_module_type:6>,[
-[<ore:gearAluminiumSmall>, <ore:ringAluminium>, null],
+[<ore:gearSmallAluminium>, <ore:ringAluminium>, null],
 [<ore:cordageQuality>, <ore:stickLongAluminium>, <ore:cordageQuality>],
 [null, <ore:ringAluminium>, <ore:rotorAluminium>]]);
 
@@ -381,15 +384,15 @@ recipes.addShaped(<vc:modules/item_module_type:9>,[
 #Fuel Efficiency
 recipes.remove(<vc:modules/item_module_type:10>);
 recipes.addShaped(<vc:modules/item_module_type:10>,[
-[<ore:ingotBrick>, <ore:barsIron>, <ore:ingotBrick>],
+[<ore:ingotBrick>, null, <ore:ingotBrick>],
 [<ore:barsIron>, <ore:furnace>, <ore:barsIron>],
-[<ore:ingotBrick>, <ore:barsIron>, <ore:ingotBrick>]]);
+[<ore:ingotBrick>, null, <ore:ingotBrick>]]);
 
 recipes.remove(<vc:modules/item_module_type:11>);
 recipes.addShaped(<vc:modules/item_module_type:11>,[
-[<ore:ingotBrickNether>, <ore:rodBlaze>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, null, <ore:ingotBrickNether>],
 [<ore:rodBlaze>, <ore:furnace>, <ore:rodBlaze>],
-[<ore:ingotBrickNether>, <ore:rodBlaze>, <ore:ingotBrickNether>]]);
+[<ore:ingotBrickNether>, null, <ore:ingotBrickNether>]]);
 
 recipes.remove(<vc:modules/item_module_type:12>);
 recipes.addShaped(<vc:modules/item_module_type:12>,[
@@ -445,11 +448,11 @@ recipes.addShaped(<vc:modules/item_module_type:19>,[
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
 
 recipes.addShaped(<vc:modules/item_module_type:19>,[
-[<ore:blockRockWool>, <ore:blockRockWool>, <ore:blockRockWool>],
+[<ore:blockRockwool>, <ore:blockRockwool>, <ore:blockRockwool>],
 [<ore:leather>, <ore:leather>, <ore:leather>]]);
 
 recipes.addShaped(<vc:modules/item_module_type:19>,[
-[<ore:blockRockWool>, <ore:blockRockWool>, <ore:blockRockWool>],
+[<ore:blockRockwool>, <ore:blockRockwool>, <ore:blockRockwool>],
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
 
 recipes.remove(<vc:modules/item_module_type:20>);
@@ -494,14 +497,14 @@ recipes.addShaped(<vc:modules/item_module_type:25>,[
 [<ore:boat>],
 [<ore:trapdoorWood>]]);
 
-recipes.remove(<vc:modules/item_module_type:25>);
-recipes.addShaped(<vc:modules/item_module_type:25>,[
+recipes.remove(<vc:modules/item_module_type:26>);
+recipes.addShaped(<vc:modules/item_module_type:26>,[
 [<ore:barsIron>, <ore:blockLever>, <ore:barsIron>],
 [<ore:barsIron>, <ore:boat>, <ore:barsIron>],
 [null, <ore:trapdoorWood>, null]]);
 
-recipes.remove(<vc:modules/item_module_type:26>);
-recipes.addShaped(<vc:modules/item_module_type:26>,[
+recipes.remove(<vc:modules/item_module_type:27>);
+recipes.addShaped(<vc:modules/item_module_type:27>,[
 [<ore:barsIron>, <ore:blockLever>, <ore:barsIron>],
 [<ore:barsIron>, <ore:boat>, <ore:barsIron>],
 [<ore:trapdoorWood>, <ore:trapdoorWood>, <ore:trapdoorWood>]]);
