@@ -96,7 +96,26 @@ print("IC what you did there");
 <ore:plateDenseSteel>.remove(<ic2:plate:16>);
 <ore:plateDenseTin>.remove(<ic2:plate:17>);
 
-#ore dict 
+#---ore dict---
+#Gtech fix
+<ore:logWood>.add(<ic2:rubber_wood:0>);
+<ore:logWood>.add(<ic2:rubber_wood:1>);
+<ore:logWood>.add(<ic2:rubber_wood:2>);
+<ore:logWood>.add(<ic2:rubber_wood:3>);
+<ore:logWood>.add(<ic2:rubber_wood:4>);
+<ore:logWood>.add(<ic2:rubber_wood:5>);
+<ore:logWood>.add(<ic2:rubber_wood:6>);
+<ore:logWood>.add(<ic2:rubber_wood:7>);
+<ore:logWood>.add(<ic2:rubber_wood:8>);
+<ore:logWood>.add(<ic2:rubber_wood:9>);
+<ore:logWood>.add(<ic2:rubber_wood:10>);
+<ore:logWood>.add(<ic2:rubber_wood:11>);
+<ore:logWood>.add(<ic2:rubber_wood:12>);
+<ore:logWood>.add(<ic2:rubber_wood:13>);
+<ore:logWood>.add(<ic2:rubber_wood:14>);
+<ore:logWood>.add(<ic2:rubber_wood:15>);
+
+#-items
 <ore:ballRubber>.add(<ic2:crafting:0>);
 
 <ore:casingBronze>.add(<ic2:casing:0>);
