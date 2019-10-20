@@ -179,42 +179,43 @@ recipes.addShaped(<gregtech:machine_casing:13>, [
 [<ore:blockBrick>, <ore:blockBrick>, <ore:blockBrick>]]);
 
 #ULV
-recipes.remove(<meta_tile_entity:gregtech:hull:ulv>);
-theassembler.findRecipe(16, [<ore:cableGtSingleRedAlloy>.firstItem*2, <gregtech:machine_casing:0>], null).remove();
+recipes.remove(<meta_tile_entity:gregtech:hull.ulv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleLead>.firstItem*2, <gregtech:machine_casing:0>], null).remove();
+
 #LV
-recipes.remove(<meta_tile_entity:gregtech:hull:lv>);
+recipes.remove(<meta_tile_entity:gregtech:hull.lv>);
 theassembler.findRecipe(16, [<ore:cableGtSingleTin>.firstItem*2, <gregtech:machine_casing:1>], null).remove();
 
 #MV
-recipes.remove(<meta_tile_entity:gregtech:hull:mv>);
+recipes.remove(<meta_tile_entity:gregtech:hull.mv>);
 theassembler.findRecipe(16, [<ore:cableGtSingleCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
 
 #HV
-recipes.remove(<meta_tile_entity:gregtech:hull:hv>);
+recipes.remove(<meta_tile_entity:gregtech:hull.hv>);
 theassembler.findRecipe(16, [<ore:cableGtSingleGold>.firstItem*2, <gregtech:machine_casing:3>], null).remove();
 
 #EV
-recipes.remove(<meta_tile_entity:gregtech:hull:ev>);
+recipes.remove(<meta_tile_entity:gregtech:hull.ev>);
 theassembler.findRecipe(16, [<ore:cableGtSingleAluminium>.firstItem*2, <gregtech:machine_casing:4>], null).remove();
 
 #IV
-recipes.remove(<meta_tile_entity:gregtech:hull:iv>);
+recipes.remove(<meta_tile_entity:gregtech:hull.iv>);
 theassembler.findRecipe(16, [<ore:cableGtSingleTungsten>.firstItem*2, <gregtech:machine_casing:5>], null).remove();
 
 #LuV
-recipes.remove(<meta_tile_entity:gregtech:hull:luv>);
+recipes.remove(<meta_tile_entity:gregtech:hull.luv>);
 theassembler.findRecipe(16, [<ore:cableGtSingleVanadiumGallium>.firstItem*2, <gregtech:machine_casing:6>], null).remove();
 
 #ZPM
-recipes.remove(<meta_tile_entity:gregtech:hull:zpm>);
+recipes.remove(<meta_tile_entity:gregtech:hull.zpm>);
 theassembler.findRecipe(16, [<ore:cableGtSingleNaquadah>.firstItem*2, <gregtech:machine_casing:7>], null).remove();
 
 #UV
-recipes.remove(<meta_tile_entity:gregtech:hull:uv>);
-theassembler.findRecipe(16, [<ore:cableGtQuadrupleNaquadahAlloy>.firstItem*2, <gregtech:machine_casing:8>], null).remove();
+recipes.remove(<meta_tile_entity:gregtech:hull.uv>);
+theassembler.findRecipe(16, [<ore:wireGtQuadrupleNaquadahAlloy>.firstItem*2, <gregtech:machine_casing:8>], null).remove();
 
 #Max
-recipes.remove(<meta_tile_entity:gregtech:hull:max>);
+recipes.remove(<meta_tile_entity:gregtech:hull.max>);
 theassembler.findRecipe(16, [<ore:wireGtSingleSuperconductor>.firstItem*2, <gregtech:machine_casing:9>], null).remove();
 
 #---Multi Block Machines---

@@ -39,8 +39,8 @@ recipes.addShaped(<forestry:still>, [
 [<ore:plateSteel>, <ore:tubeGold>, <ore:plateSteel>]]);
 
 #still
-recipes.removeShaped(<forestry:still>);
-recipes.addShaped(<forestry:still>, [
+recipes.removeShaped(<forestry:carpenter>);
+recipes.addShaped(<forestry:carpenter>, [
 [<ore:tank>, <ore:elementCupronickel>, <ore:tank>],
 [<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
 [<ore:plateSteel>, <ore:elementCupronickel>, <ore:plateSteel>]]);

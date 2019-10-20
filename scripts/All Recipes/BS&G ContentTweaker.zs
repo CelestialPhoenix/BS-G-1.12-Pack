@@ -254,37 +254,37 @@ recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxempt
 #chassis ULV
 recipes.addShaped(<contenttweaker:chassiswroughtiron>*4, [
 [<ore:casingCopper>, <ore:circuitPrimitive>, <ore:casingCopper>],
-[<ore:cableGtSingleLead>, <ore:casingULV>, <ore:cableGtSingleLead>], 
+[<ore:cableGtSingleLead>, <ore:hullULV>, <ore:cableGtSingleLead>], 
 [<ore:casingCopper>, <ore:circuitPrimitive>, <ore:casingCopper>]]);
 
 #chassis lV
 recipes.addShaped(<contenttweaker:chassissteel>*4, [
 [<ore:casingBronze>, <ore:circuitBasic>, <ore:casingBronze>],
-[<ore:cableGtSingleTin>, <ore:casingLV, <ore:wireinsulatedTin>], 
+[<ore:cableGtSingleTin>, <ore:hulLV, <ore:wireinsulatedTin>], 
 [<ore:casingBronze>, <ore:circuitBasic>, <ore:casingBronze>]]);
 
 #chassis MV
 recipes.addShaped(<contenttweaker:chassisaluminium>*4, [
 [<ore:casingSteel>, <ore:circuitGood>, <ore:casingSteel>],
-[<ore:cableGtSingleCopper>, <ore:casingMV>, <ore:cableGtSingleCopper>], 
+[<ore:cableGtSingleCopper>, <ore:hullMV>, <ore:cableGtSingleCopper>], 
 [<ore:casingSteel>, <ore:circuitGood>, <ore:casingSteel>]]);
 
 #chassis HV
 recipes.addShaped(<contenttweaker:chassisstainless>*4, [
 [<ore:casingGold>, <ore:circuitAdvanced>, <ore:casingGold>],
-[<ore:cableGtSingleSilver>, <ore:casingHV>, <ore:cableGtSingleSilver>], 
+[<ore:cableGtSingleSilver>, <ore:hullHV>, <ore:cableGtSingleSilver>], 
 [<ore:casingGold>, <ore:circuitAdvanced>, <ore:casingGold>]]);
 
 #chassis EV
 recipes.addShaped(<contenttweaker:chassistitanium>*4, [
 [<ore:casingPlatinum>, <ore:circuitElite>, <ore:casingPlatinum>],
-[<ore:cableGtSingleAluminium>, <ore:casingEV>, <ore:cableGtSingleAluminium>], 
+[<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleAluminium>], 
 [<ore:casingPlatinum>, <ore:circuitElite>, <ore:casingPlatinum>]]);
 
 #chassis IV
 recipes.addShaped(<contenttweaker:chassistungstensteel>*4, [
 [<ore:casingIridium>, <ore:circuitMaster>, <ore:casingIridium>],
-[<ore:cableGtSinglePlatinum>, <ore:hullTungstensteel>, <ore:cableGtSinglePlatinum>], 
+[<ore:cableGtSinglePlatinum>, <ore:hullTungstenSteel>, <ore:cableGtSinglePlatinum>], 
 [<ore:casingIridium>, <ore:circuitMaster>, <ore:casingIridium>]]);
 
 #chassis LuV
