@@ -12,7 +12,7 @@ electrolyzer
     .recipeBuilder()
     .inputs(<ore:hullSteel>.firstItem)
 	.fluidInputs([<liquid:zinc> * 144])
-    .outputs(<ore:casingLV>.firstItem)
+    .outputs(<ore:hullLV>.firstItem)
     .duration(200)
     .EUt(60)
     .buildAndRegister();

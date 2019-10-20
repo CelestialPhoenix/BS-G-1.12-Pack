@@ -129,7 +129,7 @@ recipes.addShaped(<ic2:tfbp:5>, [
 recipes.remove(<ic2:te:3>);
 recipes.addShaped(<ic2:te:3>, [
 [<ore:connectorLV>, <ore:coilSimple>, <ore:connectorLV>],
-[<ore:coilSimple>, <ore:casingLV>, <ore:coilSimple>], 
+[<ore:coilSimple>, <ore:hullLV>, <ore:coilSimple>], 
 [<ore:ringSteel>, <minecraft:furnace>, <ore:ringSteel>]]);
 <ic2:te:3>.displayName="Sterling Generator";
 <ic2:te:3>.addTooltip("Generates 40Rf/t");

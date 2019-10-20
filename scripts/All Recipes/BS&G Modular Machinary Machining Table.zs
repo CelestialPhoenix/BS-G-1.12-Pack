@@ -52,7 +52,7 @@ CNCBasicCasingWroughtIron.addItemInput(<gregtech:meta_item_1:32766>.withTag({Con
 CNCBasicCasingWroughtIron.setChance(0);
 CNCBasicCasingWroughtIron.addItemInput(<ore:blockWroughtIron>);
 CNCBasicCasingWroughtIron.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingWroughtIron.addItemOutput(<ore:casingULV>);
+CNCBasicCasingWroughtIron.addItemOutput(<ore:hullULV>);
 CNCBasicCasingWroughtIron.addItemOutput(<ore:dustWroughtIron>, 1);
 CNCBasicCasingWroughtIron.build();
 
@@ -63,7 +63,7 @@ CNCBasicCasingAluminium.addItemInput(<gregtech:meta_item_1:32766>.withTag({Confi
 CNCBasicCasingAluminium.setChance(0);
 CNCBasicCasingAluminium.addItemInput(<ore:blockAluminium>);
 CNCBasicCasingAluminium.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingAluminium.addItemOutput(<ore:casingMV>);
+CNCBasicCasingAluminium.addItemOutput(<ore:hullMV>);
 CNCBasicCasingAluminium.addItemOutput(<ore:dustAluminium>, 1);
 CNCBasicCasingAluminium.build();
 
@@ -74,7 +74,7 @@ CNCBasicCasingStainlessSteel.addItemInput(<gregtech:meta_item_1:32766>.withTag({
 CNCBasicCasingStainlessSteel.setChance(0);
 CNCBasicCasingStainlessSteel.addItemInput(<ore:blockStainlessSteel>);
 CNCBasicCasingStainlessSteel.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingStainlessSteel.addItemOutput(<ore:casingHV>);
+CNCBasicCasingStainlessSteel.addItemOutput(<ore:hullHV>);
 CNCBasicCasingStainlessSteel.addItemOutput(<ore:dustStainlessSteel>, 1);
 CNCBasicCasingStainlessSteel.build();
 
@@ -85,7 +85,7 @@ CNCBasicCasingTitanium.addItemInput(<gregtech:meta_item_1:32766>.withTag({Config
 CNCBasicCasingTitanium.setChance(0);
 CNCBasicCasingTitanium.addItemInput(<ore:blockTitanium>);
 CNCBasicCasingTitanium.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingTitanium.addItemOutput(<ore:casingEV>);
+CNCBasicCasingTitanium.addItemOutput(<ore:hullEV>);
 CNCBasicCasingTitanium.addItemOutput(<ore:dustTitanium>, 1);
 CNCBasicCasingTitanium.build();
 
@@ -96,7 +96,7 @@ CNCBasicCasingTungstenSteel.addItemInput(<gregtech:meta_item_1:32766>.withTag({C
 CNCBasicCasingTungstenSteel.setChance(0);
 CNCBasicCasingTungstenSteel.addItemInput(<ore:blockTungstenSteel>);
 CNCBasicCasingTungstenSteel.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingTungstenSteel.addItemOutput(<ore:casingIV>);
+CNCBasicCasingTungstenSteel.addItemOutput(<ore:hullIV>);
 CNCBasicCasingTungstenSteel.addItemOutput(<ore:dustTungstenSteel>, 1);
 CNCBasicCasingTungstenSteel.build();
 
@@ -107,7 +107,7 @@ CNCBasicCasingChrome.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configur
 CNCBasicCasingChrome.setChance(0);
 CNCBasicCasingChrome.addItemInput(<ore:blockChrome>);
 CNCBasicCasingChrome.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingChrome.addItemOutput(<ore:casingLuV>);
+CNCBasicCasingChrome.addItemOutput(<ore:hullLuV>);
 CNCBasicCasingChrome.addItemOutput(<ore:dustChrome>, 1);
 CNCBasicCasingChrome.build();
 
@@ -118,7 +118,7 @@ CNCBasicCasingIridium.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configu
 CNCBasicCasingIridium.setChance(0);
 CNCBasicCasingIridium.addItemInput(<ore:blockIridium>);
 CNCBasicCasingIridium.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingIridium.addItemOutput(<ore:casingZPM>);
+CNCBasicCasingIridium.addItemOutput(<ore:hullZPM>);
 CNCBasicCasingIridium.addItemOutput(<ore:dustIridium>, 1);
 CNCBasicCasingIridium.build();
 
@@ -129,7 +129,7 @@ CNCBasicCasingOsmium.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configur
 CNCBasicCasingOsmium.setChance(0);
 CNCBasicCasingOsmium.addItemInput(<ore:blockOsmium>);
 CNCBasicCasingOsmium.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingOsmium.addItemOutput(<ore:casingUV>);
+CNCBasicCasingOsmium.addItemOutput(<ore:hullUV>);
 CNCBasicCasingOsmium.addItemOutput(<ore:dustOsmium>, 1);
 CNCBasicCasingOsmium.build();
 
@@ -140,7 +140,7 @@ CNCBasicCasingDarmstadtium.addItemInput(<gregtech:meta_item_1:32766>.withTag({Co
 CNCBasicCasingDarmstadtium.setChance(0);
 CNCBasicCasingDarmstadtium.addItemInput(<ore:blockDarmstadtium>);
 CNCBasicCasingDarmstadtium.addFluidInput(<liquid:lubricant>*300);
-CNCBasicCasingDarmstadtium.addItemOutput(<ore:casingMax>);
+CNCBasicCasingDarmstadtium.addItemOutput(<ore:hullMax>);
 CNCBasicCasingDarmstadtium.addItemOutput(<ore:dustDarmstadtium>, 1);
 CNCBasicCasingDarmstadtium.build();
 

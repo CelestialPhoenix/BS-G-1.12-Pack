@@ -1,7 +1,11 @@
 #Name: Blood Sweat & Gears Gregtech Machines.zs
 #Author: PhoePhoe
 
+import mods.gregtech.recipe.RecipeMap;
+
 print("Hello Boys- I'm Baaaaack!!!");
+
+val theassembler as RecipeMap = RecipeMap.getByName("assembler");
 
 #name items
 
@@ -12,26 +16,35 @@ print("Hello Boys- I'm Baaaaack!!!");
 #recipes in Modular Machinary/Recipes/CNC Machine/Machine Casings
 #ULV
 recipes.removeShaped(<gregtech:machine_casing:0>);
+
 #LV
 recipes.removeShaped(<gregtech:machine_casing:1>);
-mods.tconstruct.Casting.addBasinRecipe(<gregtech:machine_casing:1>, <gregtech:machine_casing:12>, <liquid:zinc>, 288, true);
+<gregtech:machine_casing:1>.addTooltip("This block is disabled");
 #mods.tconstruct.Casting.addBasinRecipe(<gregtech:machine_casing:1>, <gregtech:machine_casing:12>, <liquid:liquid.zinc>, 288, true);
 #MV
 recipes.removeShaped(<gregtech:machine_casing:2>);
+<gregtech:machine_casing:2>.addTooltip("This block is disabled");
 #HV
 recipes.removeShaped(<gregtech:machine_casing:3>);
+<gregtech:machine_casing:3>.addTooltip("This block is disabled");
 #EV
 recipes.removeShaped(<gregtech:machine_casing:4>);
+<gregtech:machine_casing:4>.addTooltip("This block is disabled");
 #IV
 recipes.removeShaped(<gregtech:machine_casing:5>);
+<gregtech:machine_casing:5>.addTooltip("This block is disabled");
 #LuV
 recipes.removeShaped(<gregtech:machine_casing:6>);
+<gregtech:machine_casing:6>.addTooltip("This block is disabled");
 #ZPM
 recipes.removeShaped(<gregtech:machine_casing:7>);
+<gregtech:machine_casing:7>.addTooltip("This block is disabled");
 #UV
 recipes.removeShaped(<gregtech:machine_casing:8>);
+<gregtech:machine_casing:8>.addTooltip("This block is disabled");
 #Max
 recipes.removeShaped(<gregtech:machine_casing:9>);
+<gregtech:machine_casing:9>.addTooltip("This block is disabled");
 
 #-Modified-
 #Bronze
@@ -166,24 +179,43 @@ recipes.addShaped(<gregtech:machine_casing:13>, [
 [<ore:blockBrick>, <ore:blockBrick>, <ore:blockBrick>]]);
 
 #ULV
-
+recipes.remove(<meta_tile_entity:gregtech:hull:ulv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleRedAlloy>.firstItem*2, <gregtech:machine_casing:0>], null).remove();
 #LV
+recipes.remove(<meta_tile_entity:gregtech:hull:lv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleTin>.firstItem*2, <gregtech:machine_casing:1>], null).remove();
 
 #MV
+recipes.remove(<meta_tile_entity:gregtech:hull:mv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
 
 #HV
+recipes.remove(<meta_tile_entity:gregtech:hull:hv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleGold>.firstItem*2, <gregtech:machine_casing:3>], null).remove();
 
 #EV
+recipes.remove(<meta_tile_entity:gregtech:hull:ev>);
+theassembler.findRecipe(16, [<ore:cableGtSingleAluminium>.firstItem*2, <gregtech:machine_casing:4>], null).remove();
 
 #IV
+recipes.remove(<meta_tile_entity:gregtech:hull:iv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleTungsten>.firstItem*2, <gregtech:machine_casing:5>], null).remove();
 
 #LuV
+recipes.remove(<meta_tile_entity:gregtech:hull:luv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleVanadiumGallium>.firstItem*2, <gregtech:machine_casing:6>], null).remove();
 
 #ZPM
+recipes.remove(<meta_tile_entity:gregtech:hull:zpm>);
+theassembler.findRecipe(16, [<ore:cableGtSingleNaquadah>.firstItem*2, <gregtech:machine_casing:7>], null).remove();
 
 #UV
+recipes.remove(<meta_tile_entity:gregtech:hull:uv>);
+theassembler.findRecipe(16, [<ore:cableGtQuadrupleNaquadahAlloy>.firstItem*2, <gregtech:machine_casing:8>], null).remove();
 
 #Max
+recipes.remove(<meta_tile_entity:gregtech:hull:max>);
+theassembler.findRecipe(16, [<ore:wireGtSingleSuperconductor>.firstItem*2, <gregtech:machine_casing:9>], null).remove();
 
 #---Multi Block Machines---
 #Coking Oven
@@ -215,7 +247,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>, [
 [<ore:brickInfernal>, <minecraft:furnace>, <ore:brickInfernal>]]);
 
 #---single block machines---
-#Alloy Smelter
+#--Alloy Smelter--
 #LP Steam
 recipes.remove(<meta_tile_entity:gregtech:steam_alloy_smelter_bronze>);
 recipes.addShaped(<meta_tile_entity:gregtech:steam_alloy_smelter_bronze>, [
@@ -255,7 +287,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:alloy_smelter.ev>, [
 [<ore:elementNichrome>, <ore:hullEV>, <ore:elementNichrome>], 
 [<ore:cableGtSingleAluminium>, <ore:elementNichrome>, <ore:cableGtSingleAluminium>]]);
 
-#Bending Machine
+#--Bending Machine--
 #LV
 recipes.remove(<meta_tile_entity:gregtech:bender.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:bender.lv>, [
@@ -284,7 +316,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:bender.ev>, [
 [<ore:circuitExtreme>, <ore:hullEV>, <ore:circuitExtreme>], 
 [<ore:motorEV>, <ore:cableGtSingleAluminium>, <ore:motorEV>]]);
 
-#Boiler
+#--Boiler--
 #Bronze 
 recipes.remove(<meta_tile_entity:gregtech:steam_boiler_coal_bronze>);
 recipes.addShaped(<meta_tile_entity:gregtech:steam_boiler_coal_bronze>, [
@@ -299,7 +331,14 @@ recipes.addShaped(<meta_tile_entity:gregtech:steam_boiler_coal_steel>, [
 [<ore:blockBrick>, <ore:hullSteel>, <ore:blockBrick>], 
 [<ore:blockBrick>, <ore:furnace>, <ore:blockBrick>]]);
 
-#Extruder
+#--Distillation Tower--
+recipes.remove(<meta_tile_entity:gregtech:distillation_tower>);
+recipes.addShaped(<meta_tile_entity:gregtech:distillation_tower>, [
+[<ore:circuitExtreme>, <ore:pipeLargeStainlessSteel>, <ore:circuitExtreme>], 
+[<ore:pumpEV>, <ore:hullEV>, <ore:pumpEV>], 
+[<ore:circuitExtreme>, <ore:pipeLargeStainlessSteel>, <ore:circuitExtreme>]]);
+
+#--Extruder--
 #LV
 #recipes.remove(<meta_tile_entity:gregtech:extruder.lv>);
 #recipes.addShaped(<meta_tile_entity:gregtech:extruder.lv>, [
@@ -325,7 +364,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:extruder.ev>, [
 [<ore:pistonEV>, <ore:hullEV>, <ore:pipeSmallSteel>], 
 [<ore:elementNichrome>, <ore:elementNichrome>, <ore:circuitExtreme>]]);
 
-#Fluid Heater
+#--Fluid Heater--
 #LV
 recipes.remove(<meta_tile_entity:gregtech:fluid_heater.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.lv>, [
@@ -351,7 +390,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.ev>, [
 [<ore:pumpEV>, <ore:hullEV>, <ore:pumpEV>], 
 [<ore:cableGtSingleAluminium>, <ore:circuitExtreme>, <ore:cableGtSingleAluminium>]]);
 
-#Furnace
+#--Furnace--
 #LV
 recipes.remove(<meta_tile_entity:gregtech:electric_furnace.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.lv>, [
@@ -377,7 +416,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.ev>, [
 [<ore:elementNichrome>, <ore:hullEV>, <ore:elementNichrome>], 
 [<ore:cableGtSingleAluminium>, <ore:blockGlassHardened>, <ore:cableGtSingleAluminium>]]);
 
-#Thermal Centrifuge
+#--Thermal Centrifuge--
 #LV
 recipes.remove(<meta_tile_entity:gregtech:thermal_centrifuge.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:thermal_centrifuge.lv>, [
