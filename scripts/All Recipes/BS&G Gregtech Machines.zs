@@ -188,7 +188,7 @@ theassembler.findRecipe(16, [<ore:cableGtSingleTin>.firstItem*2, <gregtech:machi
 
 #MV
 recipes.remove(<meta_tile_entity:gregtech:hull.mv>);
-theassembler.findRecipe(16, [<ore:cableGtSingleCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
+theassembler.findRecipe(16, [<ore:cableGtSingleAnnealedCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
 
 #HV
 recipes.remove(<meta_tile_entity:gregtech:hull.hv>);
