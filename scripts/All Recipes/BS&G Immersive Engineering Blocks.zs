@@ -163,6 +163,13 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6>, [
 [<ore:cableGtQuadrupleAluminium>, <ore:coilEV>, <ore:cableGtQuadrupleAluminium>], 
 [<ore:plateStainlessSteel>, <ore:ringTitanium>, <ore:plateStainlessSteel>]]);
 
+#---Gunpowder barrel---
+recipes.addShaped(<immersiveengineering:wooden_device0:4>, [
+[null, <ore:string>, null],
+[<ore:dustGunpowder>, <immersiveengineering:wooden_device0:1>, <ore:dustGunpowder>], 
+[<ore:dustGunpowder>, <ore:dustGunpowder>, <ore:dustGunpowder>]]);
+<immersiveengineering:wooden_device0:4>.addTooltip("A simple explosive");
+
 #---Metal Ladder---
 recipes.removeShaped(<immersiveengineering:metal_ladder>);
 recipes.addShaped(<immersiveengineering:metal_ladder>*4, [
