@@ -5,21 +5,16 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#Example
-#val chemical_reactor as RecipeMap = RecipeMap.getByName("chemical_reactor");
-#
-#chemical_reactor #WORKING EXAMPLE
-#    .recipeBuilder()
-#    .inputs([<ore:crushedAlmandine> * 3,  <ore:ingotIron> * 4])
-#    .fluidInputs([<liquid:water> * 1000 ])
-#    .outputs(<ore:crushedPurifiedAlmandine>.firstItem * 4)
-#    .duration(60)
-#    .EUt(30)
-#    .buildAndRegister();
+val macerator as RecipeMap = RecipeMap.getByName("macerator");
 
 #XXXXXX
 
-val macerator as RecipeMap = RecipeMap.getByName("macerator");
+#macerator.recipeBuilder()
+#    .inputs(<minecraft:stone:1> * 1)
+#    .outputs(<minecraft:sand:1> * 1)
+#    .EUt(8)
+#    .duration(150)
+#    .buildAndRegister();
 
 #---Native Cluster---
 /*
