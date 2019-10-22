@@ -174,7 +174,7 @@ recipes.addShaped(<meta_tile_entity:gregtech:bronze_tank>, [
 recipes.remove(<meta_tile_entity:gregtech:steel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:steel_tank>, [
 [<ore:plateThickSteel>, <ore:blockGlassHardened>, <ore:plateThickSteel>], 
-[<ore:blockGlassH>, null, <ore:blockGlassHardened>],
+[<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
 [<ore:plateThickSteel>, <ore:blockGlassHardened>, <ore:plateThickSteel>]]);
 
 #StainlessSteel
