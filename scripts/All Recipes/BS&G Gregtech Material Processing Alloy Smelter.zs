@@ -25,6 +25,145 @@ alloysmelter
     .EUt(16)
     .buildAndRegister();
 
+#-Other stuff-
+#Glass (leaded)
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*9, <ore:dustLead>*1)
+    .outputs(<ore:glassLeaded>.firstItem*9)
+    .duration(600)
+    .EUt(8)
+    .buildAndRegister();
+
+#Glass (hardened)
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyCopper>*1)
+    .outputs(<thermalfoundation:glass:0>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyTin>*1)
+    .outputs(<thermalfoundation:glass:1>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinySilver>*1)
+    .outputs(<thermalfoundation:glass:2>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyLead>*1)
+    .outputs(<thermalfoundation:glass:3>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyAluminium>*1)
+    .outputs(<thermalfoundation:glass:4>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyNickel>*1)
+    .outputs(<thermalfoundation:glass:5>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyPlatinum>*1)
+    .outputs(<thermalfoundation:glass:6>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyMithril>*1)
+    .outputs(<thermalfoundation:glass:7>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinySteel>*1)
+    .outputs(<thermalfoundation:glass_alloy:0>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyElectrum>*1)
+    .outputs(<thermalfoundation:glass_alloy:1>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyInvar>*1)
+    .outputs(<thermalfoundation:glass_alloy:2>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyBronze>*1)
+    .outputs(<thermalfoundation:glass_alloy:3>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyCupronickel>*1)
+    .outputs(<thermalfoundation:glass_alloy:4>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinySignalum>*1)
+    .outputs(<thermalfoundation:glass_alloy:5>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyLumium>*1)
+    .outputs(<thermalfoundation:glass_alloy:6>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:blockGlass>*1, <ore:dustTinyEnderium>*1)
+    .outputs(<thermalfoundation:glass_alloy:7>*1)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
 #Rubber
 alloysmelter
     .recipeBuilder()
