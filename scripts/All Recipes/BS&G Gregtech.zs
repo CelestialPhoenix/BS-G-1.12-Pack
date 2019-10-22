@@ -196,5 +196,5 @@ recipes.remove(<meta_tile_entity:gregtech:tungstensteel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:tungstensteel_tank>, [
 [<ore:plateThickTungstenSteel>, <ic2:glass>, <ore:plateThickTungstenSteel>], 
 [<ic2:glass>, null, <ic2:glass>],
-[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTungstenSteel>]]);
+[<ore:plateThickTungstenSteel>, <ic2:glass>, <ore:plateThickTungstenSteel>]]);
 
