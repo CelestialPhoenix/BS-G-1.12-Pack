@@ -326,7 +326,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:plateThickSteelMagnetic>.add(<contenttweaker:platethicksteelmagnetic>);
 <ore:plateThickHssg>.add(<contenttweaker:platethickhssg>);
 <ore:plateThickHsse>.add(<contenttweaker:platethickhsse>);
-<ore:plateThickWood>.add(<contenttweaker:platethickWood>);
+<ore:plateThickWood>.add(<contenttweaker:platethickwood>);
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);

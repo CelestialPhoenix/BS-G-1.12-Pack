@@ -81,3 +81,5 @@ print("Handles like its on rails");
 
 #---Ore Dicting---
 <ore:dustCement>.add(<railcraft:concrete>);
+
+<ore:glassLeaded>.add(<railcraft:glass>);

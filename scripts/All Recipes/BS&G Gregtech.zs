@@ -159,42 +159,42 @@ recipes.addShaped(<meta_tile_entity:gregtech:small_wooden_chest>*4, [
 #Wood
 recipes.remove(<meta_tile_entity:gregtech:wooden_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:wooden_tank>, [
-[<ore:plateThickWood>, <ore:blockGlass>, <ore:plateThickWood>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickWood>, <ore:blockGlass>, <ore:plateThickWood>]]);
+[<ore:plateThickWood>, <ore:blockGlassLeaded>, <ore:plateThickWood>], 
+[<ore:blockGlassLeaded>, null, <ore:blockGlassLeaded>],
+[<ore:plateThickWood>, <ore:blockGlassLeaded>, <ore:plateThickWood>]]);
 
 #Bronze
 recipes.remove(<meta_tile_entity:gregtech:bronze_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:bronze_tank>, [
-[<ore:plateThickBronze>, <ore:blockGlass>, <ore:plateThickBronze>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickBronze>, <ore:blockGlass>, <ore:plateThickBronze>]]);
+[<ore:plateThickBronze>, <ore:blockGlassLeaded>, <ore:plateThickBronze>], 
+[<ore:blockGlassLeaded>, null, <ore:blockGlassLeaded>],
+[<ore:plateThickBronze>, <ore:blockGlassLeaded>, <ore:plateThickBronze>]]);
 
 #Steel
 recipes.remove(<meta_tile_entity:gregtech:steel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:steel_tank>, [
-[<ore:plateThickSteel>, <ore:blockGlass>, <ore:plateThickSteel>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickSteel>, <ore:blockGlass>, <ore:plateThickSteel>]]);
+[<ore:plateThickSteel>, <ore:blockGlassHardened>, <ore:plateThickSteel>], 
+[<ore:blockGlassH>, null, <ore:blockGlassHardened>],
+[<ore:plateThickSteel>, <ore:blockGlassHardened>, <ore:plateThickSteel>]]);
 
 #StainlessSteel
 recipes.remove(<meta_tile_entity:gregtech:stainless_steel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:stainless_steel_tank>, [
-[<ore:plateThickStainlessSteel>, <ore:blockGlass>, <ore:plateThickStainlessSteel>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickStainlessSteel>, <ore:blockGlass>, <ore:plateThickStainlessSteel>]]);
+[<ore:plateThickStainlessSteel>, <ore:blockGlassHardened>, <ore:plateThickStainlessSteel>], 
+[<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
+[<ore:plateThickStainlessSteel>, <ore:blockGlassHardened>, <ore:plateThickStainlessSteel>]]);
 
 #Titanium
 recipes.remove(<meta_tile_entity:gregtech:titanium_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:titanium_tank>, [
-[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTitanium>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTitanium>]]);
+[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTitanium>], 
+[<ic2:glass>, null, <ic2:glass>],
+[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTitanium>]]);
 
 #Tungstensteel
 recipes.remove(<meta_tile_entity:gregtech:tungstensteel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:tungstensteel_tank>, [
-[<ore:plateThickTungstenSteel>, <ore:blockGlass>, <ore:plateThickTungstenSteel>], 
-[<ore:blockGlass>, null, <ore:blockGlass>],
-[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTungstenSteel>]]);
+[<ore:plateThickTungstenSteel>, <ic2:glass>, <ore:plateThickTungstenSteel>], 
+[<ic2:glass>, null, <ic2:glass>],
+[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTungstenSteel>]]);
 
