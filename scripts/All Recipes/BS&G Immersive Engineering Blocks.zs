@@ -213,6 +213,11 @@ mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:
 mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:metal_decoration1:6>);
 mods.chisel.Carving.addVariation("scaffolding_aluminium", <immersiveengineering:metal_decoration1:7>);
 
+#Covered ladder Alu
+recipes.addShaped(<immersiveengineering:metal_ladder:2>, [
+[<ore:scaffoldingAluminium>],
+[<immersiveengineering:metal_ladder>]]);
+
 #Steel
 recipes.remove(<immersiveengineering:metal_decoration1:1>);
 recipes.remove(<immersiveengineering:metal_decoration1:2>);
