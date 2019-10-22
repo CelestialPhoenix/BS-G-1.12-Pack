@@ -148,9 +148,53 @@ recipes.remove(<metaitem:wooden_form.brick>);
 <metaitem:wooden_form.brick>.addTooltip("This item is disabled");
 
 #---Recipes---
+#--Chests--
 #Small Chest
 recipes.remove(<meta_tile_entity:gregtech:small_wooden_chest>);
 recipes.addShaped(<meta_tile_entity:gregtech:small_wooden_chest>*4, [
 [<ore:plateWood>, <ore:plateWood>], 
 [<ore:plateWood>, <ore:plateWood>]]);
+
+#--Tanks--
+#Wood
+recipes.remove(<meta_tile_entity:gregtech:wooden_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:wooden_tank>, [
+[<ore:plateThickWood>, <ore:blockGlass>, <ore:plateThickWood>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickWood>, <ore:blockGlass>, <ore:plateThickWood>]]);
+
+#Bronze
+recipes.remove(<meta_tile_entity:gregtech:bronze_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:bronze_tank>, [
+[<ore:plateThickBronze>, <ore:blockGlass>, <ore:plateThickBronze>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickBronze>, <ore:blockGlass>, <ore:plateThickBronze>]]);
+
+#Steel
+recipes.remove(<meta_tile_entity:gregtech:steel_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:steel_tank>, [
+[<ore:plateThickSteel>, <ore:blockGlass>, <ore:plateThickSteel>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickSteel>, <ore:blockGlass>, <ore:plateThickSteel>]]);
+
+#StainlessSteel
+recipes.remove(<meta_tile_entity:gregtech:stainless_steel_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:stainless_steel_tank>, [
+[<ore:plateThickStainlessSteel>, <ore:blockGlass>, <ore:plateThickStainlessSteel>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickStainlessSteel>, <ore:blockGlass>, <ore:plateThickStainlessSteel>]]);
+
+#Titanium
+recipes.remove(<meta_tile_entity:gregtech:titanium_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:titanium_tank>, [
+[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTitanium>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTitanium>]]);
+
+#Tungstensteel
+recipes.remove(<meta_tile_entity:gregtech:tungstensteel_tank>);
+recipes.addShaped(<meta_tile_entity:gregtech:tungstensteel_tank>, [
+[<ore:plateThickTungstenSteel>, <ore:blockGlass>, <ore:plateThickTungstenSteel>], 
+[<ore:blockGlass>, null, <ore:blockGlass>],
+[<ore:plateThickTitanium>, <ore:blockGlass>, <ore:plateThickTungstenSteel>]]);
 

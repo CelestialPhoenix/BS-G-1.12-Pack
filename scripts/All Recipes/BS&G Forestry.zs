@@ -37,15 +37,15 @@ recipes.addShaped(<forestry:sturdy_machine>, [
 
 #-machines-
 #carpenter
-recipes.removeShaped(<forestry:still>);
-recipes.addShaped(<forestry:still>, [
+recipes.removeShaped(<forestry:carpenter>);
+recipes.addShaped(<forestry:carpenter>, [
 [<ore:tubeGold>, <ore:robotarmLV>, <ore:tubeGold>],
 [<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
 [<ore:plateSteel>, <ore:tubeGold>, <ore:plateSteel>]]);
 
 #still
-recipes.removeShaped(<forestry:carpenter>);
-recipes.addShaped(<forestry:carpenter>, [
+recipes.removeShaped(<forestry:still>);
+recipes.addShaped(<forestry:still>, [
 [<ore:tank>, <ore:elementCupronickel>, <ore:tank>],
 [<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
 [<ore:plateSteel>, <ore:elementCupronickel>, <ore:plateSteel>]]);

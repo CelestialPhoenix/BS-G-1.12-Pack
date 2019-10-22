@@ -31,3 +31,6 @@ PlateThickHssg.register();
 
 var PlateThickHsse = VanillaFactory.createItem("platethickhsse");
 PlateThickHsse.register();
+
+var PlateThickWood = VanillaFactory.createItem("platethickwood");
+PlateThickWood.register();

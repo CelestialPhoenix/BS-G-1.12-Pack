@@ -492,6 +492,12 @@ recipes.addShaped(<contenttweaker:mouldrods>, [
 [<ore:stickWax>, <contenttweaker:castraw>, <ore:stickWax>], 
 [<ore:stickWax>, <ore:stickWax>, <ore:stickWax>]]);
 
+#--Plates--
+#Thick
+recipes.addShaped(<contenttweaker:platethickwood>, [
+[<ore:plateWood>, <ore:plateWood>],
+[<ore:plateWood>, <ore:plateWood>]]);
+
 #--press tools--
 #cutter
 recipes.addShaped(<contenttweaker:presstoolcutter>, [
