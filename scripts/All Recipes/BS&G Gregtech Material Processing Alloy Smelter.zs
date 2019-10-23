@@ -30,7 +30,7 @@ alloysmelter
 alloysmelter
     .recipeBuilder()
     .inputs(<ore:blockGlass>*9, <ore:dustLead>*1)
-    .outputs(<ore:glassLeaded>.firstItem*9)
+    .outputs(<ore:blockGlassLeaded>.firstItem*9)
     .duration(600)
     .EUt(8)
     .buildAndRegister();
