@@ -8,6 +8,15 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
+var Boneclay = VanillaFactory.createItem("claybone");
+Boneclay.register();
+
+var Bloodclay = VanillaFactory.createItem("clayblood");
+Bloodclay.register();
+
+var Blueclay = VanillaFactory.createItem("clayblue");
+Blueclay.register();
+
 var Netherclay = VanillaFactory.createItem("claynether");
 Netherclay.register();
 
@@ -16,6 +25,9 @@ Infernalclay.register();
 
 var Groutclay = VanillaFactory.createItem("claygrout");
 Groutclay.register();
+
+var Pearlclay = VanillaFactory.createItem("claypearl");
+Pearlclay.register();
 
 var Sandyclay = VanillaFactory.createItem("claysandy");
 Sandyclay.register();

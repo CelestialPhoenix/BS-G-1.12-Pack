@@ -13,7 +13,11 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:starQuantum>.add(<metaitem:quantumstar>);
 <ore:starGravity>.add(<metaitem:gravistar>);
 
-#-circuit boards
+#-circuits-
+<ore:circuitGood>.remove(<metaitem:circuit.advanced>);
+<ore:circuitAdvanced>.add(<metaitem:circuit.advanced>);
+
+#-circuit boards-
 <ore:boardBasic>.add(<metaitem:board.coated>);
 
 #-circuit parts-

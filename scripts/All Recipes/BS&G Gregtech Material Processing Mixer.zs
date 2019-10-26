@@ -28,11 +28,76 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
-#Cement
+#Casting Medium
 mixer
     .recipeBuilder()
-    .inputs(<ore:sand>.firstItem, <ore:dustQuicklime>*8)
-    .outputs(<railcraft:concrete>*6)
+    .inputs(<ore:sand>.firstItem*4, <ore:clayball>.firstItem*4, <ore:slimeball>.firstItem)
+    .outputs(<contenttweaker:castraw>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Clays
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <tconstruct:edible:3>*2)
+    .outputs(<contenttweaker:clayblood>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <ore:dustBone>.firstItem*2)
+    .outputs(<contenttweaker:claybone>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <ore:dyeBlue>*2)
+    .outputs(<contenttweaker:clayblue>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNetherrack>.firstItem*4, <ore:soulsand>.firstItem*2, <ore:magmacream>.firstItem*2, <ore:blockMagma>.firstItem)
+    .outputs(<contenttweaker:clayinfernal>*10)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNetherrack>.firstItem*4, <ore:soulsand>.firstItem)
+    .outputs(<contenttweaker:claynether>*6)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <ore:dustEnderPearl>.firstItem*2)
+    .outputs(<contenttweaker:claypearl>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <minecraft:sand:1>*2)
+    .outputs(<contenttweaker:clayredsandy>*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:clayball>.firstItem*2, <minecraft:sand:0>*2)
+    .outputs(<contenttweaker:claysandy>*5)
     .duration(200)
     .EUt(8)
     .buildAndRegister();

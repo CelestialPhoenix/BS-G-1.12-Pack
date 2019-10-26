@@ -11,6 +11,18 @@ import mods.contenttweaker.Commands;
 var BlastBrick = VanillaFactory.createItem("blastbrick");
 BlastBrick.register();
 
+var BoneBrick = VanillaFactory.createItem("brickbone");
+BoneBrick.register();
+
+var BloodBrick = VanillaFactory.createItem("brickblood");
+BloodBrick.register();
+
+var BlueBrick = VanillaFactory.createItem("brickblue");
+BlueBrick.register();
+
+var PearlBrick = VanillaFactory.createItem("brickpearl");
+PearlBrick.register();
+
 var SandBrick = VanillaFactory.createItem("bricksandy");
 SandBrick.register();
 

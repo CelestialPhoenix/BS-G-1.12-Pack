@@ -70,6 +70,10 @@ recipes.addShaped(<contenttweaker:propellerwoodenhanced>,[
 
 #---bricks/blast furnace parts---
 #--Bricks--
+furnace.addRecipe(<contenttweaker:brickbone>, <contenttweaker:claybone>);
+furnace.addRecipe(<contenttweaker:brickblood>, <contenttweaker:clayblood>);
+furnace.addRecipe(<contenttweaker:brickblue>, <contenttweaker:clayblue>);
+furnace.addRecipe(<contenttweaker:brickpearl>, <contenttweaker:claypearl>);
 furnace.addRecipe(<contenttweaker:blastbrick>, <contenttweaker:clayinfernal>);
 furnace.addRecipe(<contenttweaker:bricksandy>, <contenttweaker:claysandy>);
 furnace.addRecipe(<contenttweaker:brickredsandy>, <contenttweaker:clayredsandy>);
@@ -81,6 +85,18 @@ furnace.addRecipe(<contenttweaker:casthard>, <contenttweaker:castraw>, 0.0);
 recipes.addShapeless(<contenttweaker:castraw>*4, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:slimeball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]);
 
 #--Clays--
+recipes.addShapeless(<contenttweaker:clayblood>, [<ore:clayball>, <ore:slimeballBlood>]);
+recipes.addShapeless(<contenttweaker:clayblood>*4, [<ore:blockClay>, <ore:slimeballBlood>, <ore:slimeballBlood>, <ore:slimeballBlood>, <ore:slimeballBlood>]);
+
+recipes.addShapeless(<contenttweaker:claybone>, [<ore:clayball>, <ore:dustBone>]);
+recipes.addShapeless(<contenttweaker:claybone>*4, [<ore:clayball>, <ore:dustBone>, <ore:dustBone>, <ore:dustBone>, <ore:dustBone>]);
+
+recipes.addShapeless(<contenttweaker:clayblue>, [<ore:clayball>, <ore:dyeBlue>]);
+recipes.addShapeless(<contenttweaker:clayblue>*4, [<ore:clayball>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]);
+
+recipes.addShapeless(<contenttweaker:claypearl>, [<ore:clayball>, <ore:dustEnderPearl>]);
+recipes.addShapeless(<contenttweaker:claypearl>*4, [<ore:clayball>, <ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>, <ore:dustEnderPearl>]);
+
 recipes.addShapeless(<contenttweaker:claygrout>*2, [<ore:sand>, <ore:gravel>, <ore:clayball>]);
 recipes.addShapeless(<contenttweaker:claygrout>*8, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:blockClay>]);
 recipes.addShapeless(<contenttweaker:claygrout>*4, [<tconstruct:soil:0>]);
@@ -90,10 +106,10 @@ recipes.addShapeless(<contenttweaker:clayinfernal>*8, [<ore:dustNetherrack>, <or
 recipes.addShapeless(<contenttweaker:claynether>*4, [<ore:dustNetherrack>, <ore:dustNetherrack>, <ore:soulSand>, <ore:dustNetherrack>, <ore:dustNetherrack>]);
 
 recipes.addShapeless(<contenttweaker:claysandy>, [<ore:sand>, <ore:clayball>]);
-recipes.addShapeless(<contenttweaker:claysandy>, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:blockClay>]);
+recipes.addShapeless(<contenttweaker:claysandy>*4, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:blockClay>]);
 
 recipes.addShapeless(<contenttweaker:clayredsandy>, [<ore:sandRed>, <ore:gravel>, <ore:clayball>]);
-recipes.addShapeless(<contenttweaker:clayredsandy>, [<ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:blockClay>]);
+recipes.addShapeless(<contenttweaker:clayredsandy>*4, [<ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:blockClay>]);
 
 #--coils--
 #Simple

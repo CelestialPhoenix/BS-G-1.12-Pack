@@ -6,7 +6,6 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Naming---
 <metaitem:circuit.basic>.displayName="Crude Circuit";
 <metaitem:circuit.basic_electronic>.displayName="Simple Circuit";
-<metaitem:circuit.advanced>.displayName="Improved Circuit";
 
 #---Tooltips---
 #--Chemical Formula--
@@ -43,11 +42,13 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Tooltips---
 #-Circuits-
 #<metaitem:circuit.>.addTooltip("Circuit");
+/*
 <metaitem:circuit.basic>.addTooltip("A Basic Circuit");
 <metaitem:circuit.basic_electronic>.addTooltip("A Basic Circuit");
 
 <metaitem:circuit.good>.addTooltip("A Good Circuit");
-<metaitem:circuit.advanced>.addTooltip("A Good Circuit");
+
+<metaitem:circuit.advanced>.addTooltip("An Advanced Circuit");
 
 <metaitem:circuit.processor_assembly>.addTooltip("An Advanced Circuit");
 <metaitem:circuit.nano_processor>.addTooltip("An Advanced Circuit");
@@ -64,7 +65,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 <metaitem:circuit.wetware_assembly>.addTooltip("An Ultimate Circuit");
 <metaitem:circuit.wetware_super_computer>.addTooltip("A Superconductor Circuit");
 <metaitem:circuit.wetware_mainframe>.addTooltip("An Infinite Circuit");
-
+*/
 #-Robot Arms-
 <metaitem:robot.arm.hv>.addShiftTooltip("Roboteers stand by");
 <metaitem:robot.arm.hv>.addShiftTooltip("...3!");
