@@ -33,6 +33,10 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:boat>.add(<biomesoplenty:boat_ebony>);
 <ore:boat>.add(<biomesoplenty:boat_eucalyptus>);
 
+#flesh
+<ore:blockFlesh>.add(<biomesoplenty:flesh>);
+<ore:chunkFlesh>.add(<biomesoplenty:fleshchunk>);
+
 #logs
 <ore:logSacredOak>.add(<biomesoplenty:log_0:4>);
 <ore:logCherry>.add(<biomesoplenty:log_0:5>);
@@ -53,8 +57,9 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:logDead>.add(<biomesoplenty:log_4:5>);
 
 #sandstone
-<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
+<ore:sandWhite>.add(<biomesoplenty:white_sand>);
 
+<ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
 <ore:slabSandstone>.add(<biomesoplenty:other_slab:1>);
 
 #stickwood

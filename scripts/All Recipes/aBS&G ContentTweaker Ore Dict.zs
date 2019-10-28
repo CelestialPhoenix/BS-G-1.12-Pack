@@ -134,6 +134,8 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreSaltpeter>.add(<contenttweaker:oresoulnitre>);
 <ore:oreRedstone>.add(<contenttweaker:oreredstone>);
 
+<ore:oreSoulsandSaltpeter>.add(<contenttweaker:oresoulnitre>);
+
 #Abyssal
 #<ore:ore>.add(<contenttweaker:oreabyssal>);
 <ore:oreLepidolite>.add(<contenttweaker:oreabyssallepidolite>);
@@ -154,6 +156,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #Dirt
 <ore:oreLignite>.add(<contenttweaker:oredirtlignite>);
+<ore:oreDirtLignite>.add(<contenttweaker:oredirtlignite>);
 
 #Dolomite
 #<ore:ore>.add(<contenttweaker:oredolomite>);

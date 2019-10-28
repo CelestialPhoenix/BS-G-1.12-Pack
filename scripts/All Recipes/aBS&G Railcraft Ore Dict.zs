@@ -83,3 +83,11 @@ print("Handles like its on rails");
 <ore:dustCement>.add(<railcraft:concrete>);
 
 <ore:blockGlassLeaded>.add(<railcraft:glass>);
+
+#Stone
+<ore:cobblestoneAbyssal>.add(<railcraft:brick_abyssal:5>);
+<ore:cobblestoneAndesite>.add(<railcraft:brick_andesite:5>);
+<ore:cobblestoneDiorite>.add(<railcraft:brick_diorite:5>);
+<ore:cobblestoneNetherBrick>.add(<railcraft:brick_nether:5>);
+<ore:cobblestonePinkGranite>.add(<railcraft:brick_granite:5>);
+<ore:cobblestoneQuarried>.add(<railcraft:brick_quarried:5>);

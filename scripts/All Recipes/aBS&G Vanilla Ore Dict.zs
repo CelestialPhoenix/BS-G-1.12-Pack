@@ -3,12 +3,9 @@
 
 print("Mwah ha ha ha ha ha");
 
-<ore:hahaDoesNotWork>.add(<minecraft:bucket>);
-<ore:oreFulPunGoesHere>.add(<minecraft:iron_ore>);
-
-
 #ore dict
 #<ore:>.remove(<minecraft:>);
+<ore:stoneCobble>.remove(<minecraft:mossy_cobblestone>);
 <ore:craftingFurnace>.remove(<minecraft:furnace>);
 <ore:sand>.remove(<minecraft:sand>);
 
@@ -33,6 +30,12 @@ print("Mwah ha ha ha ha ha");
 <ore:boat>.add(<minecraft:acacia_boat>);
 <ore:boat>.add(<minecraft:dark_oak_boat>);
 
+<ore:cobblestoneStone>.add(<minecraft:cobblestone>);
+
+<ore:blockNetherbrick>.add(<minecraft:nether_brick>);
+<ore:stairNetherbrick>.add(<minecraft:nether_brick_stairs>);
+<ore:fenceNetherbrick>.add(<minecraft:nether_brick_fence>);
+
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 
@@ -44,6 +47,12 @@ print("Mwah ha ha ha ha ha");
 <ore:sandstone>.remove(<minecraft:sandstone:2>);
 <ore:sandstone>.remove(<minecraft:red_sandstone:1>);
 <ore:sandstone>.remove(<minecraft:red_sandstone:2>);
+
+<ore:sandstoneYellow>.add(<minecraft:sandstone:0>);
+<ore:sandYellow>.add(<minecraft:sand:0>);
+
+<ore:sandstoneRed>.add(<minecraft:red_sandstone:0>);
+<ore:sandRed>.add(<minecraft:sand:1>);
 
 <ore:slabSandstone>.add(<minecraft:stone_slab:1>);
 <ore:slabSandstone>.add(<minecraft:stone_slab2>);

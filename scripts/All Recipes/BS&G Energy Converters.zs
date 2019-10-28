@@ -9,38 +9,38 @@ print("Stop staring at my chest");
 <energyconverters:energy_bridge>.addTooltip("Laser Driver");
 recipes.remove(<energyconverters:energy_bridge>);
 recipes.addShaped(<energyconverters:energy_bridge>, [
-[<ore:casingAluminium>, <ore:circuitGood>, <ore:wirespoolElectrum>],
-[<ore:emitterMV>, <ore:hullMV>, <ore:casingGold>], 
-[<ore:casingAluminium>, <ore:circuitGood>, <ore:wirespoolElectrum>]]);
+[<ore:casingAluminium>, <ore:circuitAdvanced>, <ore:wirespoolElectrum>],
+[<ore:emitterHV>, <ore:hullHV>, <ore:casingGold>], 
+[<ore:casingAluminium>, <ore:circuitAdvanced>, <ore:wirespoolElectrum>]]);
 
 <energyconverters:energy_bridge>.addTooltip("Laser Precharger");
 recipes.remove(<energyconverters:energy_consumer_fe>);
 recipes.addShaped(<energyconverters:energy_consumer_fe>, [
-[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitGood>],
-[<ore:casingGold>, <ore:hullMV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
-[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitGood>]]);
+[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>],
+[<ore:casingGold>, <ore:hullHV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
+[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>]]);
 
 <energyconverters:energy_bridge>.addTooltip("Laser Discharger");
 recipes.remove(<energyconverters:energy_producer_fe>);
 recipes.addShaped(<energyconverters:energy_producer_fe>, [
-[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitGood>],
-[<ore:casingGold>, <ore:hullMV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
-[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitGood>]]);
+[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>],
+[<ore:casingGold>, <ore:hullHV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
+[<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>]]);
 
 <energyconverters:energy_bridge>.addTooltip("Laser Reciever");
 recipes.remove(<energyconverters:energy_consumer_mj>);
 recipes.addShaped(<energyconverters:energy_consumer_mj>, [
-[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>],
-[<ore:sensorMV>, <ore:wirespoolElectrum>, <ore:casingGold>], 
-[<ore:plateAluminium>, <ore:circuitGood>, <ore:plateAluminium>]]);
+[<ore:plateAluminium>, <ore:circuitAdvanced>, <ore:plateAluminium>],
+[<ore:sensorHV>, <ore:hullHV>, <ore:casingGold>], 
+[<ore:plateAluminium>, <ore:circuitAdvanced>, <ore:plateAluminium>]]);
 
 <energyconverters:energy_bridge>.addTooltip("Laser Apature");
 <energyconverters:energy_bridge>.clearTooltip();
 recipes.remove(<energyconverters:energy_producer_mj>);
 recipes.addShaped(<energyconverters:energy_producer_mj>, [
-[<ore:screwChrome>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:screwChrome>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
 [<ore:lensDiamond>, <ore:ringChrome>, <ore:lensDiamond>], 
-[<ore:screwChrome>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+[<ore:screwChrome>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]]);
 
 #-parts not needed-
 recipes.remove(<energyconverters:energy_producer_eu:*>);

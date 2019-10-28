@@ -156,3 +156,6 @@ print("Going Primal. Not unlike going commando");
 <ore:logStackFairDark>.add(<primal:logs_stacked:5>); #Fair #Dark
 <ore:logStackHighDark>.add(<primal:logs_stacked:6>); #High #Dark
 <ore:logStackPoorDark>.add(<primal:logs_stacked:7>); #Poor #Dark
+
+#--Stones--
+<ore:cobblestoneScoria>.add(<primal:scoria_stone:4>);

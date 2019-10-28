@@ -179,6 +179,9 @@ print("O-Natura");
 <ore:logWood>.add(<natura:nether_logs2:14>);
 <ore:logWood>.add(<natura:nether_logs2:15>);
 
+#--Blocks--
+<ore:heatsand>.add(<natura:nether_heat_sand>);
+
 #--Logs--
 <ore:logMaple>.add(<natura:overworld_logs:0>);
 <ore:logSilverbell>.add(<natura:overworld_logs:1>);
