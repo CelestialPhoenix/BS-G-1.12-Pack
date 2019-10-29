@@ -84,6 +84,8 @@ print("Handles like its on rails");
 
 <ore:blockGlassLeaded>.add(<railcraft:glass>);
 
+<ore:gravelObsidian>.add(<railcraft:generic:7>);
+
 #Stone
 <ore:cobblestoneAbyssal>.add(<railcraft:brick_abyssal:5>);
 <ore:cobblestoneAndesite>.add(<railcraft:brick_andesite:5>);

@@ -13,3 +13,12 @@ print("I'm not evil I promise");
 #logs
 <ore:logDarklandOak>.add(<abyssalcraft:dltlog>);
 <ore:logDreadwood>.add(<abyssalcraft:dreadlog>);
+
+#ores
+<ore:oreAbyssalCoralium>.add(<abyssalcraft:abycorore>);
+
+#sand
+<ore:abyssalSand>.add(<abyssalcraft:abyssalsand>);
+
+#stones
+<ore:cobblestoneAbyssal>.add(<abyssalcraft:cobblestone:1>);

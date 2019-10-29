@@ -82,11 +82,57 @@ mods.immersiveengineering.Excavator.addMineral("Infernal Sulphur Deposit", 50, 0
 mods.immersiveengineering.Excavator.addMineral("Infernal Zinc Deposit", 50, 0.0, ["oreSphalerite", "oreGoslarite", "oreSulfur","oreZinc", "crushedSphalerite", "crushedGoslarite", "crushedSulfur", "crushedZinc", "stoneNetherrack"], [0.04, 0.04, 0.04, 0.04, 0.01, 0.01, 0.01, 0.01, 0.8], [-1]);
 
 #Nether Rocks
-mods.immersiveengineering.Excavator.addMineral("Netherrack Quarry", 50, 0.0, ["stoneNetherrack", "blockGlowstone", "dustNetherrack", "dustGlowstone"], [0.8, 0.09, 0.1, 0.01], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Nether Beach", 50, 0.0, ["soulsand", "heatsand", "oreSoulsandSaltpeter", "crushedSaltpeter"], [0.8, 0.1, 0.09, 0.01], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Flesh Pit", 50, 0.0, ["blockFlesh", "chunkFlesh", "slimeballBlood"], [0.75, 0.2, 0.05], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Boneyard", 50, 0.0, ["blockBone", "bone", "dustBone"], [0.75, 0.2, 0.05], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Scoria Quarry", 50, 0.0, ["cobblestoneScoria"], [1.0], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Ash Beds", 50, 0.0, ["blockDarkAsh", "dustDarkAsh"], [0.9, 0.1], [-1]);
-mods.immersiveengineering.Excavator.addMineral("Nether Fortress", 50, 0.0, ["blockNetherbrick", "stairNetherbrick", "fenceNetherbrick", "ingotBrickNether", "soulsand", "rodBlaze", "skullWithered"], [0.5, 0.1, 0.1, 0.2, 0.03, 0.05, 0.01], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Netherrack Quarry", 75, 0.0, ["stoneNetherrack", "blockGlowstone", "dustNetherrack", "dustGlowstone"], [0.8, 0.09, 0.1, 0.01], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Nether Beach", 75, 0.0, ["soulsand", "heatsand", "oreSoulsandSaltpeter", "crushedSaltpeter"], [0.8, 0.1, 0.09, 0.01], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Flesh Pit", 75, 0.0, ["blockFlesh", "chunkFlesh", "slimeballBlood"], [0.65, 0.1, 0.25], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Boneyard", 75, 0.0, ["blockBone", "bone", "dustBone"], [0.75, 0.2, 0.05], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Scoria Quarry", 75, 0.0, ["cobblestoneScoria"], [1.0], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Ash Beds", 75, 0.0, ["blockDarkAsh", "dustDarkAsh"], [0.9, 0.1], [-1]);
+mods.immersiveengineering.Excavator.addMineral("Nether Fortress", 75, 0.0, ["blockNetherbrick", "stairNetherbrick", "fenceNetherbrick", "ingotBrickNether", "soulsand", "rodBlaze", "skullWithered"], [0.5, 0.1, 0.1, 0.2, 0.03, 0.05, 0.01], [-1]);
 
+#Aether Minerals
+mods.immersiveengineering.Excavator.addMineral("Aetheric Bauxite Deposit", 50, 0.0, ["oreHolyBauxite", "oreHolyAluminium", "crushedBauxite", "crushedAluminium", "holystone"], [0.12, 0.3, 0.04, 0.01, 0.8], [3]);
+mods.immersiveengineering.Excavator.addMineral("Aetheric Bismuth Deposit", 50, 0.0, ["oreHolyBerryite", "oreHolyBismuthinite", "crushedBerryite", "crushedBismuthinite", "holystone"], [0.08, 0.07, 0.03, 0.02, 0.8], [3]);
+mods.immersiveengineering.Excavator.addMineral("Aetheric Diamond Geode", 50, 0.0, ["oreBlackgraniteDiamond", "oreRichDiamond", "crushedDiamond", "cobblestoneBlackGranite"], [0.14, 0.02, 0.04, 0.80], [3]);
+
+mods.immersiveengineering.Excavator.addMineral("Aetheric Copper Deposit", 50, 0.0, ["oreHolyTetrahedrite", "oreHolyCopper", "oreHolyStibnite", "crushedTetrahedrite", "crushedCopper", "crushedStibnite", "holystone"], [0.08, 0.02, 0.06, 0.02, 0.005, 0.015, 0.8], [3]);
+
+#Gravitite
+#Arkenium
+#Icestone
+#Zanite
+
+#Aether Rocks (yes it does!)
+mods.immersiveengineering.Excavator.addMineral("Holystone Quarry", 75, 0.0, ["holystone", "blockGlassScatter", "dustHolystone"], [0.8, 0.1, 0.1], [3]);
+mods.immersiveengineering.Excavator.addMineral("Soil Beds", 75, 0.0, ["quicksoil", "dirtAether"], [0.45, 0.55], [3]);
+mods.immersiveengineering.Excavator.addMineral("Ferrosite Beach", 75, 0.0, ["sandFerrosite"], [1.0], [3]);
+#mods.immersiveengineering.Excavator.addMineral("Cloud Decks", 75, 0.0, ["cloudCold", "cloudBlue", "cloudGreen", "cloudGold", "cloudStorm", "cloudPurple"], [0.75, 0.05, 0.05, 0.05, 0.05, 0.05], [3]);
+
+#Abyssal Wasteland
+mods.immersiveengineering.Excavator.addMineral("Abyssal Beryllium Deposit", 5, 0.0, ["oreBasaltEuclase", "oreBasaltBertrandite", "oreBasaltBeryllium", "oreBasaltEmerald", "crushedEuclase", "crushedBertrandite", "crushedBeryllium", "crushedEmerald", "cobblestoneBasalt"], [0.06, 0.055, 0.01, 0.03, 0.015, 0.015, 0.05, 0.01, 0.8], [50]);
+
+mods.immersiveengineering.Excavator.addMineral("Coralium Spikes", 5, 0.0, ["oreAbyssalCoralium", "orePearlescentCoralium", "oreLiquifiedCoralium", "crushedCoralium", "cobblestoneAbyssal"], [0.1, 0.03, 0.04, 0.03, 0.8], [50]);
+
+mods.immersiveengineering.Excavator.addMineral("Abyssal Magnetite Deposit", 5, 0.0, ["oreBasaltMagnetite", "oreBasaltVanadiumMagnetite", "oreIron", "oreGold", "crushedMagnetite", "crushedVanadiumMagnetite", "crushedIron", "crushedGold", "dust"], [0.06, 0.03, 0.03, 0.03, 0.02, 0.01, 0.01, 0.01, 0.8], [50]);
+
+mods.immersiveengineering.Excavator.addMineral("Abyssal Manganese Deposit", 5, 0.0, ["oreAbyssalGarnetRed", "oreAbyssalPyrolusite", "oreAbyssalTantalite", "oreAbyssalSpessertine", "crushedGarnetRed", "crushedPyrolusite", "crushedTandalite", "crushedSpessertine", "cobblestoneAbyssal"], [0.06, 0.045, 0.025, 0.03, 0.02, 0.015, 0.005, 0.01, 0.8], [50]);
+
+mods.immersiveengineering.Excavator.addMineral("Abyssal Salt Flats", 5, 0.0, ["oreAbyssalSalt", "oreAbyssalRockSalt", "oreAbyssalSpodumene", "oreAbyssalLepidolite", "crushedSalt", "crushedRockSalt", "crushedSpodumene", "crushedLepidolite", "cobblestoneAbyssal"], [0.06, 0.06, 0.03, 0.03, 0.01, 0.01, 0.005, 0.005, 0.8], [50]);
+
+#Abyssal Wasteland Rocks
+mods.immersiveengineering.Excavator.addMineral("Abyssal Stone Quarry", 80, 0.0, ["cobblestoneAbyssal", "dustAbyssal"], [0.9, 0.1], [50]);
+mods.immersiveengineering.Excavator.addMineral("Abyssal Sand Quarry", 20, 0.0, ["abyssalSand"], [1.0], [50]);
+
+#Dreadlands Minerals
+#Dreadlands Rocks
+
+#The End Minerals
+#The End Rocks
+mods.immersiveengineering.Excavator.addMineral("Xenolith Quarry", 80, 0.0, ["stoneEndstone", "stoneEndEroded", "dustEndstone"], [0.55, 0.35, 0.1], [1]);
+mods.immersiveengineering.Excavator.addMineral("Obsidian Columns", 80, 0.0, ["stoneObsidan", "gravelObsidian", "dustObsidan"], [0.55, 0.35, 0.1], [1]);
+
+#Omothol Minerals
+#Omothol Rocks
+
+#Darklands Minerals
+#Darklands Rock

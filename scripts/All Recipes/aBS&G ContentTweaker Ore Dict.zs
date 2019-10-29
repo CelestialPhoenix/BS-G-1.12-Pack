@@ -147,6 +147,15 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreSpodumene>.add(<contenttweaker:oreabyssalspodumene>);
 <ore:oreTantalite>.add(<contenttweaker:oreabyssaltantalite>);
 
+<ore:oreAbyssalLepidolite>.add(<contenttweaker:oreabyssallepidolite>);
+<ore:oreAbyssalGarnetRed>.add(<contenttweaker:oreabyssalredgarnet>);
+<ore:oreAbyssalRockSalt>.add(<contenttweaker:oreabyssalrocksalt>);
+<ore:oreAbyssalSalt>.add(<contenttweaker:oreabyssalsalt>);
+<ore:oreAbyssalPyrolusite>.add(<contenttweaker:oreabyssalpyrolusite>);
+<ore:oreAbyssalSpessertine>.add(<contenttweaker:oreabyssalspessertine>);
+<ore:oreAbyssalSpodumene>.add(<contenttweaker:oreabyssalspodumene>);
+<ore:oreAbyssalTantalite>.add(<contenttweaker:oreabyssaltantalite>);
+
 #Basalt
 #<ore:ore>.add(<contenttweaker:orebasalt>);
 <ore:oreCoffinite>.add(<contenttweaker:orebasaltcoffinite>);
@@ -191,6 +200,14 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
 
+<ore:oreHolyAluminium>.add(<contenttweaker:oreholyaluminium>);
+<ore:oreHolyBauxite>.add(<contenttweaker:oreholybauxite>);
+<ore:oreHolyBerryite>.add(<contenttweaker:oreholyberryite>);
+<ore:oreHolyBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
+<ore:oreHolyCopper>.add(<contenttweaker:oreholycopper>);
+<ore:oreHolyStibnite>.add(<contenttweaker:oreholystibnite>);
+<ore:oreHolyTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
+
 #Naquarric Darkstone
 <ore:oreNaquadite>.add(<contenttweaker:orenaquarricdarkstonenaquadite>);
 <ore:oreNaquarrite>.add(<contenttweaker:orenaquarricdarkstonenaquarrite>);
@@ -224,6 +241,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreUraninite>.add(<contenttweaker:oreomotholuraninite>);
 <ore:oreXenotine>.add(<contenttweaker:oreomotholxenotime>);
 <ore:oreZircon>.add(<contenttweaker:oreomotholzircon>);
+
 #Basalt
 <ore:oreChromite>.add(<contenttweaker:oreomotholbasaltchromite>);
 <ore:oreUvarovite>.add(<contenttweaker:oreomotholbasaltuvarovite>);

@@ -6,6 +6,15 @@ print("Adrift in the skies");
 #Ore Dict
 #<ore:>.add();
 
+#clouds
+<ore:cloudCold>.add(<aether:aercloud:0>);
+<ore:cloudBlue>.add(<aether:aercloud:1>);
+<ore:cloudGreen>.add(<aether:aercloud:2>);
+<ore:cloudGold>.add(<aether:aercloud:3>);
+<ore:cloudStorm>.add(<aether:aercloud:4>);
+<ore:cloudPurple>.add(<aether:aercloud:5>);
+
+#blocks
 <ore:stoneAny>.add(<aether:holystone:*>);
 <ore:stoneAny>.add(<aether:holystone_brick_decorative:3>);
 
@@ -26,3 +35,9 @@ print("Adrift in the skies");
 <ore:treeSapling>.add(<aether:skyroot_sapling:1>);
 <ore:treeSapling>.add(<aether:skyroot_sapling:2>);
 <ore:treeSapling>.add(<aether:skyroot_sapling>);
+
+<ore:blockGlassScatter>.add(<aether:crude_scatterglass>);
+<ore:quicksoil>.add(<aether:quicksoil>);
+<ore:dirtAether>.add(<aether:aether_dirt>);
+
+<ore:sandFerrosite>.add(<aether:ferrosite_sand>);
