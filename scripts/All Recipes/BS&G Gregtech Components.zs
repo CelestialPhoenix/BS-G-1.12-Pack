@@ -232,7 +232,21 @@ recipes.addShaped(<gregtech:wire_coil:7>, [
 #Fusion Coil
 #no recipe at time of writing
 
+#--Conveyor--
+recipes.remove(<metaitem:conveyor.module.iv>);
+recipes.addShaped(<metaitem:conveyor.module.iv>, [
+[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>], 
+[<metaitem:electric.motor.iv>, <ore:cableGtSinglePlatinum>, <metaitem:electric.motor.iv>], 
+[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
+
 #--Motors--
+#MV
+recipes.remove(<metaitem:electric.motor.hv>);
+recipes.addShaped(<metaitem:electric.motor.hv>, [
+[<ore:cableGtSingleCopper>, <ore:wireGtDoubleAnnealedCopper>, <ore:stickAluminium>], 
+[<ore:wireGtDoubleAnnealedCopper>, <ore:stickSteelMagnetic>, <ore:wireGtDoubleAnnealedCopper>], 
+[<ore:stickAluminium>, <ore:wireGtDoubleAnnealedCopper>, <ore:cableGtSingleCopper>]]);
+
 #HV
 recipes.remove(<metaitem:electric.motor.hv>);
 recipes.addShaped(<metaitem:electric.motor.hv>, [
@@ -240,13 +254,33 @@ recipes.addShaped(<metaitem:electric.motor.hv>, [
 [<ore:wireGtQuadrupleCopper>, <ore:stickCobaltMagnetic>, <ore:wireGtQuadrupleCopper>], 
 [<ore:stickStainlessSteel>, <ore:wireGtQuadrupleCopper>, <ore:cableGtSingleGold>]]);
 
+#IV
+recipes.remove(<metaitem:electric.motor.iv>);
+recipes.addShaped(<metaitem:electric.motor.iv>, [
+[<ore:cableGtSinglePlatinum>, <ore:wireGtHexCopper>, <ore:stickTungstenSteel>], 
+[<ore:wireGtHexCopper>, <ore:stickLongNeodymiumMagnetic>, <ore:wireGtHexCopper>], 
+[<ore:stickTungstenSteel>, <ore:wireGtHexCopper>, <ore:cableGtSinglePlatinum>]]);
+
+#--Piston--
+recipes.remove(<metaitem:electric.piston.iv>);
+recipes.addShaped(<metaitem:electric.piston.iv>, [
+[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>], 
+[<ore:cableGtSinglePlatinum>, <ore:stickTungstenSteel>, <ore:stickTungstenSteel>], 
+[<ore:cableGtSinglePlatinum>, <metaitem:electric.motor.iv>, <ore:gearSmallTungstenSteel>]]);
+
 #--Pumps--
 #LV
 recipes.remove(<metaitem:electric.pump.lv>);
 recipes.addShaped(<metaitem:electric.pump.lv>, [
 [<ore:screwTin>, <ore:rotorTin>, <ore:ringPaper>], 
 [null, <ore:pipeSmallBronze>, null], 
-[<ore:screwTin>, <ore:motorLV>, <ore:cableGtSingleTin>]]);
+[<ore:ringPaper>, <ore:motorLV>, <ore:cableGtSingleTin>]]);
+
+recipes.addShaped(<metaitem:electric.pump.lv>, [
+[<ore:screwTin>, <ore:rotorTin>, <ore:ringRubber>], 
+[null, <ore:pipeSmallBronze>, null], 
+[<ore:ringRubber>, <ore:motorLV>, <ore:cableGtSingleTin>]]);
+
 #MV
 recipes.remove(<metaitem:electric.pump.mv>);
 recipes.addShaped(<metaitem:electric.pump.mv>, [
@@ -270,7 +304,7 @@ recipes.remove(<metaitem:electric.pump.iv>);
 recipes.addShaped(<metaitem:electric.pump.iv>, [
 [<ore:screwTitanium>, <ore:rotorTitanium>, <ore:ringRubber>], 
 [null, <ore:pipeSmallTungstenSteel, null], 
-[<ore:ringRubber>, <ore:motorIV>, <ore:cableGtSingleTungsten>]]);
+[<ore:ringRubber>, <ore:motorIV>, <ore:cableGtSinglePlatinum>]]);
 
 #---Shape Plate---
 recipes.remove(<metaitem:shape.empty>);
