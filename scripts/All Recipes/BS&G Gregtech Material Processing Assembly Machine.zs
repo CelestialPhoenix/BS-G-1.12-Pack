@@ -387,8 +387,8 @@ theassembler
     .inputs(<ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*2, <ore:stickSteel>*2, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.motor.lv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -396,8 +396,8 @@ theassembler
     .inputs(<ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*2, <ore:stickIron>*2, <ore:stickIronMagnetic>*1)
     .outputs(<metaitem:electric.motor.lv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #MV
@@ -406,8 +406,8 @@ theassembler
     .inputs(<ore:wireGtSingleCopper>*8, <ore:cableGtSingleCopper>*2, <ore:stickAluminium>*2, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.motor.mv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -415,8 +415,8 @@ theassembler
     .inputs(<ore:wireGtSingleAnnealedCopper>*8, <ore:cableGtSingleCopper>*2, <ore:stickAluminium>*2, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.motor.mv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #HV
@@ -425,8 +425,8 @@ theassembler
     .inputs(<ore:wireGtSingleAnnealedCopper>*16, <ore:cableGtSingleGold>*2, <ore:stickStainlessSteel>*2, <ore:stickCobaltMagnetic>*1)
     .outputs(<metaitem:electric.motor.hv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #EV
@@ -435,8 +435,8 @@ theassembler
     .inputs(<ore:wireGtSingleAnnealedCopper>*32, <ore:cableGtSingleAluminium>*2, <ore:stickTitanium>*2, <ore:stickNeodymiumMagnetic>*1)
     .outputs(<metaitem:electric.motor.ev>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #IV
@@ -445,8 +445,8 @@ theassembler
     .inputs(<ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSinglePlatinum>*2, <ore:stickTungstenSteel>*2, <ore:stickLongNeodymiumMagnetic>*1)
     .outputs(<metaitem:electric.motor.iv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #-Conveyors-
@@ -456,8 +456,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleCopper>*8, <ore:cableGtSingleTin>*5, <ore:stickIron>*4, <ore:stickIronMagnetic>*2)
     .outputs(<metaitem:conveyor.module.lv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -465,8 +465,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleCopper>*8, <ore:cableGtSingleTin>*5, <ore:stickSteel>*4, <ore:stickSteelMagnetic>*2)
     .outputs(<metaitem:conveyor.module.lv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -474,8 +474,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <metaitem:electric.motor.lv>*2, <ore:cableGtSingleTin>*1)
     .outputs(<metaitem:conveyor.module.lv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #MV
@@ -484,8 +484,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleCopper>*16, <ore:cableGtSingleCopper>*5, <ore:stickAluminium>*4, <ore:stickSteelMagnetic>*2)
     .outputs(<metaitem:conveyor.module.mv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -493,8 +493,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleAnnealedCopper>*16, <ore:cableGtSingleCopper>*5, <ore:stickAluminium>*4, <ore:stickSteelMagnetic>*2)
     .outputs(<metaitem:conveyor.module.mv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -502,8 +502,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <metaitem:electric.motor.mv>*2, <ore:cableGtSingleCopper>*1)
     .outputs(<metaitem:conveyor.module.mv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #HV
@@ -512,8 +512,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleAnnealedCopper>*32, <ore:cableGtSingleGold>*5, <ore:stickStainlessSteel>*4, <ore:stickCobaltMagnetic>*2)
     .outputs(<metaitem:conveyor.module.hv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -521,8 +521,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <metaitem:electric.motor.hv>*2, <ore:cableGtSingleGold>*1)
     .outputs(<metaitem:conveyor.module.hv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #EV
@@ -531,8 +531,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSingleAluminium>*5, <ore:stickTitanium>*4, <ore:stickNeodymiumMagnetic>*2)
     .outputs(<metaitem:conveyor.module.ev>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -540,8 +540,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <metaitem:electric.motor.ev>*2, <ore:cableGtSingleAluminium>*1)
     .outputs(<metaitem:conveyor.module.ev>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #IV
@@ -550,8 +550,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <ore:wireGtSingleAnnealedCopper>*64, <ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSinglePlatinum>*5, <ore:stickTungstenSteel>*4, <ore:stickLongNeodymiumMagnetic>*2)
     .outputs(<metaitem:conveyor.module.iv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -559,8 +559,8 @@ theassembler
     .inputs(<ore:plateRubber>*6, <metaitem:electric.motor.iv>*2, <ore:cableGtSinglePlatinum>*1)
     .outputs(<metaitem:conveyor.module.iv>)
 	.property("circuit", 2)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #-Electric Pistons-
@@ -570,8 +570,8 @@ theassembler
     .inputs(<ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*4, <ore:stickSteel>*4, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.piston.lv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -579,8 +579,8 @@ theassembler
     .inputs(<ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*2, <ore:stickIron>*2, <ore:stickSteel>*2, <ore:stickIronMagnetic>*1)
     .outputs(<metaitem:electric.piston.lv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -588,8 +588,8 @@ theassembler
     .inputs(<ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:stickSteel>*2, <ore:cableGtSingleTin>*2, <metaitem:electric.motor.lv>*1)
     .outputs(<metaitem:electric.piston.lv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #MV
@@ -598,8 +598,8 @@ theassembler
     .inputs(<ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:wireGtSingleCopper>*8, <ore:cableGtSingleCopper>*4, <ore:stickAluminium>*4, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.piston.mv>)
 	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -607,8 +607,8 @@ theassembler
     .inputs(<ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:wireGtSingleAnnealedCopper>*8, <ore:cableGtSingleCopper>*4, <ore:stickAluminium>*4, <ore:stickSteelMagnetic>*1)
     .outputs(<metaitem:electric.piston.mv>)
 	.property("circuit",3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -616,8 +616,8 @@ theassembler
     .inputs(<ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:stickAluminium>*2, <ore:cableGtSingleCopper>*2, <metaitem:electric.motor.mv>*1)
     .outputs(<metaitem:electric.piston.mv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #HV
@@ -626,8 +626,8 @@ theassembler
     .inputs(<ore:plateStainlessSteel>*3, <ore:gearSmallStainlessSteel>*1, <ore:wireGtSingleAnnealedCopper>*16, <ore:cableGtSingleGold>*4, <ore:stickStainlessSteel>*4, <ore:stickCobaltMagnetic>*1)
     .outputs(<metaitem:electric.piston.hv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -635,8 +635,8 @@ theassembler
     .inputs(<ore:plateStainlessSteel>*3, <ore:gearSmallStainlessSteel>*1, <ore:stickStainlessSteel>*2, <ore:cableGtSingleGold>*2, <metaitem:electric.motor.hv>*1)
     .outputs(<metaitem:electric.piston.hv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #EV
@@ -645,8 +645,8 @@ theassembler
     .inputs(<ore:plateTitanium>*3, <ore:gearSmallTitanium>*1, <ore:wireGtSingleAnnealedCopper>*32, <ore:cableGtSingleAluminium>*4, <ore:stickTitanium>*4, <ore:stickNeodymiumMagnetic>*1)
     .outputs(<metaitem:electric.piston.ev>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -654,18 +654,18 @@ theassembler
     .inputs(<ore:plateTitanium>*3, <ore:gearSmallTitanium>*1, <ore:stickTitanium>*2, <ore:cableGtSingleAluminium>*2, <metaitem:electric.motor.ev>*1)
     .outputs(<metaitem:electric.piston.ev>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #IV
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateTungstenSteel>*3, <ore:gearSmallTungstenSteel>*1, <ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSinglePlatinum>*4, <ore:stickTungstenSteel>*4, <ore:stickLongNeodymiumMagnetic>*1)
-    .outputs(<metaitem:electric.motor.iv>)
-	.property("circuit", 1)
-    .duration(200)
-    .EUt(8)
+    .outputs(<metaitem:electric.piston.iv>)
+	.property("circuit", 3)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 theassembler
@@ -673,8 +673,8 @@ theassembler
     .inputs(<ore:plateTungstenSteel>*3, <ore:gearSmallTungstenSteel>*1, <ore:stickTungstenSteel>*2, <ore:cableGtSinglePlatinum>*2, <metaitem:electric.motor.iv>*1)
     .outputs(<metaitem:electric.piston.iv>)
 	.property("circuit", 3)
-    .duration(200)
-    .EUt(8)
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
 
 #--Hardmode Redstone Recipes--
