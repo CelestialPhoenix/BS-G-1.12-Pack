@@ -73,6 +73,12 @@ tile.contenttweaker.oredarkstoneskaergaardites.name=[S]-Skaergaardite
 tile.contenttweaker.oredarkstoneuytenbogaardtite.name=Uytenbogaardite
 tile.contenttweaker.oredarkstonexanthoconite.name=Xanthoconite
 
+tile.contenttweaker.oredarkstonenaquadite.name=Naquadite
+tile.contenttweaker.oredarkstonenaqulinite.name=Naqulinite
+tile.contenttweaker.oredarkstonenaquarrite.name=Naquarrite
+tile.contenttweaker.oredarkstonexifengite.name=Xifengite
+tile.contenttweaker.oredarkstonexilingolite.name=Xilingolite
+
 tile.contenttweaker.oredreadedobsidianaluminium.name=Aluminium Ore
 tile.contenttweaker.oredreadedobsidianbauxite.name=Bauxite
 tile.contenttweaker.oredreadedobsidianilmenite.name=Ilmenite
@@ -137,7 +143,7 @@ tile.contenttweaker.oreomotholzircon.name=Zircon
 
 tile.contenttweaker.oreomotholbasaltchromite.name=Chromite
 tile.contenttweaker.oreomotholbasaltuvarovite.name=Uvarovite
-tile.contenttweaker.oreomotholbasaltyellowgarnet.name=OYellow Garnet
+tile.contenttweaker.oreomotholbasaltyellowgarnet.name=Yellow Garnet
 
 tile.contenttweaker.oreomotholmarblebornite.name=Bornite
 tile.contenttweaker.oreomotholmarblebowieite.name=Bowieite
@@ -145,12 +151,6 @@ tile.contenttweaker.oreomotholmarblechalcocite.name=Chalcocite
 tile.contenttweaker.oreomotholmarblecooperite.name=Cooperite
 tile.contenttweaker.oreomotholmarblepentlandite.name=Pentlandite
 tile.contenttweaker.oreomotholmarblesheldonite.name=Sheldonite
-
-tile.contenttweaker.orenaquarricdarkstonenaquadite.name=Naquadite
-tile.contenttweaker.orenaquarricdarkstonenaqulinite.name=Naqulinite
-tile.contenttweaker.orenaquarricdarkstonenaquarrite.name=Naquarrite
-tile.contenttweaker.orenaquarricdarkstonexifengite.name=Xifengite
-tile.contenttweaker.orenaquarricdarkstonexilingolite.name=Xilingolite
 
 tile.contenttweaker.oregravelpoorcopper.name=Copper Ore
 tile.contenttweaker.oreblackgranitepoordiamond.name=Diamond Ore
@@ -174,7 +174,7 @@ tile.contenttweaker.lodestone.name=Lodestone
 tile.contenttweaker.marble.name=Marble
 tile.contenttweaker.omotholbasalt.name=Omothol Basalt
 tile.contenttweaker.omotholmarble.name=Omothol Marble
-tile.contenttweaker.naquarricdarkstone.name=Naquarric Darkstone
+tile.contenttweaker.darkstone.name=Darkstone
 
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
@@ -310,8 +310,12 @@ item.contenttweaker.blastbrick.name=Infernal Brick
 item.contenttweaker.boardcrude.name= Crude Circuit Board
 item.contenttweaker.boardsimple.name= Simple Circuit Board
 
+item.contenttweaker.brickbone.name=Bone Brick
+item.contenttweaker.brickblood.name=Blood Brick
+item.contenttweaker.brickblue.name=Blue Stained Brick
+item.contenttweaker.brickpearl.name=Pearlized Brick
 item.contenttweaker.bricksandy.name=Sandy Brick
-item.contenttweaker.brickredsandy.name= Red Sandy Brick
+item.contenttweaker.brickredsandy.name=Red Sandy Brick
 
 item.contenttweaker.itemcasingaluminium.name=Aluminium Item Casing
 item.contenttweaker.itemcasingchrome.name=Chrome Item Casing
@@ -319,11 +323,15 @@ item.contenttweaker.itemcasingiridium.name=Iridium Item Casing
 
 item.contenttweaker.circuitgood.name=Good Circuit
 
-item.contenttweaker.claygrout.name=Grout
-item.contenttweaker.clayinfernal.name=Infernal Clay
-item.contenttweaker.claynether.name=Nether Clay
-item.contenttweaker.claysandy.name=Sandy Clay
-item.contenttweaker.clayredsandy.name=Red Sandy Clay
+item.contenttweaker.claybone.name=Bone Clay Ball
+item.contenttweaker.clayblood.name=Bloodied Clay Ball
+item.contenttweaker.clayblue.name=Blue Stained Clay Ball
+item.contenttweaker.claypearl.name=Pearl Clay Ball
+item.contenttweaker.claygrout.name=Grout Ball
+item.contenttweaker.clayinfernal.name=Infernal Clay Ball
+item.contenttweaker.claynether.name=Nether Clay Ball
+item.contenttweaker.claysandy.name=Sandy Clay Ball
+item.contenttweaker.clayredsandy.name=Red Sandy Clay Ball
 
 item.contenttweaker.clusteraluminium.name=Native Aluminium Cluster
 item.contenttweaker.clusterantimony.name=Native Antimony Cluster

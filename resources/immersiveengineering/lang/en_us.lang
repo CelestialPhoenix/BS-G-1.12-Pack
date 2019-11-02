@@ -1,0 +1,16 @@
+//coord removal
+desc.immersiveengineering.info.attachedTo=Linking
+desc.immersiveengineering.info.attachedToDim=Linking from  Dimension %4$s
+
+//core samples - fix wierdness in tooltip
+chat.immersiveengineering.info.coresample.mineral=%1$s
+chat.immersiveengineering.info.coresample.yield=Expected Yield: %1$s Resources
+
+chat.immersiveengineering.info.coreDrill.result.mineral=?7Core Sample evaluated, %1$s?7 found
+chat.immersiveengineering.info.coreDrill.result.depl=?7 at %1$s?7 integrity
+
+//core samples/minerals in the manual
+ie.manual.entry.minerals3=%1$s<br>which consists of %2$s.
+ie.manual.entry.mineralsDimValid=%1$s is a resource that can be found in %2$s
+ie.manual.entry.mineralsDimInvalid=%1$s is a resource that can be found anywhere but in %2$s
+ie.manual.entry.mineralsDimAny=%1$s is a resource that can be found in any Dimension

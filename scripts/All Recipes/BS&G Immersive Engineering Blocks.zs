@@ -41,7 +41,16 @@ recipes.addShaped(<immersiveengineering:metal_device1>, [
 [<ore:motorLV>, <ore:rotorSteel>, <ore:elementCupronickel>], 
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-#---coking oven bricks---
+#---Capacitors--- 
+<immersiveengineering:metal_device0>.displayName=("LV terminal block");
+<immersiveengineering:metal_device0>.addTooltip("Useful for connecting Rf conduits");
+recipes.removeShaped(<immersiveengineering:metal_device0>);
+recipes.addShaped(<immersiveengineering:metal_device0>, [
+[<ore:plankTreatedWood>, <ore:stickCopper>, <ore:plankTreatedWood>],
+[<ore:stickCopper>, <ore:plankTreatedWood>, <ore:stickCopper>], 
+[<ore:plankTreatedWood>, <ore:stickCopper>, <ore:plankTreatedWood>]]);
+
+#---Coking oven bricks---
 recipes.removeShaped(<immersiveengineering:stone_decoration:0>);
 recipes.addShaped(<immersiveengineering:stone_decoration:0>*4, [
 [<railcraft:brick_sandy:*>, null, <railcraft:brick_sandy:*>],
@@ -195,6 +204,13 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:5>*2, [
 [<ore:stickTreatedWood>, <ore:wireFineSteel>, <ore:stickTreatedWood>],
 [<ore:wireFineSteel>, <ore:stickTreatedWood>, <ore:wireFineSteel>], 
 [<ore:stickTreatedWood>, <ore:wireFineSteel>, <ore:stickTreatedWood>]]);
+
+#---Sample Drill--
+recipes.remove(<immersiveengineering:metal_device1:7>);
+recipes.addShaped(<immersiveengineering:metal_device1:7>, [
+[<ore:scaffoldingAluminium>, <ore:motorHV>, <ore:scaffoldingAluminium>],
+[<ore:scaffoldingAluminium>, <ore:stickLongSteel>, <ore:scaffoldingAluminium>], 
+[<immersiveengineering:metal_decoration0:5>, <ore:toolHeadDrillDiamond>, <immersiveengineering:metal_decoration0:5>]]);
 
 #---Scaffolding---
 

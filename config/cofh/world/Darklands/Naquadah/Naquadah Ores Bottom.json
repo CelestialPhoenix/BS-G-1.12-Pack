@@ -11,18 +11,18 @@
                "weight":10,
                "block":[  
                   {  
-                     "name":"contenttweaker:orenaquarricdarkstonexifengite",
+                     "name":"contenttweaker:oredarkstonexifengite",
                      "metadata":0,
                      "weight":25
                   },
                   {  
-                     "name":"contenttweaker:naquarricdarkstone",
+                     "name":"contenttweaker:darkstone",
                      "metadata":0,
                      "weight":100
                   }
                ],
                "material":[  
-                  "contenttweaker:naquarricdarkstone"
+                  "contenttweaker:darkstone"
                ],
                "cluster-size":24
             },
@@ -31,23 +31,23 @@
                "weight":20,
                "block":[  
                   {  
-                     "name":"contenttweaker:orenaquarricdarkstonexilingolite",
+                     "name":"contenttweaker:oredarkstonexilingolite",
                      "metadata":0,
                      "weight":35
                   },
                   {  
-                     "name":"contenttweaker:orenaquarricdarkstonenaqulinite",
+                     "name":"contenttweaker:oredarkstonenaqulinite",
                      "metadata":0,
                      "weight":35
                   },
                   {  
-                     "name":"contenttweaker:naquarricdarkstone",
+                     "name":"contenttweaker:darkstone",
                      "metadata":0,
                      "weight":180
                   }
                ],
                "material":[  
-                  "contenttweaker:naquarricdarkstone"
+                  "contenttweaker:darkstone"
                ],
                "radius":6,
                "height":0,

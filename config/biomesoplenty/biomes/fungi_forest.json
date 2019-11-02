@@ -37,7 +37,7 @@
       "minHeight": 5,
       "maxHeight": 8,
       "amountPerChunk": 2.0,
-      "enable": true
+      "enable": false
     },
     "glowshroom": {
       "with": {
@@ -63,7 +63,7 @@
       "minHeight": 5,
       "maxHeight": 10,
       "amountPerChunk": 30.0,
-      "enable": true
+      "enable": false
     },
     "red_mushrooms": {
       "with": {
@@ -98,6 +98,6 @@
     }
   },
   "weights": {
-    "hell": 5
+    "hell": 0
   }
 }

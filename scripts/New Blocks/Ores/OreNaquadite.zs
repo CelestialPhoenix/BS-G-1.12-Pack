@@ -6,11 +6,11 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var OreNaquarricDarkstoneNaquadite = VanillaFactory.createBlock("orenaquarricdarkstonenaquadite", <blockmaterial:rock>);
-OreNaquarricDarkstoneNaquadite.setBlockHardness(3.0);
-OreNaquarricDarkstoneNaquadite.setBlockResistance(15.0);
-OreNaquarricDarkstoneNaquadite.setToolClass("pickaxe");
-OreNaquarricDarkstoneNaquadite.setToolLevel(6);
-OreNaquarricDarkstoneNaquadite.setBlockSoundType(<soundtype:stone>);
-OreNaquarricDarkstoneNaquadite.setSlipperiness(0.6);
-OreNaquarricDarkstoneNaquadite.register();
+var OreDarkstoneNaquadite = VanillaFactory.createBlock("oredarkstonenaquadite", <blockmaterial:rock>);
+OreDarkstoneNaquadite.setBlockHardness(3.0);
+OreDarkstoneNaquadite.setBlockResistance(15.0);
+OreDarkstoneNaquadite.setToolClass("pickaxe");
+OreDarkstoneNaquadite.setToolLevel(6);
+OreDarkstoneNaquadite.setBlockSoundType(<soundtype:stone>);
+OreDarkstoneNaquadite.setSlipperiness(0.6);
+OreDarkstoneNaquadite.register();

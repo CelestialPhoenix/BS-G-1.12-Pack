@@ -86,8 +86,13 @@ print("Handles like its on rails");
 
 <ore:gravelObsidian>.add(<railcraft:generic:7>);
 
+#Ores
+<ore:oreAbyssalRCDiamond>.add(<railcraft:ore:2>);
+<ore:oreAbyssalRCEmerald>.add(<railcraft:ore:3>);
+<ore:oreAbyssalRCLapis>.add(<railcraft:ore:4>);
+
 #Stone
-<ore:cobblestoneAbyssal>.add(<railcraft:brick_abyssal:5>);
+<ore:cobblestoneRCAbyssal>.add(<railcraft:brick_abyssal:5>);
 <ore:cobblestoneAndesite>.add(<railcraft:brick_andesite:5>);
 <ore:cobblestoneDiorite>.add(<railcraft:brick_diorite:5>);
 <ore:cobblestoneNetherBrick>.add(<railcraft:brick_nether:5>);

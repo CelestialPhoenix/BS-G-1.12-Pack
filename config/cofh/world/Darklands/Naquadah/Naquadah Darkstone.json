@@ -8,12 +8,12 @@
             "type":"spike",
             "block":[  
                {  
-                  "name":"contenttweaker:naquarricdarkstone",
+                  "name":"contenttweaker:darkstone",
                   "metadata":0,
                   "weight":100
                },
                {  
-                  "name":"contenttweaker:orenaquarricdarkstonenaquadite",
+                  "name":"contenttweaker:oredarkstonenaquadite",
                   "metadata":0,
                   "weight":1
                }

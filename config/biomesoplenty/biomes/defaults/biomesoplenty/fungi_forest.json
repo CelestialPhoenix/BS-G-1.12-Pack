@@ -40,9 +40,6 @@
       "layerSize": 3
     },
     "big_brown_mushroom": {
-      "minHeight": 5,
-      "maxHeight": 8,
-      "amountPerChunk": 2.0,
       "enable": true
     },
     "glowshroom": {
@@ -66,9 +63,6 @@
       "enable": true
     },
     "big_red_mushroom": {
-      "minHeight": 5,
-      "maxHeight": 10,
-      "amountPerChunk": 30.0,
       "enable": true
     },
     "red_mushrooms": {

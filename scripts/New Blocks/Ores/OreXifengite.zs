@@ -6,11 +6,11 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var OreNaquarricDarkstoneXifengite = VanillaFactory.createBlock("orenaquarricdarkstonexifengite", <blockmaterial:rock>);
-OreNaquarricDarkstoneXifengite.setBlockHardness(3.0);
-OreNaquarricDarkstoneXifengite.setBlockResistance(15.0);
-OreNaquarricDarkstoneXifengite.setToolClass("pickaxe");
-OreNaquarricDarkstoneXifengite.setToolLevel(5);
-OreNaquarricDarkstoneXifengite.setBlockSoundType(<soundtype:stone>);
-OreNaquarricDarkstoneXifengite.setSlipperiness(0.6);
-OreNaquarricDarkstoneXifengite.register();
+var OreDarkstoneXifengite = VanillaFactory.createBlock("oredarkstonexifengite", <blockmaterial:rock>);
+OreDarkstoneXifengite.setBlockHardness(3.0);
+OreDarkstoneXifengite.setBlockResistance(15.0);
+OreDarkstoneXifengite.setToolClass("pickaxe");
+OreDarkstoneXifengite.setToolLevel(5);
+OreDarkstoneXifengite.setBlockSoundType(<soundtype:stone>);
+OreDarkstoneXifengite.setSlipperiness(0.6);
+OreDarkstoneXifengite.register();
