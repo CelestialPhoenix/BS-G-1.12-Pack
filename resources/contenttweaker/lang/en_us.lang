@@ -504,6 +504,8 @@ item.contenttweaker.ingottungstencarbide.name=Tungstencarbide Ingot
 item.contenttweaker.ingottungstensteel.name=Tungstensteel Ingot
 item.contenttweaker.ingotzinc.name=Zinc Ingot
 
+item.contenttweaker.manualdistillationtower.name=Distillation Tower Manual
+item.contenttweaker.manualexcavator.name=Excavator Manual
 item.contenttweaker.manualmetalpress.name=Metal Press Manual
 
 item.contenttweaker.mechcompaluminium.name=Aluminium Mechanical Component

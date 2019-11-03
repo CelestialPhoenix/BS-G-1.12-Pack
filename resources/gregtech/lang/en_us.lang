@@ -120,9 +120,10 @@ material.sulfur=Sulphur
 material.uranium=Uranium
 material.tungstate=(Li)-Tungstate
 
-//---Renamed Gtech Ores---
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
+
+//---Renamed Gtech Ores---
 
 //---Renamed Gtech Items---
 item.coal.gemExquisite=Huge Lump of Coal
@@ -139,3 +140,28 @@ item.lignite.gemExquisite=Huge Lump of Lignite Coal
 item.lignite.gemFlawless=Large Lump of Lignite Coal
 item.lignite.gemFlawed=Small Lump of Lignite Coal
 item.lignite.gemChipped=Tiny Lump of Lignite Coal
+
+//---Renamed Gtech Machines---
+//Compressor
+gregtech.machine.compressor.ev.name=Advanced Compressor III
+
+//Distil tower
+gregtech.machine.distillation_tower.name=Refinery Tower
+gregtech.machine.distillation_tower.tooltip=Precision Distillation
+gregtech.multiblock.distillation_tower.description=The Refinery Tower is a multiblock structure used for distilling the various types of Oil, their byproducts and some other fluids.
+recipemap.distillation_tower.name=Refinery Tower
+achievement.oilplant.desc=Start up a Refinery Tower
+
+//Electrolyzer
+gregtech.machine.electrolyzer.ev.name=Advanced Electrolyzer III
+
+//Extractor
+gregtech.machine.extractor.ev.name=Advanced Extractor III
+
+//Macerator
+gregtech.machine.macerator.lv.tooltip=Crushing your ores
+gregtech.machine.macerator.mv.tooltip=Crushing your ores
+gregtech.machine.macerator.hv.name=Universal Macerator
+gregtech.machine.macerator.hv.tooltip=Crushing your ores ...with byproducts!
+gregtech.machine.macerator.ev.name=Universal Macerator II
+gregtech.machine.macerator.ev.tooltip=Crushing your ores ...with byproducts!
