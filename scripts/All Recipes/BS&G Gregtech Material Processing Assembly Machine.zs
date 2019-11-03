@@ -677,6 +677,504 @@ theassembler
     .EUt(4)
     .buildAndRegister();
 
+#--Pump--
+#LV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorTin>*1, <ore:screwSteel>*1, <ore:pipeSmallBronze>*1, <ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*3, <ore:stickSteel>*2, <ore:stickSteelMagnetic>*1)
+    .outputs(<metaitem:electric.pump.lv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorTin>*1, <ore:screwSteel>*1, <ore:pipeSmallBronze>*1, <ore:wireGtSingleCopper>*4, <ore:cableGtSingleTin>*3, <ore:stickIron>*2, <ore:stickIronMagnetic>*1)
+    .outputs(<metaitem:electric.pump.lv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorTin>*1, <ore:screwSteel>*1, <ore:pipeSmallBronze>*1, <ore:cableGtSingleTin>*1, <metaitem:electric.motor.lv>*1)
+    .outputs(<metaitem:electric.pump.lv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#MV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorBronze>*1, <ore:screwAluminium>*1, <ore:pipeSmallSteel>*1, <ore:wireGtSingleCopper>*8, <ore:cableGtSingleCopper>*3, <ore:stickAluminium>*2, <ore:stickSteelMagnetic>*1)
+    .outputs(<metaitem:electric.pump.mv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorBronze>*1, <ore:screwAluminium>*1, <ore:pipeSmallSteel>*1, <ore:wireGtSingleAnnealedCopper>*8, <ore:cableGtSingleCopper>*3, <ore:stickAluminium>*2, <ore:stickSteelMagnetic>*1)
+    .outputs(<metaitem:electric.pump.mv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorBronze>*1, <ore:screwAluminium>*1, <ore:pipeSmallSteel>*1, <ore:cableGtSingleCopper>*1, <metaitem:electric.motor.mv>*1)
+    .outputs(<metaitem:electric.pump.mv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#HV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorSteel>*1, <ore:screwStainlessSteel>*1, <ore:pipeSmallStainlessSteel>*1, <ore:wireGtSingleAnnealedCopper>*16, <ore:cableGtSingleGold>*3, <ore:stickStainlessSteel>*2, <ore:stickCobaltMagnetic>*1)
+    .outputs(<metaitem:electric.pump.hv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorSteel>*1, <ore:screwStainlessSteel>*1, <ore:pipeSmallStainlessSteel>*1, <ore:cableGtSingleGold>*1, <metaitem:electric.motor.hv>*1)
+    .outputs(<metaitem:electric.pump.hv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#EV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorStainlessSteel>*1, <ore:screwTitanium>*1, <ore:pipeSmallTitanium>*1, <ore:wireGtSingleAnnealedCopper>*32, <ore:cableGtSingleAluminium>*3, <ore:stickTitanium>*2, <ore:stickNeodymiumMagnetic>*1)
+    .outputs(<metaitem:electric.pump.ev>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorStainlessSteel>*1, <ore:screwTitanium>*1, <ore:pipeSmallTitanium>*1, <ore:cableGtSingleAluminium>*1, <metaitem:electric.motor.ev>*1)
+    .outputs(<metaitem:electric.pump.ev>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#IV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorTitanium>*1, <ore:screwTungstenSteel>*1, <ore:pipeSmallTungstenSteel>*1, <ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSinglePlatinum>*3, <ore:stickTungstenSteel>*2, <ore:stickLongNeodymiumMagnetic>*1)
+    .outputs(<metaitem:electric.pump.iv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringRubber>*2, <ore:rotorTitanium>*1, <ore:screwTungstenSteel>*1, <ore:pipeSmallTungstenSteel>*1, <ore:cableGtSinglePlatinum>*1, <metaitem:electric.motor.iv>*1)
+    .outputs(<metaitem:electric.pump.iv>)
+	.property("circuit", 4)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#-Robot Arms-
+#LV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitBasic>*1, <ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:wireGtSingleCopper>*12, <ore:cableGtSingleTin>*11, <ore:stickSteel>*10, <ore:stickSteelMagnetic>*3)
+    .outputs(<metaitem:robot.arm.lv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitBasic>*1, <ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:wireGtSingleCopper>*12, <ore:cableGtSingleTin>*11, <ore:stickIron>*6, <ore:stickSteel>*4, <ore:stickIronMagnetic>*3)
+    .outputs(<metaitem:robot.arm.lv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitBasic>*1, <metaitem:electric.motor.lv>*3, <ore:plateSteel>*3, <ore:gearSmallSteel>*1, <ore:stickSteel>*4, <ore:cableGtSingleTin>*5, <metaitem:electric.motor.lv>*1)
+    .outputs(<metaitem:robot.arm.lv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitBasic>*1, <metaitem:electric.motor.lv>*2, <metaitem:electric.piston.lv>*1, <ore:cableGtSingleTin>*3, <ore:stickSteel>*2)
+    .outputs(<metaitem:robot.arm.lv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#MV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitGood>*1, <ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:wireGtSingleCopper>*24, <ore:cableGtSingleCopper>*11, <ore:stickAluminium>*10, <ore:stickSteelMagnetic>*3)
+    .outputs(<metaitem:robot.arm.mv>)
+	.property("circuit", 1)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitGood>*1, <ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:wireGtSingleAnnealedCopper>*24, <ore:cableGtSingleCopper>*11, <ore:stickAluminium>*10, <ore:stickSteelMagnetic>*3)
+    .outputs(<metaitem:robot.arm.mv>)
+	.property("circuit",5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitGood>*1, <ore:plateAluminium>*3, <ore:gearSmallAluminium>*1, <ore:stickAluminium>*4, <ore:cableGtSingleCopper>*5, <metaitem:electric.motor.mv>*3)
+    .outputs(<metaitem:robot.arm.mv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitGood>*1, <metaitem:electric.motor.mv>*2, <metaitem:electric.piston.mv>*1, <ore:cableGtSingleCopper>*3, <ore:stickAluminium>*2)
+    .outputs(<metaitem:robot.arm.mv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#HV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitAdvanced>*1, <ore:plateStainlessSteel>*3, <ore:gearSmallStainlessSteel>*1, <ore:wireGtSingleAnnealedCopper>*48, <ore:cableGtSingleGold>*11, <ore:stickStainlessSteel>*10, <ore:stickCobaltMagnetic>*3)
+    .outputs(<metaitem:robot.arm.hv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitAdvanced>*1, <ore:plateStainlessSteel>*3, <ore:gearSmallStainlessSteel>*1, <ore:stickStainlessSteel>*4, <ore:cableGtSingleGold>*5, <metaitem:electric.motor.hv>*3)
+    .outputs(<metaitem:robot.arm.hv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitAdvanced>*1, <metaitem:electric.motor.hv>*2, <metaitem:electric.piston.hv>*1, <ore:cableGtSingleGold>*3, <ore:stickStainlessSteel>*2)
+    .outputs(<metaitem:robot.arm.hv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#EV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitExtreme>*1, <ore:plateTitanium>*3, <ore:gearSmallTitanium>*1, <ore:wireGtSingleAnnealedCopper>*64, <ore:wireGtSingleAnnealedCopper>*32, <ore:cableGtSingleAluminium>*11, <ore:stickTitanium>*10, <ore:stickNeodymiumMagnetic>*3)
+    .outputs(<metaitem:robot.arm.ev>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitExtreme>*1, <ore:plateTitanium>*3, <ore:gearSmallTitanium>*1, <ore:stickTitanium>*4, <ore:cableGtSingleAluminium>*5, <metaitem:electric.motor.ev>*2)
+    .outputs(<metaitem:robot.arm.ev>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitExtreme>*1, <metaitem:electric.motor.ev>*2, <metaitem:electric.piston.ev>*1, <ore:cableGtSingleAluminium>*3, <ore:stickTitanium>*2)
+    .outputs(<metaitem:robot.arm.ev>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#IV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitElite>*1, <ore:plateTungstenSteel>*3, <ore:gearSmallTungstenSteel>*1, <ore:wireGtDoubleAnnealedCopper>*64, <ore:wireGtSingleAnnealedCopper>*64, <ore:cableGtSinglePlatinum>*11, <ore:stickTungstenSteel>*10, <ore:stickLongNeodymiumMagnetic>*3)
+    .outputs(<metaitem:robot.arm.iv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitElite>*1, <ore:plateTungstenSteel>*3, <ore:gearSmallTungstenSteel>*1, <ore:stickTungstenSteel>*2, <ore:cableGtSinglePlatinum>*5, <metaitem:electric.motor.iv>*3)
+    .outputs(<metaitem:robot.arm.iv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:circuitElite>*1, <metaitem:electric.motor.iv>*2, <metaitem:electric.piston.iv>*1, <ore:cableGtSinglePlatinum>*3, <ore:stickTungstenSteel>*2)
+    .outputs(<metaitem:robot.arm.iv>)
+	.property("circuit", 5)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#-Sensor-
+#LV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateSteel>*4, <ore:circuitBasic>*1, <ore:stickBrass>*1, <ore:gemQuartzite>*1)
+    .outputs(<metaitem:sensor.lv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateSteel>*4, <ore:circuitBasic>*1, <ore:stickBrass>*1, <ore:gemCertusQuartz>*1)
+    .outputs(<metaitem:sensor.lv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateSteel>*4, <ore:circuitBasic>*1, <ore:stickBrass>*1, <ore:gemNetherQuartz>*1)
+    .outputs(<metaitem:sensor.lv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#MV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAluminium>*4, <ore:circuitGood>*1, <ore:stickElectrum>*1, <ore:gemFlawlessQuartzite>*1)
+    .outputs(<metaitem:sensor.mv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAluminium>*4, <ore:circuitGood>*1, <ore:stickElectrum>*1, <ore:gemFlawlessCertusQuartz>*1)
+    .outputs(<metaitem:sensor.mv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAluminium>*4, <ore:circuitGood>*1, <ore:stickElectrum>*1, <ore:gemFlawlessNetherQuartz>*1)
+    .outputs(<metaitem:sensor.mv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#HV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateStainlessSteel>*4, <ore:circuitAdvanced>*1, <ore:stickChrome>*1, <ore:gemEmerald>*1)
+    .outputs(<metaitem:sensor.hv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#EV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTitanium>*4, <ore:circuitExtreme>*1, <ore:stickPlatinum>*1, <ore:gemEnderPearl>*1)
+    .outputs(<metaitem:sensor.ev>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#IV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTungstenSteel>*4, <ore:circuitElite>*1, <ore:stickOsmium>*1, <ore:gemEnderEye>*1)
+    .outputs(<metaitem:sensor.iv>)
+	.property("circuit", 6)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#-Emitter-
+#LV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickBrass>*4, <ore:circuitBasic>*2, <ore:cableGtSingleTin>*2, <ore:gemQuartzite>*1)
+    .outputs(<metaitem:emitter.lv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickBrass>*4, <ore:circuitBasic>*2, <ore:cableGtSingleTin>*2, <ore:gemNetherQuartz>*1)
+    .outputs(<metaitem:emitter.lv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickBrass>*4, <ore:circuitBasic>*2, <ore:cableGtSingleTin>*2, <ore:gemCertusQuartz>*1)
+    .outputs(<metaitem:emitter.lv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#MV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickElectrum>*4, <ore:circuitGood>*2, <ore:cableGtSingleCopper>*2, <ore:gemFlawlessQuartzite>*1)
+    .outputs(<metaitem:emitter.mv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickElectrum>*4, <ore:circuitGood>*2, <ore:cableGtSingleCopper>*2, <ore:gemFlawlessCertusQuartz>*1)
+    .outputs(<metaitem:emitter.mv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickElectrum>*4, <ore:circuitGood>*2, <ore:cableGtSingleCopper>*2, <ore:gemFlawlessNetherQuartz>*1)
+    .outputs(<metaitem:emitter.mv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#HV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickChrome>*4, <ore:circuitAdvanced>*2, <ore:cableGtSingleGold>*2, <ore:gemEmerald>*1)
+    .outputs(<metaitem:emitter.hv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#EV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickPlatinum>*4, <ore:circuitExtreme>*2, <ore:cableGtSingleAluminium>*2, <ore:gemEnderPearl>*1)
+    .outputs(<metaitem:emitter.ev>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#IV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickOsmium>*4, <ore:circuitElite>*2, <ore:cableGtSinglePlatinum>*2, <ore:gemEnderEye>*1)
+    .outputs(<metaitem:emitter.iv>)
+	.property("circuit", 7)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#-Field Generator-
+#LV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:wireGtSingleOsmium>*4, <ore:circuitBasic>*4, <ore:gemEnderPearl>*1)
+    .outputs(<metaitem:field.generator.lv>)
+	.property("circuit", 8)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#MV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:wireGtSingleOsmium>*8, <ore:circuitGood>*4, <ore:gemEnderEye>*1)
+    .outputs(<metaitem:field.generator.mv>)
+	.property("circuit", 8)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#HV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:wireGtSingleOsmium>*16, <ore:circuitAdvanced>*4, <metaitem:quantumeye>*1)
+    .outputs(<metaitem:field.generator.hv>)
+	.property("circuit", 8)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#EV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:wireGtSingleOsmium>*32, <ore:circuitExtreme>*4, <ore:gemNetherStar>*1)
+    .outputs(<metaitem:field.generator.ev>)
+	.property("circuit", 8)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
+#IV
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:wireGtSingleOsmium>*64, <ore:circuitElite>*4, <ore:starQuantum>*1)
+    .outputs(<metaitem:field.generator.iv>)
+	.property("circuit", 8)
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
 #--Hardmode Redstone Recipes--
 #-Metal Doors-
 #Aether

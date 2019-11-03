@@ -8,5 +8,11 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
+var ManualDistillationTower = VanillaFactory.createItem("manualdistillationtower");
+ManualDistillationTower.register();
+
+var ManualExcavator = VanillaFactory.createItem("manualexcavator");
+ManualExcavator.register();
+
 var ManualMetalPress = VanillaFactory.createItem("manualmetalpress");
 ManualMetalPress.register();
