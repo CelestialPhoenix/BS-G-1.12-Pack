@@ -10,6 +10,8 @@ var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant
 
 #Tooltips
 #-Manuals-
+<contenttweaker:manualdistillationtower>.addTooltip("Short guide viewable in JEI");
+<contenttweaker:manualexcavator>.addTooltip("Short guide viewable in JEI");
 <contenttweaker:manualmetalpress>.addTooltip("Short guide viewable in JEI");
 
 #-Native Clusters-

@@ -38,6 +38,23 @@ mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:steam_boiler_coal_bronze
 
 mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:steam_boiler_coal_bronze>, <meta_tile_entity:gregtech:steam_boiler_solar_bronze>, <meta_tile_entity:gregtech:steam_boiler_lava_bronze>, <meta_tile_entity:gregtech:steam_boiler_coal_steel>, <meta_tile_entity:gregtech:steam_boiler_lava_steel>], "The boiler will continuously produce steam, and harmlessly vent (waste) steam if the boiler is full.", "Its generally a bad idea to let a boiler run dry, and even worse to add water to a hot dry boiler");
 
+#--Multiblock Machines--
+#Cracker
+#EBF
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:electric_blast_furnace>],"Parts list:","16x [Cupronickel] Coil Block", "10-14 Heat Proof Casing", "1x Electric Blast Furnace", "1x Item Input Bus", "1x Item Output Bus", "1x Energy Input Hatch", "Up to 4x any additional Energy/Item/Fluid Hatches", "Coil blocks must all be of the same type", "Hatches can replace any Heat Proof Casing");
+
+#Distil Tower
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:distillation_tower>],"High tech distillation tower for refining fluids. Splits fluids into precise fractions.", "This tower can be build with up to 10 middle layers (2-12 blocks high total). Each layer allows for an additional fluid output.");
+
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:distillation_tower>],"Parts list (Base layer):", "5x Clean Stainless Steel Casing", "1x Refinery Tower Controller", "1x Energy Input Hatch", "1x Item Output Bus (optional)", "1x Fluid Input hatch", "Fluid input must be in centre block. Other hatches can be in any position");
+
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:distillation_tower>],"Parts list (Middle layer):", "7x Clean Stainless Steel Casing", "1x Fluid Output hatch", "Up to 10 middle layers can be built into the tower. Output hatches can be placed anywhere in each layer.");
+
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:distillation_tower>],"Parts list (Top layer):", "8x Clean Stainless Steel Casing", "1x Fluid Output hatch. Can be placed anywhere in this layer.");
+ 
+#Pyro Oven
+#VacFreeze
+
 #---Machine Upgrades---
 
 #--Conveyor Module--
