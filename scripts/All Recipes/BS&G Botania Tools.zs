@@ -31,7 +31,7 @@ mods.botania.RuneAltar.addRecipe(<botania:manasteelsword>,[<ore:toolHeadSwordSte
 #Shears
 <botania:manasteelshears>.displayName="Mana Diamond Shears";
 recipes.remove(<botania:manasteelshears>);
-mods.botania.RuneAltar.addRecipe(<botania:manasteelshears>,[<ore:plateSteel>, <ore:manaDiamond>, <ore:plateSteel>, <ore:manaDiamond>, <ore:ringChrome>, <ore:nuggetChrome>, <ore:livingwoodTwig>, <ore:livingwoodTwig>], 200);
+mods.botania.RuneAltar.addRecipe(<botania:manasteelshears>,[<ore:manaDiamond>, <thermalfoundation:tool.shears_steel>, <ore:manaDiamond>, <ore:ringChrome>, <ore:nuggetChrome>, <ore:livingwoodTwig>, <ore:livingwoodTwig>], 200);
 
 #-ManaSteel Armour-
 recipes.remove(<botania:manasteelhelm>);
