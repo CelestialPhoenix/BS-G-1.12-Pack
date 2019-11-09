@@ -130,10 +130,10 @@ RefineryTower
     .EUt(150)
     .buildAndRegister();
 
-RefineryTower.findRecipe(120, [null], [<liquid:cracked_naphtha>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_naphtha>*1000]).remove();
 RefineryTower
     .recipeBuilder()
-    .fluidInputs(<liquid:cracked_naphtha>*1000)
+    .fluidInputs(<liquid:steamcracked_naphtha>*1000)
 	.fluidOutputs([<liquid:light_fuel>*40, <liquid:toluene>*15, <liquid:benzene>*75, <liquid:naphtha>*80,  <liquid:butene>*40, <liquid:butadiene>*40, <liquid:propane>*10, <liquid:propene>*200, <liquid:ethane>*50, <liquid:ethylene>*350, <liquid:methane>*350])
 	.outputs(<ore:dustTinyCoal>.firstItem*6)
     .duration(120)
