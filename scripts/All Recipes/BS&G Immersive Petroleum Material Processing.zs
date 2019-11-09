@@ -7,16 +7,16 @@ print("Trust me I'm an engineer");
 //mods.immersivepetroleum.Distillation.addRecipe(ILiquidStack[] fluidOutputs, IItemStack[] itemOutputs, ILiquidStack fluidInput, int energy, int time, float[] chance)
 
 #--Crude Oil--
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil_heavy>*25, <liquid:oil_medium>*50, <liquid:oil_light>*15, <liquid:natural_gas>*10], [<immersivepetroleum:material>], <liquid:oil>*100, 100, 100, [1]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil_heavy>*35, <liquid:oil_medium>*55, <liquid:oil_light>*25, <liquid:natural_gas>*15], [<immersivepetroleum:material>*1], <liquid:oil>*100, 100, 100, [1]);
 
 #--2nd Oils--
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_tar>*80, <liquid:sulfuric_heavy_fuel>*15, <liquid:sulfuric_light_fuel>*5], [], <liquid:bitumen>*100, 200, 100, []);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_heavy_fuel>*80, <liquid:sulfuric_light_fuel>*30, <liquid:sulfuric_naphtha>*10], [], <liquid:oil_heavy>*100, 150, 100, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_tar>*10, <liquid:sulfuric_heavy_fuel>*55, <liquid:sulfuric_light_fuel>*20, <liquid:sulfuric_naphtha>*15], [], <liquid:oil_heavy>*100, 150, 100, []);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_heavy_fuel>*15, <liquid:sulfuric_light_fuel>*50, <liquid:sulfuric_naphtha>*20, <liquid:natural_gas> * 60], [], <liquid:oil_medium>*100, 100, 100, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_heavy_fuel>*15, <liquid:sulfuric_light_fuel>*40, <liquid:sulfuric_naphtha>*20, <liquid:natural_gas>*25], [], <liquid:oil_medium>*100, 100, 100, []);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_light_fuel>*10, <liquid:sulfuric_naphtha>*30, <liquid:natural_gas> * 80], [], <liquid:oil_light>*100, 75, 100, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:sulfuric_light_fuel>*40, <liquid:sulfuric_naphtha>*30, <liquid:natural_gas>*30], [], <liquid:oil_light>*100, 75, 100, []);
 
 #Gas
 
@@ -34,11 +34,11 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha>*20, <liquid:gas
 #--Steam Cracked--
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:tar>*25, <liquid:lubricant>*10, <liquid:heavy_fuel>*20, <liquid:alkenes>*45, <liquid:light_fuel>*10], [<ore:dustTinyCoal>.firstItem*12], <liquid:cracked_tar>*100, 200, 100, [1]);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:tar>*75, <liquid:lubricant>*100, <liquid:heavy_fuel>*150, <liquid:alkenes>*670, <liquid:light_fuel>*120, <liquid:naphtha>*100], [<ore:dustTinyCoal>.firstItem*9], <liquid:cracked_heavy_fuel>*100, 150, 100, [1]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:tar>*75, <liquid:lubricant>*100, <liquid:heavy_fuel>*15, <liquid:alkenes>*67, <liquid:light_fuel>*12, <liquid:naphtha>*10], [<ore:dustTinyCoal>.firstItem*9], <liquid:cracked_heavy_fuel>*100, 150, 100, [1]);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:alkenes>*730, <liquid:light_fuel>*40, <liquid:naphtha>*80, <liquid:gas>*410], [<ore:dustTinyCoal>.firstItem*6], <liquid:cracked_light_fuel>*100, 100, 100, [1]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:alkenes>*73, <liquid:light_fuel>*4, <liquid:naphtha>*8, <liquid:gas>*41], [<ore:dustTinyCoal>.firstItem*6], <liquid:cracked_light_fuel>*100, 100, 100, [1]);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:alkenes>*40, <liquid:light_fuel>*15, <liquid:naphtha>*5, <liquid:gas>*40], [<ore:dustTinyCoal>.firstItem*3], <liquid:cracked_naptha>*100, 75, 100, [1]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:alkenes>*40, <liquid:light_fuel>*15, <liquid:naphtha>*5, <liquid:gas>*40], [<ore:dustTinyCoal>.firstItem*3], <liquid:steamcracked_naphtha>*100, 75, 100, [1]);
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:alkenes>*3, <liquid:naphtha>*30, <liquid:gas>*4, <liquid:methane>*60, <liquid:hydrogen>*3], [<ore:dustTinyCoal>.firstItem*1], <liquid:steamcracked_gas>*100, 50, 100, [1]);
 
