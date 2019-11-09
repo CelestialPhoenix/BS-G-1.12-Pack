@@ -434,50 +434,56 @@ ingotadamantium.addToolEnchantment(<enchantment:minecraft:sharpness> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:smite> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:bane_of_arthropods> * 5);
 
+#--Gt Petrochem extras--
+#Sulphuric Bitumin
+
+MaterialRegistry.createFluidMaterial(690, "sulfuric_tar", 0x101010, "fluid", null);
+MaterialRegistry.createFluidMaterial(691, "tar", 0x040404, "fluid", null);
+
 #--Mod Integration--
 #-Botania-
 #Manasteel
-val ingotmanasteel = MaterialRegistry.createIngotMaterial(683, "manasteel", 0x6060FF, "shiny", 2, null, 2.0, 3.0, 30);
+val ingotmanasteel = MaterialRegistry.createIngotMaterial(713, "manasteel", 0x6060FF, "shiny", 2, null, 2.0, 3.0, 30);
 ingotmanasteel.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:fortune> * 1);
 ingotmanasteel.addToolEnchantment(<enchantment:minecraft:looting> * 1);
 
 #Terrasteel
-val ingotterrasteel = MaterialRegistry.createIngotMaterial(684, "terrasteel", 0x64D29B, "shiny", 4, null, 5.5, 8, 256, 3600);
+val ingotterrasteel = MaterialRegistry.createIngotMaterial(714, "terrasteel", 0x64D29B, "shiny", 4, null, 5.5, 8, 256, 3600);
 ingotterrasteel.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotterrasteel.addToolEnchantment(<enchantment:minecraft:knockback> * 5);
 
 #-Tinkers Construct-
 #Ardite
-val ingotardite = MaterialRegistry.createIngotMaterial(685, "ardite", 0xFF4C00, "dull", 4, null, 3.5, 6.0, 128, 1800);
+val ingotardite = MaterialRegistry.createIngotMaterial(715, "ardite", 0xFF4C00, "dull", 4, null, 3.5, 6.0, 128, 1800);
 ingotardite.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Manyullyn
-val ingotmanyullyn = MaterialRegistry.createIngotMaterial(686, "manyullyn", 0x7141AB, "dull", 5, null, 4.5, 8, 256, 3600);
+val ingotmanyullyn = MaterialRegistry.createIngotMaterial(716, "manyullyn", 0x7141AB, "dull", 5, null, 4.5, 8, 256, 3600);
 ingotmanyullyn.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #-Thaumcraft-
 #Thaumium
-val ingotthaumium = MaterialRegistry.createIngotMaterial(687, "thaumium", 0x615096, "shiny", 3, null, 3.5, 6, 50);
+val ingotthaumium = MaterialRegistry.createIngotMaterial(717, "thaumium", 0x615096, "shiny", 3, null, 3.5, 6, 50);
 ingotthaumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Void Metal
-val ingotvoidm = MaterialRegistry.createIngotMaterial(688, "void_metal", 0x1F0D35, "metallic", 4, null, 3.5, 7, 100);
+val ingotvoidm = MaterialRegistry.createIngotMaterial(718, "void_metal", 0x1F0D35, "metallic", 4, null, 3.5, 7, 100);
 ingotvoidm.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #-Thermal Foundation-
 #Enderium
-val ingotenderium = MaterialRegistry.createIngotMaterial(689, "enderium", 0x279C9C, "shiny", 1, [<material:lead>*3, <material:platinum>*1, <material:ender_pearl>*9], 3.5, 7.0, 50, 4500);
+val ingotenderium = MaterialRegistry.createIngotMaterial(719, "enderium", 0x279C9C, "shiny", 1, [<material:lead>*3, <material:platinum>*1, <material:ender_pearl>*9], 3.5, 7.0, 50, 4500);
 ingotenderium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 ingotenderium.addToolEnchantment(<enchantment:minecraft:silk_touch> * 1);
 ingotenderium.setFluidPipeProperties(500, 10000, true);
 
 #Lumium
-val ingotlumium = MaterialRegistry.createIngotMaterial(690, "lumium", 0xffe0a3, "shiny", 1, [<material:tin>*3, <material:silver>*1, <material:glowstone>*9], 3.5, 0, 0, 4500);
+val ingotlumium = MaterialRegistry.createIngotMaterial(720, "lumium", 0xffe0a3, "shiny", 1, [<material:tin>*3, <material:silver>*1, <material:glowstone>*9], 3.5, 0, 0, 4500);
 ingotlumium.addFlags("GENERATE_PLATE", "GENERATE_ROD");
 
 #Mithril
-val ingotmithril = MaterialRegistry.createIngotMaterial(691, "mithril", 0x1F788E, "shiny", 5, null, 3.5, 9, 512);
+val ingotmithril = MaterialRegistry.createIngotMaterial(721, "mithril", 0x1F788E, "shiny", 5, null, 3.5, 9, 512);
 ingotmithril.addFlags("GENERATE_PLATE");
 ingotmithril.addToolEnchantment(<enchantment:minecraft:smite> * 10);
 ingotmithril.addToolEnchantment(<enchantment:minecraft:fortune> * 5);
@@ -485,22 +491,13 @@ ingotmithril.addToolEnchantment(<enchantment:minecraft:looting> * 5);
 #ingotmithril.macerateInto(<material:platinum>);
 
 #Signalum
-val ingotsignalum = MaterialRegistry.createIngotMaterial(692, "signalum", 0xF6872E, "shiny", 1, [<material:copper>*3, <material:silver>*1, <material:redstone>*9], 3.5, 0, 0, 4500);
+val ingotsignalum = MaterialRegistry.createIngotMaterial(722, "signalum", 0xF6872E, "shiny", 1, [<material:copper>*3, <material:silver>*1, <material:redstone>*9], 3.5, 0, 0, 4500);
 ingotsignalum.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_FINE_WIRE");
 ingotsignalum.setCableProperties(32768, 2, 1);
 
 #-Project Red-
 #Blue Alloy
-val ingotbluealloy = MaterialRegistry.createIngotMaterial(693, "blue_alloy", 0x3B8FDD, "metallic", 1, [<material:electrum>*2, <material:electrotine>*5], 3.5, 0);
+val ingotbluealloy = MaterialRegistry.createIngotMaterial(723, "blue_alloy", 0x3B8FDD, "metallic", 1, [<material:electrum>*2, <material:electrotine>*5], 3.5, 0);
 ingotbluealloy.addFlags("GENERATE_FINE_WIRE", "DECOMPOSITION_BY_CENTRIFUGING");
 ingotbluealloy.setCableProperties(512, 2, 1);
 
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);
-#72 val dust = MaterialRegistry.createDustMaterial(72, "", 0xRR6611, "dull", 1, [<material:>*2, <material:oxygen>*1]);

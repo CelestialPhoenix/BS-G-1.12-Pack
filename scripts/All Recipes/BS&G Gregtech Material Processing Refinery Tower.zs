@@ -20,6 +20,14 @@ RefineryTower
     .buildAndRegister();
 
 #2nd Oils
+RefineryTower
+    .recipeBuilder()
+    .fluidInputs(<liquid:bitumen>*100)
+	.fluidOutputs([<liquid:sulfuric_tar>*96, <liquid:sulfuric_heavy_fuel>*18, <liquid:sulfuric_light_fuel>*6])
+    .duration(20)
+    .EUt(300)
+    .buildAndRegister();
+
 RefineryTower.findRecipe(288, [null], [<liquid:oil_heavy>*150]).remove();
 RefineryTower
     .recipeBuilder()
@@ -35,7 +43,7 @@ RefineryTower
     .fluidInputs(<liquid:oil_medium>*100)
 	.fluidOutputs([<liquid:sulfuric_heavy_fuel>*18, <liquid:sulfuric_light_fuel>*60, <liquid:sulfuric_naphtha>*24, <liquid:natural_gas> * 72])
     .duration(20)
-    .EUt(96)
+    .EUt(200)
     .buildAndRegister();
 
 RefineryTower.findRecipe(96, [null], [<liquid:oil_light>*150]).remove();
@@ -44,5 +52,5 @@ RefineryTower
     .fluidInputs(<liquid:oil_light>*100)
 	.fluidOutputs([<liquid:sulfuric_light_fuel>*12, <liquid:sulfuric_naphtha>*36, <liquid:natural_gas> * 96])
     .duration(20)
-    .EUt(96)
+    .EUt(150)
     .buildAndRegister();

@@ -113,6 +113,11 @@ material.scorched_naquarrite=Scorched Naquarrite
 material.scorched_clay=Scorched Clay
 material.scorched_sheldonite=Scorched Sheldonite
 
+material.sulfuric_tar=Sulphuric Tar
+material.tar=Tar
+
+material.zirconium.tooltip=Zr
+
 //---Renamed Gtech Materials---
 material.cooperite=Cooperite
 material.endstone=Xenolith

@@ -25,3 +25,27 @@ FluidExtractor
     .duration(100)
     .EUt(72)
     .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:dustCryotheum>*1)
+	.fluidOutputs([<liquid:cryotheum>*250])
+    .duration(100)
+    .EUt(72)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:dustAerotheum>*1)
+	.fluidOutputs([<liquid:aerotheum>*250])
+    .duration(100)
+    .EUt(72)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:dustPetrotheum>*1)
+	.fluidOutputs([<liquid:petrotheum>*250])
+    .duration(100)
+    .EUt(72)
+    .buildAndRegister();
