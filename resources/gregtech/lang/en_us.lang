@@ -115,8 +115,10 @@ material.scorched_sheldonite=Scorched Sheldonite
 
 material.sulfuric_tar=Sulphuric Tar
 material.tar=Tar
+material.cracked_tar=Cracked Tar
+material.hydrocracked_tar=Hydro-Cracked Tar
 
-material.zirconium.tooltip=Zr
+material.alkenes=Alkenes
 
 //---Renamed Gtech Materials---
 material.cooperite=Cooperite

@@ -439,6 +439,11 @@ ingotadamantium.addToolEnchantment(<enchantment:minecraft:bane_of_arthropods> * 
 
 MaterialRegistry.createFluidMaterial(690, "sulfuric_tar", 0x101010, "fluid", null);
 MaterialRegistry.createFluidMaterial(691, "tar", 0x040404, "fluid", null);
+MaterialRegistry.createFluidMaterial(692, "cracked_tar", 0x151515, "fluid", null);
+MaterialRegistry.createFluidMaterial(693, "hydrocracked_tar", 0x151520, "fluid", null);
+
+MaterialRegistry.createFluidMaterial(694, "alkenes", 0x35353A, "fluid", null);
+
 
 #--Mod Integration--
 #-Botania-
