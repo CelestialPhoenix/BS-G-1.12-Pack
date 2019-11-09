@@ -75,7 +75,7 @@ Cracker
 Cracker.findRecipe(120, [null], [<liquid:hydrogen>*2000,<liquid:butene>*1000]).remove();
 Cracker
     .recipeBuilder()
-    .fluidInputs(<liquid:hydrogen>*2000, <liquid:betane>*1000)
+    .fluidInputs(<liquid:hydrogen>*2000, <liquid:butane>*1000)
 	.fluidOutputs([<liquid:hydrocracked_gas>*750])
     .duration(40)
     .EUt(120)

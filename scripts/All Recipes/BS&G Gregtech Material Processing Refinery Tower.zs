@@ -46,7 +46,7 @@ RefineryTower
     .EUt(200)
     .buildAndRegister();
 
-RefineryTower.findRecipe(96, [null], [<liquid:oil_light>*100]).remove();
+RefineryTower.findRecipe(96, [null], [<liquid:oil_light>*150]).remove();
 RefineryTower
     .recipeBuilder()
     .fluidInputs(<liquid:oil_light>*100)
