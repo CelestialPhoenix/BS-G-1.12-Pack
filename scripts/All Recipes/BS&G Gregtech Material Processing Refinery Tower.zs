@@ -13,7 +13,7 @@ RefineryTower.findRecipe(96, [null], [<liquid:oil>*50]).remove();
 RefineryTower
     .recipeBuilder()
     .fluidInputs(<liquid:oil>*1000)
-	.chancedOutput(<immersivepetroleum:material>*10, 8000, 0)
+	.outputs(<immersivepetroleum:material>*10)
 	.fluidOutputs([<liquid:sulfuric_tar>*35, <liquid:sulfuric_heavy_fuel>*275, <liquid:sulfuric_light_fuel>*390, <liquid:sulfuric_naphtha>*238, <liquid:natural_gas>*362])
     .duration(120)
     .EUt(400)
@@ -159,20 +159,20 @@ RefineryTower
     .buildAndRegister();
 
 #---Cracked Individual Fractions---
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_ethane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_ethylene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_propane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_propene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butadiene>*800]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_ethane>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_ethylene>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_propane>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_propene>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butane>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butene>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:hydrocracked_butadiene>*1000]).remove();
 
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_ethane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_ethylene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_propane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_propene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butane>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butene>*800]).remove();
-RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butadiene>*800]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_ethane>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_ethylene>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_propene>*1000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_propane>*2000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butane>*2000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butene>*2000]).remove();
+RefineryTower.findRecipe(120, [null], [<liquid:steamcracked_butadiene>*2000]).remove();
 
 
