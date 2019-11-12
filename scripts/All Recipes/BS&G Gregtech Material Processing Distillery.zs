@@ -36,9 +36,9 @@ Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:steamcracked_butene>*2000]).remove();
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_butadiene>*750]).remove();
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:hydrocracked_butadiene>*750]).remove();
-Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_butadiene>*2000]).remove();
-Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:hydrocracked_butadiene>*2000]).remove();
-Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:hydrocracked_butadiene>*2000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:steamcracked_butadiene>*2000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:steamcracked_butadiene>*2000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:steamcracked_butadiene>*2000]).remove();
 
 
 
