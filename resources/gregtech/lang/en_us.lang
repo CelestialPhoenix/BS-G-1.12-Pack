@@ -117,8 +117,7 @@ material.sulfuric_tar=Sulphuric Tar
 material.tar=Tar
 material.cracked_tar=Cracked Tar
 material.hydrocracked_tar=Hydro-Cracked Tar
-
-material.alkenes=Alkenes
+material.alkenes=Olefins
 
 //---Renamed Gtech Materials---
 material.cooperite=Cooperite
