@@ -8,6 +8,12 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Mixer---
 val mixer as RecipeMap = RecipeMap.getByName("mixer");
 
+#--Removed Recipes--
+#Fuels in ImEng Refinery
+mixer.findRecipe(120, [null], [<liquid:light_fuel>*5000,<liquid:heavy_fuel>*1000]).remove();
+mixer.findRecipe(480, [null], [<liquid:fuel>*1000,<liquid:tetranitromethane>*20]).remove();
+mixer.findRecipe(480, [null], [<liquid:bio_diesel>*1000,<liquid:tetranitromethane>*40]).remove();
+
 #--Dust/Powder Mixing--
 #BlueAlloy
 mixer

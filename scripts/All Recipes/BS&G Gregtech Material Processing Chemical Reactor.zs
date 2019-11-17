@@ -58,6 +58,17 @@ ChemReactor
     .EUt(30)
     .buildAndRegister();
 
+#--Nitration Mixture--
+#Change to HV recipe
+mixer.findRecipe(120, [null], [<liquid:ethenone>*1000, <liquid:nitric_acid>*8000]).remove();
+ChemReactor
+    .recipeBuilder()
+    .fluidInputs(<liquid:ethenone>*1000, <liquid:nitric_acid>*8000)
+	.fluidOutputs([<liquid:tetranitromethane>*2000, <liquid:water>*9000])
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+
 #--Polymarisation (Alechemical)--
 var crystalAer = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]});
 var phialAer = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]});
