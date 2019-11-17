@@ -8,8 +8,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 val ChemReactor as RecipeMap = RecipeMap.getByName("chemical_reactor");
 
 #---PetroChem---
-#-De-sulphuring raw fuels/oils
-
+#-De-sulphuring raw fuels/oils--
 #Gas
 ChemReactor.findRecipe(30, [null], [<liquid:hydrogen>*2000,<liquid:natural_gas>*16000]).remove();
 ChemReactor
@@ -24,7 +23,7 @@ ChemReactor
 ChemReactor.findRecipe(30, [null], [<liquid:hydrogen>*2000,<liquid:sulfuric_naphtha>*12000]).remove();
 ChemReactor
     .recipeBuilder()
-    .fluidInputs(<liquid:sulfuric_naphtha>*2000, <liquid:hydrogen>*350)
+    .fluidInputs(<liquid:hydrogen>*350, <liquid:sulfuric_naphtha>*2000)
 	.fluidOutputs([<liquid:hydrogen_sulfide>*175, <liquid:naphtha>*2000])
     .duration(30)
     .EUt(30)
@@ -58,4 +57,163 @@ ChemReactor
     .duration(160)
     .EUt(30)
     .buildAndRegister();
+
+#--Polymarisation (Alechemical)--
+var crystalAer = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]});
+var phialAer = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]});
+
+#Plastic
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:ethylene>*144)
+	.fluidOutputs([<liquid:plastic>*252])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:ethylene>*144)
+	.fluidOutputs([<liquid:plastic>*252])
+	.outputs(<thaumcraft:phial>)
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#Polytetrafluoroethylene
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:tetrafluoroethylene>*144)
+	.fluidOutputs([<liquid:polytetrafluoroethylene>*252])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:tetrafluoroethylene>*144)
+	.fluidOutputs([<liquid:polytetrafluoroethylene>*252])
+	.outputs(<thaumcraft:phial>)
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#Polystyrene
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:styrene>*144)
+	.fluidOutputs([<liquid:polystyrene>*252])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:styrene>*144)
+	.fluidOutputs([<liquid:polystyrene>*252])
+	.outputs(<thaumcraft:phial>)
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#Polyvinyl Acetate
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:vinyl_acetate>*144)
+	.fluidOutputs([<liquid:polyvinyl_acetate>*252])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:vinyl_acetate>*144)
+	.fluidOutputs([<liquid:polyvinyl_acetate>*252])
+	.outputs(<thaumcraft:phial>)
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#Polyvinyl Chloride
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:vinyl_chloride>*144)
+	.fluidOutputs([<liquid:polyvinyl_chloride>*252])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:vinyl_chloride>*144)
+	.fluidOutputs([<liquid:polyvinyl_chloride>*252])
+	.outputs(<thaumcraft:phial>)
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#--Rubberisation (alchemical)--
+#Rubber
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:isoprene>*144)
+	.outputs([<ore:dustRawRubber>.firstItem*3])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:isoprene>*144)
+	.outputs([<ore:dustRawRubber>.firstItem*3])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+#Styrene-Butadiene
+ChemReactor
+    .recipeBuilder()
+	.inputs(crystalAer*10)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:styrene>*36, <liquid:butadiene>*108)
+	.outputs([<ore:dustRawStyreneButadieneRubber>.firstItem*3])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(phialAer)
+	.notConsumable(<ore:runeAirB>)
+    .fluidInputs(<liquid:styrene>*36, <liquid:butadiene>*108)
+	.outputs([<ore:dustRawStyreneButadieneRubber>.firstItem*3])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+
 

@@ -397,3 +397,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rollednickel>, <o
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsilver>, <ore:plateSilver>, <contenttweaker:presstoolroller>, 1000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsteel>, <ore:plateSteel>, <contenttweaker:presstoolroller>, 1000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolleduranium>, <ore:plateUranium>, <contenttweaker:presstoolroller>, 1000, 1);
+
+#---Mixer---
+
+#---Refinery---
+#mods.immersiveengineering.Refinery.addRecipe(<liquid:iron>, <liquid:water>, <liquid:lava>, 2048);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline>*50, <liquid:naphtha>*40, <liquid:benzene>*10, 5);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel>*60, <liquid:light_fuel>*50, <liquid:heavy_fuel>*10, 5);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:nitro_fuel>*50, <liquid:fuel>*50, <liquid:tetranitromethane>*1, 480);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:nitro_fuel>*37, <liquid:bio_diesel>*50, <liquid:tetranitromethane>*2, 480);
+
