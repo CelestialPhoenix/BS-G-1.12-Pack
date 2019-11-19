@@ -174,7 +174,7 @@ mods.thaumcraft.Crucible.registerRecipe("oreTungsten", "METALPURIFICATION", <ore
 
 #Uranium [End]
 mods.thaumcraft.Crucible.registerRecipe("oreBrannerite", "METALPURIFICATION", <ore:clusterUranium>.firstItem, <ore:crushedPurifiedBrannerite>, [<aspect:metallum>*15, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:aversio>*8]);
-mods.thaumcraft.Crucible.registerRecipe("oreUraninite", "METALPURIFICATION", <ore:clusterUranium>.firstItem, <ore:crushedPurifiedBraggite>, [<aspect:metallum>*15, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:aversio>*8]);
+mods.thaumcraft.Crucible.registerRecipe("oreUraninite", "METALPURIFICATION", <ore:clusterUranium>.firstItem, <ore:crushedPurifiedUraninite>, [<aspect:metallum>*15, <aspect:potentia>*8, <aspect:lux>*8, <aspect:vitium>*8, <aspect:aversio>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreBranneriteTitanium", "METALPURIFICATION", <ore:clusterTitanium>.firstItem, <ore:crushedPurifiedBrannerite>, [<aspect:metallum>*25, <aspect:volatus>*8, <aspect:praemunio>*8, <aspect:humanus>*8, <aspect:instrumentum>*8]);
 
 #Uranium [Dreadlands]

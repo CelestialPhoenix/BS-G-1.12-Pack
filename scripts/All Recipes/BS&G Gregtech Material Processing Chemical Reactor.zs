@@ -7,6 +7,143 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val ChemReactor as RecipeMap = RecipeMap.getByName("chemical_reactor");
 
+var crystalAer = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]});
+var crystalAlkimia = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alkimia"}]});
+var crystalDesiderium = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "desiderium"}]});
+var crystalGelum = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "gelum"}]});
+var crystalIgnis = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]});
+var crystalOrdo = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]});
+var crystalVictus = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]});
+var crystalPraemunio = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]});
+
+var phialAer = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]});
+var phialAlkimia = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "alkimia"}]});
+var phialDesiderium = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "desiderium"}]});
+var phialGelum = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "gelum"}]});
+var phialIgnis = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ignis"}]});
+var phialOrdo = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"}]});
+var phialVictus = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]});
+var phialPraemunio = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praemunio"}]});
+
+#---Alechemical Stuff---
+#-Air Processing-
+#Compressed Air
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalAer*10 , crystalOrdo*10])
+    .fluidInputs(<liquid:air>*4000)
+	.fluidOutputs([<liquid:nitrogen>*4000])
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialAer , phialOrdo])
+    .fluidInputs(<liquid:air>*4000)
+	.fluidOutputs([<liquid:nitrogen>*4000])
+	.outputs(<thaumcraft:phial>*2)
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalIgnis*10 , crystalVictus*10])
+    .fluidInputs(<liquid:air>*1000)
+	.fluidOutputs([<liquid:oxygen>*800])
+    .duration(400)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialIgnis , phialVictus])
+    .fluidInputs(<liquid:air>*1000)
+	.fluidOutputs([<liquid:oxygen>*800])
+	.outputs(<thaumcraft:phial>*2)
+    .duration(400)
+    .EUt(8)
+    .buildAndRegister();
+
+#Liquid Air
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalGelum*40 , crystalPraemunio*40])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:argon>*1000])
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialGelum*4 , phialPraemunio*4])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:argon>*1000])
+	.outputs(<thaumcraft:phial>*8)
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalAer*10 , crystalOrdo*10])
+    .fluidInputs(<liquid:liquid_air>*4000)
+	.fluidOutputs([<liquid:nitrogen>*4000])
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialAer , phialOrdo])
+    .fluidInputs(<liquid:liquid_air>*4000)
+	.fluidOutputs([<liquid:nitrogen>*4000])
+	.outputs(<thaumcraft:phial>*2)
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalDesiderium*40 , crystalAlkimia*40])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:noble_gases>*1000])
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialDesiderium*4 , phialAlkimia*4])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:noble_gases>*1000])
+	.outputs(<thaumcraft:phial>*8)
+    .duration(1600)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([crystalIgnis*10 , crystalVictus*10])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:oxygen>*800])
+    .duration(400)
+    .EUt(8)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs([phialIgnis , phialVictus])
+    .fluidInputs(<liquid:liquid_air>*1000)
+	.fluidOutputs([<liquid:oxygen>*800])
+	.outputs(<thaumcraft:phial>*2)
+    .duration(400)
+    .EUt(8)
+    .buildAndRegister();
+
 #---PetroChem---
 #-De-sulphuring raw fuels/oils--
 #Gas
@@ -70,8 +207,6 @@ ChemReactor
     .buildAndRegister();
 
 #--Polymarisation (Alechemical)--
-var crystalAer = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]});
-var phialAer = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]});
 
 #Plastic
 ChemReactor

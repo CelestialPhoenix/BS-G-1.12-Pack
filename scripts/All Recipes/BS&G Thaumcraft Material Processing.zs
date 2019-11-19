@@ -6,8 +6,13 @@ import mods.thaumcraft.Crucible;
 print("Ever wondered what the Liquid Death tastes like?");
 
 #mods.thaumcraft.Crucible.registerRecipe("recipeName", "", output, input, [arrayAspects]);
+var Air = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "air", Amount: 1000}});
+var Argon = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "argon", Amount: 1000}});
+var LiquidAir = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquid_air", Amount: 1000}});
+var Nitrogen = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}});
+var NobleGases = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "noble_gases", Amount: 1000}});
+var Oxygen = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "oxygen", Amount: 1000}});
 
-#---Oil Processing---
 var sulphuricGas = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "sulfuric_gas", Amount: 1000}});
 var sulphuricNaphtha = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "sulfuric_naphtha", Amount: 1000}});
 var sulphuricLightFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "sulfuric_light_fuel", Amount: 1000}});
@@ -32,6 +37,17 @@ var steamLightFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_
 var steamHeavyFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_heavy_fuel", Amount: 1000}});
 var steamTar = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_tar", Amount: 1000}});
 
+#---Air Processing---
+#Air
+mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation", "AIRPROCESSING", Nitrogen, Air, [<aspect:aer>*2, <aspect:ordo>*2]);
+mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation", "AIRPROCESSING", Oxygen, Air, [<aspect:ignis>*8, <aspect:victus>*8]);
+#LiquidAir
+mods.thaumcraft.Crucible.registerRecipe("ArgonTransmutation2", "LIQUIDAIRPROCESSING", Argon, LiquidAir, [<aspect:gelum>*32, <aspect:praemunio>*32]);
+mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation2", "LIQUIDAIRPROCESSING", Nitrogen, LiquidAir, [<aspect:aer>*2, <aspect:ordo>*2]);
+mods.thaumcraft.Crucible.registerRecipe("NobleTransmutation2", "LIQUIDAIRPROCESSING", NobleGases, LiquidAir, [<aspect:desiderium>*32, <aspect:alkimia>*32]);
+mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation2", "LIQUIDAIRPROCESSING", Oxygen, LiquidAir, [<aspect:ignis>*8, <aspect:victus>*8]);
+
+#---Oil Processing---
 #De-Sulphuring
 mods.thaumcraft.Crucible.registerRecipe("GasPurification", "OILPURIFICATION", Gas, sulphuricGas, [<aspect:alkimia>*2, <aspect:ordo>*2]);
 mods.thaumcraft.Crucible.registerRecipe("NaphthaPurification", "OILPURIFICATION", Naphtha, sulphuricNaphtha, [<aspect:alkimia>*4, <aspect:ordo>*4]);
