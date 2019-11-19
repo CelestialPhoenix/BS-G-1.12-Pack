@@ -60,7 +60,7 @@ ChemReactor
 
 #--Nitration Mixture--
 #Change to HV recipe
-mixer.findRecipe(120, [null], [<liquid:ethenone>*1000, <liquid:nitric_acid>*8000]).remove();
+ChemReactor.findRecipe(120, [null], [<liquid:ethenone>*1000, <liquid:nitric_acid>*8000]).remove();
 ChemReactor
     .recipeBuilder()
     .fluidInputs(<liquid:ethenone>*1000, <liquid:nitric_acid>*8000)
