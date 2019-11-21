@@ -67,7 +67,6 @@ ChemReactor
     .buildAndRegister();
 
 #Liquid Air
-
 ChemReactor
     .recipeBuilder()
 	.inputs([crystalGelum*40 , crystalPraemunio*40])
@@ -359,6 +358,19 @@ ChemReactor
 	.outputs([<ore:dustRawStyreneButadieneRubber>.firstItem*3])
     .duration(160)
     .EUt(30)
+    .buildAndRegister();
+
+#---Biofuels---
+#ChemReactor.findRecipe(30, [<ore:dustTinySodiumHydroxide>.firstItem], [<liquid:methanol>*1000, <liquid:seed_oil>*6000]).remove();
+#ChemReactor.findRecipe(30, [<ore:dustTinySodiumHydroxide>.firstItem], [<liquid:ethanol>*1000, <liquid:seed_oil>*6000]).remove();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustTinySodiumHydroxide>)
+    .fluidInputs(<liquid:biodiesel>*2000, <liquid:seed_oil>*4000)
+	.fluidOutputs([<liquid:glycerol>*1000, <liquid:bio_diesel>*6000])
+    .duration(600)
+    .EUt(15)
     .buildAndRegister();
 
 

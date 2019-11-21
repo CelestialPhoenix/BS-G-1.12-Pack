@@ -14,3 +14,8 @@ ie.manual.entry.minerals3=%1$s<br>which consists of %2$s.
 ie.manual.entry.mineralsDimValid=%1$s is a resource that can be found in %2$s
 ie.manual.entry.mineralsDimInvalid=%1$s is a resource that can be found anywhere but in %2$s
 ie.manual.entry.mineralsDimAny=%1$s is a resource that can be found in any Dimension
+
+//naming stuff
+tile.immersiveengineering.fluidBiodiesel.name=Bio-Fuel
+fluid.biodiesel=Bio-Fuel
+item.immersiveengineering.fluidContainers.bottleBiodiesel.name=Bottle of Bio-Fuel
