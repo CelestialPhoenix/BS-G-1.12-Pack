@@ -408,6 +408,6 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:nitro_fuel>*55, <liquid:fue
 mods.immersiveengineering.Refinery.addRecipe(<liquid:nitro_fuel>*40, <liquid:bio_diesel>*50, <liquid:tetranitromethane>*2, 48);
 
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
-mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*100, <liquid:ethanal>*55, <liquid:seed_oil>*45, 5);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*100, <liquid:ethanol>*55, <liquid:seed_oil>*45, 5);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*100, <liquid:methanol>*45, <liquid:seed_oil>*55, 5);
 
