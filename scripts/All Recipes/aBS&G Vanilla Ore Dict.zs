@@ -32,6 +32,8 @@ print("Mwah ha ha ha ha ha");
 
 <ore:cobblestoneStone>.add(<minecraft:cobblestone>);
 
+<ore:cobblestoneStone>.add(<minecraft:cobblestone>);
+
 <ore:blockNetherbrick>.add(<minecraft:nether_brick>);
 <ore:stairNetherbrick>.add(<minecraft:nether_brick_stairs>);
 <ore:fenceNetherbrick>.add(<minecraft:nether_brick_fence>);

@@ -51,6 +51,95 @@ compressor
 #Ticon- seared
 #Vanilla- clay, nether
 
+#--Plantballs--
+compressor
+    .recipeBuilder()
+    .inputs(<ore:itemBiomass>*10)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:treeSapling>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:cropWheat>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:sugarcane>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:blockCactus>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:treeLeaves>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:seedWheat>*12)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:seedPumpkin>*12)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:seedMelon>*12)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<immersiveengineering:seed>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<minecraft:dye:2>*8)
+    .outputs(<ore:plantball>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
 #--Plates--
 compressor
     .recipeBuilder()

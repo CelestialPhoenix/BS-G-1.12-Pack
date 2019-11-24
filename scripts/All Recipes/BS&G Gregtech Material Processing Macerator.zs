@@ -50,11 +50,11 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
-#-Plants-
+#-Plantballs-
 macerator
     .recipeBuilder()
-    .inputs(<ore:rodBasalz>.firstItem)
-    .outputs(<ore:dustBasalz>.firstItem)
+    .inputs(<ore:plantball>)
+    .outputs(<ore:biochaff>.firstItem)
     .duration(100)
     .EUt(2)
     .buildAndRegister();

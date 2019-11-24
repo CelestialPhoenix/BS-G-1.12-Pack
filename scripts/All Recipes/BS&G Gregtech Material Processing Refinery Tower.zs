@@ -7,7 +7,26 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val RefineryTower as RecipeMap = RecipeMap.getByName("distillation_tower");
 
-#---Refinery Tower---
+#---Biofuels---
+RefineryTower.findRecipe(180, [null], [<liquid:fermented_biomass>*1000]).remove();
+RefineryTower
+    .recipeBuilder()
+    .fluidInputs(<liquid:fermented_biomass>*1000)
+	.outputs(<forestry:mulch>*1)
+	.fluidOutputs([<liquid:acetic_acid>*25, <liquid:water>*375, <liquid:ethanol>*150, <liquid:methanol>*150, <liquid:ammonia>*100, <liquid:carbon_dioxide>*400, <liquid:methane>*600])
+    .duration(75)
+    .EUt(180)
+    .buildAndRegister();
+
+RefineryTower
+    .recipeBuilder()
+    .fluidInputs(<liquid:biocrude>*1050)
+	.fluidOutputs([<liquid:acetic_acid>*25, <liquid:water>*375, <liquid:methanol>*150, <liquid:ammonia>*100, <liquid:carbon_dioxide>*400])
+    .duration(40)
+    .EUt(150)
+    .buildAndRegister();
+
+#---PetroChem---
 #--Crude Oil--
 RefineryTower.findRecipe(96, [null], [<liquid:oil>*50]).remove();
 RefineryTower

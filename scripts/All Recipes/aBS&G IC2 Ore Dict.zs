@@ -118,6 +118,9 @@ print("IC what you did there");
 #-items
 <ore:ballRubber>.add(<ic2:crafting:0>);
 
+<ore:plantball>.add(<ic2:crafting:20>);
+<ore:biochaff>.add(<ic2:crafting:21>);
+
 <ore:casingBronze>.add(<ic2:casing:0>);
 <ore:casingCopper>.add(<ic2:casing:1>);
 <ore:casingGold>.add(<ic2:casing:2>);

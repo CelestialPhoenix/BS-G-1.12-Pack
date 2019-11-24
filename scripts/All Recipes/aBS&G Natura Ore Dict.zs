@@ -7,6 +7,9 @@ print("O-Natura");
 <ore:dustSulfur>.remove(<natura:materials:4>);
 <ore:dustSulphur>.remove(<natura:materials:4>);
 
+#plants
+<ore:blockCactus>.add(<natura:saguaro>);
+
 #---Logs---
 #--Gtech fix--
 <ore:logWood>.remove(<natura:overworld_logs:0>);

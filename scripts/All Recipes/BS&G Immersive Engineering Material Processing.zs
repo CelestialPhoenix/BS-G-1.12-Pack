@@ -127,6 +127,9 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlizz>.firstItem*3, <ore:ro
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlitz>.firstItem*3, <ore:rodBlitz>, 4096, <ore:dustSaltpeter>.firstItem, 0.5);
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalz>.firstItem*3, <ore:rodBasalz>, 4096, <ore:dustObsidian>.firstItem, 0.5);
 
+#---Fermenter---
+#mods.immersiveengineering.Fermenter.addRecipe(<minecraft:diamond>, <liquid:water>, <ore:logWood>, 2048);
+
 #---Metal Press---
 #--removed recipes--
 #IC2 plates [plate mould]- in IC2 Materials.zs
@@ -399,6 +402,29 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsteel>, <or
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolleduranium>, <ore:plateUranium>, <contenttweaker:presstoolroller>, 1000, 1);
 
 #---Mixer---
+#mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
+
+#Biomass
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*180, <liquid:water>*180, [<ore:biochaff>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*220, <liquid:water>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:juice>*180, [<ore:biochaff>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:juice>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:honey>*180, [<ore:biochaff>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:honey>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*160, <liquid:water>*160, [<ore:plantball>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*200, <liquid:water>*200, [<ore:plantball>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*240, <liquid:juice>*160, [<ore:plantball>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*300, <liquid:juice>*200, [<ore:plantball>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*240, <liquid:honey>*160, [<ore:plantball>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*300, <liquid:honey>*200, [<ore:plantball>, <ore:dustWood>], 2048);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*20, <liquid:water>*20, [<ore:itemBiomass>], 256);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*24, <liquid:water>*24, [<ore:itemBiomass>.firstItem, <ore:dustTinyWood>], 256);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*30, <liquid:honey>*20, [<ore:itemBiomass>], 256);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*36, <liquid:honey>*24, [<ore:itemBiomass>.firstItem, <ore:dustTinyWood>], 256);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*30, <liquid:honey>*20, [<ore:itemBiomass>], 256);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*36, <liquid:honey>*24, [<ore:itemBiomass>.firstItem, <ore:dustTinyWood>], 256);
 
 #---Refinery---
 #mods.immersiveengineering.Refinery.addRecipe(<liquid:iron>, <liquid:water>, <liquid:lava>, 2048);
@@ -411,3 +437,50 @@ mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*100, <liquid:ethanol>*55, <liquid:seed_oil>*45, 5);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel>*100, <liquid:methanol>*45, <liquid:seed_oil>*55, 5);
 
+#---Squeezer---
+#mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:water>);
+#mods.immersiveengineering.Squeezer.addRecipe(<minecraft:diamond>, <liquid:water>, <ore:logWood>, 2048);
+
+#Biomass
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*80, <ore:treeSapling>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*5, <ore:cropPotato>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*5, <ore:sugarcane>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*5, <ore:mushroom>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*10, <ore:cropBeetroot>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:biomass>*10, <minecraft:melon>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:plantball>.firstItem, <liquid:biomass>*90, <minecraft:melon_block>, 128);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:plantball>.firstItem, <liquid:biomass>*90, <minecraft:pumpkin>, 128);
+
+#Seed oil (replace plant oil)
+mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*10, <ore:seedBeetroot>, 256);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*10, <ore:seedMelon>, 256);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*10, <ore:seedPumpkin>, 256);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*10, <ore:seedWheat>, 256);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*20, <immersiveengineering:seed>, 256);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*50, <ore:cropCherry>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*220, <ore:cropChestnet>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:seed_oil>*180, <ore:cropWalnut>, 512);
+
+#Fruit Juice
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*200, <ore:cropApple>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*200, <ore:cropCarrot>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*400, <ore:cropLemon>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*600, <ore:cropPapaya>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*50, <ore:cropDate>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*200, <ore:cropPeach>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*200, <ore:cropPear>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*100, <ore:cropPlum>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*100, <natura:saguaro_fruit_item>, 512);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:2>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:3>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:4>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:5>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:6>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:7>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:8>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*8, <natura:edibles:9>, 32);
+mods.immersiveengineering.Squeezer.addRecipe(<ore:itemBiomass>.firstItem, <liquid:juice>*100, <natura:edibles:10>, 512);
+
+#Water
+mods.immersiveengineering.Squeezer.addRecipe(<minecraft:dye:2>, <liquid:water>*500, <ore:blockCactus>, 512);

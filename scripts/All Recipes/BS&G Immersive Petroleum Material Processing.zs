@@ -6,6 +6,13 @@ print("Trust me I'm an engineer");
 #---Recipes---
 //mods.immersivepetroleum.Distillation.addRecipe(ILiquidStack[] fluidOutputs, IItemStack[] itemOutputs, ILiquidStack fluidInput, int energy, int time, float[] chance)
 
+#---Biofuels---
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:biocrude>*105, <liquid:ethanol>*15, <liquid:methane>*60], [<forestry:mulch>*1], <liquid:fermented_biomass>*100, 50, 50, [0.1]);
+
+#Charcoal
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:wood_tar>*25, <liquid:wood_vinegar>*50, <liquid:wood_gas>*25], [<ore:dustSmallCharcoal>.firstItem*1], <liquid:charcoal_byproducts>*100, 50, 50, [0.1]);
+
+#---Petrochem---
 #--Crude Oil--
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:oil_heavy>*35, <liquid:oil_medium>*55, <liquid:oil_light>*25, <liquid:natural_gas>*15], [<immersivepetroleum:material>*1], <liquid:oil>*100, 100, 100, [1]);
 
