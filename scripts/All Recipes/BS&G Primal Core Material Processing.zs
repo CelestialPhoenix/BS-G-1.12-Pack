@@ -238,9 +238,9 @@ recipes.addShaped(<ore:logStackGoodLight>.firstItem, [
 [<ore:logMangrove>, <ore:logMangrove>, <ore:logMangrove>]]);
 
 recipes.addShaped(<ore:logStackPoorLight>.firstItem, [
-[<ore:logPalmBop>, <ore:logPalmBop>, <ore:logPalmBop>],
-[<ore:logPalmBop>, <ore:logPalmBop>, <ore:logPalmBop>],
-[<ore:logPalmBop>, <ore:logPalmBop>, <ore:logPalmBop>]]);
+[<ore:logPalmBoP>, <ore:logPalmBoP>, <ore:logPalmBoP>],
+[<ore:logPalmBoP>, <ore:logPalmBoP>, <ore:logPalmBoP>],
+[<ore:logPalmBoP>, <ore:logPalmBoP>, <ore:logPalmBoP>]]);
 
 recipes.addShaped(<ore:logStackPoorDark>.firstItem, [
 [<ore:logRedwoodBoP>, <ore:logRedwoodBoP>, <ore:logRedwoodBoP>],
@@ -253,9 +253,9 @@ recipes.addShaped(<ore:logStackFairLight>.firstItem, [
 [<ore:logWillowBoP>, <ore:logWillowBoP>, <ore:logWillowBoP>]]);
 
 recipes.addShaped(<ore:logStackFairLight>.firstItem, [
-[<ore:logPineBop>, <ore:logPineBop>, <ore:logPineBop>],
-[<ore:logPineBop>, <ore:logPineBop>, <ore:logPineBop>],
-[<ore:logPineBop>, <ore:logPineBop>, <ore:logPineBop>]]);
+[<ore:logPineBoP>, <ore:logPineBoP>, <ore:logPineBoP>],
+[<ore:logPineBoP>, <ore:logPineBoP>, <ore:logPineBoP>],
+[<ore:logPineBoP>, <ore:logPineBoP>, <ore:logPineBoP>]]);
 
 recipes.addShaped(<ore:logStackHighLight>.firstItem, [
 [<ore:logHellbark>, <ore:logHellbark>, <ore:logHellbark>],
@@ -268,14 +268,14 @@ recipes.addShaped(<ore:logStackGoodLight>.firstItem, [
 [<ore:logJacaranda>, <ore:logJacaranda>, <ore:logJacaranda>]]);
 
 recipes.addShaped(<ore:logStackHighLight>.firstItem, [
-[<ore:logMahoganyBop>, <ore:logMahoganyBop>, <ore:logMahoganyBop>],
-[<ore:logMahoganyBop>, <ore:logMahoganyBop>, <ore:logMahoganyBop>],
-[<ore:logMahoganyBop>, <ore:logMahoganyBop>, <ore:logMahoganyBop>]]);
+[<ore:logMahoganyBoP>, <ore:logMahoganyBoP>, <ore:logMahoganyBoP>],
+[<ore:logMahoganyBoP>, <ore:logMahoganyBoP>, <ore:logMahoganyBoP>],
+[<ore:logMahoganyBoP>, <ore:logMahoganyBoP>, <ore:logMahoganyBoP>]]);
 
 recipes.addShaped(<ore:logStackHighDark>.firstItem, [
-[<ore:logEbonyBop>, <ore:logEbonyBop>, <ore:logEbonyBop>],
-[<ore:logEbonyBop>, <ore:logEbonyBop>, <ore:logEbonyBop>],
-[<ore:logEbonyBop>, <ore:logEbonyBop>, <ore:logEbonyBop>]]);
+[<ore:logEbonyBoP>, <ore:logEbonyBoP>, <ore:logEbonyBoP>],
+[<ore:logEbonyBoP>, <ore:logEbonyBoP>, <ore:logEbonyBoP>],
+[<ore:logEbonyBoP>, <ore:logEbonyBoP>, <ore:logEbonyBoP>]]);
 
 recipes.addShaped(<ore:logStackGoodLight>.firstItem, [
 [<ore:logEucalyptusBoP>, <ore:logEucalyptusBoP>, <ore:logEucalyptusBoP>],

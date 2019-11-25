@@ -691,7 +691,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPalmBop>.firstItem*16)
+    .inputs(<ore:logPalmBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:creosote>*3000])
 	.property("circuit", 0)
@@ -701,7 +701,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPalmBop>.firstItem*16)
+    .inputs(<ore:logPalmBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3000])
 	.property("circuit", 1)
@@ -711,7 +711,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPalmBop>.firstItem*16)
+    .inputs(<ore:logPalmBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:creosote>*3000])
 	.property("circuit", 2)
@@ -721,7 +721,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPalmBop>.firstItem*16)
+    .inputs(<ore:logPalmBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3000])
 	.property("circuit", 3)
@@ -811,7 +811,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPineBop>.firstItem*16)
+    .inputs(<ore:logPineBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 0)
@@ -821,7 +821,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPineBop>.firstItem*16)
+    .inputs(<ore:logPineBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 1)
@@ -831,7 +831,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPineBop>.firstItem*16)
+    .inputs(<ore:logPineBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 2)
@@ -841,7 +841,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPineBop>.firstItem*16)
+    .inputs(<ore:logPineBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 3)
@@ -931,7 +931,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMahoganyBop>.firstItem*16)
+    .inputs(<ore:logMahoganyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 0)
@@ -941,7 +941,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMahoganyBop>.firstItem*16)
+    .inputs(<ore:logMahoganyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 2)
@@ -951,7 +951,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMahoganyBop>.firstItem*16)
+    .inputs(<ore:logMahoganyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 3)
@@ -961,7 +961,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMahoganyBop>.firstItem*16)
+    .inputs(<ore:logMahoganyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 1)
@@ -971,7 +971,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logEbonyBop>.firstItem*16)
+    .inputs(<ore:logEbonyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 0)
@@ -981,7 +981,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logEbonyBop>.firstItem*16)
+    .inputs(<ore:logEbonyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 2)
@@ -991,7 +991,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logEbonyBop>.firstItem*16)
+    .inputs(<ore:logEbonyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 3)
@@ -1001,7 +1001,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logEbonyBop>.firstItem*16)
+    .inputs(<ore:logEbonyBoP>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 1)
