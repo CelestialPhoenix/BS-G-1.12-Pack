@@ -207,4 +207,123 @@ var crystalDreadia=(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, 
 mods.thaumcraft.Crucible.registerRecipe("crystalDreadia", "", crystalDreadia*2, crystalDreadia, [<aspect:vitreus>*2, <aspect:dreadia>*1]);
 
 #---Phial filling---
+var phialAer=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAer", "", phialAer*1, <thaumcraft:phial:0>, [<aspect:aer>*10]);
+
+var phialTerra=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "terra"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialTerra", "", phialTerra*1, <thaumcraft:phial:0>, [<aspect:terra>*10]);
+
+var phialIgnis=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ignis"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialIgnis", "", phialIgnis*1, <thaumcraft:phial:0>, [<aspect:ignis>*10]);
+
+var phialAqua=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aqua"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAqua", "", phialAqua*1, <thaumcraft:phial:0>, [<aspect:aqua>*10]);
+
+var phialOrdo=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialOrdo", "", phialOrdo*1, <thaumcraft:phial:0>, [<aspect:ordo>*10]);
+
+var phialPerditio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "perditio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialPerditio", "", phialPerditio*1, <thaumcraft:phial:0>, [<aspect:perditio>*10]);
+
+var phialVacuos=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVacuos", "", phialVacuos*1, <thaumcraft:phial:0>, [<aspect:vacuos>*10]);
+
+var phialLux=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "lux"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialLux", "", phialLux*1, <thaumcraft:phial:0>, [<aspect:lux>*10]);
+
+var phialMotus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "motus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialMotus", "", phialMotus*1, <thaumcraft:phial:0>, [<aspect:motus>*10]);
+
+var phialGelum=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "gelum"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialGelum", "", phialGelum*1, <thaumcraft:phial:0>, [<aspect:gelum>*10]);
+
+var phialVitreus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitreus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVitreus", "", phialVitreus*1, <thaumcraft:phial:0>, [<aspect:vitreus>*10]);
+
+var phialMetallum=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "metallum"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialMetallum", "", phialMetallum*1, <thaumcraft:phial:0>, [<aspect:metallum>*10]);
+
+var phialVictus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVictus", "", phialVictus*1, <thaumcraft:phial:0>, [<aspect:victus>*10]);
+
+var phialMortuus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "mortuus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialMortuus", "", phialMortuus*1, <thaumcraft:phial:0>, [<aspect:mortuus>*10]);
+
+var phialPotentia=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "potentia"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialPotentia", "", phialPotentia*1, <thaumcraft:phial:0>, [<aspect:potentia>*10]);
+
+var phialPermutatio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "permutatio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialPermutatio", "", phialPermutatio*1, <thaumcraft:phial:0>, [<aspect:permutatio>*10]);
+
+var phialPraecantatio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialPraecantatio", "", phialPraecantatio*1, <thaumcraft:phial:0>, [<aspect:praecantatio>*10]);
+
+var phialAuram=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "auram"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAuram", "", phialAuram*1, <thaumcraft:phial:0>, [<aspect:auram>*10]);
+
+var phialAlkimia=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "alkimia"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAlkimia", "", phialAlkimia*1, <thaumcraft:phial:0>, [<aspect:alkimia>*10]);
+
+var phialVitium=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVitium", "", phialVitium*1, <thaumcraft:phial:0>, [<aspect:vitium>*10]);
+
+var phialTenebrae=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "tenebrae"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialTenebrae", "", phialTenebrae*1, <thaumcraft:phial:0>, [<aspect:tenebrae>*10]);
+
+var phialAlienis=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "alienis"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAlienis", "", phialAlienis*1, <thaumcraft:phial:0>, [<aspect:alienis>*10]);
+
+var phialVolatus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "volatus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVolatus", "", phialVolatus*1, <thaumcraft:phial:0>, [<aspect:volatus>*10]);
+
+var phialHerba=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialHerba", "", phialHerba*1, <thaumcraft:phial:0>, [<aspect:herba>*10]);
+
+var phialInstrumentum=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "instrumentum"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialInstrumentum", "", phialInstrumentum*1, <thaumcraft:phial:0>, [<aspect:instrumentum>*10]);
+
+var phialFabrico=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "fabrico"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialFabrico", "", phialFabrico*1, <thaumcraft:phial:0>, [<aspect:fabrico>*10]);
+
+var phialMachina=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "machina"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialMachina", "", phialMachina*1, <thaumcraft:phial:0>, [<aspect:machina>*10]);
+
+var phialVinculum=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vinculum"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialVinculum", "", phialVinculum*1, <thaumcraft:phial:0>, [<aspect:vinculum>*10]);
+
+var phialSpiritus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "spiritus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialSpiritus", "", phialSpiritus*1, <thaumcraft:phial:0>, [<aspect:spiritus>*10]);
+
+var phialCognitio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "cognitio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialCognitio", "", phialCognitio*1, <thaumcraft:phial:0>, [<aspect:cognitio>*10]);
+
+var phialSensus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "sensus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialSensus", "", phialSensus*1, <thaumcraft:phial:0>, [<aspect:sensus>*10]);
+
+var phialAversio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aversio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialAversio", "", phialAversio*1, <thaumcraft:phial:0>, [<aspect:aversio>*10]);
+
+var phialPraemunio=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praemunio"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialPraemunio", "", phialPraemunio*1, <thaumcraft:phial:0>, [<aspect:praemunio>*10]);
+
+var phialDesiderium=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "desiderium"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialDesiderium", "", phialDesiderium*1, <thaumcraft:phial:0>, [<aspect:desiderium>*10]);
+
+var phialExanimus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "exanimis"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialExanimus", "", phialExanimus*1, <thaumcraft:phial:0>, [<aspect:exanimis>*10]);
+
+var phialBestia=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "bestia"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialBestia", "", phialBestia*1, <thaumcraft:phial:0>, [<aspect:bestia>*10]);
+
+var phialHumanus=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "humanus"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialHumanus", "", phialHumanus*1, <thaumcraft:phial:0>, [<aspect:humanus>*10]);
+
+var phialCoralos=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "coralos"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialCoralos", "", phialCoralos*1, <thaumcraft:phial:0>, [<aspect:coralos>*10]);
+
+var phialDreadia=(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "dreadia"}]}));
+mods.thaumcraft.Crucible.registerRecipe("phialDreadia", "", phialDreadia*1, <thaumcraft:phial:0>, [<aspect:dreadia>*10]);
+
+
+
 
