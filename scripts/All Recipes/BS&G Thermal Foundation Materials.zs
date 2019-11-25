@@ -6,7 +6,8 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #banned items/recipes
 
 #---Naming Materials---
-
+#Bitumen
+<thermalfoundation:material:892>.displayName= "Tar";
 #Slag
 <thermalfoundation:material:864>.displayName= "Clinker";
 <thermalfoundation:material:865>.displayName= "Lustrous Clinker";

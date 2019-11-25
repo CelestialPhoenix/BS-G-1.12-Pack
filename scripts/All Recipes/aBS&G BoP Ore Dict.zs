@@ -45,14 +45,14 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:logEthereal>.add(<biomesoplenty:log_1:4>);
 <ore:logMagic>.add(<biomesoplenty:log_1:5>);
 <ore:logMangrove>.add(<biomesoplenty:log_1:6>);
-<ore:logPalm>.add(<biomesoplenty:log_1:7>);
+<ore:logPalmBoP>.add(<biomesoplenty:log_1:7>);
 <ore:logRedwoodBoP>.add(<biomesoplenty:log_2:4>);
 <ore:logWillowBoP>.add(<biomesoplenty:log_2:5>);
-<ore:logPine>.add(<biomesoplenty:log_2:6>);
+<ore:logPineBop>.add(<biomesoplenty:log_2:6>);
 <ore:logHellbark>.add(<biomesoplenty:log_2:7>);
 <ore:logJacaranda>.add(<biomesoplenty:log_3:4>);
-<ore:logMahogany>.add(<biomesoplenty:log_3:5>);
-<ore:logEbony>.add(<biomesoplenty:log_3:6>);
+<ore:logMahoganyBop>.add(<biomesoplenty:log_3:5>);
+<ore:logEbonyBop>.add(<biomesoplenty:log_3:6>);
 <ore:logEucalyptusBoP>.add(<biomesoplenty:log_3:7>);
 <ore:logDead>.add(<biomesoplenty:log_4:5>);
 

@@ -202,3 +202,10 @@ print("There are no bodies buried into the foundations. You can stop looking now
 
 <ore:plateEnderium>.remove(<thermalfoundation:material:359>);
 <ore:plateThickEnderium>.add(<thermalfoundation:material:359>);
+
+#Materials
+<ore:clathrateOil>.remove(<thermalfoundation:material:892>);
+<ore:crystalCrudeOil>.remove(<thermalfoundation:material:892>);
+<ore:tar>.add(<thermalfoundation:material:892>);
+
+

@@ -40,6 +40,112 @@ Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:steamcracked_butadiene>*2000]).remove();
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:steamcracked_butadiene>*2000]).remove();
 
+#Replaced recipes in Ref tower
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:hydrocracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:hydrocracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:hydrocracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:hydrocracked_light_fuel>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 6})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 7})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 8})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 9})], [<liquid:cracked_light_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 10})], [<liquid:cracked_light_fuel>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:hydrocracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:hydrocracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:hydrocracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 6})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 7})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 8})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 9})], [<liquid:steamcracked_naphtha>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 10})], [<liquid:steamcracked_naphtha>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:hydrocracked_heavy_fuel>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 6})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 7})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 8})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 9})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 10})], [<liquid:cracked_heavy_fuel>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:hydrocracked_gas>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:hydrocracked_gas>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:hydrocracked_gas>*1000]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:steamcracked_gas>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:steamcracked_gas>*800]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:steamcracked_gas>*800]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:steamcracked_gas>*800]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:steamcracked_gas>*800]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:oil_light>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:oil_light>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:oil_light>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:oil_light>*150]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:oil_medium>*100]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:oil_medium>*100]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:oil_medium>*100]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:oil_medium>*100]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:oil_heavy>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:oil_heavy>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:oil_heavy>*150]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:oil_heavy>*150]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:oil>*50]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:oil>*50]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:oil>*50]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:oil>*50]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:diluted_hydrochloric_acid>*2000]).remove(); //produces water
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:diluted_sulfuric_acid>*3000]).remove(); //produces water
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:heavy_fuel>*10]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:heavy_fuel>*10]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:heavy_fuel>*20]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:oil_light>*300]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:oil_medium>*200]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:oil_heavy>*100]).remove();
+
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 0})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 2})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 3})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 4})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:fermented_biomass>*1000]).remove();
+Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 6})], [<liquid:fermented_biomass>*1000]).remove();
+
+
+
+
 
 
 

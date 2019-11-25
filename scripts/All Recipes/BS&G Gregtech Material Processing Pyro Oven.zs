@@ -691,7 +691,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPalm>.firstItem*16)
+    .inputs(<ore:logPalmBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:creosote>*3000])
 	.property("circuit", 0)
@@ -701,7 +701,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPalm>.firstItem*16)
+    .inputs(<ore:logPalmBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3000])
 	.property("circuit", 1)
@@ -711,7 +711,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPalm>.firstItem*16)
+    .inputs(<ore:logPalmBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:creosote>*3000])
 	.property("circuit", 2)
@@ -721,7 +721,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPalm>.firstItem*16)
+    .inputs(<ore:logPalmBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*14)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3000])
 	.property("circuit", 3)
@@ -811,7 +811,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPine>.firstItem*16)
+    .inputs(<ore:logPineBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 0)
@@ -821,7 +821,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logPine>.firstItem*16)
+    .inputs(<ore:logPineBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 1)
@@ -831,7 +831,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPine>.firstItem*16)
+    .inputs(<ore:logPineBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 2)
@@ -841,7 +841,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logPine>.firstItem*16)
+    .inputs(<ore:logPineBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*17)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 3)
@@ -931,7 +931,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMahogany>.firstItem*16)
+    .inputs(<ore:logMahoganyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 0)
@@ -941,7 +941,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMahogany>.firstItem*16)
+    .inputs(<ore:logMahoganyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 2)
@@ -951,7 +951,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMahogany>.firstItem*16)
+    .inputs(<ore:logMahoganyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 3)
@@ -961,7 +961,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMahogany>.firstItem*16)
+    .inputs(<ore:logMahoganyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 1)
@@ -971,7 +971,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logEbony>.firstItem*16)
+    .inputs(<ore:logEbonyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 0)
@@ -981,7 +981,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logEbony>.firstItem*16)
+    .inputs(<ore:logEbonyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 2)
@@ -991,7 +991,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logEbony>.firstItem*16)
+    .inputs(<ore:logEbonyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 3)
@@ -1001,7 +1001,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logEbony>.firstItem*16)
+    .inputs(<ore:logEbonyBop>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*24)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
 	.property("circuit", 1)
@@ -2373,6 +2373,1209 @@ PyroOven
     .EUt(96)
     .buildAndRegister();
 
+#Forestry Fireproof
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofLarch>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofLarch>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofLarch>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofLarch>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofTeak>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*28)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofTeak>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*28)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofTeak>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*28)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofTeak>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*28)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofDesertAcacia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*3400])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofDesertAcacia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3400])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofDesertAcacia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*3400])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofDesertAcacia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3400])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofLime>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*3500])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofLime>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3500])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofLime>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*3500])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofLime>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3500])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofChestnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofChestnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofChestnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofChestnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWenge>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWenge>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWenge>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWenge>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofBaobob>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:creosote>*4500])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofBaobob>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4500])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofBaobob>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:creosote>*4500])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofBaobob>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4500])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofKapok>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofKapok>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofKapok>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder().fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofKapok>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofEbony>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4400])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofEbony>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4400])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofEbony>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4400])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofEbony>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4400])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMahogany>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4600])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMahogany>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4600])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMahogany>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4600])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMahogany>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4600])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofBalsa>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*2800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofBalsa>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*2800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofBalsa>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*2800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofBalsa>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*2800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWillow>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*17)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWillow>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*17)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWillow>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*17)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWillow>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*17)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWalnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofWalnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWalnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofWalnut>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofGreenheart>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofGreenheart>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofGreenheart>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofGreenheart>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCherry>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCherry>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCherry>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCherry>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMahoe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:creosote>*4500])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMahoe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4500])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMahoe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:creosote>*4500])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMahoe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4500])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPoplar>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:creosote>*3600])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPoplar>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPoplar>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:creosote>*3600])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPoplar>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*19)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPalm>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*3600])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPalm>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*16)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPalm>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*3600])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPalm>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*16)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPapaya>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPapaya>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPapaya>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPapaya>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPine>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPine>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPine>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPine>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*22)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPlum>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPlum>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPlum>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPlum>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*18)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMaple>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofMaple>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMaple>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofMaple>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCitrus>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCitrus>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCitrus>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:creosote>*4200])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCitrus>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*20)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4200])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofGiantSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofGiantSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofGiantSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*3800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofGiantSequoia>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*3800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofIpe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofIpe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofIpe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofIpe>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*24)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPadauk>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4400])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofPadauk>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4400])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPadauk>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4400])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofPadauk>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4400])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCocobolo>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4800])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofCocobolo>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4800])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCocobolo>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:creosote>*4800])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofCocobolo>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*26)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4800])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofZebrawood>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:logFireproofZebrawood>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 1)
+    .duration(440)
+    .EUt(64)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofZebrawood>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 2)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:logFireproofZebrawood>.firstItem*16)
+    .outputs(<ore:gemCharcoal>.firstItem*23)
+	.fluidOutputs([<liquid:charcoal_byproducts>*4000])
+	.property("circuit", 3)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
 #IC2
 PyroOven
     .recipeBuilder()
@@ -2419,7 +3622,7 @@ PyroOven
 #Natura
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMaple>.firstItem*16)
+    .inputs(<ore:logMapleNat>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*20)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 0)
@@ -2429,7 +3632,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:logMaple>.firstItem*16)
+    .inputs(<ore:logMapleNat>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*20)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 1)
@@ -2440,7 +3643,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
 	.fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMaple>.firstItem*16)
+    .inputs(<ore:logMapleNat>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*20)
 	.fluidOutputs([<liquid:creosote>*3600])
 	.property("circuit", 2)
@@ -2451,7 +3654,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
 	.fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:logMaple>.firstItem*16)
+    .inputs(<ore:logMapleNat>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*20)
 	.fluidOutputs([<liquid:charcoal_byproducts>*3600])
 	.property("circuit", 3)

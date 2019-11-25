@@ -5,14 +5,23 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-val FluidSolidiier as RecipeMap = RecipeMap.getByName("fluid_solidifier");
+val FluidSolidifier as RecipeMap = RecipeMap.getByName("fluid_solidifier");
 
-#---Fluid Extraction---
+#---Fluid Solidiication---
 #Bitumin
-FluidSolidiier
+FluidSolidifier
     .recipeBuilder()
     .fluidInputs([<liquid:bitumen>*100])
 	.outputs(<immersivepetroleum:material>*1)
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#Tar
+FluidSolidifier
+    .recipeBuilder()
+    .fluidInputs([<liquid:tar>*100])
+	.outputs(<thermalfoundation:material:892>*1)
     .duration(100)
     .EUt(24)
     .buildAndRegister();

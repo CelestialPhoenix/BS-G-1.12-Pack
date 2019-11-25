@@ -373,5 +373,22 @@ ChemReactor
     .EUt(15)
     .buildAndRegister();
 
+#---Replaced in Chem Reactor---
+#Refinary Tower
+ChemReactor
+    .recipeBuilder()
+    .fluidInputs(<liquid:calcium_acetate>*1000)
+	.outputs(<ore:dustSmallQuicklime>.firstItem*3)
+	.fluidOutputs([<liquid:acetone>*1000, <liquid:carbon_dioxide>*1000])
+    .duration(320)
+    .EUt(120)
+    .buildAndRegister();
 
-
+ChemReactor
+    .recipeBuilder()
+    .fluidInputs(<liquid:acetone>*1000)
+	.outputs(<ore:dustSmallQuicklime>.firstItem*3)
+	.fluidOutputs([<liquid:ethenone>*1000, <liquid:methane>*1000])
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();

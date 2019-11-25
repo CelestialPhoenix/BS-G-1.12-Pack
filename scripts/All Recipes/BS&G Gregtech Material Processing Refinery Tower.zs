@@ -6,6 +6,19 @@ import mods.gregtech.recipe.RecipeMap;
 print("Hello Boys- I'm Baaaaack!!!");
 
 val RefineryTower as RecipeMap = RecipeMap.getByName("distillation_tower");
+#---Tidying Recipes---
+#Removed Recipes
+RefineryTower.findRecipe(96, [null], [<liquid:creosote>*24]).remove(); //Lubricant
+RefineryTower.findRecipe(64, [null], [<liquid:diluted_hydrochloric_acid>*2000]).remove(); //Hydrochloric Acid
+RefineryTower.findRecipe(120, [null], [<liquid:diluted_sulfuric_acid>*3000]).remove(); //Sulphuric Acid
+RefineryTower.findRecipe(120, [null], [<liquid:water>*576]).remove(); //Hydrochloric Acid
+RefineryTower.findRecipe(96, [null], [<liquid:seed_oil>*24]).remove(); //Lubricant 
+RefineryTower.findRecipe(400, [null], [<liquid:biomass>*1000]).remove(); //Biomass (un-fermented)
+
+#Replaced in Chem Reactor
+RefineryTower.findRecipe(480, [null], [<liquid:calcium_acetate>*1000]).remove(); //Acetone+byproduct recipe
+RefineryTower.findRecipe(640, [null], [<liquid:acetone>*1000]).remove(); //Ethnone recipe
+
 
 #---Biofuels---
 RefineryTower.findRecipe(180, [null], [<liquid:fermented_biomass>*1000]).remove();
