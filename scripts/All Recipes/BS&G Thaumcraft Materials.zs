@@ -199,3 +199,12 @@ mods.thaumcraft.Crucible.registerRecipe("crystalBestia", "", crystalBestia*2, cr
 
 var crystalHumanus=(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "humanus"}]}));
 mods.thaumcraft.Crucible.registerRecipe("crystalHumanus", "", crystalHumanus*2, crystalHumanus, [<aspect:vitreus>*2, <aspect:humanus>*1]);
+
+var crystalCoralos=(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}));
+mods.thaumcraft.Crucible.registerRecipe("crystalCoralos", "", crystalCoralos*2, crystalCoralos, [<aspect:vitreus>*2, <aspect:coralos>*1]);
+
+var crystalDreadia=(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]}));
+mods.thaumcraft.Crucible.registerRecipe("crystalDreadia", "", crystalDreadia*2, crystalDreadia, [<aspect:vitreus>*2, <aspect:dreadia>*1]);
+
+#---Phial filling---
+
