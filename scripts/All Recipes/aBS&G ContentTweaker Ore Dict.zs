@@ -163,6 +163,13 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreThorite>.add(<contenttweaker:orebasaltthorite>);
 <ore:oreZircon>.add(<contenttweaker:orebasaltzircon>);
 
+#Clay
+#<ore:ore>.add(<contenttweaker:oreclay>);
+<ore:oreAluminium>.add(<contenttweaker:oreclayaluminium>);
+<ore:oreLithium>.add(<contenttweaker:oreclaylithium>);
+<ore:oreSilicon>.add(<contenttweaker:oreclaysilicon>);
+<ore:oreSodium>.add(<contenttweaker:oreclaysodium>);
+
 #Darkstone
 <ore:oreNaquadite>.add(<contenttweaker:oredarkstonenaquadite>);
 <ore:oreNaquarrite>.add(<contenttweaker:oredarkstonenaquarrite>);
@@ -240,8 +247,11 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreHubnerite>.add(<contenttweaker:oreobsidianhubnerite>);
 <ore:oreBauxite>.add(<contenttweaker:oreobsidianbauxite>);
 <ore:oreIlmenite>.add(<contenttweaker:oreobsidianilmenite>);
+<ore:oreIron>.add(<contenttweaker:oreobsidianiron>);
+<ore:oreMagnesium>.add(<contenttweaker:oreobsidianmagnesium>);
 <ore:orePsudobrookite>.add(<contenttweaker:oreobsidianpsudobrookite>);
 <ore:oreScheelite>.add(<contenttweaker:oreobsidianscheelite>);
+<ore:oreSilicon>.add(<contenttweaker:oreobsidiansilicon>);
 <ore:oreTungstate>.add(<contenttweaker:oreobsidiantungstate>);
 <ore:oreWolframite>.add(<contenttweaker:oreobsidianwolframite>);
 

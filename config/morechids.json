@@ -1,0 +1,12 @@
+{
+    "bloodied_orechid": {
+        "manaCost": 17500,
+        "timeCost": 200,
+        "cooldown": 0,
+        "color": "EE0011",
+        "range": 1,
+        "rangeY": 0,
+        "playSound": true
+        "blockBreakParticles ": true
+    }
+}

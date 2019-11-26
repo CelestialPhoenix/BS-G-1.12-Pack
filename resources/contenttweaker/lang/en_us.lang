@@ -63,6 +63,11 @@ tile.contenttweaker.orebasaltsapphire.name=Sapphire Ore
 tile.contenttweaker.orebasaltthorite.name=Thorite
 tile.contenttweaker.orebasaltzircon.name=Zircon
 
+tile.contenttweaker.oreclayaluminium.name=Aluminium Ore
+tile.contenttweaker.oreclaylithium.name=Lithium Ore
+tile.contenttweaker.oreclaysilicon.name=Silicon Ore
+tile.contenttweaker.oreclaysodium.name=Sodium Ore
+
 tile.contenttweaker.oredirtlignite.name=Lignite
 
 tile.contenttweaker.oredolomitemagnesite.name=Magnesite
@@ -127,8 +132,11 @@ tile.contenttweaker.oreobsidianbauxite.name=Bauxite
 tile.contenttweaker.oreobsidianferberite.name=Ferberite
 tile.contenttweaker.oreobsidianhubnerite.name=Hubnerite
 tile.contenttweaker.oreobsidianilmenite.name=Ilmenite
+tile.contenttweaker.oreobsidianiron.name=Iron Ore
+tile.contenttweaker.oreobsidianmagnesium.name=Magnesium Ore
 tile.contenttweaker.oreobsidianpsudobrookite.name=Psudobrookite
 tile.contenttweaker.oreobsidianscheelite.name=Scheelite
+tile.contenttweaker.oreobsidiansilicon.name=Silicon Ore
 tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 

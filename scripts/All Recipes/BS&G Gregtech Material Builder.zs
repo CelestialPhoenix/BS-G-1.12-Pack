@@ -25,8 +25,8 @@ brass.addFlags(["GENERATE_SMALL_GEAR"]);
 var calcium = <material:calcium>;
 calcium.addFlags(["GENERATE_ORE"]);
 
-#var charcoal = <material:charcoal>;
-#charcoal.burnTime = 400;
+var carbon = <material:carbon>;
+carbon.addFlags(["GENERATE_ORE"]);
 
 var cobalt = <material:cobalt>;
 cobalt.addFlags(["GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
@@ -60,6 +60,9 @@ potassium.addFlags(["GENERATE_ORE"]);
 
 var sodium = <material:sodium>;
 sodium.addFlags(["GENERATE_ORE"]);
+
+var silicon = <material:silicon>;
+silicon.addFlags(["GENERATE_ORE"]);
 
 val rare_earth = <material:rare_earth>;
 rare_earth.addFlags(["GENERATE_ORE"]);

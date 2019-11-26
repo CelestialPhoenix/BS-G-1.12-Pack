@@ -32,3 +32,12 @@ OreDreadedObsidianAluminium.setToolLevel(3);
 OreDreadedObsidianAluminium.setBlockSoundType(<soundtype:stone>);
 OreDreadedObsidianAluminium.setSlipperiness(0.6);
 OreDreadedObsidianAluminium.register();
+
+var OreClayAluminium= VanillaFactory.createBlock("oreclayaluminium", <blockmaterial:rock>);
+OreClayAluminium.setBlockHardness(3.0);
+OreClayAluminium.setBlockResistance(5.0);
+OreClayAluminium.setToolClass("shovel");
+OreClayAluminium.setToolLevel(0);
+OreClayAluminium.setBlockSoundType(<soundtype:ground>);
+OreClayAluminium.setSlipperiness(0.6);
+OreClayAluminium.register();

@@ -2,9 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/ores/ores/oreobsidianaluminium"
+      "texture": "contenttweaker:blocks/ores/oreobsidiansilicon",
+      "particle": "contenttweaker:blocks/ores/oreobsidiansilicon"
     },
-    "model": "cube_all",
+    "model": "base:storage",
     "uvlock": true,
     "transform": "forge:default-block"
   },

@@ -197,8 +197,19 @@ print("Hello Boys- I'm Baaaaack!!!");
 #-Omothol-
 #-Darklands-
 
+#--Stones--
+#Basalt
+<ore:stoneBasalt>.add(<gregtech:mineral:2>);
+
 #Cobbletone
 <ore:cobblestoneBasalt>.add(<gregtech:mineral:6>);
 <ore:cobblestoneBlackGranite>.add(<gregtech:granite:4>);
 <ore:cobblestoneMarble>.add(<gregtech:mineral:4>);
 <ore:cobblestoneRedGranite>.add(<gregtech:granite:5>);
+
+#Granite
+<ore:stoneGraniteBlack>.add(<gregtech:granite:0>);
+<ore:stoneGraniteRed>.add(<gregtech:granite:1>);
+#Marble
+<ore:stoneMarble>.add(<gregtech:mineral:0>);
+
