@@ -134,6 +134,11 @@ print("Going Primal. Not unlike going commando");
 <ore:slimeball>.remove(<primal:muck_molten>);
 <ore:slimeball>.remove(<primal:sinuous_resin>);
 
+#--Misc--
+<ore:itemSlag>.remove(<primal:slag>);
+<ore:crystalSlag>.remove(<primal:slag>);
+<ore:slag>.remove(<primal:slag>);
+
 #---Changed tags---
 <ore:slabSoulGlass>.add(<primal:slab_soulglass>);
 
@@ -159,3 +164,8 @@ print("Going Primal. Not unlike going commando");
 
 #--Stones--
 <ore:cobblestoneScoria>.add(<primal:scoria_stone:4>);
+
+#--Misc--
+
+
+

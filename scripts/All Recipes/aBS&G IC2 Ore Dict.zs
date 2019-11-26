@@ -96,6 +96,9 @@ print("IC what you did there");
 <ore:plateDenseSteel>.remove(<ic2:plate:16>);
 <ore:plateDenseTin>.remove(<ic2:plate:17>);
 
+#--Misc--
+<ore:itemSlag>.remove(<ic2:misc_resource:5>);
+
 #---ore dict---
 #Gtech fix
 <ore:logWood>.add(<ic2:rubber_wood:0>);
