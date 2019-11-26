@@ -57,6 +57,11 @@ Bloodied_Orechid.addRecipe(<minecraft:obsidian>, <minecraft:obsidian>, 800);
 
 #---Nether---
 #Netherrack
+Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_gold_0:6>, 2.78);
+Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_redstone_0:6>, 25);
+Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_coal_0:6>, 25);
+Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_sulfur_0:6>, 222.75);
+
 #Soulsand
 
 #---Aether---
@@ -71,9 +76,12 @@ Bloodied_Orechid.addRecipe(<minecraft:obsidian>, <minecraft:obsidian>, 800);
 
 #---The End---
 #Endstone
+Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <gregtech:ore_platinum_0:7>, 2.78);
+Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <gregtech:ore_tungstate_0:7>, 28.125);
+Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <minecraft:end_stone>, 374);
 
 #---Omothol---
 #Omothol Marble
-#Stone
+#Omothol Stone
 
 #---Darklands---
