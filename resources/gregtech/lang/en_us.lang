@@ -119,6 +119,11 @@ material.cracked_tar=Cracked Tar
 material.hydrocracked_tar=Hydro-Cracked Tar
 material.alkenes=Olefins
 
+material.plagioclase=Plagioclase
+material.hornblende=Hornblende
+material.granite_pink=Pink Granite
+material.holystone=Holystone
+
 //---Renamed Gtech Materials---
 material.cooperite=Cooperite
 material.endstone=Xenolith

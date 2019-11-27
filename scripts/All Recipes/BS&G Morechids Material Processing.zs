@@ -7,6 +7,12 @@ var Bloodied_Orechid = mods.morechids.Registry.getFlower("bloodied_orechid");
 
 #---Overworld---
 #Andesite
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <gregtech:ore_silicon_0:3>, 363.97);
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <gregtech:ore_calcium_0:3>, 48.98);
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <gregtech:ore_aluminium_0:3>, 108.49);
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <gregtech:ore_magnesium_0:3>, 5.26);
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <gregtech:ore_iron_0:3>, 48.12);
+Bloodied_Orechid.addRecipe(<ore:stoneAndesite>, <minecraft:stone:5>, 1023.41);
 
 #Basalt
 Bloodied_Orechid.addRecipe(<ore:stoneBasalt>, <gregtech:ore_magnesium_0:13>, 40);
@@ -25,6 +31,14 @@ Bloodied_Orechid.addRecipe(<minecraft:clay>, <contenttweaker:oreclaysilicon>, 20
 Bloodied_Orechid.addRecipe(<minecraft:clay>, <minecraft:clay>, 600);
 
 #Diorite
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_silicon_0:2>, 363.1);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_calcium_0:2>, 51.41);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_aluminium_0:2>, 135.37);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_silicon_0:2>, 130.1);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_potassium_0:2>, 9.09);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_magnesium_0:2>, 29.9);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <gregtech:ore_iron_0:2>, 48.12);
+Bloodied_Orechid.addRecipe(<ore:stoneDiroite>, <minecraft:stone:3>, 1092.62);
 
 #Granite Black
 Bloodied_Orechid.addRecipe(<ore:stoneGraniteBlack>, <gregtech:ore_silicon_0:10>, 133);
@@ -35,6 +49,13 @@ Bloodied_Orechid.addRecipe(<ore:stoneGraniteBlack>, <gregtech:ore_silicon_0:10>,
 Bloodied_Orechid.addRecipe(<ore:stoneGraniteBlack>, <gregtech:granite:0>, 320.55);
 
 #Granite Pink
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <gregtech:ore_silicon_0:1>, 377.88);
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <gregtech:ore_calcium_0:1>, 30.77);
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <gregtech:ore_aluminium_0:1>, 296.5);
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <gregtech:ore_potassium_0:1>, 16.78);
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <gregtech:ore_magnesium_0:1>, 77.27);
+Bloodied_Orechid.addRecipe(<ore:stoneGranitePink>, <minecraft:stone:1>, 938.58);
+
 #Granite Red
 Bloodied_Orechid.addRecipe(<ore:stoneGraniteRed>, <gregtech:ore_aluminium_0:11>, 207.69);
 Bloodied_Orechid.addRecipe(<ore:stoneGraniteRed>, <gregtech:ore_potassium_0:11>, 7.69);
@@ -62,10 +83,23 @@ Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_redstone_0:6>, 
 Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_coal_0:6>, 25);
 Bloodied_Orechid.addRecipe(<minecraft:netherrack>, <gregtech:ore_sulfur_0:6>, 222.75);
 
+#Glowstone
+Bloodied_Orechid.addRecipe(<minecraft:glowstone>, <contenttweaker:oreglowstonegold>, 33.33);
+Bloodied_Orechid.addRecipe(<minecraft:glowstone>, <contenttweaker:oreglowstoneredstone>, 33.33);
+Bloodied_Orechid.addRecipe(<minecraft:glowstone>, <minecraft:glowstone>, 33.33);
+
 #Soulsand
+Bloodied_Orechid.addRecipe(<minecraft:soul_sand>, <contenttweaker:oresoulcoal>, 2.22);
+Bloodied_Orechid.addRecipe(<minecraft:soul_sand>, <contenttweaker:oresoulnitre>, 20);
+Bloodied_Orechid.addRecipe(<minecraft:soul_sand>, <contenttweaker:oresouloilsands>, 10);
+Bloodied_Orechid.addRecipe(<minecraft:soul_sand>, <contenttweaker:oresoulsilicon>, 90);
 
 #---Aether---
 #Holystone
+Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholysilicon>, 1000);
+Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholybauxite>, 62.5);
+Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholyaluminium>, 13.89);
+Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholytetrahedrite>, 8.89);
 
 #---Abyssal Wasteland---
 #

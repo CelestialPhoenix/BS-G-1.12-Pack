@@ -509,3 +509,18 @@ val ingotbluealloy = MaterialRegistry.createIngotMaterial(723, "blue_alloy", 0x3
 ingotbluealloy.addFlags("GENERATE_FINE_WIRE", "DECOMPOSITION_BY_CENTRIFUGING");
 ingotbluealloy.setCableProperties(512, 2, 1);
 
+#-Vanilla-
+#Plagioclase
+val dustPlagioclase = MaterialRegistry.createDustMaterial(724, "plagioclase", 0x90AAAA, "dull", 1, [<material:calcium>*1, <material:aluminium>*2, <material:silicon>*2, <material:oxygen>*8]);
+
+#Hornblende
+val dustHornblende = MaterialRegistry.createDustMaterial(725, "hornblende", 0x030505, "dull", 1, [<material:calcium>*2, <material:magnesium>*1, <material:iron>*1, <material:aluminium>*6, <material:silicon>*4, <material:oxygen>*23, <material:hydrogen>*1]);
+
+#Granite Pink
+val dustGranitePink = MaterialRegistry.createDustMaterial(726, "granite_pink", 0xAA8888, "dull", 1, null);
+
+#-Aether-
+#Holystone
+val dustHolystone = MaterialRegistry.createDustMaterial(727, "holystone", 0xCCCCCF, "dull", 1, null);
+#Allow 10 IDs for Aether
+

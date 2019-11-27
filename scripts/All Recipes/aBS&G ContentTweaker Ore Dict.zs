@@ -131,7 +131,6 @@ print("Tweak Tweak Tweak Tweak");
 #<ore:ore>.add(<contenttweaker:ore>);
 <ore:oreDiamond>.add(<contenttweaker:orediamondloose>);
 <ore:oreDiamond>.add(<contenttweaker:orediamond>);
-<ore:oreSaltpeter>.add(<contenttweaker:oresoulnitre>);
 <ore:oreRedstone>.add(<contenttweaker:oreredstone>);
 
 <ore:oreSoulsandSaltpeter>.add(<contenttweaker:oresoulnitre>);
@@ -212,6 +211,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreBrannerite>.add(<contenttweaker:oreendstonebrannerite>);
 <ore:oreUraninite>.add(<contenttweaker:oreendstoneuraninite>);
 
+#Glowstone
+<ore:oreGold>.add(<contenttweaker:oreglowstonegold>);
+<ore:oreRedstone>.add(<contenttweaker:oreglowstoneredstone>);
+
 #Marble
 <ore:oreLapis>.add(<contenttweaker:oremarblelapis>);
 <ore:oreLapis>.add(<contenttweaker:oremarblelapisloose>);
@@ -225,6 +228,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreBerryite>.add(<contenttweaker:oreholyberryite>);
 <ore:oreBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
 <ore:oreCopper>.add(<contenttweaker:oreholycopper>);
+<ore:oreSilicon>.add(<contenttweaker:oreholysilicon>);
 <ore:oreStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
 
@@ -233,6 +237,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreHolyBerryite>.add(<contenttweaker:oreholyberryite>);
 <ore:oreHolyBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
 <ore:oreHolyCopper>.add(<contenttweaker:oreholycopper>);
+<ore:oreHolySilicon>.add(<contenttweaker:oreholysilicon>);
 <ore:oreHolyStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreHolyTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
 
@@ -321,6 +326,12 @@ print("Tweak Tweak Tweak Tweak");
 <ore:orepoorNickel>.add(<contenttweaker:orepoorsandnickel>);
 <ore:orepoorSilver>.add(<contenttweaker:orepoorsilver>);
 <ore:orepoorTin>.add(<contenttweaker:orepoorgraveltin>);
+
+#Soul
+<ore:oreCoal>.add(<contenttweaker:oresoulcoal>);
+<ore:oreOilsands>.add(<contenttweaker:oresouloilsands>);
+<ore:oreSaltpeter>.add(<contenttweaker:oresoulnitre>);
+<ore:oreSilicon>.add(<contenttweaker:oresoulsilicon>);
 
 #---Pipes---
 <ore:pipeMediumWax>.add(<contenttweaker:pipemediumwax>);

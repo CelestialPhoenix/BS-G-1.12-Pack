@@ -32,3 +32,13 @@ OreNetherRedstoneLoose.setToolLevel(2);
 OreNetherRedstoneLoose.setBlockSoundType(<soundtype:stone>);
 OreNetherRedstoneLoose.setSlipperiness(0.6);
 OreNetherRedstoneLoose.register();
+
+var OreGlowstoneRedstone = VanillaFactory.createBlock("oreglowstoneredstone", <blockmaterial:rock>);
+OreGlowstoneRedstone.setBlockHardness(3.0);
+OreGlowstoneRedstone.setBlockResistance(15.0);
+OreGlowstoneRedstone.setToolClass("pickaxe");
+OreGlowstoneRedstone.setToolLevel(2);
+OreGlowstoneRedstone.setBlockSoundType(<soundtype:glass>);
+OreGlowstoneRedstone.setSlipperiness(0.6);
+OreGlowstoneRedstone.setLightValue(15);
+OreGlowstoneRedstone.register();

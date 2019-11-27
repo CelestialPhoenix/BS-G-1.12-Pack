@@ -17,6 +17,7 @@ print("Adrift in the skies");
 #blocks
 <ore:stoneAny>.add(<aether:holystone:*>);
 <ore:stoneAny>.add(<aether:holystone_brick_decorative:3>);
+<ore:stoneHoly>.add(<aether:holystone>);
 
 <ore:logSkyroot>.add(<aether:skyroot_log>);
 <ore:logGreatroot>.add(<aether:dark_skyroot_log>);

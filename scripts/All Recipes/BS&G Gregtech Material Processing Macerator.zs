@@ -7,6 +7,64 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
+#-Brick [dust]-
+macerator.findRecipe(8, [<minecraft:stone_slab:4>], null).remove();
+macerator.findRecipe(8, [<minecraft:brick_stairs>], null).remove();
+
+macerator.findRecipe(8, [<ore:ingotBrick>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:ingotBrick>.firstItem)
+    .outputs(<ore:dustSmallClay>.firstItem)
+    .duration(30)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator.findRecipe(8, [<ore:blockBrick>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:blockBrick>.firstItem)
+    .outputs(<ore:dustClay>.firstItem)
+    .duration(120)
+    .EUt(8)
+    .buildAndRegister();
+
+#-Clay [dust]-
+macerator.findRecipe(8, [<ore:hardenedClay>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:hardenedClay>.firstItem)
+    .outputs(<ore:dustClay>.firstItem)
+    .duration(120)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator.findRecipe(8, [<minecraft:stained_hardened_clay:*>], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:stained_hardened_clay:*>)
+    .outputs(<ore:dustClay>.firstItem)
+    .duration(120)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator.findRecipe(8, [<minecraft:clay_ball>], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:clay_ball>)
+    .outputs(<ore:dustSmallClay>.firstItem)
+    .duration(30)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator.findRecipe(8, [<minecraft:clay>], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:clay>)
+    .outputs(<ore:dustClay>.firstItem)
+    .duration(120)
+    .EUt(8)
+    .buildAndRegister();
 
 #-Elemental Rods-
 macerator.findRecipe(8, [<ore:rodBlaze>.firstItem], null).remove();

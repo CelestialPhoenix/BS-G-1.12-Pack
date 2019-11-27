@@ -92,11 +92,15 @@ tile.contenttweaker.oredreadedobsidianpsudobrookite.name=Psudobrookite
 tile.contenttweaker.oreendstonebrannerite.name=Brannerite
 tile.contenttweaker.oreendstoneuraninite.name=Uraninite
 
+tile.contenttweaker.oreglowstonegold.name=Gold Ore
+tile.contenttweaker.oreglowstoneredstone.name=Redstone Ore
+
 tile.contenttweaker.oreholyaluminium.name=Aluminium Ore
 tile.contenttweaker.oreholybauxite.name=Bauxite
 tile.contenttweaker.oreholyberryite.name=Berryite
 tile.contenttweaker.oreholybismuthinite.name=Bismuthinite
 tile.contenttweaker.oreholycopper.name=Copper Ore
+tile.contenttweaker.oreholysilicon.name=Silicon Ore
 tile.contenttweaker.oreholystibnite.name=Stibnite
 tile.contenttweaker.oreholytetrahedrite.name=Tetrahedrite
 
@@ -173,6 +177,9 @@ tile.contenttweaker.orepoorsandnickel.name=Nickel Ore
 tile.contenttweaker.orepoorsilver.name=Silver Ore
 
 tile.contenttweaker.oresoulnitre.name=Nitre
+tile.contenttweaker.oresoulcoal.name=Coal Ore
+tile.contenttweaker.oresouloilsands.name=Oilsands
+tile.contenttweaker.oresoulsilicon.name=Silicon Ore
 
 tile.contenttweaker.basalt.name=Basalt
 tile.contenttweaker.BlackGranite.name=Black Granite
