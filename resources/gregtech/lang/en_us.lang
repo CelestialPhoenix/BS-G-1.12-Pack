@@ -122,9 +122,16 @@ material.alkenes=Olefins
 material.plagioclase=Plagioclase
 material.hornblende=Hornblende
 material.granite_pink=Pink Granite
+
 material.holystone=Holystone
+
+material.abyssalnite=Abyssalnite
+material.liquified_coralium=Refined Coralium
+material.dreadium=Dreadium
+material.ethaxium=Ethaxium
 material.abyssalstone=Abyssal Stone
 material.dreadstone=Dreadstone
+material.dreaded_obsidian=Dreaded Obsidian
 material.abyssalnitestone=Abyssanite Stone
 material.omothol_stone=Omothol Stone
 material.omothol_marble=Omothol Marble

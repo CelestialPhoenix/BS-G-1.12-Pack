@@ -117,7 +117,8 @@ macerator
     .EUt(2)
     .buildAndRegister();
 
-#-Rocks-
+#--Rocks--
+#Overworld
 macerator
     .recipeBuilder()
     .inputs(<minecraft:stone:1>)
@@ -126,6 +127,8 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#Nether
+#Aether
 macerator
     .recipeBuilder()
     .inputs(<ore:stoneHoly>)
@@ -134,6 +137,7 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#Abyssal Wasteland
 macerator
     .recipeBuilder()
     .inputs(<ore:stoneAbyssalstone>)
@@ -142,6 +146,7 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#Dreadlands
 macerator
     .recipeBuilder()
     .inputs(<ore:stoneDreaded>)
@@ -174,6 +179,7 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#Omothol
 macerator
     .recipeBuilder()
     .inputs(<ore:stoneOmotholMarble>)
@@ -189,3 +195,4 @@ macerator
     .duration(150)
     .EUt(8)
     .buildAndRegister();
+
