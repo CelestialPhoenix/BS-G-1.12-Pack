@@ -1,4 +1,5 @@
 #Name: Blood Sweat & Gears Chisel.zs
+#Name: Blood Sweat & Gears Chisel.zs
 #Author: PhoePhoe
 
 print("A chip of the old block");
@@ -108,6 +109,13 @@ print("A chip of the old block");
 <ore:stoneBasalt>.remove(<chisel:basalt1:14>);
 <ore:stoneBasalt>.remove(<chisel:basalt1:15>);
 <ore:stoneBasalt>.remove(<chisel:basalt2:0>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:1>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:2>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:3>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:4>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:5>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:6>);
+<ore:stoneBasalt>.remove(<chisel:basalt2:7>);
 <ore:stoneBasaltPolished>.remove(<chisel:basalt:0>);
 <ore:stoneBasaltPolished>.remove(<chisel:basalt:1>);
 <ore:stoneBasaltPolished>.remove(<chisel:basalt:2>);
@@ -1374,6 +1382,22 @@ print("A chip of the old block");
 <ore:stoneMarble>.remove(<chisel:marble2:5>);
 <ore:stoneMarble>.remove(<chisel:marble2:6>);
 <ore:stoneMarble>.remove(<chisel:marble2:7>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:0>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:1>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:2>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:3>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:4>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:5>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:6>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:7>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:8>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:9>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:10>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:11>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:12>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:13>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:14>);
+<ore:stoneMarble>.remove(<chisel:marblepillar:15>);
 <ore:stoneMarblePolished>.remove(<chisel:marble:0>);
 <ore:stoneMarblePolished>.remove(<chisel:marble:1>);
 <ore:stoneMarblePolished>.remove(<chisel:marble:2>);
@@ -1414,6 +1438,22 @@ print("A chip of the old block");
 <ore:stoneMarblePolished>.remove(<chisel:marble2:5>);
 <ore:stoneMarblePolished>.remove(<chisel:marble2:6>);
 <ore:stoneMarblePolished>.remove(<chisel:marble2:7>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:0>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:1>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:2>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:3>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:4>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:5>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:6>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:7>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:8>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:9>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:10>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:11>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:12>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:13>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:14>);
+<ore:stoneMarblePolished>.remove(<chisel:marblepillar:15>);
 
 #Netherrack
 <ore:netherrack>.remove(<chisel:netherrack:0>);

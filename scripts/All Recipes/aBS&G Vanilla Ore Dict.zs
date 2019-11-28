@@ -65,3 +65,8 @@ print("Mwah ha ha ha ha ha");
 <ore:stoneAny>.add(<minecraft:cobblestone>);
 <ore:stoneAny>.add(<minecraft:mossy_cobblestone>);
 <ore:stoneAny>.add(<minecraft:stonebrick:*>);
+
+<ore:stoneGraniteBlack>.remove(<minecraft:stone:1>);
+<ore:stoneGraniteBlack>.remove(<minecraft:stone:2>);
+<ore:stoneAndesite>.remove(<minecraft:stone:6>);
+
