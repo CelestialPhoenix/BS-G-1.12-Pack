@@ -41,3 +41,23 @@ centrifuge
     .duration(488)
     .EUt(20)
     .buildAndRegister();
+
+#--Abyssalcraft--
+#Abyssal Stone
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustAbyssalstone>.firstItem*22)
+	.outputs(<ore:dustSilicon>.firstItem*3, <ore:dustIron>.firstItem*2, <ore:dustSiliconDioxide>.firstItem*7, <ore:dustKaolinite>.firstItem*5, <ore:dustSpessartine>.firstItem*1)
+    .fluidOutputs([<liquid:oxygen>*4000])
+    .duration(2000)
+    .EUt(20)
+    .buildAndRegister();
+
+#Abyssal Sand
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:abyssalSand>.firstItem*18)
+	.outputs(<ore:dustSilicon>.firstItem*3, <ore:dustBandedIron>.firstItem*5, <ore:dustSiliconDioxide>.firstItem*7, <ore:dustKaolinite>.firstItem*5, <ore:dustSpessartine>.firstItem*1)
+    .duration(2000)
+    .EUt(20)
+    .buildAndRegister();

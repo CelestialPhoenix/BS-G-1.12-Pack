@@ -1,6 +1,6 @@
 #loader contenttweaker
 
-#Name: Blood Sweat & Gears OreFerberite.zs
+#Name: Blood Sweat & Gears Ore Silicon.zs
 #Author: PhoePhoe
 
 import mods.contenttweaker.VanillaFactory;
@@ -24,15 +24,6 @@ OreClaySilicon.setBlockSoundType(<soundtype:ground>);
 OreClaySilicon.setSlipperiness(0.6);
 OreClaySilicon.register();
 
-var OreHolySilicon= VanillaFactory.createBlock("oreholysilicon", <blockmaterial:rock>);
-OreHolySilicon.setBlockHardness(3.0);
-OreHolySilicon.setBlockResistance(5.0);
-OreHolySilicon.setToolClass("pickaxe");
-OreHolySilicon.setToolLevel(0);
-OreHolySilicon.setBlockSoundType(<soundtype:stone>);
-OreHolySilicon.setSlipperiness(0.6);
-OreHolySilicon.register();
-
 var OreSoulSilicon= VanillaFactory.createBlock("oresoulsilicon", <blockmaterial:rock>);
 OreSoulSilicon.setBlockHardness(3.0);
 OreSoulSilicon.setBlockResistance(5.0);
@@ -41,4 +32,22 @@ OreSoulSilicon.setToolLevel(0);
 OreSoulSilicon.setBlockSoundType(<soundtype:ground>);
 OreSoulSilicon.setSlipperiness(0.6);
 OreSoulSilicon.register();
+
+var OreAbyssalSilicon= VanillaFactory.createBlock("oreabyssalsilicon", <blockmaterial:rock>);
+OreAbyssalSilicon.setBlockHardness(5.0);
+OreAbyssalSilicon.setBlockResistance(15.0);
+OreAbyssalSilicon.setToolClass("pickaxe");
+OreAbyssalSilicon.setToolLevel(1);
+OreAbyssalSilicon.setBlockSoundType(<soundtype:stone>);
+OreAbyssalSilicon.setSlipperiness(0.6);
+OreAbyssalSilicon.register();
+
+var OreAbyssalSandSilicon= VanillaFactory.createBlock("oreabyssalsandsilicon", <blockmaterial:rock>);
+OreAbyssalSandSilicon.setBlockHardness(5.0);
+OreAbyssalSandSilicon.setBlockResistance(15.0);
+OreAbyssalSandSilicon.setToolClass("shovel");
+OreAbyssalSandSilicon.setToolLevel(1);
+OreAbyssalSandSilicon.setBlockSoundType(<soundtype:ground>);
+OreAbyssalSandSilicon.setSlipperiness(0.6);
+OreAbyssalSandSilicon.register();
 

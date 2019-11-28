@@ -96,14 +96,26 @@ Bloodied_Orechid.addRecipe(<minecraft:soul_sand>, <contenttweaker:oresoulsilicon
 
 #---Aether---
 #Holystone
-Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholysilicon>, 1000);
+Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholysilicondioxide>, 1000);
 Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholybauxite>, 62.5);
 Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholyaluminium>, 13.89);
 Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholytetrahedrite>, 8.89);
 
 #---Abyssal Wasteland---
 #Abyssal Stone
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <contenttweaker:oreabyssalsilicon>, 300);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <contenttweaker:oreabyssaliron>, 200);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <contenttweaker:oreabyssalsilicondioxide>, 700);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <contenttweaker:oreabyssalkaolinite>, 500);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <contenttweaker:oreabyssalspessartine>, 100);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalstone>, <abyssalcraft:stone:1>, 400);
+
 #Abyssal Sand
+Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandsilicon>, 300);
+Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandbandediron>, 200);
+Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandglass>, 700);
+Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandkaolinite>, 500);
+Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandspessartine>, 100);
 
 #---Dreadlands---
 #Dreadstone

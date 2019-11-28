@@ -40,11 +40,16 @@ chrome.addFlags(["GENERATE_ORE"]);
 var gold = <material:gold>;
 gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
 
+var glass = <material:glass>;
+
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
 
 var invar = <material:invar>;
 invar.addFlags(["NO_SMELTING", "GENERATE_FINE_WIRE"]);
+
+var kaolinite = <material:kaolinite>;
+kaolinite.addFlags(["GENERATE_ORE"]);
 
 val magnesium = <material:magnesium>;
 magnesium.addFlags(["GENERATE_ORE"]);
@@ -63,6 +68,9 @@ sodium.addFlags(["GENERATE_ORE"]);
 
 var silicon = <material:silicon>;
 silicon.addFlags(["GENERATE_ORE"]);
+
+var silicon_dioxide = <material:silicon_dioxide>;
+silicon_dioxide.addFlags(["GENERATE_ORE"]);
 
 val rare_earth = <material:rare_earth>;
 rare_earth.addFlags(["GENERATE_ORE"]);
@@ -437,6 +445,11 @@ ingotadamantium.addToolEnchantment(<enchantment:minecraft:sharpness> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:smite> * 5);
 ingotadamantium.addToolEnchantment(<enchantment:minecraft:bane_of_arthropods> * 5);
 
+#--Random Gtech fix--
+#Glass Fix
+val dustGlassy = MaterialRegistry.createDustMaterial(689, "glassy", 0xAAAAAA, "shiny", 1, [<material:silicon_dioxide>*1]);
+dustGlassy.addFlags("GENERATE_ORE");
+
 #--Gt Petrochem extras--
 #Sulphuric Bitumin
 
@@ -525,7 +538,6 @@ val dustHolystone = MaterialRegistry.createDustMaterial(727, "holystone", 0xCCCC
 #Allow 10 IDs for Aether
 
 #-Abyssalcraft-
-
 #Abyssalnite
 val ingotAbyssalnite = MaterialRegistry.createIngotMaterial(737, "abyssalnite", 0x441144, "dull", 3, null, 0, 512);
 
@@ -536,30 +548,30 @@ val ingotRefinedCoralium = MaterialRegistry.createIngotMaterial(738, "liquified_
 val ingotDreadium = MaterialRegistry.createIngotMaterial(739, "dreadium", 0x441111, "dull", 3, null, 0, 512);
 
 #Ethaxium
-val ingotEthaxium = MaterialRegistry.createIngotMaterial(739, "ethaxium", 889088, "dull", 3, null, 0, 512);
+val ingotEthaxium = MaterialRegistry.createIngotMaterial(740, "ethaxium", 0x889088, "dull", 3, null, 0, 512);
 
 #Abyssalstone
-val dustAbyssalstone = MaterialRegistry.createDustMaterial(740, "abyssalstone", 0x224422, "dull", 1, [<material:silicon>*3, <material:iron>*2, <material:silicon_dioxide>*7, <material:kaolinite>*5, <material:oxygen>*4, <material:spessartine>*1]);
+val dustAbyssalstone = MaterialRegistry.createDustMaterial(741, "abyssalstone", 0x224422, "dull", 1, [<material:silicon>*3, <material:iron>*2, <material:silicon_dioxide>*7, <material:kaolinite>*5, <material:oxygen>*4, <material:spessartine>*1]);
 dustAbyssalstone.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
 #Dreadstone
-val dustDreadstone = MaterialRegistry.createDustMaterial(741, "dreadstone", 0xBB4444, "dull", 1, [<material:silicon_dioxide>*6, <material:powellite>*1, <material:potassium_feldspar>*3, <material:dreadium>*2, <material:mica>*5]);
+val dustDreadstone = MaterialRegistry.createDustMaterial(742, "dreadstone", 0xBB4444, "dull", 1, [<material:silicon_dioxide>*6, <material:powellite>*1, <material:potassium_feldspar>*3, <material:dreadium>*2, <material:mica>*5]);
 
 #Abyssalnitestone
-val dustAbyssalnitestone = MaterialRegistry.createDustMaterial(742, "abyssalnitestone", 0xDD77DD, "shiny", 1, [<material:silicon_dioxide>*6, <material:powellite>*1, <material:potassium_feldspar>*5, <material:abyssalnite>*2, <material:mica>*3]);
+val dustAbyssalnitestone = MaterialRegistry.createDustMaterial(743, "abyssalnitestone", 0x882288, "shiny", 1, [<material:silicon_dioxide>*6, <material:powellite>*1, <material:potassium_feldspar>*5, <material:abyssalnite>*2, <material:mica>*3]);
 
 #Dreaded Obsidian
-val dustDreadedObsidian = MaterialRegistry.createDustMaterial(743, "dreaded_obsidian", 0x442222, "dull", 1, [<material:silicon_dioxide>*4, <material:magnetite>*2, <material:ilmenite>*1, <material:potassium_feldspar>*3, <material:dreadium>*2, <material:obsidian>*5]);
+val dustDreadedObsidian = MaterialRegistry.createDustMaterial(744, "dreaded_obsidian", 0x442222, "dull", 1, [<material:silicon_dioxide>*4, <material:magnetite>*2, <material:ilmenite>*1, <material:potassium_feldspar>*3, <material:dreadium>*2, <material:obsidian>*5]);
 
 #Omotholstone
-val dustOmotholstone = MaterialRegistry.createDustMaterial(744, "omothol_stone", 0x051505, "dull", 1, [<material:calcite>*7, <material:wollastonite>*3, <material:fergusonite>*2, <material:silicon_dioxide>*4, <material:pitchblende>*1]);
+val dustOmotholstone = MaterialRegistry.createDustMaterial(745, "omothol_stone", 0x051505, "dull", 1, [<material:calcite>*7, <material:wollastonite>*3, <material:fergusonite>*2, <material:silicon_dioxide>*4, <material:pitchblende>*1]);
 dustOmotholstone.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
 #Omotholmarble
-val dustOmotholmarble = MaterialRegistry.createDustMaterial(745, "omothol_marble", 0xAABBAA, "shiny", 1, [<material:calcite>*7, <material:pentlandite>*3, <material:chalcocite>*2, <material:marble>*6, <material:sheldonite>*1]);
+val dustOmotholmarble = MaterialRegistry.createDustMaterial(746, "omothol_marble", 0xAABBAA, "shiny", 1, [<material:calcite>*7, <material:pentlandite>*3, <material:chalcocite>*2, <material:marble>*6, <material:sheldonite>*1]);
 dustOmotholmarble.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
 #Omotholbasalt
-val dustOmotholbasalt = MaterialRegistry.createDustMaterial(746, "omothol_basalt", 0x021002, "dull", 1, [<material:biotite>*7, <material:potassium_feldspar>*3, <material:uvarovite>*2, <material:silicon_dioxide>*4, <material:chromite>*1]);
+val dustOmotholbasalt = MaterialRegistry.createDustMaterial(747, "omothol_basalt", 0x021002, "dull", 1, [<material:biotite>*7, <material:potassium_feldspar>*3, <material:uvarovite>*2, <material:silicon_dioxide>*4, <material:chromite>*1]);
 dustOmotholbasalt.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 

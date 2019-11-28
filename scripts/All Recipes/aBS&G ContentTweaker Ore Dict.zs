@@ -137,12 +137,16 @@ print("Tweak Tweak Tweak Tweak");
 
 #Abyssal
 #<ore:ore>.add(<contenttweaker:oreabyssal>);
+<ore:oreIron>.add(<contenttweaker:oreabyssaliron>);
 <ore:oreLepidolite>.add(<contenttweaker:oreabyssallepidolite>);
 <ore:oreGarnetRed>.add(<contenttweaker:oreabyssalredgarnet>);
+<ore:oreKaolinite>.add(<contenttweaker:oreabyssalkaolinite>);
 <ore:oreRockSalt>.add(<contenttweaker:oreabyssalrocksalt>);
 <ore:oreSalt>.add(<contenttweaker:oreabyssalsalt>);
+<ore:oreSilicon>.add(<contenttweaker:oreabyssalsilicon>);
+<ore:oreSiliconDioxide>.add(<contenttweaker:oreabyssalsilicondioxide>);
 <ore:orePyrolusite>.add(<contenttweaker:oreabyssalpyrolusite>);
-<ore:oreSpessertine>.add(<contenttweaker:oreabyssalspessertine>);
+<ore:oreSpessartine>.add(<contenttweaker:oreabyssalspessartine>);
 <ore:oreSpodumene>.add(<contenttweaker:oreabyssalspodumene>);
 <ore:oreTantalite>.add(<contenttweaker:oreabyssaltantalite>);
 
@@ -151,9 +155,15 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreAbyssalRockSalt>.add(<contenttweaker:oreabyssalrocksalt>);
 <ore:oreAbyssalSalt>.add(<contenttweaker:oreabyssalsalt>);
 <ore:oreAbyssalPyrolusite>.add(<contenttweaker:oreabyssalpyrolusite>);
-<ore:oreAbyssalSpessertine>.add(<contenttweaker:oreabyssalspessertine>);
+<ore:oreAbyssalSpessartine>.add(<contenttweaker:oreabyssalspessartine>);
 <ore:oreAbyssalSpodumene>.add(<contenttweaker:oreabyssalspodumene>);
 <ore:oreAbyssalTantalite>.add(<contenttweaker:oreabyssaltantalite>);
+
+<ore:oreSilicon>.add(<contenttweaker:oreabyssalsandsilicon>);
+<ore:oreBandediron>.add(<contenttweaker:oreabyssalsandbandediron>);
+<ore:oreGlassy>.add(<contenttweaker:oreabyssalsandglass>);
+<ore:oreKaolinite>.add(<contenttweaker:oreabyssalsandkaolinite>);
+<ore:oreSpessartine>.add(<contenttweaker:oreabyssalsandspessartine>);
 
 #Basalt
 #<ore:ore>.add(<contenttweaker:orebasalt>);
@@ -228,7 +238,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreBerryite>.add(<contenttweaker:oreholyberryite>);
 <ore:oreBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
 <ore:oreCopper>.add(<contenttweaker:oreholycopper>);
-<ore:oreSilicon>.add(<contenttweaker:oreholysilicon>);
+<ore:oreSiliconDioxide>.add(<contenttweaker:oreholysilicondioxide>);
 <ore:oreStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
 
@@ -237,7 +247,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreHolyBerryite>.add(<contenttweaker:oreholyberryite>);
 <ore:oreHolyBismuthinite>.add(<contenttweaker:oreholybismuthinite>);
 <ore:oreHolyCopper>.add(<contenttweaker:oreholycopper>);
-<ore:oreHolySilicon>.add(<contenttweaker:oreholysilicon>);
+<ore:oreHolySiliconDioxide>.add(<contenttweaker:oreholysilicondioxide>);
 <ore:oreHolyStibnite>.add(<contenttweaker:oreholystibnite>);
 <ore:oreHolyTetrahedrite>.add(<contenttweaker:oreholytetrahedrite>);
 

@@ -46,14 +46,26 @@ tile.contenttweaker.oretin.name=Tin Ore
 tile.contenttweaker.oreyellowlimonite.name=Yellow Limonite
 tile.contenttweaker.orezinc.name=Zinc Ore
 
+tile.contenttweaker.oreabyssaliron.name=Iron Ore
+tile.contenttweaker.oreabyssalkaolinite.name=Kaolinite
 tile.contenttweaker.oreabyssallepidolite.name=Lepidolite
 tile.contenttweaker.oreabyssalpyrolusite.name=Pyrolusite
 tile.contenttweaker.oreabyssalredgarnet.name=Red Garnet Ore
 tile.contenttweaker.oreabyssalrocksalt.name=Rock Salt
 tile.contenttweaker.oreabyssalsalt.name=Salt
-tile.contenttweaker.oreabyssalspessertine.name=Spessertine
+tile.contenttweaker.oreabyssalsilicon.name=Silicon Ore
+tile.contenttweaker.oreabyssalsilicondioxide.name=Silicon Dioxide Ore
+tile.contenttweaker.oreabyssalspessartine.name=Spessartine
 tile.contenttweaker.oreabyssalspodumene.name=Spodumene
 tile.contenttweaker.oreabyssaltantalite.name=Tantalite
+
+tile.contenttweaker.oreabyssalsandbandediron.name=Banded Iron
+tile.contenttweaker.oreabyssalsandiron.name=Iron Ore
+tile.contenttweaker.oreabyssalsandkaolinite.name=Kaolinite
+tile.contenttweaker.oreabyssalsandglass.name=Glassy Abyssal Sand
+tile.contenttweaker.oreabyssalsandspessartine.name=Spessartine
+tile.contenttweaker.oreabyssalsandsilicon.name=Silicon Ore
+tile.contenttweaker.oreabyssalsandsilicondioxide.name=Silicon Dioxide Ore
 
 tile.contenttweaker.orebasaltcoffinite.name=Coffinite
 tile.contenttweaker.orebasaltgreensapphire.name=Green Sapphire Ore
@@ -101,6 +113,7 @@ tile.contenttweaker.oreholyberryite.name=Berryite
 tile.contenttweaker.oreholybismuthinite.name=Bismuthinite
 tile.contenttweaker.oreholycopper.name=Copper Ore
 tile.contenttweaker.oreholysilicon.name=Silicon Ore
+tile.contenttweaker.oreholysilicondioxide.name=Silicon Dioxide Ore
 tile.contenttweaker.oreholystibnite.name=Stibnite
 tile.contenttweaker.oreholytetrahedrite.name=Tetrahedrite
 

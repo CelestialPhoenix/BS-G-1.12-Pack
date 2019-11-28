@@ -1,16 +1,25 @@
 #loader contenttweaker
 
-#Name: Blood Sweat & Gears OreSpessertine.zs
+#Name: Blood Sweat & Gears OreSpessartine.zs
 #Author: PhoePhoe
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var OreAbyssalSpessertine = VanillaFactory.createBlock("oreabyssalspessertine", <blockmaterial:rock>);
-OreAbyssalSpessertine.setBlockHardness(3.0);
-OreAbyssalSpessertine.setBlockResistance(15.0);
-OreAbyssalSpessertine.setToolClass("pickaxe");
-OreAbyssalSpessertine.setToolLevel(1);
-OreAbyssalSpessertine.setBlockSoundType(<soundtype:stone>);
-OreAbyssalSpessertine.setSlipperiness(0.6);
-OreAbyssalSpessertine.register();
+var OreAbyssalSpessartine = VanillaFactory.createBlock("oreabyssalspessartine", <blockmaterial:rock>);
+OreAbyssalSpessartine.setBlockHardness(3.0);
+OreAbyssalSpessartine.setBlockResistance(15.0);
+OreAbyssalSpessartine.setToolClass("pickaxe");
+OreAbyssalSpessartine.setToolLevel(1);
+OreAbyssalSpessartine.setBlockSoundType(<soundtype:stone>);
+OreAbyssalSpessartine.setSlipperiness(0.6);
+OreAbyssalSpessartine.register();
+
+var OreAbyssalSandSpessartine = VanillaFactory.createBlock("oreabyssalsandspessartine", <blockmaterial:rock>);
+OreAbyssalSandSpessartine.setBlockHardness(3.0);
+OreAbyssalSandSpessartine.setBlockResistance(15.0);
+OreAbyssalSandSpessartine.setToolClass("pickaxe");
+OreAbyssalSandSpessartine.setToolLevel(1);
+OreAbyssalSandSpessartine.setBlockSoundType(<soundtype:stone>);
+OreAbyssalSandSpessartine.setSlipperiness(0.6);
+OreAbyssalSandSpessartine.register();

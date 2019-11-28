@@ -46,5 +46,6 @@ electrolyzer
     .EUt(30)
     .buildAndRegister();
 
-
+#Abyssalcraft
+electrolyzer.findRecipe(60, [<ore:dustAbyssalstone>.firstItem*22], null).remove();
 
