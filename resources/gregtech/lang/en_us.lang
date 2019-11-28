@@ -123,6 +123,12 @@ material.plagioclase=Plagioclase
 material.hornblende=Hornblende
 material.granite_pink=Pink Granite
 material.holystone=Holystone
+material.abyssalstone=Abyssal Stone
+material.dreadstone=Dreadstone
+material.abyssalnitestone=Abyssanite Stone
+material.omothol_stone=Omothol Stone
+material.omothol_marble=Omothol Marble
+material.omothol_basalt=Omothol Basalt
 
 //---Renamed Gtech Materials---
 material.cooperite=Cooperite

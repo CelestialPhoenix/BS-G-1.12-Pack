@@ -524,3 +524,26 @@ val dustGranitePink = MaterialRegistry.createDustMaterial(726, "granite_pink", 0
 val dustHolystone = MaterialRegistry.createDustMaterial(727, "holystone", 0xCCCCCF, "dull", 1, null);
 #Allow 10 IDs for Aether
 
+#-Abyssalcraft-
+#Abyssalstone
+val dustAbyssalstone = MaterialRegistry.createDustMaterial(737, "abyssalstone", 0x224422, "dull", 1, [<material:silicon>*3, <material:iron>*2, <material:silicon_dioxide>*7, <material:kaolinite>*5, <material:oxygen>*4, <material:spessartine>*1]);
+
+#Dreadstone
+val dustDreadstone = MaterialRegistry.createDustMaterial(738, "dreadstone", 0xBB4444, "dull", 1, null);
+
+#Abyssalnitestone
+val dustAbyssalnitestone = MaterialRegistry.createDustMaterial(739, "abyssalnitestone", 0xDD77DD, "shiny", 1, null);
+
+#Dreaded Obsidian
+val dustDreadedObsidian = MaterialRegistry.createDustMaterial(740, "dreaded_obsidian", 0x442222, "dull", 1, null);
+
+#Omotholstone
+val dustOmotholstone = MaterialRegistry.createDustMaterial(741, "omothol_stone", 0x051505, "dull", 1, null);
+
+#Omotholmarble
+val dustOmotholmarble = MaterialRegistry.createDustMaterial(742, "omothol_marble", 0xAABBAA, "shiny", 1, null);
+
+#Omotholbasalt
+val dustOmotholbasalt = MaterialRegistry.createDustMaterial(743, "omothol_basalt", 0x021002, "dull", 1, null);
+
+

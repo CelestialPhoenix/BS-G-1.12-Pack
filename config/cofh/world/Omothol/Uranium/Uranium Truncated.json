@@ -38,6 +38,22 @@
                   {  
                      "name":"abyssalcraft:stone",
                      "metadata":6
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholpitchblende",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholuraninite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholbrannerite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholzircon",
+                     "metadata":0
                   }
                ],
                "radius":3,
@@ -78,6 +94,22 @@
                   {  
                      "name":"abyssalcraft:stone",
                      "metadata":6
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholpitchblende",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholuraninite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholbrannerite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholzircon",
+                     "metadata":0
                   }
                ],
                "radius":1,
@@ -118,6 +150,22 @@
                   {  
                      "name":"abyssalcraft:stone",
                      "metadata":6
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholpitchblende",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholuraninite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholbrannerite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholzircon",
+                     "metadata":0
                   }
                ],
                "radius":2,
@@ -158,6 +206,22 @@
                   {  
                      "name":"abyssalcraft:stone",
                      "metadata":6
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholpitchblende",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholuraninite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholbrannerite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholzircon",
+                     "metadata":0
                   }
                ],
                "radius":1,
@@ -198,6 +262,22 @@
                   {  
                      "name":"abyssalcraft:stone",
                      "metadata":6
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholpitchblende",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholuraninite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholbrannerite",
+                     "metadata":0
+                  },
+                  {  
+                     "name":"contenttweaker:oreomotholzircon",
+                     "metadata":0
                   }
                ],
                "cluster-size":10

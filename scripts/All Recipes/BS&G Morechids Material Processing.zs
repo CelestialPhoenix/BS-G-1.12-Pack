@@ -102,11 +102,14 @@ Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholyaluminium>, 1
 Bloodied_Orechid.addRecipe(<ore:stoneHoly>, <contenttweaker:oreholytetrahedrite>, 8.89);
 
 #---Abyssal Wasteland---
-#
+#Abyssal Stone
+#Abyssal Sand
+
 #---Dreadlands---
 #Dreadstone
-#Abyssal Dreadstone
+#Abyssalnite stone
 #Dreaded Obsidian
+#Dolomite
 
 #---The End---
 #Endstone
@@ -115,6 +118,7 @@ Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <gregtech:ore_tungstate_0:7>, 
 Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <minecraft:end_stone>, 374);
 
 #---Omothol---
+#Omothol Basalt
 #Omothol Marble
 #Omothol Stone
 

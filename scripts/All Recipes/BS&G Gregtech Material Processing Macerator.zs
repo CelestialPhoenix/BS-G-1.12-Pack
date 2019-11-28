@@ -116,3 +116,76 @@ macerator
     .duration(100)
     .EUt(2)
     .buildAndRegister();
+
+#-Rocks-
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:stone:1>)
+    .outputs(<ore:dustGranitePink>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneHoly>)
+    .outputs(<ore:dustHolystone>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneAbyssalstone>)
+    .outputs(<ore:dustAbyssalstone>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneDreaded>)
+    .outputs(<ore:dustDreadstone>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneAbyssalnite>)
+    .outputs(<ore:dustAbyssalnitestone>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneDreadedObsidian>)
+    .outputs(<ore:dustDreadedObsidian>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneOmothol>)
+    .outputs(<ore:dustOmotholStone>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneOmotholMarble>)
+    .outputs(<ore:dustOmotholMarble>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<ore:stoneOmotholBasalt>)
+    .outputs(<ore:dustOmotholBasalt>.firstItem)
+    .duration(150)
+    .EUt(8)
+    .buildAndRegister();
