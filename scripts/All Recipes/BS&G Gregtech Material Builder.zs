@@ -19,6 +19,9 @@ aluminium.addFlags(["GENERATE_ROTOR"]);
 var antimony = <material:antimony>;
 antimony.addFlags(["GENERATE_ORE"]);
 
+var biotite = <material:biotite>;
+biotite.addFlags(["GENERATE_ORE"]);
+
 var brass = <material:brass>;
 brass.addFlags(["GENERATE_SMALL_GEAR"]);
 
@@ -63,6 +66,9 @@ nickel.addFlags(["GENERATE_ROD"]);
 var potassium = <material:potassium>;
 potassium.addFlags(["GENERATE_ORE"]);
 
+var potassium_feldspar = <material:potassium_feldspar>;
+potassium_feldspar.addFlags(["GENERATE_ORE"]);
+
 var sodium = <material:sodium>;
 sodium.addFlags(["GENERATE_ORE"]);
 
@@ -95,8 +101,9 @@ vanadium.addFlags(["GENERATE_ORE"]);
 
 var uvarovite = <material:uvarovite>;
 uvarovite.addFlags(["GENERATE_ORE"]);
-#uvarovite.oreByProducts + [<material:copper>, <material:gold>, <material:iron>];
-#var testByproducts = [<material:copper>, <material:gold>, <material:iron>] as String[];
+
+var wollastonite = <material:wollastonite>;
+wollastonite.addFlags(["GENERATE_ORE"]);
 
 var yttrium = <material:yttrium>;
 yttrium.addFlags(["GENERATE_ORE"]);

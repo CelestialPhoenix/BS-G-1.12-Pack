@@ -14,3 +14,21 @@ OreObsidianMagnesium.setToolLevel(3);
 OreObsidianMagnesium.setBlockSoundType(<soundtype:stone>);
 OreObsidianMagnesium.setSlipperiness(0.6);
 OreObsidianMagnesium.register();
+
+var OreDolomiteMagnesium= VanillaFactory.createBlock("oredolomitemagnesium", <blockmaterial:rock>);
+OreDolomiteMagnesium.setBlockHardness(5.0);
+OreDolomiteMagnesium.setBlockResistance(15.0);
+OreDolomiteMagnesium.setToolClass("pickaxe");
+OreDolomiteMagnesium.setToolLevel(1);
+OreDolomiteMagnesium.setBlockSoundType(<soundtype:stone>);
+OreDolomiteMagnesium.setSlipperiness(0.6);
+OreDolomiteMagnesium.register();
+
+var OreDreadedObsidianMagnesium= VanillaFactory.createBlock("oredreadedobsidianmagnesium", <blockmaterial:rock>);
+OreDreadedObsidianMagnesium.setBlockHardness(5.0);
+OreDreadedObsidianMagnesium.setBlockResistance(15.0);
+OreDreadedObsidianMagnesium.setToolClass("pickaxe");
+OreDreadedObsidianMagnesium.setToolLevel(3);
+OreDreadedObsidianMagnesium.setBlockSoundType(<soundtype:stone>);
+OreDreadedObsidianMagnesium.setSlipperiness(0.6);
+OreDreadedObsidianMagnesium.register();

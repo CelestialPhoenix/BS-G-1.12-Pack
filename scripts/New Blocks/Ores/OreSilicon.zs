@@ -51,3 +51,30 @@ OreAbyssalSandSilicon.setBlockSoundType(<soundtype:ground>);
 OreAbyssalSandSilicon.setSlipperiness(0.6);
 OreAbyssalSandSilicon.register();
 
+var OreDreadstoneSilicon= VanillaFactory.createBlock("oredreadstonesilicon", <blockmaterial:rock>);
+OreDreadstoneSilicon.setBlockHardness(5.0);
+OreDreadstoneSilicon.setBlockResistance(15.0);
+OreDreadstoneSilicon.setToolClass("pickaxe");
+OreDreadstoneSilicon.setToolLevel(1);
+OreDreadstoneSilicon.setBlockSoundType(<soundtype:stone>);
+OreDreadstoneSilicon.setSlipperiness(0.6);
+OreDreadstoneSilicon.register();
+
+var OreDreadedObsidianSilicon= VanillaFactory.createBlock("oredreadedobsidiansilicon", <blockmaterial:rock>);
+OreDreadedObsidianSilicon.setBlockHardness(5.0);
+OreDreadedObsidianSilicon.setBlockResistance(15.0);
+OreDreadedObsidianSilicon.setToolClass("pickaxe");
+OreDreadedObsidianSilicon.setToolLevel(3);
+OreDreadedObsidianSilicon.setBlockSoundType(<soundtype:stone>);
+OreDreadedObsidianSilicon.setSlipperiness(0.6);
+OreDreadedObsidianSilicon.register();
+
+var OreAbyssalniteSilicon= VanillaFactory.createBlock("oreabyssalnitesilicon", <blockmaterial:rock>);
+OreAbyssalniteSilicon.setBlockHardness(5.0);
+OreAbyssalniteSilicon.setBlockResistance(15.0);
+OreAbyssalniteSilicon.setToolClass("pickaxe");
+OreAbyssalniteSilicon.setToolLevel(1);
+OreAbyssalniteSilicon.setBlockSoundType(<soundtype:stone>);
+OreAbyssalniteSilicon.setSlipperiness(0.6);
+OreAbyssalniteSilicon.register();
+

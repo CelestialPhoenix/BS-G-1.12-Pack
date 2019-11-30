@@ -24,4 +24,20 @@ OreAbyssalSiliconDioxide.setBlockSoundType(<soundtype:stone>);
 OreAbyssalSiliconDioxide.setSlipperiness(0.6);
 OreAbyssalSiliconDioxide.register();
 
+var OreOmotholSiliconDioxide= VanillaFactory.createBlock("oreomotholsilicondioxide", <blockmaterial:rock>);
+OreOmotholSiliconDioxide.setBlockHardness(5.0);
+OreOmotholSiliconDioxide.setBlockResistance(15.0);
+OreOmotholSiliconDioxide.setToolClass("pickaxe");
+OreOmotholSiliconDioxide.setToolLevel(1);
+OreOmotholSiliconDioxide.setBlockSoundType(<soundtype:stone>);
+OreOmotholSiliconDioxide.setSlipperiness(0.6);
+OreOmotholSiliconDioxide.register();
 
+var OreOmotholBasaltSiliconDioxide= VanillaFactory.createBlock("oreomotholbasaltsilicondioxide", <blockmaterial:rock>);
+OreOmotholBasaltSiliconDioxide.setBlockHardness(5.0);
+OreOmotholBasaltSiliconDioxide.setBlockResistance(15.0);
+OreOmotholBasaltSiliconDioxide.setToolClass("pickaxe");
+OreOmotholBasaltSiliconDioxide.setToolLevel(1);
+OreOmotholBasaltSiliconDioxide.setBlockSoundType(<soundtype:stone>);
+OreOmotholBasaltSiliconDioxide.setSlipperiness(0.6);
+OreOmotholBasaltSiliconDioxide.register();

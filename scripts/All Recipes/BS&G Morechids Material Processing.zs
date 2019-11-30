@@ -119,9 +119,38 @@ Bloodied_Orechid.addRecipe(<ore:abyssalSand>, <contenttweaker:oreabyssalsandspes
 
 #---Dreadlands---
 #Dreadstone
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <contenttweaker:oredreadstonesilicon>, 348.17);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <contenttweaker:oredreadstonecalcium>, 17.15);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <contenttweaker:oredreadstonemolybdenum>, 17.15);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <contenttweaker:oredreadstonepotassium>, 49.38);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <contenttweaker:oredreadstonealuminium>, 101.99);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <abyssalcraft:abydreadore>, 200);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadstone>, <abyssalcraft:stone:2>, 967.06);
+
 #Abyssalnite stone
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalnitesilicon>, 362.77);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalnitecalcium>, 17.15);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalnitemolybdenum>, 17.15);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalnitepotassium>, 54.25);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalnitealuminium>, 85.85);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <contenttweaker:oreabyssalniteabyssalnite>, 200);
+Bloodied_Orechid.addRecipe(<ore:stoneAbyssalnite>, <abyssalcraft:stone:3>, 963.82);
+
 #Dreaded Obsidian
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidiansilicon>, 285.89);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidianiron>, 147.37);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidiantitanium>, 20);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidianpotassium>, 23.07);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidianaluminium>, 23.07);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidianabyssalnite>, 200);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:oredreadedobsidianmagnesium>, 41.66);
+Bloodied_Orechid.addRecipe(<ore:stoneDreadedObsidian>, <contenttweaker:dreadedobsidian>, 1008.89);
+
 #Dolomite
+Bloodied_Orechid.addRecipe(<contenttweaker:dolomite>, <contenttweaker:oredolomitecalcium>, 100);
+Bloodied_Orechid.addRecipe(<contenttweaker:dolomite>, <contenttweaker:oredolomitemagnesium>, 100);
+Bloodied_Orechid.addRecipe(<contenttweaker:dolomite>, <contenttweaker:oredolomitecarbon>, 200);
+Bloodied_Orechid.addRecipe(<contenttweaker:dolomite>, <contenttweaker:dolomite>, 600);
 
 #---The End---
 #Endstone
@@ -131,7 +160,25 @@ Bloodied_Orechid.addRecipe(<minecraft:end_stone>, <minecraft:end_stone>, 374);
 
 #---Omothol---
 #Omothol Basalt
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholbasalt>, <contenttweaker:oreomotholbasaltbiotite>, 700);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholbasalt>, <contenttweaker:oreomotholbasaltpotassiumfeldspar>, 300);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholbasalt>, <contenttweaker:oreomotholbasaltuvarovite>, 200);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholbasalt>, <contenttweaker:oreomotholbasaltsilicondioxide>, 400);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholbasalt>, <contenttweaker:oreomotholbasaltchromite>, 100);
+
 #Omothol Marble
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholmarble>, <contenttweaker:oreomotholmarblecalcite>, 700);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholmarble>, <contenttweaker:oreomotholmarblepentlandite>, 300);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholmarble>, <contenttweaker:oreomotholmarblechalcocite>, 200);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholmarble>, <contenttweaker:oreomotholmarblesheldonite>, 100);
+Bloodied_Orechid.addRecipe(<contenttweaker:omotholmarble>, <gregtech:mineral:0>, 600);
+
 #Omothol Stone
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholcalcite>, 400);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholwollastonite>, 300);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholfergusonite>, 200);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholsilicondioxide>, 400);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholpitchblende>, 100);
 
 #---Darklands---
+#Darklands stone also generate in the overworld- Don't be OP with this one!

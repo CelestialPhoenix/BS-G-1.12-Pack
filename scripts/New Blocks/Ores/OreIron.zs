@@ -32,3 +32,12 @@ OreAbyssalSandIron.setToolLevel(1);
 OreAbyssalSandIron.setBlockSoundType(<soundtype:ground>);
 OreAbyssalSandIron.setSlipperiness(0.6);
 OreAbyssalSandIron.register();
+
+var OreDreadedObsidianIron= VanillaFactory.createBlock("oredreadedobsidianiron", <blockmaterial:rock>);
+OreDreadedObsidianIron.setBlockHardness(5.0);
+OreDreadedObsidianIron.setBlockResistance(15.0);
+OreDreadedObsidianIron.setToolClass("pickaxe");
+OreDreadedObsidianIron.setToolLevel(3);
+OreDreadedObsidianIron.setBlockSoundType(<soundtype:stone>);
+OreDreadedObsidianIron.setSlipperiness(0.6);
+OreDreadedObsidianIron.register();

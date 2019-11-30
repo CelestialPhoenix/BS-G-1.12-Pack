@@ -41,3 +41,21 @@ OreClayAluminium.setToolLevel(0);
 OreClayAluminium.setBlockSoundType(<soundtype:ground>);
 OreClayAluminium.setSlipperiness(0.6);
 OreClayAluminium.register();
+
+var OreDreadstoneAluminium= VanillaFactory.createBlock("oredreadstonealuminium", <blockmaterial:rock>);
+OreDreadstoneAluminium.setBlockHardness(5.0);
+OreDreadstoneAluminium.setBlockResistance(15.0);
+OreDreadstoneAluminium.setToolClass("pickaxe");
+OreDreadstoneAluminium.setToolLevel(1);
+OreDreadstoneAluminium.setBlockSoundType(<soundtype:stone>);
+OreDreadstoneAluminium.setSlipperiness(0.6);
+OreDreadstoneAluminium.register();
+
+var OreAbyssalniteAluminium= VanillaFactory.createBlock("oreabyssalnitealuminium", <blockmaterial:rock>);
+OreAbyssalniteAluminium.setBlockHardness(5.0);
+OreAbyssalniteAluminium.setBlockResistance(15.0);
+OreAbyssalniteAluminium.setToolClass("pickaxe");
+OreAbyssalniteAluminium.setToolLevel(1);
+OreAbyssalniteAluminium.setBlockSoundType(<soundtype:stone>);
+OreAbyssalniteAluminium.setSlipperiness(0.6);
+OreAbyssalniteAluminium.register();

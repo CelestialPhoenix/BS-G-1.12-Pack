@@ -59,6 +59,13 @@ tile.contenttweaker.oreabyssalspessartine.name=Spessartine
 tile.contenttweaker.oreabyssalspodumene.name=Spodumene
 tile.contenttweaker.oreabyssaltantalite.name=Tantalite
 
+tile.contenttweaker.oreabyssalniteabyssalnite.name=Abyssalnite Ore
+tile.contenttweaker.oreabyssalnitealuminium.name=Aluminium Ore
+tile.contenttweaker.oreabyssalnitecalcium.name=Calcium Ore
+tile.contenttweaker.oreabyssalnitemolybdenum.name=Molybdenum Ore
+tile.contenttweaker.oreabyssalnitepotassium.name=Potassium Ore
+tile.contenttweaker.oreabyssalnitesilicon.name=Silicon Ore
+
 tile.contenttweaker.oreabyssalsandbandediron.name=Banded Iron
 tile.contenttweaker.oreabyssalsandiron.name=Iron Ore
 tile.contenttweaker.oreabyssalsandkaolinite.name=Kaolinite
@@ -82,6 +89,9 @@ tile.contenttweaker.oreclaysodium.name=Sodium Ore
 
 tile.contenttweaker.oredirtlignite.name=Lignite
 
+tile.contenttweaker.oredolomitecalcium.name=Calcium Ore
+tile.contenttweaker.oredolomitecarbon.name=Carbon Ore
+tile.contenttweaker.oredolomitemagnesium.name=Magnesium Ore
 tile.contenttweaker.oredolomitemagnesite.name=Magnesite
 tile.contenttweaker.oredolomitemalachite.name=Malachite
 
@@ -96,10 +106,22 @@ tile.contenttweaker.oredarkstonenaquarrite.name=Naquarrite
 tile.contenttweaker.oredarkstonexifengite.name=Xifengite
 tile.contenttweaker.oredarkstonexilingolite.name=Xilingolite
 
+tile.contenttweaker.oredreadedobsidianabyssalnite.name=Abyssalnite Ore
 tile.contenttweaker.oredreadedobsidianaluminium.name=Aluminium Ore
+tile.contenttweaker.oredreadedobsidianiron.name=Iron Ore
 tile.contenttweaker.oredreadedobsidianbauxite.name=Bauxite
 tile.contenttweaker.oredreadedobsidianilmenite.name=Ilmenite
+tile.contenttweaker.oredreadedobsidianmagnesium.name=Magnesium Ore
+tile.contenttweaker.oredreadedobsidianpotassium.name=Potassium Ore
 tile.contenttweaker.oredreadedobsidianpsudobrookite.name=Psudobrookite
+tile.contenttweaker.oredreadedobsidiansilicon.name=Silicon Ore
+tile.contenttweaker.oredreadedobsidiantitanium.name=Titanium Ore
+
+tile.contenttweaker.oredreadstonealuminium.name=Aluminium Ore
+tile.contenttweaker.oredreadstonecalcium.name=Calcium Ore
+tile.contenttweaker.oredreadstonemolybdenum.name=Molybdenum Ore
+tile.contenttweaker.oredreadstonesilicon.name=Silicon Ore
+tile.contenttweaker.oredreadstonepotassium.name=Potassium Ore
 
 tile.contenttweaker.oreendstonebrannerite.name=Brannerite
 tile.contenttweaker.oreendstoneuraninite.name=Uraninite
@@ -158,20 +180,28 @@ tile.contenttweaker.oreobsidiantungstate.name=Tungstate
 tile.contenttweaker.oreobsidianwolframite.name=Wolframite
 
 tile.contenttweaker.oreomotholbrannerite.name=Brannerite
+tile.contenttweaker.oreomotholcalcite.name=Calcite
 tile.contenttweaker.oreomotholfergusonite.name=Fergusonite
 tile.contenttweaker.oreomotholgadolinite.name=Gadolinite
 tile.contenttweaker.oreomotholmonazitend.name=Monazite-(Nd)
 tile.contenttweaker.oreomotholpitchblende.name=Pitchblende
+tile.contenttweaker.oreomotholpotassiumfeldspar.name=Potassium Feldspar
 tile.contenttweaker.oreomotholuraninite.name=Uraninite
+tile.contenttweaker.oreomotholsilicondioxide.name=Silicon Dioxide
+tile.contenttweaker.oreomotholwollastonite.name=Wollastonite
 tile.contenttweaker.oreomotholxenotime.name=Xenotime
 tile.contenttweaker.oreomotholzircon.name=Zircon
 
+tile.contenttweaker.oreomotholbasaltbiotite.name=Biotite
 tile.contenttweaker.oreomotholbasaltchromite.name=Chromite
+tile.contenttweaker.oreomotholbasaltpotassiumfeldspar.name=Potassium Feldspar
 tile.contenttweaker.oreomotholbasaltuvarovite.name=Uvarovite
+tile.contenttweaker.oreomotholbasaltsilicondioxide.name=Silicon Dioxide Ore
 tile.contenttweaker.oreomotholbasaltyellowgarnet.name=Yellow Garnet
 
 tile.contenttweaker.oreomotholmarblebornite.name=Bornite
 tile.contenttweaker.oreomotholmarblebowieite.name=Bowieite
+tile.contenttweaker.oreomotholmarblecalcite.name=Calcite
 tile.contenttweaker.oreomotholmarblechalcocite.name=Chalcocite
 tile.contenttweaker.oreomotholmarblecooperite.name=Cooperite
 tile.contenttweaker.oreomotholmarblepentlandite.name=Pentlandite
