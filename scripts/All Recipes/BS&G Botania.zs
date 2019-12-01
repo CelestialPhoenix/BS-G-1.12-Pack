@@ -3,6 +3,13 @@
 
 print("ooo eee ooo ah ah ting tang...");
 
+#---Removed Recipes---
+#Orechid- use Bloodied Orechid
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechid"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "orechidIgnem"}));
+#recipes.remove(<botania:floatingspecialflower>.withTag({type: "orechid"}));
+#recipes.remove(<botania:floatingspecialflower>.withTag({type: "orechidIgnem"}));
+
 #---Recipes---
 #Mana Pump
 recipes.remove(<botania:pump>);

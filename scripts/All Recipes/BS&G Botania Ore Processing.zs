@@ -6,6 +6,42 @@ print("ooo eee ooo ah ah ting tang...");
 #name items
 
 #recipes
+#---Orechid clean up---
+mods.botania.Orechid.removeOre(<ore:oreCoal>);
+mods.botania.Orechid.removeOre(<ore:oreIron>);
+mods.botania.Orechid.removeOre(<ore:oreTin>);
+mods.botania.Orechid.removeOre(<ore:oreCopper>);
+mods.botania.Orechid.removeOre(<ore:oreLead>);
+mods.botania.Orechid.removeOre(<ore:oreOsmium>);
+mods.botania.Orechid.removeOre(<ore:oreRedstone>);
+mods.botania.Orechid.removeOre(<ore:oreZinc>);
+mods.botania.Orechid.removeOre(<ore:oreSilver>);
+mods.botania.Orechid.removeOre(<ore:oreVinteum>);
+mods.botania.Orechid.removeOre(<ore:oreCertusQuartz>);
+mods.botania.Orechid.removeOre(<ore:oreAluminum>);
+mods.botania.Orechid.removeOre(<ore:oreTungsten>);
+mods.botania.Orechid.removeOre(<ore:oreBlueTopaz>);
+mods.botania.Orechid.removeOre(<ore:oreGold>);
+mods.botania.Orechid.removeOre(<ore:oreCinnabar>);
+mods.botania.Orechid.removeOre(<ore:oreNickel>);
+mods.botania.Orechid.removeOre(<ore:oreAmber>);
+mods.botania.Orechid.removeOre(<ore:oreApatite>);
+mods.botania.Orechid.removeOre(<ore:oreAmber>);
+mods.botania.Orechid.removeOre(<ore:oreUranium>);
+mods.botania.Orechid.removeOre(<ore:oreLapis>);
+mods.botania.Orechid.removeOre(<ore:oreDiamond>);
+mods.botania.Orechid.removeOre(<ore:oreSulfur>);
+mods.botania.Orechid.removeOre(<ore:oreRuby>);
+mods.botania.Orechid.removeOre(<ore:oreSapphire>);
+mods.botania.Orechid.removeOre(<ore:oreOlivine>);
+mods.botania.Orechid.removeOre(<ore:oreGalena>);
+mods.botania.Orechid.removeOre(<ore:oreEmerald>);
+mods.botania.Orechid.removeOre(<ore:orePlatinum>);
+mods.botania.Orechid.removeOre(<ore:oreMithril>);
+#Ignem
+mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);
+mods.botania.OrechidIgnem.removeOre(<ore:oreCobalt>);
+mods.botania.OrechidIgnem.removeOre(<ore:oreFirestone>);
 
 #---mana pool infusion---
 #cleans a crushed/dust ore
