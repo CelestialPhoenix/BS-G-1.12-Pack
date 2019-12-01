@@ -582,3 +582,6 @@ dustOmotholmarble.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 val dustOmotholbasalt = MaterialRegistry.createDustMaterial(747, "omothol_basalt", 0x021002, "dull", 1, [<material:biotite>*7, <material:potassium_feldspar>*3, <material:uvarovite>*2, <material:silicon_dioxide>*4, <material:chromite>*1]);
 dustOmotholbasalt.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
+#Darkstone
+val dustDarkstone = MaterialRegistry.createDustMaterial(748, "darkstone", 0x050505, "dull", 1, [<material:silicon_dioxide>*5, <material:cassiterite>*2,<material:potassium_feldspar>*3, <material:mica>*4, <material:galena>*1]);
+

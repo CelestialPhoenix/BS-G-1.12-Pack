@@ -78,3 +78,11 @@ OreAbyssalniteSilicon.setBlockSoundType(<soundtype:stone>);
 OreAbyssalniteSilicon.setSlipperiness(0.6);
 OreAbyssalniteSilicon.register();
 
+var OreDarkstoneSilicon= VanillaFactory.createBlock("oredarkstonesilicon", <blockmaterial:rock>);
+OreDarkstoneSilicon.setBlockHardness(5.0);
+OreDarkstoneSilicon.setBlockResistance(15.0);
+OreDarkstoneSilicon.setToolClass("pickaxe");
+OreDarkstoneSilicon.setToolLevel(1);
+OreDarkstoneSilicon.setBlockSoundType(<soundtype:stone>);
+OreDarkstoneSilicon.setSlipperiness(0.6);
+OreDarkstoneSilicon.register();

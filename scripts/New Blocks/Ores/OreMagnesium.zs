@@ -32,3 +32,13 @@ OreDreadedObsidianMagnesium.setToolLevel(3);
 OreDreadedObsidianMagnesium.setBlockSoundType(<soundtype:stone>);
 OreDreadedObsidianMagnesium.setSlipperiness(0.6);
 OreDreadedObsidianMagnesium.register();
+
+var OreDarkstoneMagnesium= VanillaFactory.createBlock("oredarkstonemagnesium", <blockmaterial:rock>);
+OreDarkstoneMagnesium.setBlockHardness(5.0);
+OreDarkstoneMagnesium.setBlockResistance(15.0);
+OreDarkstoneMagnesium.setToolClass("pickaxe");
+OreDarkstoneMagnesium.setToolLevel(1);
+OreDarkstoneMagnesium.setBlockSoundType(<soundtype:stone>);
+OreDarkstoneMagnesium.setSlipperiness(0.6);
+OreDarkstoneMagnesium.register();
+

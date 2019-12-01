@@ -137,8 +137,10 @@ material.abyssalnitestone=Abyssanite Stone
 material.omothol_stone=Omothol Stone
 material.omothol_marble=Omothol Marble
 material.omothol_basalt=Omothol Basalt
+material.darkstone=Darkstone
 
 //---Renamed Gtech Materials---
+material.coal=Anthracite
 material.cooperite=Cooperite
 material.endstone=Xenolith
 material.sulfur=Sulphur
@@ -151,10 +153,10 @@ item.material.oreprefix.oreEnd=Xenolith %s Ore
 //---Renamed Gtech Ores---
 
 //---Renamed Gtech Items---
-item.coal.gemExquisite=Huge Lump of Coal
-item.coal.gemFlawless=Large Lump of Coal
-item.coal.gemFlawed=Small Lump of Coal
-item.coal.gemChipped=Tiny Lump of Coal
+item.coal.gemExquisite=Huge Lump of Anthracite Coal
+item.coal.gemFlawless=Large Lump of Anthracite Coal
+item.coal.gemFlawed=Small Lump of Anthracite Coal
+item.coal.gemChipped=Tiny Lump of Anthracite Coal
 
 item.coke.gemExquisite=Huge Lump of Coal Coke
 item.coke.gemFlawless=Large Lump of Coal Coke

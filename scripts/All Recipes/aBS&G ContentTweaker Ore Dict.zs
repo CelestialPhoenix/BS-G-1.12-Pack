@@ -189,9 +189,19 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreSodium>.add(<contenttweaker:oreclaysodium>);
 
 #Darkstone
+#<ore:ore>.add(<contenttweaker:oredarkstone>);
+<ore:oreAluminium>.add(<contenttweaker:oredarkstonealuminium>);
+<ore:oreLead>.add(<contenttweaker:oredarkstonelead>);
+<ore:oreMagnesium>.add(<contenttweaker:oredarkstonemagnesium>);
 <ore:oreNaquadite>.add(<contenttweaker:oredarkstonenaquadite>);
 <ore:oreNaquarrite>.add(<contenttweaker:oredarkstonenaquarrite>);
 <ore:oreNaqulinite>.add(<contenttweaker:oredarkstonenaqulinite>);
+<ore:orePotassium>.add(<contenttweaker:oredarkstonepotassium>);
+<ore:oreSilicon>.add(<contenttweaker:oredarkstonesilicon>);
+<ore:oreSilver>.add(<contenttweaker:oredarkstonesilver>);
+<ore:oreSulfer>.add(<contenttweaker:oredarkstonesulphur>);
+<ore:oreTin>.add(<contenttweaker:oredarkstonetin>);
+<ore:oreXanthoconite>.add(<contenttweaker:oredarkstonexanthoconite>);
 <ore:oreXifengite>.add(<contenttweaker:oredarkstonexifengite>);
 <ore:oreXilingolite>.add(<contenttweaker:oredarkstonexilingolite>);
 

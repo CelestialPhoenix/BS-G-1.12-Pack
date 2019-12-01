@@ -100,9 +100,17 @@ tile.contenttweaker.oredarkstoneskaergaardites.name=[S]-Skaergaardite
 tile.contenttweaker.oredarkstoneuytenbogaardtite.name=Uytenbogaardite
 tile.contenttweaker.oredarkstonexanthoconite.name=Xanthoconite
 
+tile.contenttweaker.oredarkstonealuminium.name=Aluminium Ore
+tile.contenttweaker.oredarkstonelead.name=Lead Ore
+tile.contenttweaker.oredarkstonemagnesium.name=Magnesium Ore
 tile.contenttweaker.oredarkstonenaquadite.name=Naquadite
 tile.contenttweaker.oredarkstonenaqulinite.name=Naqulinite
 tile.contenttweaker.oredarkstonenaquarrite.name=Naquarrite
+tile.contenttweaker.oredarkstonepotassium.name=Potassium Ore
+tile.contenttweaker.oredarkstonesilicon.name=Silicon Ore
+tile.contenttweaker.oredarkstonesilver.name=Silver Ore
+tile.contenttweaker.oredarkstonesulphur.name=Sulphur Ore
+tile.contenttweaker.oredarkstonetin.name=Tin Ore
 tile.contenttweaker.oredarkstonexifengite.name=Xifengite
 tile.contenttweaker.oredarkstonexilingolite.name=Xilingolite
 

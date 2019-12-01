@@ -32,3 +32,12 @@ OreDreadedObsidianPotassium.setToolLevel(3);
 OreDreadedObsidianPotassium.setBlockSoundType(<soundtype:stone>);
 OreDreadedObsidianPotassium.setSlipperiness(0.6);
 OreDreadedObsidianPotassium.register();
+
+var OreDarkstonePotassium= VanillaFactory.createBlock("oredarkstonepotassium", <blockmaterial:rock>);
+OreDarkstonePotassium.setBlockHardness(5.0);
+OreDarkstonePotassium.setBlockResistance(15.0);
+OreDarkstonePotassium.setToolClass("pickaxe");
+OreDarkstonePotassium.setToolLevel(1);
+OreDarkstonePotassium.setBlockSoundType(<soundtype:stone>);
+OreDarkstonePotassium.setSlipperiness(0.6);
+OreDarkstonePotassium.register();

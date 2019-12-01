@@ -182,3 +182,13 @@ Bloodied_Orechid.addRecipe(<abyssalcraft:stone:6>, <contenttweaker:oreomotholpit
 
 #---Darklands---
 #Darklands stone also generate in the overworld- Don't be OP with this one!
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonepotassium>, 66.86);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonemagnesium>, 68.18);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonealuminium>, 154.42);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonesilicon>, 200.57);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonetin>, 66.67);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonelead>, 37.5);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonesilver>, 37.5);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <contenttweaker:oredarkstonesulphur>, 25);
+Bloodied_Orechid.addRecipe(<abyssalcraft:stone:0>, <abyssalcraft:stone:0>, 843.31);
+

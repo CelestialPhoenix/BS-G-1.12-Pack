@@ -59,3 +59,13 @@ OreAbyssalniteAluminium.setToolLevel(1);
 OreAbyssalniteAluminium.setBlockSoundType(<soundtype:stone>);
 OreAbyssalniteAluminium.setSlipperiness(0.6);
 OreAbyssalniteAluminium.register();
+
+var OreDarkstoneAluminium= VanillaFactory.createBlock("oredarkstonealuminium", <blockmaterial:rock>);
+OreDarkstoneAluminium.setBlockHardness(5.0);
+OreDarkstoneAluminium.setBlockResistance(15.0);
+OreDarkstoneAluminium.setToolClass("pickaxe");
+OreDarkstoneAluminium.setToolLevel(1);
+OreDarkstoneAluminium.setBlockSoundType(<soundtype:stone>);
+OreDarkstoneAluminium.setSlipperiness(0.6);
+OreDarkstoneAluminium.register();
+
