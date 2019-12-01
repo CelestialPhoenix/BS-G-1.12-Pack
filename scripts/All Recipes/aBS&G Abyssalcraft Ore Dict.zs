@@ -30,7 +30,7 @@ print("I'm not evil I promise");
 
 <ore:cobblestoneDarkstone>.add(<abyssalcraft:cobblestone:0>);
 
-<ore:toneDreaded>.add(<abyssalcraft:stone:2>);
+<ore:stoneDreaded>.add(<abyssalcraft:stone:2>);
 <ore:cobblestoneDreaded>.add(<abyssalcraft:cobblestone:2>);
 
 <ore:stoneAbyssalnite>.add(<abyssalcraft:stone:3>);

@@ -154,6 +154,7 @@ item.material.oreprefix.oreEnd=Xenolith %s Ore
 
 //---Renamed Gtech Items---
 item.coal.gemExquisite=Huge Lump of Anthracite Coal
+item.coal.gemExquisite.tooltip=TEST TEST TEST TEST
 item.coal.gemFlawless=Large Lump of Anthracite Coal
 item.coal.gemFlawed=Small Lump of Anthracite Coal
 item.coal.gemChipped=Tiny Lump of Anthracite Coal

@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "all": "contenttweaker:blocks/ores/ores/oreobsidianaluminium"
+      "all": "contenttweaker:blocks/ores/oreobsidianaluminium"
     },
     "model": "cube_all",
     "uvlock": true,
