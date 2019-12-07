@@ -32,6 +32,15 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:13
 #mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingot>.firstItem*4, <ore:ore>, <ore:itemSlagRich>.firstItem, 2000, 2048);
 
 #Alphabetical, by dimension order
+#--Orechid--
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*1, <ore:oreBiotite>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustAsh>.firstItem*4, <ore:oreCarbon>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:oreGlassy>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*1, <ore:oreKaolinite>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*1, <ore:orePotassiumFeldspar>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSilicon>.firstItem*4, <ore:oreSilicon>, <ore:itemSlagRich>.firstItem, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSilicon>.firstItem*2, <ore:oreSiliconDioxide>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:oreWollastonite>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 
 #--Overworld--
 
@@ -238,6 +247,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*2,
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAntimony>.firstItem*2, <ore:clusterAntimony>, <ore:itemSlagRich>.firstItem, 20, 2048); #Antimony
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBeryllium>.firstItem*2, <ore:clusterBeryllium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Beryllium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotBismuth>.firstItem*2, <ore:clusterBismuth>, <ore:itemSlagRich>.firstItem, 20, 2048); #Bismuth
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*2, <ore:clusterCalcium>, <ore:itemSlagRich>.firstItem, 20, 2048); #Calcium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotChrome>.firstItem*2, <ore:clusterChrome>, <ore:itemSlagRich>.firstItem, 20, 2048); #Chrome
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCobalt>.firstItem*2, <ore:clusterCobalt>, <ore:itemSlagRich>.firstItem, 20, 2048); #Cobalt
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCopper>.firstItem*2, <ore:clusterCopper>, <ore:itemSlagRich>.firstItem, 20, 2048); #Copper
@@ -308,6 +318,16 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:19>);
 #mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore__0:4>, <ore:ore>, 4096, <ore:crushed>.firstItem, 0.1); #Crushed Byproduct name
 
 #Alphabetical, by dimension order
+#--Orechid--
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_biotite_0:4>, <ore:oreBiotite>, 4096, <ore:crushedBiotite>.firstItem, 0.1); #Biotite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_carbon_0:4>, <ore:oreCarbon>, 4096, <ore:crushedCarbon>.firstItem, 0.1); #Carbon
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_calcium_0:4>, <ore:oreCalcium>, 4096, <ore:crushedCalcium>.firstItem, 0.1); #Calcium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_glassy_0:4>, <ore:oreGlassy>, 4096, <ore:crushedGlassy>.firstItem, 0.1); #Glassy
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_kaolinite_0:4>, <ore:oreKaolinite>, 4096, <ore:crushedKaolinite>.firstItem, 0.1); #Kaolinite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_potassium_feldspar_0:4>, <ore:orePotassiumFeldspar>, 4096, <ore:crushedPotassiumFeldspar>.firstItem, 0.1); #Potassium Feldspar
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_silicon_0:4>, <ore:oreSilicon>, 4096, <ore:crushedSilicon>.firstItem, 0.1); #Silicon
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_silicon_dioxide_0:4>, <ore:oreSiliconDioxide>, 4096, <ore:crushedSiliconDioxide>.firstItem, 0.1); #Silicon
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_wollastonite_0:4>, <ore:oreWollastonite>, 4096, <ore:crushedWollastonite>.firstItem, 0.1); #Wollastonite
 
 #--Overworld--
 #Coal[Anthracite/Lignite]
@@ -315,139 +335,139 @@ mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_coal_0:4>, <ore:oreAnt
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_coal_0:4>, <ore:oreCoal>, 4096, <ore:crushedCoal>.firstItem, 0.1); #Crushed Coal
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lignite_0:4>, <ore:oreLignite>, 4096, <ore:crushedLignite>.firstItem, 0.1); #Crushed Lignite
 #Copper
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_chalcopyrite_0:4>, <ore:oreChalcopyrite>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_copper_0:4>, <ore:oreCopper>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_malachite_0:4>, <ore:oreMalachite>, 4096, <ore:crushedCalcite>.firstItem, 0.1); #Crushed Calcite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_chalcopyrite_0:4>, <ore:oreChalcopyrite>, 4096, <ore:crushedChalcopyrite>.firstItem, 0.1); #Crushed Chalcopyrite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_copper_0:4>, <ore:oreCopper>, 4096, <ore:crushedCopper>.firstItem, 0.1); #Crushed Copper
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_malachite_0:4>, <ore:oreMalachite>, 4096, <ore:crushedMalahite>.firstItem, 0.1); #Crushed Malachite
 #Diamond
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_diamond_0:4>, <ore:ore>, 4096, <ore:crushedDiamond>.firstItem, 0.1); #Crushed Diamond
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_diamond_0:4>*2, <ore:ore>, 4096, <ore:crushedDiamond>.firstItem, 0.3); #Crushed Diamond
 #Galena[Lead/Silver]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_galena_0:4>, <ore:oreGalena>, 4096, <ore:crushedLead>.firstItem, 0.1); #Crushed Lead
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lead_0:4>, <ore:oreLead>, 4096, <ore:crushedGalena>.firstItem, 0.1); #Crushed Galena
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_silver_0:4>, <ore:oreLead>, 4096, <ore:crushedGalena>.firstItem, 0.1); #Crushed Galena
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_galena_0:4>, <ore:oreGalena>, 4096, <ore:crushedGalena>.firstItem, 0.1); #Crushed Galena
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lead_0:4>, <ore:oreLead>, 4096, <ore:crushedLead>.firstItem, 0.1); #Crushed Lead
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_silver_0:4>, <ore:oreLead>, 4096, <ore:crushedSilver>.firstItem, 0.1); #Crushed Silver
 #Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_brown_limonite_0:4>, <ore:oreBrownLimonite>, 4096, <ore:crushedYellowLimonite>.firstItem, 0.1); #Crushed YLimonite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_banded_iron_0:4>, <ore:oreBandedIron>, 4096, <ore:crushedIton>.firstItem, 0.1); #Crushed Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_iron_0:4>, <ore:oreIron>, 4096, <ore:crushedTin>.firstItem, 0.1); #Crushed Tin
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_magnetite_0:4>, <ore:oreMagnetite>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_yellow_limonite_0:4>, <ore:oreYellowLimonite>, 4096, <ore:crushedBrownLimonite>.firstItem, 0.1); #Crushed BLimonite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_brown_limonite_0:4>, <ore:oreBrownLimonite>, 4096, <ore:crushedBrownLimonite>.firstItem, 0.1); #Crushed BLimonite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_banded_iron_0:4>, <ore:oreBandedIron>, 4096, <ore:crushedBandedIron>.firstItem, 0.1); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_iron_0:4>, <ore:oreIron>, 4096, <ore:crushedIron>.firstItem, 0.1); #Crushed Tin
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_magnetite_0:4>, <ore:oreMagnetite>, 4096, <ore:crushedMagnetite>.firstItem, 0.1); #Crushed Gold
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_yellow_limonite_0:4>, <ore:oreYellowLimonite>, 4096, <ore:crushedYellowLimonite>.firstItem, 0.1); #Crushed BLimonite
 #Lapis
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lapis_0:4>, <ore:oreLapis>, 4096, <ore:crushedSodalite>.firstItem, 0.1); #Crushed Sodalite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lazurite_0:4>, <ore:oreLazurite>, 4096, <ore:crushedSodalite>.firstItem, 0.1); #Crushed Sodalite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lapis_0:4>*2, <ore:orerichLapis>, 4096, <ore:crushedSodalite>.firstItem, 0.1); #Crushed Sodalite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lazurite_0:4>*2, <ore:orerickLazurite>, 4096, <ore:crushedSodalite>.firstItem, 0.1); #Crushed Sodalite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lapis_0:4>, <ore:oreLapis>, 4096, <ore:crushedLapis>.firstItem, 0.1); #Crushed Sodalite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lazurite_0:4>, <ore:oreLazurite>, 4096, <ore:crushedLazurite>.firstItem, 0.1); #Crushed Sodalite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lapis_0:4>*2, <ore:orerichLapis>, 4096, <ore:crushedLapis>.firstItem, 0.1); #Crushed Sodalite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lazurite_0:4>*2, <ore:orerickLazurite>, 4096, <ore:crushedLazurite>.firstItem, 0.1); #Crushed Sodalite
 #Nickel [Cobalt]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cobalt_0:4>, <ore:oreCobalt>, 4096, <ore:crushedNickel>.firstItem, 0.1); #Crushed Nickel
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cobaltite_0:4>, <ore:oreCobaltite>, 4096, <ore:crushedNickel>.firstItem, 0.1); #Crushed Nickel
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_garnierite_0:4>, <ore:oreGarnierite>, 4096, <ore:crushedIron>.firstItem, 0.1); #Crushed Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_nickel_0:4>, <ore:oreNickel>, 4096, <ore:crushedIron>.firstItem, 0.1); #Crushed Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pentlandite_0:4>, <ore:orePentlandite>, 4096, <ore:crushedCobaltite>.firstItem, 0.1); #Crushed Cobaltite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cobalt_0:4>, <ore:oreCobalt>, 4096, <ore:crushedCobalt>.firstItem, 0.1); #Crushed Nickel
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cobaltite_0:4>, <ore:oreCobaltite>, 4096, <ore:crushedCobaltite>.firstItem, 0.1); #Crushed Nickel
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_garnierite_0:4>, <ore:oreGarnierite>, 4096, <ore:crushedGarnierite>.firstItem, 0.1); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_nickel_0:4>, <ore:oreNickel>, 4096, <ore:crushedNickel>.firstItem, 0.1); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pentlandite_0:4>, <ore:orePentlandite>, 4096, <ore:crushedPentlandite>.firstItem, 0.1); #Crushed Cobaltite
 #Redstone
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_redstone_0:4>, <ore:oreRedstone>, 4096, <ore:crushedRedstone>.firstItem, 0.1); #Crushed Redstone
 #Sapphire [Pyrope/Green Sapp]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_almandine_0:4>, <ore:oreAlmandine>, 4096, <ore:crushedGarnetRed>.firstItem, 0.1); #Crushed Red Garnet
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_green_sapphire_0:4>, <ore:oreGreenSapphire>, 4096, <ore:crushedSapphire>.firstItem, 0.1); #Crushed Blue Sapphire
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrope_0:4>, <ore:orePyrope>, 4096, <ore:crushedGarnetRed>.firstItem, 0.1); #Crushed Red Garnet
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sapphire_0:4>, <ore:oreSapphire>, 4096, <ore:crushedGreenSapphire>.firstItem, 0.1); #Crushed Green Sapphire
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_almandine_0:4>, <ore:oreAlmandine>, 4096, <ore:crushedAlmandine>.firstItem, 0.1); #Crushed Red Garnet
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_green_sapphire_0:4>, <ore:oreGreenSapphire>, 4096, <ore:crushedGreenSapphire>.firstItem, 0.1); #Crushed Blue Sapphire
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrope_0:4>, <ore:orePyrope>, 4096, <ore:crushedPyrope>.firstItem, 0.1); #Crushed Red Garnet
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sapphire_0:4>, <ore:oreSapphire>, 4096, <ore:crushedSapphire>.firstItem, 0.1); #Crushed Green Sapphire
 #Tin
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cassiterite_0:4>, <ore:oreCassiterite>, 4096, <ore:crushedIron>.firstItem, 0.3); #Crushed Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tin_0:4>, <ore:oreTin>, 4096, <ore:crushedIron>.firstItem, 0.1); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cassiterite_0:4>, <ore:oreCassiterite>, 4096, <ore:crushedCassiterite>.firstItem, 0.3); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tin_0:4>, <ore:oreTin>, 4096, <ore:crushedTin>.firstItem, 0.1); #Crushed Iron
 
 #--Nether--
 #Gold [quartz]
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_gold_0:4>, <ore:oreGold>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_nether_quartz_0:4>, <ore:oreNetherQuartz>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_quartzite_0:4>, <ore:oreQuartzite>, 4096, <ore:crushedGold>.firstItem, 0.1); #Crushed Gold
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_nether_quartz_0:4>, <ore:oreNetherQuartz>, 4096, <ore:crushedNetherQuartz>.firstItem, 0.1); #Crushed Gold
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_quartzite_0:4>, <ore:oreQuartzite>, 4096, <ore:crushedQuartzite>.firstItem, 0.1); #Crushed Gold
 #Redstone [Cinnabar/Ruby]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cinnabar_0:4>, <ore:oreCinnabar>, 4096, <ore:crushedRedstone>.firstItem, 0.1); #Crushed Redstone
-#mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_redstone_0:4>, <ore:oreRedstone>, 4096, <gregtech:meta_item_1:5215>, 0.1); #Crushed Redstone
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ruby_0:4>, <ore:oreRuby>, 4096, <ore:crushedRedstone>.firstItem, 0.1); #Crushed Redstone
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cinnabar_0:4>, <ore:oreCinnabar>, 4096, <ore:crushedCinnabar>.firstItem, 0.1); #Crushed Redstone
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_redstone_0:4>, <ore:oreRedstone>, 4096, <ore:crushedRedstone>.firstItem, 0.1); #Crushed Redstone
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ruby_0:4>, <ore:oreRuby>, 4096, <ore:crushedRuby>.firstItem, 0.1); #Crushed Redstone
 #Sulphur (pyrite)
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrite_0:4>, <ore:orePyrite>, 4096, <ore:crushedSulfur>.firstItem, 0.1); #Crushed Sulphur
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrite_0:4>, <ore:orePyrite>, 4096, <ore:crushedPyrite>.firstItem, 0.1); #Crushed Sulphur
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sulfur_0:4>, <ore:oreSulfur>, 4096, <ore:crushedSulfur>.firstItem, 0.1); #Crushed Sulphur
 #Zinc [sphalerite]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sphalerite_0:4>, <ore:oreSphalerite>, 4096, <ore:crushedZinc>.firstItem, 0.1); #Crushed Zinc
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zinc_0:4>, <ore:oreZinc>, 4096, <ore:crushedSphalerite>.firstItem, 0.1); #Crushed Sphalerite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sphalerite_0:4>, <ore:oreSphalerite>, 4096, <ore:crushedSphalerite>.firstItem, 0.1); #Crushed Zinc
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zinc_0:4>, <ore:oreZinc>, 4096, <ore:crushedZinc>.firstItem, 0.1); #Crushed Sphalerite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_goslarite_0:4>, <ore:oreGoslarite>, 4096, <ore:crushedGoslarite>.firstItem, 0.1); #Goslarite
 
 #--Aether--
 #Aluminium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_aluminium_0:4>, <ore:oreAluminium>, 4096, <ore:crushedBauxite>.firstItem, 0.1); #Crushed Bauxite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bauxite_0:4>, <ore:oreBauxite>, 4096, <ore:crushedAluminium>.firstItem, 0.1); #Crushed Aluminium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_aluminium_0:4>, <ore:oreAluminium>, 4096, <ore:crushedAluminium>.firstItem, 0.1); #Crushed Bauxite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bauxite_0:4>, <ore:oreBauxite>, 4096, <ore:crushedBauxite>.firstItem, 0.1); #Crushed Aluminium
 #Bismuth
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_berryite_0:4>, <ore:oreBerryite>, 4096, <ore:crushedBerryite>.firstItem, 0.1); #Berryite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bismuth_0:4>, <ore:oreBismuth>, 4096, <ore:crushedBismuth>.firstItem, 0.1); #Bismuth
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bismuthinite_0:4>, <ore:oreBismuthinite>, 4096, <ore:crushedBismuthinite>.firstItem, 0.1); #Bismuthinite
 #Copper [tetrahedrite]
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tetrahedrite_0:4>, <ore:oreTetrahedrite>, 4096, <ore:crushedCopper>.firstItem, 0.1); #Crushed Copper
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tetrahedrite_0:4>, <ore:oreTetrahedrite>, 4096, <ore:crushedTetrahedrite>.firstItem, 0.1); #Crushed Copper
 
 #--Abyssal Wasteland--
 #Beryl
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bertrandite_0:4>, <ore:oreBertrandite>, 4096, <ore:crushedEmerald>.firstItem, 0.1); #Crushed Emerald
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_euclase_0:4>, <ore:oreBeryl>, 4096, <ore:crushedEmerald>.firstItem, 0.1); #Crushed Emerald
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_beryllium_0:4>, <ore:oreBeryllium>, 4096, <ore:crushedEmerald>.firstItem, 0.1); #Crushed Emerald
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_emerald_0:4>, <ore:oreEmerald>, 4096, <ore:crushedBeryllium>.firstItem, 0.1); #Crushed Beryllium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bertrandite_0:4>, <ore:oreBertrandite>, 4096, <ore:crushedBertrandite>.firstItem, 0.1); #Crushed Emerald
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_euclase_0:4>, <ore:oreBeryl>, 4096, <ore:crushedEuclase>.firstItem, 0.1); #Crushed Emerald
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_beryllium_0:4>, <ore:oreBeryllium>, 4096, <ore:crushedBeryllium>.firstItem, 0.1); #Crushed Emerald
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_emerald_0:4>, <ore:oreEmerald>, 4096, <ore:crushedEmerald>.firstItem, 0.1); #Crushed Beryllium
 #Manganese
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_manganese_0:4>, <ore:oreManganese>, 4096, <ore:crushedManganese>.firstItem, 0.1); #Crushed Manganese
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrolusite_0:4>, <ore:orePyrolusite>, 4096, <ore:crushedGarnetRed>.firstItem, 0.1); #Crushed Red Garnet
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tantalite_0:4>, <ore:oreTantalite>, 4096, <ore:crushedManganese>.firstItem, 0.1); #Crushed Manganese
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pyrolusite_0:4>, <ore:orePyrolusite>, 4096, <ore:crushedPyrolusite>.firstItem, 0.1); #Crushed Red Garnet
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tantalite_0:4>, <ore:oreTantalite>, 4096, <ore:crushedTantalite>.firstItem, 0.1); #Crushed Manganese
 #Salts
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lepidolite_0:4>, <ore:ore>, 4096, <ore:crushedAluminium>.firstItem, 0.1); # Crushed Aluminium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_rock_salt_0:4>, <ore:ore>, 4096, <ore:crushedSalt>.firstItem, 0.1); # Crushed Salt
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_salt_0:4>, <ore:ore>, 4096, <ore:crushedRockSalt>.firstItem, 0.1); # Crushed Rocksalt
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_spodumene_0:4>, <ore:ore>, 4096, <ore:crushedAluminium>.firstItem, 0.1); # Crushed Aluminium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lithium_0:4>, <ore:ore>, 4096, <ore:crushedPotassium>.firstItem, 0.1); # Crushed Potassium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_potassium_0:4>, <ore:ore>, 4096, <ore:crushedSodium>.firstItem, 0.1); # Crushed Sodium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sodium_0:4>, <ore:ore>, 4096, <ore:crushedLithium>.firstItem, 0.1); # Crushed Lithium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lepidolite_0:4>, <ore:oreLepidolite>, 4096, <ore:crushedLepidolite>.firstItem, 0.1); # Crushed Aluminium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_rock_salt_0:4>, <ore:oreRockSalt>, 4096, <ore:crushedRockSalt>.firstItem, 0.1); # Crushed Salt
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_salt_0:4>, <ore:oreSalt>, 4096, <ore:crushedSalt>.firstItem, 0.1); # Crushed Rocksalt
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_spodumene_0:4>, <ore:oreSpodumene>, 4096, <ore:crushedSpodumene>.firstItem, 0.1); # Crushed Aluminium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_lithium_0:4>, <ore:oreLithium>, 4096, <ore:crushedLithium>.firstItem, 0.1); # Crushed Potassium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_potassium_0:4>, <ore:orePotassium>, 4096, <ore:crushedPotassium>.firstItem, 0.1); # Crushed Sodium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sodium_0:4>, <ore:oreSodium>, 4096, <ore:crushedSodium>.firstItem, 0.1); # Crushed Lithium
 #Rare Earth
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bastnasite_0:4>, <ore:oreBastnasite>, 4096, <ore:crushedRareEarth>.firstItem, 0.1); #Crushed Rare Earth
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_electrotine_0:4>, <ore:oreElectrotine>, 4096, <ore:crushedSapphire>.firstItem, 0.1); #Crushed Sapphire
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_huttonite_0:4>, <ore:oreHuttonite>, 4096, <ore:crushedThorium>.firstItem, 0.1); #Crushed Thorium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_monazite_0:4>, <ore:oreMonazite>, 4096, <ore:crushedRareEarth>.firstItem, 0.1); #Crushed Rare Earth
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_rare_earth_0:4>, <ore:oreRareEarth>, 4096, <ore:crushedNeodymium>.firstItem, 0.1); #Crushed Neodymium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_thorium_0:4>, <ore:oreThorium>, 4096, <ore:crushedLead>.firstItem, 0.1); #Crushed Lead
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_bastnasite_0:4>, <ore:oreBastnasite>, 4096, <ore:crushedBastnasite>.firstItem, 0.1); #Crushed Rare Earth
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_electrotine_0:4>, <ore:oreElectrotine>, 4096, <ore:crushedElectrotine>.firstItem, 0.1); #Crushed Sapphire
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_huttonite_0:4>, <ore:oreHuttonite>, 4096, <ore:crushedHuttonite>.firstItem, 0.1); #Crushed Thorium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_monazite_0:4>, <ore:oreMonazite>, 4096, <ore:crushedMonazite>.firstItem, 0.1); #Crushed Rare Earth
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_rare_earth_0:4>, <ore:oreRareEarth>, 4096, <ore:crushedRareEarth>.firstItem, 0.1); #Crushed Neodymium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_thorium_0:4>, <ore:oreThorium>, 4096, <ore:crushedThorium>.firstItem, 0.1); #Crushed Lead
 #Vanadium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_0:4>, <ore:oreVanadium>, 4096, <ore:crushed>.firstItem, 0.1); #Vanadium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_magnetite_0:4>, <ore:oreVanadiumMagnetite>, 4096, <ore:crushed>.firstItem, 0.1); #Vanadium Magnetite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_0:4>, <ore:oreVanadium>, 4096, <ore:crushedVanadium>.firstItem, 0.1); #Vanadium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_vanadium_magnetite_0:4>, <ore:oreVanadiumMagnetite>, 4096, <ore:crushedVanadiumMagnetite>.firstItem, 0.1); #Vanadium Magnetite
 
 #--Dreadlands--
 #Magnesium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_magnesite_0:4>, <ore:oreMagnesite>, 4096, <ore:crushedCalcite>.firstItem, 0.1); #Crushed Calcite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_magnesite_0:4>, <ore:oreMagnesite>, 4096, <ore:crushedMagnesite>.firstItem, 0.1); #Crushed Calcite
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_magnesium_0:4>, <ore:oreMagnesium>, 4096, <ore:crushedMagnesium>.firstItem, 0.1); #Crushed Magnesium
 #Molybdenum
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_molybdenite_0:4>, <ore:oreMolybdenite>, 4096, <ore:crushedSulfur>.firstItem, 0.1); #Crushed Sulphur
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_molybdenite_0:4>, <ore:oreMolybdenite>, 4096, <ore:crushedMolybdenite>.firstItem, 0.1); #Crushed Sulphur
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_molybdenum_0:4>, <ore:oreMolybdenum>, 4096, <ore:crushedMolybdenum>.firstItem, 0.1); #Crushed Molybdenum
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_powellite_0:4>, <ore:orePowellite>, 4096, <ore:crushedCalcium>.firstItem, 0.1); #Crushed Calcium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_wulfenite_0:4>, <ore:oreWulfenite>, 4096, <ore:crushedLead>.firstItem, 0.1); #Crushed Lead
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_powellite_0:4>, <ore:orePowellite>, 4096, <ore:crushedPowellite>.firstItem, 0.1); #Crushed Calcium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_wulfenite_0:4>, <ore:oreWulfenite>, 4096, <ore:crushedWulfenite>.firstItem, 0.1); #Crushed Lead
 #Titanium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ilmenite_0:4>, <ore:oreIlmenite>, 4096, <ore:crushedRutile>.firstItem, 0.1); #Crushed Rutile
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_psudobrookite_0:4>, <ore:orePsudobrookite>, 4096, <ore:crushedRutile>.firstItem, 0.1); #Crushed Rutile
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ilmenite_0:4>, <ore:oreIlmenite>, 4096, <ore:crushedIlmenite>.firstItem, 0.1); #Crushed Rutile
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_psudobrookite_0:4>, <ore:orePsudobrookite>, 4096, <ore:crushedPsudobrookite>.firstItem, 0.1); #Crushed Rutile
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_titanium_0:4>, <ore:oreTitanium>, 4096, <ore:crushedTitanium>.firstItem, 0.1); #Crushed Titanium
 #Uranium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_coffinite_0:4>, <ore:oreCoffinite>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Uranium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pitchblende_0:4>, <ore:orePitchblende>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Uranium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_thorite_0:4>, <ore:oreThorite>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Uranium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uranium_0:4>, <ore:oreUranium>, 4096, <ore:crushedThorium>.firstItem, 0.1); #Crushed Thorium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zircon_0:4>, <ore:oreZircon>, 4096, <ore:crushedZirconium>.firstItem, 0.1); #Crushed Zirconium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zirconium_0:4>, <ore:oreZirconium>, 4096, <ore:crushedZircon>.firstItem, 0.1); #Crushed Zircon
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_coffinite_0:4>, <ore:oreCoffinite>, 4096, <ore:crushedCoffinite>.firstItem, 0.1); #Crushed Uranium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_pitchblende_0:4>, <ore:orePitchblende>, 4096, <ore:crushedPitchblende>.firstItem, 0.1); #Crushed Uranium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_thorite_0:4>, <ore:oreThorite>, 4096, <ore:crushedThorite>.firstItem, 0.1); #Crushed Uranium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uranium_0:4>, <ore:oreUranium>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Thorium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zircon_0:4>, <ore:oreZircon>, 4096, <ore:crushedZircon>.firstItem, 0.1); #Crushed Zirconium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_zirconium_0:4>, <ore:oreZirconium>, 4096, <ore:crushedZirconium>.firstItem, 0.1); #Crushed Zircon
 
 #--The End--
 #Platinum
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_braggite_0:4>, <ore:oreBraggite>, 4096, <ore:crushedPlatinum>.firstItem, 0.1); #Crushed Platinum
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cooperite_0:4>, <ore:oreCooperite>, 4096, <ore:crushedPlatinum>.firstItem, 0.1); #Crushed Platinum
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_braggite_0:4>, <ore:oreBraggite>, 4096, <ore:crushedBraggite>.firstItem, 0.1); #Crushed Platinum
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_cooperite_0:4>, <ore:oreCooperite>, 4096, <ore:crushedCooperite>.firstItem, 0.1); #Crushed Platinum
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_platinum_0:4>, <ore:orePlatinum>, 4096, <ore:crushedPlatinum>.firstItem, 0.1); #Crushed Platinum
 #mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sheldonite_0:4>, <ore:oreSheldonite>, 4096, <ore:crushedPlatinum>.firstItem, 0.1); #Crushed Platinum
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sperrylite_0:4>, <ore:oreSperrylite>, 4096, <ore:crushedPlatinum>.firstItem, 0.1); #Crushed Platinum
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_sperrylite_0:4>, <ore:oreSperrylite>, 4096, <ore:crushedSperrylite>.firstItem, 0.1); #Crushed Platinum
 #Tungsten
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ferberite_0:4>, <ore:oreFerberite>, 4096, <ore:crushedManganese>.firstItem, 0.1); #Crushed Manganese
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_hubnerite_0:4>, <ore:oreHubnerite>, 4096, <ore:crushedIron>.firstItem, 0.1); #Crushed Iron
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_scheelite_0:4>, <ore:oreScheelite>, 4096, <ore:crushedCalcite>.firstItem, 0.1); #Crushed Calcite
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tungstate_0:4>, <ore:oreTungstate>, 4096, <ore:crushedLithium>.firstItem, 0.1); #Crushed Lithium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_wolframite_0:4>, <ore:oreWolframite>, 4096, <ore:crushedManganese>.firstItem, 0.1); #Crushed Manganese
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_ferberite_0:4>, <ore:oreFerberite>, 4096, <ore:crushedFerberite>.firstItem, 0.1); #Crushed Manganese
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_hubnerite_0:4>, <ore:oreHubnerite>, 4096, <ore:crushedHubnerite>.firstItem, 0.1); #Crushed Iron
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_scheelite_0:4>, <ore:oreScheelite>, 4096, <ore:crushedScheelite>.firstItem, 0.1); #Crushed Calcite
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tungstate_0:4>, <ore:oreTungstate>, 4096, <ore:crushedTungsten>.firstItem, 0.1); #Crushed Lithium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_wolframite_0:4>, <ore:oreWolframite>, 4096, <ore:crushedWolframite>.firstItem, 0.1); #Crushed Manganese
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_tungsten_0:4>, <ore:oreTungsten>, 4096, <ore:crushedTungsten>.firstItem, 0.1); #Crushed Tungsten
 #Uranium
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_brannerite_0:4>, <ore:oreBrannerite>, 4096, <ore:crushedRutile>.firstItem, 0.1); #Crushed Rutile
-mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uraninite_0:4>, <ore:oreUraninite>, 4096, <ore:crushedUranium>.firstItem, 0.1); #Crushed Uranium
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_brannerite_0:4>, <ore:oreBrannerite>, 4096, <ore:crushedBrannerite>.firstItem, 0.1); #Crushed Rutile
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:ore_uraninite_0:4>, <ore:oreUraninite>, 4096, <ore:crushedUraninite>.firstItem, 0.1); #Crushed Uranium
 
 #--Omothol--
 #Chrome
@@ -493,6 +513,7 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustAluminium>.firstItem*2, <or
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustAntimony>.firstItem*2, <ore:clusterAntimony>, 4096, null, 0.1); #Antimony
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBeryllium>.firstItem*2, <ore:clusterBeryllium>, 4096, null, 0.1); #Beryllium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBismuth>.firstItem*2, <ore:clusterBismuth>, 4096, null, 0.1); #Bismuth
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustCalcium>.firstItem*2, <ore:clusterCalcium>, 4096, null, 0.1); #Calcium
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustChrome>.firstItem*2, <ore:clusterChrome>, 4096, null, 0.1); #Chrome
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCobalt>.firstItem*2, <ore:clusterCobalt>, 4096, null, 0.1); #Cobalt
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustCopper>.firstItem*2, <ore:clusterCopper>, 4096, null, 0.1); #Copper

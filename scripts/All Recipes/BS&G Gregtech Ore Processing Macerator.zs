@@ -61,6 +61,14 @@ macerator
     .buildAndRegister();
 macerator
     .recipeBuilder()
+    .inputs(<ore:clusterCalcium>.firstItem)
+    .outputs(<ore:dustCalcium>.firstItem*2)
+	.chancedOutput(<ore:dustCalcium>.firstItem, 2000, 1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+macerator
+    .recipeBuilder()
     .inputs(<ore:clusterChrome>.firstItem)
     .outputs(<ore:dustChrome>.firstItem*2)
 	.chancedOutput(<ore:dustChrome>.firstItem, 2000, 1000)

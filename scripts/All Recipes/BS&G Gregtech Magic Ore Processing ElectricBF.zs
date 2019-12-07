@@ -991,7 +991,17 @@ electricBF
     .EUt(1000)
     .buildAndRegister();
 
-#Cinnabar doesn't exist. See Quiclsilver
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:clusterCalcium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustQuicklime>.firstItem*2)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+#Cinnabar doesn't exist. See Quicksilver
 
 electricBF
     .recipeBuilder()

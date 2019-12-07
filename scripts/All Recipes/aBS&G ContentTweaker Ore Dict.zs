@@ -100,6 +100,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clusterAntimony>.add(<contenttweaker:clusterantimony>);
 <ore:clusterBeryllium>.add(<contenttweaker:clusterberyllium>);
 <ore:clusterBismuth>.add(<contenttweaker:clusterbismuth>);
+<ore:clusterCalcium>.add(<contenttweaker:clustercalcium>);
 <ore:clusterChrome>.add(<contenttweaker:clusterchrome>);
 <ore:clusterCobalt>.add(<contenttweaker:clustercobalt>);
 <ore:clusterIridium>.add(<contenttweaker:clusteriridium>);

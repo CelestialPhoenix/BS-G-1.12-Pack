@@ -23,6 +23,9 @@ ClusterBeryllium.register();
 var ClusterBismuth = VanillaFactory.createItem("clusterbismuth");
 ClusterBismuth.register();
 
+var ClusterCalcium = VanillaFactory.createItem("clustercalcium");
+ClusterCalcium.register();
+
 var ClusterChrome = VanillaFactory.createItem("clusterchrome");
 ClusterChrome.register();
 

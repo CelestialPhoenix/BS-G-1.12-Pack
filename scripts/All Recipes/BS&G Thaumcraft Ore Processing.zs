@@ -43,6 +43,10 @@ mods.thaumcraft.Crucible.registerRecipe("oreBerryite", "METALPURIFICATION", <ore
 mods.thaumcraft.Crucible.registerRecipe("oreBismuthinite", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurifiedBismuthinite>, [<aspect:metallum>*15, <aspect:instrumentum>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreBismuth", "METALPURIFICATION", <ore:clusterBismuth>.firstItem, <ore:crushedPurifiedBismuth>, [<aspect:metallum>*15, <aspect:instrumentum>*5]);
 
+#Calcium
+mods.thaumcraft.Crucible.registerRecipe("oreCalcium", "METALPURIFICATION", <ore:clusterCalcium>.firstItem, <ore:crushedPurifiedCalcium>, [<aspect:metallum>*15, <aspect:praemunio>*5]);
+mods.thaumcraft.Crucible.registerRecipe("oreCalcite", "METALPURIFICATION", <ore:clusterCalcium>.firstItem, <ore:crushedPurifiedCalcite>, [<aspect:metallum>*15, <aspect:praemunio>*8]);
+
 #Chrome
 mods.thaumcraft.Crucible.registerRecipe("oreChromite", "METALPURIFICATION", <ore:clusterChrome>.firstItem, <ore:crushedPurifiedChromite>, [<aspect:metallum>*15, <aspect:auram>*8, <aspect:machina>*8, <aspect:instrumentum>*8, <aspect:permutatio>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreUvarovite", "METALPURIFICATION", <ore:clusterChrome>.firstItem, <ore:crushedPurifiedUvarovite>, [<aspect:metallum>*25, <aspect:auram>*15, <aspect:machina>*15, <aspect:instrumentum>*15, <aspect:permutatio>*15]);
