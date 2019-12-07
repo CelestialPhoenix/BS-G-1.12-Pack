@@ -15,6 +15,20 @@ print("Handles like its on rails");
 #Machine disabled- remove all recipes
 
 #---Rolling Machine---
+#--Removed Stock Recipes--
+RollingMachine.remove(<railcraft:plate:0>);
+RollingMachine.remove(<railcraft:plate:1>);
+RollingMachine.remove(<railcraft:plate:2>);
+RollingMachine.remove(<railcraft:plate:3>);
+RollingMachine.remove(<railcraft:plate:4>);
+RollingMachine.remove(<railcraft:plate:5>);
+RollingMachine.remove(<railcraft:plate:6>);
+RollingMachine.remove(<railcraft:plate:7>);
+RollingMachine.remove(<railcraft:plate:8>);
+RollingMachine.remove(<railcraft:plate:9>);
+RollingMachine.remove(<railcraft:plate:10>);
+RollingMachine.remove(<railcraft:plate:11>);
+
 #--Conduit--
 #3 rods or ingots in a vertical line
 var conduitTin= <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
@@ -23,24 +37,24 @@ var conduitGold=<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte});
 var conduitAluminium=<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
 
 RollingMachine.addShaped(conduitTin*3, [
-[<ore:stickTin>],
-[<ore:stickTin>],
-[<ore:stickTin>]], 200);
+[null, <ore:stickTin>, null],
+[null, <ore:stickTin>, null],
+[null, <ore:stickTin>, null]], 200);
 
 RollingMachine.addShaped(conduitCopper*3, [
-[<ore:stickCopper>],
-[<ore:stickCopper>],
-[<ore:stickCopper>]], 200);
+[null, <ore:stickCopper>, null],
+[null, <ore:stickCopper>, null],
+[null, <ore:stickCopper>, null]], 200);
 
 RollingMachine.addShaped(conduitGold*3, [
-[<ore:stickGold>],
-[<ore:stickGold>],
-[<ore:stickGold>]], 200);
+[null, <ore:stickGold>, null],
+[null, <ore:stickGold>, null],
+[null, <ore:stickGold>, null]], 200);
 
 RollingMachine.addShaped(conduitAluminium*3, [
-[<ore:stickAluminium>],
-[<ore:stickAluminium>],
-[<ore:stickAluminium>]], 200);
+[null, <ore:stickAluminium>, null],
+[null, <ore:stickAluminium>, null],
+[null, <ore:stickAluminium>, null]], 200);
 
 #--Rings--
 #4 rods in a ring
@@ -152,265 +166,351 @@ RollingMachine.addShaped(<ore:ringTungstenThoriumAlloy>.firstItem*4, [
 #--Rods--
 #3 ingots in a row (horizontal)
 RollingMachine.addShaped(<ore:stickAluminium>.firstItem*4, [
-[<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:stickAluminium>]], 200);
+[null, null, null],
+[<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>]], 200);
 
 RollingMachine.addShaped(<ore:stickAmericium>.firstItem*4, [
-[<ore:ingotAmericium>, <ore:ingotAmericium>, <ore:stickAmericium>]], 200);
+[null, null, null],
+[<ore:ingotAmericium>, <ore:ingotAmericium>, <ore:ingotAmericium>]], 200);
 
 RollingMachine.addShaped(<ore:stickAntimony>.firstItem*4, [
-[<ore:ingotAntimony>, <ore:ingotAntimony>, <ore:stickAntimony>]], 200);
+[null, null, null],
+[<ore:ingotAntimony>, <ore:ingotAntimony>, <ore:ingotAntimony>]], 200);
 
 RollingMachine.addShaped(<ore:stickChrome>.firstItem*4, [
-[<ore:ingotChrome>, <ore:ingotChrome>, <ore:stickChrome>]], 200);
+[null, null, null],
+[<ore:ingotChrome>, <ore:ingotChrome>, <ore:ingotChrome>]], 200);
 
 RollingMachine.addShaped(<ore:stickCobalt>.firstItem*4, [
-[<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:stickCobalt>]], 200);
+[null, null, null],
+[<ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>]], 200);
 
 RollingMachine.addShaped(<ore:stickCopper>.firstItem*4, [
-[<ore:ingotCopper>, <ore:ingotCopper>, <ore:stickCopper>]], 200);
+[null, null, null],
+[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]], 200);
 
 RollingMachine.addShaped(<ore:stickEuropium>.firstItem*4, [
-[<ore:ingotEuropium>, <ore:ingotEuropium>, <ore:stickEuropium>]], 200);
+[null, null, null],
+[<ore:ingotEuropium>, <ore:ingotEuropium>, <ore:ingotEuropium>]], 200);
 
 RollingMachine.addShaped(<ore:stickGold>.firstItem*4, [
-[<ore:ingotGold>, <ore:ingotGold>, <ore:stickGold>]], 200);
+[null, null, null],
+[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]], 200);
 
 RollingMachine.addShaped(<ore:stickIridium>.firstItem*4, [
-[<ore:ingotIridium>, <ore:ingotIridium>, <ore:stickIridium>]], 200);
+[null, null, null],
+[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]], 200);
 
 RollingMachine.addShaped(<ore:stickIron>.firstItem*4, [
-[<ore:ingotIron>, <ore:ingotIron>, <ore:stickIron>]], 200);
+[null, null, null],
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]], 200);
 
 RollingMachine.addShaped(<ore:stickLead>.firstItem*4, [
-[<ore:ingotLead>, <ore:ingotLead>, <ore:stickLead>]], 200);
+[null, null, null],
+[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]], 200);
 
 RollingMachine.addShaped(<ore:stickNeodymium>.firstItem*4, [
-[<ore:ingotNeodymium>, <ore:ingotNeodymium>, <ore:stickNeodymium>]], 200);
+[null, null, null],
+[<ore:ingotNeodymium>, <ore:ingotNeodymium>, <ore:ingotNeodymium>]], 200);
 
 RollingMachine.addShaped(<ore:stickDarmstadtium>.firstItem*4, [
-[<ore:ingotDarmstadtium>, <ore:ingotDarmstadtium>, <ore:stickDarmstadtium>]], 200);
+[null, null, null],
+[<ore:ingotDarmstadtium>, <ore:ingotDarmstadtium>, <ore:ingotDarmstadtium>]], 200);
 
 RollingMachine.addShaped(<ore:stickNickel>.firstItem*4, [
-[<ore:ingotNickel>, <ore:ingotNickel>, <ore:stickNickel>]], 200);
+[null, null, null],
+[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]], 200);
 
 RollingMachine.addShaped(<ore:stickOsmium>.firstItem*4, [
-[<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:stickOsmium>]], 200);
+[null, null, null],
+[<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPalladium>.firstItem*4, [
-[<ore:ingotPalladium>, <ore:ingotPalladium>, <ore:stickPalladium>]], 200);
+[null, null, null],
+[<ore:ingotPalladium>, <ore:ingotPalladium>, <ore:ingotPalladium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPlatinum>.firstItem*4, [
-[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:stickPlatinum>]], 200);
+[null, null, null],
+[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]], 200);
 
 RollingMachine.addShaped(<ore:stickPlutonium>.firstItem*4, [
-[<ore:ingotPlutonium>, <ore:ingotPlutonium>, <ore:stickPlutonium>]], 200);
+[null, null, null],
+[<ore:ingotPlutonium>, <ore:ingotPlutonium>, <ore:ingotPlutonium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPlutonium241>.firstItem*4, [
-[<ore:ingotPlutonium241>, <ore:ingotPlutonium241>, <ore:stickPlutonium241>]], 200);
+[null, null, null],
+[<ore:ingotPlutonium241>, <ore:ingotPlutonium241>, <ore:ingotPlutonium241>]], 200);
 
 RollingMachine.addShaped(<ore:stickPotassium>.firstItem*4, [
-[<ore:ingotPotassium>, <ore:ingotPotassium>, <ore:stickPotassium>]], 200);
+[null, null, null],
+[<ore:ingotPotassium>, <ore:ingotPotassium>, <ore:ingotPotassium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPraseodymium>.firstItem*4, [
-[<ore:ingotPraseodymium>, <ore:ingotPraseodymium>, <ore:stickPraseodymium>]], 200);
+[null, null, null],
+[<ore:ingotPraseodymium>, <ore:ingotPraseodymium>, <ore:ingotPraseodymium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPromethium>.firstItem*4, [
-[<ore:ingotPromethium>, <ore:ingotPromethium>, <ore:stickPromethium>]], 200);
+[null, null, null],
+[<ore:ingotPromethium>, <ore:ingotPromethium>, <ore:ingotPromethium>]], 200);
 
 RollingMachine.addShaped(<ore:stickSilver>.firstItem*4, [
-[<ore:ingotSilver>, <ore:ingotSilver>, <ore:stickSilver>]], 200);
+[null, null, null],
+[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]], 200);
 
 RollingMachine.addShaped(<ore:stickTin>.firstItem*4, [
-[<ore:ingotTin>, <ore:ingotTin>, <ore:stickTin>]], 200);
+[null, null, null],
+[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]], 200);
 
 RollingMachine.addShaped(<ore:stickTitanium>.firstItem*4, [
-[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:stickTitanium>]], 200);
+[null, null, null],
+[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]], 200);
 
 RollingMachine.addShaped(<ore:stickTungsten>.firstItem*4, [
-[<ore:ingotTungsten>, <ore:ingotTungsten>, <ore:stickTungsten>]], 200);
+[null, null, null],
+[<ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>]], 200);
 
-RollingMachine.addShaped(<ore:stickUranium>.firstItem*4, [
-[<ore:ingotUranium>, <ore:ingotUranium>, <ore:stickUranium>]], 200);
+RollingMachine.addShaped(<ore:stickUranium235>.firstItem*4, [
+[null, null, null],
+[<ore:ingotUranium235>, <ore:ingotUranium235>, <ore:ingotUranium235>]], 200);
 
 RollingMachine.addShaped(<ore:stickZinc>.firstItem*4, [
-[<ore:ingotZinc>, <ore:ingotZinc>, <ore:stickZinc>]], 200);
+[null, null, null],
+[<ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>]], 200);
 
 RollingMachine.addShaped(<ore:stickAnnealedCopper>.firstItem*4, [
-[<ore:ingotAnnealedCopper>, <ore:ingotAnnealedCopper>, <ore:stickAnnealedCopper>]], 200);
+[null, null, null],
+[<ore:ingotAnnealedCopper>, <ore:ingotAnnealedCopper>, <ore:ingotAnnealedCopper>]], 200);
 
 RollingMachine.addShaped(<ore:stickBatteryAlloy>.firstItem*4, [
-[<ore:ingotBatteryAlloy>, <ore:ingotBatteryAlloy>, <ore:stickBatteryAlloy>]], 200);
+[null, null, null],
+[<ore:ingotBatteryAlloy>, <ore:ingotBatteryAlloy>, <ore:ingotBatteryAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickBrass>.firstItem*4, [
-[<ore:ingotBrass>, <ore:ingotBrass>, <ore:stickBrass>]], 200);
+[null, null, null],
+[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]], 200);
 
 RollingMachine.addShaped(<ore:stickBronze>.firstItem*4, [
-[<ore:ingotBronze>, <ore:ingotBronze>, <ore:stickBronze>]], 200);
+[null, null, null],
+[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]], 200);
 
 RollingMachine.addShaped(<ore:stickCupronickel>.firstItem*4, [
-[<ore:ingotCupronickel>, <ore:ingotCupronickel>, <ore:stickCupronickel>]], 200);
+[null, null, null],
+[<ore:ingotCupronickel>, <ore:ingotCupronickel>, <ore:ingotCupronickel>]], 200);
 
 RollingMachine.addShaped(<ore:stickElectrum>.firstItem*4, [
-[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:stickElectrum>]], 200);
+[null, null, null],
+[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>]], 200);
 
 RollingMachine.addShaped(<ore:stickInvar>.firstItem*4, [
-[<ore:ingotInvar>, <ore:ingotInvar>, <ore:stickInvar>]], 200);
+[null, null, null],
+[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]], 200);
 
 RollingMachine.addShaped(<ore:stickKanthal>.firstItem*4, [
-[<ore:ingotKanthal>, <ore:ingotKanthal>, <ore:stickKanthal>]], 200);
+[null, null, null],
+[<ore:ingotKanthal>, <ore:ingotKanthal>, <ore:ingotKanthal>]], 200);
 
 RollingMachine.addShaped(<ore:stickMagnalium>.firstItem*4, [
-[<ore:ingotMagnalium>, <ore:ingotMagnalium>, <ore:stickMagnalium>]], 200);
+[null, null, null],
+[<ore:ingotMagnalium>, <ore:ingotMagnalium>, <ore:ingotMagnalium>]], 200);
 
 RollingMachine.addShaped(<ore:stickNichrome>.firstItem*4, [
-[<ore:ingotNichrome>, <ore:ingotNichrome>, <ore:stickNichrome>]], 200);
+[null, null, null],
+[<ore:ingotNichrome>, <ore:ingotNichrome>, <ore:ingotNichrome>]], 200);
 
 RollingMachine.addShaped(<ore:stickNiobiumNitride>.firstItem*4, [
-[<ore:ingotNiobiumNitride>, <ore:ingotNiobiumNitride>, <ore:stickNiobiumNitride>]], 200);
+[null, null, null],
+[<ore:ingotNiobiumNitride>, <ore:ingotNiobiumNitride>, <ore:ingotNiobiumNitride>]], 200);
 
 RollingMachine.addShaped(<ore:stickNiobiumTitanium>.firstItem*4, [
-[<ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:stickNiobiumTitanium>]], 200);
+[null, null, null],
+[<ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>]], 200);
 
 RollingMachine.addShaped(<ore:stickPigIron>.firstItem*4, [
-[<ore:ingotPigIron>, <ore:ingotPigIron>, <ore:stickPigIron>]], 200);
+[null, null, null],
+[<ore:ingotPigIron>, <ore:ingotPigIron>, <ore:ingotPigIron>]], 200);
 
 RollingMachine.addShaped(<ore:stickSolderingAlloy>.firstItem*4, [
-[<ore:ingotSolderingAlloy>, <ore:ingotSolderingAlloy>, <ore:stickSolderingAlloy>]], 200);
+[null, null, null],
+[<ore:ingotSolderingAlloy>, <ore:ingotSolderingAlloy>, <ore:ingotSolderingAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickStainlessSteel>.firstItem*4, [
-[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:stickStainlessSteel>]], 200);
+[null, null, null],
+[<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickSteel>.firstItem*4, [
-[<ore:ingotSteel>, <ore:ingotSteel>, <ore:stickSteel>]], 200);
+[null, null, null],
+[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickTinAlloy>.firstItem*4, [
-[<ore:ingotTinAlloy>, <ore:ingotTinAlloy>, <ore:stickTinAlloy>]], 200);
+[null, null, null],
+[<ore:ingotTinAlloy>, <ore:ingotTinAlloy>, <ore:ingotTinAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickUltimet>.firstItem*4, [
-[<ore:ingotUltimet>, <ore:ingotUltimet>, <ore:stickUltimet>]], 200);
+[null, null, null],
+[<ore:ingotUltimet>, <ore:ingotUltimet>, <ore:ingotUltimet>]], 200);
 
 RollingMachine.addShaped(<ore:stickVanadiumGallium>.firstItem*4, [
-[<ore:ingotVanadiumGallium>, <ore:ingotVanadiumGallium>, <ore:stickVanadiumGallium>]], 200);
+[null, null, null],
+[<ore:ingotVanadiumGallium>, <ore:ingotVanadiumGallium>, <ore:ingotVanadiumGallium>]], 200);
 
 RollingMachine.addShaped(<ore:stickYttriumBariumCuprate>.firstItem*4, [
-[<ore:ingotYttriumBariumCuprate>, <ore:ingotYttriumBariumCuprate>, <ore:stickYttriumBariumCuprate>]], 200);
+[null, null, null],
+[<ore:ingotYttriumBariumCuprate>, <ore:ingotYttriumBariumCuprate>, <ore:ingotYttriumBariumCuprate>]], 200);
 
 RollingMachine.addShaped(<ore:stickOsmiridium>.firstItem*4, [
-[<ore:ingotOsmiridium>, <ore:ingotOsmiridium>, <ore:stickOsmiridium>]], 200);
+[null, null, null],
+[<ore:ingotOsmiridium>, <ore:ingotOsmiridium>, <ore:ingotOsmiridium>]], 200);
 
 RollingMachine.addShaped(<ore:stickSterlingSilver>.firstItem*4, [
-[<ore:ingotSterlingSilver>, <ore:ingotSterlingSilver>, <ore:stickSterlingSilver>]], 200);
+[null, null, null],
+[<ore:ingotSterlingSilver>, <ore:ingotSterlingSilver>, <ore:ingotSterlingSilver>]], 200);
 
 RollingMachine.addShaped(<ore:stickRoseGold>.firstItem*4, [
-[<ore:ingotRoseGold>, <ore:ingotRoseGold>, <ore:stickRoseGold>]], 200);
+[null, null, null],
+[<ore:ingotRoseGold>, <ore:ingotRoseGold>, <ore:ingotRoseGold>]], 200);
 
 RollingMachine.addShaped(<ore:stickBlackBronze>.firstItem*4, [
-[<ore:ingotBlackBronze>, <ore:ingotBlackBronze>, <ore:stickBlackBronze>]], 200);
+[null, null, null],
+[<ore:ingotBlackBronze>, <ore:ingotBlackBronze>, <ore:ingotBlackBronze>]], 200);
 
 RollingMachine.addShaped(<ore:stickBismuthBronze>.firstItem*4, [
-[<ore:ingotBismuthBronze>, <ore:ingotBismuthBronze>, <ore:stickBismuthBronze>]], 200);
+[null, null, null],
+[<ore:ingotBismuthBronze>, <ore:ingotBismuthBronze>, <ore:ingotBismuthBronze>]], 200);
 
 RollingMachine.addShaped(<ore:stickBlackSteel>.firstItem*4, [
-[<ore:ingotBlackSteel>, <ore:ingotBlackSteel>, <ore:stickBlackSteel>]], 200);
+[null, null, null],
+[<ore:ingotBlackSteel>, <ore:ingotBlackSteel>, <ore:ingotBlackSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickRedSteel>.firstItem*4, [
-[<ore:ingotRedSteel>, <ore:ingotRedSteel>, <ore:stickRedSteel>]], 200);
+[null, null, null],
+[<ore:ingotRedSteel>, <ore:ingotRedSteel>, <ore:ingotRedSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickBlueSteel>.firstItem*4, [
-[<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:stickBlueSteel>]], 200);
+[null, null, null],
+[<ore:ingotBlueSteel>, <ore:ingotBlueSteel>, <ore:ingotBlueSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickDamascusSteel>.firstItem*4, [
-[<ore:ingotDamascusSteel>, <ore:ingotDamascusSteel>, <ore:stickDamascusSteel>]], 200);
+[null, null, null],
+[<ore:ingotDamascusSteel>, <ore:ingotDamascusSteel>, <ore:ingotDamascusSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickTungstenSteel>.firstItem*4, [
-[<ore:ingotTungstenSteel>, <ore:ingotTungstenSteel>, <ore:stickTungstenSteel>]], 200);
+[null, null, null],
+[<ore:ingotTungstenSteel>, <ore:ingotTungstenSteel>, <ore:ingotTungstenSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickRedAlloy>.firstItem*4, [
-[<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:stickRedAlloy>]], 200);
+[null, null, null],
+[<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickCobaltBrass>.firstItem*4, [
-[<ore:ingotCobaltBrass>, <ore:ingotCobaltBrass>, <ore:stickCobaltBrass>]], 200);
+[null, null, null],
+[<ore:ingotCobaltBrass>, <ore:ingotCobaltBrass>, <ore:ingotCobaltBrass>]], 200);
 
 RollingMachine.addShaped(<ore:stickIronMagnetic>.firstItem*4, [
-[<ore:ingotIronMagnetic>, <ore:ingotIronMagnetic>, <ore:stickIronMagnetic>]], 200);
+[null, null, null],
+[<ore:ingotIronMagnetic>, <ore:ingotIronMagnetic>, <ore:ingotIronMagnetic>]], 200);
 
 RollingMachine.addShaped(<ore:stickSteelMagnetic>.firstItem*4, [
-[<ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:stickSteelMagnetic>]], 200);
+[null, null, null],
+[<ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>, <ore:ingotSteelMagnetic>]], 200);
 
 RollingMachine.addShaped(<ore:stickNeodymiumMagnetic>.firstItem*4, [
-[<ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:stickNeodymiumMagnetic>]], 200);
+[null, null, null],
+[<ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>]], 200);
 
 RollingMachine.addShaped(<ore:stickTungstenCarbide>.firstItem*4, [
-[<ore:ingotTungstenCarbide>, <ore:ingotTungstenCarbide>, <ore:stickTungstenCarbide>]], 200);
+[null, null, null],
+[<ore:ingotTungstenCarbide>, <ore:ingotTungstenCarbide>, <ore:ingotTungstenCarbide>]], 200);
 
 RollingMachine.addShaped(<ore:stickVanadiumSteel>.firstItem*4, [
-[<ore:ingotVanadiumSteel>, <ore:ingotVanadiumSteel>, <ore:stickVanadiumSteel>]], 200);
+[null, null, null],
+[<ore:ingotVanadiumSteel>, <ore:ingotVanadiumSteel>, <ore:ingotVanadiumSteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickHssg>.firstItem*4, [
-[<ore:ingotHssg>, <ore:ingotHssg>, <ore:stickHssg>]], 200);
+[null, null, null],
+[<ore:ingotHssg>, <ore:ingotHssg>, <ore:ingotHssg>]], 200);
 
 RollingMachine.addShaped(<ore:stickHsse>.firstItem*4, [
-[<ore:ingotHsse>, <ore:ingotHsse>, <ore:stickHsse>]], 200);
+[null, null, null],
+[<ore:ingotHsse>, <ore:ingotHsse>, <ore:ingotHsse>]], 200);
 
 RollingMachine.addShaped(<ore:stickHsss>.firstItem*4, [
-[<ore:ingotHsss>, <ore:ingotHsss>, <ore:stickHsss>]], 200);
+[null, null, null],
+[<ore:ingotHsss>, <ore:ingotHsss>, <ore:ingotHsss>]], 200);
 
 RollingMachine.addShaped(<ore:stickNaquadah>.firstItem*4, [
-[<ore:ingotNaquadah>, <ore:ingotNaquadah>, <ore:stickNaquadah>]], 200);
+[null, null, null],
+[<ore:ingotNaquadah>, <ore:ingotNaquadah>, <ore:ingotNaquadah>]], 200);
 
 RollingMachine.addShaped(<ore:stickNaquadahAlloy>.firstItem*4, [
-[<ore:ingotNaquadahAlloy>, <ore:ingotNaquadahAlloy>, <ore:stickNaquadahAlloy>]], 200);
+[null, null, null],
+[<ore:ingotNaquadahAlloy>, <ore:ingotNaquadahAlloy>, <ore:ingotNaquadahAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickNaquadahEnriched>.firstItem*4, [
-[<ore:ingotNaquadahEnriched>, <ore:ingotNaquadahEnriched>, <ore:stickNaquadahEnriched>]], 200);
+[null, null, null],
+[<ore:ingotNaquadahEnriched>, <ore:ingotNaquadahEnriched>, <ore:ingotNaquadahEnriched>]], 200);
 
 RollingMachine.addShaped(<ore:stickNaquadria>.firstItem*4, [
-[<ore:ingotNaquadria>, <ore:ingotNaquadria>, <ore:stickNaquadria>]], 200);
+[null, null, null],
+[<ore:ingotNaquadria>, <ore:ingotNaquadria>, <ore:ingotNaquadria>]], 200);
 
 RollingMachine.addShaped(<ore:stickTritanium>.firstItem*4, [
-[<ore:ingotTritanium>, <ore:ingotTritanium>, <ore:stickTritanium>]], 200);
+[null, null, null],
+[<ore:ingotTritanium>, <ore:ingotTritanium>, <ore:ingotTritanium>]], 200);
 
 RollingMachine.addShaped(<ore:stickDuranium>.firstItem*4, [
-[<ore:ingotDuranium>, <ore:ingotDuranium>, <ore:stickDuranium>]], 200);
+[null, null, null],
+[<ore:ingotDuranium>, <ore:ingotDuranium>, <ore:ingotDuranium>]], 200);
 
 RollingMachine.addShaped(<ore:stickNickelZincFerrite>.firstItem*4, [
-[<ore:ingotNickelZincFerrite>, <ore:ingotNickelZincFerrite>, <ore:stickNickelZincFerrite>]], 200);
+[null, null, null],
+[<ore:ingotNickelZincFerrite>, <ore:ingotNickelZincFerrite>, <ore:ingotNickelZincFerrite>]], 200);
 
 RollingMachine.addShaped(<ore:stickCobaltMagnetic>.firstItem*4, [
-[<ore:ingotCobaltMagnetic>, <ore:ingotCobaltMagnetic>, <ore:stickCobaltMagnetic>]], 200);
+[null, null, null],
+[<ore:ingotCobaltMagnetic>, <ore:ingotCobaltMagnetic>, <ore:ingotCobaltMagnetic>]], 200);
 
 RollingMachine.addShaped(<ore:stickTungstenThoriumAlloy>.firstItem*4, [
-[<ore:ingotTungstenThoriumAlloy>, <ore:ingotTungstenThoriumAlloy>, <ore:stickTungstenThoriumAlloy>]], 200);
+[null, null, null],
+[<ore:ingotTungstenThoriumAlloy>, <ore:ingotTungstenThoriumAlloy>, <ore:ingotTungstenThoriumAlloy>]], 200);
 
 RollingMachine.addShaped(<ore:stickAdamantium>.firstItem*4, [
-[<ore:ingotAdamantium>, <ore:ingotAdamantium>, <ore:stickAdamantium>]], 200);
+[null, null, null],
+[<ore:ingotAdamantium>, <ore:ingotAdamantium>, <ore:ingotAdamantium>]], 200);
 
 RollingMachine.addShaped(<ore:stickManasteel>.firstItem*4, [
-[<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:stickManasteel>]], 200);
+[null, null, null],
+[<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickTerrasteel>.firstItem*4, [
-[<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:stickTerrasteel>]], 200);
+[null, null, null],
+[<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>]], 200);
 
 RollingMachine.addShaped(<ore:stickArdite>.firstItem*4, [
-[<ore:ingotArdite>, <ore:ingotArdite>, <ore:stickArdite>]], 200);
+[<ore:ingotArdite>, <ore:ingotArdite>, <ore:ingotArdite>]], 200);
 
 RollingMachine.addShaped(<ore:stickManyullyn>.firstItem*4, [
-[<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:stickManyullyn>]], 200);
+[null, null, null],
+[<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]], 200);
 
 RollingMachine.addShaped(<ore:stickThaumium>.firstItem*4, [
-[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:stickThaumium>]], 200);
+[null, null, null],
+[<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]], 200);
 
 RollingMachine.addShaped(<ore:stickVoidMetal>.firstItem*4, [
-[<ore:ingotVoidMetal>, <ore:ingotVoidMetal>, <ore:stickVoidMetal>]], 200);
+[null, null, null],
+[<ore:ingotVoidMetal>, <ore:ingotVoidMetal>, <ore:ingotVoidMetal>]], 200);
 
 RollingMachine.addShaped(<ore:stickEnderium>.firstItem*4, [
-[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:stickEnderium>]], 200);
+[null, null, null],
+[<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]], 200);
 
 RollingMachine.addShaped(<ore:stickLumium>.firstItem*4, [
-[<ore:ingotLumium>, <ore:ingotLumium>, <ore:stickLumium>]], 200);
+[null, null, null],
+[<ore:ingotLumium>, <ore:ingotLumium>, <ore:ingotLumium>]], 200);
 
 RollingMachine.addShaped(<ore:stickSignalum>.firstItem*4, [
-[<ore:ingotSignalum>, <ore:ingotSignalum>, <ore:stickSignalum>]], 200);
+[null, null, null],
+[<ore:ingotSignalum>, <ore:ingotSignalum>, <ore:ingotSignalum>]], 200);
 
 #--Rods [long]--
 RollingMachine.addShaped(<ore:stickLongAluminium>.firstItem, [

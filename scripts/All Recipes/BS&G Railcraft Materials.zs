@@ -121,6 +121,9 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:9>); #Invar
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:10>); #Zinc
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
 
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:9>); #Invar
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:10>); #Zinc
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
 #---Blocks---
 
 #Stregthened glass
