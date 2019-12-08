@@ -327,8 +327,8 @@ recipes.addShaped(<immersiveengineering:wooden_device0:2>, [
 [<ore:craftingTableWood>, null, <ore:wallLivingwood>]]);
 
 #Wooden Wallmount
-recipes.removeShaped(<immersiveengineering:wooden_device0:2>);
-recipes.addShaped(<immersiveengineering:wooden_device0:2>*4, [
+recipes.removeShaped(<immersiveengineering:wooden_device1:4>);
+recipes.addShaped(<immersiveengineering:wooden_device1:4>*4, [
 [<ore:livingwood>, <ore:livingwood>], 
 [<ore:livingwood>, <ore:livingwoodTwig>]]);
 
