@@ -318,6 +318,101 @@ recipes.addShaped(<immersiveengineering:connector:6>*8, [
 [<ore:plateSteel>, <ore:stickSteel>, <ore:plateSteel>], 
 [<ore:plateSteel>, null, <ore:plateSteel>]]);
 
+#---Treated Wood [in recipes]---
+#Use of livingwood as replacement parts
+#Workbench
+recipes.removeShaped(<immersiveengineering:wooden_device0:2>);
+recipes.addShaped(<immersiveengineering:wooden_device0:2>, [
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], 
+[<ore:craftingTableWood>, null, <ore:wallLivingwood>]]);
+
+#Wooden Wallmount
+recipes.removeShaped(<immersiveengineering:wooden_device0:2>);
+recipes.addShaped(<immersiveengineering:wooden_device0:2>*4, [
+[<ore:livingwood>, <ore:livingwood>], 
+[<ore:livingwood>, <ore:livingwoodTwig>]]);
+
+#Turntable
+recipes.removeShaped(<immersiveengineering:wooden_device0:6>);
+recipes.addShaped(<immersiveengineering:wooden_device0:6>, [
+[<ore:livingwood>, <ore:ingotIron>, <ore:livingwood>], 
+[<ore:dustRedstone>, <immersiveengineering:metal_decoration0>, <ore:dustRedstone>]]);
+
+#Wooden Storage Crate
+recipes.removeShaped(<immersiveengineering:connector:0>);
+recipes.addShaped(<immersiveengineering:connector:0>, [
+[<ore:livingwood>, <ore:stickIron>, <ore:livingwood>],
+[<ore:plateIron>, <immersiveengineering:wooden_device0>, <ore:plateIron>], 
+[<ore:livingwood>, <ore:stickIron>, <ore:livingwood>]]);
+
+#Item Router
+recipes.removeShaped(<immersiveengineering:wooden_device0:3>);
+recipes.addShaped(<immersiveengineering:wooden_device0:3>, [
+[<ore:livingwood>, <ore:dustRedstone>, <ore:livingwood>],
+[<ore:ingotIron>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotIron>], 
+[<ore:livingwood>, <ore:mechcompIron>, <ore:livingwood>]]);
+
+#Fluid Router
+recipes.removeShaped(<immersiveengineering:wooden_device0:7>);
+recipes.addShaped(<immersiveengineering:wooden_device0:7>, [
+[<ore:livingwood>, <ore:dustRedstone>, <ore:livingwood>],
+[<ore:ingotIron>, <immersiveengineering:metal_device1:6>, <ore:ingotIron>], 
+[<ore:livingwood>, <ore:mechcompIron>, <ore:livingwood>]]);
+
+#Wooden Crate
+recipes.removeShaped(<immersiveengineering:wooden_device0>);
+recipes.addShaped(<immersiveengineering:wooden_device0>, [
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+[<ore:livingwood>, null, <ore:livingwood>], 
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+
+#Wooden Barrel
+recipes.removeShaped(<immersiveengineering:wooden_device0:1>);
+recipes.addShaped(<immersiveengineering:wooden_device0:1>, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>],
+[<ore:livingwood>, null, <ore:livingwood>], 
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+
+#Wooden Scaffold
+recipes.removeShaped(<immersiveengineering:wooden_decoration:1>);
+recipes.addShaped(<immersiveengineering:wooden_decoration:1>*6, [
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+[null, <ore:livingwoodTwig>, null], 
+[<ore:livingwoodTwig>, null, <ore:livingwoodTwig>]]);
+
+#Wooden Fence
+recipes.removeShaped(<immersiveengineering:wooden_decoration>);
+recipes.addShaped(<immersiveengineering:wooden_decoration>*3, [
+[<ore:livingwood>, <ore:livingwoodTwig>, <ore:livingwood>], 
+[<ore:livingwood>, <ore:livingwoodTwig>, <ore:livingwood>]]);
+
+#Heavy Shield
+recipes.removeShaped(<immersiveengineering:shield>);
+recipes.addShaped(<immersiveengineering:shield>, [
+[<ore:plateIron>, <ore:livingwood>, <ore:plateIron>],
+[<ore:plateIron>, <minecraft:shield>.withTag({}), <ore:plateIron>], 
+[<ore:plateIron>, <ore:livingwood>, <ore:plateIron>]]);
+
+#Garden Chloche
+recipes.removeShaped(<immersiveengineering:metal_device1:13>);
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [
+[<ore:blockGlass>, <ore:electronTube>, <ore:blockGlass>],
+[<ore:blockGlass>, null, <ore:blockGlass>], 
+[<ore:livingwood>, <ore:mechcompIron>, <ore:livingwood>]]);
+
+#Charging Station
+recipes.removeShaped(<immersiveengineering:metal_device1:5>);
+recipes.addShaped(<immersiveengineering:metal_device1:5>, [
+[<ore:ingotIron>, <immersiveengineering:connector>, <ore:ingotIron>],
+[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], 
+[<ore:livingwood>, <immersiveengineering:metal_decoration0>, <ore:livingwood>]]);
+
+#MV Capacitor
+recipes.removeShaped(<immersiveengineering:metal_device0:1>);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [
+[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+[<ore:ingotElectrum>, <ore:ingotLead>, <ore:ingotElectrum>], 
+[<ore:livingwood>, <ore:blockRedstone>, <ore:livingwood>]]);
 
 #---Wire Connectors---
 #LV

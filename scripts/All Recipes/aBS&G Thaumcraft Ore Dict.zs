@@ -43,3 +43,5 @@ print("Ever wondered what the Liquid Death tastes like?");
 <ore:logGreatwood>.add(<thaumcraft:log_greatwood>);
 <ore:logSilverwood>.add(<thaumcraft:log_silverwood>);
 <ore:logTaintwood>.add(<thaumcraft:taint_log>);
+<ore:logTaintwood>.add(<thaumcraft:taint_log:1>); #Axe Fix
+<ore:logTaintwood>.add(<thaumcraft:taint_log:2>); #Axe Fix

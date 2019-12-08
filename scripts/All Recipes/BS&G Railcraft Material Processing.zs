@@ -1,18 +1,32 @@
 #Name: Blood Sweat & Gears Railcraft Materials.zs
 #Author: PhoePhoe
 
+import moretweaker.railcraft.BlastFurnace;
+import moretweaker.railcraft.RockCrusher;
 import moretweaker.railcraft.RollingMachine;
 
 print("Handles like its on rails");
 
-#Right now there is no CT support for RC. This is coming in a future RC update
+#---Blast Furnace---
+#BlastFurnace.remove(IIngredient output);
+#BlastFurnace.add(IItemStack output, IIngredient input, optional int ticks, optional int slag);
+
+BlastFurnace.remove(<railcraft:metal:3>); //Steel Block
+BlastFurnace.remove(<railcraft:ingot:0>); //Steel Ingot
+BlastFurnace.remove(<railcraft:nugget:0>); //Steel Nugget
+
+BlastFurnace.add(<ore:blockSteel>.firstItem, <ore:blockIron>, 10240, 9);
+BlastFurnace.add(<ore:blockSteel>.firstItem, <ore:blockWroughtIron>, 5120, 9);
+
+BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 1280, 1);
+BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, 640, 1);
 
 #---Coking Oven---
 
-#---Blast Furnace---
-
 #---Rock Crusher---
 #Machine disabled- remove all recipes
+#RockCrusher.remove(IIngredient output);
+RockCrusher.remove(<minecraft:brick>);
 
 #---Rolling Machine---
 #--Removed Stock Recipes--

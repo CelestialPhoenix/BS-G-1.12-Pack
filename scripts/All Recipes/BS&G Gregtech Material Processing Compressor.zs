@@ -341,3 +341,12 @@ compressor
     .duration(400)
     .EUt(4)
     .buildAndRegister();
+
+#Slag
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustSlag>*1)
+    .outputs(<ore:itemSlag>.firstItem*1)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
