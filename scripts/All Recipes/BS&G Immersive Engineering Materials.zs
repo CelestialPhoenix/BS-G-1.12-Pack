@@ -80,6 +80,10 @@ recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
 [<ore:toolHeadSwordSteel>, <ore:screwSteel>],
 [<ore:screwSteel>, <ore:plankTreatedWood>]]);
 
+recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
+[<ore:toolHeadSwordSteel>, <ore:screwSteel>],
+[<ore:screwSteel>, <ore:livingwood>]]);
+
 #Extended Magazine
 recipes.removeShaped(<immersiveengineering:toolupgrade:5>);
 recipes.addShaped(<immersiveengineering:toolupgrade:5>, [
@@ -196,6 +200,11 @@ recipes.addShaped(<immersiveengineering:material:13>, [
 [<ore:plankTreatedWood>, <ore:screwBrass>, null],
 [<ore:screwBrass>, <ore:plankTreatedWood>, null],
 [null, <ore:plankTreatedWood>, null]]);
+
+recipes.addShaped(<immersiveengineering:material:13>, [
+[<ore:livingwood>, <ore:screwBrass>, null],
+[<ore:screwBrass>, <ore:livingwood>, null],
+[null, <ore:livingwood>, null]]);
 
 #---Wire Spools--
 #copper lv

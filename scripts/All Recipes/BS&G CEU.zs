@@ -12,6 +12,11 @@ recipes.addShaped(<meta_tile_entity:ceu:ceu.ulv.1>, [
 [<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>], 
 [<ore:plankTreatedWood>, <ore:cableGtSingleRedAlloy>, <ore:plankTreatedWood>]]);
 
+recipes.addShaped(<meta_tile_entity:ceu:ceu.ulv.1>, [
+[<ore:tubeBronze>, <ore:coilSimple>, <ore:tubeBronze>], 
+[<ore:livingwood>, <ore:dustRedstone>, <ore:livingwood>], 
+[<ore:livingwood>, <ore:cableGtSingleRedAlloy>, <ore:livingwood>]]);
+
 recipes.remove(<meta_tile_entity:ceu:ceu.ulv.4>);
 <meta_tile_entity:ceu:ceu.ulv.4>.clearTooltip();
 <meta_tile_entity:ceu:ceu.ulv.4>.addTooltip("This item is disabled");
@@ -27,6 +32,11 @@ recipes.addShaped(<meta_tile_entity:ceu:cef.ulv.1>, [
 [<ore:tubeBronze>, <ore:cableGtSingleTin>, <ore:tubeBronze>], 
 [<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>], 
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<meta_tile_entity:ceu:cef.ulv.1>, [
+[<ore:tubeBronze>, <ore:cableGtSingleTin>, <ore:tubeBronze>], 
+[<ore:livingwood>, <ore:dustRedstone>, <ore:livingwood>], 
+[<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>]]);
 
 recipes.remove(<meta_tile_entity:ceu:cef.ulv.4>);
 <meta_tile_entity:ceu:cef.ulv.4>.clearTooltip();

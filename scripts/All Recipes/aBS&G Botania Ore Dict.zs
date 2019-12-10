@@ -17,3 +17,7 @@ print("ooo eee ooo ah ah ting tang...");
 <ore:stoneAny>.add(<botania:biomestonea:*>);
 <ore:stoneAny>.add(<botania:biomestoneb:*>);
 <ore:stoneAny>.add(<botania:livingrock:*>);
+
+<ore:slabLivingwood>.add(<botania:livingwood0slab>);
+<ore:stairLivingwood>.add(<botania:livingwood0stairs>);
+<ore:wallLivingwood>.add(<botania:livingwood0wall>);

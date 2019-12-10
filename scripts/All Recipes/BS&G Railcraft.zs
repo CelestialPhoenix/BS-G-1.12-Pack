@@ -43,9 +43,9 @@ recipes.addShaped(<railcraft:boiler_firebox_fluid>*2, [
 
 #Charge Driver
 recipes.remove(<railcraft:charge_feeder>);
-<railcraft:charge_feeder>.displayName="Charge Driver";
+<railcraft:charge_feeder>.addTooltip("Charge Driver");
 <railcraft:charge_feeder>.clearTooltip();
-<railcraft:charge_feeder>.addTooltip("Flux rectifier");
+<railcraft:charge_feeder>.addTooltip("A Flux rectifier");
 <railcraft:charge_feeder>.addTooltip("Converts Rf to electric charge");
 <railcraft:charge_feeder>.addTooltip("Useful for driving electric locomotives");
 <railcraft:charge_feeder>.addTooltip("Activated with a Redstone signal");
@@ -53,6 +53,11 @@ recipes.addShaped(<railcraft:charge_feeder>, [
 [<ore:tubeBronze>, <ore:coilSimple>, <ore:tubeBronze>],
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>],
 [<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<railcraft:charge_feeder>, [
+[<ore:tubeBronze>, <ore:coilSimple>, <ore:tubeBronze>],
+[<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>],
+[<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>]]);
 
 #Coke Oven
 recipes.remove(<railcraft:coke_oven>);
@@ -97,8 +102,18 @@ recipes.addShaped(<railcraft:tank_water>*6, [
 [<ore:plateIron>, <ore:slimeball>, <ore:plateIron>],
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
+recipes.addShaped(<railcraft:tank_water>*6, [
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+[<ore:plateBronze>, <ore:slimeball>, <ore:plateBronze>],
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+
+recipes.addShaped(<railcraft:tank_water>*6, [
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+[<ore:plateIron>, <ore:slimeball>, <ore:plateIron>],
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
+
 #---Tanks---
-#vroom vroom
+#vroom vroom ...how do I drive this?
 
 #Iron Tank Valve
 recipes.remove(<railcraft:tank_iron_valve:0>);

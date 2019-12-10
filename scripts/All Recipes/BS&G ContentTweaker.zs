@@ -66,10 +66,20 @@ recipes.addShaped(<contenttweaker:propellerwood>,[
 [null, <ore:plankTreatedWood>, null],
 [<ore:slabTreatedWood>, null, null]]);
 
+recipes.addShaped(<contenttweaker:propellerwood>,[
+[null, null, <ore:slabLivingwood],
+[null, <ore:livingwood>, null],
+[<ore:slabLivingwood>, null, null]]);
+
 recipes.addShaped(<contenttweaker:propellerwoodenhanced>,[
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>],
 [null, <ore:plankTreatedWood>, null],
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<contenttweaker:propellerwoodenhanced>,[
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>],
+[null, <ore:livingwood>, null],
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>]]);
 
 #---bricks/blast furnace parts---
 #--Bricks--
@@ -323,6 +333,11 @@ recipes.addShaped(<contenttweaker:industrial_sieve>*3, [
 [<ore:plankTreatedWood>, <ore:barsIron>, <ore:plankTreatedWood>],
 [<ore:plankTreatedWood>, null, <ore:plankTreatedWood>], 
 [<ore:plankTreatedWood>, <ore:filterItem>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<contenttweaker:industrial_sieve>*3, [
+[<ore:livingwood>, <ore:barsIron>, <ore:livingwood>],
+[<ore:livingwood>, null, <ore:livingwood>], 
+[<ore:livingwood>, <ore:filterItem>, <ore:livingwood>]]);
 
 #--mechanical components--
 #for iron/steel see immersive engineering files

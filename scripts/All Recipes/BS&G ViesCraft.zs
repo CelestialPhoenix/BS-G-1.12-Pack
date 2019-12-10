@@ -13,6 +13,11 @@ recipes.addShaped(<vc:item_airship_ignition>,[
 [<ore:gearWood>, <ore:piston>, <ore:gearWood>],
 [null, <ore:furnace>, null]]);
 
+recipes.addShaped(<vc:item_airship_ignition>,[
+[<ore:livingwoodTwig>, <ore:gearWood>, <ore:livingwoodTwig>],
+[<ore:gearWood>, <ore:piston>, <ore:gearWood>],
+[null, <ore:furnace>, null]]);
+
 #Airship Frame
 recipes.remove(<vc:item_airship_frame>);
 recipes.addShaped(<vc:item_airship_frame>,[
@@ -120,6 +125,10 @@ recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:1>,[
 [<ore:stickTreatedWood>, <ore:string>, <ore:stickTreatedWood>],
 [<ore:stickTreatedWood>, <ore:string>, <ore:stickTreatedWood>]]);
 
+recipes.addShaped(<vc:upgrades/item_upgrade_airship_balloon:1>,[
+[<ore:livingwood>, <ore:string>, <ore:livingwood>],
+[<ore:livingwood>, <ore:string>, <ore:livingwood>]]);
+
 <vc:upgrades/item_upgrade_airship_balloon:2>.addTooltip("Large Balloon");
 <vc:upgrades/item_upgrade_airship_balloon:2>.addTooltip("Balloon Upgrade II");
 recipes.remove(<vc:upgrades/item_upgrade_airship_balloon:2>);
@@ -184,6 +193,10 @@ recipes.remove(<vc:upgrades/item_upgrade_airship_core:1>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_core:1>,[
 [<ore:craftingRedstoneTorch>, null, <ore:craftingRedstoneTorch>],
 [<ore:slabTreatedWood>, <ore:boat>, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<vc:upgrades/item_upgrade_airship_core:1>,[
+[<ore:craftingRedstoneTorch>, null, <ore:craftingRedstoneTorch>],
+[<ore:slabLivingwood>, <ore:boat>, <ore:slabLivingwood>]]);
 
 <vc:upgrades/item_upgrade_airship_core:2>.addTooltip("Hobbyist's Modifications");
 <vc:upgrades/item_upgrade_airship_core:2>.addTooltip("Core Upgrade II");
@@ -274,6 +287,10 @@ recipes.remove(<vc:upgrades/item_upgrade_airship_frame:0>);
 recipes.remove(<vc:upgrades/item_upgrade_airship_frame:1>);
 recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:1>,[
 [<ore:slabTreatedWood>, <ore:thinWood>, <ore:stickTreatedWood>],
+[<ore:thinWood>, <ore:thinWood>, null]]);
+
+recipes.addShaped(<vc:upgrades/item_upgrade_airship_frame:1>,[
+[<ore:slabLivingwood>, <ore:thinWood>, <ore:livingwoodTwig>],
 [<ore:thinWood>, <ore:thinWood>, null]]);
 
 <vc:upgrades/item_upgrade_airship_frame:2>.addTooltip("Sleek Hull");

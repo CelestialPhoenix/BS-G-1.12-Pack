@@ -1122,6 +1122,11 @@ recipes.addShaped(<ore:gearWood>.firstItem, [
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
 [null, <ore:plankTreatedWood>, null]]);
 
+recipes.addShaped(<ore:gearWood>.firstItem, [
+[null, <ore:livingwood>, null],
+[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+[null, <ore:livingwood>, null]]);
+
 recipes.removeShaped(<ore:gearWroughtIron>.firstItem);
 recipes.removeShaped(<ore:gearOsmiridium>.firstItem);
 recipes.removeShaped(<ore:gearSterlingSilver>.firstItem);
