@@ -330,6 +330,9 @@ recipes.addShaped(<railcraft:concrete>*4, [
 [<ore:dustQuicklime>, <ore:sand>, <ore:dustQuicklime>], 
 [<ore:dustQuicklime>, <ore:dustQuicklime>, <ore:dustQuicklime>]]);
 
+#Clinker [slag]
+<railcraft:dust:4>.displayName="Crushed Clinker";
+
 #---Rails ect---
 #Reinforced Concrete
 recipes.remove(<railcraft:reinforced_concrete>);

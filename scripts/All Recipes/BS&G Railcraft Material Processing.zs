@@ -27,6 +27,47 @@ BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, 640, 1);
 #Machine disabled- remove all recipes
 #RockCrusher.remove(IIngredient output);
 RockCrusher.remove(<minecraft:brick>);
+RockCrusher.remove(<minecraft:soul_sand>);
+RockCrusher.remove(<railcraft:dust:0>);
+RockCrusher.remove(<minecraft:gravel>);
+RockCrusher.remove(<minecraft:sand>);
+RockCrusher.remove(<minecraft:cobblestone>);
+RockCrusher.remove(<minecraft:clay_ball>);
+RockCrusher.remove(<minecraft:nether_brick>);
+RockCrusher.remove(<minecraft:snowball>);
+RockCrusher.remove(<minecraft:glowstone_dust>);
+RockCrusher.remove(<minecraft:dye:15>);
+RockCrusher.remove(<minecraft:blaze_powder>);
+RockCrusher.remove(<minecraft:coal>);
+RockCrusher.remove(<minecraft:emerald>);
+RockCrusher.remove(<minecraft:dye:4>);
+RockCrusher.remove(<railcraft:dust:5>);
+RockCrusher.remove(<railcraft:dust:3>);
+RockCrusher.remove(<railcraft:dust:6>);
+RockCrusher.remove(<railcraft:dust:1>);
+RockCrusher.remove(<railcraft:dust:2>);
+RockCrusher.remove(<ic2:crushed:2>);
+RockCrusher.remove(<ic2:crushed:1>);
+RockCrusher.remove(<ic2:crushed:0>);
+RockCrusher.remove(<ic2:crushed:5>);
+RockCrusher.remove(<ic2:crushed:4>);
+RockCrusher.remove(<ic2:crushed:3>);
+RockCrusher.remove(<ic2:crushed:6>);
+RockCrusher.remove(<railcraft:firestone_raw>);
+RockCrusher.remove(<railcraft:brick_abyssal:5>);
+RockCrusher.remove(<railcraft:brick_bleachedbone:5>);
+RockCrusher.remove(<railcraft:brick_bloodstained:5>);
+RockCrusher.remove(<railcraft:brick_frostbound:5>);
+RockCrusher.remove(<railcraft:brick_infernal:5>);
+RockCrusher.remove(<railcraft:brick_quarried:5>);
+RockCrusher.remove(<railcraft:brick_sandy:5>);
+RockCrusher.remove(<railcraft:brick_red_sandy:5>);
+RockCrusher.remove(<railcraft:brick_nether:5>);
+RockCrusher.remove(<railcraft:brick_red_nether:5>);
+RockCrusher.remove(<railcraft:brick_andesite:5>);
+RockCrusher.remove(<railcraft:brick_diorite:5>);
+RockCrusher.remove(<railcraft:brick_granite:5>);
+RockCrusher.remove(<railcraft:brick_pearlized:5>);
 
 #---Rolling Machine---
 #--Removed Stock Recipes--
