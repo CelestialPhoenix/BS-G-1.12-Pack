@@ -1,7 +1,7 @@
 #Name: Blood Sweat & Gears Buildcraft.zs
 #Author: PhoePhoe
 
-print("");
+print("Old school cool");
 
 #---New Recipes---
 

@@ -160,3 +160,18 @@ recipes.addShaped(<railcraft:tank_steel_wall:0>*8, [
 [<railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>],
 [<railcraft:tank_steel_wall:*>, <ore:dyeWhite>, <railcraft:tank_steel_wall:*>],
 [<railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>, <railcraft:tank_steel_wall:*>]]);
+
+#---Tracks---
+#Wooden Tie
+recipes.remove(<railcraft:tie:0>);
+recipes.addShaped(<railcraft:tie:0>*2, [
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<railcraft:tie:0>*2, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>],
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>]]);
+
+recipes.addShaped(<railcraft:tie:0>*1, [
+[null, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>), null], 
+[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);

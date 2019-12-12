@@ -23,6 +23,11 @@ print("Hello Boys- I'm Baaaaack!!!");
 #-circuit parts-
 <ore:itemResistor>.add(<metaitem:component.resistor>);
 <ore:itemDiode>.add(<metaitem:component.diode>);
+<ore:fibresCarbon>.add(<metaitem:carbon.fibers>);
+
+#-circuit wafers-
+<ore:waferCPU>.add(<metaitem:wafer.central_processing_unit>);
+<ore:waferNanoCPU>.add(<metaitem:wafer.nano_central_processing_unit>);
 
 #-filters-
 <ore:filterItem>.add(<metaitem:item_filter>);
