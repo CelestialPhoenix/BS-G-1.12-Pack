@@ -25,6 +25,10 @@ var phialOrdo = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"
 var phialVictus = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]});
 var phialPraemunio = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praemunio"}]});
 
+#--Removed Recipes--
+#Nanoprocessor (Moved to BC assembly table)
+ChemReactor.findRecipe(480, [<metaitem:carbon.fibers>*16, <metaitem:wafer.central_processing_unit>], [<liquid:glowstone>*576]).remove();
+
 #---Alechemical Stuff---
 #-Air Processing-
 #Compressed Air
