@@ -98,6 +98,7 @@ print("IC what you did there");
 
 #--Misc--
 <ore:itemSlag>.remove(<ic2:misc_resource:5>);
+<ore:fuelCoke>.remove(<ic2:coke>);
 
 #---ore dict---
 #Gtech fix

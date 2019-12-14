@@ -131,6 +131,9 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:nuggetLumium>.remove(<thermalfoundation:material:230>);
 <ore:nuggetEnderium>.remove(<thermalfoundation:material:231>);
 
+#Misc
+<ore:fuelCoke>.remove(<thermalfoundation:material:802>);
+
 #Ores
 #<ore:ore>.add(<thermalfoundation:ore:>);
 <ore:oreCopper>.add(<thermalfoundation:ore:0>);

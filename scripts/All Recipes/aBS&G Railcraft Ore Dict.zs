@@ -79,6 +79,9 @@ print("Handles like its on rails");
 <ore:plateZinc>.remove(<railcraft:plate:10>);
 <ore:plateBrass>.remove(<railcraft:plate:11>);
 
+#Misc
+<ore:fuelCoke>.remove(<railcraft:fuel_coke>);
+
 #---Ore Dicting---
 <ore:dustCement>.add(<railcraft:concrete>);
 

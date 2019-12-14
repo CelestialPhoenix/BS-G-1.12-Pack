@@ -88,6 +88,9 @@ print("Trust me I'm an engineer");
 <ore:slabTreatedWood>.remove(<immersiveengineering:treated_wood_slab:*>);
 <ore:slabTreatedWood>.add(<immersiveengineering:treated_wood_slab:0>);
 
+#Misc
+<ore:fuelCoke>.remove(<immersiveengineering:material:6>);
+
 #Ore Dicting
 #<ore:>.add(<immersiveengineering:>);
 
