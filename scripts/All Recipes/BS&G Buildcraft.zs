@@ -50,6 +50,11 @@ recipes.addShaped(<buildcrafttransport:pipe_wood_item>*6, [
 [<ore:slabTreatedWood>, <ore:paneGlassColourless>, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, <ore:paneGlassColourless>, <ore:slabTreatedWood>]]);
 
+recipes.addShaped(<buildcrafttransport:pipe_wood_item>*6, [
+[<ore:slabLivingwood>, <ore:paneGlassColourless>, <ore:slabCobblestone>], 
+[<ore:slabCobblestone>, <ore:paneGlassColourless>, <ore:slabCobblestone>], 
+[<ore:slabCobblestone>, <ore:paneGlassColourless>, <ore:slabCobblestone>]]);
+
 #Cobblestone
 recipes.remove(<buildcrafttransport:pipe_cobble_item>);
 recipes.addShaped(<buildcrafttransport:pipe_cobble_item>*6, [

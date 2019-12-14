@@ -23,6 +23,8 @@ print("Mwah ha ha ha ha ha");
 <ore:snowball>.add(<minecraft:snowball>);
 <ore:itemFlint>.add(<minecraft:flint>);
 
+<ore:blockGlassColourless>.add(<minecraft:glass>);
+
 <ore:boat>.add(<minecraft:boat>);
 <ore:boat>.add(<minecraft:spruce_boat>);
 <ore:boat>.add(<minecraft:birch_boat>);

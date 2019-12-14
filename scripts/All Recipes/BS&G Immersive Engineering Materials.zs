@@ -214,11 +214,21 @@ recipes.addShaped(<immersiveengineering:wirecoil:0>, [
 [<ore:wireFineCopper>, <ore:stickTreatedWood>, <ore:wireFineCopper>],
 [<ore:wireFineCopper>, <ore:wireFineCopper>, <ore:wireFineCopper>]]);
 
+recipes.addShaped(<immersiveengineering:wirecoil:0>, [
+[<ore:wireFineCopper>, <ore:wireFineCopper>, <ore:wireFineCopper>],
+[<ore:wireFineCopper>, <ore:livingwoodTwig>, <ore:wireFineCopper>],
+[<ore:wireFineCopper>, <ore:wireFineCopper>, <ore:wireFineCopper>]]);
+
 #electrum mv
 recipes.removeShaped(<immersiveengineering:wirecoil:1>);
 recipes.addShaped(<immersiveengineering:wirecoil:1>, [
 [<ore:wireFineElectrum>, <ore:wireFineElectrum>, <ore:wireFineElectrum>],
 [<ore:wireFineElectrum>, <ore:stickTreatedWood>, <ore:wireFineElectrum>],
+[<ore:wireFineElectrum>, <ore:wireFineElectrum>, <ore:wireFineElectrum>]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:1>, [
+[<ore:wireFineElectrum>, <ore:wireFineElectrum>, <ore:wireFineElectrum>],
+[<ore:wireFineElectrum>, <ore:livingwoodTwig>, <ore:wireFineElectrum>],
 [<ore:wireFineElectrum>, <ore:wireFineElectrum>, <ore:wireFineElectrum>]]);
 
 #aluminium hv
@@ -228,11 +238,21 @@ recipes.addShaped(<immersiveengineering:wirecoil:2>, [
 [<ore:wireFineAluminium>, <ore:stickTreatedWood>, <ore:wireFineAluminium>],
 [<ore:wireFineAluminium>, <ore:wireFineAluminium>, <ore:wireFineAluminium>]]);
 
+recipes.addShaped(<immersiveengineering:wirecoil:2>, [
+[<ore:wireFineAluminium>, <ore:wireFineAluminium>, <ore:wireFineAluminium>],
+[<ore:wireFineAluminium>, <ore:livingwoodTwig>, <ore:wireFineAluminium>],
+[<ore:wireFineAluminium>, <ore:wireFineAluminium>, <ore:wireFineAluminium>]]);
+
 #hemp decor
 recipes.removeShaped(<immersiveengineering:wirecoil:3>);
 recipes.addShaped(<immersiveengineering:wirecoil:3>, [
 [<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>],
 [<contenttweaker:hempstring>, <ore:stickTreatedWood>, <contenttweaker:hempstring>],
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:3>, [
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>],
+[<contenttweaker:hempstring>, <ore:livingwoodTwig>, <contenttweaker:hempstring>],
 [<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>]]);
 
 #steel decor
@@ -242,9 +262,19 @@ recipes.addShaped(<immersiveengineering:wirecoil:4>, [
 [<ore:wireFineSteel>, <ore:stickTreatedWood>, <ore:wireFineSteel>],
 [<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>]]);
 
+recipes.addShaped(<immersiveengineering:wirecoil:4>, [
+[<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>],
+[<ore:wireFineSteel>, <ore:livingwoodTwig>, <ore:wireFineSteel>],
+[<ore:wireFineSteel>, <ore:wireFineSteel>, <ore:wireFineSteel>]]);
+
 #redstone signal
 recipes.removeShaped(<immersiveengineering:wirecoil:5>);
 recipes.addShaped(<immersiveengineering:wirecoil:5>, [
 [<ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>],
 [<ore:wireFineRedAlloy>, <ore:stickTreatedWood>, <ore:wireFineRedAlloy>],
+[<ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:5>, [
+[<ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>],
+[<ore:wireFineRedAlloy>, <ore:livingwoodTwig>, <ore:wireFineRedAlloy>],
 [<ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>, <ore:wireFineRedAlloy>]]);

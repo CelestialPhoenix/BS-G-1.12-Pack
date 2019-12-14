@@ -569,11 +569,20 @@ recipes.addShaped(<ore:pipeTinyWood>.firstItem*4, [
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>]]);
 
+recipes.addShaped(<ore:pipeTinyWood>.firstItem*4, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>], 
+[<ore:slabLivingwood>, <ore:slabLivingwood>]]);
+
 recipes.remove(<ore:pipeSmallWood>.firstItem);
 recipes.addShaped(<ore:pipeSmallWood>.firstItem*4, [
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<ore:pipeSmallWood>.firstItem*4, [
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>], 
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>], 
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>]]);
 
 recipes.remove(<ore:pipeMediumWood>.firstItem);
 recipes.addShaped(<ore:pipeMediumWood>.firstItem*2, [
@@ -581,10 +590,20 @@ recipes.addShaped(<ore:pipeMediumWood>.firstItem*2, [
 [null, null, null], 
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>]]);
 
+recipes.addShaped(<ore:pipeMediumWood>.firstItem*2, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>], 
+[null, null, null], 
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>]]);
+
 recipes.addShaped(<ore:pipeLargeWood>.firstItem, [
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, null, <ore:slabTreatedWood>], 
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<ore:pipeLargeWood>.firstItem, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>], 
+[<ore:slabLivingwood>, null, <ore:slabLivingwood>], 
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>]]);
 
 #
 #recipes.remove(<ore:pipeSmall>.firstItem);
