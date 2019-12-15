@@ -376,6 +376,12 @@ item.contenttweaker.blastbrick.name=Infernal Brick
 item.contenttweaker.boardcrude.name= Crude Circuit Board
 item.contenttweaker.boardsimple.name= Simple Circuit Board
 
+item.contenttweaker.pearlcracked.name=Cracked Pearl
+item.contenttweaker.pearlquantum.name=Quantum Pearl
+item.contenttweaker.starcracked.name=Cracked Star
+item.contenttweaker.corequantum.name=Quantum Core
+item.contenttweaker.eyecracked.name=Cracked Eye
+
 item.contenttweaker.brickbone.name=Bone Brick
 item.contenttweaker.brickblood.name=Blood Brick
 item.contenttweaker.brickblue.name=Blue Stained Brick
@@ -403,6 +409,7 @@ item.contenttweaker.clusteraluminium.name=Native Aluminium Cluster
 item.contenttweaker.clusterantimony.name=Native Antimony Cluster
 item.contenttweaker.clusterberyllium.name=Native Beryllium Cluster
 item.contenttweaker.clusterbismuth.name=Native Bismuth Cluster
+item.contenttweaker.clustercalcium.name=Native Calcium Cluster
 item.contenttweaker.clusterchrome.name=Native Chrome Cluster
 item.contenttweaker.clustercobalt.name=Native Cobalt Cluster
 item.contenttweaker.clusteriridium.name=Native Iridium Cluster

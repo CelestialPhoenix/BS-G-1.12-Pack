@@ -17,3 +17,18 @@ BoardSimple.register();
 var CircuitGood = VanillaFactory.createItem("circuitgood");
 CircuitGood.register();
 */
+
+var PearlCracked = VanillaFactory.createItem("pearlcracked");
+PearlCracked.register();
+
+var PearlQuantum = VanillaFactory.createItem("pearlquantum");
+PearlQuantum.register();
+
+var StarCracked = VanillaFactory.createItem("starcracked");
+StarCracked.register();
+
+var CoreQuantum = VanillaFactory.createItem("corequantum");
+CoreQuantum.register();
+
+var EyeCracked = VanillaFactory.createItem("eyecracked");
+EyeCracked.register();
