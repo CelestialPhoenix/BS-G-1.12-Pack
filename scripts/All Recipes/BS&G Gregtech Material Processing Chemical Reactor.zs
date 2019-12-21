@@ -397,7 +397,11 @@ ChemReactor
     .EUt(480)
     .buildAndRegister();
 
-#---Quantum Part---
+#---Quantum Circuits---
+ChemReactor.findRecipe(1920, [<metaitem:quantumeye>*2, <metaitem:wafer.nano_central_processing_unit>], [<liquid:gallium_arsenide>*288]).remove();
+ChemReactor.findRecipe(1920, [<ore:cableGtSingleSuperconductor>.firstItem*8, <metaitem:wafer.nano_central_processing_unit>], null).remove();
+
+#---Quantum Parts---
 ChemReactor
     .recipeBuilder()
 	.inputs(<contenttweaker:pearlcracked>*1)

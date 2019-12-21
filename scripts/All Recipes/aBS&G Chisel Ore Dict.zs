@@ -417,6 +417,21 @@ print("A chip of the old block");
 <ore:blockIron>.remove(<chisel:blockiron:12>);
 <ore:blockIron>.remove(<chisel:blockiron:13>);
 <ore:blockIron>.remove(<chisel:blockiron:14>);
+<ore:blockIron>.remove(<chisel:iron:0>);
+<ore:blockIron>.remove(<chisel:iron:1>);
+<ore:blockIron>.remove(<chisel:iron:2>);
+<ore:blockIron>.remove(<chisel:iron:3>);
+<ore:blockIron>.remove(<chisel:iron:4>);
+<ore:blockIron>.remove(<chisel:iron:5>);
+<ore:blockIron>.remove(<chisel:iron:6>);
+<ore:blockIron>.remove(<chisel:iron:7>);
+<ore:blockIron>.remove(<chisel:iron:8>);
+<ore:blockIron>.remove(<chisel:iron:9>);
+<ore:blockIron>.remove(<chisel:iron:10>);
+<ore:blockIron>.remove(<chisel:iron:11>);
+<ore:blockIron>.remove(<chisel:iron:12>);
+<ore:blockIron>.remove(<chisel:iron:13>);
+<ore:blockIron>.remove(<chisel:iron:14>);
 
 #Lapis
 <ore:blockLapis>.remove(<chisel:lapis:0>);
