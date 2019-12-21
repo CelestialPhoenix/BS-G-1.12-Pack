@@ -12,7 +12,6 @@ recipes.remove(<ic2:resource:8>); #Steel
 recipes.remove(<ic2:resource:9>); #Tin
 recipes.remove(<ic2:resource:10>); #Uranium
 recipes.remove(<ic2:resource:15>); #Silver
-
 mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:5>);
 mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:6>);
 mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:7>);
@@ -147,6 +146,9 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>); #iridium al
 <ic2:plate:15>.addTooltip("This item is disabled");
 <ic2:plate:16>.addTooltip("This item is disabled");
 <ic2:plate:17>.addTooltip("This item is disabled");
+
+#Misc
+recipes.remove(<ic2:coke>);
 
 #---Recipes---
 #Rubber ball

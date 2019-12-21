@@ -37,6 +37,7 @@ print("There are no bodies buried into the foundations. You can stop looking now
 recipes.removeShaped(<thermalfoundation:storage:*>);
 recipes.removeShaped(<thermalfoundation:storage_alloy:*>);
 recipes.removeShaped(<thermalfoundation:storage_resource>);
+recipes.removeShaped(<thermalfoundation:storage_resource:1>);
 
 #--Dusts--
 #Aluminium
@@ -313,6 +314,10 @@ recipes.removeShaped(<thermalfoundation:material:294>);
 #enderium
 mods.immersiveengineering.MetalPress.removeRecipe(<thermalfoundation:material:295>);
 recipes.removeShaped(<thermalfoundation:material:295>);
+
+
+#Misc
+recipes.remove(<thermalfoundation:material:802>);
 
 #---New Recipes---
 #Rockwool

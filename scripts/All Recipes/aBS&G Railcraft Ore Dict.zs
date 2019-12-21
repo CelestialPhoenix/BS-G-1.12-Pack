@@ -17,6 +17,7 @@ print("Handles like its on rails");
 <ore:blockInvar>.remove(<railcraft:metal:7>);
 <ore:blockZinc>.remove(<railcraft:metal:8>);
 <ore:blockBrass>.remove(<railcraft:metal:9>);
+<ore:blockCoke>.remove(<railcraft:generic:6>);
 
 #Dusts
 #<ore:dust>.remove(<railcraft:dust:>);

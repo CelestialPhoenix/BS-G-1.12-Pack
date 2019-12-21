@@ -16,6 +16,7 @@ recipes.remove(<railcraft:metal:6>); #Nickel
 recipes.remove(<railcraft:metal:7>); #Invar
 recipes.remove(<railcraft:metal:8>); #Zinc
 recipes.remove(<railcraft:metal:9>); #Brass
+recipes.remove(<railcraft:generic:6>); #Coal Coke
 
 #Gears
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:gear:0>); #Brass
@@ -124,6 +125,12 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:9>); #Invar
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:10>); #Zinc
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
+
+#Misc
+recipes.remove(<railcraft:fuel_coke>); #Coal Coke
+
+#--Recipes---
+
 #---Blocks---
 
 #Stregthened glass

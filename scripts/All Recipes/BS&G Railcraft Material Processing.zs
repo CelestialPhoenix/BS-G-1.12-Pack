@@ -2,6 +2,7 @@
 #Author: PhoePhoe
 
 import moretweaker.railcraft.BlastFurnace;
+import moretweaker.railcraft.CokeOven;
 import moretweaker.railcraft.RockCrusher;
 import moretweaker.railcraft.RollingMachine;
 
@@ -22,6 +23,16 @@ BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 1280, 1);
 BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, 640, 1);
 
 #---Coking Oven---
+#CokeOven.remove(IIngredient output);
+#CokeOven.add(IItemStack output, IIngredient input, ILiquidStack liquidOutput, optional int ticks);
+
+#Coal Coke
+CokeOven.remove(<railcraft:fuel_coke>);
+CokeOven.remove(<railcraft:generic:6>);
+CokeOven.add(<ore:fuelCoke>.firstItem, <ore:gemCoal>, <liquid:creosote>*500, 1800);
+
+#Charcoal
+CokeOven.add(<abyssalcraft:charcoal>, <ore:logDreadwood>, <liquid:creosote>*250, 1800);
 
 #---Rock Crusher---
 #Machine disabled- remove all recipes

@@ -10,7 +10,10 @@ print("Trust me I'm an engineer");
 recipes.removeShaped(<immersiveengineering:storage:*>);
 recipes.removeShaped(<immersiveengineering:stone_decoration:3>);
 
-#crafting
+#coal coke
+recipes.remove(<immersiveengineering:material:6>);
+
+#---Crafting---
 
 #---Materials---
 #Treated Wood
