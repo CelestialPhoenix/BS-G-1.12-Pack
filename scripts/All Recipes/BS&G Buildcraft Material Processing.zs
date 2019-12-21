@@ -15,8 +15,13 @@ var GateGold = <buildcraftsilicon:plug_gate>.withTag({gate: {material: 3 as byte
 #--Nano Processing--
 AssemblyTable.add(<ore:waferNanoCPU>.firstItem, 80, [<minecraft:glowstone_dust>*2, <ore:fibresCarbon>*16, <ore:waferCPU>]);
 
-#Rework stock recipes (energy change)
+#--Quantum Processing--
+AssemblyTable.add(<ore:waferQuantumCPU>.firstItem, 320, [<ore:eyeQuantum>, <ore:waferNanoCPU>, <ore:dustGalliumArsenide>]);
+AssemblyTable.add(<ore:chipQuantumCPU>.firstItem, 320, [<contenttweaker:pearlquantum>, <ore:chipNanoCPU>, <ore:dustSmallGalliumArsenide>]);
+AssemblyTable.add(<contenttweaker:corequantum>, 920, [<ore:starQuantum>, <ore:chipQuantumCPU>*12, <ore:waferNanoCPU>, <ore:dustGalliumArsenide>]);
+AssemblyTable.add(<contenttweaker:corequantum>, 920, [<ore:starQuantum>, <ore:waferQuantumCPU>, <ore:dustSmallGalliumArsenide>*3]);
 
+#Rework stock recipes (energy change)
 #-Chipsets-
 AssemblyTable.remove(<buildcraftsilicon:redstone_chipset:0>);
 AssemblyTable.add(<buildcraftsilicon:redstone_chipset:0>, 1, [<ore:wireFineRedAlloy>*2, <ore:plateSilicon>]);

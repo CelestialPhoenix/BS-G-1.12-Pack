@@ -24,10 +24,15 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:itemResistor>.add(<metaitem:component.resistor>);
 <ore:itemDiode>.add(<metaitem:component.diode>);
 <ore:fibresCarbon>.add(<metaitem:carbon.fibers>);
+<ore:eyeQuantum>.add(<metaitem:quantumeye>);
 
-#-circuit wafers-
+#-circuit wafers/chips-
 <ore:waferCPU>.add(<metaitem:wafer.central_processing_unit>);
 <ore:waferNanoCPU>.add(<metaitem:wafer.nano_central_processing_unit>);
+<ore:waferQuantumCPU>.add(<metaitem:wafer.qbit_central_processing_unit>);
+
+<ore:chipNanoCPU>.add(<metaitem:plate.nano_central_processing_unit>);
+<ore:chipQuantumCPU>.add(<metaitem:plate.qbit_central_processing_unit>);
 
 #-filters-
 <ore:filterItem>.add(<metaitem:item_filter>);

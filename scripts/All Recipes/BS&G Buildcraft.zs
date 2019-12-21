@@ -7,9 +7,9 @@ print("Old school cool");
 
 #--Machines--
 #Assembly Table
-recipes.remove(<buildcraftsilicon:laser>);
-recipes.addShapedMirrored(<buildcraftsilicon:laser>, [ 
-[<ore:circuitGood>, <ore:lensDiamond>, <ore:circuitGood>], 
+recipes.remove(<buildcraftsilicon:assembly_table>);
+recipes.addShapedMirrored(<buildcraftsilicon:assembly_table>, [ 
+[<ore:circuitAdvanced>, <ore:lensDiamond>, <ore:circuitAdvanced>], 
 [<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]]);
 
 #Chute
@@ -27,9 +27,9 @@ recipes.addShaped(<buildcraftfactory:chute>, [
 #Laser
 recipes.remove(<buildcraftsilicon:laser>);
 recipes.addShapedMirrored(<buildcraftsilicon:laser>, [
-[<ore:screwChrome>, <ore:pistonMV>, <ore:plateObsidian>], 
-[<ore:ringChrome>, <ore:lensDiamond>, <ore:circuitGood>], 
-[<ore:screwChrome>, <ore:pistonMV>, <ore:plateObsidian>]]);
+[<ore:screwChrome>, <ore:pistonHV>, <ore:plateObsidian>], 
+[<ore:ringChrome>, <ore:lensDiamond>, <ore:circuitAdvanced>], 
+[<ore:screwChrome>, <ore:pistonHV>, <ore:plateObsidian>]]);
 
 #--Materials--
 #Pipe Sealent 

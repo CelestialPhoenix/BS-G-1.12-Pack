@@ -396,3 +396,33 @@ ChemReactor
     .duration(120)
     .EUt(480)
     .buildAndRegister();
+
+#---Quantum Part---
+ChemReactor
+    .recipeBuilder()
+	.inputs(<contenttweaker:pearlcracked>*1)
+    .fluidInputs(<liquid:radon>*500)
+	.outputs(<contenttweaker:pearlquantum>*1)
+    .duration(600)
+    .EUt(768)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<contenttweaker:eyecracked>*1)
+    .fluidInputs(<liquid:radon>*1000)
+	.outputs(<ore:eyeQuantum>.firstItem*1)
+    .duration(800)
+    .EUt(768)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<contenttweaker:starcracked>*1)
+    .fluidInputs(<liquid:radon>*2000)
+	.outputs(<ore:starQuantum>.firstItem*1)
+    .duration(800)
+    .EUt(768)
+    .buildAndRegister();
+
+
