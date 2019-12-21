@@ -339,6 +339,7 @@ mods.chisel.Carving.addVariation("blockCoalNew", <chisel:block_coal2:1>);
 #blockCoalCoke
 mods.chisel.Carving.removeGroup("blockCoalCoke");
 mods.chisel.Carving.addGroup("blockCoalCokeNew");
+mods.chisel.Carving.addVariation("blockCoalCokeNew", <gregtech:compressed_15:4>);
 mods.chisel.Carving.addVariation("blockCoalCokeNew", <chisel:block_coal_coke:0>);
 mods.chisel.Carving.addVariation("blockCoalCokeNew", <chisel:block_coal_coke:1>);
 mods.chisel.Carving.addVariation("blockCoalCokeNew", <chisel:block_coal_coke:2>);
