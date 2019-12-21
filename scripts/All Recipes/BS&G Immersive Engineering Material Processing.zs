@@ -92,7 +92,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTinAlloy>.firstItem*2
 
 #Invar
 #Heres your recipe. (still a noob mind)
-mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotInvar>.firstItem, <ore:dustInvar>, 2000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ore:ingotInvar>.firstItem, <ore:dustInvar>, 1200);
 
 #Steel
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);

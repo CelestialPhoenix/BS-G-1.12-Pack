@@ -22,6 +22,8 @@ BlastFurnace.add(<ore:blockSteel>.firstItem, <ore:blockWroughtIron>, 5120, 9);
 BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 1280, 1);
 BlastFurnace.add(<ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, 640, 1);
 
+BlastFurnace.add(<ore:ingotInvar>.firstItem, <ore:dustInvar>, 1200, 0); //Yep. just checking and you're still a n00b.
+
 #---Coking Oven---
 #CokeOven.remove(IIngredient output);
 #CokeOven.add(IItemStack output, IIngredient input, ILiquidStack liquidOutput, optional int ticks);
