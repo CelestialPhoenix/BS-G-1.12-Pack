@@ -3,6 +3,76 @@
 
 print("Hello Boys- I'm Baaaaack!!!");
 
+#--Dusts--
+#Adds material loss to dust alloy crafting
+recipes.addShapeless(<ore:dustBatteryAlloy>.firstItem*4, [<ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustLead>, <ore:dustAntimony>]);
+
+recipes.addShapeless(<ore:dustBlueAlloy>.firstItem*5, [<ore:dustElectrum>, <ore:dustElectrum>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>]);
+recipes.addShapeless(<ore:dustBlueAlloy>.firstItem*5, [<ore:dustSilver>, <ore:dustGold>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>, <ore:dustElectrotine>]);
+
+recipes.addShapeless(<ore:dustBrass>.firstItem*3, [<ore:dustZinc>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
+
+recipes.removeShapeless(<ore:dustCobaltBrass>.firstItem);
+recipes.addShapeless(<ore:dustBrass>.firstItem*6, [<ore:dustBrass>, <ore:dustBrass>, <ore:dustBrass>, <ore:dustBrass>, <ore:dustBrass>, <ore:dustBrass>, <ore:dustBrass>, <ore:dustCobalt>, <ore:dustAluminium>]);
+
+recipes.addShapeless(<ore:dustBronze>.firstItem*3, [<ore:dustTin>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
+
+recipes.removeShapeless(<ore:dustBlackBronze>.firstItem);
+recipes.addShapless(<ore:dustBlackBronze>.firstItem*4, [<ore:dustGold>, <ore:dustSilver>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
+recipes.addShapless(<ore:dustBlackBronze>.firstItem*4, [<ore:dustElectrum>, <ore:dustElectrum>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
+
+recipes.removeShapeless(<ore:dustBismuthBronze>.firstItem);
+recipes.addShapless(<ore:dustBismuthBronze>.firstItem*4, [<ore:dustBismuth>, <ore:dustZinc>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]);
+
+recipes.removeShapeless(<ore:dustCupronickel>.firstItem);
+recipes.addShapeless(<ore:dustCupronickel>.firstItem*3, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustNickel>, <ore:dustNickel>]);
+
+recipes.addShapeless(<ore:dustElectrum>.firstItem*3, [<ore:dustGold>, <ore:dustGold>, <ore:dustSilver>, <ore:dustSilver>]);
+
+recipes.removeShapeless(<ore:dustHssg>.firstItem);
+recipes.addShapless(<ore:dustHssg>.firstItem*6, [<ore:dustTungstenSteel>, <ore:dustTungstenSteel>, <ore:dustTungstenSteel>, <ore:dustTungstenSteel>, <ore:dustTungstenSteel>, <ore:dustChrome>, <ore:dustMolybdenum>, <ore:dustMolybdenum>, <ore:dustVanadium>]);
+
+recipes.removeShapeless(<ore:dustHsse>.firstItem);
+recipes.addShapless(<ore:dustHsse>.firstItem*6, [<ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustCobalt>, <ore:dustManganese>, <ore:dustSilicon>]);
+
+recipes.removeShapeless(<ore:dustHsss>.firstItem);
+recipes.addShapless(<ore:dustHsss>.firstItem*6, [<ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustHssg>, <ore:dustIridium>, <ore:dustIridium>, <ore:dustOsmium>]);
+
+recipes.removeShapeless(<ore:dustKanthal>.firstItem);
+recipes.addShapeless(<ore:dustKanthal>.firstItem*2, [<ore:dustAluminium>, <ore:dustIron>, <ore:dustChrome>]);
+
+recipes.removeShapeless(<ore:dustNichrome>.firstItem);
+recipes.addShapeless(<ore:dustNichrome>.firstItem*4, [<ore:dustNickel>, <ore:dustNickel>, <ore:dustNickel>, <ore:dustNickel>, <ore:dustChrome>]);
+
+recipes.addShapeless(<ore:dustRoseGold>.firstItem*4, [<ore:dustCopper>, <ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ore:dustGold>]);
+
+recipes.addShapeless(<ore:dustRedAlloy>.firstItem*4, [<ore:dustCopper>, <ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]);
+
+recipes.removeShapeless(<ore:dustStainlessSteel>.firstItem);
+recipes.addShapless(<ore:dustStainlessSteel>.firstItem*6, [<ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustChrome>, <ore:dustManganese>, <ore:dustNickel>]);
+
+recipes.removeShapeless(<ore:dustBlackSteel>.firstItem);
+recipes.addShapless(<ore:dustBlackSteel>.firstItem*4, [<ore:dustNickel>, <ore:dustBlackBronze>, <ore:dustSteel>, <ore:dustSteel>, <ore:dustSteel>]);
+
+recipes.removeShapeless(<ore:dustRedSteel>.firstItem);
+recipes.addShapless(<ore:dustRedSteel>.firstItem*6, [<ore:dustSterlingSilver>, <ore:dustBismuthBronze>, <ore:dustSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>]);
+
+recipes.removeShapeless(<ore:dustBlueSteel>.firstItem);
+recipes.addShapless(<ore:dustBlueSteel>.firstItem*6, [<ore:dustRoseGold>, <ore:dustBrass>, <ore:dustSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>, <ore:dustBlackSteel>]);
+
+recipes.addShapeless(<ore:dustTungstenSteel>.firstItem*3, [<ore:dustSteel>, <ore:dustSteel>, <ore:dustTungsten>, <ore:dustTungsten>]);
+
+recipes.removeShapeless(<ore:dustStainlessSteel>.firstItem);
+recipes.addShapless(<ore:dustStainlessSteel>.firstItem*6, [<ore:dustVanadium>, <ore:dustChrome>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>]);
+
+recipes.addShapeless(<ore:dustSolderingAlloy>.firstItem*1, [<ore:dustTin>, <ore:dustTinyAntimony>]);
+
+recipes.addShapeless(<ore:dustSterlingSilver>.firstItem*4, [<ore:dustCopper>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]);
+
+recipes.addShapeless(<ore:dustSterlingSilver>.firstItem*3, [<ore:dustTin>, <ore:dustTin>, <ore:dustIron>, <ore:dustIron>]);
+
+recipes.addShapeless(<ore:dustTungstenCarbide>.firstItem*3, [<ore:dustTungsten>, <ore:dustTungsten>, <ore:dustCarbon>, <ore:dustCarbon>]);
+
 #--Ingots--
 recipes.remove(<ore:ingotAluminium>.firstItem);
 recipes.remove(<ore:ingotAmericium>.firstItem);

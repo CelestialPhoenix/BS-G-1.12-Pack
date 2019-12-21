@@ -63,10 +63,10 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotMagnalium>.firstItem*
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*4, <ore:ingotCopper>, <ore:dustRedstone>*3, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*4, <ore:dustCopper>, <ore:dustRedstone>*3, 180);
 #rose gold
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:ingotGold>*4, <ore:ingotCopper>, 440);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:dustGold>*4, <ore:ingotCopper>, 400);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:ingotGold>*4, <ore:dustCopper>, 400);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:dustGold>*4, <ore:dustCopper>, 360);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:ingotGold>*4, <ore:ingotCopper>, 440);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:dustGold>*4, <ore:ingotCopper>, 400);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:ingotGold>*4, <ore:dustCopper>, 400);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:dustGold>*4, <ore:dustCopper>, 360);
 #rubber
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRubber>.firstItem*2, <ore:dustRawRubber>*3, <ore:dustSulfur>, 200);
 #soldering alloy
@@ -75,10 +75,10 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSolderingAlloy>.first
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSolderingAlloy>.firstItem*10, <ore:ingotTin>*9, <ore:dustAntimony>, 1000);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSolderingAlloy>.firstItem*10, <ore:dustTin>*9, <ore:dustAntimony>, 900);
 #sterling silver
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:ingotSilver>*4, <ore:ingotCopper>, 440);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:dustSilver>*4, <ore:ingotCopper>, 400);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:ingotSilver>*4, <ore:dustCopper>, 400);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:dustSilver>*4, <ore:dustCopper>, 360);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:ingotSilver>*4, <ore:ingotCopper>, 440);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:dustSilver>*4, <ore:ingotCopper>, 400);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:ingotSilver>*4, <ore:dustCopper>, 400);
+#mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotSterlingSilver>.firstItem*5, <ore:dustSilver>*4, <ore:dustCopper>, 360);
 #tin alloy
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTinAlloy>.firstItem*2, <ore:ingotTin>, <ore:ingotIron>, 220);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTinAlloy>.firstItem*2, <ore:dustTin>, <ore:ingotIron>, 200);
