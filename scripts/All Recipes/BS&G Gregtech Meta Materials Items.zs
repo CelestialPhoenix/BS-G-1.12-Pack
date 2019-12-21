@@ -142,6 +142,9 @@ recipes.remove(<ore:ingotBlueAlloy>.firstItem);
 recipes.remove(<ore:ingotZirconium>.firstItem);
 #PVC
 
+#-Ingot Smelting-
+furnace.remove(<ore:ingotInvar>.firstItem);
+
 #--Nuggets--
 recipes.remove(<ore:nuggetAluminium>.firstItem);
 recipes.remove(<ore:nuggetAmericium>.firstItem);

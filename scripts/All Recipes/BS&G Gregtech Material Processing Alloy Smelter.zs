@@ -9,6 +9,16 @@ val alloysmelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
 
 #---Alloy Smelter---
 #--Removed Recipes--
+#Invar Alloying
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*2, <ore:ingotNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*2, <ore:dustNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*2, <ore:ingotNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*2, <ore:dustNickel>.firstItem*1], null).remove();
+
+alloysmelter.findRecipe(16, [<ore:ingotWroughtIron>.firstItem*2, <ore:ingotNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:ingotWroughtIron>.firstItem*2, <ore:dustNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustWroughtIron>.firstItem*2, <ore:ingotNickel>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustWroughtIron>.firstItem*2, <ore:dustNickel>.firstItem*1], null).remove();
 #Steel Alloying
 alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*1, <ore:blockGraphite>.firstItem*1], null).remove();
 alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*1, <ore:blockCoal>.firstItem*1], null).remove();

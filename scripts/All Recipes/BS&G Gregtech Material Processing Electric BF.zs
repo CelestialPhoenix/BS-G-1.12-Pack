@@ -149,6 +149,26 @@ electricBF
 
 */
 #######################
+#Invar
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:ingotIron>.firstItem*2, <ore:ingotNickel>.firstItem)
+	.fluidInputs([<liquid:pyrotheum> * 1500])
+    .outputs(<ore:ingotInvar>.firstItem*3)
+	.property("temperature", 1000)
+    .duration(75)
+    .EUt(480)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:ingotIron>.firstItem*2, <ore:ingotNickel>.firstItem)
+    .outputs(<ore:ingotInvar>.firstItem*3)
+	.property("temperature", 1000)
+    .duration(300)
+    .EUt(120)
+    .buildAndRegister();
+
 #TungstenSteel
 electricBF.findRecipe(480, [<ore:ingotTungsten>.firstItem, <ore:ingotSteel>.firstItem], null).remove();
 electricBF
