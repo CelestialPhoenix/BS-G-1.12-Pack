@@ -1,0 +1,9 @@
+# Master language file
+
+
+buildcraft.mj.static.long=%s x10,000 Redstone Flux
+buildcraft.mj.static.short=%s x10kRf
+buildcraft.mj.flow.long=%s x10,000 Redstone Flux per tick
+buildcraft.mj.flow.short=%s x10kRf/t
+buildcraft.mj.flow.seconds.long=%s x10,000 Redstone Flux per second
+buildcraft.mj.flow.seconds.short=%s x10kRf/s
