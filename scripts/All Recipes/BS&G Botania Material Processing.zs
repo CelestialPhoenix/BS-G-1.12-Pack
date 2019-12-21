@@ -74,3 +74,4 @@ mods.botania.PureDaisy.addRecipe(<minecraft:stone:6>, <minecraft:stone>); #andes
 #Terrasteel
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource:0>, <botania:manaresource:1>]);
 Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:ingotManasteel>, <ore:manaDiamond>, <ore:manaPearl>], 500000);
+Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:dustTerrasteel>], 100000);
