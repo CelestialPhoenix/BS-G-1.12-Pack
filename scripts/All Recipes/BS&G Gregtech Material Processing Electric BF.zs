@@ -445,6 +445,25 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 */#############################
+#Invar
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustInvar>.firstItem)
+	.fluidInputs([<liquid:pyrotheum> * 250])
+    .outputs(<ore:ingotHotInvar>.firstItem)
+	.property("temperature", 1000)
+    .duration(125)
+    .EUt(480)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustInvar>.firstItem)
+    .outputs(<ore:ingoInvar>.firstItem)
+	.property("temperature", 1000)
+    .duration(500)
+    .EUt(120)
+    .buildAndRegister();
 
 #Niobium
 electricBF.findRecipe(120, [<ore:dustNiobium>.firstItem], null).remove();
