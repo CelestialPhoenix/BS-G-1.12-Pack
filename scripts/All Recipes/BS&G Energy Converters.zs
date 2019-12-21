@@ -6,6 +6,7 @@ print("Stop staring at my chest");
 
 #---Recipes---
 #-Parts for Buildcraft conversion-
+<energyconverters:energy_bridge>.clearTooltip();
 <energyconverters:energy_bridge>.addTooltip("Laser Driver");
 recipes.remove(<energyconverters:energy_bridge>);
 recipes.addShaped(<energyconverters:energy_bridge>, [
@@ -13,29 +14,32 @@ recipes.addShaped(<energyconverters:energy_bridge>, [
 [<ore:emitterHV>, <ore:hullHV>, <ore:casingGold>], 
 [<ore:casingAluminium>, <ore:circuitAdvanced>, <ore:wirespoolElectrum>]]);
 
-<energyconverters:energy_bridge>.addTooltip("Laser Precharger");
+<energyconverters:energy_consumer_fe>.clearTooltip();
+<energyconverters:energy_consumer_fe>.addTooltip("Laser Precharger");
 recipes.remove(<energyconverters:energy_consumer_fe>);
 recipes.addShaped(<energyconverters:energy_consumer_fe>, [
 [<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>],
 [<ore:casingGold>, <ore:hullHV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
 [<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>]]);
 
-<energyconverters:energy_bridge>.addTooltip("Laser Discharger");
+<energyconverters:energy_producer_fe>.clearTooltip();
+<energyconverters:energy_producer_fe>.addTooltip("Laser Discharger");
 recipes.remove(<energyconverters:energy_producer_fe>);
 recipes.addShaped(<energyconverters:energy_producer_fe>, [
 [<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>],
 [<ore:casingGold>, <ore:hullHV>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], 
 [<ore:wirespoolElectrum>, <ore:casingAluminium>, <ore:circuitAdvanced>]]);
 
-<energyconverters:energy_bridge>.addTooltip("Laser Reciever");
+<energyconverters:energy_consumer_mj>.clearTooltip();
+<energyconverters:energy_consumer_mj>.addTooltip("Laser Reciever");
 recipes.remove(<energyconverters:energy_consumer_mj>);
 recipes.addShaped(<energyconverters:energy_consumer_mj>, [
 [<ore:plateAluminium>, <ore:circuitAdvanced>, <ore:plateAluminium>],
 [<ore:sensorHV>, <ore:hullHV>, <ore:casingGold>], 
 [<ore:plateAluminium>, <ore:circuitAdvanced>, <ore:plateAluminium>]]);
 
-<energyconverters:energy_bridge>.addTooltip("Laser Apature");
-<energyconverters:energy_bridge>.clearTooltip();
+<energyconverters:energy_producer_mj>.clearTooltip();
+<energyconverters:energy_producer_mj>.addTooltip("Laser Apature");
 recipes.remove(<energyconverters:energy_producer_mj>);
 recipes.addShaped(<energyconverters:energy_producer_mj>, [
 [<ore:screwChrome>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
