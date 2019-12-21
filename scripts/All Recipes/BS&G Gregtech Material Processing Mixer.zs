@@ -15,25 +15,6 @@ mixer.findRecipe(480, [null], [<liquid:fuel>*1000,<liquid:tetranitromethane>*20]
 mixer.findRecipe(480, [null], [<liquid:bio_diesel>*1000,<liquid:tetranitromethane>*40]).remove();
 
 #--Dust/Powder Mixing--
-#BlueAlloy
-mixer
-    .recipeBuilder()
-    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
-    .outputs(<ore:dustBlueAlloy>.firstItem*7)
-    .duration(200)
-    .EUt(8)
-    .buildAndRegister();
-
-#Bog Earth
-mixer
-    .recipeBuilder()
-    .inputs(<ore:dirt>.firstItem*4, <ore:sand>.firstItem*4, <ore:itemMulch>.firstItem)
-	.fluidInputs([<liquid:water>*1000])
-    .outputs(<forestry:bog_earth>*8)
-    .duration(200)
-    .EUt(8)
-    .buildAndRegister();
-
 #Casting Medium
 mixer
     .recipeBuilder()
@@ -42,8 +23,8 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
-
-#Clays
+	
+#Decorative Clays
 mixer
     .recipeBuilder()
     .inputs(<ore:clayball>.firstItem*2, <tconstruct:edible:3>*2)
@@ -108,6 +89,17 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#-Forestry-
+#Bog Earth
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dirt>.firstItem*4, <ore:sand>.firstItem*4, <ore:itemMulch>.firstItem)
+	.fluidInputs([<liquid:water>*1000])
+    .outputs(<forestry:bog_earth>*8)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #Compost
 mixer
     .recipeBuilder()
@@ -164,6 +156,283 @@ mixer
     .recipeBuilder()
     .inputs(<ore:dustAsh>.firstItem*8, <ore:dustSmallCalcium>.firstItem*3, <ore:dustSmallPhosphate>.firstItem*2)
     .outputs(<forestry:fertilizer_compound>*16)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#--Metals/Alloys--
+#BatteryAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustLead>.firstItem*4, <ore:dustAntimony>.firstItem*1)
+    .outputs(<ore:dustBatteryAlloy>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+	
+#BlueAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
+    .outputs(<ore:dustBlueAlloy>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilver>.firstItem*1, <ore:dustGold>.firstItem*1, <ore:dustElectrotine>.firstItem*5)
+    .outputs(<ore:dustBlueAlloy>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Brass
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustZinc>.firstItem*1, <ore:dustCopper>.firstItem*3)
+    .outputs(<ore:dustBrass>.firstItem*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#CobaltBrass
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBrass>.firstItem*7, <ore:dustAluminium>.firstItem*1, <ore:dustCobalt>.firstItem*1)
+    .outputs(<ore:dustCobaltBrass>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Bronze
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTin>.firstItem*1, <ore:dustCopper>.firstItem*3)
+    .outputs(<ore:dustBronze>.firstItem*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#BlackBronze
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilver>.firstItem*1, <ore:dustGold>.firstItem*1, <ore:dustCopper>.firstItem*3)
+    .outputs(<ore:dustBlackBronze>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustCopper>.firstItem*3)
+    .outputs(<ore:dustBlackBronze>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#BismuthBronze
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBismuth>.firstItem*1, <ore:dustZinc>.firstItem*1, <ore:dustCopper>.firstItem*3)
+    .outputs(<ore:dustBismuthBronze>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Cupronickel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNickel>.firstItem*1, <ore:dustCopper>.firstItem*1)
+    .outputs(<ore:dustCupronickel>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Electrum
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilver>.firstItem*1, <ore:dustCopper>.firstItem*1)
+    .outputs(<ore:dustElectrum>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Hssg
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTungstenSteel>.firstItem*5, <ore:dustChrome>.firstItem*1, <ore:dustVanadium>.firstItem*2, <ore:dustVanadium>.firstItem*1)
+    .outputs(<ore:dustHssg>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Hsse
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustHssg>.firstItem*6, <ore:dustCobalt>.firstItem*1, <ore:dustManganese>.firstItem*2, <ore:dustSilicon>.firstItem*1)
+    .outputs(<ore:dustHsse>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Hsss
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustHssg>.firstItem*6, <ore:dustIridium>.firstItem*2, <ore:dustOsmium>.firstItem*1)
+    .outputs(<ore:dustHsss>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Kanthal
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustIron>.firstItem*1, <ore:dustAluminium>.firstItem*1, <ore:dustChrome>.firstItem*1)
+    .outputs(<ore:dustKanthal>.firstItem*3)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Naquadah Alloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah>*1, <ore:dustIridium>.firstItem*3, <ore:dustOsmium>.firstItem*1)
+    .outputs(<ore:dustOsmiridium>.firstItem*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah>*1, <ore:dustOsmiridium>.firstItem*4)
+    .outputs(<ore:dustOsmiridium>.firstItem*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Nichrome
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNickel>.firstItem*4, <ore:dustChrome>.firstItem*1)
+    .outputs(<ore:dustNichrome>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Osmiridium
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustIridium>.firstItem*3, <ore:dustOsmium>.firstItem*1)
+    .outputs(<ore:dustOsmiridium>.firstItem*4)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#RoseGold
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustGold>.firstItem*4, <ore:dustCopper>.firstItem*1)
+    .outputs(<ore:dustRoseGold>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#RedAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustRedstone>.firstItem*4, <ore:dustCopper>.firstItem*1)
+    .outputs(<ore:dustRedAlloy>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#StainlessSteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustIron>.firstItem*6, <ore:dustChrome>.firstItem*1, <ore:dustManganese>.firstItem*1, <ore:dustNickel>.firstItem*1)
+    .outputs(<ore:dustStainlessSteel>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#BlackSteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSteel>.firstItem*3, <ore:dustNickel>.firstItem*1, <ore:dustBlackBronze>.firstItem*1)
+    .outputs(<ore:dustBlackSteel>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#Redsteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBlackSteel>.firstItem*3, <ore:dustSteel>.firstItem*2, <ore:dustSterlingSilver>.firstItem*1, <ore:dustBismuthBronze>.firstItem*1)
+    .outputs(<ore:dustRedSteel>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#BlueSteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBlackSteel>.firstItem*3, <ore:dustSteel>.firstItem*2, <ore:dustRoseGold>.firstItem*1, <ore:dustBrass>.firstItem*1)
+    .outputs(<ore:dustBlueSteel>.firstItem*7)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#TungstenSteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTungsten>.firstItem*1, <ore:dustSteel>.firstItem*1)
+    .outputs(<ore:dustTungstenSteel>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#VanadiumSteel
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSteel>.firstItem*7, <ore:dustVanadium>.firstItem*1, <ore:dustChrome>.firstItem*1)
+    .outputs(<ore:dustBlackSteel>.firstItem*9)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#SolderingAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTin>.firstItem*9, <ore:dustAntimony>.firstItem*1)
+    .outputs(<ore:dustSolderingAlloy>.firstItem*10)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#SterlingSilver
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilver>.firstItem*4, <ore:dustCopper>.firstItem*1)
+    .outputs(<ore:dustSterlingSilver>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#TinAlloy
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTin>.firstItem*1, <ore:dustIron>.firstItem*1)
+    .outputs(<ore:dustTinAlloy>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#TungstenCarbide
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTungsten>.firstItem*1, <ore:dustCarbon>.firstItem*1)
+    .outputs(<ore:dustTungstenCarbide>.firstItem*2)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
