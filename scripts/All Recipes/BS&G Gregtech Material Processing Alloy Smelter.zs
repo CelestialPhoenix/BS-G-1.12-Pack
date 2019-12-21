@@ -5,8 +5,30 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#---Alloy Smelter---
 val alloysmelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
+
+#---Alloy Smelter---
+#--Removed Recipes--
+#Steel Alloying
+alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*1, <ore:blockGraphite>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*1, <ore:blockCoal>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*1, <ore:blockCoke>.firstItem*1], null).remove();
+
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*1, <ore:ingotGraphite>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*1, <ore:dustGraphite>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*1, <ore:ingotGraphite>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*1, <ore:dustGraphite>.firstItem*1], null).remove();
+
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*1, <ore:clumpfuel>.firstItem*2], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*1, <ore:clumpfuel>.firstItem*2], null).remove();
+
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*1, <ore:dustCoal>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*1, <ore:dustCoal>.firstItem*1], null).remove();
+
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*2, <ore:gemCoke>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*2, <ore:gemCoke>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:ingotIron>.firstItem*2, <ore:dustCoke>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustIron>.firstItem*2, <ore:dustCoke>.firstItem*1], null).remove();
 
 #Metal alloys
 alloysmelter
