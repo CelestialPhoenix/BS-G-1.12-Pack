@@ -12,7 +12,7 @@ val electrolyzer as RecipeMap = RecipeMap.getByName("electrolyzer");
 electrolyzer
     .recipeBuilder()
     .inputs(<ore:hullSteel>.firstItem)
-	.fluidInputs([<liquid:zinc> * 144])
+	.fluidInputs([<liquid:zinc>*144])
     .outputs(<ore:hullLV>.firstItem)
     .duration(200)
     .EUt(60)
@@ -37,11 +37,37 @@ electrolyzer
     .EUt(30)
     .buildAndRegister();
 
+#Granite Black
+//Radon output- 10 per dust
+electrolyzer.findRecipe(30, [<ore:dustGraniteBlack>.firstItem*5], null).remove();
+electrolyzer
+    .recipeBuilder()
+    .inputs(<ore:dustGraniteBlack>.firstItem*5)
+    .outputs(<ore:dustSiliconDioxide>.firstItem*4, <ore:dustBiotite>.firstItem*1)
+	.fluidOutputs([<liquid:radon>*50])
+    .duration(400)
+    .EUt(30)
+    .buildAndRegister();
+
 #Granite Pink
+//Radon output- 10 per dust
 electrolyzer
     .recipeBuilder()
     .inputs(<ore:dustGranitePink>.firstItem*15)
     .outputs(<ore:dustSiliconDioxide>.firstItem*6, <ore:dustPlagioclase>.firstItem*4, <ore:dustQuartzite>.firstItem*2, <ore:dustBiotite>.firstItem*2, <ore:dustMagnesia>.firstItem*1)
+	.fluidOutputs([<liquid:radon>*150])
+    .duration(400)
+    .EUt(30)
+    .buildAndRegister();
+
+#Granite Red
+//Radon output- 10 per dust
+electrolyzer.findRecipe(60, [<ore:dustGraniteRed>.firstItem*6], null).remove();
+electrolyzer
+    .recipeBuilder()
+    .inputs(<ore:dustGraniteRed>.firstItem*6)
+    .outputs(<ore:dustAluminium>.firstItem*2, <ore:dustPotassiumFeldspar>.firstItem*1)
+	.fluidOutputs([<liquid:oxygen>*3000, <liquid:radon>*50])
     .duration(400)
     .EUt(30)
     .buildAndRegister();

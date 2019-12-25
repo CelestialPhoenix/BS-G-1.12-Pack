@@ -10,6 +10,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:brickInfernal>.add(<contenttweaker:blastbrick>);
 
 #---Circuits---
+<ore:circuitElite>.add(<contenttweaker:corequantum>);
 
 #---Coils---
 <ore:coilSimple>.add(<contenttweaker:coilsimple>);
