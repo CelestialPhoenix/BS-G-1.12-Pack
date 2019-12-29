@@ -317,13 +317,45 @@ macerator
 
 #---Ore Byrpducts---
 /*
+#--XXXXXXX--
+macerator.findRecipe(12, [<ore:oreXXXXXXX>.firstItem], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:clusterXXXXXX>.firstItem)
-    .outputs(<ore:dustXXXXXX>.firstItem*2)
-	.chancedOutput(<ore:dustXXXXXX>.firstItem, 2000, 1000)
+    .inputs(<ore:oreXXXXXXX>.firstItem)
+    .outputs(<ore:crushedXXXXXXX>.firstItem*2)
+	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedXXXXXXX>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedXXXXXXX>.firstItem)
+    .outputs(<ore:dustImpureXXXXXXX>.firstItem)
+	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedPurifiedXXXXXXX>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedPurifiedXXXXXXX>.firstItem)
+    .outputs(<ore:dustPureXXXXXXX>.firstItem)
+	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedCentrifugedXXXXXXX>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedCentrifugedXXXXXXX>.firstItem)
+    .outputs(<ore:dustXXXXXXX>.firstItem)
+	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
 */
-#--
+
