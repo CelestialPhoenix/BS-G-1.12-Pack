@@ -7,15 +7,6 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
 
-#XXXXXX
-
-#macerator.recipeBuilder()
-#    .inputs(<minecraft:stone:1> * 1)
-#    .outputs(<minecraft:sand:1> * 1)
-#    .EUt(8)
-#    .duration(150)
-#    .buildAndRegister();
-
 #---Native Cluster---
 /*
 macerator
@@ -323,3 +314,16 @@ macerator
     .duration(400)
     .EUt(12)
     .buildAndRegister();
+
+#---Ore Byrpducts---
+/*
+macerator
+    .recipeBuilder()
+    .inputs(<ore:clusterXXXXXX>.firstItem)
+    .outputs(<ore:dustXXXXXX>.firstItem*2)
+	.chancedOutput(<ore:dustXXXXXX>.firstItem, 2000, 1000)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+*/
+#--
