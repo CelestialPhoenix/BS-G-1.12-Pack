@@ -1,9 +1,16 @@
-#Name: Blood Sweat & Gears Chisel.zs
-#Name: Blood Sweat & Gears Chisel.zs
+#Name: Blood Sweat & Gears Chisel ore dict.zs
 #Author: PhoePhoe
 
 print("A chip of the old block");
 
+#Credit to Nuzzleskatev for this little script
+for item in loadedMods["chisel"].items {
+  for ore in item.ores {
+    ore.remove(item);
+  }
+}
+
+/*
 #---Removing materials---
 #<ore:block>.remove(<chisel:block>);
 
@@ -1848,3 +1855,4 @@ print("A chip of the old block");
 
 #Treated Wood
 <ore:plankTreatedWood>.remove(<unlimitedchiselworks:chisel_planks_oak_immersiveengineering_treated_wood_0>);
+*/
