@@ -56,6 +56,14 @@ print("Trust me I'm an engineer");
 <ore:nuggetSteel>.remove(<immersiveengineering:metal:28>);
 <ore:nuggetUranium>.remove(<immersiveengineering:metal:25>);
 
+#Ores
+<ore:oreCopper>.remove(<immersiveengineering:ore:0>);
+<ore:oreAluminum>.remove(<immersiveengineering:ore:1>);
+<ore:oreLead>.remove(<immersiveengineering:ore:2>);
+<ore:oreSilver>.remove(<immersiveengineering:ore:3>);
+<ore:oreNickel>.remove(<immersiveengineering:ore:4>);
+<ore:oreUranium>.remove(<immersiveengineering:ore:5>);
+
 #rods
 <ore:stickIron>.remove(<immersiveengineering:material:1>);
 <ore:stickSteel>.remove(<immersiveengineering:material:2>);

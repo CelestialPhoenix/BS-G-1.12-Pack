@@ -136,15 +136,16 @@ print("There are no bodies buried into the foundations. You can stop looking now
 
 #Ores
 #<ore:ore>.add(<thermalfoundation:ore:>);
-<ore:oreCopper>.add(<thermalfoundation:ore:0>);
-<ore:oreTin>.add(<thermalfoundation:ore:1>);
-<ore:oreSilver>.add(<thermalfoundation:ore:2>);
-<ore:oreLead>.add(<thermalfoundation:ore:3>);
-<ore:oreAluminium>.add(<thermalfoundation:ore:4>);
-<ore:oreNickel>.add(<thermalfoundation:ore:5>);
-<ore:orePlatinum>.add(<thermalfoundation:ore:6>);
-<ore:oreIridium>.add(<thermalfoundation:ore:7>);
-<ore:oreMithril>.add(<thermalfoundation:ore:8>);
+<ore:oreCopper>.remove(<thermalfoundation:ore:0>);
+<ore:oreTin>.remove(<thermalfoundation:ore:1>);
+<ore:oreSilver>.remove(<thermalfoundation:ore:2>);
+<ore:oreLead>.remove(<thermalfoundation:ore:3>);
+<ore:oreAluminium>.remove(<thermalfoundation:ore:4>);
+<ore:oreAluminum>.remove(<thermalfoundation:ore:4>); //Eeew
+<ore:oreNickel>.remove(<thermalfoundation:ore:5>);
+<ore:orePlatinum>.remove(<thermalfoundation:ore:6>);
+<ore:oreIridium>.remove(<thermalfoundation:ore:7>);
+<ore:oreMithril>.remove(<thermalfoundation:ore:8>);
 
 <ore:oreCathrateRedstone>.add(<thermalfoundation:ore_fluid:2>);
 
