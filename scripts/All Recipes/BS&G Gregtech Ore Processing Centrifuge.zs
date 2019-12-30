@@ -1,6 +1,7 @@
 #Name: Blood Sweat & Gears Gregtech Ore Processing Centrifuge.zs
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
+import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -235,3 +236,111 @@ centrifuge
     .duration(400)
     .EUt(20)
     .buildAndRegister();
+
+#---Ore Byrpducts---
+#--Pure Ores--
+//Removes byproducts, replaces with native material
+
+#This awesome looping script was modified from FTB interactions
+var pureOres as string[] = [
+	"Aluminium",
+	"Antimony",
+	"Beryllium",
+	"Chrome",
+	"Cobalt",
+	"Coal", //Thermal cent for graphite?
+	"Copper",
+	"Gold",
+	"Iridium",
+	"Iron",
+	"Lead",
+	"Magnesium",
+	"Manganese",
+	"Neodymium",
+	"Nickel",
+	"Osmium",
+	"Platinum",
+	"Silicon",
+	"Silver",
+	"Thorium",
+	"Tin",
+	"Titanium",
+	"Tungsten",
+	"Uranium",
+	"Zinc",
+	"Diamond",
+	"Naquadah",
+	"NaquadahEnriched",
+	];
+
+for input in pureOres {
+	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
+	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var oreDustTiny as IItemStack = oreDict["dustTiny"~input].firstItem;
+
+centrifuge.findRecipe(24, [oreDustImpure], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(oreDustImpure)
+    .outputs([oreDust, oreDustTiny*3])
+    .duration(252)
+    .EUt(24)
+    .buildAndRegister();
+
+centrifuge.findRecipe(5, [oreDustPure], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(oreDustPure)
+    .outputs([oreDust, oreDustTiny*3])
+    .duration(252)
+    .EUt(5)
+    .buildAndRegister();
+}
+
+/*
+Needs byproducts
+Rutile
+Powellite
+Wulfenite
+Potassium Feldspar?
+Biotite?
+Wollastonite?
+Kaolinite?
+Bertrandite
+Electrotine
+Euclase
+Huttonite
+Coffinite
+Thorite
+Zircon
+Psudobrookite
+Sperryite
+Braggite
+Brannerite
+Hubnerite
+Wolframite
+Ferberite
+Sheldonite
+Bowieite
+Xenotime
+Gadolinite
+Fergusonite
+MonaziteNd
+Naquadite
+Naqulinite
+Naquarrite
+Xifengite
+Xilingolite
+Berryite
+Bismuthinite
+Goslarite
+Uytenbogaardite
+Xanthoconite
+SaergaarditeS
+BowieiteIr
+
+
+To Fix:
+Glassy
+*/

@@ -1,5 +1,5 @@
 #Name: Blood Sweat & Gears Gregtech Ore Processing Macerator.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, , FTB:I dev team
 
 import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
@@ -498,8 +498,8 @@ macerator
     .duration(200)
     .EUt(12)
     .buildAndRegister();
-}
 
+}
 /*
 Needs byproducts
 Rutile
