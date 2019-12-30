@@ -66,7 +66,7 @@ washer
 	.fluidInputs(<liquid:distilled_water>*1000)
     .outputs([oreCrushedPurified, oreDustTiny*3, <ore:dustStone>.firstItem])
     .duration(320)
-    .EUt(16)
+    .EUt(12)
     .buildAndRegister();
 }
 

@@ -19,7 +19,7 @@ var pureOres as string[] = [
 	"Beryllium",
 	"Chrome",
 	"Cobalt",
-	"Coal", //Thermal cent for graphite?
+	//"Coal", ->Thermal cent for graphite?
 	"Copper",
 	"Gold",
 	"Iridium",
