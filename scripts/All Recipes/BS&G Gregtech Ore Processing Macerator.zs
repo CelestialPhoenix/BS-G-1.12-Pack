@@ -1,6 +1,7 @@
 #Name: Blood Sweat & Gears Gregtech Ore Processing Macerator.zs
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
+import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -316,176 +317,232 @@ macerator
     .buildAndRegister();
 
 #---Ore Byrpducts---
-/*
-#--XXXXXXX--
-macerator.findRecipe(12, [<ore:oreNetherrackXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreEndstoneXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreSandXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBlackgraniteXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreRedgraniteXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreMarbleXXXXXXX>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBasaltXXXXXXX>.firstItem], null).remove();
+#--Pure Ores--
+//Removes byproducts, replaces with native material
 
-macerator.findRecipe(12, [<ore:oreXXXXXXX>.firstItem], null).remove();
+#This awesome looping script was modified from FTB interactions
+var pureOres as string[] = [
+	"Aluminium",
+	"Antimony",
+	"Beryllium",
+	"Chrome",
+	"Cobalt",
+	"Coal", //Thermal cent for graphite?
+	"Copper",
+	"Gold",
+	"Iridium",
+	"Iron",
+	"Lead",
+	"Magnesium",
+	"Manganese",
+	"Neodymium",
+	"Nickel",
+	"Osmium",
+	"Platinum",
+	"Silicon",
+	"Silver",
+	"Thorium",
+	"Tin",
+	"Titanium",
+	"Tungsten",
+	"Uranium",
+	"Zinc",
+	"Diamond",
+	"Naquadah",
+	"NaquadahEnriched",
+	];
+
+for input in pureOres {
+	var oreStone as IItemStack  = oreDict["ore"~input];
+	var oreStoneFirst as IItemStack = oreDict["ore"~input].firstItem;
+	var oreNetherrack as IItemStack = oreDict["oreNetherrack"~input].firstItem;
+	var oreEndstone as IItemStack = oreDict["oreEndstone"~input].firstItem;
+	var oreSand as IItemStack = oreDict["oreSand"~input].firstItem;
+	var oreBlackgranite as IItemStack = oreDict["oreBlackgranite"~input].firstItem;
+	var oreRedgranite as IItemStack = oreDict["oreRedgranite"~input].firstItem;
+	var oreMarble as IItemStack = oreDict["oreMarble"~input].firstItem;
+	var oreBasalt as IItemStack = oreDict["oreBasalt"~input].firstItem;
+	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+	var oreCrushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
+	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
+	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+
+macerator.findRecipe(12, [oreStoneFirst], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:oreXXXXXXX>)
-    .outputs(<ore:crushedXXXXXXX>.firstItem*2)
-	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
+    .inputs(oreStone)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
 	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:crushedXXXXXXX>.firstItem], null).remove();
+macerator.findRecipe(12, [oreNetherrack], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:crushedXXXXXXX>)
-    .outputs(<ore:dustImpureXXXXXXX>.firstItem)
-	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:crushedPurifiedXXXXXXX>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:crushedPurifiedXXXXXXX>)
-    .outputs(<ore:dustPureXXXXXXX>.firstItem)
-	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:crushedCentrifugedXXXXXXX>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:crushedCentrifugedXXXXXXX>)
-    .outputs(<ore:dustXXXXXXX>.firstItem)
-	.chancedOutput(<ore:dustXXXXXXX>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-*/
-#---Pure Ores---
-#Remove byproduct
-#--Aluminium--
-macerator.findRecipe(12, [<ore:oreNetherrackAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreEndstoneAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreSandAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBlackgraniteAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreRedgraniteAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreMarbleAluminium>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBasaltAluminium>.firstItem], null).remove();
-
-macerator.findRecipe(12, [<ore:oreAluminium>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreAluminium>)
-    .outputs(<ore:crushedAluminium>.firstItem*2)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .inputs(oreNetherrack)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustNetherrack>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
 
+macerator.findRecipe(12, [oreEndstone], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:oreRedgraniteAluminium>)
-    .outputs(<ore:crushedAluminium>.firstItem*2)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
+    .inputs(oreEndstone)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustEndstone>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
 
+macerator.findRecipe(12, [oreSand], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:oreBlackgraniteAluminium>)
-    .outputs(<ore:crushedAluminium>.firstItem*2)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
+    .inputs(oreSand)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustTinySiliconDioxide>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [oreBlackgranite], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(oreBlackgranite)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
 	.chancedOutput(<ore:dustGraniteBlack>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:crushedAluminium>.firstItem], null).remove();
+macerator.findRecipe(12, [oreRedgranite], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:crushedAluminium>)
-    .outputs(<ore:dustImpureAluminium>.firstItem)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:crushedPurifiedAluminium>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:crushedPurifiedAluminium>)
-    .outputs(<ore:dustPureAluminium>.firstItem)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:crushedCentrifugedAluminium>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:crushedCentrifugedAluminium>)
-    .outputs(<ore:dustAluminium>.firstItem)
-	.chancedOutput(<ore:dustAluminium>.firstItem, 1400, 850)
-    .duration(200)
-    .EUt(12)
-    .buildAndRegister();
-
-#--Antimony--
-macerator.findRecipe(12, [<ore:oreNetherrackAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreEndstoneAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreSandAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBlackgraniteAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreRedgraniteAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreMarbleAntimony>.firstItem], null).remove();
-macerator.findRecipe(12, [<ore:oreBasaltAntimony>.firstItem], null).remove();
-
-macerator.findRecipe(12, [<ore:oreAntimony>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreAntimony>)
-    .outputs(<ore:crushedAntimony>.firstItem*2)
-	.chancedOutput(<ore:dustAntimony>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .inputs(oreRedgranite)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustGraniteRed>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:crushedAntimony>.firstItem], null).remove();
+macerator.findRecipe(12, [oreMarble], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:crushedAntimony>)
-    .outputs(<ore:dustImpureAntimony>.firstItem)
-	.chancedOutput(<ore:dustAntimony>.firstItem, 1400, 850)
+    .inputs(oreMarble)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustMarble>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [oreBasalt], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(oreBasalt)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustBasalt>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [oreGravel], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(oreGravel)
+    .outputs(oreCrushed*2)
+	.chancedOutput(oreCrushed, 1400, 850)
+	.chancedOutput(<ore:dustTinyFlint>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [oreCrushed], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(oreCrushed)
+    .outputs(oreDustImpure)
+	.chancedOutput(oreDust, 1400, 850)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:crushedPurifiedAntimony>.firstItem], null).remove();
+macerator.findRecipe(12, [oreCrushedPurified], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:crushedPurifiedAntimony>)
-    .outputs(<ore:dustPureAntimony>.firstItem)
-	.chancedOutput(<ore:dustAntimony>.firstItem, 1400, 850)
+    .inputs(oreCrushedPurified)
+    .outputs(oreDustPure)
+	.chancedOutput(oreDust, 1400, 850)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:crushedCentrifugedAntimony>.firstItem], null).remove();
+macerator.findRecipe(12, [oreCrushedCentrifuged], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:crushedCentrifugedAntimony>)
-    .outputs(<ore:dustAntimony>.firstItem)
-	.chancedOutput(<ore:dustAntimony>.firstItem, 1400, 850)
+    .inputs(oreCrushedCentrifuged)
+    .outputs(oreDust)
+	.chancedOutput(oreDust, 1400, 850)
     .duration(200)
     .EUt(12)
     .buildAndRegister();
+}
+
+/*
+Needs byproducts
+Rutile
+Powellite
+Wulfenite
+Potassium Feldspar?
+Biotite?
+Wollastonite?
+Kaolinite?
+Bertrandite
+Electrotine
+Euclase
+Huttonite
+Coffinite
+Thorite
+Zircon
+Psudobrookite
+Sperryite
+Braggite
+Brannerite
+Hubnerite
+Wolframite
+Ferberite
+Sheldonite
+Bowieite
+Xenotime
+Gadolinite
+Fergusonite
+MonaziteNd
+Naquadite
+Naqulinite
+Naquarrite
+Xifengite
+Xilingolite
+Berryite
+Bismuthinite
+Goslarite
+Uytenbogaardite
+Xanthoconite
+SaergaarditeS
+BowieiteIr
 
 
+To Fix:
+Glassy
+*/
