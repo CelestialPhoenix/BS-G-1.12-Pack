@@ -503,8 +503,8 @@ macerator
 
 }
 
-#--Pure Ores--
-//Removes byproducts, replaces with native material
+#--Mineral Ores--
+//Adds byproducts instead of material bonus
 
 val mineralOre = [
 <ore:oreRutile>,
