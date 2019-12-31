@@ -1096,7 +1096,7 @@ val tertiaryByproduct = [
 <ore:dustSulphur>,
 <ore:dustIridite>,
 <ore:dustBowieite>,
-<ore:dustSulphur>] as IOreDictEntry[];
+<ore:dustSulfur>] as IOreDictEntry[];
 
 for i, item in crushedInput {
 

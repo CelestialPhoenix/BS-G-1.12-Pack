@@ -483,7 +483,7 @@ val tertiaryByproduct = [
 <ore:dustTinySulphur>,
 <ore:dustTinyIridite>,
 <ore:dustTinyBowieite>,
-<ore:dustTinySulphur>] as IOreDictEntry[];
+<ore:dustTinySulfur>] as IOreDictEntry[];
 
 for i, item in dustImpureInput {
 
