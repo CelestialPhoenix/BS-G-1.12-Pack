@@ -2,6 +2,8 @@
 #Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -70,49 +72,143 @@ washer
     .buildAndRegister();
 }
 
+#---Mineral Ores---
+
+val crushedInput = [
+<ore:crushedRutile>,
+<ore:crushedPowellite>,
+<ore:crushedWulfenite>,
+<ore:crushedBertrandite>,
+<ore:crushedElectrotine>,
+<ore:crushedEuclase>,
+<ore:crushedHuttonite>,
+<ore:crushedCoffinite>,
+<ore:crushedThorite>,
+<ore:crushedZircon>,
+<ore:crushedPsudobrookite>,
+<ore:crushedSperrylite>,
+<ore:crushedBraggite>,
+<ore:crushedBrannerite>,
+<ore:crushedHubnerite>,
+<ore:crushedWolframite>,
+<ore:crushedFerberite>,
+<ore:crushedSheldonite>,
+<ore:crushedBowieite>,
+<ore:crushedXenotime>,
+<ore:crushedGadolinite>,
+<ore:crushedFergusonite>,
+<ore:crushedMonaziteNd>,
+<ore:crushedNaquadite>,
+<ore:crushedNaqulinite>,
+<ore:crushedNaquarrite>,
+<ore:crushedXifengite>,
+<ore:crushedXilingolite>,
+<ore:crushedBerryite>,
+<ore:crushedBismuthinite>,
+<ore:crushedGoslarite>,
+<ore:crushedUytenbogaardtite>,
+<ore:crushedXanthoconite>,
+<ore:crushedSkaergaarditeS>,
+<ore:crushedBowieiteIr>] as IOreDictEntry[];
+
+val crushedPurifiedOutput = [
+<ore:crushedPurifiedRutile>,
+<ore:crushedPurifiedPowellite>,
+<ore:crushedPurifiedWulfenite>,
+<ore:crushedPurifiedBertrandite>,
+<ore:crushedPurifiedElectrotine>,
+<ore:crushedPurifiedEuclase>,
+<ore:crushedPurifiedHuttonite>,
+<ore:crushedPurifiedCoffinite>,
+<ore:crushedPurifiedThorite>,
+<ore:crushedPurifiedZircon>,
+<ore:crushedPurifiedPsudobrookite>,
+<ore:crushedPurifiedSperrylite>,
+<ore:crushedPurifiedBraggite>,
+<ore:crushedPurifiedBrannerite>,
+<ore:crushedPurifiedHubnerite>,
+<ore:crushedPurifiedWolframite>,
+<ore:crushedPurifiedFerberite>,
+<ore:crushedPurifiedSheldonite>,
+<ore:crushedPurifiedBowieite>,
+<ore:crushedPurifiedXenotime>,
+<ore:crushedPurifiedGadolinite>,
+<ore:crushedPurifiedFergusonite>,
+<ore:crushedPurifiedMonaziteNd>,
+<ore:crushedPurifiedNaquadite>,
+<ore:crushedPurifiedNaqulinite>,
+<ore:crushedPurifiedNaquarrite>,
+<ore:crushedPurifiedXifengite>,
+<ore:crushedPurifiedXilingolite>,
+<ore:crushedPurifiedBerryite>,
+<ore:crushedPurifiedBismuthinite>,
+<ore:crushedPurifiedGoslarite>,
+<ore:crushedPurifiedUytenbogaardtite>,
+<ore:crushedPurifiedXanthoconite>,
+<ore:crushedPurifiedSkaergaarditeS>,
+<ore:crushedPurifiedBowieiteIr>] as IOreDictEntry[];
+
+val primaryByproduct = [
+<ore:dustTinyBauxite>,
+<ore:dustTinyMolybdenite>,
+<ore:dustTinyMolybdenite>,
+<ore:dustTinyEmerald>,
+<ore:dustTinySapphire>,
+<ore:dustTinyEmerald>,
+<ore:dustTinyThorite>,
+<ore:dustTinyHuttonite>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyBaddeleyite>,
+<ore:dustTinyRutile>,
+<ore:dustTinyPalladium>,
+<ore:dustTinySheldite>,
+<ore:dustTinyRutile>,
+<ore:dustTinyIron>,
+<ore:dustTinyLithium>,
+<ore:dustTinyManganese>,
+<ore:dustTinySheldite>,
+<ore:dustTinyIridite>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyIron>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyDidymium>,
+<ore:dustTinyNaquoxiite>,
+<ore:dustTinyIron>,
+<ore:dustTinyNickel>,
+<ore:dustTinyNaquothxa>,
+<ore:dustTinyNaquarrite>,
+<ore:dustTinySilver>,
+<ore:dustTinyLead>,
+<ore:dustTinyUvarovite>,
+<ore:dustTinySkaergaarditeS>,
+<ore:dustTinySheldite>,
+<ore:dustTinyUytenbogaardtite>,
+<ore:dustTinyOsmiite>] as IOreDictEntry[];
+
+for i, item in crushedInput {
+
+washer.findRecipe(16, [item.firstItem], [<liquid:water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(crushedInput[i])
+	.fluidInputs(<liquid:water>*1000)
+    .outputs([crushedPurifiedOutput[i].firstItem, primaryByproduct[i].firstItem*3, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(16)
+    .buildAndRegister();
+
+washer.findRecipe(16, [item.firstItem], [<liquid:distilled_water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(crushedInput[i])
+	.fluidInputs(<liquid:distilled_water>*1000)
+    .outputs([crushedPurifiedOutput[i].firstItem, primaryByproduct[i].firstItem*3, <ore:dustStone>.firstItem])
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+}
+
 /*
-Needs byproducts
-Rutile
-Powellite
-Wulfenite
-Potassium Feldspar?
-Biotite?
-Wollastonite?
-Kaolinite?
-Bertrandite
-Electrotine
-Euclase
-Huttonite
-Coffinite
-Thorite
-Zircon
-Psudobrookite
-Sperryite
-Braggite
-Brannerite
-Hubnerite
-Wolframite
-Ferberite
-Sheldonite
-Bowieite
-Xenotime
-Gadolinite
-Fergusonite
-MonaziteNd
-Naquadite
-Naqulinite
-Naquarrite
-Xifengite
-Xilingolite
-Berryite
-Bismuthinite
-Goslarite
-Uytenbogaardite
-Xanthoconite
-SaergaarditeS
-BowieiteIr
-
-
 To Fix:
 Glassy
 */
