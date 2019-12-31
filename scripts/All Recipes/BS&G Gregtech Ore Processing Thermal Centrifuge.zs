@@ -2,7 +2,10 @@
 #Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
+
 
 print("Hello Boys- I'm Baaaaack!!!");
 
@@ -70,49 +73,192 @@ thermalCentrifuge
 
 }
 
+val crushedInput = [
+<ore:crushedRutile>,
+<ore:crushedPowellite>,
+<ore:crushedWulfenite>,
+<ore:crushedBertrandite>,
+<ore:crushedElectrotine>,
+<ore:crushedEuclase>,
+<ore:crushedHuttonite>,
+<ore:crushedCoffinite>,
+<ore:crushedThorite>,
+<ore:crushedZircon>,
+<ore:crushedPsudobrookite>,
+<ore:crushedSperrylite>,
+<ore:crushedBraggite>,
+<ore:crushedBrannerite>,
+<ore:crushedHubnerite>,
+<ore:crushedWolframite>,
+<ore:crushedFerberite>,
+<ore:crushedSheldonite>,
+<ore:crushedBowieite>,
+<ore:crushedXenotime>,
+<ore:crushedGadolinite>,
+<ore:crushedFergusonite>,
+<ore:crushedMonaziteNd>,
+<ore:crushedNaquadite>,
+<ore:crushedNaqulinite>,
+<ore:crushedNaquarrite>,
+<ore:crushedXifengite>,
+<ore:crushedXilingolite>,
+<ore:crushedBerryite>,
+<ore:crushedBismuthinite>,
+<ore:crushedGoslarite>,
+<ore:crushedUytenbogaardtite>,
+<ore:crushedXanthoconite>,
+<ore:crushedSkaergaarditeS>,
+<ore:crushedBowieiteIr>] as IOreDictEntry[];
+
+val crushedPurifiedInput = [
+<ore:crushedPurifiedRutile>,
+<ore:crushedPurifiedPowellite>,
+<ore:crushedPurifiedWulfenite>,
+<ore:crushedPurifiedBertrandite>,
+<ore:crushedPurifiedElectrotine>,
+<ore:crushedPurifiedEuclase>,
+<ore:crushedPurifiedHuttonite>,
+<ore:crushedPurifiedCoffinite>,
+<ore:crushedPurifiedThorite>,
+<ore:crushedPurifiedZircon>,
+<ore:crushedPurifiedPsudobrookite>,
+<ore:crushedPurifiedSperrylite>,
+<ore:crushedPurifiedBraggite>,
+<ore:crushedPurifiedBrannerite>,
+<ore:crushedPurifiedHubnerite>,
+<ore:crushedPurifiedWolframite>,
+<ore:crushedPurifiedFerberite>,
+<ore:crushedPurifiedSheldonite>,
+<ore:crushedPurifiedBowieite>,
+<ore:crushedPurifiedXenotime>,
+<ore:crushedPurifiedGadolinite>,
+<ore:crushedPurifiedFergusonite>,
+<ore:crushedPurifiedMonaziteNd>,
+<ore:crushedPurifiedNaquadite>,
+<ore:crushedPurifiedNaqulinite>,
+<ore:crushedPurifiedNaquarrite>,
+<ore:crushedPurifiedXifengite>,
+<ore:crushedPurifiedXilingolite>,
+<ore:crushedPurifiedBerryite>,
+<ore:crushedPurifiedBismuthinite>,
+<ore:crushedPurifiedGoslarite>,
+<ore:crushedPurifiedUytenbogaardtite>,
+<ore:crushedPurifiedXanthoconite>,
+<ore:crushedPurifiedSkaergaarditeS>,
+<ore:crushedPurifiedBowieiteIr>] as IOreDictEntry[];
+
+val crushedCentrifugedOutput = [
+<ore:crushedCentrifugedRutile>,
+<ore:crushedCentrifugedPowellite>,
+<ore:crushedCentrifugedWulfenite>,
+<ore:crushedCentrifugedBertrandite>,
+<ore:crushedCentrifugedElectrotine>,
+<ore:crushedCentrifugedEuclase>,
+<ore:crushedCentrifugedHuttonite>,
+<ore:crushedCentrifugedCoffinite>,
+<ore:crushedCentrifugedThorite>,
+<ore:crushedCentrifugedZircon>,
+<ore:crushedCentrifugedPsudobrookite>,
+<ore:crushedCentrifugedSperrylite>,
+<ore:crushedCentrifugedBraggite>,
+<ore:crushedCentrifugedBrannerite>,
+<ore:crushedCentrifugedHubnerite>,
+<ore:crushedCentrifugedWolframite>,
+<ore:crushedCentrifugedFerberite>,
+<ore:crushedCentrifugedSheldonite>,
+<ore:crushedCentrifugedBowieite>,
+<ore:crushedCentrifugedXenotime>,
+<ore:crushedCentrifugedGadolinite>,
+<ore:crushedCentrifugedFergusonite>,
+<ore:crushedCentrifugedMonaziteNd>,
+<ore:crushedCentrifugedNaquadite>,
+<ore:crushedCentrifugedNaqulinite>,
+<ore:crushedCentrifugedNaquarrite>,
+<ore:crushedCentrifugedXifengite>,
+<ore:crushedCentrifugedXilingolite>,
+<ore:crushedCentrifugedBerryite>,
+<ore:crushedCentrifugedBismuthinite>,
+<ore:crushedCentrifugedGoslarite>,
+<ore:crushedCentrifugedUytenbogaardtite>,
+<ore:crushedCentrifugedXanthoconite>,
+<ore:crushedCentrifugedSkaergaarditeS>,
+<ore:crushedCentrifugedBowieiteIr>] as IOreDictEntry[];
+
+val primaryByproduct = [
+<ore:dustTinyBauxite>,
+<ore:dustTinyMolybdenite>,
+<ore:dustTinyMolybdenite>,
+<ore:dustTinyEmerald>,
+<ore:dustTinySapphire>,
+<ore:dustTinyEmerald>,
+<ore:dustTinyThorite>,
+<ore:dustTinyHuttonite>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyBaddeleyite>,
+<ore:dustTinyRutile>,
+<ore:dustTinyPalladium>,
+<ore:dustTinySheldite>,
+<ore:dustTinyRutile>,
+<ore:dustTinyIron>,
+<ore:dustTinyLithium>,
+<ore:dustTinyManganese>,
+<ore:dustTinySheldite>,
+<ore:dustTinyIridite>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyIron>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyDidymium>,
+<ore:dustTinyNaquoxiite>,
+<ore:dustTinyIron>,
+<ore:dustTinyNickel>,
+<ore:dustTinyNaquothxa>,
+<ore:dustTinyNaquarrite>,
+<ore:dustTinySilver>,
+<ore:dustTinyLead>,
+<ore:dustTinyUvarovite>,
+<ore:dustTinySkaergaarditeS>,
+<ore:dustTinySheldite>,
+<ore:dustTinyUytenbogaardtite>,
+<ore:dustTinyOsmiite>] as IOreDictEntry[];
+
+val secondaryByproduct = [
+<ore:dustTinyPsudobrookite>,
+<ore:dustTinyCalcite>,
+<ore:dustTinyLead>,
+<ore:dustTinyEuclase>,
+<ore:dustTinyCinnabar>,
+<ore:dustTinyBertrandite>,
+<ore:dustTinyLead>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyCoffinite>,
+<ore:dustTinyZircon>,
+<ore:dustTinyBauxite>,
+<ore:dustTinyArsenic>,
+<ore:dustTinyPallas>,
+<ore:dustTinyLead>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyNickel>,
+<ore:dustTinyPlatinum>,
+<ore:dustTinyPhosphate>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyNeodymium>,
+<ore:dustTinyPhosphate>,
+<ore:dustTinySiliconDioxide>,
+<ore:dustTinyNaquadite>,
+<ore:dustTinyNaquothxa>,
+<ore:dustTinyIron>,
+<ore:dustTinyNaqulinite>,
+<ore:dustTinyLead>,
+<ore:dustTinySilver>,
+<ore:dustTinyCadmite>,
+<ore:dustTinySheldite>,
+<ore:dustTinyPlatinum>,
+<ore:dustTinyPallas>,
+<ore:dustTinyPlatinum>] as IOreDictEntry[];
+
 /*
-Needs byproducts
-Rutile
-Powellite
-Wulfenite
-Potassium Feldspar?
-Biotite?
-Wollastonite?
-Kaolinite?
-Bertrandite
-Electrotine
-Euclase
-Huttonite
-Coffinite
-Thorite
-Zircon
-Psudobrookite
-Sperryite
-Braggite
-Brannerite
-Hubnerite
-Wolframite
-Ferberite
-Sheldonite
-Bowieite
-Xenotime
-Gadolinite
-Fergusonite
-MonaziteNd
-Naquadite
-Naqulinite
-Naquarrite
-Xifengite
-Xilingolite
-Berryite
-Bismuthinite
-Goslarite
-Uytenbogaardite
-Xanthoconite
-SaergaarditeS
-BowieiteIr
-
-
 To Fix:
 Glassy
 */
