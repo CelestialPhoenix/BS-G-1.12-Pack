@@ -2,6 +2,8 @@
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -298,48 +300,216 @@ centrifuge
     .buildAndRegister();
 }
 
-/*
-Needs byproducts
-Rutile
-Powellite
-Wulfenite
-Potassium Feldspar?
-Biotite?
-Wollastonite?
-Kaolinite?
-Bertrandite
-Electrotine
-Euclase
-Huttonite
-Coffinite
-Thorite
-Zircon
-Psudobrookite
-Sperryite
-Braggite
-Brannerite
-Hubnerite
-Wolframite
-Ferberite
-Sheldonite
-Bowieite
-Xenotime
-Gadolinite
-Fergusonite
-MonaziteNd
-Naquadite
-Naqulinite
-Naquarrite
-Xifengite
-Xilingolite
-Berryite
-Bismuthinite
-Goslarite
-Uytenbogaardite
-Xanthoconite
-SaergaarditeS
-BowieiteIr
+val dustImpureInput = [
+<ore:dustImpureRutile>,
+<ore:dustImpurePowellite>,
+<ore:dustImpureWulfenite>,
+<ore:dustImpureBertrandite>,
+<ore:dustImpureElectrotine>,
+<ore:dustImpureEuclase>,
+<ore:dustImpureHuttonite>,
+<ore:dustImpureCoffinite>,
+<ore:dustImpureThorite>,
+<ore:dustImpureZircon>,
+<ore:dustImpurePsudobrookite>,
+<ore:dustImpureSperrylite>,
+<ore:dustImpureBraggite>,
+<ore:dustImpureBrannerite>,
+<ore:dustImpureHubnerite>,
+<ore:dustImpureWolframite>,
+<ore:dustImpureFerberite>,
+<ore:dustImpureSheldonite>,
+<ore:dustImpureBowieite>,
+<ore:dustImpureXenotime>,
+<ore:dustImpureGadolinite>,
+<ore:dustImpureFergusonite>,
+<ore:dustImpureMonaziteNd>,
+<ore:dustImpureNaquadite>,
+<ore:dustImpureNaqulinite>,
+<ore:dustImpureNaquarrite>,
+<ore:dustImpureXifengite>,
+<ore:dustImpureXilingolite>,
+<ore:dustImpureBerryite>,
+<ore:dustImpureBismuthinite>,
+<ore:dustImpureGoslarite>,
+<ore:dustImpureUytenbogaardtite>,
+<ore:dustImpureXanthoconite>,
+<ore:dustImpureSkaergaarditeS>,
+<ore:dustImpureBowieiteIr>] as IOreDictEntry[];
 
+val dustPureInput = [
+<ore:dustPureRutile>,
+<ore:dustPurePowellite>,
+<ore:dustPureWulfenite>,
+<ore:dustPureBertrandite>,
+<ore:dustPureElectrotine>,
+<ore:dustPureEuclase>,
+<ore:dustPureHuttonite>,
+<ore:dustPureCoffinite>,
+<ore:dustPureThorite>,
+<ore:dustPureZircon>,
+<ore:dustPurePsudobrookite>,
+<ore:dustPureSperrylite>,
+<ore:dustPureBraggite>,
+<ore:dustPureBrannerite>,
+<ore:dustPureHubnerite>,
+<ore:dustPureWolframite>,
+<ore:dustPureFerberite>,
+<ore:dustPureSheldonite>,
+<ore:dustPureBowieite>,
+<ore:dustPureXenotime>,
+<ore:dustPureGadolinite>,
+<ore:dustPureFergusonite>,
+<ore:dustPureMonaziteNd>,
+<ore:dustPureNaquadite>,
+<ore:dustPureNaqulinite>,
+<ore:dustPureNaquarrite>,
+<ore:dustPureXifengite>,
+<ore:dustPureXilingolite>,
+<ore:dustPureBerryite>,
+<ore:dustPureBismuthinite>,
+<ore:dustPureGoslarite>,
+<ore:dustPureUytenbogaardtite>,
+<ore:dustPureXanthoconite>,
+<ore:dustPureSkaergaarditeS>,
+<ore:dustPureBowieiteIr>] as IOreDictEntry[];
+
+val dustOutput = [
+<ore:dustRutile>,
+<ore:dustPowellite>,
+<ore:dustWulfenite>,
+<ore:dustBertrandite>,
+<ore:dustElectrotine>,
+<ore:dustEuclase>,
+<ore:dustHuttonite>,
+<ore:dustCoffinite>,
+<ore:dustThorite>,
+<ore:dustZircon>,
+<ore:dustPsudobrookite>,
+<ore:dustSperrylite>,
+<ore:dustBraggite>,
+<ore:dustBrannerite>,
+<ore:dustHubnerite>,
+<ore:dustWolframite>,
+<ore:dustFerberite>,
+<ore:dustSheldonite>,
+<ore:dustBowieite>,
+<ore:dustXenotime>,
+<ore:dustGadolinite>,
+<ore:dustFergusonite>,
+<ore:dustMonaziteNd>,
+<ore:dustNaquadite>,
+<ore:dustNaqulinite>,
+<ore:dustNaquarrite>,
+<ore:dustXifengite>,
+<ore:dustXilingolite>,
+<ore:dustBerryite>,
+<ore:dustBismuthinite>,
+<ore:dustGoslarite>,
+<ore:dustUytenbogaardtite>,
+<ore:dustXanthoconite>,
+<ore:dustSkaergaarditeS>,
+<ore:dustBowieiteIr>] as IOreDictEntry[];
+
+val secondaryByproduct = [
+<ore:dustTinyPsudobrookite>,
+<ore:dustTinyCalcite>,
+<ore:dustTinyLead>,
+<ore:dustTinyEuclase>,
+<ore:dustTinyCinnabar>,
+<ore:dustTinyBertrandite>,
+<ore:dustTinyLead>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyCoffinite>,
+<ore:dustTinyZircon>,
+<ore:dustTinyBauxite>,
+<ore:dustTinyArsenic>,
+<ore:dustTinyPallas>,
+<ore:dustTinyLead>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyTungstate>,
+<ore:dustTinyNickel>,
+<ore:dustTinyPlatinum>,
+<ore:dustTinyPhosphate>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyNeodymium>,
+<ore:dustTinyPhosphate>,
+<ore:dustTinySiliconDioxide>,
+<ore:dustTinyNaquadite>,
+<ore:dustTinyNaquothxa>,
+<ore:dustTinyIron>,
+<ore:dustTinyNaqulinite>,
+<ore:dustTinyLead>,
+<ore:dustTinySilver>,
+<ore:dustTinyCadmite>,
+<ore:dustTinySheldite>,
+<ore:dustTinyPlatinum>,
+<ore:dustTinyPallas>,
+<ore:dustTinyPlatinum>] as IOreDictEntry[];
+
+val tertiaryByproduct = [
+<ore:dustTinyAluminium>,
+<ore:dustTinyMolybdenum>,
+<ore:dustTinyMolybdenum>,
+<ore:dustTinyEmerald>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyBeryllium>,
+<ore:dustTinyCoffinite>,
+<ore:dustTinyLead>,
+<ore:dustTinyHuttonite>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyRutile>,
+<ore:dustTinyPlatinum>,
+<ore:dustTinyGarnierite>,
+<ore:dustTinyUraninite>,
+<ore:dustTinyManganese>,
+<ore:dustTinyLithium>,
+<ore:dustTinyManganese>,
+<ore:dustTinyIridite>,
+<ore:dustTinySulphur>,
+<ore:dustTinyYttrium>,
+<ore:dustTinyBeryllium>,
+<ore:dustTinyNiobium>,
+<ore:dustTinyRareEarth>,
+<ore:dustTinyNaquoxiite>,
+<ore:dustTinySulphur>,
+<ore:dustTinyCobalt>,
+<ore:dustTinyNaquadite>,
+<ore:dustTinyBismuth>,
+<ore:dustTinyCopper>,
+<ore:dustTinyTin>,
+<ore:dustTinyGallium>,
+<ore:dustTinySulphur>,
+<ore:dustTinyIridite>,
+<ore:dustTinyBowieite>,
+<ore:dustTinySulphur>] as IOreDictEntry[];
+
+for i, item in dustImpureInput {
+
+centrifuge.findRecipe(24, [item.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(dustImpureInput[i])
+    .outputs([dustOutput[i].firstItem, tertiaryByproduct[i].firstItem*3])
+    .duration(252)
+    .EUt(24)
+    .buildAndRegister();
+}
+
+for i, item in dustPureInput {
+
+centrifuge.findRecipe(5, [item.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(dustPureInput[i])
+    .outputs([dustOutput[i].firstItem, secondaryByproduct[i].firstItem*3])
+    .duration(252)
+    .EUt(5)
+    .buildAndRegister();
+}
+
+/*
 
 To Fix:
 Glassy

@@ -258,6 +258,30 @@ val secondaryByproduct = [
 <ore:dustTinyPallas>,
 <ore:dustTinyPlatinum>] as IOreDictEntry[];
 
+for i, item in crushedInput {
+
+thermalCentrifuge.findRecipe(60, [item.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(crushedInput[i])
+    .outputs([crushedCentrifugedOutput[i].firstItem, primaryByproduct[i].firstItem*3])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+}
+
+for i, item in crushedPurifiedInput {
+
+thermalCentrifuge.findRecipe(60, [item.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(crushedPurifiedInput[i])
+    .outputs([crushedCentrifugedOutput[i].firstItem, secondaryByproduct[i].firstItem*3])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+}
+
 /*
 To Fix:
 Glassy
