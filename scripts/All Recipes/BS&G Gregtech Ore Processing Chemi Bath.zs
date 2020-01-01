@@ -17,7 +17,6 @@ val chemiBath as RecipeMap = RecipeMap.getByName("chemical_bath");
 chemiBath.findRecipe(8, [<ore:crushedCobalt>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 chemiBath.findRecipe(8, [<ore:crushedCobaltite>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 chemiBath.findRecipe(8, [<ore:crushedZinc>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
-chemiBath.findRecipe(8, [<ore:crushedBraggite>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 chemiBath.findRecipe(8, [<ore:crushedGoslarite>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 
 #Cobalt
