@@ -17,7 +17,6 @@ val chemiBath as RecipeMap = RecipeMap.getByName("chemical_bath");
 chemiBath.findRecipe(8, [<ore:crushedCobalt>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 chemiBath.findRecipe(8, [<ore:crushedCobaltite>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 chemiBath.findRecipe(8, [<ore:crushedZinc>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
-chemiBath.findRecipe(8, [<ore:crushedGoslarite>.firstItem], [<liquid:sodium_persulfate>*1000]).remove();
 
 #Cobalt
 #This awesome looping script was modified from FTB interactions
@@ -198,7 +197,7 @@ chemiBath
 
 #Osmium
 var osmiumOre as string[] = [
-	"BowieiteIR",
+	"BowieiteIr",
 	"Osmium"
 	];
 
@@ -220,7 +219,7 @@ chemiBath
 #Palladium
 var palladiumOre as string[] = [
 	"Palladium",
-	"Skaergaardtite"
+	"SkaergaarditeS"
 	];
 
 for input in palladiumOre {
@@ -292,3 +291,14 @@ chemiBath
 #Neodymium
 #Nickel
 #Redstone
+
+#---Poison Fluid---
+#Magic fluid attracks toxic(/radioactive) materials
+
+#Arsenic
+#Dreadium
+#Lead
+#Mercury
+#Naquadah
+#Uranium
+
