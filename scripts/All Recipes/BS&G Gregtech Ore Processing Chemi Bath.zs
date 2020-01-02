@@ -76,6 +76,7 @@ var ironOre as string[] = [
 	"Chromite",
 	"Ferberite",
 	"Hubnerite",
+	"Malachite",
 	"Wolframite"
 	];
 
@@ -264,7 +265,8 @@ var silverOre as string[] = [
 	"Silver",
 	"Lead",
 	"Galena",
-	"Xanthoconite"
+	"Xanthoconite",
+	"Berryite"
 	];
 
 for input in silverOre {
