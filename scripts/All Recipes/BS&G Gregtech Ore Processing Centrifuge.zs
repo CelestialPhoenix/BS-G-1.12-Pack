@@ -509,8 +509,23 @@ centrifuge
     .buildAndRegister();
 }
 
-/*
+#---Fix---
+centrifuge.findRecipe(24, [<ore:dustImpureGlassy>.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustImpureGlassy>)
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustGlass>.firstItem*3])
+    .duration(252)
+    .EUt(24)
+    .buildAndRegister();
 
-To Fix:
-Glassy
-*/
+centrifuge.findRecipe(5, [<ore:dustPureGlassy>.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustPureGlassy>)
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustGlass>.firstItem*3])
+    .duration(252)
+    .EUt(5)
+    .buildAndRegister();
+
+

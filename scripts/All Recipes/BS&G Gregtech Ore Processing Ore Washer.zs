@@ -208,7 +208,65 @@ washer
     .buildAndRegister();
 }
 
-/*
-To Fix:
-Glassy
-*/
+#---Fixes---
+washer.findRecipe(16, [<ore:crushedGlassy>.firstItem], [<liquid:water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>)
+	.fluidInputs(<liquid:water>*1000)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustGlass>.firstItem*3, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(16)
+    .buildAndRegister();
+
+washer.findRecipe(16, [<ore:crushedGlassy>.firstItem], [<liquid:distilled_water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>)
+	.fluidInputs(<liquid:distilled_water>*1000)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustGlass>.firstItem*3, <ore:dustStone>.firstItem])
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Tweak distilled recipe set---
+
+#This awesome looping script was modified from FTB interactions
+var unchangedOres as string[] = [
+	"BlueTopaz",
+	"Tanzanite",
+	"Monazite",
+	"Salt"
+	];
+
+val unchangedByproduct = [
+<ore:dustTinyTopaz>,
+<ore:dustTinyOpal>,
+<ore:dustTinyThorium>,
+<ore:dustTinyRockSalt>] as IOreDictEntry[];
+
+for i, input in unchangedOres {
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+
+washer.findRecipe(16, [oreCrushed], [<liquid:water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:water>*1000)
+    .outputs([oreCrushedPurified, unchangedByproduct[i].firstItem*3, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(16)
+    .buildAndRegister();
+
+washer.findRecipe(16, [oreCrushed], [<liquid:distilled_water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:distilled_water>*1000)
+    .outputs([oreCrushedPurified, unchangedByproduct[i].firstItem*3, <ore:dustStone>.firstItem])
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+}
+

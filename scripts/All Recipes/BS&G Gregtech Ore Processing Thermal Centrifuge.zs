@@ -282,7 +282,23 @@ thermalCentrifuge
     .buildAndRegister();
 }
 
-/*
-To Fix:
-Glassy
-*/
+#---Fixes---
+thermalCentrifuge.findRecipe(60, [<ore:crushedGlassy>.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>)
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustGlass>.firstItem*3])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+
+thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedGlassy>.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(<ore:crushedPurifiedGlassy>)
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustGlass>.firstItem*3])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+
+

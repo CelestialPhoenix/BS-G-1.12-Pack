@@ -302,7 +302,10 @@ val mineralOre = [
 <ore:oreUytenbogaardtite>,
 <ore:oreXanthoconite>,
 <ore:oreSkaergaarditeS>,
-<ore:oreBowieiteIr>] as IOreDictEntry[];
+<ore:oreBowieiteIr>,
+<ore:oreQuartzite>,
+<ore:oreNetherQuartz>,
+<ore:oreCertusQuartz>] as IOreDictEntry[];
 
 val crushedOutput = [
 <ore:crushedRutile>,
@@ -339,7 +342,10 @@ val crushedOutput = [
 <ore:crushedUytenbogaardtite>,
 <ore:crushedXanthoconite>,
 <ore:crushedSkaergaarditeS>,
-<ore:crushedBowieiteIr>] as IOreDictEntry[];
+<ore:crushedBowieiteIr>,
+<ore:crushedQuartzite>,
+<ore:crushedNetherQuartz>,
+<ore:crushedCertusQuartz>] as IOreDictEntry[];
 
 val primaryByproduct = [
 <ore:dustBauxite>,
@@ -376,7 +382,10 @@ val primaryByproduct = [
 <ore:dustSkaergaarditeS>,
 <ore:dustSheldite>,
 <ore:dustUytenbogaardtite>,
-<ore:dustOsmiite>] as IOreDictEntry[];
+<ore:dustOsmiite>,
+<ore:dustGold>,
+<ore:dustGold>,
+<ore:dustGold>] as IOreDictEntry[];
 
 for i, item in mineralOre {
 
@@ -427,7 +436,10 @@ val mineralOreNetherrack = [
 <ore:oreNetherrackUytenbogaardtite>,
 <ore:oreNetherrackXanthoconite>,
 <ore:oreNetherrackSkaergaarditeS>,
-<ore:oreNetherrackBowieiteIr>] as IOreDictEntry[];
+<ore:oreNetherrackBowieiteIr>,
+<ore:oreNetherrackQuartzite>,
+<ore:oreNetherrackNetherQuartz>,
+<ore:oreNetherrackCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreNetherrack {
 
@@ -478,7 +490,10 @@ val mineralOreEndstone = [
 <ore:oreEndstoneUytenbogaardtite>,
 <ore:oreEndstoneXanthoconite>,
 <ore:oreEndstoneSkaergaarditeS>,
-<ore:oreEndstoneBowieiteIr>] as IOreDictEntry[];
+<ore:oreEndstoneBowieiteIr>,
+<ore:oreEndstoneQuartzite>,
+<ore:oreEndstoneNetherQuartz>,
+<ore:oreEndstoneCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreEndstone {
 
@@ -529,7 +544,10 @@ val mineralOreSand = [
 <ore:oreSandUytenbogaardtite>,
 <ore:oreSandXanthoconite>,
 <ore:oreSandSkaergaarditeS>,
-<ore:oreSandBowieiteIr>] as IOreDictEntry[];
+<ore:oreSandBowieiteIr>,
+<ore:oreSandQuartzite>,
+<ore:oreSandNetherQuartz>,
+<ore:oreSandCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreSand {
 
@@ -580,7 +598,10 @@ val mineralOreBlackgranite = [
 <ore:oreBlackgraniteUytenbogaardtite>,
 <ore:oreBlackgraniteXanthoconite>,
 <ore:oreBlackgraniteSkaergaarditeS>,
-<ore:oreBlackgraniteBowieiteIr>] as IOreDictEntry[];
+<ore:oreBlackgraniteBowieiteIr>,
+<ore:oreBlackgraniteQuartzite>,
+<ore:oreBlackgraniteNetherQuartz>,
+<ore:oreBlackgraniteCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreBlackgranite {
 
@@ -631,7 +652,10 @@ val mineralOreRedgranite = [
 <ore:oreRedgraniteUytenbogaardtite>,
 <ore:oreRedgraniteXanthoconite>,
 <ore:oreRedgraniteSkaergaarditeS>,
-<ore:oreRedgraniteBowieiteIr>] as IOreDictEntry[];
+<ore:oreRedgraniteBowieiteIr>,
+<ore:oreRedgraniteQuartzite>,
+<ore:oreRedgraniteNetherQuartz>,
+<ore:oreRedgraniteCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreRedgranite {
 
@@ -682,7 +706,10 @@ val mineralOreMarble = [
 <ore:oreMarbleUytenbogaardtite>,
 <ore:oreMarbleXanthoconite>,
 <ore:oreMarbleSkaergaarditeS>,
-<ore:oreMarbleBowieiteIr>] as IOreDictEntry[];
+<ore:oreMarbleBowieiteIr>,
+<ore:oreMarbleQuartzite>,
+<ore:oreMarbleNetherQuartz>,
+<ore:oreMarbleCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreMarble {
 
@@ -733,7 +760,10 @@ val mineralOreBasalt = [
 <ore:oreBasaltUytenbogaardtite>,
 <ore:oreBasaltXanthoconite>,
 <ore:oreBasaltSkaergaarditeS>,
-<ore:oreBasaltBowieiteIr>] as IOreDictEntry[];
+<ore:oreBasaltBowieiteIr>,
+<ore:oreBasaltQuartzite>,
+<ore:oreBasaltNetherQuartz>,
+<ore:oreBasaltCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreBasalt {
 
@@ -784,7 +814,10 @@ val mineralOreGravel = [
 <ore:oreGravelUytenbogaardtite>,
 <ore:oreGravelXanthoconite>,
 <ore:oreGravelSkaergaarditeS>,
-<ore:oreGravelBowieiteIr>] as IOreDictEntry[];
+<ore:oreGravelBowieiteIr>,
+<ore:oreGravelQuartzite>,
+<ore:oreGravelNetherQuartz>,
+<ore:oreGravelCertusQuartz>] as IOreDictEntry[];
 
 for i, item in mineralOreGravel {
 
@@ -837,7 +870,10 @@ val crushedInput = [
 <ore:crushedUytenbogaardtite>,
 <ore:crushedXanthoconite>,
 <ore:crushedSkaergaarditeS>,
-<ore:crushedBowieiteIr>] as IOreDictEntry[];
+<ore:crushedBowieiteIr>,
+<ore:crushedQuartzite>,
+<ore:crushedCertusQuartz>,
+<ore:crushedNetherQuartz>] as IOreDictEntry[];
 
 val dustImpureOutput = [
 <ore:dustImpureRutile>,
@@ -874,7 +910,10 @@ val dustImpureOutput = [
 <ore:dustImpureUytenbogaardtite>,
 <ore:dustImpureXanthoconite>,
 <ore:dustImpureSkaergaarditeS>,
-<ore:dustImpureBowieiteIr>] as IOreDictEntry[];
+<ore:dustImpureBowieiteIr>,
+<ore:dustImpureQuartzite>,
+<ore:dustImpureCertusQuartz>,
+<ore:dustImpureNetherQuartz>] as IOreDictEntry[];
 
 val crushedPurifiedInput = [
 <ore:crushedPurifiedRutile>,
@@ -911,7 +950,10 @@ val crushedPurifiedInput = [
 <ore:crushedPurifiedUytenbogaardtite>,
 <ore:crushedPurifiedXanthoconite>,
 <ore:crushedPurifiedSkaergaarditeS>,
-<ore:crushedPurifiedBowieiteIr>] as IOreDictEntry[];
+<ore:crushedPurifiedBowieiteIr>,
+<ore:crushedQuartzite>,
+<ore:crushedCertusQuartz>,
+<ore:crushedNetherQuartz>] as IOreDictEntry[];
 
 val dustPureOutput = [
 <ore:dustPureRutile>,
@@ -948,7 +990,10 @@ val dustPureOutput = [
 <ore:dustPureUytenbogaardtite>,
 <ore:dustPureXanthoconite>,
 <ore:dustPureSkaergaarditeS>,
-<ore:dustPureBowieiteIr>] as IOreDictEntry[];
+<ore:dustPureBowieiteIr>,
+<ore:dustPureQuartzite>,
+<ore:dustPureNetherQuartz>,
+<ore:dustPureCertusQuartz>] as IOreDictEntry[];
 
 val crushedCentrifugedInput = [
 <ore:crushedCentrifugedRutile>,
@@ -985,7 +1030,10 @@ val crushedCentrifugedInput = [
 <ore:crushedCentrifugedUytenbogaardtite>,
 <ore:crushedCentrifugedXanthoconite>,
 <ore:crushedCentrifugedSkaergaarditeS>,
-<ore:crushedCentrifugedBowieiteIr>] as IOreDictEntry[];
+<ore:crushedCentrifugedBowieiteIr>,
+<ore:crushedQuartzite>,
+<ore:crushedCertusQuartz>,
+<ore:crushedNetherQuartz>] as IOreDictEntry[];
 
 val dustOutput = [
 <ore:dustRutile>,
@@ -1022,7 +1070,10 @@ val dustOutput = [
 <ore:dustUytenbogaardtite>,
 <ore:dustXanthoconite>,
 <ore:dustSkaergaarditeS>,
-<ore:dustBowieiteIr>] as IOreDictEntry[];
+<ore:dustBowieiteIr>,
+<ore:dustQuartzite>,
+<ore:dustNetherQuartz>,
+<ore:dustCertusQuartz>] as IOreDictEntry[];
 
 val secondaryByproduct = [
 <ore:dustPsudobrookite>,
@@ -1059,7 +1110,10 @@ val secondaryByproduct = [
 <ore:dustSheldite>,
 <ore:dustPlatinum>,
 <ore:dustPallas>,
-<ore:dustPlatinum>] as IOreDictEntry[];
+<ore:dustPlatinum>,
+<ore:dustBarite>,
+<ore:dustBarite>,
+<ore:dustBarite>] as IOreDictEntry[];
 
 val tertiaryByproduct = [
 <ore:dustAluminium>,
@@ -1096,7 +1150,10 @@ val tertiaryByproduct = [
 <ore:dustSulphur>,
 <ore:dustIridite>,
 <ore:dustBowieite>,
-<ore:dustSulfur>] as IOreDictEntry[];
+<ore:dustSulfur>,
+<ore:dustNetherQuartz>,
+<ore:dustCertusQuartz>,
+<ore:dustQuartzite>] as IOreDictEntry[];
 
 for i, item in crushedInput {
 
@@ -1137,12 +1194,132 @@ macerator
     .buildAndRegister();
 }
 
-/*
-To Change
-Quartzite
-Certus Quartz
-Nether Quartz
+#---Fix---
+macerator.findRecipe(12, [<ore:oreGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
 
-To Fix
-Glassy
-*/
+macerator.findRecipe(12, [<ore:oreNetherrackGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreNetherrackGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustNetherrack>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreEndstoneGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreEndstoneGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustEndstone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreSandGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreSandGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustTinySiliconDioxide>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreBlackgraniteGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreBlackgraniteGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustGraniteBlack>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreRedgraniteGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreRedgraniteGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustGraniteRed>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreMarbleGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreMarbleGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustMarble>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreBasaltGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreBasaltGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustBasalt>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelGlassy>)
+    .outputs(<ore:crushedGlassy>.firstItem*2)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustTinyFlint>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>)
+    .outputs(<ore:dustGlass>.firstItem)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedPurifiedGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedPurifiedGlassy>)
+    .outputs(<ore:dustPureGlassy>.firstItem)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:CrushedCentrifugedGlassy>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:CrushedCentrifugedGlassy>)
+    .outputs(<ore:dustGlass>.firstItem)
+	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
