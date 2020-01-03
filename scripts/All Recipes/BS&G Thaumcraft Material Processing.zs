@@ -5,7 +5,8 @@ import mods.thaumcraft.Crucible;
 
 print("Ever wondered what the Liquid Death tastes like?");
 
-#mods.thaumcraft.Crucible.registerRecipe("recipeName", "", output, input, [arrayAspects]);
+var crystalMetallum = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "metallum"}]});
+
 var Air = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "air", Amount: 1000}});
 var Argon = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "argon", Amount: 1000}});
 var LiquidAir = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquid_air", Amount: 1000}});
@@ -68,3 +69,16 @@ mods.thaumcraft.Crucible.registerRecipe("NaphthaSteamCracking", "STEAMCRACKING",
 mods.thaumcraft.Crucible.registerRecipe("LightFuelSteamCracking", "STEAMCRACKING", steamLightFuel, LightFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
 mods.thaumcraft.Crucible.registerRecipe("HeavyFuelSteamCracking", "STEAMCRACKING", steamHeavyFuel, HeavyFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
 mods.thaumcraft.Crucible.registerRecipe("TarSteamCracking", "STEAMCRACKING", steamTar, Tar, [<aspect:aqua>*12, <aspect:ignis>*12, <aspect:alkimia>*12, <aspect:perditio>*12]);
+
+#---Alchemical Clathrates---
+#-Magnetic-
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticIron", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticSteel", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticNeodymium", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticCobalt", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum]);
+
+#-Poison-
+

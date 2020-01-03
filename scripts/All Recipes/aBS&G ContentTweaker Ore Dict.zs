@@ -12,6 +12,10 @@ print("Tweak Tweak Tweak Tweak");
 #---Circuits---
 <ore:circuitElite>.add(<contenttweaker:corequantum>);
 
+#---Clathrates---
+<ore:clathrateLubricant>.add(<contenttweaker:clathratelubricant>);
+<ore:clathrateMagnetic>.add(<contenttweaker:clathratemagnetic>);
+
 #---Coils---
 <ore:coilSimple>.add(<contenttweaker:coilsimple>);
 
