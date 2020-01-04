@@ -467,6 +467,9 @@ MaterialRegistry.createFluidMaterial(693, "hydrocracked_tar", 0x151520, "fluid",
 
 MaterialRegistry.createFluidMaterial(694, "alkenes", 0x35353A, "fluid", null);
 
+#--Alchemical Stuff--
+MaterialRegistry.createFluidMaterial(695, "magnetic", 0x000000, "fluid", null);
+MaterialRegistry.createFluidMaterial(696, "toxic", 0x440044, "fluid", null);
 
 #--Mod Integration--
 #-Botania-

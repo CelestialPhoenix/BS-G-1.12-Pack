@@ -1314,10 +1314,10 @@ macerator
     .EUt(12)
     .buildAndRegister();
 
-macerator.findRecipe(12, [<ore:CrushedCentrifugedGlassy>.firstItem], null).remove();
+macerator.findRecipe(12, [<ore:crushedCentrifugedGlassy>.firstItem], null).remove();
 macerator
     .recipeBuilder()
-    .inputs(<ore:CrushedCentrifugedGlassy>)
+    .inputs(<ore:crushedCentrifugedGlassy>)
     .outputs(<ore:dustGlass>.firstItem)
 	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
     .duration(200)

@@ -29,9 +29,8 @@ separator.findRecipe(24, [<ore:dustPureMagnetite>.firstItem], null).remove();
 #Cobalt
 #This awesome looping script was modified from FTB interactions
 var cobaltOre as string[] = [
-	"Cobaltite",
-	"Garnierite",
-	"Pentlandite"
+	"Cobalt",
+	"Cobaltite"
 	];
 
 for input in cobaltOre {
@@ -44,6 +43,29 @@ separator
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
 	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+}
+
+#Cobalt-Nickel
+#This awesome looping script was modified from FTB interactions
+var cobaltnickelOre as string[] = [
+	"Garnierite",
+	"Pentlandite",
+	"Naquarrite"
+	];
+
+for input in cobaltnickelOre {
+	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var dust as IItemStack = oreDict["dust"~input].firstItem;
+
+separator
+    .recipeBuilder()
+    .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 7000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -96,10 +118,12 @@ var ironOre as string[] = [
 	"Chalcopyrite",
 	"Chromite",
 	"Ilmenite",
+	"Malachite",
 	"Pyrite",
 	"Psudobrookite",
 	"Wolframite",
 	"Ferberite",
+	"Xifengite",
 	"YellowLimonite"
 	];
 

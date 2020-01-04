@@ -14,5 +14,6 @@ ClathrateLubricant.register();
 var ClathrateMagnetic = VanillaFactory.createItem("clathratemagnetic");
 ClathrateMagnetic.register();
 
-
+var ClathrateToxic = VanillaFactory.createItem("clathratetoxic");
+ClathrateToxic.register();
 
