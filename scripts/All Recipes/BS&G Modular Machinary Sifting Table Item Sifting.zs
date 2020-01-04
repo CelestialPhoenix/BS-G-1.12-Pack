@@ -4,12 +4,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.gregtech.recipe.RecipeMap;
-
 
 print("These is not the files you are looking for");
-
-#Recipe name is MachineTeirItemMaterial
 
 # 64Rf/t power draw (item) - 16Eu/t
 # 800t per item processed. Matches stock Gtech
@@ -97,3 +93,57 @@ SifterBasicGlassy.setChance(0.28);
 SifterBasicGlassy.addItemOutput(<ore:dustPureGlass>);
 SifterBasicGlassy.setChance(0.35);
 SifterBasicGlassy.build();
+
+#---Ore Gravel Sifting---
+var gravelOres as string[] = [
+"Aluminium",
+"Bauxite",
+"Braggite",
+"Tetrahedrite"];
+
+val primaryByproduct = [
+<ore:crushedAluminium>,
+<ore:crushedRutile>,
+<ore:crushedSheldonite>,
+<ore:crushedCopper>] as IOreDictEntry[];
+
+val secondaryByproduct = [
+<ore:crushedAluminium>,
+<ore:crushedAluminium>,
+<ore:crushedPlatinum>,
+<ore:crushedAntimony>] as IOreDictEntry[];
+
+val tertiaryByproduct = [
+<ore:crushedAluminium>,
+<ore:crushedCopper>,
+<ore:crushedIridium>,
+<ore:crushedSulfur>] as IOreDictEntry[];
+
+val quaternaryByproduct = [
+<ore:crushedAluminium>,
+<ore:crushedTitanium>,
+<ore:crushedNickel>,
+<ore:crushedIron>] as IOreDictEntry[];
+
+for i, input in gravelOres {
+	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var sifterRecipeName as string = "SifterBasicGravelOre"~input;
+
+var SifterBasicGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterRecipeName, "sifting_machine_basic", 800, 0);
+
+SifterBasicGravelOre.addEnergyPerTickInput(64);
+SifterBasicGravelOre.addItemInput(oreGravel);
+SifterBasicGravelOre.addItemOutput(oreCrushed);
+SifterBasicGravelOre.addItemOutput(oreCrushed);
+SifterBasicGravelOre.setChance(0.45);
+SifterBasicGravelOre.addItemOutput(primaryByproduct[i].firstItem);
+SifterBasicGravelOre.setChance(0.25);
+SifterBasicGravelOre.addItemOutput(secondaryByproduct[i].firstItem);
+SifterBasicGravelOre.setChance(0.15);
+SifterBasicGravelOre.addItemOutput(tertiaryByproduct[i].firstItem);
+SifterBasicGravelOre.setChance(0.1);
+SifterBasicGravelOre.addItemOutput(quaternaryByproduct[i].firstItem);
+SifterBasicGravelOre.setChance(0.05);
+SifterBasicGravelOre.build();
+}
