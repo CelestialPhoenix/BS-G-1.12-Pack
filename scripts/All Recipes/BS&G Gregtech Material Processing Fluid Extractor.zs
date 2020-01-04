@@ -8,7 +8,24 @@ print("Hello Boys- I'm Baaaaack!!!");
 val FluidExtractor as RecipeMap = RecipeMap.getByName("fluid_extractor");
 
 #---Fluid Extraction---
-#Bitumin
+#--Alchemy--
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<contenttweaker:clathratemagnetic>*1)
+	.fluidOutputs([<liquid:magnetic>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<contenttweaker:clathratetoxic>*1)
+	.fluidOutputs([<liquid:toxic>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#--Petrochem--
 FluidExtractor
     .recipeBuilder()
     .inputs(<immersivepetroleum:material>*1)
@@ -17,7 +34,15 @@ FluidExtractor
     .EUt(24)
     .buildAndRegister();
 
-#Magic Fluids
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<contenttweaker:clathratelubricant>*1)
+	.fluidOutputs([<liquid:lubricant>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#--Magic Fluids--
 FluidExtractor
     .recipeBuilder()
     .inputs(<ore:dustPyrotheum>*1)

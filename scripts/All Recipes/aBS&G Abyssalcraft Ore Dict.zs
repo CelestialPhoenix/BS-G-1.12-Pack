@@ -21,6 +21,13 @@ print("I'm not evil I promise");
 <ore:oreAbyssalCoralium>.add(<abyssalcraft:abycorore>);
 <ore:oreDreadlandsAbyssalnite>.add(<abyssalcraft:abydreadore>);
 
+<ore:oreIron>.remove(<abyssalcraft:abyiroore>);
+<ore:oreGold>.remove(<abyssalcraft:abygolore>);
+<ore:oreDia>.remove(<abyssalcraft:abydiaore>);
+<ore:oreSaltpeter>.remove(<abyssalcraft:abynitore>);
+<ore:oreTin>.remove(<abyssalcraft:abytinore>);
+<ore:oreCoppper>.remove(<abyssalcraft:abycopore>);
+
 #sand
 <ore:abyssalSand>.add(<abyssalcraft:abyssalsand>);
 

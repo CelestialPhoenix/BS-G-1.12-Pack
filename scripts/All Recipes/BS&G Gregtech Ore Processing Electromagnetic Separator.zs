@@ -93,10 +93,10 @@ separator
 
 var goldOre as string[] = [
 	"Magnetite",
-	"VanadiumMagnetie"
+	"VanadiumMagnetite"
 	];
 
-for input in electrotineOre {
+for input in goldOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
@@ -104,7 +104,7 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallGold>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 7000, 1000)
 	.chancedOutput(<ore:dustSmallGold>.firstItem, 7000, 1000)
     .duration(400)
     .EUt(24)
@@ -180,8 +180,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustNeodynium>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallNeodynium>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustNeodymium>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 7000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();

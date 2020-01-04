@@ -24,6 +24,11 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:ingotCopper>.remove(<forestry:ingot_copper>);
 <ore:ingotTin>.remove(<forestry:ingot_tin>);
 
+#Ores
+<ore:oreApatite>.remove(<forestry:resources:0>);
+<ore:oreCopper>.remove(<forestry:resources:1>);
+<ore:oreTin>.remove(<forestry:resources:2>);
+
 #---Ore Dict---
 #Circuit parts
 <ore:tubeCopper>.add(<forestry:thermionic_tubes:0>);

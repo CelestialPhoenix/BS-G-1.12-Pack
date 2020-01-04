@@ -65,6 +65,14 @@ print("Handles like its on rails");
 <ore:nuggetZinc>.remove(<railcraft:nugget:8>);
 <ore:nuggetBrass>.remove(<railcraft:nugget:9>);
 
+#Ores
+<ore:oreCopper>.remove(<railcraft:ore_metal:0>);
+<ore:oreTin>.remove(<railcraft:ore_metal:1>);
+<ore:oreLead>.remove(<railcraft:ore_metal:2>);
+<ore:oreSilver>.remove(<railcraft:ore_metal:3>);
+<ore:oreNickel>.remove(<railcraft:ore_metal:4>);
+<ore:oreZinc>.remove(<railcraft:ore_metal:5>);
+
 #Plates
 #<ore:plate>.remove(<railcraft:plate:>);
 <ore:plateIron>.remove(<railcraft:plate:0>);

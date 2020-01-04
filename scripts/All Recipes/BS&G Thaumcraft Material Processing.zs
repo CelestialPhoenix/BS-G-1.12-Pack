@@ -72,15 +72,24 @@ mods.thaumcraft.Crucible.registerRecipe("TarSteamCracking", "STEAMCRACKING", ste
 
 #---Alchemical Clathrates---
 #-Magnetic-
-mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticIron", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum]);
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticIron", "", <ore:clathrateMagnetic>.firstItem, 5, [<aspect:ordo>*5, <aspect:motus>*5, <aspect:machina>*5], <ore:clathrateLubricant>, [<ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum]);
 
-mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticSteel", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum]);
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticSteel", "", <ore:clathrateMagnetic>.firstItem, 5, [<aspect:ordo>*5, <aspect:motus>*5, <aspect:machina>*5], <ore:clathrateLubricant>, [<ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinySteelMagnetic>, crystalMetallum, crystalMetallum]);
 
-mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticNeodymium", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum]);
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticNeodymium", "", <ore:clathrateMagnetic>.firstItem, 5, [<aspect:ordo>*5, <aspect:motus>*5, <aspect:machina>*5], <ore:clathrateLubricant>, [<ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyNeodymiumMagnetic>, crystalMetallum, crystalMetallum]);
 
-mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticCobalt", "", <ore:clathrateMagnetic>.firstItem, 20, [<aspect:aer>, <aspect:ignis>], <ore:clathrateLubricant>, [<ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum]);
+mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticCobalt", "", <ore:clathrateMagnetic>.firstItem, 5, [<aspect:ordo>*5, <aspect:motus>*5, <aspect:machina>*5], <ore:clathrateLubricant>, [<ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyCobaltMagnetic>, crystalMetallum, crystalMetallum]);
 
 #-Poison-
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicArsenic", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:dustTinyArsenic>, crystalMetallum, crystalMetallum, <ore:dustTinyArsenic>, crystalMetallum, crystalMetallum, <ore:dustTinyArsenic>, crystalMetallum, crystalMetallum]);
 
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicLead", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:dustTinyLead>, crystalMetallum, crystalMetallum, <ore:dustTinyLead>, crystalMetallum, crystalMetallum, <ore:dustTinyLead>, crystalMetallum, crystalMetallum]);
 
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicMercury", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:nuggetQuicksilver>, crystalMetallum, crystalMetallum, <ore:nuggetQuicksilver>, crystalMetallum, crystalMetallum, <ore:nuggetQuicksilver>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicNaquadah", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:dustTinyNaquadah>, crystalMetallum, crystalMetallum, <ore:dustTinyNaquadah>, crystalMetallum, crystalMetallum, <ore:dustTinyNaquadah>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicNaquadria", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:dustTinyNaquadria>, crystalMetallum, crystalMetallum, <ore:dustTinyNaquadria>, crystalMetallum, crystalMetallum, <ore:dustTinyNaquadria>, crystalMetallum, crystalMetallum]);
+
+mods.thaumcraft.Infusion.registerRecipe("clathrateToxicUranium", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <ore:clathrateLubricant>, [<ore:dustTinyUranium>, crystalMetallum, crystalMetallum, <ore:dustTinyUranium>, crystalMetallum, crystalMetallum, <ore:dustTinyUranium>, crystalMetallum, crystalMetallum]);
 

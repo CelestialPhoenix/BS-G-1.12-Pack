@@ -227,6 +227,7 @@ mods.chisel.Carving.removeGroup("biomesoplenty:dirt_2");
 #biomesoplenty:planks_0_8
 #biomesoplenty:planks_0_9
 #biomesoplenty:white_sandstone_0
+
 #blockAluminum
 mods.chisel.Carving.removeGroup("blockAluminum");
 mods.chisel.Carving.addGroup("blockAluminium");
@@ -239,6 +240,11 @@ mods.chisel.Carving.addVariation("blockAluminium", <chisel:blockaluminum:5>);
 mods.chisel.Carving.addVariation("blockAluminium", <chisel:blockaluminum:6>);
 mods.chisel.Carving.addVariation("blockAluminium", <immersiveengineering:storage:1>);
 mods.chisel.Carving.addVariation("blockAluminium", <thermalfoundation:storage:4>);
+mods.chisel.Carving.addVariation("blockAluminium", <nuclearcraft:ingot_block:12>);
+
+mods.chisel.Carving.addGroup("blockBeryllium");
+mods.chisel.Carving.addVariation("blockBeryllium", <gregtech:compressed_0:5>);
+mods.chisel.Carving.addVariation("blockBeryllium", <nuclearcraft:ingot_block:9>);
 
 #blockBronze //<gregtech:compressed_4:10>
 mods.chisel.Carving.removeGroup("blockBronze");
@@ -493,6 +499,11 @@ mods.chisel.Carving.addVariation("blockGold", <chisel:gold:13>);
 mods.chisel.Carving.addVariation("blockGold", <chisel:gold:14>);
 
 #blockInvar
+mods.chisel.Carving.addGroup("blockGraphite");
+mods.chisel.Carving.addVariation("blockGraphite", <gregtech:compressed_9:5>);
+mods.chisel.Carving.addVariation("blockGraphite", <nuclearcraft:ingot_block:8>);
+
+#blockInvar
 mods.chisel.Carving.removeGroup("blockInvar");
 mods.chisel.Carving.addGroup("blockInvar");
 mods.chisel.Carving.addVariation("blockInvar", <gregtech:compressed_6>);
@@ -572,6 +583,11 @@ mods.chisel.Carving.addVariation("blockLead", <primal:metalblock:7>);
 mods.chisel.Carving.addVariation("blockLead", <railcraft:metal:2>);
 mods.chisel.Carving.addVariation("blockLead", <thermalfoundation:storage:3>);
 
+#blockManganese
+mods.chisel.Carving.addGroup("blockManganese");
+mods.chisel.Carving.addVariation("blockManganese", <gregtech:compressed_1:13>);
+mods.chisel.Carving.addVariation("blockManganese", <nuclearcraft:ingot_block:11>);
+
 #blockNickel
 mods.chisel.Carving.removeGroup("blockNickel");
 mods.chisel.Carving.addGroup("blockNickel");
@@ -619,6 +635,7 @@ mods.chisel.Carving.addVariation("blockSilver", <primal:metalblock:6>);
 mods.chisel.Carving.addVariation("blockSilver", <projectred-exploration:stone:10>);
 mods.chisel.Carving.addVariation("blockSilver", <railcraft:metal:4>);
 mods.chisel.Carving.addVariation("blockSilver", <thermalfoundation:storage:2>);
+mods.chisel.Carving.addVariation("blockSilver", <nuclearcraft:ingot_block:13>);
 
 #blockSteel
 mods.chisel.Carving.removeGroup("blockSteel");
@@ -668,6 +685,10 @@ mods.chisel.Carving.addVariation("blockUranium", <chisel:blockuranium:5>);
 mods.chisel.Carving.addVariation("blockUranium", <chisel:blockuranium:6>);
 mods.chisel.Carving.addVariation("blockUranium", <immersiveengineering:storage:5>);
 mods.chisel.Carving.addVariation("blockUranium", <ic2:resource:10>);
+
+mods.chisel.Carving.addGroup("blockZirconium");
+mods.chisel.Carving.addVariation("blockZirconium", <gregtech:compressed_16:15>);
+mods.chisel.Carving.addVariation("blockZirconium", <nuclearcraft:ingot_block:10>);
 
 #bookshelf_acacia
 #bookshelf_birch

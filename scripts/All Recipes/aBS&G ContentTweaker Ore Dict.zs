@@ -218,6 +218,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:oreDarkstoneXifengite>.add(<contenttweaker:oredarkstonexifengite>);
 <ore:oreDarkstoneXilingolite>.add(<contenttweaker:oredarkstonexilingolite>);
 
+<ore:oreBowieiteIr>.add(<contenttweaker:oredarkstonebowieiteir>);
+<ore:oreSkaergaarditeS>.add(<contenttweaker:oredarkstoneskaergaardites>);
+<ore:oreUytenbogaardtite>.add(<contenttweaker:oredarkstoneuytenbogaardtite>);
+
 #Dirt
 <ore:oreLignite>.add(<contenttweaker:oredirtlignite>);
 <ore:oreDirtLignite>.add(<contenttweaker:oredirtlignite>);
