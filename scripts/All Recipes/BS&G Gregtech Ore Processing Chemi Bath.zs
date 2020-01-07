@@ -326,7 +326,8 @@ var silverOre as string[] = [
 	"Lead",
 	"Galena",
 	"Xanthoconite",
-	"Berryite"
+	"Berryite",
+	"Tungstate"
 	];
 
 for input in silverOre {
