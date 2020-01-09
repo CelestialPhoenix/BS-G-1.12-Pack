@@ -22,8 +22,20 @@ antimony.addFlags(["GENERATE_ORE"]);
 var biotite = <material:biotite>;
 biotite.addFlags(["GENERATE_ORE"]);
 
+var barite = <material:borax>;
+barite.addFlags(["GENERATE_ORE"]);
+
+var borax = <material:borax>;
+borax.addFlags(["GENERATE_ORE"]);
+
 var brass = <material:brass>;
 brass.addFlags(["GENERATE_SMALL_GEAR"]);
+
+var cadmium = <material:cadmium>;
+cadmium.addFlags(["GENERATE_ORE"]);
+
+var caesium = <material:caesium>;
+caesium.addFlags(["GENERATE_ORE"]);
 
 var calcium = <material:calcium>;
 calcium.addFlags(["GENERATE_ORE"]);
@@ -39,6 +51,9 @@ copper.addFlags(["GENERATE_RING", "GENERATE_DENSE"]);
 
 var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
+
+var gallium = <material:gallium>;
+gallium.addFlags(["GENERATE_ORE"]);
 
 var gold = <material:gold>;
 gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
@@ -59,6 +74,9 @@ magnesium.addFlags(["GENERATE_ORE"]);
 
 val manganese = <material:manganese>;
 manganese.addFlags(["GENERATE_ORE"]);
+
+var naquadria = <material:naquadria>;
+naquadria.addFlags(["GENERATE_ORE"]);
 
 val nickel = <material:nickel>;
 nickel.addFlags(["GENERATE_ROD"]);
@@ -268,18 +286,21 @@ val dustArgite = MaterialRegistry.createDustMaterial(562, "argite", 0xDDDDFF, "d
 
 #Corundum
 val dustCorundum = MaterialRegistry.createDustMaterial(563, "corundum", 0x994444, "shiny", 1, [<material:aluminium>*2, <material:oxygen>*3]);
+dustCorundum.addFlags(["GENERATE_ORE"]);
 
 #Natria
 val dustNatria = MaterialRegistry.createDustMaterial(564, "natria", 0x223344, "shiny", 1, [<material:sodium>*1, <material:oxygen>*1]);
 
 #Ratsbane
 val dustRatsbane = MaterialRegistry.createDustMaterial(565, "ratsbane", 0xFFFFFF, "dull", 1, [<material:arsenic>*2, <material:oxygen>*3]);
+dustRatsbane.addFlags(["GENERATE_ORE"]);
 
 #Cobaltic
 val dustCobaltic = MaterialRegistry.createDustMaterial(566, "cobaltic", 0x111111, "dull", 1, [<material:cobalt>*2, <material:oxygen>*3]);
 
 #Eskolaite
 val dustEskolaite = MaterialRegistry.createDustMaterial(567, "eskolaite", 0x338833, "dull", 1, [<material:chrome>*2, <material:oxygen>*3]);
+dustEskolaite.addFlags(["GENERATE_ORE"]);
 
 #Aurite
 val dustAurite = MaterialRegistry.createDustMaterial(568, "aurite", 0x224444, "dull", 1, [<material:gold>*1, <material:oxygen>*1]);
@@ -301,18 +322,21 @@ val dustBromellite = MaterialRegistry.createDustMaterial(573, "bromellite", 0xEE
 
 #Paramontroseite
 val dustParamontroseite = MaterialRegistry.createDustMaterial(574, "paramontroseite", 0x333333, "shiny", 1, [<material:vanadium>*1, <material:oxygen>*2]);
+dustParamontroseite.addFlags(["GENERATE_ORE"]);
 
 #Coltan
 val dustColtan = MaterialRegistry.createDustMaterial(575, "coltan", 0xBBBBBB, "dull", 1, [<material:tantalum>*1, <material:oxygen>*2]);
 
 #Lithia
 val dustLithia = MaterialRegistry.createDustMaterial(576, "lithia", 0xFFEEEE, "dull", 1, [<material:lithium>*1, <material:oxygen>*1]);
+dustLithia.addFlags(["GENERATE_ORE"]);
 
 #Didymium
 val dustDidymium = MaterialRegistry.createDustMaterial(577, "didymium", 0x332222, "dull", 1, [<material:neodymium>*2, <material:oxygen>*3]);
 
 #Cadmite
 val dustCadmite = MaterialRegistry.createDustMaterial(578, "cadmite", 0x223322, "dull", 1, [<material:cadmium>*2, <material:oxygen>*3]);
+dustCadmite.addFlags(["GENERATE_ORE"]);
 
 #Yttria
 val dustYttria = MaterialRegistry.createDustMaterial(579, "yttria", 0xF7F7F7, "dull", 1, [<material:yttrium>*2, <material:oxygen>*3]);
