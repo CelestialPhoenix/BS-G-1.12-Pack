@@ -13,6 +13,7 @@ val washer as RecipeMap = RecipeMap.getByName("orewasher");
 val thermalCentrifuge as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
 val electrolyzer as RecipeMap = RecipeMap.getByName("electrolyzer");
 val centrifuge as RecipeMap = RecipeMap.getByName("centrifuge");
+val extractor as RecipeMap = RecipeMap.getByName("extractor");
 
 #---Ore List---
 
@@ -180,7 +181,7 @@ var oreInput as string[] = [
 "Glassy",
 "Gallium",
 "Cadmium",
-"Eskoliate",
+"Eskolaite",
 "Borax",
 "Paramontroseite",
 "Caesium",
@@ -188,7 +189,8 @@ var oreInput as string[] = [
 "Corundum",
 "Cadmite",
 "Ratsbane",
-"Lithia"];
+"Lithia",
+"Andradite"];
 
 var primaryByproduct as string[] = [
 "Aluminium",
@@ -327,7 +329,7 @@ var primaryByproduct as string[] = [
 "Uraninite",
 "Baddeleyite",
 "Rutile",
-"Paladium",
+"Palladium",
 "Sheldite",
 "Rutile",
 "Iron",
@@ -338,7 +340,7 @@ var primaryByproduct as string[] = [
 "RareEarth",
 "Iron",
 "RareEarth",
-"Dynium",
+"Didymium",
 "Naquoxiite",
 "Iron",
 "Nickel",
@@ -346,7 +348,7 @@ var primaryByproduct as string[] = [
 "Naquarrite",
 "Silver",
 "Lead",
-"Uvavorite",
+"Uvarovite",
 "SkaergaarditeS",
 "Sheldite",
 "Uytenbogaardtite",
@@ -362,7 +364,8 @@ var primaryByproduct as string[] = [
 "Aluminium",
 "Cadmite",
 "Cobaltite",
-"Lithia"];
+"Lithia",
+"Calcite"];
 
 var secondaryByproduct as string[] = [
 "Aluminium",
@@ -528,7 +531,7 @@ var secondaryByproduct as string[] = [
 "Glassy",
 "Gallium",
 "Cadmium",
-"Chromate",
+"Chromite",
 "RockSalt",
 "Magnetite",
 "Caesium",
@@ -536,7 +539,8 @@ var secondaryByproduct as string[] = [
 "GreenSapphire",
 "Cadmium",
 "Cobalt",
-"RockSalt"];
+"RockSalt",
+"GarnetYellow"];
 
 var tertiaryByproduct as string[] = [
 "Aluminium",
@@ -586,7 +590,7 @@ var tertiaryByproduct as string[] = [
 "Tin",
 "Gold",
 "Iron",
-"Glowstone",
+"Montroydite",
 "Coal",
 "Ratsbane",
 "Iridium",
@@ -682,23 +686,23 @@ var tertiaryByproduct as string[] = [
 "Lithium",
 "Manganese",
 "Iridite",
-"Sulphur",
+"Sulfur",
 "Yttrium",
 "Beryllium",
 "Niobium",
 "RareEarth",
 "Naquoxiite",
-"Sulphur",
+"Sulfur",
 "Cobalt",
 "Naquadite",
 "Bismuth",
 "Copper",
 "Tin",
 "Gallium",
-"Sulphur",
+"Sulfur",
 "Iridite",
 "Bowieite",
-"Sulphur",
+"Sulfur",
 "Glassy",
 "Gallium",
 "Cadmium",
@@ -710,7 +714,8 @@ var tertiaryByproduct as string[] = [
 "Sapphire",
 "Cadmite",
 "Cadmite",
-"Salt"];
+"Salt",
+"Grossular"];
 
 var quaternaryByproduct as string[] = [
 "Aluminium",
@@ -767,7 +772,7 @@ var quaternaryByproduct as string[] = [
 "Diamond",
 "Emerald",
 "Argite",
-"Garnerite",
+"Garnierite",
 "Corundum",
 "Calcite",
 "Rutile",
@@ -835,7 +840,7 @@ var quaternaryByproduct as string[] = [
 "NaquadahEnriched",
 "Oilsands",
 "RareEarth",
-"Cuprate",
+"Cuprite",
 "Tenorite",
 "Gold",
 "Tenorite",
@@ -862,29 +867,30 @@ var quaternaryByproduct as string[] = [
 "Niobium",
 "Yttrium",
 "Naquothxa",
-"Enriched Naquadah",
+"NaquadahEnriched",
 "Naquothxa",
-"Enriched Naquadah",
-"Enriched Naquadah",
+"NaquadahEnriched",
+"NaquadahEnriched",
 "Copper",
 "Tin",
 "Gallium",
 "Bowieite",
 "Osmiite",
-"BowieiteIR",
+"BowieiteIr",
 "Osmiite",
 "Glassy",
 "Gallium",
 "Cadmium",
-"Chromate",
+"Chromite",
 "Lepidolite",
 "Vanadium",
 "Caesium",
 "Naquadria",
 "Ruby",
-"Cuprate",
+"Cuprite",
 "Cobaltite",
-"Lithia"];
+"Lithia",
+"Uvarovite"];
 
 #---Macerator---
 for i, input in oreInput {
@@ -1044,10 +1050,10 @@ macerator
 for i, input in oreInput {
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
 	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
-	var firstByproduct as IItemStack = oreDict["dust"~primaryByproduct[i]].firstItem;
-	var secondByproduct as IItemStack = oreDict["dust"~secondaryByproduct[i]].firstItem;
-	var thirdByproduct as IItemStack = oreDict["dust"~tertiaryByproduct[i]].firstItem;
-	var fourthByproduct as IItemStack = oreDict["dust"~quaternaryByproduct[i]].firstItem;
+	var firstByproduct as IItemStack = oreDict["dustTiny"~primaryByproduct[i]].firstItem;
+	var secondByproduct as IItemStack = oreDict["dustTiny"~secondaryByproduct[i]].firstItem;
+	var thirdByproduct as IItemStack = oreDict["dustTiny"~tertiaryByproduct[i]].firstItem;
+	var fourthByproduct as IItemStack = oreDict["dustTiny"~quaternaryByproduct[i]].firstItem;
 
 washer.findRecipe(16, [oreCrushed], [<liquid:water>*1000]).remove();
 washer
@@ -1075,10 +1081,10 @@ for i, input in oreInput {
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
 	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
 	var oreCrushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
-	var firstByproduct as IItemStack = oreDict["dust"~primaryByproduct[i]].firstItem;
-	var secondByproduct as IItemStack = oreDict["dust"~secondaryByproduct[i]].firstItem;
-	var thirdByproduct as IItemStack = oreDict["dust"~tertiaryByproduct[i]].firstItem;
-	var fourthByproduct as IItemStack = oreDict["dust"~quaternaryByproduct[i]].firstItem;
+	var firstByproduct as IItemStack = oreDict["dustTiny"~primaryByproduct[i]].firstItem;
+	var secondByproduct as IItemStack = oreDict["dustTiny"~secondaryByproduct[i]].firstItem;
+	var thirdByproduct as IItemStack = oreDict["dustTiny"~tertiaryByproduct[i]].firstItem;
+	var fourthByproduct as IItemStack = oreDict["dustTiny"~quaternaryByproduct[i]].firstItem;
 
 thermalCentrifuge.findRecipe(60, [oreCrushed], null).remove();
 thermalCentrifuge
@@ -1123,6 +1129,39 @@ centrifuge
     .outputs([oreDust, secondByproduct*3])
     .duration(252)
     .EUt(5)
+    .buildAndRegister();
+}
+#---Extractor---
+for i, input in oreInput {
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
+	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+
+
+extractor
+    .recipeBuilder()
+    .inputs(oreCrushed)
+    .outputs([oreCrushedPurified])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(oreDustImpure)
+    .outputs([oreDust])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(oreDustPure)
+    .outputs([oreDust])
+    .duration(400)
+    .EUt(2)
     .buildAndRegister();
 }
 
@@ -1280,7 +1319,7 @@ thermalCentrifuge.findRecipe(60, [<ore:crushedGlassy>.firstItem], null).remove()
 thermalCentrifuge
     .recipeBuilder()
     .inputs(<ore:crushedGlassy>)
-    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustGlass>.firstItem*3])
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*3])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
@@ -1289,7 +1328,7 @@ thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedGlassy>.firstItem], null).
 thermalCentrifuge
     .recipeBuilder()
     .inputs(<ore:crushedPurifiedGlassy>)
-    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustGlass>.firstItem*3])
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*3])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
@@ -1298,7 +1337,7 @@ centrifuge.findRecipe(24, [<ore:dustImpureGlassy>.firstItem], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustImpureGlassy>)
-    .outputs([<ore:dustGlass>.firstItem, <ore:dustGlass>.firstItem*3])
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*3])
     .duration(252)
     .EUt(24)
     .buildAndRegister();
@@ -1307,8 +1346,31 @@ centrifuge.findRecipe(5, [<ore:dustPureGlassy>.firstItem], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustPureGlassy>)
-    .outputs([<ore:dustGlass>.firstItem, <ore:dustGlass>.firstItem*3])
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*3])
     .duration(252)
     .EUt(5)
     .buildAndRegister();
 
+extractor
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<ore:dustImpureGlassy>)
+    .outputs([<ore:dustGlass>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<ore:dustPureGlassy>)
+    .outputs([<ore:dustGlass>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
