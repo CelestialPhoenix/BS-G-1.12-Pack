@@ -96,6 +96,9 @@ potassium.addFlags(["GENERATE_ORE"]);
 var potassium_feldspar = <material:potassium_feldspar>;
 potassium_feldspar.addFlags(["GENERATE_ORE"]);
 
+var quicklime = <material:quicklime>;
+quicklime.addFlags(["GENERATE_ORE"]);
+
 var sodium = <material:sodium>;
 sodium.addFlags(["GENERATE_ORE"]);
 
@@ -530,6 +533,9 @@ MaterialRegistry.createFluidMaterial(694, "alkenes", 0x35353A, "fluid", null);
 #--Alchemical Stuff--
 MaterialRegistry.createFluidMaterial(695, "magnetic", 0x000000, "fluid", null);
 MaterialRegistry.createFluidMaterial(696, "toxic", 0x440044, "fluid", null);
+MaterialRegistry.createFluidMaterial(697, "luck", 0xFFAAAA, "fluid", null);
+MaterialRegistry.createFluidMaterial(698, "distilled_coralium", 0x88DDDD, "fluid", null);
+MaterialRegistry.createFluidMaterial(699, "refined_antimatter", 0xEEEEEE, "fluid", null);
 
 #--Mod Integration--
 #-Botania-

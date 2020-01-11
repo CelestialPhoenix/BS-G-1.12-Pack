@@ -1,6 +1,10 @@
 #Name: Blood Sweat & Gears Botania Ore Processing.zs
 #Author: PhoePhoe
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
 print("ooo eee ooo ah ah ting tang...");
 
 #name items
@@ -43,275 +47,219 @@ mods.botania.OrechidIgnem.removeOre(<ore:oreQuartz>);
 mods.botania.OrechidIgnem.removeOre(<ore:oreCobalt>);
 mods.botania.OrechidIgnem.removeOre(<ore:oreFirestone>);
 
+#---Ore List---
+var oreInput as string[] = [
+"Aluminium",
+"Antimony",
+"Beryllium",
+"Bismuth",
+"Cadmium",
+"Caesium",	
+"Calcium",
+"Carbon",
+"Chrome",
+"Cobalt",
+"Copper",
+"Gallium",
+"Gold",
+"Iridium",
+"Iron",
+"Lead",
+"Lithium",
+"Magnesium",
+"Manganese",
+"Molybdenum",
+"Naquadria",	
+"Neodymium",
+"Nickel",
+"Niobium",
+"Osmium",
+"Palladium",
+"Platinum",	
+"Phosphorus",
+"Potassium",
+"Silicon",
+"Silver",
+"Sodium",
+"Sulfur",
+"Tantalum",
+"Thorium",
+"Tin",
+"Titanium",
+"Tungsten",
+"Uranium",
+"Vanadium",
+"Yttrium",
+"Zinc",
+"Almandine",
+"BandedIron",
+"BlueTopaz",
+"BrownLimonite",
+"Calcite",
+"Quicklime",	
+"Cassiterite",
+"Chalcopyrite",
+"Chromite",
+"Cinnabar",
+"Coal",
+"Cobaltite",
+"Cooperite",
+"Diamond",
+"Emerald",
+"Galena",
+"Garnierite",
+"GreenSapphire",
+"Grossular",
+"Ilmenite",
+"Rutile",
+"Bauxite",
+"Lazurite",
+"Magnesite",
+"Magnetite",
+"Molybdenite",
+"Phosphate",
+"Powellite",
+"Pyrite",
+"Pyrolusite",
+"Pyrope",
+"RockSalt",
+"Ruby",
+"Salt",
+"Saltpeter",
+"Sapphire",
+"Scheelite",
+"SiliconDioxide",
+"Sodalite",
+"Spessartine",
+"Sphalerite",
+"Stibnite",
+"Tanzanite",
+"Tetrahedrite",
+"Topaz",
+"Tungstate",
+"Uraninite",
+"Uvarovite",
+"Wulfenite",
+"YellowLimonite",
+"NetherQuartz",
+"CertusQuartz",
+"Quartzite",
+"Graphite",
+"Lignite",
+"Olivine",
+"Opal",
+"Amethyst",
+"Redstone",
+"Lapis",
+"Tantalite",
+"Apatite",
+"Phosphor",
+"GarnetRed",
+"GarnetYellow",
+"Andradite",	
+"Vinteum",
+"PotassiumFeldspar",
+"Biotite",
+"VanadiumMagnetite",
+"Bastnasite",
+"Pentlandite",
+"Spodumene",
+"Lepidolite",
+"Pitchblende",
+"Monazite",
+"Malachite",
+"Barite",
+"Wollastonite",
+"Kaolinite",
+"Naquadah",
+"Naquadria",
+"NaquadahEnriched",
+"Oilsands",
+"RareEarth",
+"Tenorite",
+"Cuprite",
+"Bornite",
+"Chalcocite",
+"Tennantite",
+"Zirconium",
+"Bertrandite",
+"Electrotine",
+"Euclase",
+"Huttonite",
+"Coffinite",
+"Thorite",
+"Zircon",
+"Psudobrookite",
+"Sperrylite",
+"Braggite",
+"Brannerite",
+"Hubnerite",
+"Wolframite",
+"Ferberite",
+"Sheldonite",
+"Bowieite",
+"Xenotime",
+"Gadolinite",
+"Fergusonite",
+"MonaziteNd",
+"Naquadite",
+"Naqulinite",
+"Naquarrite",
+"Xifengite",
+"Xilingolite",
+"Berryite",
+"Bismuthinite",
+"Goslarite",
+"Uytenbogaardtite",
+"Xanthoconite",
+"SkaergaarditeS",
+"BowieiteIr",
+"Lithrage",
+"Argite",
+"Corundum",
+"Natria",
+"Ratsbane",
+"Cobaltic",
+"Eskolaite",
+"Aurite",
+"Baria",
+"Zincite",
+"Bismite",
+"Antimonate",
+"Bromellite",
+"Paramontroseite",
+"Coltan",
+"Lithia",
+"Didymium",
+"Cadmite",
+"Yttria",
+"Ceria",
+"Lanthana",
+"Caesite",
+"Molybdite",
+"Sheldite",
+"Pallas",
+"Baddeleyite",
+"Thorianite",
+"Iridite",
+"Columbite",
+"Naquoxiite",
+"Naquothxa",
+"Montroydite",
+"Osmiite"];
+
 #---mana pool infusion---
-#cleans a crushed/dust ore
-#mods.botania.ManaInfusion.addInfusion(<ore:crushedPurified>.firstItem, <ore:crushed>, 10); #
-#crushed ores
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedAlmandine>.firstItem, <ore:crushedAlmandine>, 10); #Almandine
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedAluminium>.firstItem, <ore:crushedAluminium>, 10); #Aluminium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedAntimony>.firstItem, <ore:crushedAntimony>, 10); #Antimony
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBandedIron>.firstItem, <ore:crushedBandedIron>, 10); #BandedIron
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBastnasite>.firstItem, <ore:crushedBastnasite>, 10); #Bastnasite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBauxite>.firstItem, <ore:crushedBauxite>, 10); #Bauxite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBertrandite>.firstItem, <ore:crushedBertrandite>, 10); #Bertrandite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBerryite>.firstItem, <ore:crushedBerryite>, 10); #Berryite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBeryllium>.firstItem, <ore:crushedBeryllium>, 10); #Beryllium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBiotite>.firstItem, <ore:crushedBiotite>, 10); #Biotite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBismuth>.firstItem, <ore:crushedBismuth>, 10); #Bismuth
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBismuthinite>.firstItem, <ore:crushedBismuthinite>, 10); #Bismuthinite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBornite>.firstItem, <ore:crushedBornite>, 10); #Bornite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBowieite>.firstItem, <ore:crushedBowieite>, 10); #Bowieite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBowieiteIr>.firstItem, <ore:crushedBowieiteIr>, 10); #Bowieite-Ir
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBraggite>.firstItem, <ore:crushedBraggite>, 10); #Braggite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBrannerite>.firstItem, <ore:crushedBrannerite>, 10); #Brannerite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBrownLimonite>.firstItem, <ore:crushedBrownLimonite>, 10); #BrownLimonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCarbon>.firstItem, <ore:crushedCarbon>, 10); #Carbon
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCassiterite>.firstItem, <ore:crushedCassiterite>, 10); #Cassiterite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedChalcocite>.firstItem, <ore:crushedChalcocite>, 10); #Chalcocite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedChalcopyrite>.firstItem, <ore:crushedChalcopyrite>, 10); #Chalcopyrite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedChrome>.firstItem, <ore:crushedChrome>, 10); #Chrome
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedChromite>.firstItem, <ore:crushedChromite>, 10); #Chromite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCinnabar>.firstItem, <ore:crushedCinnabar>, 10); #Cinnabar
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCoal>.firstItem, <ore:crushedCoal>, 10); #Coal
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCobalt>.firstItem, <ore:crushedCobalt>, 10); #Cobalt
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCobaltite>.firstItem, <ore:crushedCobaltite>, 10); #Cobaltite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCoffinite>.firstItem, <ore:crushedCoffinite>, 10); #Coffinite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCooperite>.firstItem, <ore:crushedCooperite>, 10); #Cooperite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedCopper>.firstItem, <ore:crushedCopper>, 10); #Copper
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedElectrotine>.firstItem, <ore:crushedElectrotine>, 10); #Electrotine
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedDiamond>.firstItem, <ore:crushedDiamond>, 10); #Diamond
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedEmerald>.firstItem, <ore:crushedEmerald>, 10); #Emerald
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedEuclase>.firstItem, <ore:crushedEuclase>, 10); #Euclase
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedFerberite>.firstItem, <ore:crushedFerberite>, 10); #Ferberite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedFergusonite>.firstItem, <ore:crushedFergusonite>, 10); #Fergusonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGadolinite>.firstItem, <ore:crushedGadolinite>, 10); #Gadolinite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGalena>.firstItem, <ore:crushedGalena>, 10); #Galena
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGarnierite>.firstItem, <ore:crushedGarnierite>, 10); #Garnierite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGold>.firstItem, <ore:crushedGold>, 10); #Gold
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGoslarite>.firstItem, <ore:crushedgoslarite>, 10); #Goslarite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGreenSapphire>.firstItem, <ore:crushedGreenSapphire>, 10); #GreenSapphire
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedHubnerite>.firstItem, <ore:crushedHubnerite>, 10); #Hubnerite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedHuttonite>.firstItem, <ore:crushedHuttonite>, 10); #Huttonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedIlmenite>.firstItem, <ore:crushedIlmenite>, 10); #Ilmenite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedIridium>.firstItem, <ore:crushedIridium>, 10); #Iridium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedIron>.firstItem, <ore:crushedIron>, 10); #Iron
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedKaolinite>.firstItem, <ore:crushedKaolinite>, 10); #Kaolinite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLapis>.firstItem, <ore:crushedLapis>, 10); #Lapis
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLazurite>.firstItem, <ore:crushedLazurite>, 10); #Lazurite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLead>.firstItem, <ore:crushedLead>, 10); #Lead
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLepidolite>.firstItem, <ore:crushedLepidolite>, 10); #Lepidolite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLignite>.firstItem, <ore:crushedLignite>, 10); #Lignite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedLithium>.firstItem, <ore:crushedLithium>, 10); #Lithium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMagnetite>.firstItem, <ore:crushedMagnetite>, 10); #Magnetite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMagnesite>.firstItem, <ore:crushedMagnesite>, 10); #Magnesite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMagnesium>.firstItem, <ore:crushedMagnesium>, 10); #Magnesium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedManganese>.firstItem, <ore:crushedManganese>, 10); #Manganese
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMalachite>.firstItem, <ore:crushedMalachite>, 10); #Malachite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMolybdenite>.firstItem, <ore:crushedMolybdenite>, 10); #Molybdenite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMolybdenum>.firstItem, <ore:crushedMolybdenum>, 10); #Molybdenum
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMonazite>.firstItem, <ore:crushedMonazite>, 10); #Monazite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedMonaziteNd>.firstItem, <ore:crushedMonaziteNd>, 10); #MonaziteNd
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNaquadah>.firstItem, <ore:crushedNaquadah>, 10); #Naquadah
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNaquadite>.firstItem, <ore:crushedNaquadite>, 10); #Naquadite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNaquarrite>.firstItem, <ore:crushedNaquarrite>, 10); #Naquarrite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNaqulinite>.firstItem, <ore:crushedNaqulinite>, 10); #Naqulinite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNeodymium>.firstItem, <ore:crushedNeodymium>, 10); #Neodymium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNetherQuartz>.firstItem, <ore:crushedNetherQuartz>, 10); #NetherQuartz
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedNickel>.firstItem, <ore:crushedNickel>, 10); #Nickel
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPalladium>.firstItem, <ore:crushedPalladium>, 10); #Palladium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPentlandite>.firstItem, <ore:crushedPentlandite>, 10); #Pentlandite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPitchblende>.firstItem, <ore:crushedPitchblende>, 10); #Pitchblende
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPlatinum>.firstItem, <ore:crushedPlatinum>, 10); #Platinum
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPotassium>.firstItem, <ore:crushedPotassium>, 10); #Potassium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPotassiumFeldspar>.firstItem, <ore:crushedPotassiumFeldspar>, 10); #Potassium Feldspar
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPowellite>.firstItem, <ore:crushedPowellite>, 10); #Powellite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPsudobrookite>.firstItem, <ore:crushedPsudobrookite>, 10); #Psudobrookite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPyrite>.firstItem, <ore:crushedPyrite>, 10); #Pyrite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPyrolusite>.firstItem, <ore:crushedPyrolusite>, 10); #Pyrolusite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedPyrope>.firstItem, <ore:crushedPyrope>, 10); #Pyrope
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedQuartzite>.firstItem, <ore:crushedQuartzite>, 10); #Quartzite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedRareEarth>.firstItem, <ore:crushedRareEarth>, 10); #RareEarth
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGarnetRed>.firstItem, <ore:crushedGarnetRed>, 10); #Red Garnet
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedRedstone>.firstItem, <ore:crushedRedstone>, 10); #Redstone
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedRockSalt>.firstItem, <ore:crushedRockSalt>, 10); #RockSalt
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedRuby>.firstItem, <ore:crushedRuby>, 10); #Ruby
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSalt>.firstItem, <ore:crushedSalt>, 10); #Salt
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSapphire>.firstItem, <ore:crushedSapphire>, 10); #Sapphire
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedScheelite>.firstItem, <ore:crushedScheelite>, 10); #Scheelite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSheldonite>.firstItem, <ore:crushedSheldonite>, 10); #Sheldonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSilicon>.firstItem, <ore:crushedSilicon>, 10); #Silicon
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSiliconDioxide>.firstItem, <ore:crushedSiliconDioxide>, 10); #Silicon Dioxide
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSkaergaarditeS>.firstItem, <ore:crushedSkaergaarditeS>, 10); #Skaergaardite-S
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSperrylite>.firstItem, <ore:crushedSperrylite>, 10); #Sperrylite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSpessartine>.firstItem, <ore:crushedSpessartine>, 10); #Spessartine
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSilver>.firstItem, <ore:crushedSilver>, 10); #Silver
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSodium>.firstItem, <ore:crushedSodium>, 10); #Sodium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSpodumene>.firstItem, <ore:crushedSpodumene>, 10); #Spodumene
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSphalerite>.firstItem, <ore:crushedSphalerite>, 10); #Sphalerite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedStibnite>.firstItem, <ore:crushedStibnite>, 10); #Stibnite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedSulfur>.firstItem, <ore:crushedSulfur>, 10); #Sulfur
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTantalite>.firstItem, <ore:crushedTantalite>, 10); #Tantalite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTantalum>.firstItem, <ore:crushedTantalum>, 10); #Tantalum
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTetrahedrite>.firstItem, <ore:crushedTetrahedrite>, 10); #Tetrahedrite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTin>.firstItem, <ore:crushedTin>, 10); #Tin
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTitanium>.firstItem, <ore:crushedTitanium>, 10); #Titanium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedThorite>.firstItem, <ore:crushedThorite>, 10); #Thorite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedThorium>.firstItem, <ore:crushedThorium>, 10); #Thorium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTungstate>.firstItem, <ore:crushedTungstate>, 10); #Tungstate
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedTungsten>.firstItem, <ore:crushedTungsten>, 10); #Tungsten
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUraninite>.firstItem, <ore:crushedUraninite>, 10); #Uraninite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUranium>.firstItem, <ore:crushedUranium>, 10); #Uranium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUvarovite>.firstItem, <ore:crushedUvarovite>, 10); #Uvarovite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedUytenbogaardtite>.firstItem, <ore:crushedUytenbogaardtite>, 10); #Uytenbogaardtite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedVanadium>.firstItem, <ore:crushedVanadium>, 10); #Vanadium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedVanadiumMagnetite>.firstItem, <ore:crushedVanadiumMagnetite>, 10); #VanadiumMagnetite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXanthoconite>.firstItem, <ore:crushedXanthonoconite>, 10); #Xanthoconite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXenotime>.firstItem, <ore:crushedXenotime>, 10); #Xenotime
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXifengite>.firstItem, <ore:crushedXifengite>, 10); #Xifengite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedXilingolite>.firstItem, <ore:crushedXilingolite>, 10); #Xilingolite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedGarnetYellow>.firstItem, <ore:crushedGarnetYellow>, 10); #Garnet Yellow
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedYellowLimonite>.firstItem, <ore:crushedYellowLimonite>, 10); #YellowLimonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedYttrium>.firstItem, <ore:crushedYttrium>, 10); #Yttrium
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedWolframite>.firstItem, <ore:crushedWolframite>, 10); #Wolframite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedWulfenite>.firstItem, <ore:crushedWulfenite>, 10); #Wulfenite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedWollastonite>.firstItem, <ore:crushedWollastonite>, 10); #Wollastonite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedZinc>.firstItem, <ore:crushedZinc>, 10); #Zinc
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedZircon>.firstItem, <ore:crushedZircon>, 10); #Zircon
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedZirconium>.firstItem, <ore:crushedZirconium>, 10); #Zirconium
+for input in oreInput {
+	var oreCrushed as IItemStack  = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack  = oreDict["crushedPurified"~input].firstItem;
+	var oreDust as IItemStack  = oreDict["dust"~input].firstItem;
+	var oreDustImpure as IItemStack  = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack  = oreDict["dustPure"~input].firstItem;
 
-#dust purification
-#mods.botania.ManaInfusion.addInfusion(<ore:dust>.firstItem, <ore:dustImpure>, 10); #
-mods.botania.ManaInfusion.addInfusion(<ore:dustAlmandine>.firstItem, <ore:dustImpureAlmandine>, 10); #Almandine
-mods.botania.ManaInfusion.addInfusion(<ore:dustAluminium>.firstItem, <ore:dustImpureAluminium>, 10); #Aluminium
-mods.botania.ManaInfusion.addInfusion(<ore:dustAntimony>.firstItem, <ore:dustImpureAntimony>, 10); #Antimony
-mods.botania.ManaInfusion.addInfusion(<ore:dustBandedIron>.firstItem, <ore:dustImpureBandedIron>, 10); #BandedIron
-mods.botania.ManaInfusion.addInfusion(<ore:dustBastnasite>.firstItem, <ore:dustImpureBastnasite>, 10); #Bastnasite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBauxite>.firstItem, <ore:dustImpureBauxite>, 10); #Bauxite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBertrandite>.firstItem, <ore:dustImpureBertrandite>, 10); #Bertrandite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBerryite>.firstItem, <ore:dustImpureBerryite>, 10); #Berryite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBeryllium>.firstItem, <ore:dustImpureBeryllium>, 10); #Beryllium
-mods.botania.ManaInfusion.addInfusion(<ore:dustBiotite>.firstItem, <ore:dustImpureBiotite>, 10); #Biotite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBismuth>.firstItem, <ore:dustImpureBismuth>, 10); #Bismuth
-mods.botania.ManaInfusion.addInfusion(<ore:dustBismuthinite>.firstItem, <ore:dustImpureBismuthinite>, 10); #Bismuthinite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBornite>.firstItem, <ore:dustImpureBornite>, 10); #Bornite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBowieite>.firstItem, <ore:dustImpureBowieite>, 10); #Bowieite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBowieiteIr>.firstItem, <ore:dustImpureBowieiteIr>, 10); #Bowieite-Ir
-mods.botania.ManaInfusion.addInfusion(<ore:dustBraggite>.firstItem, <ore:dustImpureBraggite>, 10); #Braggite
-mods.botania.ManaInfusion.addInfusion(<ore:crushedPurifiedBrannerite>.firstItem, <ore:crushedBrannerite>, 10); #Brannerite
-mods.botania.ManaInfusion.addInfusion(<ore:dustBrownLimonite>.firstItem, <ore:dustImpureBrownLimonite>, 10); #BrownLimonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustCarbon>.firstItem, <ore:dustImpureCarbon>, 10); #Carbon
-mods.botania.ManaInfusion.addInfusion(<ore:dustCassiterite>.firstItem, <ore:dustImpureCassiterite>, 10); #Cassiterite
-mods.botania.ManaInfusion.addInfusion(<ore:dustChalcocite>.firstItem, <ore:dustImpureChalcocite>, 10); #Chalcocite
-mods.botania.ManaInfusion.addInfusion(<ore:dustChalcopyrite>.firstItem, <ore:dustImpureChalcopyrite>, 10); #Chalcopyrite
-mods.botania.ManaInfusion.addInfusion(<ore:dustChrome>.firstItem, <ore:dustImpureChrome>, 10); #Chrome
-mods.botania.ManaInfusion.addInfusion(<ore:dustChromite>.firstItem, <ore:dustImpureChromite>, 10); #Chromite
-mods.botania.ManaInfusion.addInfusion(<ore:dustCinnabar>.firstItem, <ore:dustImpureCinnabar>, 10); #Cinnabar
-mods.botania.ManaInfusion.addInfusion(<ore:dustCoal>.firstItem, <ore:dustImpureCoal>, 10); #Coal
-mods.botania.ManaInfusion.addInfusion(<ore:dustCobalt>.firstItem, <ore:dustImpureCobalt>, 10); #Cobalt
-mods.botania.ManaInfusion.addInfusion(<ore:dustCobaltite>.firstItem, <ore:dustImpureCobaltite>, 10); #Cobaltite
-mods.botania.ManaInfusion.addInfusion(<ore:dustCoffinite>.firstItem, <ore:dustImpureCoffinite>, 10); #Coffinite
-mods.botania.ManaInfusion.addInfusion(<ore:dustCooperite>.firstItem, <ore:dustImpureCooperite>, 10); #Cooperite
-mods.botania.ManaInfusion.addInfusion(<ore:dustCopper>.firstItem, <ore:dustImpureCopper>, 10); #Copper
-mods.botania.ManaInfusion.addInfusion(<ore:dustElectrotine>.firstItem, <ore:dustImpureElectrotine>, 10); #Electrotine
-mods.botania.ManaInfusion.addInfusion(<ore:dustDiamond>.firstItem, <ore:dustImpureDiamond>, 10); #Diamond
-mods.botania.ManaInfusion.addInfusion(<ore:dustEmerald>.firstItem, <ore:dustImpureEmerald>, 10); #Emerald
-mods.botania.ManaInfusion.addInfusion(<ore:dustEuclase>.firstItem, <ore:dustImpureEuclase>, 10); #Euclase
-mods.botania.ManaInfusion.addInfusion(<ore:dustFerberite>.firstItem, <ore:dustImpureFerberite>, 10); #Ferberite
-mods.botania.ManaInfusion.addInfusion(<ore:dustFergusonite>.firstItem, <ore:dustImpureFergusonite>, 10); #Fergusonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustGadolinite>.firstItem, <ore:dustImpureGadolinite>, 10); #Gadolinite
-mods.botania.ManaInfusion.addInfusion(<ore:dustGalena>.firstItem, <ore:dustImpureGalena>, 10); #Galena
-mods.botania.ManaInfusion.addInfusion(<ore:dustGarnierite>.firstItem, <ore:dustImpureGarnierite>, 10); #Garnierite
-mods.botania.ManaInfusion.addInfusion(<ore:dustGold>.firstItem, <ore:dustImpureGold>, 10); #Gold
-mods.botania.ManaInfusion.addInfusion(<ore:dustGoslarite>.firstItem, <ore:dustImpureGoslarite>, 10); #Goslarite
-mods.botania.ManaInfusion.addInfusion(<ore:dustGreenSapphire>.firstItem, <ore:dustImpureGreenSapphire>, 10); #GreenSapphire
-mods.botania.ManaInfusion.addInfusion(<ore:dustHubnerite>.firstItem, <ore:dustImpureHubnerite>, 10); #Hubnerite
-mods.botania.ManaInfusion.addInfusion(<ore:dustHuttonite>.firstItem, <ore:dustImpureHuttonite>, 10); #Huttonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustIlmenite>.firstItem, <ore:dustImpureIlmenite>, 10); #Ilmenite
-mods.botania.ManaInfusion.addInfusion(<ore:dustIridium>.firstItem, <ore:dustImpureIridium>, 10); #Iridium
-mods.botania.ManaInfusion.addInfusion(<ore:dustIron>.firstItem, <ore:dustImpureIron>, 10); #Iron
-mods.botania.ManaInfusion.addInfusion(<ore:dustKaolinite>.firstItem, <ore:dustImpureKaolinite>, 10); #Kaolinite
-mods.botania.ManaInfusion.addInfusion(<ore:dustLapis>.firstItem, <ore:dustImpureLapis>, 10); #Lapis
-mods.botania.ManaInfusion.addInfusion(<ore:dustLazurite>.firstItem, <ore:dustImpureLazurite>, 10); #Lazurite
-mods.botania.ManaInfusion.addInfusion(<ore:dustLead>.firstItem, <ore:dustImpureLead>, 10); #Lead
-mods.botania.ManaInfusion.addInfusion(<ore:dustLepidolite>.firstItem, <ore:dustImpureLepidolite>, 10); #Lepidolite
-mods.botania.ManaInfusion.addInfusion(<ore:dustLignite>.firstItem, <ore:dustImpureLignite>, 10); #Lignite
-mods.botania.ManaInfusion.addInfusion(<ore:dustLithium>.firstItem, <ore:dustImpureLithium>, 10); #Lithium
-mods.botania.ManaInfusion.addInfusion(<ore:dustMagnetite>.firstItem, <ore:dustImpureMagnetite>, 10); #Magnetite
-mods.botania.ManaInfusion.addInfusion(<ore:dustMagnesite>.firstItem, <ore:dustImpureMagnesite>, 10); #Magnesite
-mods.botania.ManaInfusion.addInfusion(<ore:dustMagnesium>.firstItem, <ore:dustImpureMagnesium>, 10); #Magnesium
-mods.botania.ManaInfusion.addInfusion(<ore:dustManganese>.firstItem, <ore:dustImpureManganese>, 10); #Manganese
-mods.botania.ManaInfusion.addInfusion(<ore:dustMalachite>.firstItem, <ore:dustImpureMalachite>, 10); #Malachite
-mods.botania.ManaInfusion.addInfusion(<ore:dustMolybdenite>.firstItem, <ore:dustImpureMolybdenite>, 10); #Molybdenite
-mods.botania.ManaInfusion.addInfusion(<ore:dustMolybdenum>.firstItem, <ore:dustImpureMolybdenum>, 10); #Molybdenum
-mods.botania.ManaInfusion.addInfusion(<ore:dustMonazite>.firstItem, <ore:dustImpureMonazite>, 10); #Monazite
-mods.botania.ManaInfusion.addInfusion(<ore:dustMonaziteNd>.firstItem, <ore:dustImpureMonaziteNd>, 10); #MonaziteNd
-mods.botania.ManaInfusion.addInfusion(<ore:dustNaquadah>.firstItem, <ore:dustImpureNaquadah>, 10); #Naquadah
-mods.botania.ManaInfusion.addInfusion(<ore:dustNaquadite>.firstItem, <ore:dustImpureNaquadite>, 10); #Naquadite
-mods.botania.ManaInfusion.addInfusion(<ore:dustNaquarrite>.firstItem, <ore:dustImpureNaquarrite>, 10); #Naquarrite
-mods.botania.ManaInfusion.addInfusion(<ore:dustNaqulinite>.firstItem, <ore:dustImpureNaqulinite>, 10); #Naqulinite
-mods.botania.ManaInfusion.addInfusion(<ore:dustNeodymium>.firstItem, <ore:dustImpureNeodymium>, 10); #Neodymium
-mods.botania.ManaInfusion.addInfusion(<ore:dustNetherQuartz>.firstItem, <ore:dustImpureNetherQuartz>, 10); #NetherQuartz
-mods.botania.ManaInfusion.addInfusion(<ore:dustNickel>.firstItem, <ore:dustImpureNickel>, 10); #Nickel
-mods.botania.ManaInfusion.addInfusion(<ore:dustPalladium>.firstItem, <ore:dustImpurePalladium>, 10); #Palladium
-mods.botania.ManaInfusion.addInfusion(<ore:dustPentlandite>.firstItem, <ore:dustImpurePentlandite>, 10); #Pentlandite
-mods.botania.ManaInfusion.addInfusion(<ore:dustPitchblende>.firstItem, <ore:dustImpurePitchblende>, 10); #Pitchblende
-mods.botania.ManaInfusion.addInfusion(<ore:dustPlatinum>.firstItem, <ore:dustImpurePlatinum>, 10); #Platinum
-mods.botania.ManaInfusion.addInfusion(<ore:dustPotassium>.firstItem, <ore:dustImpurePotassium>, 10); #Potassium
-mods.botania.ManaInfusion.addInfusion(<ore:dustPotassiumFeldspar>.firstItem, <ore:dustImpurePotassiumFeldspar>, 10); #Potassium Feldspar
-mods.botania.ManaInfusion.addInfusion(<ore:dustPowellite>.firstItem, <ore:dustImpurePowellite>, 10); #Powellite
-mods.botania.ManaInfusion.addInfusion(<ore:dustPsudobrookite>.firstItem, <ore:dustImpurePsudobrookite>, 10); #Psudobrookite
-mods.botania.ManaInfusion.addInfusion(<ore:dustPyrite>.firstItem, <ore:dustImpurePyrite>, 10); #Pyrite
-mods.botania.ManaInfusion.addInfusion(<ore:dustPyrolusite>.firstItem, <ore:dustImpurePyrolusite>, 10); #Pyrolusite
-mods.botania.ManaInfusion.addInfusion(<ore:dustPyrope>.firstItem, <ore:dustImpurePyrope>, 10); #Pyrope
-mods.botania.ManaInfusion.addInfusion(<ore:dustQuartzite>.firstItem, <ore:dustImpureQuartzite>, 10); #Quartzite
-mods.botania.ManaInfusion.addInfusion(<ore:dustRareEarth>.firstItem, <ore:dustImpureRareEarth>, 10); #RareEarth
-mods.botania.ManaInfusion.addInfusion(<ore:dustGarnetRed>.firstItem, <ore:dustImpureGarnetRed>, 10); #Red Garnet
-mods.botania.ManaInfusion.addInfusion(<ore:dustRedstone>.firstItem, <ore:dustImpureRedstone>, 10); #Redstone
-mods.botania.ManaInfusion.addInfusion(<ore:dustRockSalt>.firstItem, <ore:dustImpureRockSalt>, 10); #RockSalt
-mods.botania.ManaInfusion.addInfusion(<ore:dustRuby>.firstItem, <ore:dustImpureRuby>, 10); #Ruby
-mods.botania.ManaInfusion.addInfusion(<ore:dustSalt>.firstItem, <ore:dustImpureSalt>, 10); #Salt
-mods.botania.ManaInfusion.addInfusion(<ore:dustSapphire>.firstItem, <ore:dustImpureSapphire>, 10); #Sapphire
-mods.botania.ManaInfusion.addInfusion(<ore:dustScheelite>.firstItem, <ore:dustImpureScheelite>, 10); #Scheelite
-mods.botania.ManaInfusion.addInfusion(<ore:dustSheldonite>.firstItem, <ore:dustImpureSheldonite>, 10); #Sheldonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustSkaergaarditeS>.firstItem, <ore:dustImpureSkaergaardite>, 10); #Skaergaardite-S
-mods.botania.ManaInfusion.addInfusion(<ore:dustSperrylite>.firstItem, <ore:dustImpureSperrylite>, 10); #Sperrylite
-mods.botania.ManaInfusion.addInfusion(<ore:dustSpessartine>.firstItem, <ore:dustImpureSpessartine>, 10); #Spessartine
-mods.botania.ManaInfusion.addInfusion(<ore:dustSilicon>.firstItem, <ore:dustImpureSilicon>, 10); #Silicon
-mods.botania.ManaInfusion.addInfusion(<ore:dustSiliconDioxide>.firstItem, <ore:dustImpureSiliconDioxide>, 10); #Silicon Dioxide
-mods.botania.ManaInfusion.addInfusion(<ore:dustSilver>.firstItem, <ore:dustImpureSilver>, 10); #Silver
-mods.botania.ManaInfusion.addInfusion(<ore:dustSodium>.firstItem, <ore:dustImpureSodium>, 10); #Sodium
-mods.botania.ManaInfusion.addInfusion(<ore:dustSpodumene>.firstItem, <ore:dustImpureSpodumene>, 10); #Spodumene
-mods.botania.ManaInfusion.addInfusion(<ore:dustSphalerite>.firstItem, <ore:dustImpureSphalerite>, 10); #Sphalerite
-mods.botania.ManaInfusion.addInfusion(<ore:dustStibnite>.firstItem, <ore:dustImpureStibnite>, 10); #Stibnite
-mods.botania.ManaInfusion.addInfusion(<ore:dustSulfur>.firstItem, <ore:dustImpureSulfur>, 10); #Sulfur
-mods.botania.ManaInfusion.addInfusion(<ore:dustTantalite>.firstItem, <ore:dustImpureTantalite>, 10); #Tantalite
-mods.botania.ManaInfusion.addInfusion(<ore:dustTantalum>.firstItem, <ore:dustImpureTantalum>, 10); #Tantalum
-mods.botania.ManaInfusion.addInfusion(<ore:dustTetrahedrite>.firstItem, <ore:dustImpureTetrahedrite>, 10); #Tetrahedrite
-mods.botania.ManaInfusion.addInfusion(<ore:dustTin>.firstItem, <ore:dustImpureTin>, 10); #Tin
-mods.botania.ManaInfusion.addInfusion(<ore:dustTitanium>.firstItem, <ore:dustImpureTitanium>, 10); #Titanium
-mods.botania.ManaInfusion.addInfusion(<ore:dustThorite>.firstItem, <ore:dustImpureThorite>, 10); #Thorite
-mods.botania.ManaInfusion.addInfusion(<ore:dustThorium>.firstItem, <ore:dustImpureThorium>, 10); #Thorium
-mods.botania.ManaInfusion.addInfusion(<ore:dustTungstate>.firstItem, <ore:dustImpureTungstate>, 10); #Tungstate
-mods.botania.ManaInfusion.addInfusion(<ore:dustTungsten>.firstItem, <ore:dustImpureTungsten>, 10); #Tungsten
-mods.botania.ManaInfusion.addInfusion(<ore:dustUraninite>.firstItem, <ore:dustImpureUraninite>, 10); #Uraninite
-mods.botania.ManaInfusion.addInfusion(<ore:dustUranium>.firstItem, <ore:dustImpureUranium>, 10); #Uranium
-mods.botania.ManaInfusion.addInfusion(<ore:dustUvarovite>.firstItem, <ore:dustImpureUvarovite>, 10); #Uvarovite
-mods.botania.ManaInfusion.addInfusion(<ore:dustUytenbogaardtite>.firstItem, <ore:dustImpureUytenbogaardtite>, 10); #Uytenbogaardtite
-mods.botania.ManaInfusion.addInfusion(<ore:dustVanadium>.firstItem, <ore:dustImpureVanadium>, 10); #Vanadium
-mods.botania.ManaInfusion.addInfusion(<ore:dustVanadiumMagnetite>.firstItem, <ore:dustImpureVanadiumMagmetite>, 10); #VanadiumMagnetite
-mods.botania.ManaInfusion.addInfusion(<ore:dustWulfenite>.firstItem, <ore:dustImpureWulfenite>, 10); #Wulfenite
-mods.botania.ManaInfusion.addInfusion(<ore:dustWollastonite>.firstItem, <ore:dustImpureWollastonite>, 10); #Wollastonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustXanthoconite>.firstItem, <ore:dustImpureXanthoconite>, 10); #Xanthoconite
-mods.botania.ManaInfusion.addInfusion(<ore:dustXenotime>.firstItem, <ore:dustImpureXenotime>, 10); #Xenotime
-mods.botania.ManaInfusion.addInfusion(<ore:dustXifengite>.firstItem, <ore:dustImpureXifengite>, 10); #Xifengite
-mods.botania.ManaInfusion.addInfusion(<ore:dustXilingolite>.firstItem, <ore:dustImpureXilingolite>, 10); #Xilingolite
-mods.botania.ManaInfusion.addInfusion(<ore:dustGarnetYellow>.firstItem, <ore:dustImpureGarnetYellow>, 10); #Garnet Yellow
-mods.botania.ManaInfusion.addInfusion(<ore:dustYellowLimonite>.firstItem, <ore:dustImpureYellowLimonite>, 10); #YellowLimonite
-mods.botania.ManaInfusion.addInfusion(<ore:dustYttrium>.firstItem, <ore:dustImpureYttrium>, 10); #Yttrium
-mods.botania.ManaInfusion.addInfusion(<ore:dustZinc>.firstItem, <ore:dustImpureZinc>, 10); #Zinc
-mods.botania.ManaInfusion.addInfusion(<ore:dustZircon>.firstItem, <ore:dustImpureZircon>, 10); #Zircon
-mods.botania.ManaInfusion.addInfusion(<ore:dustZirconium>.firstItem, <ore:dustImpureZirconium>, 10); #Zirconium
-
+mods.botania.ManaInfusion.addInfusion(oreCrushedPurified, oreCrushed, 10);
+mods.botania.ManaInfusion.addInfusion(oreDust, oreDustImpure, 10);
+mods.botania.ManaInfusion.addInfusion(oreDust, oreDustPure, 10);
+}
 
 #---pure daisy---
 #script <input> <output>

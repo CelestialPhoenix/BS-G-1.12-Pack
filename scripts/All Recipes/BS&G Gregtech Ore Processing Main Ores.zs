@@ -16,13 +16,13 @@ val centrifuge as RecipeMap = RecipeMap.getByName("centrifuge");
 val extractor as RecipeMap = RecipeMap.getByName("extractor");
 
 #---Ore List---
-
 var oreInput as string[] = [
 "Aluminium",
 "Antimony",
 "Beryllium",
 "Bismuth",
 "Cadmium",
+"Caesium",	
 "Calcium",
 "Carbon",
 "Chrome",
@@ -37,12 +37,14 @@ var oreInput as string[] = [
 "Magnesium",
 "Manganese",
 "Molybdenum",
+"Naquadria",	
 "Neodymium",
 "Nickel",
 "Niobium",
 "Osmium",
 "Palladium",
-"Platinum",
+"Platinum",	
+"Phosphorus",
 "Potassium",
 "Silicon",
 "Silver",
@@ -62,6 +64,7 @@ var oreInput as string[] = [
 "BlueTopaz",
 "BrownLimonite",
 "Calcite",
+"Quicklime",	
 "Cassiterite",
 "Chalcopyrite",
 "Chromite",
@@ -121,6 +124,7 @@ var oreInput as string[] = [
 "Phosphor",
 "GarnetRed",
 "GarnetYellow",
+"Andradite",	
 "Vinteum",
 "PotassiumFeldspar",
 "Biotite",
@@ -178,19 +182,39 @@ var oreInput as string[] = [
 "Xanthoconite",
 "SkaergaarditeS",
 "BowieiteIr",
-"Glassy",
-"Gallium",
-"Cadmium",
-"Eskolaite",
-"Borax",
-"Paramontroseite",
-"Caesium",
-"Naquadria",
+"Lithrage",
+"Argite",
 "Corundum",
-"Cadmite",
+"Natria",
 "Ratsbane",
+"Cobaltic",
+"Eskolaite",
+"Aurite",
+"Baria",
+"Zincite",
+"Bismite",
+"Antimonate",
+"Bromellite",
+"Paramontroseite",
+"Coltan",
 "Lithia",
-"Andradite"];
+"Didymium",
+"Cadmite",
+"Yttria",
+"Ceria",
+"Lanthana",
+"Caesite",
+"Molybdite",
+"Sheldite",
+"Pallas",
+"Baddeleyite",
+"Thorianite",
+"Iridite",
+"Columbite",
+"Naquoxiite",
+"Naquothxa",
+"Montroydite",
+"Osmiite"];
 
 var primaryByproduct as string[] = [
 "Aluminium",
@@ -198,6 +222,7 @@ var primaryByproduct as string[] = [
 "Beryllium",
 "Bismuth",
 "Cadmium",
+"Caesium",	
 "Calcium",
 "Carbon",
 "Chrome",
@@ -212,12 +237,14 @@ var primaryByproduct as string[] = [
 "Magnesium",
 "Manganese",
 "Molybdenum",
+"Naquadria",	
 "Neodymium",
 "Nickel",
 "Niobium",
 "Osmium",
 "Palladium",
-"Platinum",
+"Platinum",	
+"Phosphorus",
 "Potassium",
 "Silicon",
 "Silver",
@@ -237,6 +264,7 @@ var primaryByproduct as string[] = [
 "Topaz",
 "Malachite",
 "Andradite",
+"Calcite",	
 "Tin",
 "Pyrite",
 "Iron",
@@ -284,7 +312,7 @@ var primaryByproduct as string[] = [
 "Gold",
 "Gold",
 "Gold",
-"Carbon",
+"Graphite",
 "Coal",
 "Pyrope",
 "Tanzanite",
@@ -296,6 +324,7 @@ var primaryByproduct as string[] = [
 "Apatite",
 "Spessartine",
 "Andradite",
+"Calcite",	
 "Vinteum",
 "PotassiumFeldspar",
 "Biotite",
@@ -353,19 +382,39 @@ var primaryByproduct as string[] = [
 "Sheldite",
 "Uytenbogaardtite",
 "Osmiite",
-"Glassy",
-"Gallium",
-"Cadmium",
-"Ruby",
-"Salt",
-"VanadiumMagnetite",
-"Caesium",
-"Naquadria",
+"Lead",
+"Silver",
 "Aluminium",
-"Cadmite",
-"Cobaltite",
-"Lithia",
-"Calcite"];
+"Sodium",
+"Arsenic",
+"Cobalt",
+"Chrome",
+"Gold",
+"Baria",
+"Zinc",
+"Bismuth",
+"Antimony",
+"Beryllium",
+"Vanadium",
+"Tantalum",
+"Lithium",
+"RareEarth",
+"Cadmium",
+"Yttrium",
+"RareEarth",
+"Lanthana",
+"Caesium",
+"Molybdenum",
+"Platinum",
+"Palladium",
+"Zirconium",
+"Thorium",
+"Iridium",
+"Niobium",
+"Naquadah",
+"Naquadria",
+"Cinnabar",
+"Osmium"];
 
 var secondaryByproduct as string[] = [
 "Aluminium",
@@ -373,6 +422,7 @@ var secondaryByproduct as string[] = [
 "Beryllium",
 "Bismuth",
 "Cadmium",
+"Caesium",
 "Calcium",
 "Carbon",
 "Chrome",
@@ -387,12 +437,14 @@ var secondaryByproduct as string[] = [
 "Magnesium",
 "Manganese",
 "Molybdenum",
+"Naquadria",
 "Neodymium",
 "Nickel",
 "Niobium",
 "Osmium",
 "Palladium",
 "Platinum",
+"Phosphorus",
 "Potassium",
 "Silicon",
 "Silver",
@@ -411,8 +463,9 @@ var secondaryByproduct as string[] = [
 "BandedIron",
 "Topaz",
 "YellowLimonite",
-"Malachite",
-"Tin",
+"Quicklime",
+"Calcite",
+"Iron",
 "Cobalt",
 "Magnesium",
 "Sulfur",
@@ -436,7 +489,7 @@ var secondaryByproduct as string[] = [
 "Calcite",
 "Phosphor",
 "Tantalite",
-"Magnesium",
+"Almandine",
 "Borax",
 "GarnetRed",
 "Borax",
@@ -459,7 +512,7 @@ var secondaryByproduct as string[] = [
 "Quartzite",
 "NetherQuartz",
 "CertusQuartz",
-"Carbon",
+"Graphite",
 "Coal",
 "Magnesite",
 "Tanzanite",
@@ -471,6 +524,7 @@ var secondaryByproduct as string[] = [
 "Phosphate",
 "Pyrope",
 "Grossular",
+"GarnetYellow",
 "Vinteum",
 "PotassiumFeldspar",
 "Biotite",
@@ -528,19 +582,39 @@ var secondaryByproduct as string[] = [
 "Platinum",
 "Pallas",
 "Platinum",
-"Glassy",
-"Gallium",
-"Cadmium",
-"Chromite",
-"RockSalt",
-"Magnetite",
-"Caesium",
-"Naquadria",
+"Lead",
+"Silver",
 "GreenSapphire",
-"Cadmium",
-"Cobalt",
-"RockSalt",
-"GarnetYellow"];
+"Sodium",
+"Arsenic",
+"Garnierite",
+"Ruby",
+"Gold",
+"Baria",
+"Zinc",
+"Berryite",
+"Antimony",
+"Beryllium",
+"Vanadium",
+"Tantalite",
+"Lithium",
+"Neodymium",
+"RareEarth",
+"RareEarth",
+"RareEarth",
+"Lanthana",
+"Caesium",
+"Molybdenum",
+"Platinum",
+"Palladium",
+"Zircon",
+"Thorium",
+"Iridium",
+"RareEarth",
+"Naquadah",
+"Naquadria",
+"Redstone",
+"Osmium"];
 
 var tertiaryByproduct as string[] = [
 "Aluminium",
@@ -548,6 +622,7 @@ var tertiaryByproduct as string[] = [
 "Beryllium",
 "Bismuth",
 "Cadmium",
+"Caesium",	
 "Calcium",
 "Carbon",
 "Chrome",
@@ -562,12 +637,14 @@ var tertiaryByproduct as string[] = [
 "Magnesium",
 "Manganese",
 "Molybdenum",
+"Naquadria",	
 "Neodymium",
 "Nickel",
 "Niobium",
 "Osmium",
 "Palladium",
-"Platinum",
+"Platinum",	
+"Phosphorus",
 "Potassium",
 "Silicon",
 "Silver",
@@ -587,6 +664,7 @@ var tertiaryByproduct as string[] = [
 "Topaz",
 "Malachite",
 "Andradite",
+"Calcite",	
 "Tin",
 "Gold",
 "Iron",
@@ -605,11 +683,11 @@ var tertiaryByproduct as string[] = [
 "Gallium",
 "Sodalite",
 "Magnesium",
-"Iron",
+"BandedIron",
 "Molybdenum",
 "Phosphorus",
 "Molybdenum",
-"Iron",
+"Pyrite",
 "Manganese",
 "GarnetRed",
 "Salt",
@@ -619,7 +697,7 @@ var tertiaryByproduct as string[] = [
 "Aluminium",
 "Calcium",
 "SiliconDioxide",
-"Lazurite",
+"Pyrite",
 "GarnetRed",
 "Gallium",
 "Cuprite",
@@ -634,7 +712,7 @@ var tertiaryByproduct as string[] = [
 "Barite",
 "Barite",
 "Barite",
-"Carbon",
+"Graphite",
 "Coal",
 "Iron",
 "Tanzanite",
@@ -646,6 +724,7 @@ var tertiaryByproduct as string[] = [
 "Apatite",
 "Almandine",
 "Uvarovite",
+"Grossular",	
 "Vinteum",
 "PotassiumFeldspar",
 "Biotite",
@@ -687,9 +766,9 @@ var tertiaryByproduct as string[] = [
 "Manganese",
 "Iridite",
 "Sulfur",
-"Yttrium",
+"Yttria",
 "Beryllium",
-"Niobium",
+"Yttria",
 "RareEarth",
 "Naquoxiite",
 "Sulfur",
@@ -703,19 +782,39 @@ var tertiaryByproduct as string[] = [
 "Iridite",
 "Bowieite",
 "Sulfur",
-"Glassy",
-"Gallium",
-"Cadmium",
-"Ruby",
-"Spodumene",
-"Magnetite",
-"Caesium",
-"Naquadria",
+"Lead",
+"Silver",
 "Sapphire",
-"Cadmite",
-"Cadmite",
-"Salt",
-"Grossular"];
+"Natria",
+"Cobaltite",
+"Cobaltite",
+"Ruby",
+"Gold",
+"Baria",
+"Zinc",
+"Bismuthinite",
+"Copper",
+"Euclase",
+"Vanadium",
+"Tantalum",
+"Lithium",
+"Neodymium",
+"RareEarth",
+"RareEarth",
+"Ceria",
+"Lanthana",
+"Caesium",
+"Molybdenum",
+"Platinum",
+"Palladium",
+"Zircon",
+"Thorium",
+"Platinum",
+"RareEarth",
+"Naquadah",
+"Naquadria",
+"Redstone",
+"Iridite"];
 
 var quaternaryByproduct as string[] = [
 "Aluminium",
@@ -723,6 +822,7 @@ var quaternaryByproduct as string[] = [
 "Beryllium",
 "Bismuth",
 "Cadmium",
+"Caesium",	
 "Calcium",
 "Carbon",
 "Chrome",
@@ -737,12 +837,14 @@ var quaternaryByproduct as string[] = [
 "Magnesium",
 "Manganese",
 "Molybdenum",
+"Naquadria",	
 "Neodymium",
 "Nickel",
 "Niobium",
 "Osmium",
 "Palladium",
-"Platinum",
+"Platinum",	
+"Phosphorus",
 "Potassium",
 "Silicon",
 "Silver",
@@ -755,19 +857,20 @@ var quaternaryByproduct as string[] = [
 "Tungsten",
 "Uranium",
 "Vanadium",
-"Yttrium",
+"Yttria",
 "Zinc",
 "Corundum",
 "BandedIron",
 "Topaz",
 "BandedIron",
 "Malachite",
+"Quicklime",	
 "Cassiterite",
 "Cadmite",
 "Eskolaite",
 "Ruby",
 "Coal",
-"Cobaltite",
+"Cobaltic",
 "Iridite",
 "Diamond",
 "Emerald",
@@ -784,14 +887,14 @@ var quaternaryByproduct as string[] = [
 "Molybdenite",
 "Phosphorus",
 "Molybdenite",
-"Pyrite",
+"Chalcopyrite",
 "Pyrolusite",
-"Magnesium",
+"Magnesite",
 "Lepidolite",
 "Eskolaite",
 "Borax",
 "Saltpeter",
-"GreenSapphire",
+"Corundum",
 "Tungstate",
 "SiliconDioxide",
 "Lapis",
@@ -799,17 +902,17 @@ var quaternaryByproduct as string[] = [
 "Zinc",
 "Antimonate",
 "Opal",
-"Zinc",
+"Zincite",
 "BlueTopaz",
 "Tungstate",
 "Uraninite",
 "Eskolaite",
 "Molybdenite",
-"Iron",
+"BandedIron",
 "Gold",
 "Gold",
 "Gold",
-"Carbon",
+"Graphite",
 "Coal",
 "Emerald",
 "Tanzanite",
@@ -821,6 +924,7 @@ var quaternaryByproduct as string[] = [
 "Phosphate",
 "Pyrolusite",
 "Eskolaite",
+"Uvarovite",	
 "Vinteum",
 "PotassiumFeldspar",
 "Biotite",
@@ -830,8 +934,8 @@ var quaternaryByproduct as string[] = [
 "Corundum",
 "Cadmite",
 "Uraninite",
-"Neodymium",
-"Copper",
+"Didymium",
+"Cuprite",
 "Baria",
 "Wollastonite",
 "Kaolinite",
@@ -847,50 +951,70 @@ var quaternaryByproduct as string[] = [
 "Chalcocite",
 "Zirconium",
 "Beryllium",
-"Aluminium",
+"Corundum",
 "Emerald",
-"Coffinite",
-"Lead",
-"Huttonite",
+"Thorianite",
+"Uraninite",
+"Thorianite",
 "Uraninite",
 "Bauxite",
-"Platinum",
+"Sheldite",
 "Garnierite",
 "Uraninite",
-"Manganese",
-"Lithium",
-"Manganese",
+"Pyrolusite",
+"Tungstate",
+"Pyrolusite",
 "Bowieite",
 "Iridite",
-"Yttrium",
+"Yttria",
 "Beryllium",
-"Niobium",
+"Columbite",
 "Yttrium",
 "Naquothxa",
 "NaquadahEnriched",
 "Naquothxa",
 "NaquadahEnriched",
 "NaquadahEnriched",
-"Copper",
-"Tin",
+"Bismite",
+"Bismite",
 "Gallium",
 "Bowieite",
 "Osmiite",
 "BowieiteIr",
 "Osmiite",
-"Glassy",
-"Gallium",
-"Cadmium",
-"Chromite",
-"Lepidolite",
-"Vanadium",
-"Caesium",
-"Naquadria",
+"Silver",
+"Lead",
 "Ruby",
-"Cuprite",
-"Cobaltite",
-"Lithia",
-"Uvarovite"];
+"Natria",
+"Ratsbane",
+"Cobaltic",
+"Eskolaite",
+"Gold",
+"Baria",
+"Gallium",
+"Bismite",
+"Antimonate",
+"Emerald",
+"Paramontroseite",
+"Tantalite",
+"Lithium",
+"Didymium",
+"Cadmite",
+"Yttria",
+"Ceria",
+"Lanthana",
+"Caesite",
+"Molybdite",
+"Sheldite",
+"Pallas",
+"Baddeleyite",
+"Thorianite",
+"Iridite",
+"Columbite",
+"NaquadahEnriched",
+"NaquadahEnriched",
+"Montroydite",
+"Osmiite"];
 
 #---Macerator---
 for i, input in oreInput {
@@ -1050,7 +1174,9 @@ macerator
 for i, input in oreInput {
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
 	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+	var oreOutput as IItemStack = oreDict["dustTiny"~input].firstItem;
 	var firstByproduct as IItemStack = oreDict["dustTiny"~primaryByproduct[i]].firstItem;
+	var dustFirstByproduct as IItemStack = oreDict["dust"~primaryByproduct[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["dustTiny"~secondaryByproduct[i]].firstItem;
 	var thirdByproduct as IItemStack = oreDict["dustTiny"~tertiaryByproduct[i]].firstItem;
 	var fourthByproduct as IItemStack = oreDict["dustTiny"~quaternaryByproduct[i]].firstItem;
@@ -1060,7 +1186,7 @@ washer
     .recipeBuilder()
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:water>*1000)
-    .outputs([oreCrushedPurified, firstByproduct*3, <ore:dustStone>.firstItem])
+    .outputs([oreCrushedPurified, firstByproduct*1, <ore:dustStone>.firstItem])
     .duration(400)
     .EUt(16)
     .buildAndRegister();
@@ -1070,9 +1196,46 @@ washer
     .recipeBuilder()
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:distilled_water>*1000)
-    .outputs([oreCrushedPurified, firstByproduct*3, <ore:dustStone>.firstItem])
+    .outputs([oreCrushedPurified, firstByproduct*1, <ore:dustStone>.firstItem])
     .duration(320)
     .EUt(12)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:mana>*100)
+    .outputs([oreCrushedPurified, oreOutput*1, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(30)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:luck>*100)
+    .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
+	.chancedOutput(dustFirstByproduct, 7000, 1000)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:distilled_coralium>*100)
+    .outputs([oreCrushedPurified, secondByproduct*2, thirdByproduct*2])
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:refined_antimatter>*100)
+    .outputs([oreCrushedPurified, oreOutput*2, fourthByproduct*2])
+    .duration(400)
+    .EUt(500)
     .buildAndRegister();
 }
 
@@ -1090,7 +1253,7 @@ thermalCentrifuge.findRecipe(60, [oreCrushed], null).remove();
 thermalCentrifuge
     .recipeBuilder()
     .inputs(oreCrushed)
-    .outputs([oreCrushedCentrifuged, firstByproduct*3])
+    .outputs([oreCrushedCentrifuged, firstByproduct*1])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
@@ -1099,13 +1262,13 @@ thermalCentrifuge.findRecipe(60, [oreCrushedPurified], null).remove();
 thermalCentrifuge
     .recipeBuilder()
     .inputs(oreCrushedPurified)
-    .outputs([oreCrushedCentrifuged, secondByproduct*3])
+    .outputs([oreCrushedCentrifuged, secondByproduct*1])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
 }
 
-#---Thermal Centrifuge---
+#---Centrifuge---
 for i, input in oreInput {
 	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
 	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
@@ -1117,7 +1280,7 @@ centrifuge.findRecipe(24, [oreDustImpure], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(oreDustImpure)
-    .outputs([oreDust, thirdByproduct*3])
+    .outputs([oreDust, thirdByproduct*1])
     .duration(252)
     .EUt(24)
     .buildAndRegister();
@@ -1126,7 +1289,7 @@ centrifuge.findRecipe(5, [oreDustPure], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(oreDustPure)
-    .outputs([oreDust, secondByproduct*3])
+    .outputs([oreDust, secondByproduct*1])
     .duration(252)
     .EUt(5)
     .buildAndRegister();
@@ -1300,7 +1463,7 @@ washer
     .recipeBuilder()
     .inputs(<ore:crushedGlassy>.firstItem)
 	.fluidInputs(<liquid:water>*1000)
-    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustGlass>.firstItem*3, <ore:dustStone>.firstItem])
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1, <ore:dustStone>.firstItem])
     .duration(400)
     .EUt(16)
     .buildAndRegister();
@@ -1310,16 +1473,53 @@ washer
     .recipeBuilder()
     .inputs(<ore:crushedGlassy>.firstItem)
 	.fluidInputs(<liquid:distilled_water>*1000)
-    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustGlass>.firstItem*3, <ore:dustStone>.firstItem])
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1, <ore:dustStone>.firstItem])
     .duration(320)
     .EUt(12)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>.firstItem)
+	.fluidInputs(<liquid:mana>*100)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(30)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>.firstItem)
+	.fluidInputs(<liquid:luck>*100)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustStone>.firstItem])
+	.chancedOutput(<ore:dustGlass>.firstItem*1, 7000, 1000)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>.firstItem)
+	.fluidInputs(<liquid:distilled_coralium>*100)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*2, <ore:dustTinyGlass>.firstItem*2])
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedGlassy>.firstItem)
+	.fluidInputs(<liquid:refined_antimatter>*100)
+    .outputs([<ore:crushedPurifiedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*2, <ore:dustTinyGlass>.firstItem*2])
+    .duration(400)
+    .EUt(500)
     .buildAndRegister();
 
 thermalCentrifuge.findRecipe(60, [<ore:crushedGlassy>.firstItem], null).remove();
 thermalCentrifuge
     .recipeBuilder()
     .inputs(<ore:crushedGlassy>)
-    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*3])
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
@@ -1328,7 +1528,7 @@ thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedGlassy>.firstItem], null).
 thermalCentrifuge
     .recipeBuilder()
     .inputs(<ore:crushedPurifiedGlassy>)
-    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*3])
+    .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(520)
     .EUt(60)
     .buildAndRegister();
@@ -1337,7 +1537,7 @@ centrifuge.findRecipe(24, [<ore:dustImpureGlassy>.firstItem], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustImpureGlassy>)
-    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*3])
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(252)
     .EUt(24)
     .buildAndRegister();
@@ -1346,7 +1546,7 @@ centrifuge.findRecipe(5, [<ore:dustPureGlassy>.firstItem], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustPureGlassy>)
-    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*3])
+    .outputs([<ore:dustGlass>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(252)
     .EUt(5)
     .buildAndRegister();

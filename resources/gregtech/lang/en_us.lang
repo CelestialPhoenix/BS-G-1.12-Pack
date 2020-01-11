@@ -120,6 +120,12 @@ material.cracked_tar=Cracked Tar
 material.hydrocracked_tar=Hydro-Cracked Tar
 material.alkenes=Olefins
 
+material.magnetic=Magnetic
+material.toxic=Toxic
+material.luck=Pure Luck
+material.distilled_coralium=Distilled Coralium
+material.refined_antimatter=Refined Antimatter
+
 material.plagioclase=Plagioclase
 material.hornblende=Hornblende
 material.granite_pink=Pink Granite
