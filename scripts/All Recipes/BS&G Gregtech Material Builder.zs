@@ -536,6 +536,7 @@ MaterialRegistry.createFluidMaterial(696, "toxic", 0x440044, "fluid", null);
 MaterialRegistry.createFluidMaterial(697, "luck", 0xFFAAAA, "fluid", null);
 MaterialRegistry.createFluidMaterial(698, "distilled_coralium", 0x88DDDD, "fluid", null);
 MaterialRegistry.createFluidMaterial(699, "refined_antimatter", 0xEEEEEE, "fluid", null);
+val dustLustrous = MaterialRegistry.createDustMaterial(700, "lustrous", 0x332200, "shiny", 1, null);
 
 #--Mod Integration--
 #-Botania-

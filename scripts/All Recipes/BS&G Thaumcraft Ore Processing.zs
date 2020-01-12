@@ -198,3 +198,44 @@ mods.thaumcraft.Crucible.registerRecipe("oreVanadiumMagnetite", "METALPURIFICATI
 mods.thaumcraft.Crucible.registerRecipe("oreSphlaerite", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedSphalerite>, [<aspect:metallum>*15, <aspect:victus>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreGoslarite", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedGoslarite>, [<aspect:metallum>*15, <aspect:victus>*8]);
 mods.thaumcraft.Crucible.registerRecipe("oreZinc", "METALPURIFICATION", <ore:clusterZinc>.firstItem, <ore:crushedPurifiedZinc>, [<aspect:metallum>*15, <aspect:victus>*5]);
+
+#---Infernal Furnace Bonus---
+#-Rare Earths-
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterAluminium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterAntimony>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterBeryllium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterBismuth>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterCalcium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterChrome>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterCobalt>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterCopper>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterGold>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterIridium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterIron>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterLead>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterLithium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterManganese>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterMagnesium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterMolybdenum>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterNaquadah>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterNaquadria>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterNeodymium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterNickel>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterOsmium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterPalladium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterPlatinum>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterPotassium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterQuicksilver>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterSilver>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterSodium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterTantalum>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterThorium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterTin>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterTitanium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterThorium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterTungsten>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterUranium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterVanadium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterYttrium>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterZinc>.firstItem, <thaumcraft:nugget:10>%70);
+mods.thaumcraft.SmeltingBonus.addSmeltingBonus(<ore:clusterZirconium>.firstItem, <thaumcraft:nugget:10>%70);

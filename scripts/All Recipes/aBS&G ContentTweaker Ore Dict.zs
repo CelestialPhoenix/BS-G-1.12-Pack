@@ -14,6 +14,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Clathrates---
 <ore:clathrateLubricant>.add(<contenttweaker:clathratelubricant>);
+<ore:clathrateLuck>.add(<contenttweaker:clathrateluck>);
 <ore:clathrateMagnetic>.add(<contenttweaker:clathratemagnetic>);
 <ore:clathrateToxic>.add(<contenttweaker:clathratetoxic>);
 

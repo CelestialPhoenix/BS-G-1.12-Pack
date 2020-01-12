@@ -41,15 +41,14 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
 }
 
 #Cobalt-Nickel
-#This awesome looping script was modified from FTB interactions
 var cobaltnickelOre as string[] = [
 	"Garnierite",
 	"Pentlandite",
@@ -64,8 +63,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallNickel>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -84,8 +83,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -104,8 +103,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallIron>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallGold>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallGold>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -135,8 +134,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallIron>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallIron>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -160,14 +159,14 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
 }
 
-#Neodymium
+#Neodymium Rich
 var neodymiumRichOre as string[] = [
 	"MonaziteNd"
 	];
@@ -180,8 +179,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustNeodymium>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustNeodymium>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -203,8 +202,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallNickel>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallNickel>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();
@@ -225,8 +224,8 @@ separator
     .recipeBuilder()
     .inputs(dustPure)
     .outputs(dust)
-	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 7000, 1000)
-	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 7000, 1000)
+	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)
     .duration(400)
     .EUt(24)
     .buildAndRegister();

@@ -54,9 +54,23 @@ for input in gemOres {
 	var gemFlawed as IItemStack = oreDict["gemFlawed"~input].firstItem;
 	var gemChipped as IItemStack = oreDict["gemChipped"~input].firstItem;
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
-	var sifterRecipeName as string = "SifterBasicGemstones"~input;
+
+	var sifterBasicRecipeName as string = "SifterBasicGemstones"~input;
+	var sifterAdvancedRecipeName as string = "SifterAdvancedGemstones"~input;
+
+	var sifterAdvancedIIRecipeName as string = "SifterAdvancedIIGemstones"~input;
+	var sifterAdvancedIIGreedRecipeName as string = "SifterAdvancedIIGreedGemstones"~input;
+	var sifterAdvancedIIPrideRecipeName as string = "SifterAdvancedIIPrideGemstones"~input;
+
+	var sifterAdvancedIIIRecipeName as string = "SifterAdvancedIIIGemstones"~input;
+	var sifterAdvancedIIIGreedRecipeName as string = "SifterAdvancedIIIGreedGemstones"~input;
+	var sifterAdvancedIIIPrideRecipeName as string = "SifterAdvancedIIIPrideGemstones"~input;
 	
-var SifterBasicGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterRecipeName, "sifting_machine_basic", 800, 0);
+	var sifterAdvancedIVRecipeName as string = "SifterAdvancedIVGemstones"~input;
+	var sifterAdvancedIVGreedRecipeName as string = "SifterAdvancedIVGreedGemstones"~input;
+	var sifterAdvancedIVPrideRecipeName as string = "SifterAdvancedIVPrideGemstones"~input;
+	
+var SifterBasicGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterBasicRecipeName, "sifting_machine_basic", 800, 0);
 
 SifterBasicGemstones.addEnergyPerTickInput(64);
 SifterBasicGemstones.addItemInput(crushedPurified);
@@ -73,12 +87,186 @@ SifterBasicGemstones.setChance(0.28);
 SifterBasicGemstones.addItemOutput(dustPure);
 SifterBasicGemstones.setChance(0.35);
 SifterBasicGemstones.build();
+
+var SifterAdvancedGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedRecipeName, "sifting_machine_advanced", 400, 0);
+
+SifterAdvancedGemstones.addEnergyPerTickInput(256);
+SifterAdvancedGemstones.addItemInput(crushedPurified);
+SifterAdvancedGemstones.addItemOutput(gemExquisite);
+SifterAdvancedGemstones.setChance(0.036);
+SifterAdvancedGemstones.addItemOutput(gemFlawless);
+SifterAdvancedGemstones.setChance(0.138);
+SifterAdvancedGemstones.addItemOutput(gemStone);
+SifterAdvancedGemstones.setChance(0.474);
+SifterAdvancedGemstones.addItemOutput(gemFlawed);
+SifterAdvancedGemstones.setChance(0.172);
+SifterAdvancedGemstones.addItemOutput(gemChipped);
+SifterAdvancedGemstones.setChance(0.33);
+SifterAdvancedGemstones.addItemOutput(dustPure);
+SifterAdvancedGemstones.setChance(0.404);
+SifterAdvancedGemstones.build();
+
+var SifterAdvancedIIGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIRecipeName, "sifting_machine_advancedii", 200, 0);
+
+SifterAdvancedIIGemstones.addEnergyPerTickInput(1024);
+SifterAdvancedIIGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIIGemstones.setChance(0.042);
+SifterAdvancedIIGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIIGemstones.setChance(0.156);
+SifterAdvancedIIGemstones.addItemOutput(gemStone);
+SifterAdvancedIIGemstones.setChance(0.498);
+SifterAdvancedIIGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIIGemstones.setChance(0.204);
+SifterAdvancedIIGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIGemstones.setChance(0.38);
+SifterAdvancedIIGemstones.addItemOutput(dustPure);
+SifterAdvancedIIGemstones.setChance(0.456);
+SifterAdvancedIIGemstones.build();
+
+var SifterAdvancedIIGreedGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIGreedRecipeName, "sifting_machine_advancedii", 800, 0);
+
+SifterAdvancedIIGreedGemstones.addEnergyPerTickInput(1024);
+SifterAdvancedIIGreedGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIGreedGemstones.addItemInput(<ore:runeGreedB>);
+SifterAdvancedIIGreedGemstones.setChance(0.00);
+SifterAdvancedIIGreedGemstones.addItemOutput(gemStone);
+SifterAdvancedIIGreedGemstones.setChance(0.07);
+SifterAdvancedIIGreedGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIIGreedGemstones.setChance(0.80);
+SifterAdvancedIIGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIGreedGemstones.setChance(0.15);
+SifterAdvancedIIGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIIGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIIGreedGemstones.setChance(0.15);
+SifterAdvancedIIGreedGemstones.build();
+
+var SifterAdvancedIIPrideGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIPrideRecipeName, "sifting_machine_advancedii", 800, 0);
+
+SifterAdvancedIIPrideGemstones.addEnergyPerTickInput(1024);
+SifterAdvancedIIPrideGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIPrideGemstones.addItemInput(<ore:runePrideB>);
+SifterAdvancedIIPrideGemstones.setChance(0.00);
+SifterAdvancedIIPrideGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIIPrideGemstones.setChance(0.10);
+SifterAdvancedIIPrideGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIIPrideGemstones.setChance(0.20);
+SifterAdvancedIIPrideGemstones.addItemOutput(gemStone);
+SifterAdvancedIIPrideGemstones.setChance(0.60);
+SifterAdvancedIIPrideGemstones.addItemOutput(dustPure);
+SifterAdvancedIIPrideGemstones.setChance(0.05);
+SifterAdvancedIIPrideGemstones.build();
+
+var SifterAdvancedIIIGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIRecipeName, "sifting_machine_advancediii", 100, 0);
+
+SifterAdvancedIIIGemstones.addEnergyPerTickInput(4096);
+SifterAdvancedIIIGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIIGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIIIGemstones.setChance(0.048);
+SifterAdvancedIIIGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIIIGemstones.setChance(0.174);
+SifterAdvancedIIIGemstones.addItemOutput(gemStone);
+SifterAdvancedIIIGemstones.setChance(0.522);
+SifterAdvancedIIIGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIIIGemstones.setChance(0.236);
+SifterAdvancedIIIGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIIGemstones.setChance(0.43);
+SifterAdvancedIIIGemstones.addItemOutput(dustPure);
+SifterAdvancedIIIGemstones.setChance(0.512);
+SifterAdvancedIIIGemstones.build();
+
+var SifterAdvancedIIIGreedGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIGreedRecipeName, "sifting_machine_advancediii", 400, 0);
+
+SifterAdvancedIIIGreedGemstones.addEnergyPerTickInput(4096);
+SifterAdvancedIIIGreedGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIIGreedGemstones.addItemInput(<ore:runeGreedB>);
+SifterAdvancedIIIGreedGemstones.setChance(0.00);
+SifterAdvancedIIIGreedGemstones.addItemOutput(gemStone);
+SifterAdvancedIIIGreedGemstones.setChance(0.08);
+SifterAdvancedIIIGreedGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIIIGreedGemstones.setChance(0.85);
+SifterAdvancedIIIGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIIGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIIIGreedGemstones.setChance(0.25);
+SifterAdvancedIIIGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIIIGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIIIGreedGemstones.setChance(0.30);
+SifterAdvancedIIIGreedGemstones.build();
+
+var SifterAdvancedIIIPrideGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIPrideRecipeName, "sifting_machine_advancediii", 400, 0);
+
+SifterAdvancedIIIPrideGemstones.addEnergyPerTickInput(4096);
+SifterAdvancedIIIPrideGemstones.addItemInput(crushedPurified);
+SifterAdvancedIIIPrideGemstones.addItemInput(<ore:runePrideB>);
+SifterAdvancedIIIPrideGemstones.setChance(0.00);
+SifterAdvancedIIIPrideGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIIIPrideGemstones.setChance(0.11);
+SifterAdvancedIIIPrideGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIIIPrideGemstones.setChance(0.225);
+SifterAdvancedIIIPrideGemstones.addItemOutput(gemStone);
+SifterAdvancedIIIPrideGemstones.setChance(0.65);
+SifterAdvancedIIIPrideGemstones.addItemOutput(dustPure);
+SifterAdvancedIIIPrideGemstones.setChance(0.05);
+SifterAdvancedIIIPrideGemstones.build();
+
+var SifterAdvancedIVGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVRecipeName, "sifting_machine_advancediv", 50, 0);
+
+SifterAdvancedIVGemstones.addEnergyPerTickInput(16384);
+SifterAdvancedIVGemstones.addItemInput(crushedPurified);
+SifterAdvancedIVGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIVGemstones.setChance(0.054);
+SifterAdvancedIVGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIVGemstones.setChance(0.192);
+SifterAdvancedIVGemstones.addItemOutput(gemStone);
+SifterAdvancedIVGemstones.setChance(0.546);
+SifterAdvancedIVGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIVGemstones.setChance(0.268);
+SifterAdvancedIVGemstones.addItemOutput(gemChipped);
+SifterAdvancedIVGemstones.setChance(0.48);
+SifterAdvancedIVGemstones.addItemOutput(dustPure);
+SifterAdvancedIVGemstones.setChance(0.566);
+SifterAdvancedIVGemstones.build();
+
+var SifterAdvancedIVGreedGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVGreedRecipeName, "sifting_machine_advancediv", 200, 0);
+
+SifterAdvancedIVGreedGemstones.addEnergyPerTickInput(16384);
+SifterAdvancedIVGreedGemstones.addItemInput(crushedPurified);
+SifterAdvancedIVGreedGemstones.addItemInput(<ore:runeGreedB>);
+SifterAdvancedIVGreedGemstones.setChance(0.00);
+SifterAdvancedIVGreedGemstones.addItemOutput(gemStone);
+SifterAdvancedIVGreedGemstones.setChance(0.09);
+SifterAdvancedIVGreedGemstones.addItemOutput(gemFlawed);
+SifterAdvancedIVGreedGemstones.setChance(0.90);
+SifterAdvancedIVGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIVGreedGemstones.addItemOutput(gemChipped);
+SifterAdvancedIVGreedGemstones.setChance(0.35);
+SifterAdvancedIVGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIVGreedGemstones.addItemOutput(dustPure);
+SifterAdvancedIVGreedGemstones.setChance(0.45);
+SifterAdvancedIVGreedGemstones.build();
+
+var SifterAdvancedIVPrideGemstones = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVPrideRecipeName, "sifting_machine_advancediv", 200, 0);
+
+SifterAdvancedIVPrideGemstones.addEnergyPerTickInput(16384);
+SifterAdvancedIVPrideGemstones.addItemInput(crushedPurified);
+SifterAdvancedIVPrideGemstones.addItemInput(<ore:runePrideB>);
+SifterAdvancedIVPrideGemstones.setChance(0.00);
+SifterAdvancedIVPrideGemstones.addItemOutput(gemExquisite);
+SifterAdvancedIVPrideGemstones.setChance(0.12);
+SifterAdvancedIVPrideGemstones.addItemOutput(gemFlawless);
+SifterAdvancedIVPrideGemstones.setChance(0.25);
+SifterAdvancedIVPrideGemstones.addItemOutput(gemStone);
+SifterAdvancedIVPrideGemstones.setChance(0.70);
+SifterAdvancedIVPrideGemstones.addItemOutput(dustPure);
+SifterAdvancedIVPrideGemstones.setChance(0.05);
+SifterAdvancedIVPrideGemstones.build();
 }
 
 #Fix Glassy Ore
 val SifterBasicGlassy = mods.modularmachinery.RecipeBuilder.newBuilder("SifterBasicGlassy", "sifting_machine_basic", 800, 0);
 
-SifterBasicGlassy.addEnergyPerTickInput(64);
+SifterBasicGlassy.addEnergyPerTickInput(16384);
 SifterBasicGlassy.addItemInput(<ore:crushedPurifiedGlassy>);
 SifterBasicGlassy.addItemOutput(<ore:gemExquisiteGlass>);
 SifterBasicGlassy.setChance(0.03);
@@ -1100,14 +1288,19 @@ var quaternaryByproduct as string[] = [
 for i, input in oreInput {
 	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
-	var sifterRecipeName as string = "SifterBasicGravelOre"~input;
+	
+	var sifterBasicRecipeName as string = "SifterBasicGravelOre"~input;
+	var sifterAdvancedRecipeName as string = "SifterAdvancedGravelOre"~input;
+	var sifterAdvancedIIRecipeName as string = "SifterAdvancedIIGravelOre"~input;
+	var sifterAdvancedIIIRecipeName as string = "SifterAdvancedIIIGravelOre"~input;
+	var sifterAdvancedIVRecipeName as string = "SifterAdvancedIVGravelOre"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~primaryByproduct[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondaryByproduct[i]].firstItem;
 	var thirdByproduct as IItemStack = oreDict["crushed"~tertiaryByproduct[i]].firstItem;
 	var fourthByproduct as IItemStack = oreDict["crushed"~quaternaryByproduct[i]].firstItem;
 
-var SifterBasicGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterRecipeName, "sifting_machine_basic", 800, 0);
+var SifterBasicGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterBasicRecipeName, "sifting_machine_basic", 800, 0);
 
 SifterBasicGravelOre.addEnergyPerTickInput(64);
 SifterBasicGravelOre.addItemInput(oreGravel);
@@ -1124,4 +1317,76 @@ SifterBasicGravelOre.setChance(0.10);
 SifterBasicGravelOre.addItemOutput(fourthByproduct);
 SifterBasicGravelOre.setChance(0.10);
 SifterBasicGravelOre.build();
+
+var SifterAdvancedGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedRecipeName, "sifting_machine_advanced", 400, 0);
+
+SifterAdvancedGravelOre.addEnergyPerTickInput(256);
+SifterAdvancedGravelOre.addItemInput(oreGravel);
+SifterAdvancedGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedGravelOre.setChance(0.65);
+SifterAdvancedGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedGravelOre.setChance(0.60);
+SifterAdvancedGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedGravelOre.setChance(0.22);
+SifterAdvancedGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedGravelOre.setChance(0.11);
+SifterAdvancedGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedGravelOre.setChance(0.11);
+SifterAdvancedGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedGravelOre.setChance(0.11);
+SifterAdvancedGravelOre.build();
+
+var SifterAdvancedIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIRecipeName, "sifting_machine_advancedii", 200, 0);
+
+SifterAdvancedIIGravelOre.addEnergyPerTickInput(1024);
+SifterAdvancedIIGravelOre.addItemInput(oreGravel);
+SifterAdvancedIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIGravelOre.setChance(0.75);
+SifterAdvancedIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIGravelOre.setChance(0.65);
+SifterAdvancedIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIGravelOre.setChance(0.24);
+SifterAdvancedIIGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIIGravelOre.setChance(0.12);
+SifterAdvancedIIGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIIGravelOre.setChance(0.12);
+SifterAdvancedIIGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIIGravelOre.setChance(0.12);
+SifterAdvancedIIGravelOre.build();
+
+var SifterAdvancedIIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIRecipeName, "sifting_machine_advancediii", 100, 0);
+
+SifterAdvancedIIIGravelOre.addEnergyPerTickInput(4096);
+SifterAdvancedIIIGravelOre.addItemInput(oreGravel);
+SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIIGravelOre.setChance(0.85);
+SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIIGravelOre.setChance(0.70);
+SifterAdvancedIIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.26);
+SifterAdvancedIIIGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.13);
+SifterAdvancedIIIGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.13);
+SifterAdvancedIIIGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.13);
+SifterAdvancedIIIGravelOre.build();
+
+var SifterAdvancedIVGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVRecipeName, "sifting_machine_advancediv", 50, 0);
+
+SifterAdvancedIVGravelOre.addEnergyPerTickInput(16384);
+SifterAdvancedIVGravelOre.addItemInput(oreGravel);
+SifterAdvancedIVGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIVGravelOre.setChance(0.95);
+SifterAdvancedIVGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIVGravelOre.setChance(0.75);
+SifterAdvancedIVGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIVGravelOre.setChance(0.28);
+SifterAdvancedIVGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIVGravelOre.setChance(0.14);
+SifterAdvancedIVGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIVGravelOre.setChance(0.14);
+SifterAdvancedIVGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIVGravelOre.setChance(0.14);
+SifterAdvancedIVGravelOre.build();
 }

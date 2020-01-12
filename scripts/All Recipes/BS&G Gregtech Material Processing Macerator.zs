@@ -108,6 +108,16 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#-Lustrous-
+macerator
+    .recipeBuilder()
+    .inputs(<ore:itemSlagRich>)
+    .outputs(<ore:dustSlag>.firstItem)
+	.chancedOutput(<ore:dustTinyLustrous>.firstItem, 8000, 1000)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
 #-Plantballs-
 macerator
     .recipeBuilder()

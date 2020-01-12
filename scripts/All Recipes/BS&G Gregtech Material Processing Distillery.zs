@@ -143,8 +143,14 @@ Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 5})], [<liquid:fermented_biomass>*1000]).remove();
 Distillery.findRecipe(120, [<metaitem:circuit.integrated>.withTag({Configuration: 6})], [<liquid:fermented_biomass>*1000]).remove();
 
-
-
+#---New Recipes---
+Distillery
+    .recipeBuilder()
+    .fluidInputs([<liquid:liquidcoralium>*500])
+	.fluidOutputs([<liquid:distilled_coralium>*250])
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
 
 
 

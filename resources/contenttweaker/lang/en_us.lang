@@ -395,7 +395,10 @@ item.contenttweaker.itemcasingiridium.name=Iridium Item Casing
 
 item.contenttweaker.circuitgood.name=Good Circuit
 
+item.contenttweaker.clathrateantimatter.name=Antimatter Crystal
+item.contenttweaker.clathraterefinedantimatter.name=Refined Antimatter Crystal
 item.contenttweaker.clathratelubricant.name=Crystalline Lubricant
+item.contenttweaker.clathrateluck.name=Crystalline Luck
 item.contenttweaker.clathratemagnetic.name=Resonant Magnetic Crystal
 item.contenttweaker.clathratetoxic.name=Toxic Crystal
 

@@ -25,6 +25,11 @@ print("Ever wondered what the Liquid Death tastes like?");
 <ore:nuggetVoid>.remove(<thaumcraft:nugget:7>);
 <ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
 
+#Ores
+<ore:oreAmber>.remove(<thaumcraft:ore_amber>);
+<ore:oreCinnabar>.remove(<thaumcraft:ore_cinnabar>);
+<ore:oreQuartz>.remove(<thaumcraft:ore_quartz>);
+
 #Plates
 #<ore:plate>.remove(<thaumcraft:plate:>);
 <ore:plateBrass>.remove(<thaumcraft:plate:0>);

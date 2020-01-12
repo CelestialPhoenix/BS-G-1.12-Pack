@@ -70,6 +70,8 @@ mods.botania.PureDaisy.addRecipe(<minecraft:stone:5>, <minecraft:stone>); #andes
 mods.botania.PureDaisy.addRecipe(<minecraft:stone:6>, <minecraft:stone>); #andesite
 
 #---Terrasteel Agglomeration Plate---
+#Luck
+Agglomeration.addRecipe(<ore:clathrateLuck>.firstItem, [<ore:elvenPixieDust>, <ore:dustTinyLustrous>, <ore:elvenPixieDust>, <thaumcraft:nugget:10>, <ore:elvenPixieDust>], 7000);
 
 #Terrasteel
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource:0>, <botania:manaresource:1>]);

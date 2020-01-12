@@ -11,6 +11,14 @@ val FluidExtractor as RecipeMap = RecipeMap.getByName("fluid_extractor");
 #--Alchemy--
 FluidExtractor
     .recipeBuilder()
+    .inputs(<contenttweaker:clathrateluck>*1)
+	.fluidOutputs([<liquid:luck>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
     .inputs(<contenttweaker:clathratemagnetic>*1)
 	.fluidOutputs([<liquid:magnetic>*100])
     .duration(100)
@@ -19,8 +27,49 @@ FluidExtractor
 
 FluidExtractor
     .recipeBuilder()
+    .inputs(<contenttweaker:clathraterefinedantimatter>*1)
+	.fluidOutputs([<liquid:refined_antimatter>*300])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
     .inputs(<contenttweaker:clathratetoxic>*1)
 	.fluidOutputs([<liquid:toxic>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#-Primal Mana-
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:powderMana>*1)
+	.fluidOutputs([<liquid:mana>*10])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:manaString>*1)
+	.fluidOutputs([<liquid:mana>*10])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:manaPearl>*1)
+	.fluidOutputs([<liquid:mana>*50])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:manaDiamond>*1)
+	.fluidOutputs([<liquid:mana>*200])
     .duration(100)
     .EUt(24)
     .buildAndRegister();

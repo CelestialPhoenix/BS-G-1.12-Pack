@@ -44,8 +44,6 @@ chemiBath
 
 
 #Gallium
-
-#This awesome looping script was modified from FTB interactions
 var galliumOre as string[] = [
 	"Bauxite",
 	"Psudobrookite",
@@ -68,8 +66,6 @@ chemiBath
 }
 
 #Iron
-
-#This awesome looping script was modified from FTB interactions
 var ironOre as string[] = [
 	"Chalcopyrite",
 	"Chromite",
@@ -95,7 +91,6 @@ chemiBath
 }
 
 #Nickel
-#This awesome looping script was modified from FTB interactions
 var nickelOre as string[] = [
 	"Braggite",
 	"Cooperite",
@@ -146,7 +141,6 @@ chemiBath.findRecipe(8, [<ore:crushedSilver>.firstItem], [<liquid:mercury>*1000]
 chemiBath.findRecipe(8, [<ore:crushedPlatinum>.firstItem], [<liquid:mercury>*1000]).remove();
 
 #Gold
-#This awesome looping script was modified from FTB interactions
 var goldOre as string[] = [
 	"Gold",
 	"Magnetite",
@@ -271,7 +265,7 @@ chemiBath
 	.fluidInputs(<liquid:mercury>*1000)
     .outputs([oreCrushedPurified])
 	.chancedOutput(<ore:dustOsmium>.firstItem, 3500, 290)
-	.chancedOutput(<ore:dustIridium>.firstItem, 3500, 290)
+	.chancedOutput(<ore:dustIridium>.firstItem, 7000, 290)
     .duration(800)
     .EUt(8)
     .buildAndRegister();
@@ -363,7 +357,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustCobalt>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustCobalt>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -385,8 +379,8 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified])
-	.chancedOutput(<ore:dustCobalt>.firstItem, 4000, 290)
-	.chancedOutput(<ore:dustNickel>.firstItem, 4000, 290)
+	.chancedOutput(<ore:dustCobalt>.firstItem, 3500, 290)
+	.chancedOutput(<ore:dustNickel>.firstItem, 3500, 290)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -406,7 +400,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustElectrotine>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustElectrotine>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -437,7 +431,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustIron>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustIron>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -462,7 +456,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNeodymium>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustNeodymium>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -481,7 +475,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustSmallNeodymium>.firstItem*2])
-	.chancedOutput(<ore:dustNeodymium>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustNeodymium>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -504,7 +498,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNickel>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustNickel>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -526,7 +520,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:magnetic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustRedstone>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustRedstone>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -539,7 +533,9 @@ chemiBath
 var arsenicOre as string[] = [
 	"Cobaltite",
 	"Sperrylite",
-	"Xanthoconite"
+	"Xanthoconite",
+	"Arsenic",
+	"Ratsbane"
 	];
 
 for input in arsenicOre {
@@ -551,7 +547,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustArsenic>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustArsenic>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -578,28 +574,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustLead>.firstItem, 8000, 580)
-    .duration(800)
-    .EUt(400)
-    .buildAndRegister();
-}
-
-#Lead-Uranium
-var leaduraniumOre as string[] = [
-	"Pitchblende"
-	];
-
-for input in leaduraniumOre {
-	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
-	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
-
-chemiBath
-    .recipeBuilder()
-    .inputs(oreCrushed)
-	.fluidInputs(<liquid:toxic>*100)
-    .outputs([oreCrushedPurified])
-	.chancedOutput(<ore:dustLead>.firstItem, 4000, 290)
-	.chancedOutput(<ore:dustUranium>.firstItem, 4000, 290)
+	.chancedOutput(<ore:dustLead>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -608,7 +583,8 @@ chemiBath
 #Mercury
 var mercuryOre as string[] = [
 	"Cinnabar",
-	"Redstone"
+	"Redstone",
+	"Montroydite"
 	];
 
 for input in mercuryOre {
@@ -620,7 +596,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:quicksilver>.firstItem, 8000, 580)
+	.chancedOutput(<ore:quicksilver>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -642,7 +618,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNaquadah>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustNaquadah>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -662,8 +638,8 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNaquadah>.firstItem, 4000, 290)
-	.chancedOutput(<ore:dustLead>.firstItem, 4000, 290)
+	.chancedOutput(<ore:dustNaquadah>.firstItem, 3500, 290)
+	.chancedOutput(<ore:dustLead>.firstItem, 3500, 290)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -683,8 +659,8 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNaquadah>.firstItem, 4000, 290)
-	.chancedOutput(<ore:dustNaquadria>.firstItem, 4000, 290)
+	.chancedOutput(<ore:dustNaquadah>.firstItem, 3500, 290)
+	.chancedOutput(<ore:dustNaquadria>.firstItem, 3500, 290)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -705,7 +681,52 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustNaquadah>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustNaquadah>.firstItem, 7000, 580)
+    .duration(800)
+    .EUt(400)
+    .buildAndRegister();
+}
+#Thorium
+var thoriumOre as string[] = [
+	"Huttonite",
+	"Thorianite",
+	"Thorium",
+	"Monazite",
+	"MonaziteNd"
+	];
+
+for input in thoriumOre {
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+
+chemiBath
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:toxic>*100)
+    .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
+	.chancedOutput(<ore:dustThorium>.firstItem, 7000, 580)
+    .duration(800)
+    .EUt(400)
+    .buildAndRegister();
+}
+
+#Thorium-Uranium
+var thoriumUraniumOre as string[] = [
+	"Pitchblende",
+	"Thorite",
+	];
+
+for input in thoriumUraniumOre {
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+
+chemiBath
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:toxic>*100)
+    .outputs([oreCrushedPurified])
+	.chancedOutput(<ore:dustThorium>.firstItem, 3500, 580)
+	.chancedOutput(<ore:dustUranium>.firstItem, 3500, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();
@@ -716,7 +737,6 @@ var uraniumOre as string[] = [
 	"Uranium",
 	"Uraninite",
 	"Coffinite",
-	"Thorite",
 	"Brannerite"
 	];
 
@@ -729,7 +749,7 @@ chemiBath
     .inputs(oreCrushed)
 	.fluidInputs(<liquid:toxic>*100)
     .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
-	.chancedOutput(<ore:dustUranium>.firstItem, 8000, 580)
+	.chancedOutput(<ore:dustUranium>.firstItem, 7000, 580)
     .duration(800)
     .EUt(400)
     .buildAndRegister();

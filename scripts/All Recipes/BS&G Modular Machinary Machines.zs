@@ -110,7 +110,32 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 [<ore:circuitMaster>, <ore:plateTungstenSteel>, <ore:circuitMaster>]]);
 
 #---Sifting Table---
+#Basic
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_basic"}), [
 [<ore:cableGtSingleTin>, null, <ore:cableGtSingleTin>],
 [null, <ore:cableGtSingleTin>, null], 
 [<ore:circuitBasic>, <ore:plateSteel>, <ore:circuitBasic>]]);
+
+#Advanced
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_advanced"}), [
+[<ore:cableGtSingleCopper>, null, <ore:cableGtSingleCopper>],
+[null, <ore:cableGtSingleCopper>, null], 
+[<ore:circuitGood>, <ore:plateAluminium>, <ore:circuitGood>]]);
+
+#Advanced II
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_advancedii"}), [
+[<ore:cableGtSingleGold>, null, <ore:cableGtSingleGold>],
+[null, <ore:cableGtSingleGold>, null], 
+[<ore:circuitAdvanced>, <ore:plateStainlessSteel>, <ore:circuitAdvanced>]]);
+
+#Advanced III
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_advancediii"}), [
+[<ore:cableGtSingleAluminium>, null, <ore:cableGtSingleAluminium>],
+[null, <ore:cableGtSingleAluminium>, null], 
+[<ore:circuitElite>, <ore:plateTitanium>, <ore:circuitElite>]]);
+
+#Advanced IV
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:sifting_machine_advancediv"}), [
+[<ore:cableGtSinglePlatinum>, null, <ore:cableGtSinglePlatinum>],
+[null, <ore:cableGtSinglePlatinum>, null], 
+[<ore:circuitMaster>, <ore:plateTungstenSteel>, <ore:circuitMaster>]]);
