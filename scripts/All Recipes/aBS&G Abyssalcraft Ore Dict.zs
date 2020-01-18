@@ -3,6 +3,23 @@
 
 print("I'm not evil I promise");
 
+#crystals
+<ore:crystalSilica>.remove(<abyssalcraft:crystal:21>);
+<ore:crystalSiliconDioxide>.add(<abyssalcraft:crystal:21>);
+<ore:crystalAlumina>.remove(<abyssalcraft:crystal:22>);
+<ore:crystalCorundum>.add(<abyssalcraft:crystal:22>);
+
+<ore:crystalBeryllium>.add(<abyssalcraft:crystal:26>);
+<ore:crystalCalcium>.add(<abyssalcraft:crystal:27>);
+
+<ore:crystalShardSilica>.remove(<abyssalcraft:crystalshard:21>);
+<ore:crystalShardSiliconDioxide>.add(<abyssalcraft:crystalshard:21>);
+<ore:crystalShardAlumia>.remove(<abyssalcraft:crystalshard:21>);
+<ore:crystalShardCorundum>.add(<abyssalcraft:crystalshard:21>);
+
+<ore:crystalShardBeryllium>.add(<abyssalcraft:crystalshard:26>);
+<ore:crystalShardCalcium>.add(<abyssalcraft:crystalshard:27>);
+
 #dirt
 <ore:dirtDreaded>.add(<abyssalcraft:dreadlandsdirt>);
 

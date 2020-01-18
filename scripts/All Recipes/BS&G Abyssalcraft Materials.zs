@@ -20,6 +20,14 @@ recipes.remove(<abyssalcraft:copperingot>); #Copper
 recipes.addShapeless(<ore:ingotCopper>.firstItem, [<abyssalcraft:copperingot>]);
 <abyssalcraft:copperingot>.displayName="Strange Copper Ingot";
 
+#---Repurposed Materials---
+#Crystals
+<abyssalcraft:crystal:21>.displayName="Crystalline Silicon Dioxide";
+<abyssalcraft:crystal:22>.displayName="Crystalline Corundum";
+
+<abyssalcraft:crystalshard:21>.displayName="Crystalline Silicon Dioxide Shard";
+<abyssalcraft:crystalshard:22>.displayName="Crystalline Corundum Shard";
+
 #---Removed Recipes---
 
 #dusts
