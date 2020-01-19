@@ -180,8 +180,7 @@ val gemthorite = MaterialRegistry.createGemMaterial(515, "thorite", 0x744214, "g
 gemthorite.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Zircon
-#val gemzircon = MaterialRegistry.createGemMaterial(516, "zircon", 0xF1B7B7, "gem_vertical", 3, [<material:zirconium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
-val gemzircon = MaterialRegistry.createGemMaterial(516, "zircon", 0xF1B7B7, "gem_vertical", 3, null, 1.0, 0);
+val gemzircon = MaterialRegistry.createGemMaterial(516, "zircon", 0xF1B7B7, "gem_vertical", 3, [<material:zirconium>*1, <material:silicon>*1, <material:oxygen>*4], 1.0, 0);
 gemzircon.addFlags("GENERATE_ORE", "HIGH_SIFTER_OUTPUT");
 
 #Psudobrookite

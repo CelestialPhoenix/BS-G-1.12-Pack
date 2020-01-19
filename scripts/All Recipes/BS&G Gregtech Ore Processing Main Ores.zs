@@ -1033,12 +1033,17 @@ for i, input in oreInput {
 	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
 	var oreCrushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
+	var oreDustSmall as IItemStack = oreDict["dustSmall"~input].firstItem;
+	var oreDustTiny as IItemStack = oreDict["dustTiny"~input].firstItem;
 	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
 	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
 	
 	var firstByproduct as IItemStack = oreDict["dust"~primaryByproduct[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["dust"~secondaryByproduct[i]].firstItem;
 	var thirdByproduct as IItemStack = oreDict["dust"~tertiaryByproduct[i]].firstItem;
+	
+	var oreCrystal as IItemStack = oreDict["crystal"~input].firstItem;
+	var oreCrystalShard as IItemStack = oreDict["crystalShard"~input].firstItem;
 
 macerator.findRecipe(12, [oreStoneFirst], null).remove();
 macerator
@@ -1165,6 +1170,22 @@ macerator
     .inputs(oreCrushedCentrifuged)
     .outputs(oreDust*2)
 	.chancedOutput(thirdByproduct, 1400, 850)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(oreCrystal)
+    .outputs(oreDustSmall*3)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(oreCrystalShard)
+    .outputs(oreDustTiny*1)
     .duration(400)
     .EUt(12)
     .buildAndRegister();

@@ -30,7 +30,7 @@ var crystalOres as string[] = [
 "platinum",
 "silver",
 "sodium",
-"tantalum",//textured to here
+"tantalum",
 "thorium",
 "titanium",
 "tungsten",
@@ -66,7 +66,7 @@ var crystalOres as string[] = [
 "phosphate",
 "powellite",
 "pyrite",
-"pyrolusite",
+"pyrolusite",//Textures here
 "pyrope",
 "rocksalt",
 "ruby",
@@ -137,7 +137,7 @@ var crystalOres as string[] = [
 "braggite",
 "brannerite",
 "hubnerite",
-"wolframite",
+"wolframite",//textures here
 "ferberite",
 "sheldonite",
 "bowieite",
