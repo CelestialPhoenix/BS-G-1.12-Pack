@@ -7,9 +7,225 @@ import crafttweaker.oredict.IOreDictEntry;
 
 print("ooo eee ooo ah ah ting tang...");
 
-#name items
-
 #recipes
+
+#---Agglomeration Upgrade---
+#--Overworld--
+
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreBauxite>, <ore:ingotAluminium>, <ore:gemRutile>, <ore:dustBauxite>], 12000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_aluminium_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_bauxite_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreTetrahedrite>, <ore:ingotCopper>, <ore:dustCopper>, <ore:dustTetrahedrite>], 9000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_antimony_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_tetrahedrite_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreEmerald>, <ore:ingotBeryllium>, <ore:gemEmerald>, <ore:dustEmerald>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_beryllium_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_emerald_0>);
+
+#Bismuth,
+#Cadmium,
+#Caesium,
+#Calcium,
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCoal>, <ore:ingotCarbon>, <ore:gemCoal>, <ore:dustCoal>], 3000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_carbon_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_coal_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreDiamond>, <ore:ingotCarbon>, <ore:gemDiamond>, <ore:dustDiamond>], 96000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_carbon_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_diamond_0>);
+
+#Chrome
+#mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreEskolaite>, <ore:ingotChrome>, <ore:dustEskolaite>, <ore:dustChrome>], 3000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_chrome_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_eskolaite_0>);
+
+#Cobalt
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreTetrahedrite>, <ore:ingotAntimony>, <ore:ingotCopper>, <ore:dustTetrahedrite>], 9000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_copper_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_tetrahedrite_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreUytenbogaardtite>, <ore:ingotGold>, <ore:ingotSilver>, <ore:gemUytenbogaardtite>], 36000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_gold_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_uytenbogaardtite_0>);
+
+#Iridium
+
+#Iron- Chalcopyrite, Chromite, Ferberite, 
+
+/*
+Lead- Berryite, Wulfenite, Pitchblende, Xilingolite
+Lithium,
+Magnesium,
+Manganese,
+Molybdenum,
+Naquadria,
+Neodymium,
+Nickel,
+Niobium,
+Osmium,
+Palladium,
+Platinum,
+Phosphorus,
+Potassium,
+Silicon,
+Silver,
+Sodium,
+Sulfur,
+Tantalum,
+Thorium,
+Tin,
+Titanium,
+Tungsten,
+Uranium,
+Vanadium,
+Yttrium,
+Zinc,
+Almandine,
+BandedIron,
+BlueTopaz,
+BrownLimonite,
+Calcite,
+Quicklime,
+Cassiterite,
+Chalcopyrite,
+Chromite,
+Cinnabar,
+Coal,
+Cobaltite,
+Cooperite,
+Diamond,
+Emerald,
+Galena,
+Garnierite,
+GreenSapphire,
+Grossular,
+Ilmenite,
+Rutile,
+Bauxite,
+Lazurite,
+Magnesite,
+Magnetite,
+Molybdenite,
+Phosphate,
+Powellite,
+Pyrite,
+Pyrolusite,
+Pyrope,
+RockSalt,
+Ruby,
+Salt,
+Saltpeter,
+Sapphire,
+Scheelite,
+SiliconDioxide,
+Sodalite,
+Spessartine,
+Sphalerite,
+Stibnite,
+Tanzanite,
+Tetrahedrite,
+Topaz,
+Tungstate,
+Uraninite,
+Uvarovite,
+Wulfenite,
+YellowLimonite,
+NetherQuartz,
+CertusQuartz,
+Quartzite,
+Graphite,
+Lignite,
+Olivine,
+Opal,
+Amethyst,
+Redstone,
+Lapis,
+Tantalite,
+Apatite,
+Phosphor,
+GarnetRed,
+GarnetYellow,
+Andradite
+Vinteum,
+PotassiumFeldspar,
+Biotite,
+VanadiumMagnetite,
+Bastnasite,
+Pentlandite,
+Spodumene,
+Lepidolite,
+Pitchblende,
+Monazite,
+Malachite,
+Barite,
+Wollastonite,
+Kaolinite,
+Naquadah,
+Naquadria,
+NaquadahEnriched,
+Oilsands,
+RareEarth,
+Tenorite,
+Cuprite,
+Bornite,
+Chalcocite,
+Tennantite,
+Zirconium,
+Bertrandite,
+Electrotine,
+Euclase,
+Huttonite,
+Coffinite,
+Thorite,
+Zircon,
+Psudobrookite,
+Sperrylite,
+Braggite,
+Brannerite,
+Hubnerite,
+Wolframite,
+Ferberite,
+Sheldonite,
+Bowieite,
+Xenotime,
+Gadolinite,
+Fergusonite,
+MonaziteNd,
+Naquadite,
+Naqulinite,
+Naquarrite,
+Xifengite,
+Xilingolite,
+Berryite,
+Bismuthinite,
+Goslarite,
+Uytenbogaardtite,
+Xanthoconite,
+SkaergaarditeS,
+BowieiteIr,
+Lithrage,
+Argite,
+Corundum,
+Natria,
+Ratsbane,
+Cobaltic,
+Eskolaite,
+Aurite,
+Baria,
+Zincite,
+Bismite,
+Antimonate,
+Bromellite,
+Paramontroseite,
+Coltan,
+Lithia,
+Didymium,
+Cadmite,
+Yttria,
+Ceria,
+Lanthana,
+Caesite,
+Molybdite,
+Sheldite,
+Pallas,
+Baddeleyite,
+Thorianite,
+Iridite,
+Columbite,
+Naquoxiite,
+Naquothxa,
+Montroydite,
+Osmiite,*/
+
 #---Orechid clean up---
 mods.botania.Orechid.removeOre(<ore:oreCoal>);
 mods.botania.Orechid.removeOre(<ore:oreIron>);
@@ -259,6 +475,11 @@ for input in oreInput {
 mods.botania.ManaInfusion.addInfusion(oreCrushedPurified, oreCrushed, 10);
 mods.botania.ManaInfusion.addInfusion(oreDust, oreDustImpure, 10);
 mods.botania.ManaInfusion.addInfusion(oreDust, oreDustPure, 10);
+	
+	var oreBlockAny as IItemStack = oreDict["ore"~input];
+	var oreBlockStone as IItemStack = oreDict["ore"~input].firstItem;
+
+mods.botania.ManaInfusion.addAlchemy(oreBlockStone, oreBlockAny, 5);
 }
 
 #---pure daisy---
