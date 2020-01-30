@@ -30,6 +30,8 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreD
 #Copper
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreTetrahedrite>, <ore:ingotAntimony>, <ore:ingotCopper>, <ore:dustTetrahedrite>], 9000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_copper_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_tetrahedrite_0>);
 
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreSkaergaarditeS>, <ore:ingotPalladium>, <ore:ingotCopper>, <ore:dustSkaergaardtiteS>], 54000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_copper_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_skaergaardtite_s_0>);
+
 #Gold
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreUytenbogaardtite>, <ore:ingotGold>, <ore:ingotSilver>, <ore:gemUytenbogaardtite>], 36000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:gold_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_uytenbogaardtite_0>);
 
@@ -40,6 +42,8 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreB
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreChromite>, <ore:ingotChrome>, <ore:dustChrome>, <ore:dustChromite>], 42000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:iron_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_chromite_0>);
 
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreFerberite>, <ore:ingotTungsten>, <ore:dustTungsten>, <ore:dustFerberite>], 36000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:iron_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_ferberite_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreTetrahedrite>, <ore:ingotCopper>, <ore:dustAntimony>, <ore:dustTetrahedrite>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:iron_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_tetrahedrite_0>);
 
 #Lead- Berryite, Wulfenite, Pitchblende, Xilingolite
 #Lithium,
@@ -58,7 +62,9 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreF
 #Silicon,
 #Silver,
 #Sodium,
-#Sulfur,
+#Sulfur
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:orePyrite>, <ore:ingotIron>, <ore:ingotIron>, <ore:dustPyrite>], 15000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_sulfur_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_pyrite_0>);
+
 #Tantalum,
 #Thorium,
 #Tin,
@@ -73,13 +79,19 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreF
 #BlueTopaz,
 #BrownLimonite,
 #Calcite
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCarbon>, <ore:ingotCarbon>*2, <ore:dustCarbon>], 3000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_calcite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_carbon_0>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCarbon>, <ore:ingotCarbon>, <ore:ingotCarbon>, <ore:dustCarbon>], 3000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_calcite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_carbon_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreMalachite>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:dustCopper>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_calcite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_malachite_0>);
 
 #Quicklime,
 #Cassiterite,
 #Chalcopyrite,
-#Chromite,
-#Cinnabar,
+#Chromite
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreRuby>, <ore:gemRuby>, <ore:gemRuby>, <ore:dustRuby>], 6000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_chromite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_ruby_0>);
+
+#Cinnabar
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreRedstone>, <ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], 9000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cinnabar_0>, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:redstone_ore>);
+
 #Coal
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreDiamond>, <ore:gemCoal>, <ore:gemDiamond>, <ore:dustDiamond>], 84000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:coal_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_diamond_0>);
 
@@ -90,7 +102,7 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreD
 #Galena,
 #Garnierite,
 #GreenSapphire,
-#Grossular,
+#Grossular
 #Ilmenite,
 #Rutile,
 #Bauxite,
@@ -99,16 +111,20 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreD
 #Magnetite
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreVanadiumMagnetite>, <ore:ingotVanadium>, <ore:ingotIron>, <ore:dustVanadiumMagnetite>], 36000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_magnetite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_vanadium_magnetite_0>);
 
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreGold>, <ore:ingotGold>*2, <ore:dustGold>], 15000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_magnetite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:gold_ore>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:dustGold>], 15000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_magnetite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:gold_ore>);
 
 #Molybdenite,
 #Phosphate,
 #Powellite,
-#Pyrite,
+#Pyrite
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:dustIron>], 9000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_pyrite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_iron_0>);
+
 #Pyrolusite,
 #Pyrope,
 #RockSalt,
-#Ruby,
+#Ruby
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreChrome>, <ore:ingotChrome>, <ore:ingotChrome>, <ore:dustChrome>], 30000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_ruby_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_chrome_0>);
+
 #Salt,
 #Saltpeter,
 #Sapphire,
@@ -124,6 +140,8 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreG
 #Tungstate,
 #Uraninite,
 #Uvarovite,
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreChrome>, <ore:ingotChrome>, <ore:ingotChrome>, <ore:dustChrome>], 36000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_uvarovite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_chrome_0>);
+
 #Wulfenite,
 #YellowLimonite,
 #NetherQuartz,
@@ -134,13 +152,19 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreG
 #Olivine,
 #Opal,
 #Amethyst,
-#Redstone,
+#Redstone
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreRuby>, <ore:gemRuby>, <ore:ingotChrome>, <ore:dustRuby>], 12000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:redstone_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_ruby_0>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCinnabar>, <ore:gemCinnabar>, <ore:quicksilver>, <ore:quicksilver>], 12000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_redstone_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cinnabar_0>);
+
 #Lapis,
 #Tantalite,
 #Apatite,
 #Phosphor,
 #GarnetRed,
-#GarnetYellow,
+#GarnetYellow
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreUvarovite>, <ore:nuggetChrome>, <ore:nuggetChrome>, <ore:dustUvarovite>], 12000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_garnet_yellow_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_uvarovite_0>);
+
 #Andradite
 #Vinteum,
 #PotassiumFeldspar,
@@ -197,9 +221,12 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreG
 #Goslarite,
 #Uytenbogaardtite,
 #Xanthoconite,
+
 #SkaergaarditeS,
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCooperite>, <ore:ingotPlatinum>, <ore:ingotPalladium>, <ore:dustCooperite>], 84000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_skaergaardtite_s_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cooperite_0>);
+
 #BowieiteIr,
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreOsmium>, <ore:ingotOsmium>*2, <ore:dustOsmium>], 84000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_bowieite_ir_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_osmium_0>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <ore:dustOsmium>], 84000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_bowieite_ir_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_osmium_0>);
 
 #Lithrage,
 #Argite,
