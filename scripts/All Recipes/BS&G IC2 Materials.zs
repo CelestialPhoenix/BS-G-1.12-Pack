@@ -87,22 +87,27 @@ mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:17>);
 recipes.remove(<ic2:ingot:2>);
 furnace.remove(<ic2:ingot:2>);
 <ic2:ingot:2>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotCopper>.firstItem, [<ic2:ingot:2>]);
 #lead
 recipes.remove(<ic2:ingot:3>);
 furnace.remove(<ic2:ingot:3>);
 <ic2:ingot:3>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotLead>.firstItem, [<ic2:ingot:3>]);
 #silver
 recipes.remove(<ic2:ingot:4>);
 furnace.remove(<ic2:ingot:4>);
 <ic2:ingot:4>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotSilver>.firstItem, [<ic2:ingot:4>]);
 #steel
 recipes.remove(<ic2:ingot:5>);
 furnace.remove(<ic2:ingot:5>);
 <ic2:ingot:5>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotSteel>.firstItem, [<ic2:ingot:5>]);
 #tin
 recipes.remove(<ic2:ingot:6>);
 furnace.remove(<ic2:ingot:6>);
 <ic2:ingot:6>.addTooltip("This item is disabled");
+recipes.addShapeless(<ore:ingotTin>.firstItem, [<ic2:ingot:6>]);
 
 #--Plates--
 #Bronze

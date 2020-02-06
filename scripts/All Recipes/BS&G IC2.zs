@@ -33,6 +33,16 @@ recipes.remove(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 100
 recipes.removeShaped(<ic2:crafting:2>);
 recipes.removeShaped(<ic2:crafting:1>);
 
+#-Pipes-
+recipes.removeShaped(<ic2:pipe>.withTag({size: 0 as byte, type: 0 as byte}));
+recipes.removeShaped(<ic2:pipe>.withTag({size: 1 as byte, type: 0 as byte}));
+recipes.removeShaped(<ic2:pipe>.withTag({size: 2 as byte, type: 0 as byte}));
+recipes.removeShaped(<ic2:pipe>.withTag({size: 3 as byte, type: 0 as byte}));
+recipes.removeShaped(<ic2:pipe:1>.withTag({size: 0 as byte, type: 1 as byte}));
+recipes.removeShaped(<ic2:pipe:1>.withTag({size: 1 as byte, type: 1 as byte}));
+recipes.removeShaped(<ic2:pipe:1>.withTag({size: 2 as byte, type: 1 as byte}));
+recipes.removeShaped(<ic2:pipe:1>.withTag({size: 3 as byte, type: 1 as byte}));
+
 #---Recipes---
 
 
