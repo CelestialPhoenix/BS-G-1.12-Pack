@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears Vanilla Lore.zs
+#Name: Blood Sweat & Gears Immersive Engineering.zs
 #Author: PhoePhoe
 
 #mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"TEST");
@@ -6,8 +6,9 @@
 #--Tools--
 mods.jei.JEI.addDescription([<immersiveengineering:tool>],"Used (right-click) to form the multiblock structures from Immersive Engineering");
 
-mods.jei.JEI.addDescription([<immersiveengineering:wooden_device0:4>],"A wooden barrel packed with gunpowder", 
-"Can be ignited with fire or a redstone signal", "Does not destroy block drops");
+#-moved to explosives.zs
+#mods.jei.JEI.addDescription([<immersiveengineering:wooden_device0:4>],"A wooden barrel packed with gunpowder", 
+#"Can be ignited with fire or a redstone signal", "Does not destroy block drops");
 
 #--Stone Multiblocks--
 mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Coking oven forms a 3x3x3 solid cube", 

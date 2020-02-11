@@ -4,7 +4,7 @@
 import mods.dropt.Dropt;
 
 print(".addDrop(Dropt.drop([<ore:theBass>.firstItem]);");
-/*
+
 Dropt.list("gravel_flint")
   .add(Dropt.rule()
       .matchBlocks(["minecraft:gravel"])
@@ -17,4 +17,15 @@ Dropt.list("gravel_flint")
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(25)) #Drops nothing
       )
-  );*/
+  );
+
+Dropt.list("gravel_gravel")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:gravel"])
+      .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("WHITELIST", [], "shovel;0;-1"))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<minecraft:gravel>], Dropt.range(1)))
+      );

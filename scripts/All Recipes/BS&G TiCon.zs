@@ -3,6 +3,12 @@
 
 print("Is that a nerfbat in your pants or are you happy to see me?");
 
+#---Tooltips---
+#explosives
+<tconstruct:throwball:1>.clearTooltip();
+<tconstruct:throwball:1>.addTooltip("EFLN");
+<tconstruct:throwball:1>.addTooltip("Highly explosive");
+
 #---Disabled Items---
 
 #-casts-

@@ -66,6 +66,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 <metaitem:circuit.wetware_super_computer>.addTooltip("A Superconductor Circuit");
 <metaitem:circuit.wetware_mainframe>.addTooltip("An Infinite Circuit");
 */
+#-Explosives-
+<metaitem:dynamite>.addTooltip("Creates a small explosion when thrown.");
+
 #-Robot Arms-
 <metaitem:robot.arm.hv>.addShiftTooltip("Roboteers stand by");
 <metaitem:robot.arm.hv>.addShiftTooltip("...3!");

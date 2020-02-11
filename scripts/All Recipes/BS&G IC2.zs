@@ -33,6 +33,16 @@ recipes.remove(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "water", Amount: 100
 recipes.removeShaped(<ic2:crafting:2>);
 recipes.removeShaped(<ic2:crafting:1>);
 
+#-Explosives-
+recipes.removeShaped(<ic2:te:1>); //I-TNT
+<ic2:te:1>.addTooltip("This item is disabled");
+recipes.removeShaped(<ic2:dynamite>);
+<ic2:dynamite>.addTooltip("This item is disabled");
+recipes.removeShaped(<ic2:dynamite_sticky>);
+<ic2:dynamite_sticky>.addTooltip("This item is disabled");
+recipes.removeShaped(<ic2:remote>);
+<ic2:remote>.addTooltip("This item is disabled");
+
 #-Pipes-
 recipes.removeShaped(<ic2:pipe>.withTag({size: 0 as byte, type: 0 as byte}));
 recipes.removeShaped(<ic2:pipe>.withTag({size: 1 as byte, type: 0 as byte}));

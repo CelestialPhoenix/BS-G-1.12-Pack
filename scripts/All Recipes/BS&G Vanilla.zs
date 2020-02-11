@@ -79,6 +79,9 @@ recipes.remove(<minecraft:slime>);
 <minecraft:iron_ingot>.addTooltip("Fe");
 #<minecraft:redstone>.addTooltip("Si(FeS₂)₅(CrAl₂O₃)Hg₃");
 
+#Explosives
+<minecraft:tnt>.addTooltip("Highly explosive");
+
 #---Removed Crafting Recipes---
 #magma block
 recipes.remove(<minecraft:magma>);

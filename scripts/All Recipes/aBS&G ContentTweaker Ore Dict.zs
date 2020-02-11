@@ -546,7 +546,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #Abyssal Sand
 <ore:oreSilicon>.add(<contenttweaker:oreabyssalsandsilicon>);
-<ore:oreBandediron>.add(<contenttweaker:oreabyssalsandbandediron>);
+<ore:oreBandedIron>.add(<contenttweaker:oreabyssalsandbandediron>);
 <ore:oreGlassy>.add(<contenttweaker:oreabyssalsandglass>);
 <ore:oreKaolinite>.add(<contenttweaker:oreabyssalsandkaolinite>);
 <ore:oreSpessartine>.add(<contenttweaker:oreabyssalsandspessartine>);

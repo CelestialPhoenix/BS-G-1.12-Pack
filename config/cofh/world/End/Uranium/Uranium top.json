@@ -27,12 +27,12 @@
                   },
                   {  
                      "name":"gregtech:ore_thorite_0",
-                     "metadata":13,
+                     "metadata":7,
                      "weight":5
                   },
                   {  
                      "name":"gregtech:ore_pitchblende_0",
-                     "metadata":13,
+                     "metadata":7,
                      "weight":5
                   },
                   {  
@@ -78,12 +78,12 @@
                   },
                   {  
                      "name":"gregtech:ore_thorite_0",
-                     "metadata":13,
+                     "metadata":7,
                      "weight":15
                   },
                   {  
                      "name":"gregtech:ore_pitchblende_0",
-                     "metadata":13,
+                     "metadata":7,
                      "weight":5
                   },
                   {  
