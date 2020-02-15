@@ -34,6 +34,7 @@ var nativeClusters as string[] = [
 	"Naquadria",
 	"Neodymium",
 	"Nickel",
+	"Niobium",
 	"Osmium",
 	"Palladium",
 	"Platinum",

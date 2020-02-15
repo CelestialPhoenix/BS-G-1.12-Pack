@@ -59,6 +59,9 @@ ClusterNeodymium.register();
 var ClusterNickel = VanillaFactory.createItem("clusternickel");
 ClusterNickel.register();
 
+var ClusterNiobium = VanillaFactory.createItem("clusterniobium");
+ClusterNiobium.register();
+
 var ClusterOsmium = VanillaFactory.createItem("clusterosmium");
 ClusterOsmium.register();
 

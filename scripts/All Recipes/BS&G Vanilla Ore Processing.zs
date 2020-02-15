@@ -30,6 +30,7 @@ furnace.addRecipe(<ore:dustNaquadah>.firstItem*2, <ore:clusterNaquadah>, 0.0);
 furnace.addRecipe(<ore:dustNaquadria>.firstItem*2, <ore:clusterNaquadria>, 0.0);
 furnace.addRecipe(<ore:dustNeodymium>.firstItem*2, <ore:clusterNeodymium>, 0.0);
 furnace.addRecipe(<ore:ingotNickel>.firstItem*2, <ore:clusterNickel>, 0.0);
+furnace.addRecipe(<ore:dustNiobium>.firstItem*2, <ore:clusterNiobium>, 0.0);
 furnace.addRecipe(<ore:dustOsmium>.firstItem*2, <ore:clusterOsmium>, 0.0);
 furnace.addRecipe(<ore:dustPalladium>.firstItem*2, <ore:clusterPalladium>, 0.0);
 furnace.addRecipe(<ore:ingotPlatinum>.firstItem*2, <ore:clusterPlatinum>, 0.0);

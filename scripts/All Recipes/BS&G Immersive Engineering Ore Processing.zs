@@ -258,6 +258,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadah>.firstItem*3, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNaquadria>.firstItem*3, <ore:clusterNaquadria>, null, 20, 2048); #Naquadria
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNeodymium>.firstItem*3, <ore:clusterNeodymium>, null, 20, 2048); #Neodymium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotNickel>.firstItem*3, <ore:clusterNickel>, null, 20, 2048); #Nickel
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustNiobium>.firstItem*3, <ore:clusterNiobium>, null, 20, 2048); #Nickel
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustOsmium>.firstItem*3, <ore:clusterOsmium>, null, 20, 2048); #Osmium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPalladium>.firstItem*3, <ore:clusterPalladium>, null, 20, 2048); #Palladium
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*3, <ore:clusterPlatinum>, null, 20, 2048); #Platinum
@@ -541,6 +542,7 @@ var nativeClusters as string[] = [
 	"Naquadria",
 	"Neodymium",
 	"Nickel",
+	"Niobium",
 	"Osmium",
 	"Palladium",
 	"Platinum",

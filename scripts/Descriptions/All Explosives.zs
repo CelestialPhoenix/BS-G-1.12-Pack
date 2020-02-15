@@ -16,7 +16,7 @@ mods.jei.JEI.addDescription([<immersiveengineering:wooden_device0:4>],"A simple 
 "Can be ignited with fire or a redstone signal", "A medium sized explosion thats good for mining.", "Does not destroy block drops.");
 
 #Quark
-mods.jei.JEI.addDescription([<quark:arrow_explosive>],"TNT on a stick!", "Good for mobs, dealing with annoying players, and mining those hard to reach ores.");
+mods.jei.JEI.addDescription([<quark:arrow_explosive>],"TNT on a stick!", "Good for mobs, dealing with annoying players, and occasionally mining those hard to reach ores.");
 
 #TiCon- ELFN
 mods.jei.JEI.addDescription([<tconstruct:throwball:1>],"Highly explosive.", 

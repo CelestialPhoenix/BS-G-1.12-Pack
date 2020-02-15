@@ -1155,6 +1155,16 @@ electricBF
 
 electricBF
     .recipeBuilder()
+    .inputs(<ore:clusterNiobium>.firstItem)
+	.fluidInputs([<liquid:aerotheum>*1000])
+    .outputs(<ore:dustColumbite>.firstItem)
+	.property("temperature", 4000)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
     .inputs(<ore:clusterOsmium>.firstItem)
 	.fluidInputs([<liquid:aerotheum>*1000])
     .outputs(<ore:dustOsmiite>.firstItem*2)

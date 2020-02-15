@@ -49,6 +49,9 @@ calcium.addFlags(["GENERATE_ORE"]);
 var carbon = <material:carbon>;
 carbon.addFlags(["GENERATE_ORE"]);
 
+var cerium = <material:cerium>;
+cerium.addFlags(["GENERATE_ORE"]);
+
 var cobalt = <material:cobalt>;
 cobalt.addFlags(["GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
 
@@ -282,6 +285,10 @@ dustSSkaergaardite.addFlags("GENERATE_ORE");
 #[Ir]-Bowieite
 val dustIrBowieite = MaterialRegistry.createDustMaterial(541, "bowieite_ir", 0x767676, "shiny", 5, [<material:iridium>*3, <material:platinum>*2, <material:sulfur>*4]);
 dustIrBowieite.addFlags("GENERATE_ORE");
+
+#[Ir]-Bowieite
+val dustQuicksilver = MaterialRegistry.createDustMaterial(542, "quicksilver", 0xDDDDDD, "shiny", 1, [<material:mercury>*1]);
+dustQuicksilver.addFlags("GENERATE_ORE");
 
 #---Oxides---
 # (EBF magic processing)
