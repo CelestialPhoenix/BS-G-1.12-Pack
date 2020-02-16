@@ -1020,13 +1020,13 @@ var quaternaryByproduct as string[] = [
 for i, input in oreInput {
 	var oreStone as IItemStack  = oreDict["ore"~input];
 	var oreStoneFirst as IItemStack = oreDict["ore"~input].firstItem;
-	var oreNetherrack as IItemStack = oreDict["oreNetherrack"~input].firstItem;
-	var oreEndstone as IItemStack = oreDict["oreEndstone"~input].firstItem;
-	var oreSand as IItemStack = oreDict["oreSand"~input].firstItem;
-	var oreBlackgranite as IItemStack = oreDict["oreBlackgranite"~input].firstItem;
-	var oreRedgranite as IItemStack = oreDict["oreRedgranite"~input].firstItem;
-	var oreMarble as IItemStack = oreDict["oreMarble"~input].firstItem;
-	var oreBasalt as IItemStack = oreDict["oreBasalt"~input].firstItem;
+	#var oreNetherrack as IItemStack = oreDict["oreNetherrack"~input].firstItem;
+	#var oreEndstone as IItemStack = oreDict["oreEndstone"~input].firstItem;
+	#var oreSand as IItemStack = oreDict["oreSand"~input].firstItem;
+	#var oreBlackgranite as IItemStack = oreDict["oreBlackgranite"~input].firstItem;
+	#var oreRedgranite as IItemStack = oreDict["oreRedgranite"~input].firstItem;
+	#var oreMarble as IItemStack = oreDict["oreMarble"~input].firstItem;
+	#var oreBasalt as IItemStack = oreDict["oreBasalt"~input].firstItem;
 	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
 
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
@@ -1050,85 +1050,8 @@ macerator
     .recipeBuilder()
     .inputs(oreStone)
     .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
+	.chancedOutput(firstByproduct, 1400, 850)
 	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreNetherrack], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreNetherrack)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustNetherrack>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreEndstone], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreEndstone)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustEndstone>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreSand], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreSand)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustTinySiliconDioxide>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreBlackgranite], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreBlackgranite)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustGraniteBlack>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreRedgranite], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreRedgranite)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustGraniteRed>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreMarble], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreMarble)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustMarble>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [oreBasalt], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(oreBasalt)
-    .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
-	.chancedOutput(<ore:dustBasalt>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
@@ -1138,7 +1061,7 @@ macerator
     .recipeBuilder()
     .inputs(oreGravel)
     .outputs(oreCrushed*2)
-	.chancedOutput(oreDust, 1400, 850)
+	.chancedOutput(firstByproduct, 1400, 850)
 	.chancedOutput(<ore:dustTinyFlint>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
@@ -1349,6 +1272,144 @@ extractor
     .buildAndRegister();
 }
 
+#---Fix Apatite Drops---
+macerator.findRecipe(12, [<ore:oreApatite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreApatite>)
+    .outputs(<ore:crushedApatite>.firstItem*10)
+	.chancedOutput(<ore:dustApatite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelApatite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelApatite>)
+    .outputs(<ore:crushedApatite>.firstItem*10)
+	.chancedOutput(<ore:dustApatite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Fix Electrotine Drops---
+macerator.findRecipe(12, [<ore:oreElectrotine>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreElectrotine>)
+    .outputs(<ore:crushedElectrotine>.firstItem*10)
+	.chancedOutput(<ore:dustSapphire>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelElectrotine>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelElectrotine>)
+    .outputs(<ore:crushedElectrotine>.firstItem*10)
+	.chancedOutput(<ore:dustSapphire>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Fix Lapis Drops---
+macerator.findRecipe(12, [<ore:oreLapis>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreLapis>)
+    .outputs(<ore:crushedLapis>.firstItem*14)
+	.chancedOutput(<ore:dustLazurite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelLapis>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelLapis>)
+    .outputs(<ore:crushedLapis>.firstItem*14)
+	.chancedOutput(<ore:dustLazurite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Fix Lazurite Drops---
+macerator.findRecipe(12, [<ore:oreLazurite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreLazurite>)
+    .outputs(<ore:crushedLazurite>.firstItem*8)
+	.chancedOutput(<ore:dustSodalite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelLazurite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelLazurite>)
+    .outputs(<ore:crushedLazurite>.firstItem*8)
+	.chancedOutput(<ore:dustSodalite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Fix Redstone Drops---
+macerator.findRecipe(12, [<ore:oreRedstone>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreRedstone>)
+    .outputs(<ore:crushedRedstone>.firstItem*10)
+	.chancedOutput(<ore:dustCinnabar>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelRedstone>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelRedstone>)
+    .outputs(<ore:crushedRedstone>.firstItem*8)
+	.chancedOutput(<ore:dustCinnabar>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#---Fix Sodalite Drops---
+macerator.findRecipe(12, [<ore:oreSodalite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreSodalite>)
+    .outputs(<ore:crushedSodalite>.firstItem*8)
+	.chancedOutput(<ore:dustLazurite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelSodalite>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelSodalite>)
+    .outputs(<ore:crushedSodalite>.firstItem*8)
+	.chancedOutput(<ore:dustLazurite>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
 #---Fix Glassy Ore---
 macerator.findRecipe(12, [<ore:oreGlassy>.firstItem], null).remove();
 macerator
@@ -1357,83 +1418,6 @@ macerator
     .outputs(<ore:crushedGlassy>.firstItem*2)
 	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
 	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreNetherrackGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreNetherrackGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustNetherrack>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreEndstoneGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreEndstoneGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustEndstone>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreSandGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreSandGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustTinySiliconDioxide>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreBlackgraniteGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreBlackgraniteGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustGraniteBlack>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreRedgraniteGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreRedgraniteGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustGraniteRed>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreMarbleGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreMarbleGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustMarble>.firstItem, 6700, 800)
-    .duration(400)
-    .EUt(12)
-    .buildAndRegister();
-
-macerator.findRecipe(12, [<ore:oreBasaltGlassy>.firstItem], null).remove();
-macerator
-    .recipeBuilder()
-    .inputs(<ore:oreBasaltGlassy>)
-    .outputs(<ore:crushedGlassy>.firstItem*2)
-	.chancedOutput(<ore:dustGlass>.firstItem, 1400, 850)
-	.chancedOutput(<ore:dustBasalt>.firstItem, 6700, 800)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
@@ -1592,6 +1576,177 @@ extractor
     .recipeBuilder()
     .inputs(<ore:dustPureGlassy>)
     .outputs([<ore:dustGlass>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+
+#---Fix Quicksilver Ore---
+macerator.findRecipe(12, [<ore:oreQuicksilver>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreQuicksilver>)
+    .outputs(<ore:crushedQuicksilver>.firstItem*2)
+	.chancedOutput(<ore:quicksilver>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustStone>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:oreGravelQuicksilver>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreGravelQuicksilver>)
+    .outputs(<ore:crushedQuicksilver>.firstItem*2)
+	.chancedOutput(<ore:quicksilver>.firstItem, 1400, 850)
+	.chancedOutput(<ore:dustTinyFlint>.firstItem, 6700, 800)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedQuicksilver>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>)
+    .outputs(<ore:quicksilver>.firstItem)
+	.chancedOutput(<ore:quicksilver>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedPurifiedQuicksilver>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedPurifiedQuicksilver>)
+    .outputs(<ore:dustPureQuicksilver>.firstItem)
+	.chancedOutput(<ore:quicksilver>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+macerator.findRecipe(12, [<ore:crushedCentrifugedQuicksilver>.firstItem], null).remove();
+macerator
+    .recipeBuilder()
+    .inputs(<ore:crushedCentrifugedQuicksilver>)
+    .outputs(<ore:quicksilver>.firstItem)
+	.chancedOutput(<ore:quicksilver>.firstItem, 1400, 850)
+    .duration(200)
+    .EUt(12)
+    .buildAndRegister();
+
+washer.findRecipe(16, [<ore:crushedQuicksilver>.firstItem], [<liquid:water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:water>*1000)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(16)
+    .buildAndRegister();
+
+washer.findRecipe(16, [<ore:crushedQuicksilver>.firstItem], [<liquid:distilled_water>*1000]).remove();
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:distilled_water>*1000)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1, <ore:dustStone>.firstItem])
+    .duration(320)
+    .EUt(12)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:mana>*100)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1, <ore:dustStone>.firstItem])
+    .duration(400)
+    .EUt(30)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:luck>*100)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:dustStone>.firstItem])
+	.chancedOutput(<ore:quicksilver>.firstItem*1, 7000, 1000)
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:distilled_coralium>*100)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*2, <ore:nuggetQuicksilver>.firstItem*2])
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>.firstItem)
+	.fluidInputs(<liquid:refined_antimatter>*100)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*2, <ore:nuggetQuicksilver>.firstItem*2])
+    .duration(400)
+    .EUt(500)
+    .buildAndRegister();
+
+thermalCentrifuge.findRecipe(60, [<ore:crushedQuicksilver>.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>)
+    .outputs([<ore:crushedCentrifugedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+
+thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedQuicksilver>.firstItem], null).remove();
+thermalCentrifuge
+    .recipeBuilder()
+    .inputs(<ore:crushedPurifiedQuicksilver>)
+    .outputs([<ore:crushedCentrifugedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
+    .duration(520)
+    .EUt(60)
+    .buildAndRegister();
+
+centrifuge.findRecipe(24, [<ore:dustImpureQuicksilver>.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustImpureQuicksilver>)
+    .outputs([<ore:quicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
+    .duration(252)
+    .EUt(24)
+    .buildAndRegister();
+
+centrifuge.findRecipe(5, [<ore:dustPureQuicksilver>.firstItem], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustPureQuicksilver>)
+    .outputs([<ore:quicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
+    .duration(252)
+    .EUt(5)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<ore:crushedQuicksilver>)
+    .outputs([<ore:crushedPurifiedQuicksilver>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<ore:dustImpureQuicksilver>)
+    .outputs([<ore:quicksilver>.firstItem])
+    .duration(400)
+    .EUt(2)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<ore:dustPureQuicksilver>)
+    .outputs([<ore:quicksilver>.firstItem])
     .duration(400)
     .EUt(2)
     .buildAndRegister();

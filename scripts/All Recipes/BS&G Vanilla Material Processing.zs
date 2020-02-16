@@ -5,6 +5,9 @@ print("Direworlf's favourite flavour of icecream");
 
 
 #---Smelting--- 
+#Charcoal fix
+furnace.remove(<minecraft:coal:1>);
+
 #--Nugget/Ingot/Block processing
 #--Ingot Smelting (from block)--
 #furnace.addRecipe(<ore:ingot>.firstItem*9, <ore:block>);

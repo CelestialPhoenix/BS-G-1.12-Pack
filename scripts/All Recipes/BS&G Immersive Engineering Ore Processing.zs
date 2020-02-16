@@ -63,6 +63,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPalladium>.firstItem*5,
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem*5, <ore:orePlatinum>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*1, <ore:orePhosphorus>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotPotassium>.firstItem*5, <ore:orePotassium>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:quicksilver>.firstItem*5, <ore:oreQuicksilver>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*1, <ore:oreSilicon>, <ore:itemSlag>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSilver>.firstItem*5, <ore:oreSilver>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotSodium>.firstItem*5, <ore:oreSodium>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
@@ -104,7 +105,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCalcium>.firstItem*8, 
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTinyRutile>.firstItem*28, <ore:oreIlmenite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTinyRutile>.firstItem*50, <ore:oreRutile>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*25, <ore:oreBauxite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*17, <ore:oreLazurite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*64, <ore:oreLazurite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetMagnesium>.firstItem*11, <ore:oreMagnesite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetIron>.firstItem*48, <ore:oreMagnetite>, <ore:itemSlagRich>.firstItem*1, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetMolybdenum>.firstItem*18, <ore:oreMolybdenite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
@@ -120,7 +121,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*1, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*22, <ore:oreSapphire>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTinyTungsten>.firstItem*8, <ore:oreScheelite>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlag>.firstItem*1, <ore:oreSiliconDioxide>, <ore:itemSlag>.firstItem*5, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*15, <ore:oreSodalite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*60, <ore:oreSodalite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetManganese>.firstItem*15, <ore:oreSpessartine>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetZinc>.firstItem*27, <ore:oreSphalerite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAntimony>.firstItem*22, <ore:oreStibnite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
@@ -140,10 +141,10 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*1, <
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetMagnesium>.firstItem*22, <ore:oreOlivine>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlagRich>.firstItem*1, <ore:oreOpal>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetIron>.firstItem*11, <ore:oreAmethyst>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetChrome>.firstItem*1, <ore:oreRedstone>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*24, <ore:oreLapis>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetChrome>.firstItem*4, <ore:oreRedstone>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*18, <ore:oreLapis>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetTantalum>.firstItem*12, <ore:oreTantalite>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCalcium>.firstItem*24, <ore:oreApatite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotCalcium>.firstItem*13, <ore:oreApatite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCalcium>.firstItem*33, <ore:orePhosphor>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetManganese>.firstItem*3, <ore:oreGarnetRed>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetChrome>.firstItem*2, <ore:oreGarnetYellow>, <ore:itemSlagRich>.firstItem*6, 2000, 2048);
@@ -170,7 +171,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCopper>.firstItem*27, 
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCopper>.firstItem*13, <ore:oreChalcocite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetCopper>.firstItem*24, <ore:oreTennantite>, <ore:itemSlagRich>.firstItem*3, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetBeryllium>.firstItem*16, <ore:oreBertrandite>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
-mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*12, <ore:oreElectrotine>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetAluminium>.firstItem*52, <ore:oreElectrotine>, <ore:itemSlagRich>.firstItem*4, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetBeryllium>.firstItem*6, <ore:oreEuclase>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetThorium>.firstItem*9, <ore:oreHuttonite>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:nuggetUranium>.firstItem*7, <ore:oreCoffinite>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
@@ -324,6 +325,7 @@ var oreInput as string[] = [
 "Platinum",	
 "Phosphorus",
 "Potassium",
+"Quicksilver",
 "Silicon",
 "Silver",
 "Sodium",

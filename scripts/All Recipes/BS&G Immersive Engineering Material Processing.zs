@@ -124,12 +124,12 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungs
 #mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:diamond>);
 #mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal>, 2, <ore:logWood>, 2000);
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
-mods.immersiveengineering.CokeOven.addRecipe(<ore:fuelCoke>.firstItem, 1, <ore:gemCoal>, 500);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:fuelCoke>.firstItem, 500, <ore:gemCoal>, 500);
 
 #Charcoal
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 1, <ore:logWood>, 250);
-mods.immersiveengineering.CokeOven.addRecipe(<abyssalcraft:charcoal>, 1, <ore:logDreadwood>, 250);
+mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWood>, 250);
+mods.immersiveengineering.CokeOven.addRecipe(<abyssalcraft:charcoal>, 250, <ore:logDreadwood>, 250);
 
 #---Crusher---
 #Elemental Dusts

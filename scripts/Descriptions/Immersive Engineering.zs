@@ -12,7 +12,7 @@ mods.jei.JEI.addDescription([<immersiveengineering:tool>],"Used (right-click) to
 
 #--Stone Multiblocks--
 mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Coking oven forms a 3x3x3 solid cube", 
-"Use (right-click) an Engineer's Hammer to activate the structure");
+"Use (right-click) an Engineer's Hammer to activate the structure.", "1000mB of Creosote Oil can be manually collected with a Tin Can, Refractory Wax Capsule, or a Chemical Cell.", "[known issue] Do NOT use a glass bottle.", "Creosote Oil can be automatically extracted with a pump and pipes, or by using a faucet.");
 
 mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration:1>],"Crude blast furnace forms a 3x3x3 solid cube", 
 "Use (right-click) an Engineer's Hammer to activate the structure", 

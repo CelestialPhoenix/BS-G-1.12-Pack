@@ -152,7 +152,8 @@ material.cooperite=Cooperite
 material.endstone=Xenolith
 material.sulfur=Sulphur
 material.uranium=Uranium
-material.tungstate=(Li)-Tungstate
+material.tungstate=[Li]-Tungstate
+material.vanadium_magnetite=[V]-Magnetite
 
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
@@ -174,6 +175,11 @@ item.lignite.gemExquisite=Huge Lump of Lignite Coal
 item.lignite.gemFlawless=Large Lump of Lignite Coal
 item.lignite.gemFlawed=Small Lump of Lignite Coal
 item.lignite.gemChipped=Tiny Lump of Lignite Coal
+
+metaitem.fluid_cell.empty=Empty
+metaitem.fluid_cell.name=%s Chemical Cell
+metaitem.large_fluid_cell.steel.name=%s Steel Chemical Cell
+metaitem.large_fluid_cell.tungstensteel.name=%s Tungstensteel Chemical Cell
 
 //---Renamed Gtech Machines---
 //Compressor
