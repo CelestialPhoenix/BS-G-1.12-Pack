@@ -40,7 +40,7 @@ print("I'm not evil I promise");
 
 <ore:oreIron>.remove(<abyssalcraft:abyiroore>);
 <ore:oreGold>.remove(<abyssalcraft:abygolore>);
-<ore:oreDia>.remove(<abyssalcraft:abydiaore>);
+<ore:oreDiamond>.remove(<abyssalcraft:abydiaore>);
 <ore:oreSaltpeter>.remove(<abyssalcraft:abynitore>);
 <ore:oreTin>.remove(<abyssalcraft:abytinore>);
 <ore:oreCoppper>.remove(<abyssalcraft:abycopore>);

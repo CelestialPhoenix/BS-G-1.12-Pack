@@ -44,6 +44,7 @@ recipes.removeShaped(<ic2:remote>);
 <ic2:remote>.addTooltip("This item is disabled");
 
 #-Pipes-
+<ic2:pipe>.addTooltip("This item is disabled");
 recipes.removeShaped(<ic2:pipe>.withTag({size: 0 as byte, type: 0 as byte}));
 recipes.removeShaped(<ic2:pipe>.withTag({size: 1 as byte, type: 0 as byte}));
 recipes.removeShaped(<ic2:pipe>.withTag({size: 2 as byte, type: 0 as byte}));

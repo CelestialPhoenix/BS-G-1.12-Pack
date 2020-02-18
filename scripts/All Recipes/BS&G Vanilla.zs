@@ -52,6 +52,10 @@ recipes.remove(<minecraft:slime>);
 <minecraft:slime>.addShiftTooltip("Ugly as sin. Green slime and redstone just looks wrong when used together");
 
 #---Renamed Items---
+#Coal
+<minecraft:coal>.displayName="Anthracite";
+<minecraft:coal_ore>.displayName="Anthracite Ore";
+
 #Granite
 <minecraft:stone:1>.displayName="Pink Granite";
 <minecraft:stone:2>.displayName="Polished Pink Granite";

@@ -23,6 +23,16 @@ recipes.addShaped(<immersiveengineering:treated_wood>*8, [
 [<ore:plankWood>, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>) , <ore:plankWood>], 
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
+recipes.addShaped(<immersiveengineering:treated_wood>*8, [
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ore:plankWood>, <forestry:refractory:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:refractory>) , <ore:plankWood>], 
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
+recipes.addShaped(<immersiveengineering:treated_wood>*8, [
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+[<ore:plankWood>, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<metaitem:fluid_cell>) , <ore:plankWood>], 
+[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
 #Treated Wood Slab
 recipes.remove(<immersiveengineering:treated_wood_slab>);
 recipes.addShaped(<immersiveengineering:treated_wood_slab>*4, [

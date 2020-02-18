@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears In World Crafting Ore Processing.zs
+#Name: Blood Sweat & Gears In World Processing Ore Processing.zs
 #Author: PhoePhoe, FTB:I dev team
 
 import crafttweaker.item.IItemStack;
@@ -209,10 +209,29 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNaquoth
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureMontroydite>.firstItem*3, <gregtech:ore_montroydite_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureOsmiite>.firstItem*3, <gregtech:ore_osmiite_0:0>);
 
-#Overworld
+#Overworld mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpure>.firstItem*3, <
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureSapphire>.firstItem*3, <gregtech:ore_sapphire_0:13>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureGreenSapphire>.firstItem*3, <gregtech:ore_green_sapphire_0:13>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePyrope>.firstItem*3, <gregtech:ore_pyrope_0:13>);
+
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePotassium>.firstItem*3, <gregtech:ore_potassium_0:11>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureSilicon>.firstItem*3, <gregtech:ore_silicon_0:11>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureAluminium>.firstItem*3, <gregtech:ore_aluminium_0:11>);
+
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureIron>.firstItem*3, <gregtech:ore_iron_0:13>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureMagnesium>.firstItem*3, <gregtech:ore_magnesium_0:13>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCalcite>.firstItem*3, <gregtech:ore_calcium_0:13>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCarbon>.firstItem*3, <gregtech:ore_carbon_0:13>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureSilicon>.firstItem*3, <gregtech:ore_silicon_0:13>);
+
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePotassium>.firstItem*3, <gregtech:ore_potassium_0:10>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureAluminium>.firstItem*3, <gregtech:ore_aluminium_0:10>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureMagnesium>.firstItem*3, <gregtech:ore_magnesium_0:10>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureSilicon>.firstItem*3, <gregtech:ore_silicon_0:10>);
+
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureMagnesium>.firstItem*3, <gregtech:ore_magnesium_0:12>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCalcium>.firstItem*3, <gregtech:ore_calcium_0:12>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCarbon>.firstItem*3, <gregtech:ore_carbon_0:12>);
 
 #Nether
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCertusQuartz>.firstItem*3, <gregtech:ore_certus_quartz_0:6>);
@@ -253,6 +272,9 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePowelli
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureWulfenite>.firstItem*3, <gregtech:ore_wulfenite_0:12>);
 
 #End
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePlatinum>.firstItem*3, <gregtech:ore_platinum_0:7>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureTungstate>.firstItem*3, <gregtech:ore_tungstate_0:7>);
+
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureBraggite>.firstItem*3, <gregtech:ore_braggite_0:7>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCooperite>.firstItem*3, <gregtech:ore_cooperite_0:7>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpurePentlandite>.firstItem*3, <gregtech:ore_pentlandite_0:7>);

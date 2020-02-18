@@ -27,3 +27,7 @@ mods.jei.JEI.addDescription([<immersiveengineering:wooden_device1>],"Generates a
 
 #terminal block (capacitor)
 mods.jei.JEI.addDescription([<immersiveengineering:metal_device0>],"Additional connector block for Rf conduit.", "Makes connections between conduits and blocks when they normally wouldn't", "Can also be used to divert and manage power flow", "Use an Engineer's Hammer to configure the sides;", "Blue= Rf input", "Orange= Rf output", "Blank= No connection");
+
+#---Materials---
+#Treated Wood <immersiveengineering:treated_wood>
+mods.jei.JEI.addDescription([<immersiveengineering:treated_wood>],"Treating wood in the crafting grid will return an empty can/capsule/cell.");
