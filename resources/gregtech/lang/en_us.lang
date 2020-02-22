@@ -184,7 +184,7 @@ item.lignite.gemFlawed=Small Lump of Lignite Coal
 item.lignite.gemChipped=Tiny Lump of Lignite Coal
 
 metaitem.fluid_cell.empty=Empty
-metaitem.fluid_cell.name=%sChemical Cell
+metaitem.fluid_cell.name=%s Chemical Cell
 metaitem.large_fluid_cell.steel.name=%s Steel Chemical Cell
 metaitem.large_fluid_cell.tungstensteel.name=%s Tungstensteel Chemical Cell
 
