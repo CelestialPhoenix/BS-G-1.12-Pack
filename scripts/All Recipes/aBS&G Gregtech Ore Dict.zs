@@ -4,7 +4,13 @@
 print("Hello Boys- I'm Baaaaack!!!");
 
 #--cupronickel/constantan fix---
+<ore:blockConstantan>.addAll(<ore:blockCupronickel>);
+<ore:dustConstantan>.addAll(<ore:dustCupronickel>);
+<ore:ingotConstantan>.addAll(<ore:ingotCupronickel>);
+<ore:nuggetConstantan>.addAll(<ore:nuggertCupronickel>);
+<ore:plateConstantan>.addAll(<ore:plateCupronickel>);
 <ore:stickConstantan>.addAll(<ore:stickCupronickel>);
+<ore:Constantan>.addAll(<ore:Cupronickel>);
 
 #---blocks---
 #<ore:stoneAny>.add(<gregtech:granite:*>);
