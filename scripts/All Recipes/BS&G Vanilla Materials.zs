@@ -22,11 +22,18 @@ recipes.addShapeless(<minecraft:clay_ball>*4, [<minecraft:clay>]); #Adds recover
 
 #Iron Bars
 recipes.remove(<minecraft:iron_bars>);
-recipes.addShaped(<minecraft:iron_bars>*6,[
+recipes.addShaped(<minecraft:iron_bars>*8,[
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
 [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
 [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
 
-recipes.addShaped(<minecraft:iron_bars>*8,[
+recipes.addShaped(<minecraft:iron_bars>*9,[
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>]]);
+
+recipes.addShaped(<minecraft:iron_bars>*10,[
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
 

@@ -152,7 +152,21 @@ RollingMachine.addShaped(fenceMetal*3, [
 [stickMetal, stickMetal, stickMetal]], 200);
 }
 
+#--Iron Bars (Vanilla block)
+RollingMachine.addShaped(<ore:barsIron>.firstItem*9, [
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]], 200);
 
+RollingMachine.addShaped(<ore:barsIron>.firstItem*10, [
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>]], 200);
+
+RollingMachine.addShaped(<ore:barsIron>.firstItem*12, [
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]], 200);
 
 #--Rings--
 #4 rods in a ring

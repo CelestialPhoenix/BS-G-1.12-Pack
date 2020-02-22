@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing.zs
 #Author: PhoePhoe, The awesome folks on the GT:CE discord
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -1259,3 +1262,62 @@ theassembler.findRecipe(4, [<minecraft:planks:5> * 6, <metaitem:circuit.integrat
 #-Wood Trapdoors-
 #Vanilla
 theassembler.findRecipe(4, [<ore:plankWood>.firstItem * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
+
+#---Immersive Posts---
+#This awesome looping script was modified from FTB interactions
+var fenceMaterials as string[] = [
+	"Iron",
+	"Gold",
+	"Copper",
+	"Lead",
+	"Silver",
+	"Nickel",
+	"Constantan",
+	"Electrum",
+	"Uranium"
+	];
+
+for input in fenceMaterials {
+	var stickMetal as IItemStack = oreDict["stick"~input].firstItem;
+	var fenceMetal as IItemStack = oreDict["fence"~input].firstItem;
+
+theassembler
+    .recipeBuilder()
+    .inputs(stickMetal)
+    .outputs(fenceMetal*3)
+	.property("circuit", 6)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
+}
+
+#---Vanilla----
+#Iron Bars
+theassembler.findRecipe(4, [<ore:stickIron>.firstItem*3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickIron>*9)
+    .outputs(<minecraft:iron_bars>)
+	.property("circuit", 9)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler.findRecipe(4, [<ore:stickWroughtIron>.firstItem*3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickWroughtIron>*10)
+    .outputs(<minecraft:iron_bars>)
+	.property("circuit", 9)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickSteel>*12)
+    .outputs(<minecraft:iron_bars>)
+	.property("circuit", 9)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
