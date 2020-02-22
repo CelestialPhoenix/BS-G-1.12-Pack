@@ -9,7 +9,6 @@ print("Trust me I'm an engineer");
 
 
 #-Duplicate Materials-
-
 <immersiveposts:metal_rods:0>.addTooltip("This item is disabled");
 <immersiveposts:metal_rods:1>.addTooltip("This item is disabled");
 <immersiveposts:metal_rods:2>.addTooltip("This item is disabled");

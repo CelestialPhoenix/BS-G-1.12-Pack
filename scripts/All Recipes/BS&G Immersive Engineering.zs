@@ -50,7 +50,9 @@ mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material
 
 #aluminium
 recipes.removeShapeless(<immersiveengineering:metal:10>);
-
+#constantan
+recipes.removeShapeless(<immersiveengineering:metal:15>);
+<immersiveengineering:metal:15>.addTooltip("This item is disabled");
 #copper
 recipes.removeShapeless(<immersiveengineering:metal:9>);
 
@@ -97,6 +99,12 @@ furnace.remove(<immersiveengineering:metal:1>);
 <ore:ingotAluminum>.remove(<immersiveengineering:metal:1>);
 <immersiveengineering:metal:1>.addTooltip("This item is disabled");
 
+#constantan
+recipes.remove(<immersiveengineering:metal:6>);
+furnace.remove(<immersiveengineering:metal:6>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:6>);
+<immersiveengineering:metal:6>.addTooltip("This item is disabled");
+
 #copper
 recipes.remove(<immersiveengineering:metal:0>);
 furnace.remove(<immersiveengineering:metal:0>);
@@ -140,6 +148,10 @@ furnace.remove(<immersiveengineering:metal:5>);
 #aluminium
 recipes.remove(<immersiveengineering:metal:21>);
 <immersiveengineering:metal:21>.addTooltip("This item is disabled");
+
+#constantan
+recipes.remove(<immersiveengineering:metal:26>);
+<immersiveengineering:metal:26>.addTooltip("This item is disabled");
 
 #copper
 recipes.remove(<immersiveengineering:metal:20>);
