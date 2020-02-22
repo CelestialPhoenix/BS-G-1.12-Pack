@@ -3,6 +3,9 @@
 
 print("Hello Boys- I'm Baaaaack!!!");
 
+#--cupronickel/constantan fix---
+<ore:stickConstantan>.addAll(<ore:stickCupronickel>);
+
 #---blocks---
 #<ore:stoneAny>.add(<gregtech:granite:*>);
 #<ore:stoneAny>.add(<gregtech:mineral:*>);

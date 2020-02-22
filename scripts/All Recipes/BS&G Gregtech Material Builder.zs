@@ -132,6 +132,9 @@ tungsten.addFlags(["GENERATE_ORE"]);
 var vanadium = <material:vanadium>;
 vanadium.addFlags(["GENERATE_ORE"]);
 
+var uranium = <material:uranium>;
+uranium.addFlags(["GENERATE_ROD"]);
+
 var uvarovite = <material:uvarovite>;
 uvarovite.addFlags(["GENERATE_ORE"]);
 

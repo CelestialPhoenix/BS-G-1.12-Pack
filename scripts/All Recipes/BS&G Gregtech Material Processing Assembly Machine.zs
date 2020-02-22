@@ -1297,7 +1297,7 @@ theassembler.findRecipe(4, [<ore:stickIron>.firstItem*3, <metaitem:circuit.integ
 theassembler
     .recipeBuilder()
     .inputs(<ore:stickIron>*9)
-    .outputs(<minecraft:iron_bars>)
+    .outputs(<minecraft:iron_bars>*9)
 	.property("circuit", 9)
     .duration(200)
     .EUt(4)
@@ -1306,8 +1306,8 @@ theassembler
 theassembler.findRecipe(4, [<ore:stickWroughtIron>.firstItem*3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
 theassembler
     .recipeBuilder()
-    .inputs(<ore:stickWroughtIron>*10)
-    .outputs(<minecraft:iron_bars>)
+    .inputs(<ore:stickWroughtIron>*9)
+    .outputs(<minecraft:iron_bars>*10)
 	.property("circuit", 9)
     .duration(200)
     .EUt(4)
@@ -1315,9 +1315,11 @@ theassembler
 
 theassembler
     .recipeBuilder()
-    .inputs(<ore:stickSteel>*12)
-    .outputs(<minecraft:iron_bars>)
+    .inputs(<ore:stickSteel>*9)
+    .outputs(<minecraft:iron_bars>*12)
 	.property("circuit", 9)
     .duration(200)
     .EUt(4)
     .buildAndRegister();
+
+

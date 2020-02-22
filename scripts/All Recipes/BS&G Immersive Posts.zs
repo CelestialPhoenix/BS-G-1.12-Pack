@@ -24,10 +24,20 @@ for input in duplicateMaterials {
 	var stickMetal as IItemStack = oreDict["stick"~input].firstItem;
 
 mods.immersiveengineering.MetalPress.removeRecipe(stickMetal);
-stickMetal.addTooltip("This item is disabled");
+#stickMetal.addTooltip("This item is disabled");
 }
+
+<immersiveposts:metal_rods:0>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:1>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:2>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:3>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:4>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:5>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:6>.addTooltip("This item is disabled");
+<immersiveposts:metal_rods:7>.addTooltip("This item is disabled");
+
 recipes.remove(<immersiveposts:metal_rods:4>);
-recipes.remove(<immersiveposts:metal_rods:7>);
+#recipes.remove(<immersiveposts:metal_rods:7>);
 
 #-New Recipes-
 
@@ -48,8 +58,8 @@ for input in fenceMaterials {
 	var stickMetal as IItemStack = oreDict["stick"~input].firstItem;
 	var fenceMetal as IItemStack = oreDict["fence"~input].firstItem;
 
-recipes.remove(fenceMetal*2);
-recipes.addShaped(fenceMetal, [
+recipes.remove(fenceMetal);
+recipes.addShaped(fenceMetal*2, [
 [stickMetal, stickMetal, stickMetal],
 [stickMetal, stickMetal, stickMetal]]);
 }
