@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Railcraft Materials.zs
 #Author: PhoePhoe
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import moretweaker.railcraft.BlastFurnace;
 import moretweaker.railcraft.CokeOven;
 import moretweaker.railcraft.RockCrusher;
@@ -123,6 +126,33 @@ RollingMachine.addShaped(conduitAluminium*3, [
 [null, <ore:stickAluminium>, null],
 [null, <ore:stickAluminium>, null],
 [null, <ore:stickAluminium>, null]], 200);
+
+#--Fences--
+#This awesome looping script was modified from FTB interactions
+var fenceMaterials as string[] = [
+	"Iron",
+	"Gold",
+	"Copper",
+	"Lead",
+	"Silver",
+	"Nickel",
+	"Constantan",
+	"Electrum",
+	"Uranium"
+	];
+
+for input in fenceMaterials {
+	var stickMetal as IItemStack = oreDict["stick"~input].firstItem;
+	var fenceMetal as IItemStack = oreDict["fence"~input].firstItem;
+
+recipes.remove(fenceMetal*3);
+RollingMachine.addShaped(fenceMetal*3, [
+[null, null, null],
+[stickMetal, stickMetal, stickMetal],
+[stickMetal, stickMetal, stickMetal]], 200);
+}
+
+
 
 #--Rings--
 #4 rods in a ring
