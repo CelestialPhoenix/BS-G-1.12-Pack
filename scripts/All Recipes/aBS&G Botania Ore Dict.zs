@@ -16,7 +16,7 @@ print("ooo eee ooo ah ah ting tang...");
 #-Dyes-
 <ore:dyeWhite>.remove(<botania:dye:0>);
 <ore:dyeOrange>.remove(<botania:dye:1>);
-<ore:dyeMagneta>.remove(<botania:dye:2>);
+<ore:dyeMagenta>.remove(<botania:dye:2>);
 <ore:dyeLightBlue>.remove(<botania:dye:3>);
 <ore:dyeYellow>.remove(<botania:dye:4>);
 <ore:dyeLime>.remove(<botania:dye:5>);
@@ -30,6 +30,7 @@ print("ooo eee ooo ah ah ting tang...");
 <ore:dyeGreen>.remove(<botania:dye:13>);
 <ore:dyeRed>.remove(<botania:dye:14>);
 <ore:dyeBlack>.remove(<botania:dye:15>);
+<ore:dye>.remove(<botania:dye:*>);
 
 #-LivingWood-
 <ore:slabLivingwood>.add(<botania:livingwood0slab>);
