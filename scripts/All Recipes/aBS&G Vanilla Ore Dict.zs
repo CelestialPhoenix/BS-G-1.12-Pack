@@ -40,6 +40,12 @@ print("Mwah ha ha ha ha ha");
 <ore:stairNetherbrick>.add(<minecraft:nether_brick_stairs>);
 <ore:fenceNetherbrick>.add(<minecraft:nether_brick_fence>);
 
+<ore:dyeBlack>.remove(<minecraft:dye:0>);
+<ore:dyeBrown>.remove(<minecraft:dye:3>);
+<ore:dyeBlue>.remove(<minecraft:dye:4>);
+<ore:dyeWhite>.remove(<minecraft:dye:15>);
+<ore:dye>.remove(<minecraft:dye:0>, <minecraft:dye:3>, <minecraft:dye:4>);
+
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);
 

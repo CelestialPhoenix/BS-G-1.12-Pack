@@ -4,6 +4,11 @@
 print("BoP ...BLeepBleepBoop - R2D2");
 
 #---Duplicate Materials---
+
+#-dyes-
+<ore:dyeGreen>.remove(<biomesoplenty:green_dye>);
+<ore:dye>.add(<biomesoplenty:blue_dye>, <biomesoplenty:brown_dye>, <biomesoplenty:white_dye>, <biomesoplenty:black_dye>);
+
 #-gemstones-
 <ore:gemAmethyst>.remove(<biomesoplenty:gem:0>);
 <ore:gemRuby>.remove(<biomesoplenty:gem:1>);

@@ -7,6 +7,9 @@ print("O-Natura");
 <ore:dustSulfur>.remove(<natura:materials:4>);
 <ore:dustSulphur>.remove(<natura:materials:4>);
 
+#dyes
+<ore:dyeBlue>.remove(<natura:materials:8>);
+
 #plants
 <ore:blockCactus>.add(<natura:saguaro>);
 

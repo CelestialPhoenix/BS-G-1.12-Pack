@@ -4,21 +4,12 @@
 print("Mwah ha ha ha ha ha");
 
 #---Recipes---
-
-#Gunpowder
-recipes.remove(<minecraft:gunpowder>, <ore:dustSulfur>);
-recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCharcoal>]);
-recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCoal>]);
-recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCarbon>]);
-
-#String
-recipes.remove(<minecraft:string>, <natura:materials:3>);
-recipes.remove(<minecraft:string>, <immersiveengineering:material:4>);
-recipes.addShapeless(<minecraft:string>, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
-
 #Clay
 recipes.remove(<minecraft:clay_ball>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
 recipes.addShapeless(<minecraft:clay_ball>*4, [<minecraft:clay>]); #Adds recovery recipe for clay ball
+
+#Dyes
+
 
 #Iron Bars
 recipes.remove(<minecraft:iron_bars>);
@@ -37,6 +28,12 @@ recipes.addShaped(<minecraft:iron_bars>*10,[
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
 
+#Gunpowder
+recipes.remove(<minecraft:gunpowder>, <ore:dustSulfur>);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCharcoal>]);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCoal>]);
+recipes.addShapeless(<minecraft:gunpowder>*2, [<ore:dustSulfur>, <ore:dustSaltpeter>, <ore:dustCarbon>]);
+
 #Mycelium
 recipes.remove(<minecraft:mycelium>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
 
@@ -52,6 +49,11 @@ recipes.remove(<minecraft:dirt:2>, <minecraft:water_bucket>); #Fix TFo bucket st
 
 #Sand
 recipes.remove(<minecraft:sand>, <minecraft:water_bucket>); #Fix BoP bucket stupidity
+
+#String
+recipes.remove(<minecraft:string>, <natura:materials:3>);
+recipes.remove(<minecraft:string>, <immersiveengineering:material:4>);
+recipes.addShapeless(<minecraft:string>, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 
 #Wool
 recipes.remove(<minecraft:wool>, <natura:materials:3>);
