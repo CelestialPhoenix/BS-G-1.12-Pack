@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing Compressor.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -16,7 +19,50 @@ val compressor as RecipeMap = RecipeMap.getByName("compressor");
     .duration(100)
     .EUt(2)
     .buildAndRegister();*/
-	
+
+#--Botania--
+#Blaze Block
+compressor
+    .recipeBuilder()
+    .inputs(<ore:stickBlaze>)
+    .outputs(<botania:blazeblock>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+#This awesome looping script was modified from FTB interactions
+#Petal Blocks
+var BotaniaFlowers as string[] = [
+	"White",
+	"Orange",
+	"Magenta",
+	"LightBlue",
+	"Yellow",
+	"Lime",
+	"Pink",
+	"Gray",
+	"LightGray",
+	"Cyan",
+	"Purple",
+	"Blue",
+	"Brown",
+	"Green",
+	"Red",
+	"Black"];
+
+for input in BotaniaFlowers {
+	var orePetal as IItemStack = oreDict["petal"~input].firstItem;
+	var oreBlockPetal as IItemStack = oreDict["blockPetal"~input].firstItem;
+
+compressor
+    .recipeBuilder()
+    .inputs(orePetal*9)
+    .outputs(oreBlockPetal)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+}
+
 #Primal
 compressor
     .recipeBuilder()

@@ -89,6 +89,24 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#-Botania-
+#Floral Fertalizer
+mixer
+    .recipeBuilder()
+    .inputs(<minecraft:dye:15>*2, <botania:dye:*>*4, <ore:powderMana>)
+    .outputs(<botania:fertilizer>)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<minecraft:dye:15>*2, <botania:dye:*>*4, <ore:dustSalisMundus>)
+    .outputs(<botania:fertilizer>*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #-Forestry-
 #Bog Earth
 mixer
@@ -156,6 +174,79 @@ mixer
     .recipeBuilder()
     .inputs(<ore:dustAsh>.firstItem*8, <ore:dustSmallCalcium>.firstItem*3, <ore:dustSmallPhosphate>.firstItem*2)
     .outputs(<forestry:fertilizer_compound>*16)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+#--Dye Mixing--
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBlue>*1, <ore:dyeRed>*1)
+    .outputs(<ore:dyePurple>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBlue>*1, <ore:dyeGreen>*1)
+    .outputs(<ore:dyeCyan>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeGray>*1, <ore:dyeWhite>*1)
+    .outputs(<ore:dyeLightGray>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeRed>*1, <ore:dyeWhite>*1)
+    .outputs(<ore:dyePink>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeGreen>*1, <ore:dyeWhite>*1)
+    .outputs(<ore:dyeLime>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeBlue>*1, <ore:dyeWhite>*1)
+    .outputs(<ore:dyeLightBlue>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyePurple>*1, <ore:dyePink>*1)
+    .outputs(<ore:dyeMagenta>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeRed>*1, <ore:dyeYellow>*1)
+    .outputs(<ore:dyeOrange>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dyeOrange>*1, <ore:dyeBlack>*1)
+    .outputs(<ore:dyeBrown>.firstItem*2)
     .duration(200)
     .EUt(8)
     .buildAndRegister();

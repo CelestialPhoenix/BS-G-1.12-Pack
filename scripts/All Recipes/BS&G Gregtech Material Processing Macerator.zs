@@ -1,12 +1,61 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
 #---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
+
+#--Botania--
+#Flowers
+
+#This awesome looping script was modified from FTB interactions
+var BotaniaFlowers as string[] = [
+	"White",
+	"Orange",
+	"Magenta",
+	"LightBlue",
+	"Yellow",
+	"Lime",
+	"Pink",
+	"Gray",
+	"LightGray",
+	"Cyan",
+	"Purple",
+	"Blue",
+	"Brown",
+	"Green",
+	"Red",
+	"Black"];
+
+for input in BotaniaFlowers {
+	var oreFlower as IItemStack = oreDict["mysticFlower"~input].firstItem;
+	var oreFlowerDouble as IItemStack = oreDict["mysticFlower"~input~"Double"].firstItem;
+	var orePetal as IItemStack = oreDict["petal"~input].firstItem;
+	var orePowder as IItemStack = oreDict["floralPowder"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(oreFlower)
+    .outputs(orePowder*3)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(oreFlowerDouble)
+    .outputs(orePowder*5)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+}
+
 #-Brick [dust]-
 macerator.findRecipe(8, [<minecraft:stone_slab:4>], null).remove();
 macerator.findRecipe(8, [<minecraft:brick_stairs>], null).remove();

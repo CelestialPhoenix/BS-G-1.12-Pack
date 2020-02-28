@@ -62,12 +62,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:dyeOrange>.remove(<metaitem:dye.orange>);
 <ore:dyeWhite>.remove(<metaitem:dye.white>);
 
-<ore:dyeBlue>.remove(<ore:dustLapis>.firstItem);
-<ore:dyeBlue>.remove(<ore:dustLapis>.firstItem);
-<ore:dyeBlue>.remove(<ore:dustLazurite>.firstItem);
-<ore:dyeBlue>.remove(<ore:gemLazurite>.firstItem);
-<ore:dyeBlue>.remove(<ore:dustSodalite>.firstItem);
-<ore:dyeBlue>.remove(<ore:gemSodalite>.firstItem);
+#Ore-dict dye removal in final materials
 
 #-filters-
 <ore:filterItem>.add(<metaitem:item_filter>);

@@ -44,12 +44,7 @@ print("Mwah ha ha ha ha ha");
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
-<ore:dye>.remove(<minecraft:dye:0>);
-<ore:dye>.remove(<minecraft:dye:3>);
-<ore:dye>.remove(<minecraft:dye:4>);
-<ore:dye>.remove(<minecraft:dye:15>);
 <ore:dyeSilver>.add(<minecraft:dye:7>);
-
 
 <ore:piston>.add(<minecraft:piston>);
 <ore:piston>.add(<minecraft:sticky_piston>);

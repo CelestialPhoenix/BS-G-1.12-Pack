@@ -9,7 +9,96 @@ recipes.remove(<minecraft:clay_ball>, <minecraft:water_bucket>); #Fix TFo bucket
 recipes.addShapeless(<minecraft:clay_ball>*4, [<minecraft:clay>]); #Adds recovery recipe for clay ball
 
 #Dyes
+recipes.remove(<ore:dyeBlack>.firstItem);
+recipes.addShapeless(<ore:dyeBlack>.firstItem*2, [<minecraft:dye:0>]);
+recipes.addShapeless(<ore:dyeBlack>.firstItem*1, [<biomesoplenty:flower_0:10>]);
+recipes.addShapeless(<ore:dyeBlack>.firstItem*1, [<biomesoplenty:flower_0:2>]);
 
+recipes.remove(<ore:dyeRed>.firstItem);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<minecraft:red_flower:4>]);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<minecraft:double_plant:4>]);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<minecraft:red_flower:0>]);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:5>]);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:10>]);
+recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:11>]);
+
+#Green
+
+recipes.remove(<ore:dyeBrown>.firstItem);
+recipes.addShapeless(<ore:dyeBrown>.firstItem*3, [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeOrange>, <ore:dyeOrange>]);
+recipes.addShapeless(<ore:dyeBrown>.firstItem*1, [<minecraft:dye:3>]);
+recipes.addShapeless(<ore:dyeBrown>.firstItem*1, [<biomesoplenty:mushroom:4>]);
+recipes.addShapeless(<ore:dyeBrown>.firstItem*1, [<biomesoplenty:double_plant:1>]);
+recipes.addShapeless(<ore:dyeBrown>.firstItem*1, [<biomesoplenty:mushroom:4>]);
+
+recipes.remove(<ore:dyeBlue>.firstItem);
+recipes.addShapeless(<ore:dyeBlue>.firstItem*1, [<ore:dustSmallLapis>]);
+recipes.addShapeless(<ore:dyeBlue>.firstItem*1, [<ore:dustSmallLazurite>]);
+recipes.addShapeless(<ore:dyeBlue>.firstItem*1, [<ore:dustSmallSodalite>]);
+recipes.addShapeless(<ore:dyeBlue>.firstItem*1, [<biomesoplenty:mushroom:2>]);
+recipes.addShapeless(<ore:dyeBlue>.firstItem*1, [<biomesoplenty:flower_1:1>]);
+
+recipes.remove(<ore:dyePurple>.firstItem);
+recipes.addShapeless(<ore:dyePurple>.firstItem*3, [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeRed>, <ore:dyeRed>]);
+recipes.addShapeless(<ore:dyePurple>.firstItem*1, [<biomesoplenty:flower_1>]);
+recipes.addShapeless(<ore:dyePurple>.firstItem*1, [<biomesoplenty:flower_0:8>]);
+
+recipes.remove(<ore:dyeCyan>.firstItem);
+recipes.addShapeless(<ore:dyeCyan>.firstItem*3, [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeGreen>, <ore:dyeGreen>]);
+recipes.addShapeless(<ore:dyeCyan>.firstItem*1, [<biomesoplenty:flower_0:3>]);
+recipes.addShapeless(<ore:dyeCyan>.firstItem*1, [<biomesoplenty:flower_0:1>]);
+
+recipes.remove(<ore:dyeLightGray>.firstItem);
+recipes.addShapeless(<ore:dyeLightGray>.firstItem*3, [<ore:dyeGray>, <ore:dyeGray>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<ore:dyeLightGray>.firstItem*1, [<minecraft:red_flower:6>]);
+recipes.addShapeless(<ore:dyeLightGray>.firstItem*1, [<minecraft:red_flower:8>]);
+recipes.addShapeless(<ore:dyeLightGray>.firstItem*1, [<minecraft:red_flower:3>]);
+recipes.addShapeless(<ore:dyeLightGray>.firstItem*1, [<biomesoplenty:flower_0:0>]);
+
+recipes.remove(<ore:dyeGray>.firstItem);
+recipes.addShapeless(<ore:dyeGray>.firstItem*3, [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<ore:dyeGray>.firstItem*1, [<biomesoplenty:flower_0:12>]);
+
+recipes.remove(<ore:dyePink>.firstItem);
+recipes.addShapeless(<ore:dyePink>.firstItem*3, [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<ore:dyePink>.firstItem*1, [<minecraft:red_flower:7>]);
+recipes.addShapeless(<ore:dyePink>.firstItem*1, [<minecraft:double_plant:5>]);
+recipes.addShapeless(<ore:dyePink>.firstItem*1, [<biomesoplenty:flower_0:13>]);
+recipes.addShapeless(<ore:dyePink>.firstItem*1, [<biomesoplenty:flower_0:6>]);
+recipes.addShapeless(<ore:dyePink>.firstItem*1, [<biomesoplenty:flower_1:3>]);
+
+recipes.remove(<ore:dyeLime>.firstItem);
+recipes.addShapeless(<ore:dyeLime>.firstItem*3, [<ore:dyeGreen>, <ore:dyeGreen>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<ore:dyeLime>.firstItem*1, [<biomesoplenty:mushroom:3>]);
+
+recipes.remove(<ore:dyeYellow>.firstItem);
+recipes.addShapeless(<ore:dyeYellow>.firstItem*1, [<minecraft:double_plant:0>]);
+recipes.addShapeless(<ore:dyeYellow>.firstItem*1, [<minecraft:yellow_flower:0>]);
+recipes.addShapeless(<ore:dyeYellow>.firstItem*1, [<biomesoplenty:flower_1:1>]);
+
+recipes.remove(<ore:dyeLightBlue>.firstItem);
+recipes.addShapeless(<ore:dyeLightBlue>.firstItem*3, [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<ore:dyeLightBlue>.firstItem*1, [<minecraft:red_flower:1>]);
+recipes.addShapeless(<ore:dyeLightBlue>.firstItem*1, [<biomesoplenty:flower_1:4>]);
+recipes.addShapeless(<ore:dyeLightBlue>.firstItem*1, [<biomesoplenty:double_plant:0>]);
+recipes.addShapeless(<ore:dyeLightBlue>.firstItem*1, [<biomesoplenty:flower_0:4>]);
+
+recipes.remove(<ore:dyeMagenta>.firstItem);
+recipes.addShapeless(<ore:dyeMagenta>.firstItem*3, [<ore:dyePink>, <ore:dyePink>, <ore:dyePurple>, <ore:dyePurple>]);
+recipes.addShapeless(<ore:dyeMagenta>.firstItem*1, [<minecraft:double_plant:1>]);
+recipes.addShapeless(<ore:dyeMagenta>.firstItem*1, [<minecraft:red_flower:2>]);
+recipes.addShapeless(<ore:dyeMagenta>.firstItem*1, [<biomesoplenty:flower_0:7>]);
+
+recipes.remove(<ore:dyeOrange>.firstItem);
+recipes.addShapeless(<ore:dyeOrange>.firstItem*3, [<ore:dyeRed>, <ore:dyeRed>, <ore:dyeYellow>, <ore:dyeYellow>]);
+recipes.addShapeless(<ore:dyeOrange>.firstItem*1, [<minecraft:red_flower:5>]);
+recipes.addShapeless(<ore:dyeOrange>.firstItem*1, [<biomesoplenty:flower_0:5>]);
+recipes.addShapeless(<ore:dyeOrange>.firstItem*1, [<biomesoplenty:flower_0:15>]);
+
+recipes.remove(<ore:dyeWhite>.firstItem);
+recipes.addShapeless(<ore:dyeWhite>.firstItem*1, [<minecraft:dye:15>]);
+recipes.addShapeless(<ore:dyeWhite>.firstItem*1, [<biomesoplenty:flower_0:9>]);
+recipes.addShapeless(<ore:dyeWhite>.firstItem*1, [<biomesoplenty:flower_0:14>]);
 
 #Iron Bars
 recipes.remove(<minecraft:iron_bars>);

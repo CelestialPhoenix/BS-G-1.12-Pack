@@ -10,4 +10,4 @@ mods.jei.JEI.addDescription([<railcraft:coke_oven>, <railcraft:coke_oven_red>],"
 #Water siding
 mods.jei.JEI.addDescription([<railcraft:tank_water>],"Water siding forms a 3x3x3 hollow cube.", "Produces a steady supply of water.",
 "Structure cannot share a wall with other water sidings.", 
-"Will automatically drain water from base/sides into adjecent tanks/pipes.", "Water can be piped into the top.", "Requires line of sight to the sky.");
+"Will automatically drain water from base/sides into adjecent tanks/pipes.", "Water can be piped into the top.", "Requires line of sight to the sky.", "Does not work in arid environments.");

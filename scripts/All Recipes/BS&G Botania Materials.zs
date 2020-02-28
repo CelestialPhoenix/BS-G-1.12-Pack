@@ -5,6 +5,10 @@ print("ooo eee ooo ah ah ting tang...");
 
 #---Materials---
 #--Blocks--
+#Blaze Mesh
+recipes.remove(<botania:blazeblock>);
+recipes.addShapeless(<botania:blazeblock>, [<ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>, <ore:stickBlaze>]);
+
 #LivingRock
 recipes.remove(<botania:livingrock:3>);
 furnace.addRecipe(<botania:livingrock:3>, <botania:livingrock:1>, 0.0);
@@ -38,6 +42,14 @@ recipes.remove(<botania:manaresource:17>);
 recipes.remove(<botania:manaresource:18>);
 
 #-Resources-
+
+#Floral Fertalizer
+recipes.remove(<botania:fertilizer>);
+
+recipes.addShapeless(<botania:fertilizer>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <ore:powderMana>]);
+
+recipes.addShapeless(<botania:fertilizer>, [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <botania:dye:*>, <ore:dustSalisMundis>]);
+
 #Dragon Stone
 recipes.remove(<botania:manaresource:9>);
 
