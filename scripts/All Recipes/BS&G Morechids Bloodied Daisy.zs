@@ -1,4 +1,4 @@
-#Name: Blood Sweat & Gears Morechids.zs
+#Name: Blood Sweat & Gears Morechids Bloodied Orechid.zs
 #Author: PhoePhoe
 
 print("Flower Power!!");

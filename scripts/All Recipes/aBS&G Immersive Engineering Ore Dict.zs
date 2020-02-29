@@ -111,6 +111,11 @@ print("Trust me I'm an engineer");
 <ore:connectorHV>.add(<immersiveengineering:connector:4>);
 <ore:relayHV>.add(<immersiveengineering:connector:5>);
 
+
+#Fences
+<ore:fenceAluminum>.remove(<immersiveengineering:metal_decoration1:4>);
+<ore:fenceAluminium>.add(<immersiveengineering:metal_decoration1:4>);
+
 <ore:glassInsulating>.add(<immersiveengineering:stone_decoration:8>);
 <ore:itemNozzle>.add(<immersiveengineering:toolupgrade:7>);
 

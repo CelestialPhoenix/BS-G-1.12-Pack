@@ -1266,6 +1266,8 @@ theassembler.findRecipe(4, [<ore:plankWood>.firstItem * 3, <metaitem:circuit.int
 #---Immersive Posts---
 #This awesome looping script was modified from FTB interactions
 var fenceMaterials as string[] = [
+	"Aluminium",
+	"Steel",
 	"Iron",
 	"Gold",
 	"Copper",
@@ -1285,7 +1287,7 @@ theassembler
     .recipeBuilder()
     .inputs(stickMetal)
     .outputs(fenceMetal*3)
-	.property("circuit", 6)
+	.property("circuit", 3)
     .duration(200)
     .EUt(4)
     .buildAndRegister();

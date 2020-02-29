@@ -161,7 +161,18 @@ recipes.addShaped(<immersiveengineering:metal_device1:1>, [
 [<ore:barsIron>, <ore:elementCupronickel>, <ore:barsIron>], 
 [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]]);
 
-#---Fluid Pipe
+#---Fence (metal)---
+recipes.removeShaped(<immersiveengineering:metal_decoration1:0>);
+recipes.addShaped(<immersiveengineering:metal_decoration1:0>*2, [
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]]);
+
+recipes.removeShaped(<immersiveengineering:metal_decoration1:4>);
+recipes.addShaped(<immersiveengineering:metal_decoration1:4>*2, [
+[<ore:stickAluminium>, <ore:stickAluminium>, <ore:stickAluminium>],
+[<ore:stickAluminium>, <ore:stickAluminium>, <ore:stickAluminium>]]);
+
+#---Fluid Pipe---
 recipes.removeShaped(<immersiveengineering:metal_device1:6>);
 recipes.addShaped(<immersiveengineering:metal_device1:6>*4, [
 [<ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>],
