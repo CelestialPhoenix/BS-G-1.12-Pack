@@ -1,12 +1,23 @@
 {
-    "bloodied_orechid": {
-        "manaCost": 12000,
-        "timeCost": 200,
-        "cooldown": 0,
-        "color": "EE0011",
-        "range": 1,
-        "rangeY": 0,
-        "playSound": false
-        "blockBreakParticles ": true
-    }
+   "bloodied_orechid":{
+      "manaCost":12000,
+      "timeCost":200,
+      "cooldown":0,
+      "color":"EE0011",
+      "range":1,
+      "rangeY":0,
+      "playSound":false,
+      "blockBreakParticles ":true
+   },
+   "shimmering_daisy":{
+      "manaCost":100,
+      "timeCost":1,
+      "cooldown":60,
+      "rangeCheckInterval":20000,
+      "color":"CC00CC",
+      "range":32,
+      "rangeY":8,
+      "playSound":false,
+      "blockBreakParticles ":false
+   }
 }
