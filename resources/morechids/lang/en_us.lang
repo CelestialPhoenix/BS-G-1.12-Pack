@@ -1,2 +1,11 @@
-morechids:bloodied_orechid.name= Bloodied Orechid
-morechids.nei.bloodied_orechid= Bloodied Orechid
+morechids:bloodied_orechid.name=Bloodied Orechid
+morechids.nei.bloodied_orechid=Bloodied Orechid
+tile.botania:flower.morechids:bloodied_orechid.name=Bloodied Orechid
+
+morechids:shimmering_daisy.name=Shimmering Daisy
+morechids.nei.shimmering_daisy=Shimmering Daisy
+tile.botania:flower.morechids:shimmering_daisy.name=Shimmering Daisy
+
+morechids:shimmering_daisy_petite.name=Petite Shimmering Daisy
+morechids.nei.shimmering_daisy_petite=Petite Shimmering Daisy
+tile.botania:flower.morechids:shimmering_daisy_petite.name=Petite Shimmering Daisy

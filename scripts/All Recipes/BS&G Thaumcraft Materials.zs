@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Thaumcraft Ore Dict.zs
 #Author: PhoePhoe
 
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 import mods.thaumcraft.Infusion;
 
 print("Ever wondered what the Liquid Death tastes like?");
@@ -38,6 +41,28 @@ mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:2>);
 mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:3>);
 
 #---Naming---
+#---Block Properties---
+#Taint
+var taintCrust = (<thaumcraft:taint_crust>) as IBlock;
+taintCrust.definition.setHarvestLevel("axe", 4);
+taintCrust.definition.hardness=100;
+taintCrust.definition.defaultSlipperiness=0.99;
+taintCrust.definition.lightLevel=4;
+
+var taintLog = (<thaumcraft:taint_log:*>) as IBlock;
+taintLog.definition.defaultSlipperiness=0.99;
+taintLog.definition.lightLevel=2;
+
+var taintRock = (<thaumcraft:taint_rock>) as IBlock;
+taintRock.definition.setHarvestLevel("pickaxe", 4);
+taintRock.definition.hardness=100;
+taintRock.definition.resistance=12;
+taintRock.definition.defaultSlipperiness=0.99;
+taintRock.definition.lightLevel=1;
+
+var taintSoil = (<thaumcraft:taint_soil>) as IBlock;
+taintSoil.definition.defaultSlipperiness=0.99;
+taintSoil.definition.lightLevel=1;
 
 #---Recipes---
 #-Planks-

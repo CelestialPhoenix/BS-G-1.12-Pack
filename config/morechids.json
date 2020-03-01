@@ -9,14 +9,27 @@
       "playSound":false,
       "blockBreakParticles ":true
    },
+
    "shimmering_daisy":{
       "manaCost":100,
       "timeCost":1,
       "cooldown":60,
       "rangeCheckInterval":20000,
       "color":"CC00CC",
-      "range":32,
-      "rangeY":8,
+      "range":16,
+      "rangeY":6,
+      "playSound":false,
+      "blockBreakParticles ":false
+   },
+
+   "shimmering_daisy_petite":{
+      "manaCost":100,
+      "timeCost":1,
+      "cooldown":60,
+      "rangeCheckInterval":20000,
+      "color":"CC00CC",
+      "range":8,
+      "rangeY":4,
       "playSound":false,
       "blockBreakParticles ":false
    }
