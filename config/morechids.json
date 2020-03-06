@@ -16,7 +16,7 @@
       "cooldown":60,
       "rangeCheckInterval":20000,
       "color":"CC00CC",
-      "range":16,
+      "range":12,
       "rangeY":6,
       "playSound":false,
       "blockBreakParticles ":false

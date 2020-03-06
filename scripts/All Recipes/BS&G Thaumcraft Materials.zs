@@ -45,23 +45,37 @@ mods.immersiveengineering.MetalPress.removeRecipe(<thaumcraft:plate:3>);
 #Taint
 var taintCrust = (<thaumcraft:taint_crust>) as IBlock;
 taintCrust.definition.setHarvestLevel("axe", 4);
-taintCrust.definition.hardness=100;
-taintCrust.definition.defaultSlipperiness=0.99;
+taintCrust.definition.hardness=75;
+taintCrust.definition.resistance=12;
+taintCrust.definition.defaultSlipperiness=1.0;
 taintCrust.definition.lightLevel=4;
 
+var taintGeyser = (<thaumcraft:taint_geyser>) as IBlock;
+taintGeyser.definition.setHarvestLevel("axe", 4);
+taintGeyser.definition.hardness=150;
+taintGeyser.definition.resistance=16;
+taintGeyser.definition.defaultSlipperiness=0.9999;
+taintGeyser.definition.lightLevel=4;
+
 var taintLog = (<thaumcraft:taint_log:*>) as IBlock;
-taintLog.definition.defaultSlipperiness=0.99;
+taintLog.definition.setHarvestLevel("axe", 4);
+taintLog.definition.hardness=50;
+taintLog.definition.resistance=12;
+taintLog.definition.defaultSlipperiness=1.0;
 taintLog.definition.lightLevel=2;
 
 var taintRock = (<thaumcraft:taint_rock>) as IBlock;
 taintRock.definition.setHarvestLevel("pickaxe", 4);
 taintRock.definition.hardness=100;
 taintRock.definition.resistance=12;
-taintRock.definition.defaultSlipperiness=0.99;
+taintRock.definition.defaultSlipperiness=1.0;
 taintRock.definition.lightLevel=1;
 
 var taintSoil = (<thaumcraft:taint_soil>) as IBlock;
-taintSoil.definition.defaultSlipperiness=0.99;
+taintSoil.definition.setHarvestLevel("shovel", 4);
+taintSoil.definition.hardness=100;
+taintSoil.definition.resistance=12;
+taintSoil.definition.defaultSlipperiness=1.0;
 taintSoil.definition.lightLevel=1;
 
 #---Recipes---

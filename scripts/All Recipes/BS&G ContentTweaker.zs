@@ -552,7 +552,10 @@ recipes.addShaped(<contenttweaker:presstoolroller>, [
 [<ore:plateSteel>, null, <ore:plateSteel>], 
 [<ore:ringSteel>, <ore:blockSteel>, <ore:ringSteel>]]);
 
-#---sheetmetal blocks---
+#---Sheetmetal blocks---
 recipes.addShaped(<contenttweaker:blockrolledbronze>, [
 [<ore:sheetBronze>, <ore:sheetBronze>], 
 [<ore:sheetBronze>, <ore:sheetBronze>]]);
+
+#---Tools/Tool parts---
+recipes.addShapeless(<contenttweaker:toolrodwood>, [<ore:stickWood>]);

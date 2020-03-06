@@ -17,24 +17,92 @@ Dropt.list("taint_fibre")
 		  .items([<thaumcraft:taint_fibre>], Dropt.range(1)))
       );
 */
-Dropt.list("taint_fibre")
+Dropt.list("taint_crust")
   .add(Dropt.rule()
-      .matchBlocks(["thaumcraft:taint_fibre"])
-      .matchHarvester(Dropt.harvester()
-          .type("PLAYER")
-          .mainHand("WHITELIST", [<forestry:grafter>, <forestry:grafter_proven>]))
+      .matchBlocks(["thaumcraft:taint_crust"])
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(100))
-		  .items([<thaumcraft:taint_fibre>], Dropt.range(1)))
+		  .items([<thaumcraft:taint_crust>], Dropt.range(1)))
       );
 
-Dropt.list("taint_swollen")
+Dropt.list("taint_geyser/log")
   .add(Dropt.rule()
-      .matchBlocks(["thaumcraft:taint_feature:0", "thaumcraft:taint_feature:1", "thaumcraft:taint_feature:2", "thaumcraft:taint_feature:3", "thaumcraft:taint_feature:4", "thaumcraft:taint_feature:5"])
-      .matchHarvester(Dropt.harvester()
-          .type("PLAYER")
-		  .mainHand("WHITELIST", [<forestry:grafter>, <forestry:grafter_proven>]))
+      .matchBlocks(["thaumcraft:taint_geyser"])//Log drops by default
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(100))
-		  .items([<thaumcraft:taint_feature:0>], Dropt.range(1)))
+		  .items([<thaumcraft:taint_log>], Dropt.range(1)))
+      );
+
+Dropt.list("taint_rock")
+  .add(Dropt.rule()
+      .matchBlocks(["thaumcraft:taint_rock"])
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<thaumcraft:taint_rock>], Dropt.range(1)))
+      );
+
+Dropt.list("taint_soil")
+  .add(Dropt.rule()
+      .matchBlocks(["thaumcraft:taint_soil"])
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(100))
+		  .items([<thaumcraft:taint_soil>], Dropt.range(1)))
+      );
+
+Dropt.list("iron")
+  .add(Dropt.rule()
+      .matchBlocks(["minecraft:iron_ore"])
+      .matchHarvester(Dropt.harvester()
+          .type("EXPLOSION"))
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(75))
+		  .items([<ore:crushedIron>.firstItem], Dropt.range(3)))
+      .addDrop(Dropt.drop()
+		  .selector(Dropt.weight(25))
+		  .items([<ore:dustImpureIron>.firstItem], Dropt.range(3)))
+      );
+
+Dropt.list("taint_explode_1")
+  .add(Dropt.rule()
+      .matchBlocks(["thaumcraft:taint_rock", "thaumcraft:taint_soil", "thaumcraft:taint_log:0", "thaumcraft:taint_log:1", "thaumcraft:taint_log:2"])
+      .matchHarvester(Dropt.harvester()
+          .type("EXPLOSION"))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50)))//Drops Nothing
+      );
+
+Dropt.list("taint_explode_2")
+  .add(Dropt.rule()
+      .matchBlocks(["thaumcraft:taint_crust"])
+      .matchHarvester(Dropt.harvester()
+          .type("EXPLOSION"))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(25))
+		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(25)))//Drops Nothing
+      );
+
+Dropt.list("taint_explode_3")
+  .add(Dropt.rule()
+      .matchBlocks(["thaumcraft:taint_geyser"])
+      .matchHarvester(Dropt.harvester()
+          .type("EXPLOSION"))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(15))
+		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(25))
+		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50))
+		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10)))//Drops Nothing
       );

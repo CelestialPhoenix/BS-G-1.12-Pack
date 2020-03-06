@@ -22,7 +22,7 @@ recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:5>]);
 recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:10>]);
 recipes.addShapeless(<ore:dyeRed>.firstItem*1, [<biomesoplenty:flower_1:11>]);
 
-#Green
+#Green goes here
 
 recipes.remove(<ore:dyeBrown>.firstItem);
 recipes.addShapeless(<ore:dyeBrown>.firstItem*3, [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeOrange>, <ore:dyeOrange>]);
@@ -138,6 +138,9 @@ recipes.remove(<minecraft:dirt:2>, <minecraft:water_bucket>); #Fix TFo bucket st
 
 #Sand
 recipes.remove(<minecraft:sand>, <minecraft:water_bucket>); #Fix BoP bucket stupidity
+
+#Stick
+recipes.addShapeless(<minecraft:stick>, [<contenttweaker:toolrodwood>]);
 
 #String
 recipes.remove(<minecraft:string>, <natura:materials:3>);
