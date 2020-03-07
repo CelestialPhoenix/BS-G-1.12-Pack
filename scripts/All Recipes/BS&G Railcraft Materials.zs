@@ -1,7 +1,21 @@
 #Name: Blood Sweat & Gears Railcraft Materials.zs
 #Author: PhoePhoe
 
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
+
 print("Handles like its on rails");
+
+#---Block Properties---
+var oreDiamond = (<railcraft:ore:2>) as IBlock;
+oreDiamond.definition.setHarvestLevel("pickaxe", 3);
+
+var oreEmerald = (<railcraft:ore:2>) as IBlock;
+oreEmerald.definition.setHarvestLevel("pickaxe", 2);
+
+var oreLapis = (<railcraft:ore:2>) as IBlock;
+oreLapis.definition.setHarvestLevel("pickaxe", 2);
 
 #---Removed items---
 

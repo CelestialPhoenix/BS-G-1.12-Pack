@@ -1,6 +1,8 @@
 #Name: Blood Sweat & Gears Vanilla Materials.zs
 #Author: PhoePhoe
 
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockDefinition;
 
 print("Mwah ha ha ha ha ha");
