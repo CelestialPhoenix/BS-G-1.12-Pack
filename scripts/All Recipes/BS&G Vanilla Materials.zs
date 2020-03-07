@@ -1,7 +1,24 @@
 #Name: Blood Sweat & Gears Vanilla Materials.zs
 #Author: PhoePhoe
 
+import crafttweaker.block.IBlockDefinition;
+
 print("Mwah ha ha ha ha ha");
+
+#---Block Properties---
+var oreDiamond = (<minecraft:diamond_ore>) as IBlock;
+oreDiamond.definition.setHarvestLevel("pickaxe", 3);
+
+var oreIron = (<minecraft:diamond_ore>) as IBlock;
+oreIron.definition.setHarvestLevel("pickaxe", 2);
+
+var netherrack = (<minecraft:netherrack>) as IBlock;
+netherrack.definition.lightLevel=5;
+
+var torchLit = (<minecraft:torch:*>) as IBlock;
+torchLit.definition.lightLevel=11;
+
+
 
 #---Recipes---
 #Clay
