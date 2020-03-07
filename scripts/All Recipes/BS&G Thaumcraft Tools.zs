@@ -12,5 +12,4 @@ print("Ever wondered what the Liquid Death tastes like?");
 <thaumcraft:void_axe>.definition.setHarvestLevel("axe", 4);
 <thaumcraft:void_pick>.definition.setHarvestLevel("pickaxe", 4);
 <thaumcraft:void_shovel>.definition.setHarvestLevel("shovel", 4);
-<thaumcraft:primal_crusher>.definition.setHarvestLevel("", 4);
 

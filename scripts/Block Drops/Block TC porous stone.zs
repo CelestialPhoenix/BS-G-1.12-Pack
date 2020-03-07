@@ -4,7 +4,7 @@
 import mods.dropt.Dropt;
 
 print(".addDrop(Dropt.drop([<ore:theBass>.firstItem]);");
-
+/*
 Dropt.list("TC_stone_porus")
   .add(Dropt.rule()
       .matchBlocks(["thaumcraft:stone_porous"])
@@ -60,7 +60,7 @@ Dropt.list("TC_stone_porus")
           .selector(Dropt.weight(20))
 		  .items([<ore:clusterNickel>.firstItem], Dropt.range(1)))
       );
-
+*/
 
 Dropt.list("TC_stone_porus_automation")
   .add(Dropt.rule()
@@ -68,7 +68,7 @@ Dropt.list("TC_stone_porus_automation")
       .matchHarvester(Dropt.harvester()
           .type("ANY"))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(800))
+		  .selector(Dropt.weight(800))
 		  .items([<minecraft:gravel>], Dropt.range(1)))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(2))
@@ -77,7 +77,7 @@ Dropt.list("TC_stone_porus_automation")
           .selector(Dropt.weight(2))
 		  .items([<minecraft:emerald>], Dropt.range(1)))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(4))
+		  .selector(Dropt.weight(4))
 		  .items([<ore:gemRuby>.firstItem], Dropt.range(1)))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(5))
