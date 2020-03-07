@@ -4,6 +4,7 @@
 import crafttweaker.block.IBlockProperties;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockDefinition;
+import crafttweaker.item.IItemDefinition;
 import mods.thaumcraft.Infusion;
 
 print("Ever wondered what the Liquid Death tastes like?");

@@ -5,6 +5,7 @@ import mods.dropt.Dropt;
 
 print(".addDrop(Dropt.drop([<ore:theBass>.firstItem]);");
 
+var crystalVitium= <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]});
 
 Dropt.list("taint_crust")
   .add(Dropt.rule()
@@ -53,9 +54,12 @@ Dropt.list("taint_explode_0")
           .type("EXPLOSION"))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(20))
-		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+		  .items("ALL", [<thaumcraft:curio:5>*1, crystalVitium*1]))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(80)))//Drops Nothing
+          .selector(Dropt.weight(30))
+		  .items([crystalVitium], Dropt.range(1)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(50)))//Drops Nothing
       );
 
 Dropt.list("taint_explode_1")
@@ -65,9 +69,10 @@ Dropt.list("taint_explode_1")
           .type("EXPLOSION"))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(50))
-		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+		  .items("ALL", [<thaumcraft:curio:5>*1, crystalVitium*1]))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(50)))//Drops Nothing
+          .selector(Dropt.weight(50))
+		  .items([crystalVitium], Dropt.range(1)))
       );
 
 Dropt.list("taint_explode_2")
@@ -77,12 +82,16 @@ Dropt.list("taint_explode_2")
           .type("EXPLOSION"))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(25))
-		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+		  .items("ALL", [<thaumcraft:curio:5>*2, crystalVitium*3]))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(50))
-		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+		  .items("ALL", [<thaumcraft:curio:5>*1, crystalVitium*1]))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(25)))//Drops Nothing
+          .selector(Dropt.weight(15))
+		  .items([crystalVitium], Dropt.range(2)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([crystalVitium], Dropt.range(1)))
       );
 
 Dropt.list("taint_explode_3")
@@ -92,15 +101,19 @@ Dropt.list("taint_explode_3")
           .type("EXPLOSION"))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(15))
-		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+		  .items("ALL", [<thaumcraft:curio:5>*3, crystalVitium*5]))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(25))
-		  .items([<thaumcraft:curio:5>], Dropt.range(2)))
+		  .items("ALL", [<thaumcraft:curio:5>*2, crystalVitium*3]))
       .addDrop(Dropt.drop()
           .selector(Dropt.weight(50))
-		  .items([<thaumcraft:curio:5>], Dropt.range(1)))
+		  .items("ALL", [<thaumcraft:curio:5>*1, crystalVitium*1]))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(10)))//Drops Nothing
+          .selector(Dropt.weight(15))
+		  .items([crystalVitium], Dropt.range(3)))
+      .addDrop(Dropt.drop()
+          .selector(Dropt.weight(10))
+		  .items([crystalVitium], Dropt.range(2)))
       );
 
 
