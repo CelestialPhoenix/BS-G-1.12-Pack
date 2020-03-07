@@ -1,0 +1,45 @@
+#Name: Blood Sweat & Gears Taint Interactions.JSON
+#Author: PhoePhoe 
+
+[
+  {
+    "targetBlock": "thaumcraft:taint_fibre:*",
+    "heldItem": "forestry:grafter",
+	"replacementBlock": "minecraft:air",
+    "dropItem": "thaumcraft:taint_fibre",
+    "dropOnlyOnSuccess": "true",
+    "dropCount": "1",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "thaumcraft:taint_fibre:*",
+    "heldItem": "forestry:proven_grafter",
+	"replacementBlock": "minecraft:air",
+    "dropItem": "thaumcraft:taint_fibre",
+    "dropOnlyOnSuccess": "true",
+    "dropCount": "1",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "thaumcraft:taint_feature:*",
+    "heldItem": "forestry:grafter",
+	"replacementBlock": "minecraft:air",
+    "dropItem": "thaumcraft:taint_fibre",
+    "dropOnlyOnSuccess": "true",
+    "dropCount": "1",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "thaumcraft:taint_feature:*",
+    "heldItem": "forestry:proven_grafter",
+	"replacementBlock": "minecraft:air",
+    "dropItem": "thaumcraft:taint_fibre",
+    "dropOnlyOnSuccess": "true",
+    "dropCount": "1",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  }
+]
