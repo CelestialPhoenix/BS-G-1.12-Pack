@@ -668,13 +668,10 @@ mods.botania.ManaInfusion.addInfusion(oreDust, oreDustPure, 10);
 
 mods.botania.ManaInfusion.addAlchemy(oreBlockStone, oreBlockAny, 5);
 }
-mods.botania.ManaInfusion.removeRecipe(<ore:Cobalt>);
-mods.botania.ManaInfusion.removeRecipe(<ore:Cobaltic>);
-mods.botania.ManaInfusion.removeRecipe(<ore:Cobaltite>);
 
-mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobalt>, <ore:oreCobalt>, 5);
-mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltic>, <ore:oreCobaltic>, 5);
-mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltite>, <ore:oreCobaltite>, 5);
+#mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobalt>, <ore:oreCobalt>, 5);
+#mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltic>, <ore:oreCobaltic>, 5);
+#mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltite>, <ore:oreCobaltite>, 5);
 
 #---pure daisy---
 #script <input> <output>

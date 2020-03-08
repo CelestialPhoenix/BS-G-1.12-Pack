@@ -1263,7 +1263,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCalcium>.firstItem, <ore
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCarbon>.firstItem, <ore:oreCoal>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCerium	>.firstItem, <ore:oreCeria>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreChrome>.firstItem, <ore:oreChromite>.firstItem, 0.0);
-mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:orecobalt>, <contenttweaker:oreobaltic>, 0.0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:orecobalt>, <contenttweaker:orecobaltic>, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCopper>.firstItem, <ore:oreChalcocite>.firstItem, 0.0);
 #mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreGallium>.firstItem, <ore:oreXXXXXX>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreGold>.firstItem, <ore:oreAurite>.firstItem, 0.0);
