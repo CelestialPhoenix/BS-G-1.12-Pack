@@ -16,7 +16,7 @@
                      "weight":20
                   },
                   {  
-                     "name":"gregtech:ore_cobaltite_0",
+                     "name":"contenttweaker:orecobaltite",
                      "metadata":0,
                      "weight":5
                   },
@@ -53,7 +53,7 @@
                      "weight":5
                   },
                   {  
-                     "name":"gregtech:ore_cobaltite_0",
+                     "name":"contenttweaker:orecobaltite",
                      "metadata":0,
                      "weight":5
                   },
@@ -90,7 +90,7 @@
                      "weight":10
                   },
                   {  
-                     "name":"gregtech:ore_cobaltite_0",
+                     "name":"contenttweaker:orecobaltite",
                      "metadata":0,
                      "weight":25
                   },

@@ -19,7 +19,7 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreS
 
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreXanthoconite>, <ore:ingotSilver>, <ore:dustArsenic>, <ore:dustXanthoconite>], 57000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_arsenic_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_xanthoconite_0>);
 
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCobaltite>, <ore:ingotCobalt>, <ore:dustArsenic>, <ore:dustCobaltite>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_arsenic_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cobaltite_0>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCobaltite>, <ore:ingotCobalt>, <ore:dustArsenic>, <ore:dustCobaltite>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_arsenic_0>, <botania:alchemycatalyst>, <minecraft:stone>, <contenttweaker:orecobaltite>);
 
 #Beryllium
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreEmerald>, <ore:ingotBeryllium>, <ore:gemEmerald>, <ore:dustEmerald>], 24000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_beryllium_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_emerald_0>);
@@ -133,7 +133,7 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreR
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreDiamond>, <ore:gemCoal>, <ore:gemDiamond>, <ore:dustDiamond>], 84000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <minecraft:coal_ore>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_diamond_0>);
 
 #Cobaltite
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:orePentlandite>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:dustPentlandite>], 140000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cobaltite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_pentlandite_0>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:orePentlandite>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:dustPentlandite>], 140000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <contenttweaker:orecobaltite>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_pentlandite_0>);
 
 #Cooperite,
 #Diamond,
@@ -144,7 +144,7 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreS
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreBerryite>, <ore:ingotBismuth>, <ore:ingotSilver>, <ore:dustBerryite>], 12000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_galena_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_berryite_0>);
 
 #Garnierite
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCobaltite>, <ore:ingotCobalt>, <ore:dustArsenic>, <ore:dustCobaltite>], 30000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_garnierite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_cobaltite_0>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreCobaltite>, <ore:ingotCobalt>, <ore:dustArsenic>, <ore:dustCobaltite>], 30000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_garnierite_0>, <botania:alchemycatalyst>, <minecraft:stone>, <contenttweaker:orecobaltite>);
 
 #GreenSapphire
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustAsh>.firstItem*4, [<ore:oreZircon>, <ore:ingotZirconium>, <ore:ingotZirconium>, <ore:dustZircon>], 39000, 0x666666, 0xBBBBBB, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_green_sapphire_0>, <botania:alchemycatalyst>, <minecraft:stone>, <gregtech:ore_zircon_0>);
@@ -668,6 +668,13 @@ mods.botania.ManaInfusion.addInfusion(oreDust, oreDustPure, 10);
 
 mods.botania.ManaInfusion.addAlchemy(oreBlockStone, oreBlockAny, 5);
 }
+mods.botania.ManaInfusion.removeRecipe(<ore:Cobalt>);
+mods.botania.ManaInfusion.removeRecipe(<ore:Cobaltic>);
+mods.botania.ManaInfusion.removeRecipe(<ore:Cobaltite>);
+
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobalt>, <ore:oreCobalt>, 5);
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltic>, <ore:oreCobaltic>, 5);
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:orecobaltite>, <ore:oreCobaltite>, 5);
 
 #---pure daisy---
 #script <input> <output>
@@ -686,7 +693,7 @@ mods.botania.PureDaisy.addRecipe(<ore:oreCalcium>, <gregtech:ore_calcium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCarbon>, <gregtech:ore_carbon_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCerium	>, <gregtech:ore_cerium	_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreChrome>, <gregtech:ore_chrome_0>);
-mods.botania.PureDaisy.addRecipe(<ore:oreCobalt>, <gregtech:ore_cobalt_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreCobalt>, <contenttweaker:orecobalt>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCopper>, <gregtech:ore_copper_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreGallium>, <gregtech:ore_gallium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreGold>, <minecraft:gold_ore>);
@@ -731,7 +738,7 @@ mods.botania.PureDaisy.addRecipe(<ore:oreChalcopyrite>, <gregtech:ore_copper_0>)
 mods.botania.PureDaisy.addRecipe(<ore:oreChromite>, <gregtech:ore_chrome_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCinnabar>, <gregtech:ore_quicksilver_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCoal>, <minecraft:coal_ore>);
-mods.botania.PureDaisy.addRecipe(<ore:oreCobaltite>, <gregtech:ore_cobalt_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreCobaltite>, <contenttweaker:orecobalt>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCooperite>, <gregtech:ore_platinum_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreDiamond>, <minecraft:diamond_ore>);
 mods.botania.PureDaisy.addRecipe(<ore:oreEmerald>, <minecraft:emerald_ore>);
@@ -848,7 +855,7 @@ mods.botania.PureDaisy.addRecipe(<ore:oreArgite>, <gregtech:ore_silver_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreCorundum>, <gregtech:ore_aluminium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreNatria>, <gregtech:ore_sodium_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreRatsbane>, <gregtech:ore_arsenic_0>);
-mods.botania.PureDaisy.addRecipe(<ore:oreCobaltic>, <gregtech:ore_cobalt_0>);
+mods.botania.PureDaisy.addRecipe(<ore:oreCobaltic>, <contenttweaker:orecobalt>);
 mods.botania.PureDaisy.addRecipe(<ore:oreEskolaite>, <gregtech:ore_chrome_0>);
 mods.botania.PureDaisy.addRecipe(<ore:oreAurite>, <minecraft:gold_ore>);
 mods.botania.PureDaisy.addRecipe(<ore:oreZincite>, <gregtech:ore_zinc_0>);

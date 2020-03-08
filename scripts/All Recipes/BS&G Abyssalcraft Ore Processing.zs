@@ -1263,7 +1263,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCalcium>.firstItem, <ore
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCarbon>.firstItem, <ore:oreCoal>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCerium	>.firstItem, <ore:oreCeria>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreChrome>.firstItem, <ore:oreChromite>.firstItem, 0.0);
-mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCobalt>.firstItem, <ore:oreCobaltic>.firstItem, 0.0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:orecobalt>, <contenttweaker:oreobaltic>, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCopper>.firstItem, <ore:oreChalcocite>.firstItem, 0.0);
 #mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreGallium>.firstItem, <ore:oreXXXXXX>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreGold>.firstItem, <ore:oreAurite>.firstItem, 0.0);
@@ -1308,7 +1308,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreChalcopyrite>.firstItem,
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreChromite>.firstItem, <ore:oreRuby>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCinnabar>.firstItem, <ore:oreSulfur>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCoal>.firstItem, <ore:oreLignite>.firstItem, 0.0);
-mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCobaltite>.firstItem, <ore:oreRatsbane>.firstItem, 0.0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:orecobaltite>, <ore:oreRatsbane>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCooperite>.firstItem, <ore:oreBraggite>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreDiamond>.firstItem, <ore:oreGraphite>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreEmerald>.firstItem, <ore:oreEuclase>.firstItem, 0.0);
@@ -1425,7 +1425,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreArgite>.firstItem, <ore:
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCorundum>.firstItem, <ore:oreBauxite>.firstItem, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreNatria>.firstItem, <ore:oreBorax>.firstItem, 0.0);
 #mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreRatsbane>.firstItem, <ore:oreXXXXXX>.firstItem, 0.0);
-mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreCobaltic>.firstItem, <ore:oreCobaltite>.firstItem, 0.0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:orecobaltic>, <contenttweaker:orecobaltite>, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreEskolaite>.firstItem, <ore:oreChromite>.firstItem, 0.0);
 #mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreAurite>.firstItem, <ore:oreXXXXXX>.firstItem, 0.0);
 #mods.abyssalcraft.Transmutator.addTransmutation(<ore:oreBaria>.firstItem, <ore:oreXXXXXX>.firstItem, 0.0);

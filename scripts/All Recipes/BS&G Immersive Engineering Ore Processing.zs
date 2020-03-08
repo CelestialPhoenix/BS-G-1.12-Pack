@@ -25,6 +25,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:7>
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:0>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:2>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:129>);

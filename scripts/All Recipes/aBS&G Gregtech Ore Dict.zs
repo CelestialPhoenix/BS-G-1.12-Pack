@@ -194,6 +194,10 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #---Ores---
 #<ore:ore>.add(<gregtech:ore__0:>);
+<ore:oreCobalt>.remove(<gregtech:ore_cobalt_0:0>);
+<ore:oreCobaltic>.remove(<gregtech:ore_cobaltic_0:0>);
+<ore:oreCobaltite>.remove(<gregtech:ore_cobaltite_0:0>);
+
 #-Overworld-
 #Basalt
 <ore:oreIron>.add(<gregtech:ore_iron_0:13>);

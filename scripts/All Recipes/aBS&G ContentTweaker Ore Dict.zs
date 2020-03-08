@@ -507,6 +507,10 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Ores---
 #<ore:ore>.add(<contenttweaker:ore>);
+<ore:oreCobalt>.add(<contenttweaker:orecobalt>);
+<ore:oreCobaltic>.add(<contenttweaker:orecobaltic>);
+<ore:oreCobaltite>.add(<contenttweaker:orecobaltite>);
+
 <ore:oreDiamond>.add(<contenttweaker:orediamondloose>);
 <ore:oreDiamond>.add(<contenttweaker:orediamond>);
 <ore:oreRedstone>.add(<contenttweaker:oreredstone>);

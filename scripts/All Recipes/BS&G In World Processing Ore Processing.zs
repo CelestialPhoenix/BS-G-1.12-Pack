@@ -18,7 +18,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCaesium
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCalcium>.firstItem*3, <gregtech:ore_calcium_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCarbon>.firstItem*3, <gregtech:ore_carbon_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureChrome>.firstItem*3, <gregtech:ore_chrome_0:0>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobalt>.firstItem*3, <gregtech:ore_cobalt_0:0>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobalt>.firstItem*3, <contenttweaker:orecobalt>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCopper>.firstItem*3, <gregtech:ore_copper_0:0>);
 #mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureGallium>.firstItem*3, <gregtech:ore_gallium_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureGold>.firstItem*3, <gregtech:ore_gold_0:0>);
@@ -63,7 +63,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureChalcop
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureChromite>.firstItem*3, <gregtech:ore_chromite_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCinnabar>.firstItem*3, <gregtech:ore_cinnabar_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCoal>.firstItem*3, <gregtech:ore_coal_0:0>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobaltite>.firstItem*3, <gregtech:ore_cobaltite_0:0>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobaltite>.firstItem*3, <gregtech:orecobaltite>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCooperite>.firstItem*3, <gregtech:ore_cooperite_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureDiamond>.firstItem*3, <gregtech:ore_diamond_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureEmerald>.firstItem*3, <gregtech:ore_emerald_0:0>);
@@ -180,7 +180,7 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureArgite>
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCorundum>.firstItem*3, <gregtech:ore_corundum_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNatria>.firstItem*3, <gregtech:ore_natria_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureRatsbane>.firstItem*3, <gregtech:ore_ratsbane_0:0>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobaltic>.firstItem*3, <gregtech:ore_cobaltic_0:0>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCobaltic>.firstItem*3, <gregtech:orecobaltic>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureEskolaite>.firstItem*3, <gregtech:ore_eskolaite_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureAurite>.firstItem*3, <gregtech:ore_aurite_0:0>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureBaria>.firstItem*3, <gregtech:ore_baria_0:0>);

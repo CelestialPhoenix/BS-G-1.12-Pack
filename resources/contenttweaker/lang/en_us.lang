@@ -9,6 +9,10 @@ item.botania:manasteelAxe.name=Manadiamond Axe
 item.botania:manasteelSword.name=Manadiamond Sword
 item.botania:manasteelShears.name=Manadiamond Shears
 
+tile.contenttweaker.orecobalt.name=Cobalt Ore
+tile.contenttweaker.orecobaltic.name=Cobaltic
+tile.contenttweaker.orecobaltite.name=Cobaltite
+
 tile.contenttweaker.oreanthracite.name=Anthracite
 tile.contenttweaker.oreanthraciteloose.name=Anthracite
 tile.contenttweaker.orebandediron.name=Banded Iron
