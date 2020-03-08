@@ -17,9 +17,18 @@ oreIron.definition.setHarvestLevel("pickaxe", 2);
 var netherrack = (<minecraft:netherrack>) as IBlock;
 netherrack.definition.lightLevel=5;
 
-var torchLit = (<minecraft:torch:*>) as IBlock;
-torchLit.definition.lightLevel=11;
 
+var torchLit as IBlock[] = [
+	<minecraft:torch:0>,
+	<minecraft:torch:1>,
+	<minecraft:torch:2>,
+	<minecraft:torch:3>,
+	<minecraft:torch:4>,
+	<minecraft:torch:5>];
+
+for torch in torchLit {
+torch.definition.lightLevel=11;
+}
 
 
 #---Recipes---
