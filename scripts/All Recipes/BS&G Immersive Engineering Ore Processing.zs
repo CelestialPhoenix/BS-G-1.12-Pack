@@ -513,6 +513,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:16>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:17>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:19>);
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
 
 #Makes ore gravel + 10% crushed ore bonus
 for input in oreInput {

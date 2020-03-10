@@ -271,11 +271,12 @@ mods.chisel.Carving.addVariation("scaffolding_steel", <immersiveengineering:meta
 mods.chisel.Carving.addVariation("scaffolding_steel", <immersiveengineering:metal_decoration1:3>);
 
 #Treated Wood
-recipes.removeShaped(<immersiveengineering:material:9>);
-recipes.addShaped(<immersiveengineering:material:9>*2, [
-[<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>],
-[null, <ore:stickTreatedWood>, null], 
-[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
+#Not sure what this was supposed to be but it doesn't work!
+#recipes.removeShaped(<immersiveengineering:material:9>);
+#recipes.addShaped(<immersiveengineering:material:9>*2, [
+#[<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>],
+#[null, <ore:stickTreatedWood>, null], 
+#[<ore:stickTreatedWood>, null, <ore:stickTreatedWood>]]);
 
 #---sheetmetal blocks---
 recipes.removeShaped(<immersiveengineering:sheetmetal:0>);
