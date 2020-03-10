@@ -132,6 +132,22 @@ mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 250, <ore:logWo
 mods.immersiveengineering.CokeOven.addRecipe(<abyssalcraft:charcoal>, 250, <ore:logDreadwood>, 250);
 
 #---Crusher---
+#Fix stupids
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
+mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:7>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:70>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:72>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:101>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:102>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:103>);
+mods.immersiveengineering.Crusher.removeRecipe(<projectred-core:resource_item:105>);
+mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:0>);
+mods.immersiveengineering.Crusher.removeRecipe(<abyssalcraft:coralium>);
+mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:1>);
+mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:2>);
+
 #Elemental Dusts
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlaze>.firstItem*3, <ore:rodBlaze>, 4096, <ore:dustSulfur>.firstItem, 0.5);

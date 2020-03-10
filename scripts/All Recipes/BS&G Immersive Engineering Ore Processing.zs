@@ -515,6 +515,15 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:18>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:19>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:24>);
 
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:4>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:diamond>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:redstone>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:emerald>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:coal>);
+mods.immersiveengineering.Crusher.removeRecipe(<forestry:apatite>);
+mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:25>);
+
 #Makes ore gravel + 10% crushed ore bonus
 for input in oreInput {
 	var oreStone as IItemStack  = oreDict["ore"~input];
