@@ -6,8 +6,6 @@ val theassembler as RecipeMap = RecipeMap.getByName("assembler");
 
 print("Nice to see you, wouldn't want to tree you");
 
-val conduitGold = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
-
 #---crafting----
 #log pile
 #-decor only. Using primal charcoal mechanic-
@@ -19,42 +17,61 @@ recipes.addShaped(<forestry:wood_pile_decorative>, [
 [<ore:logWood>, <ore:logWood>],
 [<ore:logWood>, <ore:logWood>]]);
 
+#---Engines---
+#Clockwork
+recipes.removeShaped(<forestry:engine_clockwork>);
+<forestry:engine_clockwork>.addTooltip("This item is disabled");
+
+#Steam (Formally Biogas)
+recipes.removeShaped(<forestry:engine_biogas>);
+recipes.addShaped(<forestry:engine_biogas>, [
+[<ore:ringBrass>, <ore:gearSmallBrass>, <ore:ringBrass>],
+[<ore:stickBrass>, <ore:coilSimple>, <ore:stickBrass>], 
+[<ore:pipeSmallSteel>, null, <ore:pipeSmallSteel>]]);
+
+#Sterling (Formally Peat)
+recipes.removeShaped(<forestry:engine_peat>);
+recipes.addShaped(<forestry:engine_peat>, [
+[<ore:ringBrass>, <ore:gearSmallBrass>, <ore:ringBrass>],
+[<ore:stickSteel>, <ore:coilSimple>, <ore:stickSteel>], 
+[<ore:pipeSmallCopper>, <ore:furnace>, <ore:pipeSmallCopper>]]);
+
 #---Machines---
 #-machine casings-
 #flexible
 mods.forestry.ThermionicFabricator.removeCast(<forestry:flexible_casing>);
 recipes.addShaped(<forestry:flexible_casing>, [
 [null, <ore:robotarmLV>, null],
-[<ore:casingBronze>, <ore:hullSteel>, <ore:casingBronze>], 
-[<ore:casingBronze>, null, <ore:casingBronze>]]);
+[<ore:plateBronze>, <ore:hullSteel>, <ore:plateBronze>], 
+[<ore:plateBronze>, null, <ore:plateBronze>]]);
 
 #sturdy
 recipes.removeShaped(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [
-[null, <ore:casingBronze>, null],
-[<ore:casingBronze>, <ore:hullSteel>, <ore:casingBronze>], 
-[null, <ore:casingBronze>, null]]);
+[null, <ore:plateBronze>, null],
+[<ore:plateBronze>, <ore:hullSteel>, <ore:plateBronze>], 
+[null, <ore:plateBronze>, null]]);
 
 #-machines-
 #carpenter
 recipes.removeShaped(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [
 [<ore:tubeGold>, <ore:robotarmLV>, <ore:tubeGold>],
-[<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
+[<ore:tankGlass>, <ore:machineSturdy>, <ore:tankGlass>], 
 [<ore:plateSteel>, <ore:tubeGold>, <ore:plateSteel>]]);
 
 #still
 recipes.removeShaped(<forestry:still>);
 recipes.addShaped(<forestry:still>, [
-[<ore:tank>, <ore:elementCupronickel>, <ore:tank>],
-[<ore:tank>, <ore:machineSturdy>, <ore:tank>], 
+[<ore:tankGlass>, <ore:elementCupronickel>, <ore:tankGlass>],
+[<ore:tankGlass>, <ore:machineSturdy>, <ore:tankGlass>], 
 [<ore:plateSteel>, <ore:elementCupronickel>, <ore:plateSteel>]]);
 
 #thermfab
 recipes.removeShaped(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
-[<ore:casingTin>, <forestry:worktable>, <ore:casingTin>],
-[<ore:casingTin>, <ore:machineSturdy>, <ore:casingTin>], 
+[<ore:plateTin>, <forestry:worktable>, <ore:plateTin>],
+[<ore:plateTin>, <ore:machineSturdy>, <ore:plateTin>], 
 [<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>]]);
 
 #worktable
@@ -73,21 +90,11 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 0})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<minecraft:stonebrick>, <ore:pipeSmallSteel>, <minecraft:stonebrick>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 0})*6, [
-[<minecraft:stonebrick>, <ore:pipeSmallSteel>, <minecraft:stonebrick>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<minecraft:stonebrick>, <ore:pipeSmallSteel>, <minecraft:stonebrick>]]);
-
 #Mossy Stonebrick
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 1}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 1})*6, [
 [<minecraft:stonebrick:1>, <ore:pipeSmallSteel>, <minecraft:stonebrick:1>],
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
-[<minecraft:stonebrick:1>, <ore:pipeSmallSteel>, <minecraft:stonebrick:1>]]);
-
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 1})*6, [
-[<minecraft:stonebrick:1>, <ore:pipeSmallSteel>, <minecraft:stonebrick:1>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
 [<minecraft:stonebrick:1>, <ore:pipeSmallSteel>, <minecraft:stonebrick:1>]]);
 
 #Cracked Stonebrick
@@ -97,21 +104,11 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 2})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<minecraft:stonebrick:2>, <ore:pipeSmallSteel>, <minecraft:stonebrick:2>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 2})*6, [
-[<minecraft:stonebrick:2>, <ore:pipeSmallSteel>, <minecraft:stonebrick:2>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<minecraft:stonebrick:2>, <ore:pipeSmallSteel>, <minecraft:stonebrick:2>]]);
-
 #Brick
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 3}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 3})*6, [
 [<ore:blockBrick>, <ore:pipeSmallSteel>, <ore:blockBrick>],
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
-[<ore:blockBrick>, <ore:pipeSmallSteel>, <ore:blockBrick>]]);
-
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 3})*6, [
-[<ore:blockBrick>, <ore:pipeSmallSteel>, <ore:blockBrick>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
 [<ore:blockBrick>, <ore:pipeSmallSteel>, <ore:blockBrick>]]);
 
 #Smooth Sandstone
@@ -121,21 +118,11 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 4})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<minecraft:sandstone:2>, <ore:pipeSmallSteel>, <minecraft:sandstone:2>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 4})*6, [
-[<minecraft:sandstone:2>, <ore:pipeSmallSteel>, <minecraft:sandstone:2>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<minecraft:sandstone:2>, <ore:pipeSmallSteel>, <minecraft:sandstone:2>]]);
-
 #Chiseled Sandstone
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 5}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 5})*6, [
 [<minecraft:sandstone:1>, <ore:pipeSmallSteel>, <minecraft:sandstone:1>],
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
-[<minecraft:sandstone:1>, <ore:pipeSmallSteel>, <minecraft:sandstone:1>]]);
-
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 5})*6, [
-[<minecraft:sandstone:1>, <ore:pipeSmallSteel>, <minecraft:sandstone:1>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
 [<minecraft:sandstone:1>, <ore:pipeSmallSteel>, <minecraft:sandstone:1>]]);
 
 #Nether Brick
@@ -145,21 +132,11 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 6})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<minecraft:nether_brick>, <ore:pipeSmallSteel>, <minecraft:nether_brick>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 6})*6, [
-[<minecraft:nether_brick>, <ore:pipeSmallSteel>, <minecraft:nether_brick>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<minecraft:nether_brick>, <ore:pipeSmallSteel>, <minecraft:nether_brick>]]);
-
 #Chiseled Stonebrick
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 7}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 7})*6, [
 [<minecraft:stonebrick:3>, <ore:pipeSmallSteel>, <minecraft:stonebrick:3>],
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
-[<minecraft:stonebrick:3>, <ore:pipeSmallSteel>, <minecraft:stonebrick:3>]]);
-
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 7})*6, [
-[<minecraft:stonebrick:3>, <ore:pipeSmallSteel>, <minecraft:stonebrick:3>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
 [<minecraft:stonebrick:3>, <ore:pipeSmallSteel>, <minecraft:stonebrick:3>]]);
 
 #Block of Quartz
@@ -169,11 +146,6 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 8})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<ore:blockNetherQuartz>, <ore:pipeSmallSteel>, <ore:blockNetherQuartz>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 8})*6, [
-[<ore:blockNetherQuartz>, <ore:pipeSmallSteel>, <ore:blockNetherQuartz>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<ore:blockNetherQuartz>, <ore:pipeSmallSteel>, <ore:blockNetherQuartz>]]);
-
 #Chiseled Quartz
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 9}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 9})*6, [
@@ -181,21 +153,11 @@ recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 9})*6, [
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
 [<minecraft:quartz_block:1>, <ore:pipeSmallSteel>, <minecraft:quartz_block:1>]]);
 
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 9})*6, [
-[<minecraft:quartz_block:1>, <ore:pipeSmallSteel>, <minecraft:quartz_block:1>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
-[<minecraft:quartz_block:1>, <ore:pipeSmallSteel>, <minecraft:quartz_block:1>]]);
-
 #Piller Quartz
 recipes.removeShaped(<forestry:ffarm>.withTag({FarmBlock: 10}));
 recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 10})*6, [
 [<minecraft:quartz_block:2>, <ore:pipeSmallSteel>, <minecraft:quartz_block:2>],
 [<ore:wirespoolElectrum>, <ore:scaffoldingAluminium>, <ore:wirespoolElectrum>], 
-[<minecraft:quartz_block:2>, <ore:pipeSmallSteel>, <minecraft:quartz_block:2>]]);
-
-recipes.addShaped(<forestry:ffarm>.withTag({FarmBlock: 10})*6, [
-[<minecraft:quartz_block:2>, <ore:pipeSmallSteel>, <minecraft:quartz_block:2>],
-[conduitGold, <ore:scaffoldingAluminium>, conduitGold], 
 [<minecraft:quartz_block:2>, <ore:pipeSmallSteel>, <minecraft:quartz_block:2>]]);
 
 #-Farm Gearbox-

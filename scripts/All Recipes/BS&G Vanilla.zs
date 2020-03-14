@@ -55,6 +55,7 @@ recipes.remove(<minecraft:slime>);
 #Coal
 <minecraft:coal>.displayName="Anthracite";
 <minecraft:coal_ore>.displayName="Anthracite Ore";
+<minecraft:coal_block>.displayName="Block of Anthracite";
 
 #Granite
 <minecraft:stone:1>.displayName="Pink Granite";

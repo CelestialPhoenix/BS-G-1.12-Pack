@@ -13,7 +13,8 @@ centrifuge.findRecipe(5, [<metaitem:rubber_drop>*1], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:resinSticky>.firstItem)
-    .outputs(<ore:dustRawRubber>.firstItem*3)
+    .outputs(<ore:dustRawRubber>.firstItem*1)
+	.chancedOutput(<ore:dustRawRubber>.firstItem, 2500, 1000)
 	.chancedOutput(<metaitem:plant_ball>, 1000, 850)
 	.fluidOutputs([<liquid:glue>*10])
     .duration(200)

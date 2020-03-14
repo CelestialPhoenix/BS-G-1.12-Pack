@@ -72,8 +72,14 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #-ingots-
 #<ore:ingotManasteel>.remove(<metaitem:manasteel.ingot>);
-#---machine blocks---
 
+#-plantball-
+<ore:plantball>.add(<metaitem:plant_ball>);
+
+#-rubber drop-
+<ore:resinSticky>.add(<metaitem:rubber_drop>);
+
+#---machine blocks---
 #machine casing
 <ore:casingULV>.add(<gregtech:machine_casing:0>);
 <ore:casingLV>.add(<gregtech:machine_casing:1>);
@@ -313,6 +319,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:orePitchblende>.add(<gregtech:ore_pitchblende_0:7>);
 #-Omothol-
 #-Darklands-
+
+#--Rubber Tree--
+<ore:logRubber>.add(<gregtech:log:0>);
 
 #--Stones--
 #Basalt

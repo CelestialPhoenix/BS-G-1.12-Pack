@@ -7,7 +7,6 @@ print("There are no bodies buried into the foundations. You can stop looking now
 #Pyro
 recipes.remove(<minecraft:gold_ingot>, <ore:dustPyrotheum>);
 recipes.remove(<minecraft:iron_ingot>, <ore:dustPyrotheum>);
-recipes.remove(<ic2:ingot:8>, <ore:dustPyrotheum>);
 recipes.remove(<abyssalcraft:abyingot>, <ore:dustPyrotheum>);
 recipes.remove(<abyssalcraft:cingot>, <ore:dustPyrotheum>);
 recipes.remove(<nuclearcraft:ingot:8>, <ore:dustPyrotheum>);
@@ -219,7 +218,6 @@ recipes.remove(<ore:dustEskolaite>.firstItem, <ore:dustPetrotheum>);
 #recipes.remove(<ore:dustBorax>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustCobaltic>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustOsmiite>.firstItem, <ore:dustPetrotheum>);
-recipes.remove(<ic2:dust:13>, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustBaddeleyite>.firstItem, <ore:dustPetrotheum>);
 #recipes.remove(<ore:dustPotassiumFeldspar>.firstItem, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustCarbon>.firstItem, <ore:dustPetrotheum>);

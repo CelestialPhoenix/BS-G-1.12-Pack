@@ -63,6 +63,79 @@ compressor
     .buildAndRegister();
 }
 
+#Forestry
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:0>*9)
+    .outputs(<forestry:bee_combs_0:0>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:2>*9)
+    .outputs(<forestry:bee_combs_0:2>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:3>*9)
+    .outputs(<forestry:bee_combs_0:3>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:4>*9)
+    .outputs(<forestry:bee_combs_0:4>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:5>*9)
+    .outputs(<forestry:bee_combs_0:5>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:6>*9)
+    .outputs(<forestry:bee_combs_0:6>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:7>*9)
+    .outputs(<forestry:bee_combs_0:7>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:15>*9)
+    .outputs(<forestry:bee_combs_0:15>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<forestry:bee_combs:16>*9)
+    .outputs(<forestry:bee_combs_1:0>)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
 #Primal
 compressor
     .recipeBuilder()
@@ -187,13 +260,13 @@ compressor
     .buildAndRegister();
 
 #--Plates--
-compressor
+/*compressor
     .recipeBuilder()
     .inputs(<ore:dustObsidian>*3)
     .outputs(<ore:plateObsidian>.firstItem*2)
     .duration(400)
     .EUt(4)
-    .buildAndRegister();
+    .buildAndRegister();*/
 
 #-Gemstone plates-
 /*compressor

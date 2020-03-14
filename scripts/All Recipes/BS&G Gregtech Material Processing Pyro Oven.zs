@@ -10,10 +10,53 @@ val PyroOven as RecipeMap = RecipeMap.getByName("pyro");
 #---Misc Recipes---
 #Coal Coke
 PyroOven.findRecipe(96, [<ore:gemCoal>.firstItem*16, <metaitem:circuit.integrated>.withTag({Configuration: 0})], null).remove();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:gemChippedCoal>.firstItem*16)
+    .outputs(<ore:gemChippedCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*1000])
+	.property("circuit", 0)
+    .duration(110)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:gemChippedCoal>.firstItem*16)
+    .outputs(<ore:gemChippedCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*1000])
+	.property("circuit", 1)
+    .duration(87)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:gemFlawedCoal>.firstItem*16)
+    .outputs(<ore:gemFlawedCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*2000])
+	.property("circuit", 0)
+    .duration(220)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:gemFlawedCoal>.firstItem*16)
+    .outputs(<ore:gemFlawedCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*2000])
+	.property("circuit", 1)
+    .duration(165)
+    .EUt(96)
+    .buildAndRegister();
+
 PyroOven
     .recipeBuilder()
     .inputs(<ore:gemCoal>.firstItem*16)
-    .outputs(<ore:gemCoke>.firstItem*20)
+    .outputs(<ore:gemCoke>.firstItem*16)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 0)
     .duration(440)
@@ -24,11 +67,74 @@ PyroOven
     .recipeBuilder()
 	.fluidInputs([<liquid:nitrogen>*2000])
     .inputs(<ore:gemCoal>.firstItem*16)
-    .outputs(<ore:gemCoke>.firstItem*20)
+    .outputs(<ore:gemCoke>.firstItem*16)
 	.fluidOutputs([<liquid:creosote>*4000])
 	.property("circuit", 1)
     .duration(330)
-    .EUt(128)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:dustCoal>.firstItem*16)
+    .outputs(<ore:dustCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 0)
+    .duration(400)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:dustCoal>.firstItem*16)
+    .outputs(<ore:dustCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*4000])
+	.property("circuit", 1)
+    .duration(300)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:gemFlawlessCoal>.firstItem*16)
+    .outputs(<ore:gemFlawlessCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*8000])
+	.property("circuit", 0)
+    .duration(880)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:gemFlawlessCoal>.firstItem*16)
+    .outputs(<ore:gemFlawlessCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*8000])
+	.property("circuit", 1)
+    .duration(660)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+    .inputs(<ore:gemExquisiteCoal>.firstItem*16)
+    .outputs(<ore:gemExquisiteCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*8000])
+	.property("circuit", 0)
+    .duration(1760)
+    .EUt(96)
+    .buildAndRegister();
+
+PyroOven
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen>*2000])
+    .inputs(<ore:gemExquisiteCoal>.firstItem*16)
+    .outputs(<ore:gemExquisiteCoke>.firstItem*16)
+	.fluidOutputs([<liquid:creosote>*16000])
+	.property("circuit", 1)
+    .duration(1320)
+    .EUt(96)
     .buildAndRegister();
 
 #Heavy Oil
@@ -3579,7 +3685,7 @@ PyroOven
 #IC2
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:woodRubber>.firstItem*16)
+    .inputs(<ore:logRubber>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*15)
 	.fluidOutputs([<liquid:creosote>*5200])
 	.property("circuit", 0)
@@ -3589,7 +3695,7 @@ PyroOven
 
 PyroOven
     .recipeBuilder()
-    .inputs(<ore:woodRubber>.firstItem*16)
+    .inputs(<ore:logRubber>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*15)
 	.fluidOutputs([<liquid:charcoal_byproducts>*5200])
 	.property("circuit", 1)
@@ -3600,7 +3706,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
 	.fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:woodRubber>.firstItem*16)
+    .inputs(<ore:logRubber>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*15)
 	.fluidOutputs([<liquid:creosote>*5200])
 	.property("circuit", 2)
@@ -3611,7 +3717,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
 	.fluidInputs([<liquid:nitrogen>*2000])
-    .inputs(<ore:woodRubber>.firstItem*16)
+    .inputs(<ore:logRubber>.firstItem*16)
     .outputs(<ore:gemCharcoal>.firstItem*15)
 	.fluidOutputs([<liquid:charcoal_byproducts>*5200])
 	.property("circuit", 3)

@@ -42,22 +42,23 @@ recipes.addShaped(<railcraft:boiler_firebox_fluid>*2, [
 #---Machines---
 
 #Charge Driver
-recipes.remove(<railcraft:charge_feeder>);
-<railcraft:charge_feeder>.addTooltip("Charge Driver");
-<railcraft:charge_feeder>.clearTooltip();
-<railcraft:charge_feeder>.addTooltip("A Flux rectifier");
-<railcraft:charge_feeder>.addTooltip("Converts Rf to electric charge");
-<railcraft:charge_feeder>.addTooltip("Useful for driving electric locomotives");
-<railcraft:charge_feeder>.addTooltip("Activated with a Redstone signal");
-recipes.addShaped(<railcraft:charge_feeder>, [
-[<ore:tubeBronze>, <ore:coilSimple>, <ore:tubeBronze>],
-[<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>],
-[<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>]]);
+recipes.remove(<railcraft:flux_transformer>);
+<railcraft:flux_transformer>.addTooltip("Charge Driver");
+<railcraft:flux_transformer>.clearTooltip();
+<railcraft:flux_transformer>.addTooltip("Forms a 2x2x2 structure");
+<railcraft:flux_transformer>.addTooltip("Good for high-torque applications");
+<railcraft:flux_transformer>.addTooltip("such a rolling machine or");
+<railcraft:flux_transformer>.addTooltip("electric locomotives");
 
-recipes.addShaped(<railcraft:charge_feeder>, [
-[<ore:tubeBronze>, <ore:coilSimple>, <ore:tubeBronze>],
+recipes.addShaped(<railcraft:flux_transformer>*8, [
+[<ore:tubeBronze>, <ore:plankTreatedWood>, <ore:tubeBronze>],
+[<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>],
+[<ore:stickCopper>, <ore:plankTreatedWood>, <ore:stickCopper>]]);
+
+recipes.addShaped(<railcraft:flux_transformer>*8, [
+[<ore:tubeBronze>, <ore:livingwood>, <ore:tubeBronze>],
 [<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>],
-[<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>]]);
+[<ore:stickCopper>, <ore:livingwood>, <ore:stickCopper>]]);
 
 #Coke Oven
 recipes.remove(<railcraft:coke_oven>);

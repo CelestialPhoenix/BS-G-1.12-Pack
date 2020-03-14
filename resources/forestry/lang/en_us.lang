@@ -1,1 +1,18 @@
 for.log.grammar=%TYPE Log
+
+#Biogas engine remake
+tile.for.engine_biogas.name=Steam Engine
+tile.for.engine_biogas.tooltip=Generates RF from Steam.
+
+for.hints.enginebronzefuels.tag=Cold starts
+for.hints.enginebronzefuels.desc=The steam engine can't be started from cold, and needs to cycle a hot fluid first!
+for.hints.enginebronzeheatloss.desc=Though you can use water in a steam engine, it is inefficient and will constantly consume lava.
+for.hints.enginebronzeoutput.desc=Steam and water have different power outputs!
+for.hints.enginebronzewaste.desc=Unlike Sterling Engines a disabled steam engine will not waste the steam currently in the system.
+
+#Peat Engine remake
+tile.for.engine_peat.name=Sterling Engine
+tile.for.engine_peat.tooltip=Generates RF from hot fuels.
+
+for.hints.enginecopperfuels.desc=Sterling Engines can burn a number of fuels- with hotter fuels produce a higher power output.
+for.hints.enginecopperwaste.desc=Like a furnace a Sterling Engine will fully consume a lump of fuel, regardless of how much power is used.

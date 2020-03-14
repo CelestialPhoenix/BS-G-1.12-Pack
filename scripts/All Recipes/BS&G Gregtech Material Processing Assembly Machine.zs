@@ -1190,16 +1190,6 @@ theassembler
     .EUt(4)
     .buildAndRegister();
 
-#IC2
-theassembler
-    .recipeBuilder()
-    .inputs(<ore:plateAdvancedalloy>*6, <ore:dustRedstone>.firstItem*2)
-    .outputs(<ic2:reinforced_door>)
-	.property("circuit", 6)
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 #Vanilla
 theassembler.findRecipe(4, [<ore:plateIron>.firstItem * 6, <metaitem:circuit.integrated>.withTag({Configuration: 6})], null).remove();
 theassembler

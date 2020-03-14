@@ -34,7 +34,13 @@ BlastFurnace.add(<ore:ingotInvar>.firstItem, <ore:dustInvar>, 1200, 0); //Yep. j
 #Coal Coke
 CokeOven.remove(<railcraft:fuel_coke>);
 CokeOven.remove(<railcraft:generic:6>);
-CokeOven.add(<ore:fuelCoke>.firstItem, <ore:gemCoal>, <liquid:creosote>*500, 1800);
+CokeOven.add(<ore:gemChippedCoke>.firstItem, <ore:gemChippedCoal>, <liquid:creosote>*125, 450);
+CokeOven.add(<ore:gemFlawedCoke>.firstItem, <ore:gemFlawedCoal>, <liquid:creosote>*250, 900);
+CokeOven.add(<ore:gemCoke>.firstItem, <ore:gemCoal>, <liquid:creosote>*500, 1800);
+CokeOven.add(<ore:dustCoke>.firstItem, <ore:dustCoal>, <liquid:creosote>*500, 1600);
+CokeOven.add(<ore:gemFlawlessCoke>.firstItem, <ore:gemFlawlessCoal>, <liquid:creosote>*1000, 3600);
+CokeOven.add(<ore:gemExquisiteCoke>.firstItem, <ore:gemExquisiteCoal>, <liquid:creosote>*2000, 7200);
+CokeOven.add(<ore:blockCoke>.firstItem, <ore:blockCoal>, <liquid:creosote>*4500, 16200);
 
 #Charcoal
 CokeOven.add(<abyssalcraft:charcoal>, <ore:logDreadwood>, <liquid:creosote>*250, 1800);
@@ -62,13 +68,6 @@ RockCrusher.remove(<railcraft:dust:3>);
 RockCrusher.remove(<railcraft:dust:6>);
 RockCrusher.remove(<railcraft:dust:1>);
 RockCrusher.remove(<railcraft:dust:2>);
-RockCrusher.remove(<ic2:crushed:2>);
-RockCrusher.remove(<ic2:crushed:1>);
-RockCrusher.remove(<ic2:crushed:0>);
-RockCrusher.remove(<ic2:crushed:5>);
-RockCrusher.remove(<ic2:crushed:4>);
-RockCrusher.remove(<ic2:crushed:3>);
-RockCrusher.remove(<ic2:crushed:6>);
 RockCrusher.remove(<railcraft:firestone_raw>);
 RockCrusher.remove(<railcraft:brick_abyssal:5>);
 RockCrusher.remove(<railcraft:brick_bleachedbone:5>);
@@ -101,31 +100,6 @@ RollingMachine.remove(<railcraft:plate:10>);
 RollingMachine.remove(<railcraft:plate:11>);
 
 #--Conduit--
-#3 rods or ingots in a vertical line
-var conduitTin= <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
-var conduitCopper= <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte});
-var conduitGold=<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte});
-var conduitAluminium=<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
-
-RollingMachine.addShaped(conduitTin*3, [
-[null, <ore:stickTin>, null],
-[null, <ore:stickTin>, null],
-[null, <ore:stickTin>, null]], 200);
-
-RollingMachine.addShaped(conduitCopper*3, [
-[null, <ore:stickCopper>, null],
-[null, <ore:stickCopper>, null],
-[null, <ore:stickCopper>, null]], 200);
-
-RollingMachine.addShaped(conduitGold*3, [
-[null, <ore:stickGold>, null],
-[null, <ore:stickGold>, null],
-[null, <ore:stickGold>, null]], 200);
-
-RollingMachine.addShaped(conduitAluminium*3, [
-[null, <ore:stickAluminium>, null],
-[null, <ore:stickAluminium>, null],
-[null, <ore:stickAluminium>, null]], 200);
 
 #--Fences--
 #This awesome looping script was modified from FTB interactions

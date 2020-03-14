@@ -30,7 +30,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*4, <
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*4, <ore:ingotCopper>*3, <ore:dustZinc>, 400);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBrass>.firstItem*4, <ore:dustCopper>*3, <ore:dustZinc>, 360);
 #bronze
-mods.immersiveengineering.AlloySmelter.removeRecipe(<ic2:ingot:1>);
+#mods.immersiveengineering.AlloySmelter.removeRecipe(<ic2:ingot:1>);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBronze>.firstItem*4, <ore:ingotCopper>*3, <ore:ingotTin>, 440);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBronze>.firstItem*4, <ore:dustCopper>*3, <ore:ingotTin>, 400);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotBronze>.firstItem*4, <ore:ingotCopper>*3, <ore:dustTin>, 400);
@@ -124,7 +124,13 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungs
 #mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:diamond>);
 #mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal>, 2, <ore:logWood>, 2000);
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
-mods.immersiveengineering.CokeOven.addRecipe(<ore:fuelCoke>.firstItem, 500, <ore:gemCoal>, 500);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:gemChippedCoke>.firstItem, 125, <ore:gemChippedCoal>, 450);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:gemFlawedCoke>.firstItem, 250, <ore:gemFlawedCoal>, 900);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:gemCoke>.firstItem, 500, <ore:gemCoal>, 1800);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:dustCoke>.firstItem, 500, <ore:dustCoal>, 1600);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:gemFlawlessCoke>.firstItem, 1000, <ore:gemFlawlessCoal>, 3600);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:gemExquisiteCoke>.firstItem, 2000, <ore:gemExquisiteCoal>, 7200);
+mods.immersiveengineering.CokeOven.addRecipe(<ore:blockCoke>.firstItem, 4500, <ore:blockCoal>, 16200);
 
 #Charcoal
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
@@ -134,8 +140,10 @@ mods.immersiveengineering.CokeOven.addRecipe(<abyssalcraft:charcoal>, 250, <ore:
 #---Crusher---
 #Fix stupids
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
 mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:7>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:65>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:70>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:72>);
@@ -147,13 +155,90 @@ mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:0>);
 mods.immersiveengineering.Crusher.removeRecipe(<abyssalcraft:coralium>);
 mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:1>);
 mods.immersiveengineering.Crusher.removeRecipe(<acintegration:dust:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:0>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:0>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:1>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:4>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:8>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:gem_dust:9>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:3>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:6>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:7>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:8>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:9>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:10>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:11>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:14>);
+mods.immersiveengineering.Crusher.removeRecipe(<nuclearcraft:dust:15>);
+
+#Andesite
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustAndesite>.firstItem*1, <ore:stoneAndesite>, 1024, <ore:dustAndesite>.firstItem, 0.25);
+
+#Basalt
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalt>.firstItem*1, <ore:stoneBasalt>, 1024, <ore:dustBasalt>.firstItem, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustOmotholBasalt>.firstItem*1, <ore:stoneOmotholBasalt>, 1024, <ore:dustOmotholBasalt>.firstItem, 0.25);
+
+#Bonemeal
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15>*3, <minecraft:bone>, 1024, <minecraft:dye:15>, 0.5);
+
+#Cobbleworks
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:gravel>*1, <minecraft:stone>, 1024, <ore:dustStone>.firstItem, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:gravel>*1, <minecraft:cobblestone>, 1024, <ore:dustStone>.firstItem, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand>*1, <minecraft:gravel>, 1024, <minecraft:flint>, 0.25);
+
+#Diorite
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustDiorite>.firstItem*1, <ore:stoneDiorite>, 1024, <ore:dustDiorite>.firstItem, 0.25);
+
+#Dolomite
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustDolomite>.firstItem*1, <ore:stoneDolomite>, 1024, <ore:dustDolomite>.firstItem, 0.25);
 
 #Elemental Dusts
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlaze>.firstItem*3, <ore:rodBlaze>, 4096, <ore:dustSulfur>.firstItem, 0.5);
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlizz>.firstItem*3, <ore:rodBlizz>, 4096, <minecraft:snowball>, 0.5);
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlitz>.firstItem*3, <ore:rodBlitz>, 4096, <ore:dustSaltpeter>.firstItem, 0.5);
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalz>.firstItem*3, <ore:rodBasalz>, 4096, <ore:dustObsidian>.firstItem, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlaze>.firstItem*3, <ore:rodBlaze>, 1024, <ore:dustSulfur>.firstItem, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlizz>.firstItem*3, <ore:rodBlizz>, 1024, <minecraft:snowball>, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBlitz>.firstItem*3, <ore:rodBlitz>, 1024, <ore:dustSaltpeter>.firstItem, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustBasalz>.firstItem*3, <ore:rodBasalz>, 1024, <ore:dustObsidian>.firstItem, 0.5);
+
+#Granite
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustGraniteBlack>.firstItem*1, <ore:stoneGraniteBlack>, 1024, <ore:dustGraniteBlack>.firstItem, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustGranitePink>.firstItem*1, <ore:stoneGranitePink>, 1024, <ore:dustGranitePink>.firstItem, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustGraniteRed>.firstItem*1, <ore:stoneGraniteRed>, 1024, <ore:dustGraniteRed>.firstItem, 0.25);
+
+#Marble
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustMarble>.firstItem*1, <ore:stoneMarble>, 1024, <ore:dustMarble>.firstItem, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustOmotholMarble>.firstItem*1, <ore:stoneOmotholMarble>, 1024, <ore:dustOmotholMarble>.firstItem, 0.25);
+
+#Netherrack
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustNetherrack>.firstItem*1, <ore:netherrack>, 1024, <ore:nuggetGld>.firstItem, 0.15);
+
+#Obsidian
+mods.immersiveengineering.Crusher.addRecipe(<ore:gravelObsidian>.firstItem*1, <ore:obsidian>, 1024, <ore:dustObsidian>.firstItem, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustObsidian>.firstItem*1, <ore:gravelObsidian>, 1024, <ore:dustObsidian>.firstItem, 0.05);
+
+#Wool
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:0>, 128, <ore:dyeWhite>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:1>, 128, <ore:dyeOrange>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:2>, 128, <ore:dyeMagenta>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:3>, 128, <ore:dyeLightBlue>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:4>, 128, <ore:dyeYellow>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:5>, 128, <ore:dyeLime>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:6>, 128, <ore:dyePink>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:7>, 128, <ore:dyeGray>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:8>, 128, <ore:dyeLightGray>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:9>, 128, <ore:dyeCyan>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:10>, 128, <ore:dyePurple>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:11>, 128, <ore:dyeBlue>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:12>, 128, <ore:dyeBrown>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:13>, 128, <ore:dyeGreen>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:14>, 128, <ore:dyeRed>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:15>, 128, <ore:dyeBlack>.firstItem, 0.125);
+
+#Xenolith
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustEndstone>.firstItem*1, <ore:endstone>, 1024, <ore:dustTinyTungstate>.firstItem, 0.15);
 
 #---Fermenter---
 #mods.immersiveengineering.Fermenter.addRecipe(<minecraft:diamond>, <liquid:water>, <ore:logWood>, 2048);
@@ -255,7 +340,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<forestry:planks.vanilla.fireproo
 mods.immersiveengineering.MetalPress.addRecipe(<forestry:planks.vanilla.fireproof.0:4>*4, <forestry:logs.vanilla.fireproof.0:4>, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<forestry:planks.vanilla.fireproof.0:5>*4, <forestry:logs.vanilla.fireproof.0:5>, <contenttweaker:presstoolcutter>, 200, 1);
 #ic2
-mods.immersiveengineering.MetalPress.addRecipe(<minecraft:planks:3>*3, <ic2:rubber_wood>, <contenttweaker:presstoolcutter>, 200, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<minecraft:planks:3>*3, <ic2:rubber_wood>, <contenttweaker:presstoolcutter>, 200, 1);
 #natura
 mods.immersiveengineering.MetalPress.addRecipe(<natura:overworld_planks:0>*4, <natura:overworld_logs:0>, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<natura:overworld_planks:1>*4, <natura:overworld_logs:1>, <contenttweaker:presstoolcutter>, 200, 1);
@@ -387,15 +472,15 @@ mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyvinylChloride>.first
 
 #---cutting (item casings)---
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingaluminium>, <ore:plateAluminium>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <ore:plateBronze>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <ore:plateBronze>, <contenttweaker:presstoolcutter>, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingchrome>, <ore:plateChrome>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <ore:plateCopper>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:2>, <ore:plateGold>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <ore:plateCopper>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:2>, <ore:plateGold>, <contenttweaker:presstoolcutter>, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingiridium>, <ore:plateIridium>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:3>, <ore:plateIron>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:4>, <ore:plateLead>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:5>, <ore:plateSteel>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:6>, <ore:plateTin>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:3>, <ore:plateIron>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:4>, <ore:plateLead>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:5>, <ore:plateSteel>, <contenttweaker:presstoolcutter>, 500, 1);
+#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:6>, <ore:plateTin>, <contenttweaker:presstoolcutter>, 500, 1);
 
 #---rolling (cable)---
 mods.immersiveengineering.MetalPress.addRecipe(<ore:wireGtSingleSolderingAlloy>.firstItem, <ore:stickSolderingAlloy>, <contenttweaker:presstoolroller>, 400, 1);

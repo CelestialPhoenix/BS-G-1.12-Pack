@@ -31,6 +31,7 @@ print("Trust me I'm an engineer");
 <ore:dustSteel>.remove(<immersiveengineering:metal:17>);
 <ore:dustSulfur>.remove(<immersiveengineering:material:25>);
 <ore:dustUranium>.remove(<immersiveengineering:metal:14>);
+<ore:dustCoke>.remove(<immersiveengineering:metal:17>);
 
 #Ingots
 <ore:ingotCopper>.remove(<immersiveengineering:metal:0>);

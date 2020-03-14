@@ -188,17 +188,18 @@ recipes.addShaped(<meta_tile_entity:gregtech:stainless_steel_tank>, [
 [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
 [<ore:plateThickStainlessSteel>, <ore:blockGlassHardened>, <ore:plateThickStainlessSteel>]]);
 
+//Find a new source of hardened glass
 #Titanium
 recipes.remove(<meta_tile_entity:gregtech:titanium_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:titanium_tank>, [
-[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTitanium>], 
-[<ic2:glass>, null, <ic2:glass>],
-[<ore:plateThickTitanium>, <ic2:glass>, <ore:plateThickTitanium>]]);
+[<ore:plateThickTitanium>, <ore:blockGlassHardened>, <ore:plateThickTitanium>], 
+[<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
+[<ore:plateThickTitanium>, <ore:blockGlassHardened>, <ore:plateThickTitanium>]]);
 
 #Tungstensteel
 recipes.remove(<meta_tile_entity:gregtech:tungstensteel_tank>);
 recipes.addShaped(<meta_tile_entity:gregtech:tungstensteel_tank>, [
-[<ore:plateThickTungstenSteel>, <ic2:glass>, <ore:plateThickTungstenSteel>], 
-[<ic2:glass>, null, <ic2:glass>],
-[<ore:plateThickTungstenSteel>, <ic2:glass>, <ore:plateThickTungstenSteel>]]);
+[<ore:plateThickTungstenSteel>, <ore:blockGlassHardened>, <ore:plateThickTungstenSteel>], 
+[<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
+[<ore:plateThickTungstenSteel>, <ore:blockGlassHardened>, <ore:plateThickTungstenSteel>]]);
 

@@ -1,6 +1,10 @@
 #Name: Blood Sweat & Gears Forestry Material Processing.zs
 #Author: PhoePhoe
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
 print("Nice to see you, wouldn't want to tree you");
 
 #name items
@@ -41,3 +45,23 @@ mods.forestry.ThermionicFabricator.addCast(<metaitem:component.diode>*3, [
 [null, <ore:wireFineTin>, null], 
 [<ore:dyeBlack>, <ore:dustSmallGallium>, <ore:dyeBlack>], 
 [<ore:wireFineTin>, <ore:dustRedstone>, <ore:wireFineTin>]], <liquid: glass> * 300);
+
+#-Alternate Tube Recipes-
+
+var metalTubes as string[] = [
+	"Copper",
+	"Tin",
+	"Bronze",
+	"Gold"
+	];
+
+for input in metalTubes {
+	var tube as IItemStack = oreDict["tube"~input].firstItem;
+	var wireFine as IItemStack = oreDict["wireFine"~input].firstItem;
+
+mods.forestry.ThermionicFabricator.addCast(tube*1, [
+[null, null, null],
+[null, wireFine, null], 
+[null, <ore:dustRedstone>, null]], <liquid: glass> * 125);
+}
+

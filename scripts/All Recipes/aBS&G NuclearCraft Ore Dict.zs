@@ -77,6 +77,6 @@ print("Green Glowey Energy");
 <ore:oreMagnesium>.remove(<nuclearcraft:ore:7>);
 
 #Tiny Dust
-<ore:tinyDustLead>.remove(<nuclearcraft:tiny_dust_lead>);
+#<ore:tinyDustLead>.remove(<nuclearcraft:tiny_dust_lead>);
 
 
