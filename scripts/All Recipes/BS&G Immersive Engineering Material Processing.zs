@@ -220,22 +220,22 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:gravelObsidian>.firstItem*1, <o
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustObsidian>.firstItem*1, <ore:gravelObsidian>, 1024, <ore:dustObsidian>.firstItem, 0.05);
 
 #Wool
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:0>, 128, <ore:dyeWhite>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:1>, 128, <ore:dyeOrange>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:2>, 128, <ore:dyeMagenta>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:3>, 128, <ore:dyeLightBlue>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:4>, 128, <ore:dyeYellow>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:5>, 128, <ore:dyeLime>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:6>, 128, <ore:dyePink>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:7>, 128, <ore:dyeGray>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:8>, 128, <ore:dyeLightGray>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:9>, 128, <ore:dyeCyan>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:10>, 128, <ore:dyePurple>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:11>, 128, <ore:dyeBlue>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:12>, 128, <ore:dyeBrown>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:13>, 128, <ore:dyeGreen>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:14>, 128, <ore:dyeRed>.firstItem, 0.125);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*2, <minecraft:wool:15>, 128, <ore:dyeBlack>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:0>, 128, <ore:dyeWhite>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:1>, 128, <ore:dyeOrange>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:2>, 128, <ore:dyeMagenta>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:3>, 128, <ore:dyeLightBlue>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:4>, 128, <ore:dyeYellow>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:5>, 128, <ore:dyeLime>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:6>, 128, <ore:dyePink>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:7>, 128, <ore:dyeGray>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:8>, 128, <ore:dyeLightGray>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:9>, 128, <ore:dyeCyan>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:10>, 128, <ore:dyePurple>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:11>, 128, <ore:dyeBlue>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:12>, 128, <ore:dyeBrown>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:13>, 128, <ore:dyeGreen>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:14>, 128, <ore:dyeRed>.firstItem, 0.125);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:15>, 128, <ore:dyeBlack>.firstItem, 0.125);
 
 #Xenolith
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustEndstone>.firstItem*1, <ore:endstone>, 1024, <ore:dustTinyTungstate>.firstItem, 0.15);
