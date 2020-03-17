@@ -470,18 +470,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyphenyleneSulfide>.fi
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltNickelZincFerrite>.firstItem*2, <ore:stickNickelZincFerrite>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyvinylChloride>.firstItem*2, <ore:stickPolyvinylChloride>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 
-#---cutting (item casings)---
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingaluminium>, <ore:plateAluminium>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:0>, <ore:plateBronze>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingchrome>, <ore:plateChrome>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:1>, <ore:plateCopper>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:2>, <ore:plateGold>, <contenttweaker:presstoolcutter>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:itemcasingiridium>, <ore:plateIridium>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:3>, <ore:plateIron>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:4>, <ore:plateLead>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:5>, <ore:plateSteel>, <contenttweaker:presstoolcutter>, 500, 1);
-#mods.immersiveengineering.MetalPress.addRecipe(<ic2:casing:6>, <ore:plateTin>, <contenttweaker:presstoolcutter>, 500, 1);
-
 #---rolling (cable)---
 mods.immersiveengineering.MetalPress.addRecipe(<ore:wireGtSingleSolderingAlloy>.firstItem, <ore:stickSolderingAlloy>, <contenttweaker:presstoolroller>, 400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:wireGtSingleCobalt>.firstItem, <ore:stickCobalt>, <contenttweaker:presstoolroller>, 400, 1);

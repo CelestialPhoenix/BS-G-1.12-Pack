@@ -282,40 +282,40 @@ recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxempt
 
 #--machine chassis--
 #chassis ULV
-recipes.addShaped(<contenttweaker:chassiswroughtiron>*4, [
-[<ore:casingCopper>, <ore:circuitPrimitive>, <ore:casingCopper>],
-[<ore:cableGtSingleLead>, <ore:hullULV>, <ore:cableGtSingleLead>], 
-[<ore:casingCopper>, <ore:circuitPrimitive>, <ore:casingCopper>]]);
+recipes.addShaped(<contenttweaker:chassiswroughtiron>, [
+[null, <ore:sheetTin>, null],
+[<ore:sheetTin>, <ore:frameGTWood>, <ore:sheetTin>], 
+[null, <ore:sheetTin>, null]]);
 
-#chassis lV
-recipes.addShaped(<contenttweaker:chassissteel>*4, [
-[<ore:casingBronze>, <ore:circuitBasic>, <ore:casingBronze>],
-[<ore:cableGtSingleTin>, <ore:hulLV, <ore:wireinsulatedTin>], 
-[<ore:casingBronze>, <ore:circuitBasic>, <ore:casingBronze>]]);
+#chassis LV
+recipes.addShaped(<contenttweaker:chassissteel>, [
+[null, <ore:sheetSteel>, null],
+[<ore:sheetSteel>, <ore:frameGTIron>, <ore:sheetSteel>], 
+[null, <ore:sheetSteel>, null]]);
 
 #chassis MV
-recipes.addShaped(<contenttweaker:chassisaluminium>*4, [
-[<ore:casingSteel>, <ore:circuitGood>, <ore:casingSteel>],
-[<ore:cableGtSingleCopper>, <ore:hullMV>, <ore:cableGtSingleCopper>], 
-[<ore:casingSteel>, <ore:circuitGood>, <ore:casingSteel>]]);
+recipes.addShaped(<contenttweaker:chassisaluminium>, [
+[null, <ore:sheetAluminium>, null],
+[<ore:sheetAluminium>, <ore:frameGTSteel>, <ore:sheetAluminium>], 
+[null, <ore:sheetAluminium>, null]]);
 
 #chassis HV
-recipes.addShaped(<contenttweaker:chassisstainless>*4, [
-[<ore:casingGold>, <ore:circuitAdvanced>, <ore:casingGold>],
-[<ore:cableGtSingleSilver>, <ore:hullHV>, <ore:cableGtSingleSilver>], 
-[<ore:casingGold>, <ore:circuitAdvanced>, <ore:casingGold>]]);
+recipes.addShaped(<contenttweaker:chassisstainless>, [
+[null, <ore:sheetStainlessSteel>, null],
+[<ore:sheetStainlessSteel>, <ore:frameGTAluminium>, <ore:sheetStainlessSteel>], 
+[null, <ore:sheetStainlessSteel>, null]]);
 
 #chassis EV
-recipes.addShaped(<contenttweaker:chassistitanium>*4, [
-[<ore:casingPlatinum>, <ore:circuitElite>, <ore:casingPlatinum>],
-[<ore:cableGtSingleAluminium>, <ore:hullEV>, <ore:cableGtSingleAluminium>], 
-[<ore:casingPlatinum>, <ore:circuitElite>, <ore:casingPlatinum>]]);
+recipes.addShaped(<contenttweaker:chassistitanium>, [
+[null, <ore:sheetTitanium>, null],
+[<ore:sheetTitanium>, <ore:frameGTStainlessSteel>, <ore:sheetTitanium>], 
+[null, <ore:sheetTitanium>, null]]);
 
 #chassis IV
-recipes.addShaped(<contenttweaker:chassistungstensteel>*4, [
-[<ore:casingIridium>, <ore:circuitMaster>, <ore:casingIridium>],
-[<ore:cableGtSinglePlatinum>, <ore:hullTungstenSteel>, <ore:cableGtSinglePlatinum>], 
-[<ore:casingIridium>, <ore:circuitMaster>, <ore:casingIridium>]]);
+recipes.addShaped(<contenttweaker:chassistungstensteel>, [
+[null, <ore:sheetTunstenSteel>, null],
+[<ore:sheetTunstenSteel>, <ore:frameGTTitanium>, <ore:sheetTunstenSteel>], 
+[null, <ore:sheetTunstenSteel>, null]]);
 
 #chassis LuV
 #chassis ZPM

@@ -7,10 +7,3 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
-
-var CasingAluminium = VanillaFactory.createItem("itemcasingaluminium");
-CasingAluminium.register();
-var CasingChrome = VanillaFactory.createItem("itemcasingchrome");
-CasingChrome.register();
-var CasingIridium = VanillaFactory.createItem("itemcasingiridium");
-CasingIridium.register();

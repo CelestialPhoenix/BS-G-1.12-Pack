@@ -427,12 +427,6 @@ print("Tweak Tweak Tweak Tweak");
 #---Ingots---
 #<ore:ingot>.add(<contenttweaker:ingot>);
 
-#---Item Casings---
-#<ore:casing>.add(<contenttweaker:casing>);
-<ore:casingAluminium>.add(<contenttweaker:itemcasingaluminium>);
-<ore:casingChrome>.add(<contenttweaker:itemcasingchrome>);
-<ore:casingIridium>.add(<contenttweaker:itemcasingiridium>);
-
 #---Machine Chassis---
 <ore:chassisULV>.add(<contenttweaker:chassiswroughtiron>);
 <ore:chassisLV>.add(<contenttweaker:chassissteel>);
@@ -774,10 +768,6 @@ print("Tweak Tweak Tweak Tweak");
 #---Pipes---
 <ore:pipeMediumWax>.add(<contenttweaker:pipemediumwax>);
 <ore:pipeSmallWax>.add(<contenttweaker:pipesmallwax>);
-
-#---Plates---
-#<ore:plate>.add(<contenttweaker:plate>);
-<ore:plateCrystal>.add(<contenttweaker:platecrystal>);
 
 /*
 #---PlateHeavy---
