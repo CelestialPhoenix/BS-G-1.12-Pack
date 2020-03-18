@@ -284,43 +284,62 @@ recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxempt
 #chassis ULV
 recipes.addShaped(<contenttweaker:chassiswroughtiron>, [
 [null, <ore:sheetTin>, null],
-[<ore:sheetTin>, <ore:frameGTWood>, <ore:sheetTin>], 
+[<ore:sheetTin>, <ore:frameGtWood>, <ore:sheetTin>], 
 [null, <ore:sheetTin>, null]]);
 
 #chassis LV
 recipes.addShaped(<contenttweaker:chassissteel>, [
 [null, <ore:sheetSteel>, null],
-[<ore:sheetSteel>, <ore:frameGTIron>, <ore:sheetSteel>], 
+[<ore:sheetSteel>, <ore:frameGtIron>, <ore:sheetSteel>], 
 [null, <ore:sheetSteel>, null]]);
 
 #chassis MV
 recipes.addShaped(<contenttweaker:chassisaluminium>, [
 [null, <ore:sheetAluminium>, null],
-[<ore:sheetAluminium>, <ore:frameGTSteel>, <ore:sheetAluminium>], 
+[<ore:sheetAluminium>, <ore:frameGtSteel>, <ore:sheetAluminium>], 
 [null, <ore:sheetAluminium>, null]]);
 
 #chassis HV
 recipes.addShaped(<contenttweaker:chassisstainless>, [
 [null, <ore:sheetStainlessSteel>, null],
-[<ore:sheetStainlessSteel>, <ore:frameGTAluminium>, <ore:sheetStainlessSteel>], 
+[<ore:sheetStainlessSteel>, <ore:frameGtAluminium>, <ore:sheetStainlessSteel>], 
 [null, <ore:sheetStainlessSteel>, null]]);
 
 #chassis EV
 recipes.addShaped(<contenttweaker:chassistitanium>, [
 [null, <ore:sheetTitanium>, null],
-[<ore:sheetTitanium>, <ore:frameGTStainlessSteel>, <ore:sheetTitanium>], 
+[<ore:sheetTitanium>, <ore:frameGtStainlessSteel>, <ore:sheetTitanium>], 
 [null, <ore:sheetTitanium>, null]]);
 
 #chassis IV
 recipes.addShaped(<contenttweaker:chassistungstensteel>, [
 [null, <ore:sheetTunstenSteel>, null],
-[<ore:sheetTunstenSteel>, <ore:frameGTTitanium>, <ore:sheetTunstenSteel>], 
+[<ore:sheetTunstenSteel>, <ore:frameGtTitanium>, <ore:sheetTunstenSteel>], 
 [null, <ore:sheetTunstenSteel>, null]]);
 
 #chassis LuV
+recipes.addShaped(<contenttweaker:chassischrome>, [
+[null, <ore:sheetChrome>, null],
+[<ore:sheetChrome>, <ore:frameGtTungstenSteel>, <ore:sheetChrome>], 
+[null, <ore:sheetChrome>, null]]);
+
 #chassis ZPM
+recipes.addShaped(<contenttweaker:chassisiridium>, [
+[null, <ore:sheetIridium>, null],
+[<ore:sheetIridium>, <ore:frameGtHssg>, <ore:sheetIridium>], 
+[null, <ore:sheetIridium>, null]]);
+
 #chassis UV
+recipes.addShaped(<contenttweaker:chassisosmium>, [
+[null, <ore:sheetOsmium>, null],
+[<ore:sheetOsmium>, <ore:frameGtHsse>, <ore:sheetOsmium>], 
+[null, <ore:sheetOsmium>, null]]);
+
 #chassis Max
+recipes.addShaped(<contenttweaker:chassisdarmstadtium>, [
+[null, <ore:sheetDarmstadtium>, null],
+[<ore:sheetDarmstadtium>, <ore:frameGtDarmstadtium>, <ore:sheetDarmstadtium>], 
+[null, <ore:sheetDarmstadtium>, null]]);
 
 #--machine parts--
 #rollers
