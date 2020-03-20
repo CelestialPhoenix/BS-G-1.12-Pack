@@ -249,7 +249,14 @@ tile.contenttweaker.darkstone.name=Darkstone
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
 tile.contenttweaker.blockrolledbronze.name= Bronze Sheetmetal
+tile.contenttweaker.blockrolledchrome.name=Chrome Sheetmetal
+tile.contenttweaker.blockrolleddarmstadtium.name=Darmstadtium Sheetmetal
+tile.contenttweaker.blockrollediridium.name=Iridium Sheetmetal
+tile.contenttweaker.blockrolledosmium.name=Osmium Sheetmetal
+tile.contenttweaker.blockrolledstainlesssteel.name= Stainless Steel Sheetmetal
 tile.contenttweaker.blockrolledtin.name= Tin Sheetmetal
+tile.contenttweaker.blockrolledtitanium.name=Titanium Sheetmetal
+tile.contenttweaker.blockrolledtungstensteel.name=Tungstensteel Sheetmetal
 
 tile.contenttweaker.casingaluminium.name= Machine Casing II
 tile.contenttweaker.casingstainless.name=Machine Casing III
@@ -1136,15 +1143,21 @@ item.contenttweaker.rodwax.name=Wax Rod
 item.contenttweaker.rolledaluminium.name= Rolled Aluminium Sheet
 item.contenttweaker.rolledconstantan.name= Rolled Constantan Sheet
 item.contenttweaker.rolledbronze.name= Rolled Bronze Sheet
+item.contenttweaker.rolledchrome.name=Rolled Chrome Sheet
 item.contenttweaker.rolledcopper.name= Rolled Copper Sheet
 item.contenttweaker.rolledelectrum.name= Rolled Electrum Sheet
 item.contenttweaker.rolledgold.name= Rolled Gold Sheet
+item.contenttweaker.rollediridium.name=Rolled Iridium Sheet
 item.contenttweaker.rollediron.name= Rolled Iron Sheet
 item.contenttweaker.rolledlead.name= Rolled Lead Sheet
 item.contenttweaker.rollednickel.name= Rolled Nickel Sheet
+item.contenttweaker.rolledosmium.name=Rolled Osmium Sheet
 item.contenttweaker.rolledsilver.name= Rolled Silver Sheet
+item.contenttweaker.rolledstainlesssteel.name=Rolled Stainless Steel Sheet
 item.contenttweaker.rolledsteel.name= Rolled Steel Sheet
 item.contenttweaker.rolledtin.name= Rolled Tin Sheet
+item.contenttweaker.rolledtitanium.name=Rolled Titanium Sheet
+item.contenttweaker.rolledtungstensteel.name=Rolled Tungstensteel Sheet
 item.contenttweaker.rolleduranium.name= Rolled Uranium Sheet
 
 item.contenttweaker.rollers.name= Set of Rollers

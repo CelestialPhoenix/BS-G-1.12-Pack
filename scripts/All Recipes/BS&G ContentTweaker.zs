@@ -1,6 +1,10 @@
 #Name: Blood Sweat & Gears ContentTweaker.zs
 #Author: PhoePhoe
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
 print("Tweak Tweak Tweak Tweak");
 
 #name items
@@ -572,9 +576,27 @@ recipes.addShaped(<contenttweaker:presstoolroller>, [
 [<ore:ringSteel>, <ore:blockSteel>, <ore:ringSteel>]]);
 
 #---Sheetmetal blocks---
-recipes.addShaped(<contenttweaker:blockrolledbronze>, [
-[<ore:sheetBronze>, <ore:sheetBronze>], 
-[<ore:sheetBronze>, <ore:sheetBronze>]]);
+#This awesome looping script was modified from FTB interactions
+var sheetBlocks as string[] = [
+	"Bronze",
+	"Chrome",
+	"Darmstadtium",
+	"Iridium",
+	"Osmium",
+	"StainlessSteel",
+	"Tin",
+	"Titanium",
+	"TungstenSteel"
+	];
+
+for input in sheetBlocks {
+	var rolledSheet as IItemStack = oreDict["sheet"~input].firstItem;
+	var rolledBlock as IItemStack = oreDict["blockSheetmetal"~input].firstItem;
+
+recipes.addShaped(rolledBlock, [
+[rolledSheet, rolledSheet],
+[rolledSheet, rolledSheet]]);
+}
 
 #---Tools/Tool parts---
 recipes.addShapeless(<contenttweaker:toolrodwood>, [<ore:stickWood>]);

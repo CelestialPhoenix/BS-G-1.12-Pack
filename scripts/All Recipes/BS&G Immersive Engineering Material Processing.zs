@@ -1,5 +1,9 @@
 #Name: Blood Sweat & Gears Immersive Engineering Material Processing.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 print("Trust me I'm an engineer");
 
@@ -245,11 +249,13 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustEndstone>.firstItem*1, <ore
 
 #---Metal Press---
 #--removed recipes--
-#IC2 plates [plate mould]- in IC2 Materials.zs
+//mods.immersiveengineering.MetalPress.removeRecipe();
 
-#ImEng Electrode
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:bullet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
-#Thermal foundation plates/gears see Thermal Foundation Materials.zs
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:2>);
+mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:6>);
+
 
 #--Cutting (Log Splitting)--
 #abyssalcraft
@@ -501,6 +507,35 @@ mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rollednickel>, <o
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsilver>, <ore:plateSilver>, <contenttweaker:presstoolroller>, 1000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsteel>, <ore:plateSteel>, <contenttweaker:presstoolroller>, 1000, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolleduranium>, <ore:plateUranium>, <contenttweaker:presstoolroller>, 1000, 1);
+
+var metalSheets as string[] = [
+	"Aluminium",
+	"Bronze",
+	"Constantan",
+	"Copper",
+	"Chrome",
+	"Darmstadtium",
+	"Electrum",
+	"Gold",
+	"Iron",
+	"Iridium",
+	"Lead",
+	"Nickel",
+	"Osmium",
+	"Silver",
+	"StainlessSteel",
+	"Steel",
+	"Tin",
+	"Titanium",
+	"TungstenSteel",
+	];
+
+for input in metalSheets {
+	var rolledMetal as IItemStack = oreDict["rolled"~input].firstItem;
+	var plateMetal as IItemStack = oreDict["plate"~input].firstItem;
+
+mods.immersiveengineering.MetalPress.addRecipe(rolledMetal, plateMetal, <contenttweaker:presstoolroller>, 1000, 1);
+}
 
 #---Mixer---
 #mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
