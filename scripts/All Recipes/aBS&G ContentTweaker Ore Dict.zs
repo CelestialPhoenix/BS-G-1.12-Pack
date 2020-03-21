@@ -867,7 +867,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:sheetSteel>.add(<contenttweaker:rolledsteel>);
 <ore:sheetTin>.add(<contenttweaker:rolledtin>);
 <ore:sheetTitanium>.add(<contenttweaker:rolledtitanium>);
-<ore:sheetTungstensteel>.add(<contenttweaker:rolledtungstensteel>);
+<ore:sheetTungstenSteel>.add(<contenttweaker:rolledtungstensteel>);
 <ore:sheetUranium>.add(<contenttweaker:rolleduranium>);
 
 <ore:blockSheetmetalBronze>.add(<contenttweaker:blockrolledbronze>);

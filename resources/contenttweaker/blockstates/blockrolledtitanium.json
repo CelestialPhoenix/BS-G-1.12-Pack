@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrolledtitanium",
-      "particle": "contenttweaker:blocks/blockrolledtitanium"
+      "texture": "contenttweaker:blocks/materials/blockrolledtitanium",
+      "particle": "contenttweaker:blocks/materials/blockrolledtitanium"
     },
     "model": "base:storage",
     "uvlock": true,

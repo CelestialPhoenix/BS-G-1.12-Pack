@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrolleddarmstadtium",
-      "particle": "contenttweaker:blocks/blockrolleddarmstadtium"
+      "texture": "contenttweaker:blocks/materials/blockrolleddarmstadtium",
+      "particle": "contenttweaker:blocks/materials/blockrolleddarmstadtium"
     },
     "model": "base:storage",
     "uvlock": true,

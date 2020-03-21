@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrolledstainlesssteel",
-      "particle": "contenttweaker:blocks/blockrolledstainlesssteel"
+      "texture": "contenttweaker:blocks/materials/blockrolledstainlesssteel",
+      "particle": "contenttweaker:blocks/materials/blockrolledstainlesssteel"
     },
     "model": "base:storage",
     "uvlock": true,

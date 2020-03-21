@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/rolledosmium"
+    "layer0": "contenttweaker:items/materials/rolledosmium"
   }
 }

@@ -223,6 +223,38 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustNetherrack>.firstItem*1, <o
 mods.immersiveengineering.Crusher.addRecipe(<ore:gravelObsidian>.firstItem*1, <ore:obsidian>, 1024, <ore:dustObsidian>.firstItem, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustObsidian>.firstItem*1, <ore:gravelObsidian>, 1024, <ore:dustObsidian>.firstItem, 0.05);
 
+#Sheetmetal
+var sheetMetal as string[] = [
+	"Aluminium",
+	"Bronze",
+	"Chrome",
+	"Constantan",
+	"Copper",
+	"Darmstadtium",
+	"Electrum",
+	"Gold",
+	"Iron",
+	"Iridium",
+	"Lead",
+	"Nickel",
+	"Osmium",
+	"Silver",
+	"StainlessSteel",
+	"Steel",
+	"Tin",
+	"Titanium",
+	"TungstenSteel",
+	"Uranium"];
+
+for input in sheetMetal {
+	var metalSheet as IItemStack = oreDict["sheet"~input].firstItem;
+	var metalSheetBlock as IItemStack = oreDict["blockSheetmetal"~input~"Double"].firstItem;
+	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
+
+mods.immersiveengineering.Crusher.addRecipe(metalDust*1, metalSheet, 512, null);
+mods.immersiveengineering.Crusher.addRecipe(metalDust*1, metalSheetBlock, 512, null);
+}
+
 #Wool
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:0>, 128, <ore:dyeWhite>.firstItem, 0.125);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:wool:1>, 128, <ore:dyeOrange>.firstItem, 0.125);
@@ -495,18 +527,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<ore:wireGtSingleSteel>.firstItem
 #no plate rolling here
 
 #---rolling (sheetmetal)---
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledaluminium>, <ore:plateAluminium>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledbronze>, <ore:plateBronze>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledconstantan>, <ore:plateConstantan>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledcopper>, <ore:plateCopper>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledelectrum>, <ore:plateElectrum>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledgold>, <ore:plateGold>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rollediron>, <ore:plateIron>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledlead>, <ore:plateLead>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rollednickel>, <ore:plateNickel>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsilver>, <ore:plateSilver>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolledsteel>, <ore:plateSteel>, <contenttweaker:presstoolroller>, 1000, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:rolleduranium>, <ore:plateUranium>, <contenttweaker:presstoolroller>, 1000, 1);
 
 var metalSheets as string[] = [
 	"Aluminium",
@@ -531,7 +551,7 @@ var metalSheets as string[] = [
 	];
 
 for input in metalSheets {
-	var rolledMetal as IItemStack = oreDict["rolled"~input].firstItem;
+	var rolledMetal as IItemStack = oreDict["sheet"~input].firstItem;
 	var plateMetal as IItemStack = oreDict["plate"~input].firstItem;
 
 mods.immersiveengineering.MetalPress.addRecipe(rolledMetal, plateMetal, <contenttweaker:presstoolroller>, 1000, 1);

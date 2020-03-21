@@ -255,3 +255,47 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#--Sheetmetal--
+var sheetMetal as string[] = [
+	"Aluminium",
+	"Bronze",
+	"Chrome",
+	"Constantan",
+	"Copper",
+	"Darmstadtium",
+	"Electrum",
+	"Gold",
+	"Iron",
+	"Iridium",
+	"Lead",
+	"Nickel",
+	"Osmium",
+	"Silver",
+	"StainlessSteel",
+	"Steel",
+	"Tin",
+	"Titanium",
+	"TungstenSteel",
+	"Uranium"];
+
+for input in sheetMetal {
+	var metalSheet as IItemStack = oreDict["sheet"~input].firstItem;
+	var metalSheetBlock as IItemStack = oreDict["blockSheetmetal"~input~"Double"].firstItem;
+	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(metalSheet)
+    .outputs(metalDust*1)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(metalSheetBlock)
+    .outputs(metalDust*4)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+}

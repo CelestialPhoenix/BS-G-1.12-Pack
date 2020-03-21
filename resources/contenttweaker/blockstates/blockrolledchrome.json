@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrolledchrome",
-      "particle": "contenttweaker:blocks/blockrolledchrome"
+      "texture": "contenttweaker:blocks/materials/blockrolledchrome",
+      "particle": "contenttweaker:blocks/materials/blockrolledchrome"
     },
     "model": "base:storage",
     "uvlock": true,

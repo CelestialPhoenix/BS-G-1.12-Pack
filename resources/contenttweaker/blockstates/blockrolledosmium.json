@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrolledosmium",
-      "particle": "contenttweaker:blocks/blockrolledosmium"
+      "texture": "contenttweaker:blocks/materials/blockrolledosmium",
+      "particle": "contenttweaker:blocks/materials/blockrolledosmium"
     },
     "model": "base:storage",
     "uvlock": true,
