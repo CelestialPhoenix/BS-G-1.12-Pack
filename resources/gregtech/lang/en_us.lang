@@ -1,5 +1,5 @@
-//---New Materials---
-//-Materials-
+//---New Materials---//
+//-Materials-//
 material.adamantium=Adamantium
 material.ardite=Ardite
 material.enderium=Enderium
@@ -15,7 +15,7 @@ material.void_metal=Void Metal
 material.cobalt_magnetic=Magnetic Cobalt
 material.glassy=Glassy
 
-//-Ores-
+//-Ores-//
 material.bertrandite=Bertrandite
 material.euclase=Euclase
 material.electrotine=Electrotine
@@ -52,7 +52,8 @@ material.xanthoconite=Xanthoconite
 material.skaergaardite_s=[S]-Skaergaardite
 material.bowieite_ir=[Ir]-Bowieite
 material.quicksilver=Quicksilver
-//-Oxides-
+
+//-Oxides-//
 material.lithrage=Lithrage
 material.argite=Argite
 material.corundum=Corundum
@@ -88,7 +89,7 @@ material.naquothxa=Naquothxa
 material.montroydite=Montroydite
 material.osmiite=Osmiite
 
-//-Complex Oxides-
+//-Complex Oxides-//
 material.scorched_sodalite=Scorched Sodalite
 material.scorched_redstone=Scorched Redstone
 material.scorched_pyrope=Scorched Pyrope
@@ -114,12 +115,14 @@ material.scorched_naquarrite=Scorched Naquarrite
 material.scorched_clay=Scorched Clay
 material.scorched_sheldonite=Scorched Sheldonite
 
+//-Petrochem-//
 material.sulfuric_tar=Sulphuric Tar
 material.tar=Tar
 material.cracked_tar=Cracked Tar
 material.hydrocracked_tar=Hydro-Cracked Tar
 material.alkenes=Olefins
 
+//-Alchemy-//
 material.magnetic=Magnetic
 material.toxic=Toxic
 material.luck=Pure Luck
@@ -127,6 +130,7 @@ material.distilled_coralium=Distilled Coralium
 material.refined_antimatter=Refined Antimatter
 material.lustrous=Lustrous
 
+//-Rocks-//
 material.plagioclase=Plagioclase
 material.hornblende=Hornblende
 material.granite_pink=Pink Granite
@@ -146,7 +150,7 @@ material.omothol_marble=Omothol Marble
 material.omothol_basalt=Omothol Basalt
 material.darkstone=Darkstone
 
-//---Renamed Gtech Materials---
+//---Renamed Gtech Materials---//
 material.coal=Anthracite
 material.cooperite=Cooperite
 material.endstone=Xenolith
@@ -164,10 +168,16 @@ tile.wire_coil.cupronickel.name=Constantan Coil Block
 item.material.oreprefix.oreEndstone=Xenolith %s Ore
 item.material.oreprefix.oreEnd=Xenolith %s Ore
 
-
 //---Renamed Gtech Ores---
 
 //---Renamed Gtech Items---
+//Chemical Cells
+metaitem.fluid_cell.empty=Empty
+metaitem.fluid_cell.name=%s Chemical Cell
+metaitem.large_fluid_cell.steel.name=%s Steel Chemical Cell
+metaitem.large_fluid_cell.tungstensteel.name=%s Tungstensteel Chemical Cell
+
+//Ores
 item.coal.gemExquisite=Huge Lump of Anthracite Coal
 item.coal.gemFlawless=Large Lump of Anthracite Coal
 item.coal.gemFlawed=Small Lump of Anthracite Coal
@@ -183,16 +193,20 @@ item.lignite.gemFlawless=Large Lump of Lignite Coal
 item.lignite.gemFlawed=Small Lump of Lignite Coal
 item.lignite.gemChipped=Tiny Lump of Lignite Coal
 
-metaitem.fluid_cell.empty=Empty
-metaitem.fluid_cell.name=%s Chemical Cell
-metaitem.large_fluid_cell.steel.name=%s Steel Chemical Cell
-metaitem.large_fluid_cell.tungstensteel.name=%s Tungstensteel Chemical Cell
+//Rebreather
+item.rebreather.name=Rebreather
 
-//---Renamed Gtech Machines---
+//---Renamed/Fixed Gtech Machines---
+//Assembler
+gregtech.machine.assembler.iv.name=Advanced Assembler IV
+
+//Autoclave
+gregtech.machine.autoclave.iv.name=Advanced Autoclave IV
+
 //Compressor
 gregtech.machine.compressor.ev.name=Advanced Compressor III
 
-//Distil tower
+//Distil tower (Refinary Tower)
 gregtech.machine.distillation_tower.name=Refinery Tower
 gregtech.machine.distillation_tower.tooltip=Precision Distillation
 gregtech.multiblock.distillation_tower.description=The Refinery Tower is a multiblock structure used for distilling the various types of Oil, their byproducts and some other fluids.
@@ -204,6 +218,9 @@ gregtech.machine.electrolyzer.ev.name=Advanced Electrolyzer III
 
 //Extractor
 gregtech.machine.extractor.ev.name=Advanced Extractor III
+
+//Laser Engraver
+gregtech.machine.laser_engraver.iv.name=Advanced Laser Engraver IV
 
 //Macerator
 gregtech.machine.macerator.lv.tooltip=Crushing your ores
