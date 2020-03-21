@@ -248,7 +248,7 @@ var sheetMetal as string[] = [
 
 for input in sheetMetal {
 	var metalSheet as IItemStack = oreDict["sheet"~input].firstItem;
-	var metalSheetBlock as IItemStack = oreDict["blockSheetmetal"~input~"Double"].firstItem;
+	var metalSheetBlock as IItemStack = oreDict["blockSheetmetal"~input].firstItem;
 	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
 
 mods.immersiveengineering.Crusher.addRecipe(metalDust*1, metalSheet, 512, null);
