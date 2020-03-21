@@ -1,0 +1,8 @@
+item.railcraft.backpack.signalman.t1.name=Signalman's Backpack
+item.railcraft.backpack.signalman.t2.name=Woven Signalman's Backpack
+
+item.railcraft.charge.electrode.carbon.name=Carbon Electrode
+item.railcraft.charge.electrode.silver.name=Silver Electrode
+
+tile.railcraft.coke.oven.red.name=Red Coke Oven Brick
+tile.railcraft.coke.oven.red.tips=Multi-Block: 3x3x3 (Hollow)
