@@ -411,7 +411,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:elementKanthal>.add(<contenttweaker:elementkanthal>);
 <ore:elementNichrome>.add(<contenttweaker:elementnichrome>);
 <ore:elementTungstenSteel>.add(<contenttweaker:elementtungstensteel>);
-<ore:elementHSSG>.add(<contenttweaker:elementhssg>);
+<ore:elementHssg>.add(<contenttweaker:elementhssg>);
 <ore:elementNaquadah>.add(<contenttweaker:elementnaquadah>);
 <ore:elementNaquadahAlloy>.add(<contenttweaker:elementnaquadahalloy>);
 <ore:elementSuper>.add(<contenttweaker:elementsuper>);

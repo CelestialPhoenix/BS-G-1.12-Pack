@@ -157,6 +157,30 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
+#-Elements (heating)
+var sheetMetal as string[] = [
+	"Copper",
+	"Cupronickel",
+	"Kanthal",
+	"Nichrome",
+	"TungstenSteel",
+	"Hssg",
+	"NaquadahAlloy",
+	"Naquadah"];
+
+for input in sheetMetal {
+	var heatingCoil as IItemStack = oreDict["element"~input].firstItem;
+	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(heatingCoil)
+    .outputs(metalDust*4)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+}
+
 #-Lustrous-
 macerator
     .recipeBuilder()
