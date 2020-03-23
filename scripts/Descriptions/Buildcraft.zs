@@ -27,3 +27,9 @@ mods.jei.JEI.addDescription([<buildcrafttransport:pipe_stripes_item>],"Can place
 mods.jei.JEI.addDescription([<buildcrafttransport:pipe_wood_power>],"Uses a high powered laser for Rf power transmission", "Connects the Laser Apature into the Laser Conduit");
 mods.jei.JEI.addDescription([<buildcrafttransport:pipe_cobble_power>, <buildcrafttransport:pipe_stone_power>, <buildcrafttransport:pipe_quartz_power>, <buildcrafttransport:pipe_gold_power>],"Uses a high powered laser for Rf power transmission", "Will automatically connect to a Laser Reciever and laser driven machinery");
 mods.jei.JEI.addDescription([<buildcrafttransport:pipe_sandstone_power>],"Uses a high powered laser for Rf power transmission", "Will only other Laser Conduit");
+
+#-Tanks-
+mods.jei.JEI.addDescription([<buildcraftfactory:tank>],"Simple tanks which connect vertically", "Destroys contents when broken");
+
+
+

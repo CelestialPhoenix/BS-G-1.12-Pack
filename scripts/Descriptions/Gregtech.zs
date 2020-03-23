@@ -99,6 +99,9 @@ mods.jei.JEI.addDescription([<metaitem:robot.arm.lv>, <metaitem:robot.arm.mv>, <
 
 mods.jei.JEI.addDescription([<metaitem:robot.arm.lv>, <metaitem:robot.arm.mv>, <metaitem:robot.arm.hv>, <metaitem:robot.arm.ev>, <metaitem:robot.arm.iv>, <metaitem:robot.arm.luv>, <metaitem:robot.arm.zpm>, <metaitem:robot.arm.uv>], "Any rumours of a robot uprising are clearly fake news and should not be any cause for concern. Robotic intelligence uses a perfectly safe and non-malevolent AI to function. There is nothing to worry about.");
 
+#---Tanks---
+mods.jei.JEI.addDescription([<meta_tile_entity:gregtech:wooden_tank>, <meta_tile_entity:gregtech:bronze_tank>, <meta_tile_entity:gregtech:steel_tank>, <meta_tile_entity:gregtech:steam_hammer_bronze>, <meta_tile_entity:gregtech:stainless_steel_tank>, <meta_tile_entity:gregtech:titanium_tank>, <meta_tile_entity:gregtech:tungstensteel_tank>],"Sturdy tanks that connect together horizontally and vertically.", "Retains its constants when broken.");
+
 #---Tools---
 
 #-Axe-
