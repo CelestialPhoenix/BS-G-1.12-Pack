@@ -27,7 +27,7 @@ recipes.removeShaped(<forestry:engine_biogas>);
 recipes.addShaped(<forestry:engine_biogas>, [
 [<ore:ringBrass>, <ore:gearSmallBrass>, <ore:ringBrass>],
 [<ore:stickBrass>, <ore:coilSimple>, <ore:stickBrass>], 
-[<ore:pipeSmallSteel>, null, <ore:pipeSmallSteel>]]);
+[<ore:pipeSmallSteel>, <ore:tankGlass>, <ore:pipeSmallSteel>]]);
 
 #Sterling (Formally Peat)
 recipes.removeShaped(<forestry:engine_peat>);
@@ -70,8 +70,8 @@ recipes.addShaped(<forestry:still>, [
 #thermfab
 recipes.removeShaped(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
-[<ore:plateTin>, <forestry:worktable>, <ore:plateTin>],
-[<ore:plateTin>, <ore:machineSturdy>, <ore:plateTin>], 
+[<ore:plateTin>, null, <ore:plateTin>],
+[<ore:plateTin>, <forestry:worktable>, <ore:plateTin>], 
 [<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>]]);
 
 #worktable

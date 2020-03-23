@@ -169,6 +169,10 @@ recipes.remove(<minecraft:sand>, <minecraft:water_bucket>); #Fix BoP bucket stup
 
 #Stick
 recipes.addShapeless(<minecraft:stick>, [<contenttweaker:toolrodwood>]);
+recipes.addShapeless(<minecraft:stick>*2, [<ore:plankWood>]);
+recipes.addShaped(<minecraft:stick>*4,[
+[<ore:plankWood>],
+[<ore:plankWood>]]);
 
 #String
 recipes.remove(<minecraft:string>, <natura:materials:3>);

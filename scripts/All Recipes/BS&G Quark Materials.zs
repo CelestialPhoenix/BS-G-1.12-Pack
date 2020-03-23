@@ -50,3 +50,25 @@ recipes.addShaped(<quark:bark:5>,[
 [<ore:logDarkOak>],
 [<ore:barkDarkOak>]]);
 
+#-Buttons-
+recipes.remove(<quark:spruce_button>);
+recipes.addShapeless(<quark:spruce_button>, [<minecraft:planks:1>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:birch_button>);
+recipes.addShapeless(<quark:birch_button>, [<minecraft:planks:2>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:jungle_button>);
+recipes.addShapeless(<quark:jungle_button>, [<minecraft:planks:3>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:acacia_button>);
+recipes.addShapeless(<quark:acacia_button>, [<minecraft:planks:4>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:dark_oak_button>);
+recipes.addShapeless(<quark:dark_oak_button>, [<minecraft:planks:5>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:iron_button>);
+recipes.addShapeless(<quark:iron_button>, [<ore:ingotIron>, <ore:dustRedstone>]);
+
+recipes.remove(<quark:gold_button>);
+recipes.addShapeless(<quark:gold_button>, [<ore:ingotGold>, <ore:dustRedstone>]);
+

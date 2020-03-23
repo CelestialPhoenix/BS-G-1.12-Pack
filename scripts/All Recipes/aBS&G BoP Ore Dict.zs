@@ -44,7 +44,7 @@ print("BoP ...BLeepBleepBoop - R2D2");
 
 #logs
 <ore:logSacredOak>.add(<biomesoplenty:log_0:4>);
-<ore:logCherry>.add(<biomesoplenty:log_0:5>);
+<ore:logCherryBoP>.add(<biomesoplenty:log_0:5>);
 <ore:logUmbran>.add(<biomesoplenty:log_0:6>);
 <ore:logFir>.add(<biomesoplenty:log_0:7>);
 <ore:logEthereal>.add(<biomesoplenty:log_1:4>);

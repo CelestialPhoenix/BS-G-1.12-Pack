@@ -252,7 +252,7 @@ for input in sheetMetal {
 	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
 
 mods.immersiveengineering.Crusher.addRecipe(metalDust*1, metalSheet, 512, null);
-mods.immersiveengineering.Crusher.addRecipe(metalDust*1, metalSheetBlock, 512, null);
+mods.immersiveengineering.Crusher.addRecipe(metalDust*4, metalSheetBlock, 512, null);
 }
 
 #Wool

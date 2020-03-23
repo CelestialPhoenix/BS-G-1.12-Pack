@@ -8,7 +8,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Polarizer---
 val polarizer as RecipeMap = RecipeMap.getByName("polarizer");
 
-#MagneticCobalt
+#Cobalt
 polarizer
     .recipeBuilder()
 	.inputs(<ore:dustCobalt>.firstItem)
@@ -40,3 +40,15 @@ polarizer
     .duration(16)
     .EUt(16)
     .buildAndRegister();
+
+#Iron
+polarizer.findRecipe(16, [<ore:stickIron>.firstItem*1], null).remove();
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:stickIron>.firstItem)
+	.outputs([<ore:stickIronMagnetic>.firstItem])
+    .duration(40)
+    .EUt(6)
+    .buildAndRegister();
+
+

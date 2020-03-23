@@ -285,7 +285,7 @@ recipes.addShapeless(<biomesoplenty:planks_0:0>*2, [<ore:logSacredOak>]);
 
 #Cherry
 recipes.remove(<biomesoplenty:planks_0:1>);
-recipes.addShapeless(<biomesoplenty:planks_0:1>*2, [<ore:logCherry>]);
+recipes.addShapeless(<biomesoplenty:planks_0:1>*2, [<ore:logCherryBoP>]);
 
 #Umbran
 recipes.remove(<biomesoplenty:planks_0:2>);
@@ -309,19 +309,19 @@ recipes.addShapeless(<biomesoplenty:planks_0:6>*2, [<ore:logMangrove>]);
 
 #Palm
 recipes.remove(<biomesoplenty:planks_0:7>);
-recipes.addShapeless(<biomesoplenty:planks_0:7>*2, [<ore:logPalm>]);
+recipes.addShapeless(<biomesoplenty:planks_0:7>*2, [<ore:logPalmBoP>]);
 
 #Redwood
 recipes.remove(<biomesoplenty:planks_0:8>);
-recipes.addShapeless(<biomesoplenty:planks_0:8>*2, [<ore:logRedwood>]);
+recipes.addShapeless(<biomesoplenty:planks_0:8>*2, [<ore:logRedwoodBoP>]);
 
 #Willow
 recipes.remove(<biomesoplenty:planks_0:9>);
-recipes.addShapeless(<biomesoplenty:planks_0:9>*2, [<ore:logWillow>]);
+recipes.addShapeless(<biomesoplenty:planks_0:9>*2, [<ore:logWillowBoP>]);
 
 #Pine
 recipes.remove(<biomesoplenty:planks_0:10>);
-recipes.addShapeless(<biomesoplenty:planks_0:10>*2, [<ore:logPine>]);
+recipes.addShapeless(<biomesoplenty:planks_0:10>*2, [<ore:logPineBoP>]);
 
 #Hellbark
 recipes.remove(<biomesoplenty:planks_0:11>);
@@ -333,15 +333,15 @@ recipes.addShapeless(<biomesoplenty:planks_0:12>*2, [<ore:logJacaranda>]);
 
 #Mahogany
 recipes.remove(<biomesoplenty:planks_0:13>);
-recipes.addShapeless(<biomesoplenty:planks_0:13>*2, [<ore:logMahogany>]);
+recipes.addShapeless(<biomesoplenty:planks_0:13>*2, [<ore:logMahoganyBoP>]);
 
 #Ebony
 recipes.remove(<biomesoplenty:planks_0:14>);
-recipes.addShapeless(<biomesoplenty:planks_0:14>*2, [<ore:logEbony>]);
+recipes.addShapeless(<biomesoplenty:planks_0:14>*2, [<ore:logEbonyBoP>]);
 
 #Eucalyptus
 recipes.remove(<biomesoplenty:planks_0:15>);
-recipes.addShapeless(<biomesoplenty:planks_0:15>*2, [<ore:logEucalpytus>]);
+recipes.addShapeless(<biomesoplenty:planks_0:15>*2, [<ore:logEucalyptusBoP>]);
 
 #-Slabs-
 

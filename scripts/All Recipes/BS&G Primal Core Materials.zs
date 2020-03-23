@@ -3,6 +3,18 @@
 
 print("Going Primal. Not unlike going commando");
 
+#--Metal Blocks--
+recipes.remove(<primal:metalblock:4>);
+recipes.remove(<primal:metalblock:6>);
+recipes.remove(<primal:metalblock:7>);
+recipes.remove(<primal:metalblock:8>);
+recipes.remove(<primal:metalblock:9>);
+recipes.remove(<primal:metalblock:10>);
+recipes.remove(<primal:metalblock:11>);
+recipes.remove(<primal:metalblock:12>);
+recipes.remove(<primal:metalblock:13>);
+recipes.remove(<primal:metalblock:14>);
+
 #--Bricks and Blocks--
 furnace.remove(<ore:ingotIron>, <ore:oreIron>);
 

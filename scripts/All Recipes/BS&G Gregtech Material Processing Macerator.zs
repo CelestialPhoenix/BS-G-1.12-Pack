@@ -158,7 +158,7 @@ macerator
     .buildAndRegister();
 
 #-Elements (heating)
-var sheetMetal as string[] = [
+var heatingElements as string[] = [
 	"Copper",
 	"Cupronickel",
 	"Kanthal",
@@ -168,7 +168,7 @@ var sheetMetal as string[] = [
 	"NaquadahAlloy",
 	"Naquadah"];
 
-for input in sheetMetal {
+for input in heatingElements {
 	var heatingCoil as IItemStack = oreDict["element"~input].firstItem;
 	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
 

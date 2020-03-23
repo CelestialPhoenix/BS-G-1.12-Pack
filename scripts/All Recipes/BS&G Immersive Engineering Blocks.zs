@@ -348,11 +348,21 @@ recipes.addShaped(<immersiveengineering:wooden_device0:6>, [
 [<ore:livingwood>, <ore:ingotIron>, <ore:livingwood>], 
 [<ore:dustRedstone>, <immersiveengineering:metal_decoration0>, <ore:dustRedstone>]]);
 
-#Wooden Storage Crate
-recipes.addShaped(<immersiveengineering:connector:0>, [
+#Reinforced Storage Crate
+recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
+[<ore:plankTreatedWood>, <ore:stickIron>, <ore:plankTreatedWood>],
+[<ore:plateIron>, <immersiveengineering:wooden_device0>, <ore:plateIron>], 
+[<ore:plankTreatedWood>, <ore:stickIron>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
 [<ore:livingwood>, <ore:stickIron>, <ore:livingwood>],
 [<ore:plateIron>, <immersiveengineering:wooden_device0>, <ore:plateIron>], 
 [<ore:livingwood>, <ore:stickIron>, <ore:livingwood>]]);
+
+recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
+[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>],
+[<ore:stickIron>, <immersiveengineering:wooden_device0>, <ore:stickIron>], 
+[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>]]);
 
 #Item Router
 recipes.addShaped(<immersiveengineering:wooden_device0:3>, [
@@ -414,10 +424,10 @@ recipes.addShaped(<immersiveengineering:metal_device0:1>, [
 [<ore:livingwood>, <ore:blockRedstone>, <ore:livingwood>]]);
 
 #Reinforced Storage Crate
-recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
-[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>],
-[<ore:stickIron>, <ore:ingotLead>, <ore:stickIron>], 
-[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>]]);
+#recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
+#[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>],
+#[<ore:stickIron>, <immersiveengineering:wooden_device0:0>, <ore:stickIron>], 
+#[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>]]);
 
 #Windmill Blade
 recipes.addShaped(<immersiveengineering:material:11>, [
@@ -438,49 +448,43 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 
 #---Wire Connectors---
 #LV
+<immersiveengineering:connector:0>.displayName=("LV Terminal");
 recipes.removeShaped(<immersiveengineering:connector:0>);
-recipes.addShaped(<immersiveengineering:connector:0>*4, [
-[<ore:screwBrass>, <ore:stickCopper>, <ore:screwBrass>],
-[<ore:plankTreatedWood>, <ore:stickCopper>, <ore:plankTreatedWood>], 
-[<ore:plankTreatedWood>, <ore:stickCopper>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:connector:0>*1, [
+[<immersiveengineering:connector:1>],
+[<ore:stickCopper>]]);
 
-recipes.addShaped(<immersiveengineering:connector:0>*4, [
-[<ore:screwBrass>, <ore:stickCopper>, <ore:screwBrass>],
-[<ore:livingwood>, <ore:stickCopper>, <ore:livingwood>], 
-[<ore:livingwood>, <ore:stickCopper>, <ore:livingwood>]]);
-
-#MV
-recipes.removeShaped(<immersiveengineering:connector:2>);
-recipes.addShaped(<immersiveengineering:connector:2>*4, [
-[<ore:screwSteel>, <ore:stickElectrum>, <ore:screwSteel>],
-[<ore:hardenedClay>, <ore:stickElectrum>, <ore:hardenedClay>], 
-[<ore:hardenedClay>, <ore:stickElectrum>, <ore:hardenedClay>]]);
-#HV
-recipes.removeShaped(<immersiveengineering:connector:4>);
-recipes.addShaped(<immersiveengineering:connector:4>*4, [
-[<ore:screwStainlessSteel>, <ore:stickAluminium>, <ore:screwStainlessSteel>],
-[<ore:glassInsulating>, <ore:stickAluminium>, <ore:glassInsulating>], 
-[<ore:glassInsulating>, <ore:stickAluminium>, <ore:glassInsulating>]]);
-
-#---Wire Relays---
-#LV
+<immersiveengineering:connector:1>.displayName=("LV Insulator");
 recipes.removeShaped(<immersiveengineering:connector:1>);
-recipes.addShaped(<immersiveengineering:connector:1>, [
-[<ore:screwBrass>],
-[<ore:plankTreatedWood>]]);
-
-recipes.addShaped(<immersiveengineering:connector:1>, [
-[<ore:screwBrass>],
-[<ore:livingwood>]]);
+recipes.addShaped(<immersiveengineering:connector:1>*1, [
+[<ore:slabTreatedWood>],
+[<ore:slabTreatedWood>],
+[<ore:slabTreatedWood>]]);
 
 #MV
+<immersiveengineering:connector:2>.displayName=("MV Terminal");
+recipes.removeShaped(<immersiveengineering:connector:2>);
+recipes.addShaped(<immersiveengineering:connector:2>*1, [
+[<immersiveengineering:connector:3>],
+[<ore:stickElectrum>]]);
+
+<immersiveengineering:connector:3>.displayName=("MV Insulator");
 recipes.removeShaped(<immersiveengineering:connector:3>);
-recipes.addShaped(<immersiveengineering:connector:3>, [
-[<ore:screwSteel>],
+recipes.addShaped(<immersiveengineering:connector:3>*1, [
+[<ore:hardenedClay>],
+[<ore:hardenedClay>],
 [<ore:hardenedClay>]]);
 
 #HV
+<immersiveengineering:connector:4>.displayName=("HV Terminal");
+recipes.removeShaped(<immersiveengineering:connector:4>);
+recipes.addShaped(<immersiveengineering:connector:4>*1, [
+[<immersiveengineering:connector:5>],
+[<ore:stickAluminium>]]);
+
+<immersiveengineering:connector:5>.displayName=("HV Insulator");
 recipes.removeShaped(<immersiveengineering:connector:5>);
-recipes.addShaped(<immersiveengineering:connector:5>, [
-[<ore:screwStainlessSteel>],
+recipes.addShaped(<immersiveengineering:connector:5>*1, [
+[<ore:glassInsulating>],
+[<ore:glassInsulating>],
 [<ore:glassInsulating>]]);
