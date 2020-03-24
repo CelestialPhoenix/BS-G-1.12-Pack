@@ -1146,14 +1146,16 @@ recipes.remove(<ore:wireFineYttriumBariumCuprate>.firstItem);
 
 #Gear Small
 recipes.removeShaped(<ore:gearSmallAluminium>.firstItem);
+recipes.removeShaped(<ore:gearSmallGold>.firstItem);
 recipes.removeShaped(<ore:gearSmallDarmstadtium>.firstItem);
 recipes.removeShaped(<ore:gearSmallTitanium>.firstItem);
+recipes.removeShaped(<ore:gearSmallBrass>.firstItem);
 recipes.removeShaped(<ore:gearSmallStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:gearSmallSteel>.firstItem);
+recipes.removeShaped(<ore:gearSmallRoseGold>.firstItem);
 recipes.removeShaped(<ore:gearSmallTungstenSteel>.firstItem);
 recipes.removeShaped(<ore:gearSmallSteelMagnetic>.firstItem);
 recipes.removeShaped(<ore:gearSmallHssg>.firstItem);
-recipes.removeShaped(<ore:gearSmallHsse>.firstItem);
 recipes.removeShaped(<ore:gearSmallHsse>.firstItem);
 
 #Gear Large

@@ -53,13 +53,15 @@ var ingotMetal as string[] = [
 	"CocoaButter",
 	"UnsweetenedChocolate",
 	"DarkChocolate",
-	"Marshmallow"];
+	"Marshmallow",
+	"Sodium"];
 
 for input in ingotMetal {
 	var ingots as IItemStack = oreDict["ingot"~input].firstItem;
 
 mods.tconstruct.Casting.removeTableRecipe(ingots);
 }
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:materials:1>);
 
 #Nuggets
 var nuggets as string[] = [
@@ -317,10 +319,13 @@ mods.tconstruct.Casting.addTableRecipe(<ore:gearSteel>.firstItem, <metaitem:shap
 #--Gears Small--
 #mods.tconstruct.Casting.addTableRecipe(<gregtech:meta_item_2:17>, <gregtech:meta_item_1:32317>, <liquid:>, 216, false); #
 mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallAluminium>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:aluminium>, 216, false); #Aluminium
+mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallGold>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:gold>, 216, false); #Gold
 #Darmstadtium
 #Titanium
+mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallBrass>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:brass>, 216, false); #Brass
 #Stainless
 mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallSteel>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:steel>, 216, false); #Steel
+mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallRoseGold>.firstItem, <metaitem:shape.mold.gear.small>, <liquid:rose_gold>, 216, false); #RoseGold
 #TungstenSteel
 #Magnetic Steel
 #HSSG

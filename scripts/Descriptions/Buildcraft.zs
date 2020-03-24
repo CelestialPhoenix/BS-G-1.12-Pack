@@ -29,7 +29,7 @@ mods.jei.JEI.addDescription([<buildcrafttransport:pipe_cobble_power>, <buildcraf
 mods.jei.JEI.addDescription([<buildcrafttransport:pipe_sandstone_power>],"Uses a high powered laser for Rf power transmission", "Will only other Laser Conduit");
 
 #-Tanks-
-mods.jei.JEI.addDescription([<buildcraftfactory:tank>],"Simple tanks which connect vertically", "Destroys contents when broken");
+mods.jei.JEI.addDescription([<buildcraftfactory:tank>],"Simple tanks which connect vertically.", "Destroys contents when broken.");
 
 
 

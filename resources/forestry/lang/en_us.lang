@@ -5,9 +5,11 @@ tile.for.engine_biogas.name=Steam Engine
 tile.for.engine_biogas.tooltip=Generates RF from Steam.
 
 for.hints.enginebronzefuels.tag=Cold starts
-for.hints.enginebronzefuels.desc=The steam engine can't be started from cold, and needs to cycle a hot fluid first!
-for.hints.enginebronzeheatloss.desc=Though you can use water in a steam engine, it is inefficient and will constantly consume lava.
-for.hints.enginebronzeoutput.desc=Steam and water have different power outputs!
+for.hints.enginebronzefuels.desc=The steam engine can't be started from cold, and needs to cycle a hot fluid (lava) first!
+for.hints.enginebronzeheatloss.tag=Look mum no wires!
+for.hints.enginebronzeheatloss.desc=Engines can be directly connected to a machine if needed.
+for.hints.enginebronzeoutput.tag=Keeping her going.
+for.hints.enginebronzeoutput.desc=Once warmed, the steam supply will keep an engine hot without cycling extra lava.
 for.hints.enginebronzewaste.desc=Unlike Sterling Engines a disabled steam engine will not waste the steam currently in the system.
 
 #Peat Engine remake

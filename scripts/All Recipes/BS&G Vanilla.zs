@@ -102,6 +102,12 @@ recipes.addShaped(<minecraft:bowl>,[
 furnace.remove(<minecraft:coal:1>);
 
 #---Crafting Recipes---
+#Cake
+recipes.remove(<minecraft:cake>);
+recipes.addShaped(<minecraft:cake>,[
+[<ore:milkBottle>.giveBack(<minecraft:glass_bottle>), <ore:milkBottle>.giveBack(<minecraft:glass_bottle>), <ore:milkBottle>.giveBack(<minecraft:glass_bottle>)],
+[<ore:dustSugar>, <ore:egg>, <ore:dustSugar>],
+[<ore:dustWheat>, <ore:dustWheat>, <ore:dustWheat>]]);
 
 #Cauldron
 recipes.remove(<minecraft:cauldron>);

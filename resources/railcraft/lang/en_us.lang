@@ -6,3 +6,8 @@ item.railcraft.charge.electrode.silver.name=Silver Electrode
 
 tile.railcraft.coke.oven.red.name=Red Coke Oven Brick
 tile.railcraft.coke.oven.red.tips=Multi-Block: 3x3x3 (Hollow)
+
+
+gui.railcraft.jei.category.rolling=Metalworking
+tile.railcraft.equipment.rolling.manual.desc=Machine for working various shapes of metal. If there is only enough items in the grid for one cycle, you can click the output display to force crafting.
+tile.railcraft.equipment.rolling.powered.name=Metalworker

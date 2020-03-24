@@ -47,8 +47,8 @@ recipes.remove(<railcraft:flux_transformer>);
 <railcraft:flux_transformer>.clearTooltip();
 <railcraft:flux_transformer>.addTooltip("Forms a 2x2x2 structure");
 <railcraft:flux_transformer>.addTooltip("Good for high-torque applications");
-<railcraft:flux_transformer>.addTooltip("such a rolling machine or");
-<railcraft:flux_transformer>.addTooltip("electric locomotives");
+<railcraft:flux_transformer>.addTooltip("such a Metalworker or");
+<railcraft:flux_transformer>.addTooltip("Electric Locomotives");
 
 recipes.addShaped(<railcraft:flux_transformer>*8, [
 [<ore:tubeBronze>, <ore:plankTreatedWood>, <ore:tubeBronze>],

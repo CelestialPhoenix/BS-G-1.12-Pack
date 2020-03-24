@@ -65,7 +65,7 @@ var gallium = <material:gallium>;
 gallium.addFlags(["GENERATE_ORE"]);
 
 var gold = <material:gold>;
-gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
+gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR", "GENERATE_RING"]);
 
 var glass = <material:glass>;
 
@@ -118,7 +118,7 @@ val redalloy = <material:red_alloy>;
 redalloy.addFlags(["GENERATE_ROD"]);
 
 var rose_gold = <material:rose_gold>;
-rose_gold.addFlags(["GENERATE_GEAR", "GENERATE_SMALL_GEAR"]);
+rose_gold.addFlags(["GENERATE_GEAR", "GENERATE_SMALL_GEAR", "GENERATE_RING"]);
 
 var tantalum = <material:tantalum>;
 tantalum.addFlags(["GENERATE_ORE"]);
