@@ -3,6 +3,9 @@
 
 print("BoP ..Boop...BLeepBleepBoop - R2D2");
 
+#--Names--
+<biomesoplenty:plant_1:11>.displayName="Wild Wheat";
+
 #---Tweaked Recipes---
 #-Gemstones-
 #Amethyst

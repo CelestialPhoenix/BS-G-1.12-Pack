@@ -4,6 +4,7 @@
 print("Hello Boys- I'm Baaaaack!!!");
 
 #--cupronickel/constantan fix---
+<ore:boltConstantan>.addAll(<ore:boltCupronickel>);
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
 <ore:dustConstantan>.addAll(<ore:dustCupronickel>);
 <ore:ingotConstantan>.addAll(<ore:ingotCupronickel>);

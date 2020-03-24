@@ -25,6 +25,14 @@ print("Is that a nerfbat in your pants or are you happy to see me?");
 <ore:nuggetArdite>.remove(<tconstruct:nuggets:1>);
 <ore:nuggetManyullyn>.remove(<tconstruct:nuggets:2>);
 
+#molds
+<ore:cast>.remove(<tconstruct:cast>);
+<ore:cast>.remove(<tconstruct:cast_custom>);
+<ore:cast>.remove(<tconstruct:cast_custom:1>);
+<ore:cast>.remove(<tconstruct:cast_custom:2>);
+<ore:cast>.remove(<tconstruct:cast_custom:3>);
+<ore:cast>.remove(<tconstruct:cast_custom:4>);
+
 #ores
 <ore:oreCobalt>.remove(<tconstruct:ore:0>);
 <ore:oreArdite>.remove(<tconstruct:ore:1>);

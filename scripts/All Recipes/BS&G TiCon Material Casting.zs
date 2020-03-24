@@ -1,7 +1,177 @@
 #Name: Blood Sweat & Gears TiCon Material Casting.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
 
 print("I'll cast my eye on you");
+
+#---Remove Stupid Recipes---
+#This awesome looping script was modified from FTB interactions
+#Ingots
+var ingotMetal as string[] = [
+	"Graphite",
+	"BrickSeared",
+	"Brick",
+	"Iron",
+	"Cobalt",
+	"Manyullyn",
+	"Ardite",
+	"Copper",
+	"Bronze",
+	"Lead",
+	"Silver",
+	"Electrum",
+	"Steel",
+	"Gold",
+	"Brass",
+	"Tin",
+	"Nickel",
+	"Zinc",
+	"Constantan",
+	"Boron",
+	"Tough",
+	"HardCarbon",
+	"Thorium",
+	"Uranium",
+	"Magnesium",
+	"Chocolate",
+	"Platinum",
+	"Iridium",
+	"Invar",
+	"Signalum",
+	"Lumium",
+	"Enderium",
+	"Lithium",
+	"Beryllium",
+	"Zirconium",
+	"Manganese",
+	"ManganeseDioxide",
+	"Potassium",
+	"Ferroboron",
+	"LeadPlatinum",
+	"CocoaButter",
+	"UnsweetenedChocolate",
+	"DarkChocolate",
+	"Marshmallow"];
+
+for input in ingotMetal {
+	var ingots as IItemStack = oreDict["ingot"~input].firstItem;
+
+mods.tconstruct.Casting.removeTableRecipe(ingots);
+}
+
+#Nuggets
+var nuggets as string[] = [
+	"Iron",
+	"Cobalt",
+	"Manyullyn",
+	"Ardite",
+	"Copper",
+	"Bronze",
+	"Lead",
+	"Silver",
+	"Electrum",
+	"Steel",
+	"Gold",
+	"Brass",
+	"Tin",
+	"Nickel",
+	"Zinc",
+	"Thorium",
+	"Uranium",
+	"Magnesium",
+	"Platinum",
+	"Iridium",
+	"Invar",
+	"Signalum",
+	"Lumium",
+	"Enderium",
+	"Lithium",
+	"Beryllium",
+	"Zirconium",
+	"Manganese",
+	"Sodium",
+	"Potassium"];
+
+for input in nuggets {
+	var nuggetMetal as IItemStack = oreDict["nugget"~input].firstItem;
+
+mods.tconstruct.Casting.removeTableRecipe(nuggetMetal);
+}
+
+#Gears
+var largeGears as string[] = [
+	"Iron",
+	"Copper",
+	"Bronze",
+	"Lead",
+	"Silver",
+	"Electrum",
+	"Steel",
+	"Gold",
+	"Brass",
+	"Tin",
+	"Platinum",
+	"Iridium",
+	"Invar"
+	];
+
+for input in largeGears {
+	var gearMetal as IItemStack = oreDict["gear"~input].firstItem;
+
+mods.tconstruct.Casting.removeTableRecipe(gearMetal);
+}
+#Gems
+var gemCasts as string[] = [
+	"Diamond",
+	"Coal",
+	"Emerald"];
+
+for input in gemCasts {
+	var gems as IItemStack = oreDict["gem"~input].firstItem;
+
+mods.tconstruct.Casting.removeTableRecipe(gems);
+}
+
+#Plates
+var plates as string[] = [
+	"Iron",
+	"Cobalt",
+	"Manyullyn",
+	"Ardite",
+	"Copper",
+	"Bronze",
+	"Lead",
+	"Silver",
+	"Electrum",
+	"Steel",
+	"Gold",
+	"Brass",
+	"Tin",
+	"Nickel",
+	"Zinc",
+	"Constantan",
+	"Thorium",
+	"Uranium",
+	"Platinum",
+	"Iridium",
+	"Invar",
+	"Signalum",
+	"Lumium",
+	"Enderium",
+	"Lithium",
+	"Beryllium",
+	"Zirconium",
+	"Manganese",
+	"Sodium",
+	"Potassium"];
+
+for input in plates {
+	var plateMetal as IItemStack = oreDict["plate"~input].firstItem;
+
+mods.tconstruct.Casting.removeTableRecipe(plateMetal);
+}
 
 #---Block Casting---
 #Chisel
@@ -26,11 +196,8 @@ mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearStee
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear>, <ore:gearTin>, <liquid:steel>, 576, true);
 #Gear Small
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallStone>, <liquid:steel>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallBronze>, <liquid:steel>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallCopper>, <liquid:steel>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallBrass>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallSteel>, <liquid:steel>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.gear.small>, <ore:gearSmallTin>, <liquid:steel>, 576, true);
 #Ingot
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrick>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBrickNether>, <liquid:steel>, 576, true);

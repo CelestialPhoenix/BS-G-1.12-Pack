@@ -48,6 +48,9 @@ recipes.addShaped(<railcraft:tool_crowbar_steel>, [
 recipes.remove(<railcraft:tool_hoe_steel>);
 <railcraft:tool_hoe_steel>.displayName= "Old Style Steel Hoe";
 
+#Magnifying Glass
+<railcraft:tool_magnifying_glass>.displayName= "Inspectors Magnifying Glass";
+
 #Pickaxe
 recipes.remove(<railcraft:tool_pickaxe_steel>);
 <railcraft:tool_pickaxe_steel>.displayName= "Old Style Steel Pick";

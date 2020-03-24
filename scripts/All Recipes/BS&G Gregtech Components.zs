@@ -277,8 +277,8 @@ recipes.addShaped(<metaitem:emitter.iv>, [
 
 #--Motors--
 #MV
-recipes.remove(<metaitem:electric.motor.hv>);
-recipes.addShaped(<metaitem:electric.motor.hv>, [
+recipes.remove(<metaitem:electric.motor.mv>);
+recipes.addShaped(<metaitem:electric.motor.mv>, [
 [<ore:cableGtSingleCopper>, <ore:wireGtDoubleAnnealedCopper>, <ore:stickAluminium>], 
 [<ore:wireGtDoubleAnnealedCopper>, <ore:stickSteelMagnetic>, <ore:wireGtDoubleAnnealedCopper>], 
 [<ore:stickAluminium>, <ore:wireGtDoubleAnnealedCopper>, <ore:cableGtSingleCopper>]]);

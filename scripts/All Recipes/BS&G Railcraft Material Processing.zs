@@ -99,7 +99,87 @@ RollingMachine.remove(<railcraft:plate:9>);
 RollingMachine.remove(<railcraft:plate:10>);
 RollingMachine.remove(<railcraft:plate:11>);
 
-#--Conduit--
+#--Bolts--
+#This awesome looping script was modified from FTB interactions
+var boltMaterials as string[] = [
+	"Aluminium",
+	"Antimony",
+	"Chrome",
+	"Cobalt",
+	"Copper",
+	"Gold",
+	"Iridium",
+	"Iron",
+	"Lead",
+	"Darmstadtium",
+	"Osmium",
+	"Palladium",
+	"Platinum",
+	"Plutonium",
+	"Plutonium241",
+	"Potassium",
+	"Praseodymium",
+	"Promethium",
+	"Silver",
+	"Tin",
+	"Titanium",
+	"Tungsten",
+	"AnnealedCopper",
+	"BatteryAlloy",
+	"Brass",
+	"Bronze",
+	"Constantan",
+	"Electrum",
+	"Invar",
+	"Kanthal",
+	"Magnalium",
+	"Nichrome",
+	"NiobiumNitride",
+	"NiobiumTitanium",
+	"PigIron",
+	"SolderingAlloy",
+	"StainlessSteel",
+	"Steel",
+	"TinAlloy",
+	"Ultimet",
+	"WroughtIron",
+	"YttriumBariumCuprite",
+	"Osmiridium",
+	"SterlingSilver",
+	"RoseGold",
+	"BlackBronze",
+	"BismuthBronze",
+	"BlackSteel",
+	"RedSteel",
+	"BlueSteel",
+	"DamascusSteel",
+	"TungstenSteel",
+	"CobaltBrass",
+	"IronMagnetic",
+	"SteelMagnetic",
+	"NeodymiumMagnetic",
+	"TungstenCarbide",
+	"VanadiumSteel",
+	"Hssg",
+	"Hsse",
+	"Hsss",
+	"Naquadah",
+	"NaquadahAlloy",
+	"NaquadahEnriched",
+	"Naquadria",
+	"Tritanium",
+	"Duranium",
+	"NickelZincFerrite"];
+
+for input in boltMaterials {
+	var stickMetal as IItemStack = oreDict["stick"~input].firstItem;
+	var boltMetal as IItemStack = oreDict["fence"~input].firstItem;
+
+RollingMachine.addShaped(boltMetal*3, [
+[null, null, null],
+[null, stickMetal, null],
+[null, null, null]], 200);
+}
 
 #--Fences--
 #This awesome looping script was modified from FTB interactions
