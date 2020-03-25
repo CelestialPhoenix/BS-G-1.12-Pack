@@ -7,11 +7,24 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:boltConstantan>.addAll(<ore:boltCupronickel>);
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
 <ore:dustConstantan>.addAll(<ore:dustCupronickel>);
+<ore:dustSmallConstantan>.addAll(<ore:dustSmallCupronickel>);
+<ore:dustTinyConstantan>.addAll(<ore:dustTinyCupronickel>);
 <ore:ingotConstantan>.addAll(<ore:ingotCupronickel>);
-<ore:nuggetConstantan>.addAll(<ore:nuggertCupronickel>);
+<ore:nuggetConstantan>.addAll(<ore:nuggetCupronickel>);
 <ore:plateConstantan>.addAll(<ore:plateCupronickel>);
 <ore:stickConstantan>.addAll(<ore:stickCupronickel>);
-<ore:Constantan>.addAll(<ore:Cupronickel>);
+<ore:stickLongConstantan>.addAll(<ore:stickLongCupronickel>);
+<ore:screwConstantan>.addAll(<ore:screwCupronickel>);
+<ore:wireGtSingleConstantan>.addAll(<ore:wireGtSingleCupronickel>);
+<ore:wireGtDoubleConstantan>.addAll(<ore:wireGtDoubleCupronickel>);
+<ore:wireGtQuadrupleConstantan>.addAll(<ore:wireGtQuadrupleCupronickel>);
+<ore:wireGtOctalConstantan>.addAll(<ore:wireGtOctalCupronickel>);
+<ore:wireGtHexConstantan>.addAll(<ore:wireGtHexCupronickel>);
+<ore:cableGtSingleConstantan>.addAll(<ore:cableGtSingleCupronickel>);
+<ore:cableGtDoubleConstantan>.addAll(<ore:cableGtDoubleCupronickel>);
+<ore:cableGtQuadrupleConstantan>.addAll(<ore:cableGtQuadrupleCupronickel>);
+<ore:cableGtOctalConstantan>.addAll(<ore:cableGtOctalCupronickel>);
+<ore:cableGtHexConstantan>.addAll(<ore:cableGtHexCupronickel>);
 
 #---blocks---
 #<ore:stoneAny>.add(<gregtech:granite:*>);

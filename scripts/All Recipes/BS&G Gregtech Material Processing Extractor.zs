@@ -557,6 +557,15 @@ extractor
     .buildAndRegister();
 }
 
+#Flint
+extractor
+    .recipeBuilder()
+    .inputs(<ore:gravel>.firstItem)
+    .outputs(<ore:gemFlint>.firstItem)
+    .duration(800)
+    .EUt(2)
+    .buildAndRegister();
+
 #Rubber
 extractor.findRecipe(5, [<metaitem:rubber_drop>*1], null).remove();
 extractor
