@@ -343,6 +343,11 @@ RollingMachine.addShaped(<railcraft:rail:3>*12, [
 [<ore:stickSteel>, <ore:dustPyrotheum>, <ore:stickGold>],
 [<ore:stickSteel>, <ore:dustPyrotheum>, <ore:stickGold>]], 200);
 
+RollingMachine.addShaped(<railcraft:rail:3>*12, [
+[<ore:stickSteel>, <ore:dustPyrotheum>, <ore:stickRoseGold>],
+[<ore:stickSteel>, <ore:dustPyrotheum>, <ore:stickRoseGold>],
+[<ore:stickSteel>, <ore:dustPyrotheum>, <ore:stickRoseGold>]], 200);
+
 RollingMachine.addShaped(<railcraft:rail:3>*16, [
 [<ore:stickTitanium>, <ore:dustBlaze>, <ore:stickRoseGold>],
 [<ore:stickTitanium>, <ore:dustBlaze>, <ore:stickRoseGold>],
@@ -467,12 +472,12 @@ RollingMachine.addShaped(<railcraft:rail:5>*24, [
 [<ore:stickTitanium>, <ore:stickCopper>, <ore:stickTitanium>],
 [<ore:stickTitanium>, <ore:stickCopper>, <ore:stickTitanium>]], 200);
 
-RollingMachine.addShaped(<railcraft:rail:5>*16, [
+RollingMachine.addShaped(<railcraft:rail:5>*26, [
 [<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>],
 [<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>],
 [<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>]], 200);
 
-RollingMachine.addShaped(<railcraft:rail:5>*18, [
+RollingMachine.addShaped(<railcraft:rail:5>*28, [
 [<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>],
 [<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>],
 [<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>]], 200);

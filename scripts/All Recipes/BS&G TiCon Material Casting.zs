@@ -7,6 +7,8 @@ import crafttweaker.oredict.IOreDict;
 print("I'll cast my eye on you");
 
 #---Remove Stupid Recipes---
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom>);
+
 #This awesome looping script was modified from FTB interactions
 #Ingots
 var ingotMetal as string[] = [

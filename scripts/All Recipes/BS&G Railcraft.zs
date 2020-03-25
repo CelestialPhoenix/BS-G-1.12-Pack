@@ -50,15 +50,15 @@ recipes.remove(<railcraft:flux_transformer>);
 <railcraft:flux_transformer>.addTooltip("such a Metalworker or");
 <railcraft:flux_transformer>.addTooltip("Electric Locomotives");
 
-recipes.addShaped(<railcraft:flux_transformer>*8, [
-[<ore:tubeBronze>, <ore:plankTreatedWood>, <ore:tubeBronze>],
-[<ore:plankTreatedWood>, <ore:coilSimple>, <ore:plankTreatedWood>],
-[<ore:stickCopper>, <ore:plankTreatedWood>, <ore:stickCopper>]]);
+recipes.addShaped(<railcraft:flux_transformer>*4, [
+[<ore:tubeBronze>, <ore:plateSteel>, <ore:tubeBronze>],
+[<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>],
+[<ore:stickCopper>, <ore:plateSteel>, <ore:stickCopper>]]);
 
-recipes.addShaped(<railcraft:flux_transformer>*8, [
-[<ore:tubeBronze>, <ore:livingwood>, <ore:tubeBronze>],
-[<ore:livingwood>, <ore:coilSimple>, <ore:livingwood>],
-[<ore:stickCopper>, <ore:livingwood>, <ore:stickCopper>]]);
+recipes.addShaped(<railcraft:flux_transformer>*4, [
+[<ore:tubeBronze>, <ore:plateBronze>, <ore:tubeBronze>],
+[<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>],
+[<ore:stickCopper>, <ore:plateBronze>, <ore:stickCopper>]]);
 
 #Coke Oven
 recipes.remove(<railcraft:coke_oven>);
@@ -82,13 +82,14 @@ recipes.remove(<railcraft:equipment:0>);
 <railcraft:equipment:0>.clearTooltip();
 <railcraft:equipment:0>.addTooltip("This item is disabled");
 
-#Rolling machine (powered)
+#Rolling machine (powered) //Metalworker
 recipes.remove(<railcraft:equipment:1>);
 recipes.addShaped(<railcraft:equipment:1>, [
-[<ore:tubeIron>, <ore:gearSmallSteel>, <ore:tubeIron>],
+[<ore:tubeIron>, <ore:piston>, <ore:tubeIron>],
 [<ore:gearSmallSteel>, <contenttweaker:rollers>, <ore:gearSmallSteel>],
-[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+[<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>]]);
 <railcraft:equipment:1>.addTooltip("Can be powered directly off a charge driver");
+
 #Steam Turbine
 
 #Water Tower

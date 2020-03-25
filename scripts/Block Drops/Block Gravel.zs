@@ -12,10 +12,10 @@ Dropt.list("gravel_flint")
           .type("PLAYER")
           .mainHand("WHITELIST", [<minecraft:stick>]))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(75))
+          .selector(Dropt.weight(60))
 		  .items([<minecraft:flint>], Dropt.range(1)))
       .addDrop(Dropt.drop()
-          .selector(Dropt.weight(25)) #Drops nothing
+          .selector(Dropt.weight(40)) #Drops nothing
       )
   );
 
