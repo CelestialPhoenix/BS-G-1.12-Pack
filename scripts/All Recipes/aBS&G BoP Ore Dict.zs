@@ -61,6 +61,24 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:logEucalyptusBoP>.add(<biomesoplenty:log_3:7>);
 <ore:logDead>.add(<biomesoplenty:log_4:5>);
 
+#plank
+<ore:plankSacredOak>.add(<biomesoplenty:planks_0:0>);
+<ore:plankCherryBoP>.add(<biomesoplenty:planks_0:1>);
+<ore:plankUmbran>.add(<biomesoplenty:planks_0:2>);
+<ore:plankFir>.add(<biomesoplenty:planks_0:3>);
+<ore:plankEthereal>.add(<biomesoplenty:planks_0:4>);
+<ore:plankMagic>.add(<biomesoplenty:planks_0:5>);
+<ore:plankMangrove>.add(<biomesoplenty:planks_0:6>);
+<ore:plankPalmBoP>.add(<biomesoplenty:planks_0:7>);
+<ore:plankRedwoodBoP>.add(<biomesoplenty:planks_0:8>);
+<ore:plankWillowBoP>.add(<biomesoplenty:planks_0:9>);
+<ore:plankPineBoP>.add(<biomesoplenty:planks_0:10>);
+<ore:plankHellbark>.add(<biomesoplenty:planks_0:11>);
+<ore:plankJacaranda>.add(<biomesoplenty:planks_0:12>);
+<ore:plankMahoganyBoP>.add(<biomesoplenty:planks_0:13>);
+<ore:plankEbonyBoP>.add(<biomesoplenty:planks_0:14>);
+<ore:plankEucalyptusBoP>.add(<biomesoplenty:planks_0:15>);
+
 #sandstone
 <ore:sandWhite>.add(<biomesoplenty:white_sand>);
 

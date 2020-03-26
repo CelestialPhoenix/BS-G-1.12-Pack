@@ -45,6 +45,10 @@ print("I'm not evil I promise");
 <ore:oreTin>.remove(<abyssalcraft:abytinore>);
 <ore:oreCoppper>.remove(<abyssalcraft:abycopore>);
 
+#planks
+<ore:plankDarklandOak>.add(<abyssalcraft:dltplank>);
+<ore:plankDreadwood>.add(<abyssalcraft:dreadplanks>);
+
 #sand
 <ore:abyssalSand>.add(<abyssalcraft:abyssalsand>);
 

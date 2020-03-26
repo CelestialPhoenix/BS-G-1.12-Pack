@@ -19,12 +19,19 @@ print("Adrift in the skies");
 <ore:stoneAny>.add(<aether:holystone_brick_decorative:3>);
 <ore:stoneHoly>.add(<aether:holystone>);
 
+#logs
 <ore:logSkyroot>.add(<aether:skyroot_log>);
 <ore:logGreatroot>.add(<aether:dark_skyroot_log>);
 <ore:logTherawood>.add(<aether:therawood_log>);
 <ore:logWisproot>.add(<aether:light_skyroot_log>);
 <ore:logAmberoot>.add(<aether:golden_oak_log>);
 
+#planks
+<ore:plankSkyroot>.add(<aether:skyroot_planks>);
+<ore:plankGreatroot>.add(<aether:dark_skyroot_planks>);
+<ore:plankWisproot>.add(<aether:light_skyroot_planks>);
+
+#saplings
 <ore:treeSapling>.add(<aether:unique_sapling:1>);
 <ore:treeSapling>.add(<aether:unique_sapling>);
 <ore:treeSapling>.add(<aether:greatroot_sapling:1>);

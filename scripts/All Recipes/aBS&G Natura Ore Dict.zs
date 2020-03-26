@@ -206,3 +206,18 @@ print("O-Natura");
 <ore:logBloodwood>.add(<natura:nether_logs2:0>);
 <ore:logBloodwood>.add(<natura:nether_logs2:15>);
 
+
+#--Planks--
+<ore:plankMapleNat>.add(<natura:overworld_planks:0>);
+<ore:plankSilverbell>.add(<natura:overworld_planks:1>);
+<ore:plankAmaranth>.add(<natura:overworld_planks:2>);
+<ore:plankTigerwood>.add(<natura:overworld_planks:3>);
+<ore:plankWillowNat>.add(<natura:overworld_planks:4>);
+<ore:plankEucalyptusNat>.add(<natura:overworld_planks:5>);
+<ore:plankHopseed>.add(<natura:overworld_planks:6>);
+<ore:plankSakura>.add(<natura:overworld_planks:7>);
+<ore:plankRedwoodNat>.add(<natura:overworld_planks:8>);
+<ore:plankGhostwood>.add(<natura:nether_planks:0>);
+<ore:plankDarkwood>.add(<natura:nether_planks:2>);
+<ore:plankFusewood>.add(<natura:nether_planks:3>);
+<ore:plankBloodwood>.add(<natura:nether_planks:1>);
