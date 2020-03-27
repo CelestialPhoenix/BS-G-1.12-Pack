@@ -28,8 +28,15 @@ print("Adrift in the skies");
 
 #planks
 <ore:plankSkyroot>.add(<aether:skyroot_planks>);
+<ore:plankTherawood>.add(<aether:therawood_planks>);
 <ore:plankGreatroot>.add(<aether:dark_skyroot_planks>);
 <ore:plankWisproot>.add(<aether:light_skyroot_planks>);
+
+#slabs
+<ore:slabSkyroot>.add(<aether:skyroot_slab>);
+<ore:slabTherawood>.add(<aether:therawood_slab>);
+<ore:slabGreatroot>.add(<aether:skyroot_slab>);
+<ore:slabWisproot>.add(<aether:wisproot_slab>);
 
 #saplings
 <ore:treeSapling>.add(<aether:unique_sapling:1>);

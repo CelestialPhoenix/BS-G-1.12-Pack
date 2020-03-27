@@ -278,6 +278,50 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustEndstone>.firstItem*1, <ore
 
 #---Fermenter---
 #mods.immersiveengineering.Fermenter.addRecipe(<minecraft:diamond>, <liquid:water>, <ore:logWood>, 2048);
+#Methane 448Rf/mB or 112Eu/mB
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:methane>*5, <minecraft:rotten_flesh>, 128);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <minecraft:porkchop>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <minecraft:cooked_porkchop>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*75, <minecraft:cooked_fish>, 2048);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <minecraft:beef>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <minecraft:cooked_beef>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <minecraft:chicken>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <minecraft:cooked_chicken>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <minecraft:rabbit>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <minecraft:cooked_rabbit>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <minecraft:mutton>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <minecraft:cooked_mutton>, 512);
+
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:methane>*25, <biomesoplenty:fleshchunk>, 512);
+
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:gator_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:horse_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:wolf_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:ovis_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:pigman_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:bear_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:llama_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*100, <primal:bat_meat_raw>, 4096);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:gator_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:horse_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:wolf_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:ovis_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:pigman_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:bear_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:llama_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*50, <primal:bat_meat_cooked>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:gator_meat_rotten>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:horse_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:wolf_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:ovis_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:pigman_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:bear_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:llama_meat_rotten>, 256);
+mods.immersiveengineering.Fermenter.addRecipe(<minecraft:rotten_flesh>, <liquid:methane>*25, <primal:bat_meat_rotten>, 256);
+
+mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol>*50, <ore:dustSugar>, 512);
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol>*50, <ore:sugarcane>, 512);
 
 #---Metal Press---
 #--removed recipes--

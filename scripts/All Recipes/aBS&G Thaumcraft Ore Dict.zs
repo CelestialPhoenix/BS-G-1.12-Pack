@@ -44,6 +44,7 @@ print("Ever wondered what the Liquid Death tastes like?");
 
 #Dusts
 <ore:dustSalisMundis>.add(<thaumcraft:salis_mundus>);
+
 #Logs
 <ore:logGreatwood>.add(<thaumcraft:log_greatwood>);
 <ore:logSilverwood>.add(<thaumcraft:log_silverwood>);
@@ -51,3 +52,11 @@ print("Ever wondered what the Liquid Death tastes like?");
 <ore:logWood>.add(<thaumcraft:taint_log:0>); #Axe Fix
 <ore:logWood>.add(<thaumcraft:taint_log:1>); #Axe Fix
 <ore:logWood>.add(<thaumcraft:taint_log:2>); #Axe Fix
+
+#Planks
+<ore:plankGreatwood>.add(<thaumcraft:plank_greatwood>);
+<ore:plankSilverwood>.add(<thaumcraft:plank_silverwood>);
+
+#slabs
+<ore:slabGreatwood>.add(<thaumcraft:slab_greatwood>);
+<ore:slabSilverwood>.add(<thaumcraft:slab_silverwood>);

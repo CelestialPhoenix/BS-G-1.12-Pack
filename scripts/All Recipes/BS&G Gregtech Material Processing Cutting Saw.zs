@@ -142,7 +142,6 @@ var longRods as string[] = [
 	"TinAlloy",
 	"Topaz",
 	"Ultimet",
-	"",
 	"WroughtIron",
 	"YttriumBariumCuprate",
 	"NetherQuartz",
@@ -184,6 +183,7 @@ var longRods as string[] = [
 	"PolyphenyleneSulfide",
 	"NickelZincFerrite",
 	"TungstenThoriumAlloy",
+	"Wood",
 	"PolyvinylChloride"];
 
 for input in longRods {
@@ -780,6 +780,338 @@ CuttingMachine
     .buildAndRegister();
 }
 
-#Wood Slabs
-#Wood 1/4 Slabs
-#Wood Slats
+#Wood Logs to Planks
+var woodLogsMain as string[] = [
+	"Oak",
+	"Spruce",
+	"Birch",
+	"Jungle",
+	"Acacia",
+	"DarkOak",
+	"DarklandOak",
+	"Dreadwood",
+	"SacredOak",
+	"CherryBoP",
+	"Umbran",
+	"Fir",
+	"Ethereal",
+	"Magic",
+	"Mangrove",
+	"PalmBoP",
+	"RedwoodBoP",
+	"WillowBoP",
+	"PineBoP",
+	"Hellbark",
+	"Jacaranda",
+	"MahoganyBoP",
+	"EbonyBoP",
+	"EucalyptusBoP",
+	"MapleNat",
+	"Silverbell",
+	"Amaranth",
+	"Tigerwood",
+	"WillowNat",
+	"EucalyptusNat",
+	"Hopseed",
+	"Sakura",
+	"RedwoodNat",
+	"Ghostwood",
+	"Darkwood",
+	"Fusewood",
+	"Bloodwood",
+	"Greatwood",
+	"Silverwood"];
+
+for input in woodLogsMain {
+	var logWood as IItemStack = oreDict["log"~input].firstItem;
+	var plankWood as IItemStack = oreDict["plank"~input].firstItem;
+
+CuttingMachine.findRecipe(8, [logWood], [<liquid:lubricant>*1]).remove();
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([logWood])
+	.fluidInputs(<liquid:air>*800)
+    .outputs([plankWood*8])
+    .outputs([<ore:dustWood>.firstItem*2])
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+var woodLogsOther as string[] = [
+	"Skyroot",
+	#"Amberoot",
+	"Wisproot",
+	"Therawood",
+	"Larch",
+	"Teak",
+	"DesertAcacia",
+	"Lime",
+	"Chestnut",
+	"Wenge",
+	"Baobob",
+	"Sequoia",
+	"Kapok",
+	"Ebony",
+	"Mahogany",
+	"Balsa",
+	"Willow",
+	"Walnut",
+	"Greenheart",
+	"Cherry",
+	"Mahoe",
+	"Poplar",
+	"Palm",
+	"Papaya",
+	"Pine",
+	"Plum",
+	"Maple",
+	"Citrus",
+	"GiantSequoia",
+	"Ipe",
+	"Padauk",
+	"Cocobolo",
+	"Zebrawood",
+	"FireproofLarch",
+	"FireproofTeak",
+	"FireproofDesertAcacia",
+	"FireproofLime",
+	"FireproofChestnut",
+	"FireproofWenge",
+	"FireproofBaobob",
+	"FireproofSequoia",
+	"FireproofKapok",
+	"FireproofEbony",
+	"FireproofMahogany",
+	"FireproofBalsa",
+	"FireproofWillow",
+	"FireproofWalnut",
+	"FireproofGreenheart",
+	"FireproofCherry",
+	"FireproofMahoe",
+	"FireproofPoplar",
+	"FireproofPalm",
+	"FireproofPapaya",
+	"FireproofPine",
+	"FireproofPlum",
+	"FireproofMaple",
+	"FireproofCitrus",
+	"FireproofGiantSequoia",
+	"FireproofIpe",
+	"FireproofPadauk",
+	"FireproofCocobolo",
+	"FireproofZebrawood",
+	"Ironwood",
+	"Yew",
+	"Corypha"];
+
+for input in woodLogsOther {
+	var logWood as IItemStack = oreDict["log"~input].firstItem;
+	var plankWood as IItemStack = oreDict["plank"~input].firstItem;
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([logWood])
+	.fluidInputs(<liquid:air>*800)
+    .outputs([plankWood*6])
+    .outputs([<ore:dustWood>.firstItem*2])
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+#Wood planks to Slabs
+var woodPlanksMain as string[] = [
+	"Oak",
+	"Spruce",
+	"Birch",
+	"Jungle",
+	"Acacia",
+	"DarkOak",
+	"DarklandOak",
+	"SacredOak",
+	"CherryBoP",
+	"Umbran",
+	"Fir",
+	"Ethereal",
+	"Magic",
+	"Mangrove",
+	"PalmBoP",
+	"RedwoodBoP",
+	"WillowBoP",
+	"PineBoP",
+	"Hellbark",
+	"Jacaranda",
+	"MahoganyBoP",
+	"EbonyBoP",
+	"EucalyptusBoP",
+	"MapleNat",
+	"Silverbell",
+	"Amaranth",
+	"Tigerwood",
+	"WillowNat",
+	"EucalyptusNat",
+	"Hopseed",
+	"Sakura",
+	"RedwoodNat",
+	"Ghostwood",
+	"Darkwood",
+	"Fusewood",
+	"Bloodwood",
+	"Greatwood",
+	"Silverwood"];
+
+for input in woodPlanksMain {
+	var plankWood as IItemStack = oreDict["plank"~input].firstItem;
+	var slabWood as IItemStack = oreDict["slab"~input].firstItem;
+
+CuttingMachine.findRecipe(8, [plankWood*3], [<liquid:water>*5]).remove();
+CuttingMachine.findRecipe(8, [plankWood*3], [<liquid:distilled_water>*3]).remove();
+CuttingMachine.findRecipe(8, [plankWood*3], [<liquid:lubricant>*1]).remove();
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([plankWood])
+	.fluidInputs(<liquid:air>*100)
+    .outputs([slabWood*2])
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+var woodPlanksOther as string[] = [
+	"Skyroot",
+	#"Amberoot",
+	"Wisproot",
+	"Therawood",
+	"Larch",
+	"Teak",
+	"DesertAcacia",
+	"Lime",
+	"Chestnut",
+	"Wenge",
+	"Baobob",
+	"Sequoia",
+	"Kapok",
+	"Ebony",
+	"Mahogany",
+	"Balsa",
+	"Willow",
+	"Walnut",
+	"Greenheart",
+	"Cherry",
+	"Mahoe",
+	"Poplar",
+	"Palm",
+	"Papaya",
+	"Pine",
+	"Plum",
+	"Maple",
+	"Citrus",
+	"GiantSequoia",
+	"Ipe",
+	"Padauk",
+	"Cocobolo",
+	"Zebrawood",
+	"FireproofLarch",
+	"FireproofTeak",
+	"FireproofDesertAcacia",
+	"FireproofLime",
+	"FireproofChestnut",
+	"FireproofWenge",
+	"FireproofBaobob",
+	"FireproofSequoia",
+	"FireproofKapok",
+	"FireproofEbony",
+	"FireproofMahogany",
+	"FireproofBalsa",
+	"FireproofWillow",
+	"FireproofWalnut",
+	"FireproofGreenheart",
+	"FireproofCherry",
+	"FireproofMahoe",
+	"FireproofPoplar",
+	"FireproofPalm",
+	"FireproofPapaya",
+	"FireproofPine",
+	"FireproofPlum",
+	"FireproofMaple",
+	"FireproofCitrus",
+	"FireproofGiantSequoia",
+	"FireproofIpe",
+	"FireproofPadauk",
+	"FireproofCocobolo",
+	"FireproofZebrawood",
+	"Ironwood",
+	"Yew",
+	"Corypha",
+	"White",
+	"Orange",
+	"Magenta",
+	"LightBlue",
+	"Yellow",
+	"LimeStained",
+	"Pink",
+	"Gray",
+	"LightGray",
+	"Cyan",
+	"Purple",
+	"Blue",
+	"Brown",
+	"Green",
+	"Red",
+	"Black"];
+
+for input in woodPlanksOther {
+	var plankWood as IItemStack = oreDict["plank"~input].firstItem;
+	var slabWood as IItemStack = oreDict["slab"~input].firstItem;
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([plankWood])
+	.fluidInputs(<liquid:air>*100)
+    .outputs([slabWood*2])
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+#Wood Slabs to Thin Slabs to Slats
+var woodSlabs as string[] = [
+	"Oak",
+	"Spruce",
+	"Birch",
+	"Jungle",
+	"Acacia",
+	"DarkOak",
+	"Ironwood",
+	"Yew",
+	"Corypha"
+	];
+
+for input in woodSlabs {
+	var slabWood as IItemStack = oreDict["slab"~input].firstItem;
+	var thinWood as IItemStack = oreDict["thin"~input].firstItem;
+	var slatWood as IItemStack = oreDict["slat"~input].firstItem;
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([slabWood])
+	.fluidInputs(<liquid:air>*100)
+    .outputs([thinWood*2])
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([thinWood])
+	.fluidInputs(<liquid:air>*100)
+    .outputs([slatWood*2])
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+#Stone/Rock Slabs

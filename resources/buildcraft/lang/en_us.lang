@@ -10,12 +10,12 @@ buildcraft.mj.flow.seconds.short=%s x10kRf/s
 
 item.PipePowerWood.name=Laser Insertion Conduit
 item.PipePowerCobblestone.name=Laser Transmission Conduit
-item.PipePowerStone.name=Stone Laser Transmission Conduit Mk2
+item.PipePowerStone.name=Laser Transmission Conduit Mk2
 item.PipePowerQuartz.name=Laser Transmission Conduit Mk3
 item.PipePowerIron.name=Laser Diversion Conduit
 item.PipePowerGold.name=Laser Transmission Conduit Mk4
 item.PipePowerDiamond.name=Laser Transmission Conduit Mk4
 item.PipePowerEmerald.name=Laser Insertion Conduit
-item.PipePowerSandstone.name=Laser Isolation Conduit
+item.PipePowerSandstone.name=Laser Bypass Conduit
 
 chat.pipe.power.iron.mode=Switched to %d 10kRf/t limit

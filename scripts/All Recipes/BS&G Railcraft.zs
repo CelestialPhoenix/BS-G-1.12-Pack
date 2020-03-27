@@ -53,12 +53,7 @@ recipes.remove(<railcraft:flux_transformer>);
 recipes.addShaped(<railcraft:flux_transformer>*4, [
 [<ore:tubeBronze>, <ore:plateSteel>, <ore:tubeBronze>],
 [<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>],
-[<ore:stickCopper>, <ore:plateSteel>, <ore:stickCopper>]]);
-
-recipes.addShaped(<railcraft:flux_transformer>*4, [
-[<ore:tubeBronze>, <ore:plateBronze>, <ore:tubeBronze>],
-[<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>],
-[<ore:stickCopper>, <ore:plateBronze>, <ore:stickCopper>]]);
+[<ore:stickCopper>, <ore:scaffoldingSteel>, <ore:stickCopper>]]);
 
 #Coke Oven
 recipes.remove(<railcraft:coke_oven>);
@@ -95,7 +90,7 @@ recipes.addShaped(<railcraft:equipment:1>, [
 #Water Tower
 recipes.remove(<railcraft:tank_water>);
 recipes.addShaped(<railcraft:tank_water>*6, [
-[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+[<ore:plankTreatedWood>, <ore:mechcompSteel>, <ore:plankTreatedWood>],
 [<ore:plateBronze>, <ore:slimeball>, <ore:plateBronze>],
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 

@@ -10,12 +10,6 @@ for item in loadedMods["chisel"].items {
   }
 }
 
-for item in loadedMods["unlimitedchiselworks"].items {
-  for ore in item.ores {
-    ore.remove(item);
-  }
-}
-
 /*
 #---Removing materials---
 #<ore:block>.remove(<chisel:block>);

@@ -240,12 +240,26 @@ recipes.addShaped(<meta_tile_entity:gregtech:coke_oven>, [
 recipes.remove(<meta_tile_entity:gregtech:coke_oven_hatch>);
 recipes.addShapeless(<meta_tile_entity:gregtech:coke_oven_hatch>, [<gregtech:metal_casing:8>, <ore:trapdoorWood>]);
 
-#primitive BF
+#Cracker Unit
+recipes.remove(<meta_tile_entity:gregtech:cracker>);
+recipes.addShaped(<meta_tile_entity:gregtech:cracker>, [
+[<ore:elementCupronickel>, <ore:pumpHV>, <ore:elementCupronickel>], 
+[<ore:circuitGood>, <ore:hullHV>, <ore:circuitGood>], 
+[<ore:elementCupronickel>, <ore:pumpHV>, <ore:elementCupronickel>]]);
+
+#Primitive BF
 recipes.remove(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>);
 recipes.addShaped(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>, [
 [<ore:brickInfernal>, <minecraft:furnace>, <ore:brickInfernal>], 
 [<ore:brickInfernal>, null, <ore:brickInfernal>], 
 [<ore:brickInfernal>, <minecraft:furnace>, <ore:brickInfernal>]]);
+
+#Refinary Tower (distillation_tower)
+recipes.remove(<meta_tile_entity:gregtech:distillation_tower>);
+recipes.addShaped(<meta_tile_entity:gregtech:distillation_tower>, [
+[<ore:elementKanthal>, <ore:pipeLargeStainlessSteel>, <ore:elementKanthal>], 
+[<ore:pumpHV>, <ore:hullHV>, <ore:pumpHV>], 
+[<ore:circuitExtreme>, <ore:pipeLargeStainlessSteel>, <ore:circuitExtreme>]]);
 
 #---single block machines---
 #--Alloy Smelter--
@@ -332,12 +346,6 @@ recipes.addShaped(<meta_tile_entity:gregtech:steam_boiler_coal_steel>, [
 [<ore:blockBrick>, <ore:hullSteel>, <ore:blockBrick>], 
 [<ore:blockBrick>, <ore:furnace>, <ore:blockBrick>]]);
 
-#--Distillation Tower--
-recipes.remove(<meta_tile_entity:gregtech:distillation_tower>);
-recipes.addShaped(<meta_tile_entity:gregtech:distillation_tower>, [
-[<ore:circuitExtreme>, <ore:pipeLargeStainlessSteel>, <ore:circuitExtreme>], 
-[<ore:pumpEV>, <ore:hullEV>, <ore:pumpEV>], 
-[<ore:circuitExtreme>, <ore:pipeLargeStainlessSteel>, <ore:circuitExtreme>]]);
 
 #--Extruder--
 #LV

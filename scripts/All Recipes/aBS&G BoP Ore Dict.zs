@@ -85,6 +85,24 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
 <ore:slabSandstone>.add(<biomesoplenty:other_slab:1>);
 
+#slabs
+<ore:slabSacredOak>.add(<biomesoplenty:wood_slab_0:0>);
+<ore:slabCherryBoP>.add(<biomesoplenty:wood_slab_0:1>);
+<ore:slabUmbran>.add(<biomesoplenty:wood_slab_0:2>);
+<ore:slabFir>.add(<biomesoplenty:wood_slab_0:3>);
+<ore:slabEthereal>.add(<biomesoplenty:wood_slab_0:4>);
+<ore:slabMagic>.add(<biomesoplenty:wood_slab_0:5>);
+<ore:slabMangrove>.add(<biomesoplenty:wood_slab_0:6>);
+<ore:slabPalmBoP>.add(<biomesoplenty:wood_slab_0:7>);
+<ore:slabRedwoodBoP>.add(<biomesoplenty:wood_slab_0:8>);
+<ore:slabWillowBoP>.add(<biomesoplenty:wood_slab_0:9>);
+<ore:slabPineBoP>.add(<biomesoplenty:wood_slab_0:10>);
+<ore:slabHellbark>.add(<biomesoplenty:wood_slab_0:11>);
+<ore:slabJacaranda>.add(<biomesoplenty:wood_slab_0:12>);
+<ore:slabMahoganyBoP>.add(<biomesoplenty:wood_slab_0:13>);
+<ore:slabEbonyBoP>.add(<biomesoplenty:wood_slab_0:14>);
+<ore:slabEucalyptusBoP>.add(<biomesoplenty:wood_slab_0:15>);
+
 #stickwood
 <ore:stickWood>.remove(<biomesoplenty:bamboo>);
 <ore:stickWood>.remove(<biomesoplenty:plant_1:5>);

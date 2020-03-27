@@ -103,6 +103,8 @@ print("Going Primal. Not unlike going commando");
 #-pelts-
 #<ore:pelt>.remove(<primal:pelt_>);
 
+#-planks-
+
 #-plates-
 #<ore:plate>.remove(<primal:_plate>);
 <ore:plateIron>.remove(<primal:iron_plate>);

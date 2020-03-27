@@ -52,6 +52,9 @@ print("I'm not evil I promise");
 #sand
 <ore:abyssalSand>.add(<abyssalcraft:abyssalsand>);
 
+#slabs
+<ore:slabDarklandOak>.add(<abyssalcraft:dltslab1>);
+
 #stones
 <ore:stoneAbyssalstone>.add(<abyssalcraft:stone:1>);
 <ore:cobblestoneAbyssal>.add(<abyssalcraft:cobblestone:1>);
