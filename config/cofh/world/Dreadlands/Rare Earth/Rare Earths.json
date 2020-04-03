@@ -34,26 +34,6 @@
 				  {  
                      "name":"abyssalcraft:stone",
                      "metadata":2
-                  },
-                  {  
-                     "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0
                   }
                ],
                "min-height":12,
@@ -85,26 +65,6 @@
 				  {  
                      "name":"abyssalcraft:stone",
                      "metadata":2
-                  },
-                  {  
-                     "name":"contenttweaker:dreadedobsidian",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianaluminium",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianbauxite",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianilmenite",
-                     "metadata":0
-                  },
-                  {  
-                     "name":"contenttweaker:oredreadedobsidianpsudobrookite",
-                     "metadata":0
                   }
                ],
                "min-height":12,

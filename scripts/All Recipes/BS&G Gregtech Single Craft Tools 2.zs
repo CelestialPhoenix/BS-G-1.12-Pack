@@ -8,6 +8,12 @@ print("Hello Boys- I'm Baaaaack!!!");
 #----Changed Recipes---
 
 #---Crowbar---
+recipes.remove(<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "uranium"}}));
+recipes.addShaped(<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "uranium"}}), [
+[null, <ore:dyeBlue>, <ore:stickUranium>],
+[<ore:dyeBlue>, <ore:stickUranium>, <ore:dyeBlue>],
+[<ore:stickUranium>, <ore:dyeBlue>, null]]);
+
 recipes.remove(<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "tungsten_carbide"}}));
 recipes.addShaped(<gregtech:meta_tool:10>.withTag({"GT.ToolStats": {Material: "tungsten_carbide"}}), [
 [null, <ore:dyeBlue>, <ore:stickTungstenCarbide>],

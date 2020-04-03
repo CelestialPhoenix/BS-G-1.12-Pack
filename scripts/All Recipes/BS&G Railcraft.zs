@@ -39,8 +39,25 @@ recipes.addShaped(<railcraft:boiler_firebox_fluid>*2, [
 [<ore:barsIron>, <ore:itemNozzle>, <ore:barsIron>],
 [<ore:plateThickSteel>, <ore:pipeSmallSteel>, <ore:plateThickSteel>]]);
 
-#---Machines---
 
+#---Compoents---
+#Batteries
+recipes.remove(<railcraft:battery_nickel_iron>);
+<railcraft:battery_nickel_iron>.addTooltip("This item is disabled");
+recipes.remove(<railcraft:battery_nickel_zinc>);
+<railcraft:battery_nickel_zinc>.addTooltip("This item is disabled");
+recipes.remove(<railcraft:battery_zinc_carbon>);
+<railcraft:battery_zinc_carbon>.addTooltip("This item is disabled");
+recipes.remove(<railcraft:battery_zinc_silver>);
+<railcraft:battery_zinc_silver>.addTooltip("This item is disabled");
+
+#Charge components
+recipes.remove(<railcraft:charge:*>);
+<railcraft:charge:*>.addTooltip("This item is disabled");
+
+
+
+#---Machines---
 #Charge Driver
 recipes.remove(<railcraft:flux_transformer>);
 <railcraft:flux_transformer>.addTooltip("Charge Driver");
@@ -80,17 +97,29 @@ recipes.remove(<railcraft:equipment:0>);
 #Rolling machine (powered) //Metalworker
 recipes.remove(<railcraft:equipment:1>);
 recipes.addShaped(<railcraft:equipment:1>, [
-[<ore:tubeIron>, <ore:piston>, <ore:tubeIron>],
+[<ore:tubeIron>, <ore:mechcompSteel>, <ore:tubeIron>],
 [<ore:gearSmallSteel>, <contenttweaker:rollers>, <ore:gearSmallSteel>],
 [<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>]]);
 <railcraft:equipment:1>.addTooltip("Can be powered directly off a charge driver");
 
 #Steam Turbine
+recipes.remove(<railcraft:steam_turbine>);
+<railcraft:steam_turbine>.clearTooltip();
+<railcraft:steam_turbine>.addTooltip("This item is disabled");
+
+recipes.remove(<railcraft:turbine_blade>);
+<railcraft:turbine_blade>.addTooltip("This item is disabled");
+
+recipes.remove(<railcraft:turbine_disk>);
+<railcraft:turbine_disk>.addTooltip("This item is disabled");
+
+recipes.remove(<railcraft:turbine_rotor>);
+<railcraft:turbine_rotor>.addTooltip("This item is disabled");
 
 #Water Tower
 recipes.remove(<railcraft:tank_water>);
 recipes.addShaped(<railcraft:tank_water>*6, [
-[<ore:plankTreatedWood>, <ore:mechcompSteel>, <ore:plankTreatedWood>],
+[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
 [<ore:plateBronze>, <ore:slimeball>, <ore:plateBronze>],
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
@@ -172,3 +201,14 @@ recipes.addShaped(<railcraft:tie:0>*2, [
 recipes.addShaped(<railcraft:tie:0>*1, [
 [null, <forestry:can:1>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}).transformReplace(<forestry:can>), null], 
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
+#---Trains---
+#Electric
+#recipes.removeShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}));
+recipes.addShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}), [
+[<minecraft:redstone_lamp>, <ore:plateBronze>, <ore:blockLever>],
+[<ore:motorLV>, <ore:plateThickSteel>, <ore:motorLV>],
+[<minecraft:minecart>, null, <minecraft:minecart>]]);
+
+
+

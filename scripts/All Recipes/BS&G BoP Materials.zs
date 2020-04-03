@@ -6,6 +6,21 @@ print("BoP ..Boop...BLeepBleepBoop - R2D2");
 #--Names--
 <biomesoplenty:plant_1:11>.displayName="Wild Wheat";
 
+#--Duplicate Materials
+#Mud
+furnace.remove(<biomesoplenty:mud_brick>);
+<biomesoplenty:mud_brick>.addTooltip("This item is disabled.");
+<biomesoplenty:mudball>.addTooltip("This item is disabled.");
+
+recipes.remove(<biomesoplenty:mud_brick_block>);
+recipes.addShaped(<biomesoplenty:mud_brick_block>,[
+[<ore:brickMud>, <ore:brickMud>],
+[<ore:brickMud>, <ore:brickMud>]]);
+
+recipes.addShaped(<biomesoplenty:mud>,[
+[<ore:ballmud>, <ore:ballmud>],
+[<ore:ballmud>, <ore:ballmud>]]);
+
 #---Tweaked Recipes---
 #-Gemstones-
 #Amethyst

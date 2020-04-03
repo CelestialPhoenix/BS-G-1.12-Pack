@@ -42,8 +42,8 @@ recipes.addShaped(<metaitem:tool.universal_spade>.withTag({"GT.ToolStats": {Mate
 [<ore:toolHeadUniversalSpadeCobalt>],
 [<ore:stickWood>]]);
 
-recipes.remove(<metaitem:tool.screwdriver>.withTag({"GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.screwdriver>.withTag({"GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+recipes.remove(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
 [null, <ore:stickCobalt>],
 [<ore:stickWood>, null]]);
 
@@ -59,8 +59,8 @@ recipes.addShaped(<metaitem:tool.crowbar>.withTag({"GT.ToolStats": {Material: "c
 [<ore:dyeBlue>, <ore:stickCobalt>, <ore:dyeBlue>],
 [<ore:stickCobalt>, <ore:dyeBlue>, null]]);
 
-recipes.remove(<metaitem:tool.wrench>.withTag({"GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench>.withTag({"GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+recipes.remove(<gregtech:meta_tool:8>.withTag({"GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:8>.withTag({"GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
 [<ore:plateCobalt>, null, <ore:plateCobalt>],
 [<ore:plateCobalt>, <ore:plateCobalt>, <ore:plateCobalt>],
 [null, <ore:plateCobalt>, null]]);
@@ -75,307 +75,307 @@ recipes.addShaped(<metaitem:tool.wire_cutter>.withTag({"GT.ToolStats": {Material
 recipes.removeByRecipeName("gregtech:tool.chainsaw.lv_cobalt_unit");
 recipes.remove(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.sodium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 80000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.lithium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 100000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.cadmium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 120000 as long}), null]]);
 
 #-Chainsaw MV-
 recipes.removeByRecipeName("gregtech:tool.chainsaw.mv_cobalt_unit");
 recipes.remove(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.sodium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 360000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.lithium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 400000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.cadmium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 420000 as long}), null]]);
 
 #-Chainsaw HV-
 recipes.removeByRecipeName("gregtech:tool.chainsaw.hv_cobalt_unit");
 recipes.remove(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.sodium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<metaitem:power_unit.hv>.withTag({MaxCharge: 1200000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.remove(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt"}}), <metaitem:power_unit.hv>.withTag({MaxCharge: 1600000 as long}));
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.lithium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1600000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.cadmium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.chainsaw.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadChainsawCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadChainsawCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1800000 as long}), null]]);
 
 #-Drill LV-
 recipes.removeByRecipeName("gregtech:tool.drill.lv_cobalt_unit");
 recipes.remove(<metaitem:tool.drill.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.sodium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 80000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.lithium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 100000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwStainlessSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.cadmium>, <ore:plateStainlessSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<metaitem:power_unit.lv>.withTag({MaxCharge: 120000 as long}), null]]);
 
 #-Drill MV-
 recipes.removeByRecipeName("gregtech:tool.drill.hv_cobalt_unit");
 recipes.remove(<metaitem:tool.drill.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.sodium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 360000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.lithium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 400000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTitanium>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.cadmium>, <ore:plateTitanium>]]);
 
 recipes.addShaped(<metaitem:tool.drill.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 420000 as long}), null]]);
 
 #-Drill HV-
 recipes.removeByRecipeName("gregtech:tool.drill.hv_cobalt_unit");
 recipes.remove(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.sodium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1200000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.lithium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1600000 as long}), null]]);
 
 
 recipes.remove(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt"}}));
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<ore:screwTungstenSteel>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.cadmium>, <ore:plateTungstenSteel>]]);
 
 recipes.addShaped(<metaitem:tool.drill.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadDrillCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadDrillCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1800000 as long}), null]]);
 
 #-Wrench LV-
 recipes.removeByRecipeName("gregtech:wrench.lv_cobalt_unit");
-recipes.remove(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:29>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.sodium>, <ore:plateStainlessSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 80000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 80000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:29>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.lithium>, <ore:plateStainlessSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 100000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 100000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:29>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwStainlessSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallStainlessSteel>, <ore:motorLV>, <ore:gearSmallStainlessSteel>],
 [<ore:plateStainlessSteel>, <metaitem:battery.re.lv.cadmium>, <ore:plateStainlessSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.lv>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:29>.withTag({MaxCharge: 120000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.lv>.withTag({MaxCharge: 120000 as long}), null]]);
 
 #-Wrench MV-
 recipes.removeByRecipeName("gregtech:wrench.mv_cobalt_unit");
-recipes.remove(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:30>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.sodium>, <ore:plateTitanium>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 360000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 360000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:30>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.lithium>, <ore:plateTitanium>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 400000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 400000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:30>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTitanium>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTitanium>, <ore:motorMV>, <ore:gearSmallTitanium>],
 [<ore:plateTitanium>, <metaitem:battery.re.mv.cadmium>, <ore:plateTitanium>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.mv>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:30>.withTag({MaxCharge: 420000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.mv>.withTag({MaxCharge: 420000 as long}), null]]);
 
 #-Wrench HV-
 recipes.removeByRecipeName("gregtech:wrench.hv_cobalt_unit");
-recipes.remove(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:31>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.sodium>, <ore:plateTungstenSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1200000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1200000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:31>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.lithium>, <ore:plateTungstenSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1600000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1600000 as long}), null]]);
 
 
-recipes.remove(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt"}}));
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.remove(<gregtech:meta_tool:31>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt"}}));
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<ore:screwTungstenSteel>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [<ore:gearSmallTungstenSteel>, <ore:motorHV>, <ore:gearSmallTungstenSteel>],
 [<ore:plateTungstenSteel>, <metaitem:battery.re.hv.cadmium>, <ore:plateTungstenSteel>]]);
 
-recipes.addShaped(<metaitem:tool.wrench.hv>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
-[<metaitem:tool.wrench>|<metaitem:tool.wrench.lv>|<metaitem:tool.wrench.mv>|<metaitem:tool.wrench.hv>, <ore:toolHeadWrenchCobalt>, <metaitem:tool.screwdriver>|<metaitem:tool.screwdriver.lv>],
+recipes.addShaped(<gregtech:meta_tool:31>.withTag({MaxCharge: 1800000 as long, "GT.ToolStats": {Material: "cobalt", HarvestLevel: 3}}), [
+[<gregtech:meta_tool:8>|<gregtech:meta_tool:29>|<gregtech:meta_tool:30>|<gregtech:meta_tool:31>, <ore:toolHeadWrenchCobalt>, <gregtech:meta_tool:11>|<gregtech:meta_tool:34>],
 [null, <metaitem:power_unit.hv>.withTag({MaxCharge: 1800000 as long}), null]]);
 
 

@@ -472,52 +472,52 @@ recipes.addShapedMirrored(<contenttweaker:rodwax>*3, [
 #--Molds--
 recipes.addShaped(<contenttweaker:moldrods>, [
 [null, null, null],
-[<metaitem:tool.hammer>, null, null], 
+[<gregtech:meta_tool:6>, null, null], 
 [<metaitem:shape.empty>, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadhoe>, [
 [null, null, null],
 [null, null, null], 
-[<metaitem:tool.hammer>, null, <metaitem:shape.empty>]]);
+[<gregtech:meta_tool:6>, null, <metaitem:shape.empty>]]);
 
 recipes.addShaped(<contenttweaker:moldheadpickaxe>, [
 [null, null, <metaitem:shape.empty>],
 [null, null, null], 
-[null, <metaitem:tool.hammer>, null]]);
+[null, <gregtech:meta_tool:6>, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadaxe>, [
 [null, null, <metaitem:shape.empty>],
-[<metaitem:tool.hammer>, null, null], 
+[<gregtech:meta_tool:6>, null, null], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadshovel>, [
 [null, null, <metaitem:shape.empty>],
 [null, null, null], 
-[<metaitem:tool.hammer>, null, null]]);
+[<gregtech:meta_tool:6>, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheaduniversalspade>, [
 [null, null, null],
-[<metaitem:shape.empty>, null, <metaitem:tool.hammer>], 
+[<metaitem:shape.empty>, null, <gregtech:meta_tool:6>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadsword>, [
-[<metaitem:tool.hammer>, null, null],
+[<gregtech:meta_tool:6>, null, null],
 [null, null, null], 
 [null, null, <metaitem:shape.empty>]]);
 
 recipes.addShaped(<contenttweaker:moldrings>, [
-[null, <metaitem:shape.empty>, <metaitem:tool.hammer>],
+[null, <metaitem:shape.empty>, <gregtech:meta_tool:6>],
 [null, null, null], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadsense>, [
 [null, null, null],
-[<metaitem:tool.hammer>, null, <metaitem:shape.empty>], 
+[<gregtech:meta_tool:6>, null, <metaitem:shape.empty>], 
 [null, null, null]]);
 
 recipes.addShaped(<contenttweaker:moldheadhammer>, [
 [null, null, null],
-[<metaitem:tool.hammer>, null, null], 
+[<gregtech:meta_tool:6>, null, null], 
 [null, null, <metaitem:shape.empty>]]);
 
 #--Plants--

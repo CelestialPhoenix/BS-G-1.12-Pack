@@ -25,6 +25,9 @@ recipes.addShaped(<tconstruct:soil:0>,[
 [<contenttweaker:claygrout>, <contenttweaker:claygrout>],
 [<contenttweaker:claygrout>, <contenttweaker:claygrout>]]);
 
+#Mud brick
+recipes.remove(<tconstruct:deco_ground>);
+
 #Seared Brick
 furnace.remove(<tconstruct:materials>);
 furnace.addRecipe(<tconstruct:materials> , <contenttweaker:claygrout>, 0.0);

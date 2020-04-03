@@ -139,7 +139,7 @@ PyroOven
 
 #Heavy Oil
 PyroOven.findRecipe(192, [<ore:logWood>.firstItem*16, <metaitem:circuit.integrated>.withTag({Configuration: 2})], null).remove();
-PyroOven
+/*PyroOven
     .recipeBuilder()
     .inputs(<ore:logWood>.firstItem*16)
     .outputs(<ore:dustAsh>.firstItem*4)
@@ -158,7 +158,7 @@ PyroOven
 	.property("circuit", 1)
     .duration(210)
     .EUt(384)
-    .buildAndRegister();
+    .buildAndRegister();*/
 
 #---Charcoal---
 #--Remove old charcoal recipes--
@@ -4360,7 +4360,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
     .inputs(<ore:logCorypha>.firstItem*16)
-    .outputs(<ore:gemCharcoal>.firstItem*30)
+    .outputs(<ore:gemCharcoal>.firstItem*27)
 	.fluidOutputs([<liquid:creosote>*4800])
 	.property("circuit", 0)
     .duration(440)
@@ -4370,7 +4370,7 @@ PyroOven
 PyroOven
     .recipeBuilder()
     .inputs(<ore:logCorypha>.firstItem*16)
-    .outputs(<ore:gemCharcoal>.firstItem*30)
+    .outputs(<ore:gemCharcoal>.firstItem*27)
 	.fluidOutputs([<liquid:charcoal_byproducts>*4800])
 	.property("circuit", 1)
     .duration(440)

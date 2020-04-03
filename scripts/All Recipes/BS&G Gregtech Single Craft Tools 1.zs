@@ -59,6 +59,12 @@ recipes.addShapedMirrored(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {MaxDu
 
 #----Changed Recipes---
 #-Plunger- <gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "blue_steel"}})
+recipes.remove(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "uranium"}}));
+recipes.addShapedMirrored(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "uranium"}}), [
+[null, <ore:plateRubber>, <ore:plateRubber>],
+[null, <ore:stickUranium>, <ore:plateRubber>],
+[<ore:stickUranium>, null, null]]);
+
 recipes.remove(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "bismuth_bronze"}}));
 recipes.addShapedMirrored(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "bismuth_bronze"}}), [
 [null, <ore:plateRubber>, <ore:plateRubber>],
@@ -364,6 +370,12 @@ recipes.remove(<gregtech:meta_tool:36>.withTag({"GT.ToolStats": {Material: "darm
 recipes.addShapeless(<gregtech:meta_tool:36>.withTag({"GT.ToolStats": {Material: "steel"}}), [<ore:stickSteel>, <ore:stickSteel>, <ore:blockGlass>]);
 
 #---Butcher Knife--- 
+recipes.remove(<gregtech:meta_tool:18>.withTag({ench: [{lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {Material: "uranium"}}));
+recipes.addShapedMirrored(<gregtech:meta_tool:18>.withTag({ench: [{lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {Material: "uranium"}}), [
+[<ore:plateUranium>, <ore:plateUranium>],
+[<ore:plateUranium>, <ore:plateUranium>],
+[<ore:stickUranium>, null]]);
+
 recipes.remove(<gregtech:meta_tool:18>.withTag({ench: [{lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {Material: "black_bronze"}}));
 recipes.addShapedMirrored(<gregtech:meta_tool:18>.withTag({ench: [{lvl: 3 as short, id: 21 as short}], "GT.ToolStats": {Material: "black_bronze"}}), [
 [<ore:plateBlackBronze>, <ore:plateBlackBronze>],
@@ -671,6 +683,12 @@ recipes.addShapedMirrored(<gregtech:meta_tool:18>.withTag({ench: [{lvl: 3 as sho
 [<ore:stickRedSteel>, null]]);
 
 #---Scoop---
+recipes.remove(<gregtech:meta_tool:14>.withTag({"GT.ToolStats": {Material: "uranium"}}));
+recipes.addShaped(<gregtech:meta_tool:14>.withTag({"GT.ToolStats": {Material: "uranium"}}), [
+[<ore:stickUranium>, <ore:blockWool>, <ore:stickUranium>],
+[<ore:stickUranium>, <ore:stickUranium>, <ore:stickUranium>],
+[null, <ore:stickUranium>, null]]);
+
 recipes.remove(<gregtech:meta_tool:14>.withTag({"GT.ToolStats": {Material: "black_bronze"}}));
 recipes.addShaped(<gregtech:meta_tool:14>.withTag({"GT.ToolStats": {Material: "black_bronze"}}), [
 [<ore:stickBlackBronze>, <ore:blockWool>, <ore:stickBlackBronze>],
@@ -1219,6 +1237,11 @@ recipes.addShaped(<gregtech:meta_tool:13>.withTag({"GT.ToolStats": {Material: "h
 [<ore:stickHsss>, <ore:screwHsss>, <ore:stickHsss>]]);
 
 #---Screwdriver---
+recipes.remove(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "uranium"}}));
+recipes.addShaped(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "uranium"}}), [
+[null, <ore:stickUranium>],
+[<ore:stickWood>, null]]);
+
 recipes.remove(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "naquadah_alloy"}}));
 recipes.addShaped(<gregtech:meta_tool:11>.withTag({"GT.ToolStats": {Material: "naquadah_alloy"}}), [
 [null, <ore:stickNaquadahAlloy>],

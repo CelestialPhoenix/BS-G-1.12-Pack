@@ -460,6 +460,8 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Misc---
 <ore:string>.add(<contenttweaker:hempstring>);
+<ore:biomassShredded>.add(<contenttweaker:shredded_biomass>);
+<ore:biochaff>.add(<contenttweaker:shredded_biomass>);
 
 #---Motors---
 #<ore:motor>.add(<contenttweaker:motor>);

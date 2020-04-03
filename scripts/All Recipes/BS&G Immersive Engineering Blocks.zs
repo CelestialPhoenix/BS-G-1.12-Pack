@@ -165,7 +165,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:4>*2, [
 
 #---Fluid Pipe---
 recipes.removeShaped(<immersiveengineering:metal_device1:6>);
-recipes.addShaped(<immersiveengineering:metal_device1:6>*4, [
+recipes.addShaped(<immersiveengineering:metal_device1:6>*6, [
 [<ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>],
 [null, null, null], 
 [<ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>, <ore:plateThickStainlessSteel>]]);
@@ -190,6 +190,10 @@ recipes.addShaped(<immersiveengineering:wooden_device0:4>, [
 [<ore:dustGunpowder>, <immersiveengineering:wooden_device0:1>, <ore:dustGunpowder>], 
 [<ore:dustGunpowder>, <ore:dustGunpowder>, <ore:dustGunpowder>]]);
 <immersiveengineering:wooden_device0:4>.addTooltip("A simple explosive");
+
+#---Insulating Glass---
+recipes.removeShaped(<immersiveengineering:stone_decoration:8>);
+#Recipe in Gtech blast furnace
 
 #---Metal Ladder---
 recipes.removeShaped(<immersiveengineering:metal_ladder>);

@@ -16,3 +16,7 @@ HempLeaf.register();
 
 var HempString = VanillaFactory.createItem("hempstring");
 HempString.register();
+
+
+var ShreddedBiomass = VanillaFactory.createItem("shredded_biomass");
+ShreddedBiomass.register();

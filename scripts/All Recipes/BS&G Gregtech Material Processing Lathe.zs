@@ -5,10 +5,30 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#---Compressor---
 val lathe as RecipeMap = RecipeMap.getByName("lathe");
-#--Bricks--
-#Contenttweaker
+
+#---Connectors (ImEng Insulators/Terminals)
+lathe
+    .recipeBuilder()
+    .inputs(<ore:plankTreatedWood>.firstItem)
+    .outputs(<immersiveengineering:connector:1>, <ore:dustSmallWood>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+lathe
+    .recipeBuilder()
+    .inputs(<ore:hardenedClay>.firstItem)
+    .outputs(<immersiveengineering:connector:3>, <ore:dustSmallClay>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+lathe
+    .recipeBuilder()
+    .inputs(<ore:glassInsulating>.firstItem)
+    .outputs(<immersiveengineering:connector:5>, <ore:dustSmallGlass>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
 
 #---Additional Lens Recipes---
 lathe

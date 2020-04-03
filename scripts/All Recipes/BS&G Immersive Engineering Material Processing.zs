@@ -64,8 +64,8 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotMagnalium>.firstItem*
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotMagnalium>.firstItem*4, <ore:ingotMagnesium>, <ore:dustAluminium>*2, 300);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotMagnalium>.firstItem*4, <ore:dustMagnesium>, <ore:dustAluminium>*2, 260);
 #redalloy
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*4, <ore:ingotCopper>, <ore:dustRedstone>*3, 200);
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*4, <ore:dustCopper>, <ore:dustRedstone>*3, 180);
+mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*5, <ore:ingotCopper>, <ore:dustRedstone>*4, 240);
+mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRedAlloy>.firstItem*5, <ore:dustCopper>, <ore:dustRedstone>*4, 220);
 #rose gold
 #mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:ingotGold>*4, <ore:ingotCopper>, 440);
 #mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotRoseGold>.firstItem*5, <ore:dustGold>*4, <ore:ingotCopper>, 400);
@@ -605,12 +605,12 @@ mods.immersiveengineering.MetalPress.addRecipe(rolledMetal, plateMetal, <content
 #mods.immersiveengineering.Mixer.addRecipe(<liquid:lava>, <liquid:water>, [<ore:logWood>, <minecraft:dirt>], 2048);
 
 #Biomass
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*180, <liquid:water>*180, [<ore:biochaff>], 2048);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*220, <liquid:water>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:juice>*180, [<ore:biochaff>], 2048);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:juice>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:honey>*180, [<ore:biochaff>], 2048);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:honey>*220, [<ore:biochaff>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*180, <liquid:water>*180, [<ore:biomassShredded>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*220, <liquid:water>*220, [<ore:biomassShredded>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:juice>*180, [<ore:biomassShredded>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:juice>*220, [<ore:biomassShredded>, <ore:dustWood>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*270, <liquid:honey>*180, [<ore:biomassShredded>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*330, <liquid:honey>*220, [<ore:biomassShredded>, <ore:dustWood>], 2048);
 
 mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*160, <liquid:water>*160, [<ore:plantball>], 2048);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*200, <liquid:water>*200, [<ore:plantball>, <ore:dustWood>], 2048);

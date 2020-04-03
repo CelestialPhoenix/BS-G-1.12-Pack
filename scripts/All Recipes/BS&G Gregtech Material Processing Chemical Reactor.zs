@@ -29,7 +29,7 @@ var phialPraemunio = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "
 #Nanoprocessor (Moved to BC assembly table)
 ChemReactor.findRecipe(480, [<metaitem:carbon.fibers>*16, <metaitem:wafer.central_processing_unit>], [<liquid:glowstone>*576]).remove();
 
-#---Alechemical Stuff---
+#---Alchemical Stuff---
 #-Air Processing-
 #Compressed Air
 ChemReactor
@@ -148,6 +148,16 @@ ChemReactor
     .buildAndRegister();
 
 #---PetroChem---
+#Ethanol/Sulphiric acid fix
+ChemReactor.findRecipe(120, [null], [<liquid:ethanol>*1000,<liquid:sulfuric_acid>*1000]).remove();
+/*ChemReactor
+    .recipeBuilder()
+    .fluidInputs(<liquid:ethanol>*1000, <liquid:sulfuric_acid>*1000)
+	.fluidOutputs([<liquid:ethylene>*1000, <liquid:dilute_sulfuric_acid>*1000])
+    .duration(600)
+    .EUt(480)
+    .buildAndRegister();*/
+
 #-De-sulphuring raw fuels/oils--
 #Gas
 ChemReactor.findRecipe(30, [null], [<liquid:hydrogen>*2000,<liquid:natural_gas>*16000]).remove();

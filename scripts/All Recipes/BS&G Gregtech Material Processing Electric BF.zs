@@ -58,16 +58,6 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:dustTinyLead>.firstItem*3, <ore:dustTinyPlatinum>.firstItem, <ore:dustEnderPearl>.firstItem)
-	.fluidInputs([<liquid:argon> * 1000])
-    .outputs(<ore:ingotHotEnderium>.firstItem)
-	.property("temperature", 4500)
-    .duration(3500)
-    .EUt(480)
-    .buildAndRegister();
-
 #Lumium
 electricBF.findRecipe(120, [<ore:dustLumium>.firstItem], null).remove();
 electricBF
@@ -78,16 +68,6 @@ electricBF
 	.property("temperature", 4500)
     .duration(7000)
     .EUt(120)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:dustTinyTin>.firstItem*3, <ore:dustTinySilver>.firstItem, <ore:dustGlowstone>.firstItem)
-	.fluidInputs([<liquid:argon> * 1000])
-    .outputs(<ore:ingotHotLumium>.firstItem)
-	.property("temperature", 4500)
-    .duration(3500)
-    .EUt(480)
     .buildAndRegister();
 
 #Signalum
@@ -102,16 +82,6 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:dustTinyCopper>.firstItem*3, <ore:dustTinyGold>.firstItem, <ore:dustRedstone>.firstItem)
-	.fluidInputs([<liquid:argon> * 1000])
-    .outputs(<ore:ingotHotSignalum>.firstItem)
-	.property("temperature", 4500)
-    .duration(3500)
-    .EUt(480)
-    .buildAndRegister();
-
 #Terrasteel
 electricBF.findRecipe(120, [<ore:dustTerrasteel>.firstItem], null).remove();
 #Ingot made in Terrasteel Agglomeration Plate in Botania Materials Processing.zs
@@ -124,177 +94,9 @@ electricBF.findRecipe(120, [<ore:dustTerrasteel>.firstItem], null).remove();
 #4x processing speed, 4x power draw
 
 #-Alloying-
-############################
-/*
-#
-electricBF.findRecipe(480, [<ore:ingot>.firstItem, <ore:ingot>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingot>.firstItem, <ore:ingot>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 1500])
-    .outputs(<ore:ingotHot>.firstItem, <ore:dustSmallDarkAsh>.firstItem)
-	.property("temperature", 3000)
-    .duration(750)
-    .EUt(1920)
-    .buildAndRegister();
+#This is NOT an alloy smelter. Use a mixer noob!
 
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingot>.firstItem, <ore:ingot>.firstItem)
-    .outputs(<ore:ingotHot>.firstItem, <ore:dustSmallDarkAsh>.firstItem)
-	.property("temperature", 3000)
-    .duration(3000)
-    .EUt(480)
-    .buildAndRegister();
-
-*/
-#######################
-#Invar
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotIron>.firstItem*2, <ore:ingotNickel>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 1500])
-    .outputs(<ore:ingotInvar>.firstItem*3)
-	.property("temperature", 1000)
-    .duration(75)
-    .EUt(480)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotIron>.firstItem*2, <ore:ingotNickel>.firstItem)
-    .outputs(<ore:ingotInvar>.firstItem*3)
-	.property("temperature", 1000)
-    .duration(300)
-    .EUt(120)
-    .buildAndRegister();
-
-#TungstenSteel
-electricBF.findRecipe(480, [<ore:ingotTungsten>.firstItem, <ore:ingotSteel>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotTungsten>.firstItem, <ore:ingotSteel>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 1500])
-    .outputs(<ore:ingotHotTungstenSteel>.firstItem*2)
-	.property("temperature", 3000)
-    .duration(750)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotTungsten>.firstItem, <ore:ingotSteel>.firstItem)
-    .outputs(<ore:ingotHotTungstenSteel>.firstItem*2)
-	.property("temperature", 3000)
-    .duration(3000)
-    .EUt(480)
-    .buildAndRegister();
-
-#TungstenCarbide
-electricBF.findRecipe(480, [<ore:ingotTungsten>.firstItem, <ore:dustCarbon>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotTungsten>.firstItem, <ore:dustCarbon>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 2500])
-    .outputs(<ore:ingotHotTungstenCarbide>.firstItem*2)
-	.property("temperature", 2460)
-    .duration(1250)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotTungsten>.firstItem, <ore:dustCarbon>.firstItem)
-    .outputs(<ore:ingotHotTungstenCarbide>.firstItem)
-	.property("temperature", 2460)
-    .duration(5000)
-    .EUt(480)
-    .buildAndRegister();
-
-#VanadiumGallium
-electricBF.findRecipe(480, [<ore:ingotVanadium>.firstItem*3, <ore:ingotGallium>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotVanadium>.firstItem*3, <ore:ingotGallium>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 2250])
-    .outputs(<ore:ingotHotVanadiumGallium>.firstItem*4)
-	.property("temperature", 4500)
-    .duration(1125)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotVanadium>.firstItem*3, <ore:ingotGallium>.firstItem)
-    .outputs(<ore:ingotHotVanadiumGallium>.firstItem*4)
-	.property("temperature", 4500)
-    .duration(4500)
-    .EUt(480)
-    .buildAndRegister();
-
-#NiobiumTitanium
-electricBF.findRecipe(480, [<ore:ingotNiobium>.firstItem, <ore:ingotTitanium>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotNiobium>.firstItem, <ore:ingotTitanium>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 2250])
-    .outputs(<ore:ingotHotNiobiumTitanium>.firstItem*2)
-	.property("temperature", 4500)
-    .duration(1125)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotNiobium>.firstItem, <ore:ingotTitanium>.firstItem)
-    .outputs(<ore:ingotHotNiobiumTitanium>.firstItem*2)
-	.property("temperature", 4500)
-    .duration(4500)
-    .EUt(480)
-    .buildAndRegister();
-
-#Nichrome
-electricBF.findRecipe(480, [<ore:ingotNickel>.firstItem*4, <ore:ingotChrome>.firstItem], null).remove();
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotNickel>.firstItem*4, <ore:ingotChrome>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 1875])
-    .outputs(<ore:ingotHotNichrome>.firstItem*5)
-	.property("temperature", 2700)
-    .duration(940)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotNickel>.firstItem*4, <ore:ingotChrome>.firstItem)
-    .outputs(<ore:ingotHotNichrome>.firstItem*5)
-	.property("temperature", 2700)
-    .duration(3750)
-    .EUt(480)
-    .buildAndRegister();
-
-#Kanthal
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotIron>.firstItem, <ore:ingotAluminium>.firstItem, <ore:ingotChrome>.firstItem)
-	.fluidInputs([<liquid:pyrotheum> * 600])
-    .outputs(<ore:ingotHotKanthal>.firstItem*3)
-	.property("temperature", 1800)
-    .duration(300)
-    .EUt(1920)
-    .buildAndRegister();
-
-electricBF
-    .recipeBuilder()
-    .inputs(<ore:ingotIron>.firstItem, <ore:ingotAluminium>.firstItem, <ore:ingotChrome>.firstItem)
-    .outputs(<ore:ingotHotKanthal>.firstItem*3)
-	.property("temperature", 1800)
-    .duration(1200)
-    .EUt(480)
-    .buildAndRegister();
-
-#-Misc-
+#-Misc Metals-
 #Annealed Copper
 electricBF.findRecipe(480, [<ore:ingotCopper>.firstItem], [<liquid:oxygen>*1000]).remove();
 electricBF
@@ -421,7 +223,42 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
-#-Dusts-
+#-Misc non-metals-
+#Insulating Glass
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustGlass>.firstItem*32)
+    .outputs(<immersiveengineering:stone_decoration:8>)
+	.property("temperature", 1300)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:gemGlass>.firstItem*24)
+    .outputs(<immersiveengineering:stone_decoration:8>)
+	.property("temperature", 1300)
+    .duration(700)
+    .EUt(120)
+    .buildAndRegister();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:gemFlawlessGlass>.firstItem*12)
+    .outputs(<immersiveengineering:stone_decoration:8>)
+	.property("temperature", 1300)
+    .duration(600)
+    .EUt(120)
+    .buildAndRegister();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:gemExquisiteGlass>.firstItem*6)
+    .outputs(<immersiveengineering:stone_decoration:8>)
+	.property("temperature", 1300)
+    .duration(600)
+    .EUt(120)
+    .buildAndRegister();
+
+#---Dusts---
 
 /*#######################
 #XXXXXX
@@ -450,7 +287,7 @@ electricBF
     .recipeBuilder()
     .inputs(<ore:dustInvar>.firstItem)
 	.fluidInputs([<liquid:pyrotheum> * 250])
-    .outputs(<ore:ingotHotInvar>.firstItem)
+    .outputs(<ore:ingotInvar>.firstItem)
 	.property("temperature", 1000)
     .duration(125)
     .EUt(480)
@@ -459,7 +296,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustInvar>.firstItem)
-    .outputs(<ore:ingoInvar>.firstItem)
+    .outputs(<ore:ingotInvar>.firstItem)
 	.property("temperature", 1000)
     .duration(500)
     .EUt(120)
@@ -1608,7 +1445,7 @@ electricBF
     .recipeBuilder()
     .inputs(<ore:dustGalliumArsenide>.firstItem)
 	.fluidInputs([<liquid:pyrotheum> * 850])
-    .outputs(<ore:ingotHotGalliumArsenide>.firstItem)
+    .outputs(<ore:ingotGalliumArsenide>.firstItem)
 	.property("temperature", 1200)
     .duration(425)
     .EUt(480)
@@ -1617,7 +1454,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustGalliumArsenide>.firstItem)
-    .outputs(<ore:ingotHotGalliumArsenide>.firstItem)
+    .outputs(<ore:ingotGalliumArsenide>.firstItem)
 	.property("temperature", 1200)
     .duration(1700)
     .EUt(120)

@@ -41,6 +41,8 @@ recipes.addShapeless(<ore:dustHsss>.firstItem*6, [<ore:dustHssg>, <ore:dustHssg>
 recipes.removeShapeless(<ore:dustKanthal>.firstItem);
 recipes.addShapeless(<ore:dustKanthal>.firstItem*2, [<ore:dustAluminium>, <ore:dustIron>, <ore:dustChrome>]);
 
+recipes.addShapeless(<ore:dustInvar>.firstItem*2, [<ore:dustIron>, <ore:dustIron>, <ore:dustNickel>]);
+
 recipes.addShapeless(<ore:dustNaquadahAlloy>.firstItem*3, [<ore:dustNaquadah>, <ore:dustIridium>*3, <ore:dustOsmium>]);
 
 recipes.addShapeless(<ore:dustNaquadahAlloy>.firstItem*3, [<ore:dustNaquadah>, <ore:dustOsmiridium>*4]);
@@ -965,6 +967,7 @@ recipes.addShapeless(<ore:screwPolyvinylChloride>.firstItem*4, [<ore:boltPolyvin
 recipes.removeShaped(<ore:ringAluminium>.firstItem);
 recipes.removeShaped(<ore:ringChrome>.firstItem);
 recipes.removeShaped(<ore:ringCopper>.firstItem);
+recipes.removeShaped(<ore:ringGold>.firstItem);
 recipes.removeShaped(<ore:ringIridium>.firstItem);
 recipes.removeShaped(<ore:ringIron>.firstItem);
 recipes.removeShaped(<ore:ringDarmstadtium>.firstItem);
@@ -977,6 +980,7 @@ recipes.removeShaped(<ore:ringInvar>.firstItem);
 recipes.removeShaped(<ore:ringPigIron>.firstItem);
 recipes.removeShaped(<ore:ringRubber>.firstItem);
 
+recipes.removeShaped(<ore:ringRoseGold>.firstItem);
 recipes.removeShaped(<ore:ringStainlessSteel>.firstItem);
 recipes.removeShaped(<ore:ringSteel>.firstItem);
 recipes.removeShaped(<ore:ringWroughtIron>.firstItem);
@@ -1242,6 +1246,7 @@ recipes.addShaped(<ore:gearStyreneButadieneRubber>.firstItem, [
 [null, <ore:plateStyreneButadieneRubber>, null]]);
 
 #Wires (naked)
+recipes.removeShaped(<ore:wireGtSinglePalladium>.firstItem);
 recipes.removeShaped(<ore:wireGtSingleAluminium>.firstItem);
 recipes.removeShaped(<ore:wireGtSingleAnnealedCopper>.firstItem);
 recipes.removeShaped(<ore:wireGtSingleBlackSteel>.firstItem);

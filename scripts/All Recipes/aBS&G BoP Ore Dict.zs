@@ -19,6 +19,11 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:gemSapphire>.remove(<biomesoplenty:gem:6>);
 <ore:gemAmber>.remove(<biomesoplenty:gem:7>);
 
+#mud stuff
+<ore:ballMudWet>.remove(<biomesoplenty:mudball>);
+<ore:blockMudDried>.add(<biomesoplenty:mud_brick_block>);
+<ore:blockMud>.add(<biomesoplenty:mud_brick_block>);
+
 #---Ore Dicting---
 #boats
 <ore:boat>.add(<biomesoplenty:boat_sacred_oak>);

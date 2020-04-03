@@ -149,6 +149,10 @@ mods.botania.PureDaisy.addRecipe(<tconstruct:slime_grass:*>, <minecraft:grass>);
 mods.botania.PureDaisy.addRecipe(<minecraft:dirt:1>, <minecraft:dirt:0>); #coarse dirt
 mods.botania.PureDaisy.addRecipe(<minecraft:mycelium>, <minecraft:grass>);
 mods.botania.PureDaisy.addRecipe(<minecraft:dirt:2>, <minecraft:grass>);
+
+#-Flesh-
+mods.botania.PureDaisy.addRecipe(<thaumcraft:flesh_block>, <biomesoplenty:flesh>);
+
 #-Sand-
 mods.botania.PureDaisy.addRecipe(<minecraft:sand:0>, <biomesoplenty:white_sand>);
 mods.botania.PureDaisy.addRecipe(<minecraft:sand:1>, <minecraft:sand:0>);

@@ -444,11 +444,11 @@ recipes.addShaped(<ore:logStackGoodLight>.firstItem, [
 [<ore:logZebrawood>, <ore:logZebrawood>, <ore:logZebrawood>],
 [<ore:logZebrawood>, <ore:logZebrawood>, <ore:logZebrawood>]]);
 
-#-IC2-
-recipes.addShaped(<ore:logStackFairDark>.firstItem, [
-[<ore:woodRubber>, <ore:woodRubber>, <ore:woodRubber>],
-[<ore:woodRubber>, <ore:woodRubber>, <ore:woodRubber>],
-[<ore:woodRubber>, <ore:woodRubber>, <ore:woodRubber>]]);
+#-Gregtech-
+recipes.addShaped(<ore:logStackPoorDark>.firstItem, [
+[<ore:logRubber>, <ore:logRubber>, <ore:logRubber>],
+[<ore:logRubber>, <ore:logRubber>, <ore:logRubber>],
+[<ore:logRubber>, <ore:logRubber>, <ore:logRubber>]]);
 
 #-Natura-
 recipes.addShaped(<ore:logStackGoodLight>.firstItem, [

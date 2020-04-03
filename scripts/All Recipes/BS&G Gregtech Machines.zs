@@ -46,7 +46,7 @@ recipes.removeShaped(<gregtech:machine_casing:8>);
 recipes.removeShaped(<gregtech:machine_casing:9>);
 <gregtech:machine_casing:9>.addTooltip("This block is disabled");
 
-#-Modified-
+#-Multiblock Casings-
 #Bronze
 recipes.remove(<gregtech:metal_casing:0>);
 recipes.addShaped(<gregtech:metal_casing:0>*3, [
@@ -65,7 +65,7 @@ recipes.addShaped(<gregtech:metal_casing:1>*2, [
 recipes.remove(<gregtech:metal_casing:2>);
 recipes.addShaped(<gregtech:metal_casing:2>*3, [
 [<ore:plateInvar>, <thermalfoundation:rockwool:7>, <ore:plateInvar>], 
-[<ore:plateInvar>, <ore:frameGtInvar>, <ore:plateInvar>], 
+[<ore:plateInvar>, <gregtech:frame_invar>, <ore:plateInvar>], 
 [<ore:plateInvar>, <thermalfoundation:rockwool:7>, <ore:plateInvar>]]);
 
 recipes.addShaped(<gregtech:metal_casing:2>*3, [
@@ -80,33 +80,58 @@ recipes.addShaped(<gregtech:metal_casing:3>*3, [
 [<ore:plateAluminium>, <ore:frameGtAluminium>, <ore:plateAluminium>], 
 [<ore:plateAluminium>, <ore:pipeSmallStainlessSteel>, <ore:plateAluminium>]]);
 
+recipes.addShaped(<gregtech:metal_casing:3>*3, [
+[<ore:plateAluminium>, <ore:pipeSmallStainlessSteel>, <ore:plateAluminium>], 
+[<ore:plateAluminium>, <gregtech:frame_aluminium>, <ore:plateAluminium>], 
+[<ore:plateAluminium>, <ore:pipeSmallStainlessSteel>, <ore:plateAluminium>]]);
+
 #Solid Steel
 recipes.removeShaped(<gregtech:metal_casing:4>);
 recipes.addShaped(<gregtech:metal_casing:4>*3, [
-[<ore:plateSteel>, null, <ore:plateSteel>], 
-[<ore:plateSteel>, <ore:frameGtSteel>, <ore:plateSteel>], 
-[<ore:plateSteel>, null, <ore:plateSteel>]]);
+[<ore:plateThickSteel>, null, <ore:plateThickSteel>], 
+[null, <ore:frameGtSteel>, null], 
+[<ore:plateThickSteel>, null, <ore:plateThickSteel>]]);
+
+recipes.addShaped(<gregtech:metal_casing:4>*3, [
+[<ore:plateThickSteel>, null, <ore:plateThickSteel>], 
+[null, <gregtech:frame_steel>, null], 
+[<ore:plateThickSteel>, null, <ore:plateThickSteel>]]);
 
 #Clean Stainless
 recipes.removeShaped(<gregtech:metal_casing:5>);
 recipes.addShaped(<gregtech:metal_casing:5>*3, [
-[<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>], 
+[<ore:plateStainlessSteel>, <ore:platePlastic>, <ore:plateStainlessSteel>], 
 [<ore:plateStainlessSteel>, <ore:frameGtStainlessSteel>, <ore:plateStainlessSteel>], 
-[<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>]]);
+[<ore:plateStainlessSteel>, <ore:platePlastic>, <ore:plateStainlessSteel>]]);
+
+recipes.addShaped(<gregtech:metal_casing:5>*3, [
+[<ore:plateStainlessSteel>, <ore:platePlastic>, <ore:plateStainlessSteel>], 
+[<ore:plateStainlessSteel>, <gregtech:frame_stainless_steel>, <ore:plateStainlessSteel>], 
+[<ore:plateStainlessSteel>, <ore:platePlastic>, <ore:plateStainlessSteel>]]);
 
 #Stable Titanium
 recipes.removeShaped(<gregtech:metal_casing:6>);
 recipes.addShaped(<gregtech:metal_casing:6>*3, [
-[<ore:plateTitanium>, null, <ore:plateTitanium>], 
+[<ore:plateTitanium>, <ore:platePolytetrafluoroethylene>, <ore:plateTitanium>], 
 [<ore:plateTitanium>, <ore:frameGtTitanium>, <ore:plateTitanium>], 
-[<ore:plateTitanium>, null, <ore:plateTitanium>]]);
+[<ore:plateTitanium>, <ore:platePolytetrafluoroethylene>, <ore:plateTitanium>]]);
+
+recipes.addShaped(<gregtech:metal_casing:6>*3, [
+[<ore:plateTitanium>, <ore:platePolytetrafluoroethylene>, <ore:plateTitanium>], 
+[<ore:plateTitanium>, <gregtech:frame_titanium>, <ore:plateTitanium>], 
+[<ore:plateTitanium>, <ore:platePolytetrafluoroethylene>, <ore:plateTitanium>]]);
 
 #Robust Tungstensteel
 recipes.removeShaped(<gregtech:metal_casing:7>);
 recipes.addShaped(<gregtech:metal_casing:7>*3, [
-[<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>], 
+[<ore:plateTungstenSteel>, <ore:gearSmallTungstenSteel>, <ore:plateTungstenSteel>], 
 [<ore:plateTungstenSteel>, <ore:frameGtTungstenSteel>, <ore:plateTungstenSteel>], 
-[<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>]]);
+[<ore:plateTungstenSteel>, <ore:gearSmallTungstenSteel>, <ore:plateTungstenSteel>]]);
+
+recipes.addShaped(<gregtech:metal_casing:7>*3, [
+[<ore:plateTungstenSteel>, <ore:gearSmallTungstenSteel>, <ore:plateTungstenSteel>], 
+[<ore:plateTungstenSteel>, <gregtech:frame_tungsten_steel>, <ore:plateTungstenSteel>], 
+[<ore:plateTungstenSteel>, <ore:gearSmallTungstenSteel>, <ore:plateTungstenSteel>]]);
 
 #-Gearbox-
 recipes.removeShaped(<gregtech:turbine_casing:0>);
@@ -188,6 +213,7 @@ theassembler.findRecipe(16, [<ore:cableGtSingleTin>.firstItem*2, <gregtech:machi
 
 #MV
 recipes.remove(<meta_tile_entity:gregtech:hull.mv>);
+theassembler.findRecipe(16, [<ore:cableGtSingleCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
 theassembler.findRecipe(16, [<ore:cableGtSingleAnnealedCopper>.firstItem*2, <gregtech:machine_casing:2>], null).remove();
 
 #HV
@@ -613,15 +639,11 @@ recipes.addShaped(<ore:pipeLargeWood>.firstItem, [
 [<ore:slabLivingwood>, null, <ore:slabLivingwood>], 
 [<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>]]);
 
-#
-#recipes.remove(<ore:pipeSmall>.firstItem);
-#recipes.addShaped(<ore:pipeSmall>.firstItem*4, [
-#[<ore:plate>, null, <ore:plate>], 
-#[<ore:plate>, null, <ore:plate>], 
-#[<ore:plate>, null, <ore:plate>]]);
+#---Workbench---
+recipes.remove(<meta_tile_entity:workbench>);
+recipes.addShaped(<meta_tile_entity:workbench>, [
+[<ore:chestWood>, <ore:workbench>, <ore:chestWood>], 
+[<ore:plateBronze>, <ore:hullBronze>, <ore:plateBronze>], 
+[<ore:plateBronze>, null, <ore:plateBronze>]]);
 
-#recipes.remove(<ore:pipeMedium>.firstItem);
-#recipes.addShaped(<ore:pipeMedium>.firstItem*2, [
-#[<ore:plate>, <ore:plate>, <ore:plate>], 
-#[null, null, null], 
-#[<ore:plate>, <ore:plate>, <ore:plate>]]);
+

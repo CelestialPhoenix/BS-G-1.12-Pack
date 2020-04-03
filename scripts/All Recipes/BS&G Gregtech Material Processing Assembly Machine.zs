@@ -383,6 +383,115 @@ theassembler
     .buildAndRegister();
 
 #--Gregtech Components--
+#-Casings-
+#Heat Proof
+theassembler.findRecipe(16, [<ore:plateInvar>.firstItem*6, <ore:frameGtInvar>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateInvar>.firstItem*6, <ore:frameGtInvar>.firstItem, <ore:blockRockwool>*2)
+    .outputs(<gregtech:metal_casing:2>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateInvar>.firstItem*6, <gregtech:frame_invar>, <thermalfoundation:rockwool:7>*2)
+    .outputs(<gregtech:metal_casing:2>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+#Frost Proof
+theassembler.findRecipe(16, [<ore:plateAluminium>.firstItem*6, <ore:frameGtAluminium>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAluminium>.firstItem*6, <ore:frameGtAluminium>.firstItem, <ore:pipeSmallStainlessSteel>*2)
+    .outputs(<gregtech:metal_casing:3>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAluminium>.firstItem*6, <gregtech:frame_aluminium>, <ore:pipeSmallStainlessSteel>*2)
+    .outputs(<gregtech:metal_casing:3>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+#Solid Steel
+theassembler.findRecipe(16, [<ore:plateSteel>.firstItem*6, <ore:frameGtSteel>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateThickSteel>.firstItem*4, <ore:frameGtSteel>.firstItem)
+    .outputs(<gregtech:metal_casing:4>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateThickSteel>.firstItem*4, <gregtech:frame_steel>)
+    .outputs(<gregtech:metal_casing:4>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+#Clean Stainless
+theassembler.findRecipe(16, [<ore:plateStainlessSteel>.firstItem*6, <ore:frameGtStainlessSteel>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateStainlessSteel>.firstItem*6, <ore:frameGtStainlessSteel>.firstItem, <ore:platePlastic>*2)
+    .outputs(<gregtech:metal_casing:5>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateStainlessSteel>.firstItem*6, <gregtech:frame_stainless_steel>, <ore:platePlastic>*2)
+    .outputs(<gregtech:metal_casing:5>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+#Stable Titanium
+theassembler.findRecipe(16, [<ore:plateTitanium>.firstItem*6, <ore:frameGtTitanium>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTitanium>.firstItem*6, <ore:frameGtTitanium>.firstItem, <ore:platePolytetrafluoroethylene>*2)
+    .outputs(<gregtech:metal_casing:6>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTitanium>.firstItem*6, <gregtech:frame_titanium>, <ore:platePolytetrafluoroethylene>*2)
+    .outputs(<gregtech:metal_casing:6>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+#Robust Tungstensteel
+theassembler.findRecipe(16, [<ore:plateTungstenSteel>.firstItem*6, <ore:frameGtTungstenSteel>.firstItem], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTungstenSteel>.firstItem*6, <ore:frameGtTungstenSteel>.firstItem, <ore:gearSmallTungstenSteel>*2)
+    .outputs(<gregtech:metal_casing:7>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateTungstenSteel>.firstItem*6, <gregtech:frame_tungsten_steel>, <ore:gearSmallTungstenSteel>*2)
+    .outputs(<gregtech:metal_casing:7>*3)
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
 #-Motors-
 #LV
 theassembler

@@ -18,7 +18,23 @@ print("The post duck says...?");
 <quark:stone_granite_bricks_wall>.displayName="Pink Granite Brick Wall";
 
 #---Recipes---
-#--Hardmode Redstone--
+#Iron Ladder
+recipes.remove(<quark:iron_ladder>);
+recipes.addShaped(<quark:iron_ladder>*16,[
+[<ore:stickIron>, null, <ore:stickIron>],
+[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
+[<ore:stickIron>, null, <ore:stickIron>]]);
+
+recipes.addShaped(<quark:iron_ladder>*20,[
+[<ore:stickWroughtIron>, null, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, <ore:stickWroughtIron>, <ore:stickWroughtIron>],
+[<ore:stickWroughtIron>, null, <ore:stickWroughtIron>]]);
+
+recipes.addShaped(<quark:iron_ladder>*24,[
+[<ore:stickSteel>, null, <ore:stickSteel>],
+[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
+[<ore:stickSteel>, null, <ore:stickSteel>]]);
+
 #-Trapdoor-
 recipes.remove(<quark:spruce_trapdoor>);
 recipes.addShaped(<quark:spruce_trapdoor>*2,[

@@ -1105,7 +1105,7 @@ item.contenttweaker.platethickhsse.name=Thick HSS-E Plate
 item.contenttweaker.platethickhssg.name=Thick HSS-G Plate
 item.contenttweaker.platethickwood.name=Thick Wooden Plate
 
-item.contenttweaker.presstoolcutter.name=Metal Press Tool: Metal Cutter
+item.contenttweaker.presstoolcutter.name=Metal Press Tool: Guillotine
 item.contenttweaker.presstoolringbender.name=Metal Press Tool: Ring Bender
 item.contenttweaker.presstoolroller.name=Metal Press Tool: Heavy Roller
 
@@ -1166,6 +1166,8 @@ item.contenttweaker.rollers.name= Set of Rollers
 item.contenttweaker.shaftcobalt.name=Cobalt Shaft
 item.contenttweaker.shaftiron.name=Iron Shaft
 item.contenttweaker.shaftsteel.name=Steel Shaft
+
+item.contenttweaker.shredded_biomass.name=Shredded Biomass
 
 item.contenttweaker.toolheadaxediamond.name=Diamond Axe Blade
 item.contenttweaker.toolheadhoediamond.name=Diamond Hoe Blade

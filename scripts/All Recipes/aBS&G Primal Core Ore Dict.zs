@@ -77,6 +77,11 @@ print("Going Primal. Not unlike going commando");
 <ore:leatherStrip>.remove(<primal:leather_strip>);
 <ore:stripLeather>.remove(<primal:leather_strip>);
 
+#mud <primal:mud_dried>
+<ore:blockMudDried>.remove(<primal:mud_dried:*>);
+<ore:blockMud>.remove(<primal:mud_dried:*>);
+<ore:blockMudWet>.remove(<primal:mud_wet>);
+
 #-nuggets-
 #<ore:nugget>.remove(<primal:_nugget>);
 <ore:nuggetSteel>.remove(<primal:steel_nugget>);

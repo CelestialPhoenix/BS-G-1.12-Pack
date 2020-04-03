@@ -11,10 +11,14 @@ mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "ore
 #recipes.remove(<botania:floatingspecialflower>.withTag({type: "orechidIgnem"}));
 
 #---Recipes---
-#Mana Pump
-recipes.remove(<botania:pump>);
-recipes.addShaped(<botania:pump>, [
+#Lexica Botania
+recipes.remove(<botania:lexicon>.withTag({}));
+recipes.addShaped(<botania:lexicon>.withTag({}), [
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>],
 [<ore:stickManasteel>, <ore:rotorBronze>, <ore:stickManasteel>], 
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>]]);
+
+#Mana Pump
+recipes.remove(<botania:pump>);
+recipes.addShapeless(<botania:pump>, [<botania:flower:*>, <minecraft:book>]);
 

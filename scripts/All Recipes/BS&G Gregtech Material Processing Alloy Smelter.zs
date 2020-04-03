@@ -42,7 +42,8 @@ alloysmelter.findRecipe(16, [<ore:blockCoal>.firstItem*2, <ore:blockIron>.firstI
 alloysmelter.findRecipe(16, [<ore:blockIron>.firstItem*2, <ore:blockCoke>.firstItem*1], null).remove();
 */
 
-#Metal alloys
+#-Metal alloys-
+#BlueAlloy
 alloysmelter
     .recipeBuilder()
     .inputs(<ore:dustElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
@@ -56,6 +57,25 @@ alloysmelter
     .inputs(<ore:ingotElectrum>.firstItem*2, <ore:dustElectrotine>.firstItem*5)
     .outputs(<ore:ingotBlueAlloy>.firstItem*7)
     .duration(350)
+    .EUt(16)
+    .buildAndRegister();
+
+#-RedAlloy-
+alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:ingotCopper>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:dustCopper>.firstItem*1], null).remove();
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotCopper>.firstItem*1, <ore:dustRedstone>.firstItem*4)
+    .outputs(<ore:ingotRedAlloy>.firstItem*5)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustCopper>.firstItem*1, <ore:dustRedstone>.firstItem*4)
+    .outputs(<ore:ingotRedAlloy>.firstItem*5)
+    .duration(180)
     .EUt(16)
     .buildAndRegister();
 

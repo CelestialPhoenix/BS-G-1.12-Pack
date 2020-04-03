@@ -56,6 +56,15 @@ macerator
     .buildAndRegister();
 }
 
+#-Biomass-
+macerator
+    .recipeBuilder()
+    .inputs(<ore:plantball>.firstItem)
+    .outputs(<ore:biomassShredded>.firstItem)
+    .duration(5)
+    .EUt(2)
+    .buildAndRegister();
+
 #-Brick [dust]-
 macerator.findRecipe(8, [<minecraft:stone_slab:4>], null).remove();
 macerator.findRecipe(8, [<minecraft:brick_stairs>], null).remove();
@@ -187,15 +196,6 @@ macerator
     .inputs(<ore:itemSlagRich>)
     .outputs(<ore:dustSlag>.firstItem)
 	.chancedOutput(<ore:dustTinyLustrous>.firstItem, 8000, 1000)
-    .duration(100)
-    .EUt(2)
-    .buildAndRegister();
-
-#-Plantballs-
-macerator
-    .recipeBuilder()
-    .inputs(<ore:plantball>)
-    .outputs(<ore:biochaff>.firstItem)
     .duration(100)
     .EUt(2)
     .buildAndRegister();
