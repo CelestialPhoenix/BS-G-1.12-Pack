@@ -225,10 +225,53 @@ mods.abyssalcraft.Crystallizer.addFuel(CrystalShard, 200);
 }
 
 #Coralium Aspects
-mods.abyssalcraft.Transmutator.addFuel(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}), 300);
-mods.abyssalcraft.Crystallizer.addFuel(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}), 300);
-mods.abyssalcraft.Transmutator.addFuel(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "coralos"}]}), 3000);
-mods.abyssalcraft.Crystallizer.addFuel(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "coralos"}]}), 3000);
+//Does not respect NBT- prosponed
+#mods.abyssalcraft.Transmutator.addFuel(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}), 300);
+#mods.abyssalcraft.Crystallizer.addFuel(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}), 300);
+#mods.abyssalcraft.Transmutator.addFuel(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "coralos"}]}), 3000);
+#mods.abyssalcraft.Crystallizer.addFuel(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "coralos"}]}), 3000);
+
+#Crystal Clusters
+var AbyCrystals as string[] = [
+"Iron",
+"Gold",
+"Sulfur",
+"Carbon",
+"Oxygen",
+"Hydrogen",
+"Nitrogen",
+"Phosphorus",
+"Potassium",
+"Nitrate",
+"Methane",
+"Redstone",
+"Abyssalnite",
+"Coralium",
+"Dreadium",
+"Blaze",
+"Tin",
+"Copper",
+"Silicon",
+"Magnesium",
+"Aluminium",
+"SiliconDioxide",
+"Corundum",
+"Magnesia",
+"Zinc",
+"Calcium",
+"Beryllium",
+"Beryl"];
+
+for i, input in AbyCrystals {
+	var CrystalCluster as IItemStack  = oreDict["crystalCluster"~input].firstItem;
+	var CrystalFragment as IItemStack  = oreDict["crystalFragment"~input].firstItem;
+
+mods.abyssalcraft.Transmutator.addFuel(CrystalCluster, 24000);
+mods.abyssalcraft.Transmutator.addFuel(CrystalFragment, 0);
+
+mods.abyssalcraft.Crystallizer.addFuel(CrystalCluster, 24000);
+mods.abyssalcraft.Crystallizer.addFuel(CrystalFragment, 0);
+}
 
 #Elemental Dust
 mods.abyssalcraft.Transmutator.addFuel(<ore:dustPyrotheum>.firstItem, 200);
@@ -241,7 +284,7 @@ mods.abyssalcraft.Transmutator.addFuel(<ore:dustPetrotheum>.firstItem, 200);
 mods.abyssalcraft.Crystallizer.addFuel(<ore:dustPetrotheum>.firstItem, 200);
 
 mods.abyssalcraft.Transmutator.addFuel(<ore:dustMagicCatalyst>.firstItem, 1200);
-mods.abyssalcraft.Crystallizer.addFuel(<ore:dustMagicCatalyst>.firstItem, 12000);
+mods.abyssalcraft.Crystallizer.addFuel(<ore:dustMagicCatalyst>.firstItem, 1200);
 
 #Elemental Rods
 mods.abyssalcraft.Transmutator.addFuel(<ore:rodBlaze>.firstItem, 200);
@@ -252,3 +295,6 @@ mods.abyssalcraft.Transmutator.addFuel(<ore:rodBlitz>.firstItem, 200);
 mods.abyssalcraft.Crystallizer.addFuel(<ore:rodBlitz>.firstItem, 200);
 mods.abyssalcraft.Transmutator.addFuel(<ore:rodBasalz>.firstItem, 200);
 mods.abyssalcraft.Crystallizer.addFuel(<ore:rodBasalz>.firstItem, 200);
+
+#Removed Fuels
+mods.abyssalcraft.Crystallizer.addFuel(<ore:dustTinyLustrous>.firstItem, 0);

@@ -1,10 +1,13 @@
 #Name: Blood Sweat & Gears Abyssalcraft Materials.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 print("I'm not evil I promise");
 
 #---Naming---
-
 #Logs
 <abyssalcraft:dltlog>.displayName="Darklands Oak Log";
 
@@ -20,15 +23,51 @@ recipes.remove(<abyssalcraft:copperingot>); #Copper
 recipes.addShapeless(<ore:ingotCopper>.firstItem, [<abyssalcraft:copperingot>]);
 <abyssalcraft:copperingot>.displayName="Strange Copper Ingot";
 
-#---Repurposed Materials---
-#Crystals
-<abyssalcraft:crystal:21>.displayName="Crystalline Silicon Dioxide";
-<abyssalcraft:crystal:22>.displayName="Crystalline Corundum";
+#--Removed Recipes---
 
-<abyssalcraft:crystalshard:21>.displayName="Crystalline Silicon Dioxide Shard";
-<abyssalcraft:crystalshard:22>.displayName="Crystalline Corundum Shard";
+#Crystals (Crafting)
+var AbyCrystals as string[] = [
+"Iron",
+"Gold",
+"Sulfur",
+"Carbon",
+"Oxygen",
+"Hydrogen",
+"Nitrogen",
+"Phosphorus",
+"Potassium",
+"Nitrate",
+"Methane",
+"Redstone",
+"Abyssalnite",
+"Coralium",
+"Dreadium",
+"Blaze",
+"Tin",
+"Copper",
+"Silicon",
+"Magnesium",
+"Aluminium",
+"SiliconDioxide",
+"Corundum",
+"Magnesia",
+"Zinc",
+"Calcium",
+"Beryllium",
+"Beryl"];
 
-#---Removed Recipes---
+for i, input in AbyCrystals {
+	var CrystalCluster as IItemStack  = oreDict["crystalCluster"~input].firstItem;
+	var Crystal as IItemStack  = oreDict["crystal"~input].firstItem;
+	var CrystalShard as IItemStack  = oreDict["crystalShard"~input].firstItem;
+	var CrystalFragment as IItemStack  = oreDict["crystalFragment"~input].firstItem;
+
+recipes.removeShaped(CrystalCluster);
+recipes.removeShaped(Crystal);
+recipes.removeShaped(CrystalShard);
+recipes.removeShaped(CrystalFragment);
+}
+
 
 #dusts
 recipes.removeShaped(<acintegration:dust:0>); #Abyssalnite
