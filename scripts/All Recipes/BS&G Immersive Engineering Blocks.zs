@@ -383,7 +383,7 @@ recipes.addShaped(<immersiveengineering:wooden_device1>, [
 [<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>]]);
 
 #---Windmill---
-recipes.removeShaped(<immersiveengineering:connector:11>);
+recipes.removeShaped(<immersiveengineering:material:11>);
 recipes.addShaped(<immersiveengineering:material:11>, [
 [<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],
 [<ore:stickTreatedWood>, <ore:stickTreatedWood>, null], 
