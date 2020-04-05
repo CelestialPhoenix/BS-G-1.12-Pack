@@ -32,6 +32,15 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:12
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<forestry:ingot_tin>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:8>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:3>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:5>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<abyssalcraft:abyingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<abyssalcraft:cingot>);
 
 #Gives 0-6 ingots/rich slag (total), depending on purity
 #Pure Ores

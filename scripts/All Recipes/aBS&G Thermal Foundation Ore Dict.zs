@@ -28,6 +28,12 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:blockCharcoal>.remove(<thermalfoundation:storage_resource:0>);
 <ore:blockFuelCoke>.remove(<thermalfoundation:storage_resource:1>);
 
+#Crystals/Clathrates
+<ore:crystalCinnabar>.remove(<thermalfoundation:material:866>);
+<ore:crystalRedstone>.remove(<thermalfoundation:material:893>);
+<ore:crystalGlowstone>.remove(<thermalfoundation:material:894>);
+<ore:crystalEnder>.remove(<thermalfoundation:material:895>);
+
 #Dust
 #<ore:dust>.remove(<thermalfoundation:material:>);
 #dustIron
