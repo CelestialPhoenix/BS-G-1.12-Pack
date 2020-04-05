@@ -1115,3 +1115,29 @@ CuttingMachine
 }
 
 #Stone/Rock Slabs
+
+var stoneSlabs as string[] = [
+	"Brick",
+	"Cobblestone",
+	"Netherbrick",
+	"Purpur",
+	"Stone",
+	"Stonebrick",
+	"Sandstone",
+	"RedSandstone"];
+
+for input in stoneSlabs {
+	var rockStone as IItemStack = oreDict["rock"~input].firstItem;
+	var slabStone as IItemStack = oreDict["slab"~input].firstItem;
+
+CuttingMachine
+    .recipeBuilder()
+    .inputs([rockStone])
+	.fluidInputs(<liquid:water>*50)
+    .outputs([slabStone*2])
+    .duration(50)
+    .EUt(8)
+    .buildAndRegister();
+}
+
+
