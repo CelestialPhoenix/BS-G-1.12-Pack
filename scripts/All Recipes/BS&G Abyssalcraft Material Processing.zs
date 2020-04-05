@@ -250,8 +250,8 @@ mods.abyssalcraft.Materializer.removeMaterialization(<gregtech:ore_redstone_0:5>
 mods.abyssalcraft.Materializer.removeMaterialization(<gregtech:ore_redstone_0:6>);
 mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:oreredstone>);
 mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:oreglowstoneredstone>);
-mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:orenetherrackredstone>);
-mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:orenetherrackredstoneloose>);
+mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:orenetherredstone>);
+mods.abyssalcraft.Materializer.removeMaterialization(<contenttweaker:orenetherredstoneloose>);
 mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:coraliumore>);
 mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:abyore>);
 mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:coraliumstone>);
