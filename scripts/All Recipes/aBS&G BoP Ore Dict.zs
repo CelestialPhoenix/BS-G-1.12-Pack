@@ -19,7 +19,26 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:gemSapphire>.remove(<biomesoplenty:gem:6>);
 <ore:gemAmber>.remove(<biomesoplenty:gem:7>);
 
-#mud stuff
+<ore:blockAmethyst>.remove(<biomesoplenty:gem_block:0>);
+<ore:blockRuby>.remove(<biomesoplenty:gem_block:1>);
+<ore:blockPeridot>.remove(<biomesoplenty:gem_block:2>);
+<ore:blockTopaz>.remove(<biomesoplenty:gem_block:3>);
+<ore:blockTanzanite>.remove(<biomesoplenty:gem_block:4>);
+<ore:blockMalachite>.remove(<biomesoplenty:gem_block:5>);
+<ore:blockSapphire>.remove(<biomesoplenty:gem_block:6>);
+<ore:blockAmber>.remove(<biomesoplenty:gem_block:7>);
+
+#-ores- 
+<ore:oreAmethyst>.remove(<biomesoplenty:gem_ore:0>);
+<ore:oreRuby>.remove(<biomesoplenty:gem_ore:1>);
+<ore:orePeridot>.remove(<biomesoplenty:gem_ore:2>);
+<ore:oreTopaz>.remove(<biomesoplenty:gem_ore:3>);
+<ore:oreTanzanite>.remove(<biomesoplenty:gem_ore:4>);
+<ore:oreMalachite>.remove(<biomesoplenty:gem_ore:5>);
+<ore:oreSapphire>.remove(<biomesoplenty:gem_ore:6>);
+<ore:oreAmber>.remove(<biomesoplenty:gem_ore:7>);
+
+#-mud stuff-
 <ore:ballMudWet>.remove(<biomesoplenty:mudball>);
 <ore:blockMudDried>.add(<biomesoplenty:mud_brick_block>);
 <ore:blockMud>.add(<biomesoplenty:mud_brick_block>);
