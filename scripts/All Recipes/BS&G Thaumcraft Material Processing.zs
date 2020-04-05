@@ -38,39 +38,53 @@ var steamLightFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_
 var steamHeavyFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_heavy_fuel", Amount: 1000}});
 var steamTar = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_tar", Amount: 1000}});
 
-#---Air Processing---
+#---Alchemical Processing---
+#-Air Processing-
 #Air
-mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation", "AIRPROCESSING", Nitrogen, Air, [<aspect:aer>*2, <aspect:ordo>*2]);
-mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation", "AIRPROCESSING", Oxygen, Air, [<aspect:ignis>*8, <aspect:victus>*8]);
+mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation", "", Nitrogen, Air, [<aspect:aer>*2, <aspect:ordo>*2]);
+mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation", "", Oxygen, Air, [<aspect:ignis>*8, <aspect:victus>*8]);
 #LiquidAir
-mods.thaumcraft.Crucible.registerRecipe("ArgonTransmutation2", "LIQUIDAIRPROCESSING", Argon, LiquidAir, [<aspect:gelum>*32, <aspect:praemunio>*32]);
-mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation2", "LIQUIDAIRPROCESSING", Nitrogen, LiquidAir, [<aspect:aer>*2, <aspect:ordo>*2]);
-mods.thaumcraft.Crucible.registerRecipe("NobleTransmutation2", "LIQUIDAIRPROCESSING", NobleGases, LiquidAir, [<aspect:desiderium>*32, <aspect:alkimia>*32]);
-mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation2", "LIQUIDAIRPROCESSING", Oxygen, LiquidAir, [<aspect:ignis>*8, <aspect:victus>*8]);
+mods.thaumcraft.Crucible.registerRecipe("ArgonTransmutation2", "", Argon, LiquidAir, [<aspect:gelum>*32, <aspect:praemunio>*32]);
+mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation2", "", Nitrogen, LiquidAir, [<aspect:aer>*2, <aspect:ordo>*2]);
+mods.thaumcraft.Crucible.registerRecipe("NobleTransmutation2", "", NobleGases, LiquidAir, [<aspect:desiderium>*32, <aspect:alkimia>*32]);
+mods.thaumcraft.Crucible.registerRecipe("OxygenTransmutation2", "", Oxygen, LiquidAir, [<aspect:ignis>*8, <aspect:victus>*8]);
 
-#---Oil Processing---
+#-Oil Processing-
 #De-Sulphuring
-mods.thaumcraft.Crucible.registerRecipe("GasPurification", "OILPURIFICATION", Gas, sulphuricGas, [<aspect:alkimia>*2, <aspect:ordo>*2]);
-mods.thaumcraft.Crucible.registerRecipe("NaphthaPurification", "OILPURIFICATION", Naphtha, sulphuricNaphtha, [<aspect:alkimia>*4, <aspect:ordo>*4]);
-mods.thaumcraft.Crucible.registerRecipe("LightFuelPurification", "OILPURIFICATION", LightFuel, sulphuricLightFuel, [<aspect:alkimia>*8, <aspect:ordo>*8]);
-mods.thaumcraft.Crucible.registerRecipe("HeavyFuelPurification", "OILPURIFICATION", HeavyFuel, sulphuricHeavyFuel, [<aspect:alkimia>*12, <aspect:ordo>*12]);
-mods.thaumcraft.Crucible.registerRecipe("TarPurification", "OILPURIFICATION", Tar, sulphuricTar, [<aspect:alkimia>*16, <aspect:ordo>*16]);
+mods.thaumcraft.Crucible.registerRecipe("GasPurification", "", Gas, sulphuricGas, [<aspect:alkimia>*2, <aspect:ordo>*2]);
+mods.thaumcraft.Crucible.registerRecipe("NaphthaPurification", "", Naphtha, sulphuricNaphtha, [<aspect:alkimia>*4, <aspect:ordo>*4]);
+mods.thaumcraft.Crucible.registerRecipe("LightFuelPurification", "", LightFuel, sulphuricLightFuel, [<aspect:alkimia>*8, <aspect:ordo>*8]);
+mods.thaumcraft.Crucible.registerRecipe("HeavyFuelPurification", "", HeavyFuel, sulphuricHeavyFuel, [<aspect:alkimia>*12, <aspect:ordo>*12]);
+mods.thaumcraft.Crucible.registerRecipe("TarPurification", "", Tar, sulphuricTar, [<aspect:alkimia>*16, <aspect:ordo>*16]);
 
 #Hydro Cracking
-mods.thaumcraft.Crucible.registerRecipe("GasHydroCracking", "HYDROCRACKING", hydroGas, Gas, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("NaphthaHydroCracking", "HYDROCRACKING", hydroNaphtha, Naphtha, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("LightFuelHydroCracking", "HYDROCRACKING", hydroLightFuel, LightFuel, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("HeavyFuelHydroCracking", "HYDROCRACKING", hydroHeavyFuel, HeavyFuel, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("TarHydroCracking", "HYDROCRACKING", hydroTar, Tar, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("GasHydroCracking", "", hydroGas, Gas, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("NaphthaHydroCracking", "", hydroNaphtha, Naphtha, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("LightFuelHydroCracking", "", hydroLightFuel, LightFuel, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("HeavyFuelHydroCracking", "", hydroHeavyFuel, HeavyFuel, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("TarHydroCracking", "", hydroTar, Tar, [<aspect:aer>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
 
 #Steam Cracking
-mods.thaumcraft.Crucible.registerRecipe("GasSteamCracking", "STEAMCRACKING", steamGas, Gas, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("NaphthaSteamCracking", "STEAMCRACKING", steamNaphtha, Naphtha, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("LightFuelSteamCracking", "STEAMCRACKING", steamLightFuel, LightFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("HeavyFuelSteamCracking", "STEAMCRACKING", steamHeavyFuel, HeavyFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
-mods.thaumcraft.Crucible.registerRecipe("TarSteamCracking", "STEAMCRACKING", steamTar, Tar, [<aspect:aqua>*12, <aspect:ignis>*12, <aspect:alkimia>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("GasSteamCracking", "", steamGas, Gas, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("NaphthaSteamCracking", "", steamNaphtha, Naphtha, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("LightFuelSteamCracking", "", steamLightFuel, LightFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("HeavyFuelSteamCracking", "", steamHeavyFuel, HeavyFuel, [<aspect:aqua>*12, <aspect:alkimia>*12, <aspect:ignis>*12, <aspect:perditio>*12]);
+mods.thaumcraft.Crucible.registerRecipe("TarSteamCracking", "", steamTar, Tar, [<aspect:aqua>*12, <aspect:ignis>*12, <aspect:alkimia>*12, <aspect:perditio>*12]);
 
-#---Alchemical Clathrates---
+#--Cobbleworks--
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksStoneReplication", "HEDGEALCHEMY", <minecraft:stone>*2, <minecraft:stone>, [<aspect:terra>*5]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksStone", "HEDGEALCHEMY", <minecraft:stone>, <minecraft:cobblestone>, [<aspect:ordo>*2, <aspect:ignis>*2]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksCobble", "HEDGEALCHEMY", <minecraft:cobblestone>, <minecraft:stone>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGravel", "HEDGEALCHEMY", <minecraft:gravel>, <minecraft:cobblestone>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksSand", "HEDGEALCHEMY", <minecraft:sand>, <minecraft:gravel>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksDust", "HEDGEALCHEMY", <ore:dustStone>.firstItem, <minecraft:sand>, [<aspect:perditio>*3]);
+
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksFlint", "HEDGEALCHEMY", <minecraft:flint>, <minecraft:gravel>, [<aspect:instrumentum>*5]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlass", "HEDGEALCHEMY", <minecraft:glass>, <minecraft:sand>, [<aspect:ordo>*2, <aspect:ignis>*2]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlassClear", "HEDGEALCHEMY", <tconstruct:clear_glass>, <minecraft:glass>, [<aspect:ordo>*1]);
+
+#---Infusion Alter---
+#--Alchemical Clathrates--
 #-Magnetic-
 mods.thaumcraft.Infusion.registerRecipe("clathrateMagneticIron", "", <ore:clathrateMagnetic>.firstItem, 5, [<aspect:ordo>*5, <aspect:motus>*5, <aspect:machina>*5], <thaumcraft:nugget:10>, [<ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum, <ore:dustTinyIronMagnetic>, crystalMetallum, crystalMetallum]);
 
