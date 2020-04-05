@@ -41,7 +41,8 @@ recipes.addShaped(<immersiveengineering:metal_device1>, [
 [<ore:motorLV>, <ore:rotorSteel>, <ore:elementCupronickel>], 
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-#---Capacitors--- 
+#---Capacitors (Terminal Blocks)--- 
+#LV
 <immersiveengineering:metal_device0>.displayName=("LV terminal block");
 <immersiveengineering:metal_device0>.addTooltip("Useful for connecting Rf conduits");
 recipes.removeShaped(<immersiveengineering:metal_device0>);
@@ -54,6 +55,34 @@ recipes.addShaped(<immersiveengineering:metal_device0>, [
 [<ore:livingwood>, <ore:stickCopper>, <ore:livingwood>],
 [<ore:stickCopper>, <ore:livingwood>, <ore:stickCopper>], 
 [<ore:livingwood>, <ore:stickCopper>, <ore:livingwood>]]);
+
+#MV
+<immersiveengineering:metal_device0:1>.displayName=("MV terminal block");
+<immersiveengineering:metal_device0:1>.addTooltip("Useful for connecting Rf conduits");
+recipes.removeShaped(<immersiveengineering:metal_device0:1>);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [
+[<ore:plankTreatedWood>, <ore:stickElectrum>, <ore:plankTreatedWood>],
+[<ore:stickElectrum>, <ore:plankTreatedWood>, <ore:stickElectrum>], 
+[<ore:plankTreatedWood>, <ore:stickElectrum>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [
+[<ore:livingwood>, <ore:stickElectrum>, <ore:livingwood>],
+[<ore:stickElectrum>, <ore:livingwood>, <ore:stickElectrum>], 
+[<ore:livingwood>, <ore:stickElectrum>, <ore:livingwood>]]);
+
+#HV
+<immersiveengineering:metal_device0:2>.displayName=("HV terminal block");
+<immersiveengineering:metal_device0:2>.addTooltip("Useful for connecting Rf conduits");
+recipes.removeShaped(<immersiveengineering:metal_device0:2>);
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [
+[<ore:plankTreatedWood>, <ore:stickAluminium>, <ore:plankTreatedWood>],
+[<ore:stickAluminium>, <ore:plankTreatedWood>, <ore:stickAluminium>], 
+[<ore:plankTreatedWood>, <ore:stickAluminium>, <ore:plankTreatedWood>]]);
+
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [
+[<ore:livingwood>, <ore:stickAluminium>, <ore:livingwood>],
+[<ore:stickAluminium>, <ore:livingwood>, <ore:stickAluminium>], 
+[<ore:livingwood>, <ore:stickAluminium>, <ore:livingwood>]]);
 
 #---Coking oven bricks---
 recipes.removeShaped(<immersiveengineering:stone_decoration:0>);
@@ -335,6 +364,44 @@ recipes.addShaped(<immersiveengineering:connector:6>*8, [
 [<ore:plateSteel>, <ore:stickSteel>, <ore:plateSteel>], 
 [<ore:plateSteel>, null, <ore:plateSteel>]]);
 
+#---Waterwheel---
+recipes.removeShaped(<immersiveengineering:connector:10>);
+recipes.addShaped(<immersiveengineering:material:10>, [
+[null, <ore:slabTreatedWood>, null],
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:stickTreatedWood>], 
+[<ore:slabTreatedWood>, <ore:stickTreatedWood>, <ore:slabTreatedWood>]]);
+
+recipes.addShaped(<immersiveengineering:material:10>, [
+[null, <ore:slabLivingwood>, null],
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:livingwoodTwig>], 
+[<ore:slabLivingwood>, <ore:livingwoodTwig>, <ore:slabLivingwood>]]);
+
+recipes.removeShaped(<immersiveengineering:wooden_device1>);
+recipes.addShaped(<immersiveengineering:wooden_device1>, [
+[<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>],
+[<immersiveengineering:material:10>, <ore:stickSteel>, <immersiveengineering:material:10>], 
+[<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>]]);
+
+#---Windmill---
+recipes.removeShaped(<immersiveengineering:connector:11>);
+recipes.addShaped(<immersiveengineering:material:11>, [
+[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],
+[<ore:stickTreatedWood>, <ore:stickTreatedWood>, null], 
+[<ore:stickTreatedWood>, <ore:stickTreatedWood>, null]]);
+
+recipes.addShaped(<immersiveengineering:material:11>, [
+[<ore:slabLivingwood>, <ore:slabLivingwood>, <ore:slabLivingwood>],
+[<ore:livingwoodTwig>, <ore:livingwoodTwig>, null], 
+[<ore:livingwoodTwig>, <ore:livingwoodTwig>, null]]);
+
+recipes.removeShaped(<immersiveengineering:wooden_device1:1>);
+recipes.addShaped(<immersiveengineering:wooden_device1:1>, [
+[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>],
+[<immersiveengineering:material:11>, <ore:stickSteel>, <immersiveengineering:material:11>], 
+[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>]]);
+
+<immersiveengineering:material:12>.addTooltip("Right click a bare windmill to apply the sail.");
+
 #---Treated Wood [in recipes]---
 #Use of livingwood as replacement parts
 #Workbench
@@ -421,29 +488,11 @@ recipes.addShaped(<immersiveengineering:metal_device1:5>, [
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], 
 [<ore:livingwood>, <immersiveengineering:metal_decoration0>, <ore:livingwood>]]);
 
-#MV Capacitor
-recipes.addShaped(<immersiveengineering:metal_device0:1>, [
-[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
-[<ore:ingotElectrum>, <ore:ingotLead>, <ore:ingotElectrum>], 
-[<ore:livingwood>, <ore:blockRedstone>, <ore:livingwood>]]);
-
 #Reinforced Storage Crate
 #recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
 #[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>],
 #[<ore:stickIron>, <immersiveengineering:wooden_device0:0>, <ore:stickIron>], 
 #[<ore:livingwood>, <ore:plateIron>, <ore:livingwood>]]);
-
-#Windmill Blade
-recipes.addShaped(<immersiveengineering:material:11>, [
-[<ore:livingwood>, <ore:livingwood>, null],
-[<ore:livingwoodTwig>, <ore:livingwoodTwig>, <ore:livingwood>], 
-[<ore:livingwoodTwig>, <ore:livingwoodTwig>, null]]);
-
-#Waterwheel Blade
-recipes.addShaped(<immersiveengineering:material:10>, [
-[null, <ore:livingwoodTwig>, null],
-[<ore:livingwoodTwig>, <ore:livingwood>, <ore:livingwoodTwig>], 
-[<ore:livingwood>, <ore:livingwoodTwig>, <ore:livingwood>]]);
 
 #Extracting Conveyor
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}), [
