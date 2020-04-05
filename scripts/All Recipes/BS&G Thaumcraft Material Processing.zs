@@ -72,16 +72,28 @@ mods.thaumcraft.Crucible.registerRecipe("HeavyFuelSteamCracking", "", steamHeavy
 mods.thaumcraft.Crucible.registerRecipe("TarSteamCracking", "", steamTar, Tar, [<aspect:aqua>*12, <aspect:ignis>*12, <aspect:alkimia>*12, <aspect:perditio>*12]);
 
 #--Cobbleworks--
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksStoneReplication", "HEDGEALCHEMY", <minecraft:stone>*2, <minecraft:stone>, [<aspect:terra>*5]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksStone", "HEDGEALCHEMY", <minecraft:stone>, <minecraft:cobblestone>, [<aspect:ordo>*2, <aspect:ignis>*2]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksCobble", "HEDGEALCHEMY", <minecraft:cobblestone>, <minecraft:stone>, [<aspect:perditio>*3]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksGravel", "HEDGEALCHEMY", <minecraft:gravel>, <minecraft:cobblestone>, [<aspect:perditio>*3]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksSand", "HEDGEALCHEMY", <minecraft:sand>, <minecraft:gravel>, [<aspect:perditio>*3]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksDust", "HEDGEALCHEMY", <ore:dustStone>.firstItem, <minecraft:sand>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksStoneReplication", "HEDGEALCHEMY@3", <minecraft:stone>*2, <minecraft:stone>, [<aspect:terra>*5]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksStone", "HEDGEALCHEMY@3", <minecraft:stone>, <minecraft:cobblestone>, [<aspect:ordo>*2, <aspect:ignis>*2]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksCobble", "HEDGEALCHEMY@3", <minecraft:cobblestone>, <minecraft:stone>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGravel", "HEDGEALCHEMY@3", <minecraft:gravel>, <minecraft:cobblestone>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksSand", "HEDGEALCHEMY@3", <minecraft:sand>, <minecraft:gravel>, [<aspect:perditio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksRedSand", "HEDGEALCHEMY@3", <minecraft:sand>, <minecraft:sand>, [<aspect:permutatio>*1]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksDust", "HEDGEALCHEMY@3", <ore:dustStone>.firstItem, <minecraft:sand>, [<aspect:perditio>*3]);
 
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksFlint", "HEDGEALCHEMY", <minecraft:flint>, <minecraft:gravel>, [<aspect:instrumentum>*5]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlass", "HEDGEALCHEMY", <minecraft:glass>, <minecraft:sand>, [<aspect:ordo>*2, <aspect:ignis>*2]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlassClear", "HEDGEALCHEMY", <tconstruct:clear_glass>, <minecraft:glass>, [<aspect:ordo>*1]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksFlint", "HEDGEALCHEMY@3", <minecraft:flint>, <minecraft:gravel>, [<aspect:instrumentum>*5]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlass", "HEDGEALCHEMY@3", <minecraft:glass>, <minecraft:sand>, [<aspect:ordo>*2, <aspect:ignis>*2]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlassClear", "HEDGEALCHEMY@3", <tconstruct:clear_glass>, <minecraft:glass>, [<aspect:ordo>*1]);
+
+#---Metalworking---
+mods.thaumcraft.Crucible.registerRecipe("SmeltingIronToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:ingotIron>, [<aspect:ordo>*5, <aspect:ignis>*10, <aspect:metallum>*5]);
+mods.thaumcraft.Crucible.registerRecipe("SmeltingWroughtIronToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, [<aspect:ordo>*3, <aspect:ignis>*10, <aspect:metallum>*3]);
+mods.thaumcraft.Crucible.registerRecipe("SmeltingDustToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:dustSteel>, [<aspect:ordo>*5, <aspect:ignis>*10]);
+
+mods.thaumcraft.Crucible.registerRecipe("SmeltingDustToInvar", "METALLURGY@1", <ore:ingotInvar>.firstItem, <ore:dustInvar>, [<aspect:ordo>*5, <aspect:ignis>*10]);
+
+mods.thaumcraft.Crucible.registerRecipe("SmeltingSteelDustToDamascus", "METALLURGY@1", <ore:ingotDamascusSteel>.firstItem, <ore:dustSteel>, [<aspect:ordo>*5, <aspect:ignis>*10, <aspect:praecantatio>*5, <aspect:aversio>*3, <aspect:praemunio>*3]);
+mods.thaumcraft.Crucible.registerRecipe("SmeltingDustToDamascus", "METALLURGY@1", <ore:ingotDamascusSteel>.firstItem, <ore:dustSteel>, [<aspect:ordo>*5, <aspect:ignis>*10, <aspect:praecantatio>*2]);
+mods.thaumcraft.Crucible.registerRecipe("SmeltingSteelToDamascus", "METALLURGY@1", <ore:ingotDamascusSteel>.firstItem, <ore:dustSteel>, [<aspect:praecantatio>*5, <aspect:aversio>*3, <aspect:praemunio>*3]);
 
 #---Infusion Alter---
 #--Alchemical Clathrates--
