@@ -217,7 +217,7 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:dustMarble>.firstItem*1, <ore:s
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustOmotholMarble>.firstItem*1, <ore:stoneOmotholMarble>, 1024, <ore:dustOmotholMarble>.firstItem, 0.25);
 
 #Netherrack
-mods.immersiveengineering.Crusher.addRecipe(<ore:dustNetherrack>.firstItem*1, <ore:netherrack>, 1024, <ore:nuggetGld>.firstItem, 0.15);
+mods.immersiveengineering.Crusher.addRecipe(<ore:dustNetherrack>.firstItem*1, <ore:netherrack>, 1024, <ore:nuggetGold>.firstItem, 0.15);
 
 #Obsidian
 mods.immersiveengineering.Crusher.addRecipe(<ore:gravelObsidian>.firstItem*1, <ore:obsidian>, 1024, <ore:dustObsidian>.firstItem, 0.1);
@@ -548,7 +548,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<ore:boltNaquadahEnriched>.firstI
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltNaquadria>.firstItem*2, <ore:stickNaquadria>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltTritanium>.firstItem*2, <ore:stickTritanium>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltDuranium>.firstItem*2, <ore:stickDuranium>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyphenyleneSulfide>.firstItem*2, <ore:stickPolyphenyleneSulphide>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyphenyleneSulfide>.firstItem*2, <ore:stickPolyphenyleneSulfide>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltNickelZincFerrite>.firstItem*2, <ore:stickNickelZincFerrite>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ore:boltPolyvinylChloride>.firstItem*2, <ore:stickPolyvinylChloride>.firstItem, <contenttweaker:presstoolcutter>, 200, 1);
 

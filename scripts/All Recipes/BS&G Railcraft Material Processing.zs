@@ -1024,9 +1024,9 @@ RollingMachine.addShaped(<ore:stickLongPotassium>.firstItem, [
 [<ore:stickPotassium>, null],
 [null, <ore:stickPotassium>]], 200);
 
-RollingMachine.addShaped(<ore:stickLongPraesodymium>.firstItem, [
-[<ore:stickPraesodymium>, null],
-[null, <ore:stickPraesodymium>]], 200);
+RollingMachine.addShaped(<ore:stickLongPraseodymium>.firstItem, [
+[<ore:stickPraseodymiumm>, null],
+[null, <ore:stickPraseodymium>]], 200);
 
 RollingMachine.addShaped(<ore:stickLongPromethium>.firstItem, [
 [<ore:stickPromethium>, null],

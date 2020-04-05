@@ -122,7 +122,7 @@ mods.thaumcraft.Crucible.registerRecipe("oreTungstate", "METALPURIFICATION", <or
 #Magnesium
 mods.thaumcraft.Crucible.registerRecipe("oreMagnesium", "METALPURIFICATION", <ore:clusterMagnesium>.firstItem, <ore:crushedPurifiedMagnesium>, [<aspect:metallum>*15, <aspect:ignis>*5,  <aspect:lux>*5]);
 mods.thaumcraft.Crucible.registerRecipe("oreMagnesite", "METALPURIFICATION", <ore:clusterMagnesium>.firstItem, <ore:crushedPurifiedMagnesite>, [<aspect:metallum>*15, <aspect:ignis>*8,  <aspect:lux>*8]);
-mods.thaumcraft.Crucible.registerRecipe("oreMagnesia", "METALPURIFICATION", <ore:clusterMagnesia>.firstItem, <ore:crushedPurifiedMagnesium>, [<aspect:metallum>*15, <aspect:ignis>*5,  <aspect:lux>*5]);
+mods.thaumcraft.Crucible.registerRecipe("oreMagnesia", "METALPURIFICATION", <ore:clusterMagnesium>.firstItem, <ore:crushedPurifiedMagnesium>, [<aspect:metallum>*15, <aspect:ignis>*5,  <aspect:lux>*5]);
 
 #Manganese
 mods.thaumcraft.Crucible.registerRecipe("oreManganese", "METALPURIFICATION", <ore:clusterManganese>.firstItem, <ore:crushedPurifiedManganese>, [<aspect:metallum>*15, <aspect:tenebrae>*5]);

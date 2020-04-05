@@ -22,7 +22,7 @@ print("I'm not evil I promise");
 <ore:crystalClusterOxygen>.add(<abyssalcraft:crystalcluster:4>);
 <ore:crystalClusterHydrogen>.add(<abyssalcraft:crystalcluster:5>);
 <ore:crystalClusterNitrogen>.add(<abyssalcraft:crystalcluster:6>);
-<ore:crystalClusterPhosphor>.add(<abyssalcraft:crystalcluster:7>);
+<ore:crystalClusterPhosphorus>.add(<abyssalcraft:crystalcluster:7>);
 <ore:crystalClusterPotassium>.add(<abyssalcraft:crystalcluster:8>);
 <ore:crystalClusterNitrate>.add(<abyssalcraft:crystalcluster:9>);
 <ore:crystalClusterMethane>.add(<abyssalcraft:crystalcluster:10>);

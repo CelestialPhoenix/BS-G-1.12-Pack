@@ -67,7 +67,7 @@ recipes.removeShaped(Crystal);
 recipes.removeShaped(CrystalShard);
 recipes.removeShaped(CrystalFragment);
 }
-
+recipes.removeShaped(<abyssalcraft:crystal:11>);
 
 #dusts
 recipes.removeShaped(<acintegration:dust:0>); #Abyssalnite
