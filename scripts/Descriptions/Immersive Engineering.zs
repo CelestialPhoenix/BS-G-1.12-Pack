@@ -25,8 +25,14 @@ mods.jei.JEI.addDescription([<immersiveengineering:stone_decoration>],"Alloy kil
 #watermill
 mods.jei.JEI.addDescription([<immersiveengineering:wooden_device1>],"Generates a small amount of Rf from flowing water", "Placed onto the front of a kinetic dynamo", "Occupies a 7x7x1 space (ignoring corners) centered on the dynamo", "Up to 3 waterwheels can be connected to the dynamo");
 
+#insulator
+mods.jei.JEI.addDescription([<immersiveengineering:connector:1>, <immersiveengineering:connector:3>, <immersiveengineering:connector:5>],"An Insulator will connect multiple Rf conduits together, and will not connect to the block its placed on.");
+
 #terminal block (capacitor)
-mods.jei.JEI.addDescription([<immersiveengineering:metal_device0>],"Additional connector block for Rf conduit.", "Makes connections between conduits and blocks when they normally wouldn't", "Can also be used to divert and manage power flow", "Use an Engineer's Hammer to configure the sides;", "Blue= Rf input", "Orange= Rf output", "Blank= No connection");
+mods.jei.JEI.addDescription([<immersiveengineering:metal_device0>],"Additional connector block for Rf conduit.", "Can also be used to divert and manage power flow", "Use an Engineer's Hammer to configure the sides;", "Blue= Rf input", "Orange= Rf output", "Blank= No connection");
+
+#terminal (connector)
+mods.jei.JEI.addDescription([<immersiveengineering:connector:0>, <immersiveengineering:connector:2>, <immersiveengineering:connector:4>],"A terminal will connect a single Rf conduit with the block its placed on.");
 
 #---Materials---
 #Treated Wood <immersiveengineering:treated_wood>
