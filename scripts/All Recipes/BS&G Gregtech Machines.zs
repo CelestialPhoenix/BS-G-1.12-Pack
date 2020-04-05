@@ -273,6 +273,13 @@ recipes.addShaped(<meta_tile_entity:gregtech:cracker>, [
 [<ore:circuitGood>, <ore:hullHV>, <ore:circuitGood>], 
 [<ore:elementCupronickel>, <ore:pumpHV>, <ore:elementCupronickel>]]);
 
+#EBF
+recipes.addShaped(<meta_tile_entity:gregtech:electric_blast_furnace>, [
+[<ore:plateInvar>, <ore:circuitBasic>, <ore:plateInvar>], 
+[<ore:circuitBasic>, <gregtech:metal_casing:2>, <ore:circuitBasic>], 
+[<ore:plateInvar>, <minecraft:furnace>, <ore:plateInvar>]]);
+<meta_tile_entity:gregtech:electric_blast_furnace>.addTooltip("EBF");
+
 #Primitive BF
 recipes.remove(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>);
 recipes.addShaped(<meta_tile_entity:gregtech:primitive_blast_furnace.bronze>, [
