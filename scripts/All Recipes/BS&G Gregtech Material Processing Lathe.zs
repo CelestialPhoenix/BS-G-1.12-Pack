@@ -10,21 +10,21 @@ val lathe as RecipeMap = RecipeMap.getByName("lathe");
 #---Connectors (ImEng Insulators/Terminals)
 lathe
     .recipeBuilder()
-    .inputs(<ore:plankTreatedWood>.firstItem)
+    .inputs(<ore:plankTreatedWood>)
     .outputs(<immersiveengineering:connector:1>, <ore:dustSmallWood>.firstItem*1)
     .duration(200)
     .EUt(16)
     .buildAndRegister();
 lathe
     .recipeBuilder()
-    .inputs(<ore:hardenedClay>.firstItem)
+    .inputs(<ore:hardenedClay>)
     .outputs(<immersiveengineering:connector:3>, <ore:dustSmallClay>.firstItem*1)
     .duration(200)
     .EUt(16)
     .buildAndRegister();
 lathe
     .recipeBuilder()
-    .inputs(<ore:glassInsulating>.firstItem)
+    .inputs(<ore:glassInsulating>)
     .outputs(<immersiveengineering:connector:5>, <ore:dustSmallGlass>.firstItem*1)
     .duration(200)
     .EUt(16)
