@@ -161,6 +161,12 @@ furnace.addRecipe(<minecraft:netherbrick> , <contenttweaker:claynether>, 0.0);
 #Obsidian
 recipes.remove(<minecraft:obsidian>); #Fix this stupid recipe
 
+#Paper
+recipes.remove(<minecraft:paper>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
+recipes.remove(<minecraft:paper>, <ore:dustPaper>); #Simpler Chad crafting
+recipes.addShaped(<minecraft:paper>*2,[
+[<ore:dustPaper>, <ore:dustPaper>, <ore:dustPaper>]]);
+
 #Podzol
 recipes.remove(<minecraft:dirt:2>, <minecraft:water_bucket>); #Fix TFo bucket stupidity
 

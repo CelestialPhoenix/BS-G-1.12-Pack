@@ -12,6 +12,7 @@ val FluidSolidifier as RecipeMap = RecipeMap.getByName("fluid_solidifier");
 FluidSolidifier
     .recipeBuilder()
     .fluidInputs([<liquid:bitumen>*100])
+	.notConsumable(<metaitem:shape.mold.ball>)
 	.outputs(<immersivepetroleum:material>*1)
     .duration(100)
     .EUt(24)
@@ -21,6 +22,7 @@ FluidSolidifier
 FluidSolidifier
     .recipeBuilder()
     .fluidInputs([<liquid:tar>*100])
+	.notConsumable(<metaitem:shape.mold.ball>)
 	.outputs(<thermalfoundation:material:892>*1)
     .duration(100)
     .EUt(24)

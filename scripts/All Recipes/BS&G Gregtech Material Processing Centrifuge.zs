@@ -16,7 +16,6 @@ centrifuge
     .outputs(<ore:dustRawRubber>.firstItem*1)
 	.chancedOutput(<ore:dustRawRubber>.firstItem, 2500, 1000)
 	.chancedOutput(<metaitem:plant_ball>, 1000, 850)
-	.fluidOutputs([<liquid:glue>*10])
     .duration(200)
     .EUt(5)
     .buildAndRegister();

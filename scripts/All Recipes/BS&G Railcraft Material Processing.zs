@@ -84,7 +84,7 @@ RockCrusher.remove(<railcraft:brick_diorite:5>);
 RockCrusher.remove(<railcraft:brick_granite:5>);
 RockCrusher.remove(<railcraft:brick_pearlized:5>);
 
-#---Rolling Machine---
+#---Rolling Machine//Metalworker---
 #--Removed Stock Recipes--
 #Plates
 RollingMachine.remove(<railcraft:plate:0>);
@@ -233,6 +233,119 @@ RollingMachine.addShaped(<ore:barsIron>.firstItem*12, [
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
 [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]], 200);
+
+#---Mixed Metal Ingots---
+#Mixed Metal
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem, [
+[<ore:plateZinc>, <ore:plateZinc>, <ore:plateZinc>],
+[<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem, [
+[<ore:plateZinc>, <ore:plateZinc>, <ore:plateZinc>],
+[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*2, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*2, [
+[<ore:plateZinc>, <ore:plateZinc>, <ore:plateZinc>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*3, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*3, [
+[<ore:plateChrome>, <ore:plateChrome>, <ore:plateChrome>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*4, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*4, [
+[<ore:plateChrome>, <ore:plateChrome>, <ore:plateChrome>],
+[<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>],
+[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*5, [
+[<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>],
+[<ore:plateKanthal>, <ore:plateKanthal>, <ore:plateKanthal>],
+[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*6, [
+[<ore:plateVanadiumSteel>, <ore:plateVanadiumSteel>, <ore:plateVanadiumSteel>],
+[<ore:plateKanthal>, <ore:plateKanthal>, <ore:plateKanthal>],
+[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotMixedMetal>.firstItem*8, [
+[<ore:plateTungstenCarbide>, <ore:plateTungstenCarbide>, <ore:plateTungstenCarbide>],
+[<ore:plateNichrome>, <ore:plateNichrome>, <ore:plateNichrome>],
+[<ore:plateTungstenSteel>, <ore:plateTungstenSteel>, <ore:plateTungstenSteel>]], 200);
+
+#IridiumAlloy
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem, [
+[<ore:plateIridium>, <ore:plateTungsten>, <ore:plateIridium>],
+[<ore:plateTungsten>, <ore:dustDiamond>, <ore:plateTungsten>],
+[<ore:plateIridium>, <ore:plateTungsten>, <ore:plateIridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem, [
+[<ore:plateIridium>, <ore:plateTungstenSteel>, <ore:plateIridium>],
+[<ore:plateTungstenSteel>, <ore:dustDiamond>, <ore:plateTungstenSteel>],
+[<ore:plateIridium>, <ore:plateTungstenSteel>, <ore:plateIridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*2, [
+[<ore:plateIridium>, <ore:plateHSSE>, <ore:plateIridium>],
+[<ore:plateHSSE>, <ore:dustDiamond>, <ore:plateHSSE>],
+[<ore:plateIridium>, <ore:plateHSSE>, <ore:plateIridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*2, [
+[<ore:plateIridium>, <ore:plateHSSG>, <ore:plateIridium>],
+[<ore:plateHSSG>, <ore:dustDiamond>, <ore:plateHSSG>],
+[<ore:plateIridium>, <ore:plateHSSG>, <ore:plateIridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*2, [
+[<ore:plateIridium>, <ore:plateHSSS>, <ore:plateIridium>],
+[<ore:plateHSSS>, <ore:dustDiamond>, <ore:plateHSSS>],
+[<ore:plateIridium>, <ore:plateHSSS>, <ore:plateIridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*2, [
+[<ore:plateOsmiridium>, <ore:plateTungstenSteel>, <ore:plateOsmiridium>],
+[<ore:plateTungstenSteel>, <ore:dustDiamond>, <ore:plateTungstenSteel>],
+[<ore:plateOsmiridium>, <ore:plateTungstenSteel>, <ore:plateOsmiridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*4, [
+[<ore:plateOsmiridium>, <ore:plateHSSE>, <ore:plateOsmiridium>],
+[<ore:plateHSSE>, <ore:dustDiamond>, <ore:plateHSSE>],
+[<ore:plateOsmiridium>, <ore:plateHSSE>, <ore:plateOsmiridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*5, [
+[<ore:plateOsmiridium>, <ore:plateHSSG>, <ore:plateOsmiridium>],
+[<ore:plateHSSG>, <ore:dustDiamond>, <ore:plateHSSG>],
+[<ore:plateOsmiridium>, <ore:plateHSSG>, <ore:plateOsmiridium>]], 200);
+
+RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*5, [
+[<ore:plateOsmiridium>, <ore:plateHSSS>, <ore:plateOsmiridium>],
+[<ore:plateHSSS>, <ore:dustDiamond>, <ore:plateHSSS>],
+[<ore:plateOsmiridium>, <ore:plateHSSS>, <ore:plateOsmiridium>]], 200);
 
 #--Posts--
 RollingMachine.remove(<railcraft:post_metal:15>);

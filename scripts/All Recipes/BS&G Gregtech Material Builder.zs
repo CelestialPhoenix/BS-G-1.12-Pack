@@ -127,7 +127,7 @@ var titanium = <material:titanium>;
 titanium.addFlags(["GENERATE_ORE"]);
 
 var tungsten = <material:tungsten>;
-tungsten.addFlags(["GENERATE_ORE"]);
+tungsten.addFlags(["GENERATE_ORE", "GENERATE_RING"]);
 
 var vanadium = <material:vanadium>;
 vanadium.addFlags(["GENERATE_ORE"]);

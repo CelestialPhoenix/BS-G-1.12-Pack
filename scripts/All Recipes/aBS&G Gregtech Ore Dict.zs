@@ -86,6 +86,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 #-ingots-
 #<ore:ingotManasteel>.remove(<metaitem:manasteel.ingot>);
+<ore:ingotMixedMetal>.add(<metaitem:ingot.mixed_metal>);
+<ore:ingotIridiumAlloy>.add(<metaitem:ingot.iridium_alloy>);
 
 #-plantball-
 <ore:plantball>.add(<metaitem:plant_ball>);

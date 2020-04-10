@@ -39,6 +39,9 @@ var steamHeavyFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_
 var steamTar = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_tar", Amount: 1000}});
 
 #---Alchemical Processing---
+#Remove Recipes - done via recipe name
+#mods.thaumcraft.Crucible.removeRecipe(<minecraft:slimeball>);
+
 #-Air Processing-
 #Air
 mods.thaumcraft.Crucible.registerRecipe("NitrogenTransmutation", "", Nitrogen, Air, [<aspect:aer>*2, <aspect:ordo>*2]);
@@ -77,12 +80,14 @@ mods.thaumcraft.Crucible.registerRecipe("CobbleworksStone", "HEDGEALCHEMY@3", <m
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksCobble", "HEDGEALCHEMY@3", <minecraft:cobblestone>, <minecraft:stone>, [<aspect:perditio>*3]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksGravel", "HEDGEALCHEMY@3", <minecraft:gravel>, <minecraft:cobblestone>, [<aspect:perditio>*3]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksSand", "HEDGEALCHEMY@3", <minecraft:sand>, <minecraft:gravel>, [<aspect:perditio>*3]);
-mods.thaumcraft.Crucible.registerRecipe("CobbleworksRedSand", "HEDGEALCHEMY@3", <minecraft:sand>, <minecraft:sand>, [<aspect:permutatio>*1]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksRedSand", "HEDGEALCHEMY@3", <minecraft:sand:1>*4, <minecraft:sand>*4, [<aspect:permutatio>*1]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksDust", "HEDGEALCHEMY@3", <ore:dustStone>.firstItem, <minecraft:sand>, [<aspect:perditio>*3]);
 
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksClay", "HEDGEALCHEMY@3", <minecraft:clay_ball>, <minecraft:soul_sand>, [<aspect:instrumentum>*1, <aspect:humanus>*1]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksFlint", "HEDGEALCHEMY@3", <minecraft:flint>, <minecraft:gravel>, [<aspect:instrumentum>*5]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlass", "HEDGEALCHEMY@3", <minecraft:glass>, <minecraft:sand>, [<aspect:ordo>*2, <aspect:ignis>*2]);
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlassClear", "HEDGEALCHEMY@3", <tconstruct:clear_glass>, <minecraft:glass>, [<aspect:ordo>*1]);
+mods.thaumcraft.Crucible.registerRecipe("CobbleworksSoulSand", "HEDGEALCHEMY@3", <minecraft:soul_sand>, <minecraft:sand:1>, [<aspect:permutatio>*5, <aspect:vinculum>*5, <aspect:spiritus>*5]);
 
 #---Metalworking---
 mods.thaumcraft.Crucible.registerRecipe("SmeltingIronToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:ingotIron>, [<aspect:ordo>*5, <aspect:ignis>*10, <aspect:metallum>*5]);

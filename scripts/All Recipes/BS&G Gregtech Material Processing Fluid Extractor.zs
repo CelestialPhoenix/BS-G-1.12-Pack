@@ -41,6 +41,56 @@ FluidExtractor
     .EUt(24)
     .buildAndRegister();
 
+#-Glue-
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:leather>*1)
+	.fluidOutputs([<liquid:glue>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<minecraft:leather_helmet>*1)
+	.fluidOutputs([<liquid:glue>*500])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<minecraft:leather_chestplate>*1)
+	.fluidOutputs([<liquid:glue>*800])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<minecraft:leather_leggings>*1)
+	.fluidOutputs([<liquid:glue>*700])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<minecraft:leather_boots>*1)
+	.fluidOutputs([<liquid:glue>*400])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<minecraft:saddle>*1)
+	.fluidOutputs([<liquid:glue>*300])
+    .duration(200)
+    .EUt(24)
+    .buildAndRegister();
+
+
 #-Primal Mana-
 FluidExtractor
     .recipeBuilder()

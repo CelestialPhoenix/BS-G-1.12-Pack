@@ -24,7 +24,7 @@ val compressor as RecipeMap = RecipeMap.getByName("compressor");
 #Blaze Block
 compressor
     .recipeBuilder()
-    .inputs(<ore:stickBlaze>)
+    .inputs(<ore:stickBlaze>*9)
     .outputs(<botania:blazeblock>)
     .duration(100)
     .EUt(2)
@@ -260,23 +260,24 @@ compressor
     .buildAndRegister();
 
 #--Plates--
-/*compressor
+compressor.findRecipe(480, [<ore:dustStone>.firstItem*1], [null]).remove();
+compressor
     .recipeBuilder()
-    .inputs(<ore:dustObsidian>*3)
-    .outputs(<ore:plateObsidian>.firstItem*2)
-    .duration(400)
-    .EUt(4)
-    .buildAndRegister();*/
-
-#-Gemstone plates-
-/*compressor
-    .recipeBuilder()
-    .inputs(<ore:dust>*3)
-    .outputs(<ore:plate>.firstItem*2)
+    .inputs(<ore:dustStone>*3)
+    .outputs(<ore:plateStone>.firstItem*2)
     .duration(400)
     .EUt(4)
     .buildAndRegister();
-*/
+compressor.findRecipe(480, [<ore:dustRedstone>.firstItem*1], [null]).remove();
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustRedstone>*3)
+    .outputs(<ore:plateRedstone>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+#Gemstones
 compressor
     .recipeBuilder()
     .inputs(<ore:dustAlmandine>*3)

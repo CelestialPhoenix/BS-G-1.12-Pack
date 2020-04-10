@@ -381,3 +381,10 @@ recipes.addShaped(<metaitem:sensor.mv>, [
 #---Shape Plate---
 recipes.remove(<metaitem:shape.empty>);
 recipes.addShapeless(<metaitem:shape.empty>, [<ore:plateThickSteel>]);
+
+#---Mixed Metal Ingots---
+//recipes in Railcraft Material Processing Metalworker
+recipes.remove(<metaitem:ingot.mixed_metal>);
+recipes.remove(<metaitem:ingot.iridium_alloy>);
+
+

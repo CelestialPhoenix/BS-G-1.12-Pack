@@ -16,6 +16,11 @@ recipes.remove(<ore:ingotCarbon>.firstItem, <ore:dustPyrotheum>);
 recipes.remove(<ore:ingotManganese>.firstItem, <ore:dustPyrotheum>);
 recipes.remove(<nuclearcraft:ingot:11>, <ore:dustPyrotheum>);
 recipes.remove(<ore:ingotSilicon>.firstItem, <ore:dustPyrotheum>);
+recipes.remove(<nuclearcraft:ingot:3>, <ore:dustPyrotheum>);
+recipes.remove(<nuclearcraft:ingot:4>, <ore:dustPyrotheum>);
+recipes.remove(<nuclearcraft:ingot:5>, <ore:dustPyrotheum>);
+recipes.remove(<nuclearcraft:ingot:6>, <ore:dustPyrotheum>);
+recipes.remove(<nuclearcraft:ingot:7>, <ore:dustPyrotheum>);
 #recipes.remove(<ore:ingot>.firstItem, <ore:dustPyrotheum>);
 
 recipes.remove(<thermalfoundation:glass:*>);
@@ -273,6 +278,25 @@ recipes.remove(<nuclearcraft:gem_dust:10>, <ore:dustPetrotheum>);
 recipes.remove(<nuclearcraft:dust:11>, <ore:dustPetrotheum>);
 recipes.remove(<nuclearcraft:compound:7>, <ore:dustPetrotheum>);
 recipes.remove(<ore:dustPotassiumFeldspar>.firstItem, <ore:dustPetrotheum>);
+
+recipes.remove(<ore:dustLapis>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustArdite>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustCerium>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustSiliconDioxide>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<ore:dustQuicksilver>.firstItem, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:gem_dust:0>, <ore:dustPetrotheum>);
+recipes.remove(<railcraft:dust:5>, <ore:dustPetrotheum>);
+recipes.remove(<thermalfoundation:material:64>, <ore:dustPetrotheum>);
+recipes.remove(<thermalfoundation:material:65>, <ore:dustPetrotheum>);
+recipes.remove(<thermalfoundation:material:66>, <ore:dustPetrotheum>);
+recipes.remove(<thermalfoundation:material:67>, <ore:dustPetrotheum>);
+recipes.remove(<railcraft:dust:1>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:dust:3>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:dust:4>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:dust:5>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:dust:6>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:dust:7>, <ore:dustPetrotheum>);
+recipes.remove(<immersivetech:material:0>, <ore:dustPetrotheum>);
 
 #---machine parts---
 #redstone servo
