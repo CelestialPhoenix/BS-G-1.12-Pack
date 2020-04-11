@@ -22,7 +22,7 @@ print("O-Natura");
 <natura:nether_logs2:0>.displayName="Bloodwood Log";
 <natura:nether_logs2:15>.displayName="Bloodwood Log";
 
-#---Wild Crops---
+#-Wild Crops-
 #Cotton
 <natura:overworld_seeds:1>.displayName="Wild Cotton Seeds";
 recipes.addShapeless(<natura:overworld_seeds:1>, [<natura:materials:3>]);
@@ -35,3 +35,10 @@ recipes.addShapeless(<natura:overworld_seeds:0>, [<natura:materials:0>]);
 <natura:barley_crop:1>.displayName="Wild Wheat";
 <natura:barley_crop:2>.displayName="Wild Wheat";
 <natura:barley_crop:3>.displayName="Wild Wheat";
+
+#---Disabled Items---
+#Hopper
+recipes.remove(<natura:blaze_hopper>);
+<natura:blaze_hopper>.addTooltip("This item is disabled");
+
+

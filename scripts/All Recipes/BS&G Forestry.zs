@@ -694,3 +694,14 @@ furnace.addRecipe(<forestry:beeswax>, <ore:beeComb>, 0.0);
 #wood nerf
 #Trololoolololollololololoollloolollololololololo :-)
 furnace.addRecipe(<ore:dustAsh>.firstItem*2, <ore:logWood>);
+
+#Weather control
+//does not work with weather mod
+recipes.removeShaped(<forestry:rainmaker>);
+<forestry:rainmaker>.addTooltip("This item is disabled");
+recipes.removeShaped(<forestry:raintank>);
+<forestry:raintank>.addTooltip("This item is disabled");
+mods.forestry.Carpenter.removeRecipe(<forestry:iodine_capsule>);
+<forestry:iodine_capsule>.addTooltip("This item is disabled");
+mods.forestry.Carpenter.removeRecipe(<forestry:crafting_material:4>);
+<forestry:crafting_material:4>.addTooltip("This item is disabled");

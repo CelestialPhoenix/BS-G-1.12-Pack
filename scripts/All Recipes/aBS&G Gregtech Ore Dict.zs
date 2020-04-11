@@ -89,6 +89,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:ingotMixedMetal>.add(<metaitem:ingot.mixed_metal>);
 <ore:ingotIridiumAlloy>.add(<metaitem:ingot.iridium_alloy>);
 
+<ore:plateAdvancedAlloy>.add(<metaitem:plate.advanced_alloy>);
+<ore:plateReinforcedAlloy>.add(<metaitem:plate.iridium_alloy>);
+
 #-plantball-
 <ore:plantball>.add(<metaitem:plant_ball>);
 

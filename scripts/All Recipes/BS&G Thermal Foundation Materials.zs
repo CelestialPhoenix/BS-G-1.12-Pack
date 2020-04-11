@@ -97,8 +97,16 @@ recipes.remove(<thermalfoundation:material:72>);
 
 #Magic Dust
 <thermalfoundation:material:1028>.displayName="Avogadro's Compound";
-#--//--Tempory Recipe!!--//--#
-recipes.addShapeless(<thermalfoundation:material:1028>, [<ore:dustBlaze>, <ore:dustBlizz>, <ore:dustBlitz>, <ore:dustBasalz>, <ore:powderMana>, <ore:dustSalisMundis>]);
+
+recipes.addShaped(<thermalfoundation:material:1028>, [
+[<ore:dustLustrous>, <ore:dustBlizz>, <ore:dustLustrous>],
+[<ore:dustBlitz>, <ore:dustSalisMundis>, <ore:dustBasalz>],
+[<ore:dustLustrous>, <ore:dustBlaze>, <ore:dustLustrous>]]);
+
+recipes.addShaped(<thermalfoundation:material:1028>*2, [
+[<ore:dustLustrous>, <ore:dustCryotheum>, <ore:dustLustrous>],
+[<ore:dustAerotheum>, <ore:dustSalisMundis>, <ore:dustPetrotheum>],
+[<ore:dustLustrous>, <ore:dustPyrotheum>, <ore:dustLustrous>]]);
 
 #Blizz
 recipes.remove(<thermalfoundation:material:2049>);

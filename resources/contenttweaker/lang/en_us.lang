@@ -456,6 +456,8 @@ item.contenttweaker.clusteryttrium.name=Native Yttrium Cluster
 item.contenttweaker.clusterzinc.name=Native Zinc Cluster
 item.contenttweaker.clusterzirconium.name=Native Zirconium Cluster
 
+item.contenttweaker.coilpack.name=Coilpack
+
 item.contenttweaker.coilsimple.name=Simple Coil
 item.contenttweaker.coilinductancebasic.name=Basic Inductance Coil
 item.contenttweaker.coilinductancemodified.name=Good Inductance Coil

@@ -19,6 +19,8 @@ print("Tweak Tweak Tweak Tweak");
 <ore:clathrateToxic>.add(<contenttweaker:clathratetoxic>);
 
 #---Coils---
+<ore:coilpack>.add(<contenttweaker:coilpack>);
+
 <ore:coilSimple>.add(<contenttweaker:coilsimple>);
 
 <ore:coilInductanceBasic>.add(<contenttweaker:coilinductancebasic>);

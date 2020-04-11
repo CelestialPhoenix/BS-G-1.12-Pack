@@ -3,6 +3,11 @@
 
 print("The post duck says...?");
 
+#---Disabled---
+#Hopper
+recipes.remove(<quark:chute>);
+<quark:chute>.addTooltip("This item is disabled");
+
 #---Renaming---
 #Endstone
 <quark:biotite_ore>.displayName="Xenolith Biotite Ore";

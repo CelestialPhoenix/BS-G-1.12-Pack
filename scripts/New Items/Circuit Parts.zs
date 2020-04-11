@@ -23,3 +23,6 @@ PearlQuantum.register();
 
 var CoreQuantum = VanillaFactory.createItem("corequantum");
 CoreQuantum.register();
+
+var CoilPack = VanillaFactory.createItem("coilpack");
+CoilPack.register();

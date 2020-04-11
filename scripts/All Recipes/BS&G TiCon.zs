@@ -27,6 +27,10 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 recipes.remove(<tconstruct:rack:1>);
 <tconstruct:rack:1>.addTooltip("This item is disabled");
 
+#-hopper (wood)
+recipes.remove(<tconstruct:wooden_hopper>);
+<tconstruct:wooden_hopper>.addTooltip("This item is disabled");
+
 #-slimeboots-
 recipes.remove(<tconstruct:slime_boots:0>);
 recipes.remove(<tconstruct:slime_boots:1>);

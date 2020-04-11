@@ -130,6 +130,40 @@ recipes.addShapeless(<contenttweaker:clayredsandy>, [<ore:sandRed>, <ore:gravel>
 recipes.addShapeless(<contenttweaker:clayredsandy>*4, [<ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:sandRed>, <ore:blockClay>]);
 
 #--coils--
+#Coilpack
+var crystalPermutatio = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "permutatio"}]});
+var phialPermutatio = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "permutatio"}]});
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpacksodium", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.sodium>, <ore:circuitBasic>], 
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpacksodium2", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.sodium>, <ore:circuitBasic>], 
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpacklithium", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.lithium>, <ore:circuitBasic>], 
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpacklithium2", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.lithium>, <ore:circuitBasic>], 
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpackcadmium", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.cadmium>, <ore:circuitBasic>], 
+[crystalPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coilpackcadmium2", "", 20, [<aspect:ordo>], <contenttweaker:coilpack>, [
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>],
+[<ore:coilSimple>, <metaitem:battery.re.lv.cadmium>, <ore:circuitBasic>], 
+[phialPermutatio, <ore:ringBrass>, <ore:wireFineCopper>]]);
+
 #Simple
 recipes.addShaped(<contenttweaker:coilsimple>, [
 [<ore:dustRedstone>, <ore:ringCopper>, <ore:ringCopper>],
