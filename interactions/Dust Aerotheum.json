@@ -1,0 +1,33 @@
+#Name: Blood Sweat & Gears DustAerotheum Interactions.JSON
+#Author: PhoePhoe 
+
+[
+  {
+    "targetBlock": "minecraft:dirt",
+    "heldItem": "thermalfoundation:material:1026",
+	"replacementBlock": "minecraft:sand",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:grass",
+    "heldItem": "thermalfoundation:material:1026",
+	"replacementBlock": "minecraft:sand",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "ore:treeSapling",
+    "heldItem": "thermalfoundation:material:1026",
+	"replacementBlock": "minecraft:deadbush",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:gravel",
+    "heldItem": "thermalfoundation:material:1026",
+	"replacementBlock": "minecraft:sand",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  }
+]

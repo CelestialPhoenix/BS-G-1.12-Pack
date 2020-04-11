@@ -1,0 +1,26 @@
+#Name: Blood Sweat & Gears DustPetrotheum Interactions.JSON
+#Author: PhoePhoe 
+
+[
+  {
+    "targetBlock": "biomesoplenty:mud",
+    "heldItem": "thermalfoundation:material:1027",
+	"replacementBlock": "minecraft:clay",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:stone",
+    "heldItem": "thermalfoundation:material:1027",
+	"replacementBlock": "minecraft:gravel",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:cobblestone",
+    "heldItem": "thermalfoundation:material:1027",
+	"replacementBlock": "minecraft:gravel",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  }
+]

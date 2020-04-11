@@ -1,0 +1,40 @@
+#Name: Blood Sweat & Gears DustPyrotheum Interactions.JSON
+#Author: PhoePhoe 
+
+[
+  {
+    "targetBlock": "minecraft:ice",
+    "heldItem": "thermalfoundation:material:1024",
+	"replacementBlock": "minecraft:water",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:packed_ice",
+    "heldItem": "thermalfoundation:material:1024",
+	"replacementBlock": "minecraft:water",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:snow",
+    "heldItem": "thermalfoundation:material:1024",
+	"replacementBlock": "minecraft:water",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:obsidian",
+    "heldItem": "thermalfoundation:material:1024",
+	"replacementBlock": "minecraft:lava",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  },
+  {
+    "targetBlock": "minecraft:magma",
+    "heldItem": "thermalfoundation:material:1024",
+	"replacementBlock": "minecraft:lava",
+    "damage": "1",
+    "damageOnlyOnSuccess": "true"
+  }
+]
