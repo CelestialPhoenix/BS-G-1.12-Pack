@@ -90,7 +90,7 @@ mods.thaumcraft.Crucible.registerRecipe("CobbleworksGlassClear", "HEDGEALCHEMY@3
 mods.thaumcraft.Crucible.registerRecipe("CobbleworksSoulSand", "HEDGEALCHEMY@3", <minecraft:soul_sand>, <minecraft:sand:1>, [<aspect:permutatio>*5, <aspect:vinculum>*5, <aspect:spiritus>*5]);
 
 #---Metalworking---
-mods.thaumcraft.Crucible.registerRecipe("SmeltingIronToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:ingotIron>, [<aspect:ordo>*5, <aspect:ignis>*10, <aspect:metallum>*5]);
+mods.thaumcraft.Crucible.registerRecipe("SmeltingIronToWrought", "METALLURGY@1", <ore:ingotWroughtIron>.firstItem, <ore:ingotIron>, [<aspect:ignis>*2]);
 mods.thaumcraft.Crucible.registerRecipe("SmeltingWroughtIronToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:ingotWroughtIron>, [<aspect:ordo>*3, <aspect:ignis>*10, <aspect:metallum>*3]);
 mods.thaumcraft.Crucible.registerRecipe("SmeltingDustToSteel", "METALLURGY@1", <ore:ingotSteel>.firstItem, <ore:dustSteel>, [<aspect:ordo>*5, <aspect:ignis>*10]);
 

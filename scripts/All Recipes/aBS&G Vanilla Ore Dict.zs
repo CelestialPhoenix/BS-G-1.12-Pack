@@ -80,14 +80,14 @@ print("Mwah ha ha ha ha ha");
 <ore:stoneAndesite>.remove(<minecraft:stone:6>);
 
 #Rocks
-<ore:rockBrick>.add(<minecraft:brick_block>);
-<ore:rockCobblestone>.add(<minecraft:cobblestone>);
-<ore:rockNetherbrick>.add(<minecraft:nether_brick>);
-<ore:rockPurpur>.add(<minecraft:purpur_block>);
-<ore:rockStone>.add(<minecraft:stone:0>);
-<ore:rockStonebrick>.add(<minecraft:stonebrick>);
-<ore:rockSandstone>.add(<minecraft:sandstone:0>);
-<ore:rockRedSandstone>.add(<minecraft:red_sandstone:0>);
+<ore:stoneBrick>.add(<minecraft:brick_block>);
+<ore:stoneCobblestone>.add(<minecraft:cobblestone>);
+<ore:stoneNetherbrick>.add(<minecraft:nether_brick>);
+<ore:stonePurpur>.add(<minecraft:purpur_block>);
+<ore:stoneStone>.add(<minecraft:stone:0>);
+<ore:stoneStonebrick>.add(<minecraft:stonebrick>);
+<ore:stoneSandstone>.add(<minecraft:sandstone:0>);
+<ore:stoneRedSandstone>.add(<minecraft:red_sandstone:0>);
 
 #Slabs
 <ore:slabBrick>.add(<minecraft:stone_slab:4>);

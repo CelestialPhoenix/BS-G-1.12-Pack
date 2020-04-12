@@ -166,6 +166,17 @@ compressor
     .EUt(2)
     .buildAndRegister();
 
+#ImEng
+#-Electrode-
+mods.jei.JEI.addItem(<immersiveengineering:graphite_electrode>.withTag({graphDmg: 72000, display: {Name: "Basic Graphite Electrode"}}));
+compressor
+    .recipeBuilder()
+    .inputs(<ore:ingotGraphite>*6)
+    .outputs(<immersiveengineering:graphite_electrode>.withTag({graphDmg: 72000, display: {Name: "Basic Graphite Electrode"}}))
+    .duration(200)
+    .EUt(400)
+    .buildAndRegister();
+
 #Railcraft- bleached bone, infernal, sandy
 #Ticon- seared
 #Vanilla- clay, nether

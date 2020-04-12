@@ -7,6 +7,17 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val alloysmelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
 
+#Steel fix
+alloysmelter.findRecipe(32, [<ore:ingotSteel>.firstItem*9, <metaitem:shape.mold.block>], null).remove();
+alloysmelter
+    .recipeBuilder()
+	.inputs(<ore:ingotSteel>*9)
+	.notConsumable(<metaitem:shape.mold.block>)
+	.outputs(<ore:blockSteel>.firstItem*1)
+    .duration(100)
+    .EUt(32)
+    .buildAndRegister();
+
 #---Alloy Smelter---
 #--Removed Recipes--
 #Invar Alloying

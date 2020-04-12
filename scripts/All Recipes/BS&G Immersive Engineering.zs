@@ -200,7 +200,9 @@ mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material
 <immersiveengineering:material:3>.addTooltip("This item is disabled");
 
 #--Graphite Electrode--
+<immersiveengineering:graphite_electrode>.displayName="Enchanced Tungsten Electrode";
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:graphite_electrode:*>);
+mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 
 #---plates---
 #copper plate

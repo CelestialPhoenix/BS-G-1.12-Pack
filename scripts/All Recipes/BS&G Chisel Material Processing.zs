@@ -637,6 +637,7 @@ mods.chisel.Carving.addVariation("blockSilver", <nuclearcraft:ingot_block:13>);
 #blockSteel
 mods.chisel.Carving.removeGroup("blockSteel");
 mods.chisel.Carving.addGroup("blockSteel");
+mods.chisel.Carving.addVariation("blockSteel", <immersiveengineering:storage:8>);
 mods.chisel.Carving.addVariation("blockSteel", <gregtech:compressed_8:4>);
 mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:0>);
 mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:1>);
@@ -645,7 +646,6 @@ mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:3>);
 mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:4>);
 mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:5>);
 mods.chisel.Carving.addVariation("blockSteel", <chisel:blocksteel:6>);
-mods.chisel.Carving.addVariation("blockSteel", <immersiveengineering:storage:8>);
 mods.chisel.Carving.addVariation("blockSteel", <primal:metalblock:1>);
 mods.chisel.Carving.addVariation("blockSteel", <railcraft:metal:3>);
 mods.chisel.Carving.addVariation("blockSteel", <thermalfoundation:storage_alloy>);

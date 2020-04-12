@@ -7,6 +7,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 #Gemstone, hard ingots removed
 #Dust, soft ingots kept
 #recipes.remove(<ore:block>.firstItem);
+
+recipes.remove(<gregtech:compressed_8:4>);
 recipes.remove(<ore:blockIronMagnetic>.firstItem);
 recipes.remove(<ore:blockSteelMagnetic>.firstItem);
 recipes.remove(<ore:blockAluminium>.firstItem);

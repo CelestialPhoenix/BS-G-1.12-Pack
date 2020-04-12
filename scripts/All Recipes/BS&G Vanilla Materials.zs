@@ -11,7 +11,7 @@ print("Mwah ha ha ha ha ha");
 var oreDiamond = (<minecraft:diamond_ore>) as IBlock;
 oreDiamond.definition.setHarvestLevel("pickaxe", 3);
 
-var oreIron = (<minecraft:diamond_ore>) as IBlock;
+var oreIron = (<minecraft:iron_ore>) as IBlock;
 oreIron.definition.setHarvestLevel("pickaxe", 2);
 
 var netherrack = (<minecraft:netherrack>) as IBlock;

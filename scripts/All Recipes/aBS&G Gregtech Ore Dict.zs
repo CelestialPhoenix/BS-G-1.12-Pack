@@ -31,6 +31,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 #<ore:stoneAny>.add(<gregtech:mineral:*>);
 #<ore:stoneAny>.add(<gregtech:concrete:*>);
 
+<ore:blockSteel>.remove(<gregtech:compressed_8:4>);
+
 #---items--- 
 <ore:cellEmpty>.add(<metaitem:fluid_cell>);
 <ore:starQuantum>.add(<metaitem:quantumstar>);

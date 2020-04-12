@@ -14,7 +14,7 @@ print("Trust me I'm an engineer");
 <ore:blockUranium>.remove(<immersiveengineering:storage:5>);
 <ore:blockConstantan>.remove(<immersiveengineering:storage:6>);
 <ore:blockElectrum>.remove(<immersiveengineering:storage:7>);
-<ore:blockSteel>.remove(<immersiveengineering:storage:8>);
+#<ore:blockSteel>.remove(<immersiveengineering:storage:8>);
 <ore:blockFuelCoke>.remove(<immersiveengineering:stone_decoration:3>);
 
 #Dust

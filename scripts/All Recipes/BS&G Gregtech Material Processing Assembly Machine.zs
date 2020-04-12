@@ -371,11 +371,11 @@ theassembler
     .EUt(64)
     .buildAndRegister();
 
-#Replacing Gtech rubber with IC2
+#Fix woodplate count in recipe
 theassembler.findRecipe(8, [<ore:plateWood>.firstItem * 8, <metaitem:rubber_drop>*1], [<liquid:glue>*100]).remove();
 theassembler
     .recipeBuilder()
-    .inputs(<ore:plateWood>*8, <metaitem:rubber_drop>*1)
+    .inputs(<ore:plateWood>*1, <metaitem:rubber_drop>*1)
 	.fluidInputs([<liquid:glue>*100])
     .outputs(<metaitem:board.coated>)
     .duration(180)
@@ -1361,6 +1361,26 @@ theassembler.findRecipe(4, [<minecraft:planks:5> * 6, <metaitem:circuit.integrat
 #-Wood Trapdoors-
 #Vanilla
 theassembler.findRecipe(4, [<ore:plankWood>.firstItem * 3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();
+
+#---Immersive Engineering---
+mods.jei.JEI.addItem(<immersiveengineering:graphite_electrode>.withTag({graphDmg: 12000, display: {Name: "Tungsten Electrode"}}));
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickLongTungsten>, <ore:ringTungsten>)
+    .outputs(<immersiveengineering:graphite_electrode>.withTag({graphDmg: 12000, display: {Name: "Tungsten Electrode"}}))
+	.property("circuit", 2)
+    .duration(300)
+    .EUt(500)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:stickLongTungstenThoriumAlloy>, <ore:ringTungstenThoriumAlloy>)
+    .outputs(<immersiveengineering:graphite_electrode>)
+	.property("circuit", 2)
+    .duration(300)
+    .EUt(500)
+    .buildAndRegister();
 
 #---Immersive Posts---
 #This awesome looping script was modified from FTB interactions

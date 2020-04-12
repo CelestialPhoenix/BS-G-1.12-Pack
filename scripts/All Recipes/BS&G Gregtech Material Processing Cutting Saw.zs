@@ -1127,7 +1127,7 @@ var stoneSlabs as string[] = [
 	"RedSandstone"];
 
 for input in stoneSlabs {
-	var rockStone as IItemStack = oreDict["rock"~input].firstItem;
+	var rockStone as IItemStack = oreDict["stone"~input].firstItem;
 	var slabStone as IItemStack = oreDict["slab"~input].firstItem;
 
 CuttingMachine
