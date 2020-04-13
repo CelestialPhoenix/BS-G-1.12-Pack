@@ -9,6 +9,15 @@ item.botania:manasteelAxe.name=Manadiamond Axe
 item.botania:manasteelSword.name=Manadiamond Sword
 item.botania:manasteelShears.name=Manadiamond Shears
 
+contenttweaker.part.tool_head_axe=%s Axe Head
+contenttweaker.part.tool_head_hammer=%s Hammer Head
+contenttweaker.part.tool_head_hoe=%s Hoe Head
+contenttweaker.part.tool_head_pickaxe=%s Pickaxe Head
+contenttweaker.part.tool_head_sense=%s Sense Blade
+contenttweaker.part.tool_head_sword=%s Sword Blade
+contenttweaker.part.tool_head_shovel=%s Shovel Head
+contenttweaker.part.tool_head_universal_spade=%s Universal Spade Head
+
 tile.contenttweaker.orecobalt.name=Cobalt Ore
 tile.contenttweaker.orecobaltic.name=Cobaltic
 tile.contenttweaker.orecobaltite.name=Cobaltite
