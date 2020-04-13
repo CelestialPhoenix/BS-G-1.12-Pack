@@ -634,3 +634,65 @@ recipes.addShaped(rolledBlock, [
 
 #---Tools/Tool parts---
 recipes.addShapeless(<contenttweaker:toolrodwood>, [<ore:stickWood>]);
+
+#--CT missing tool heads--
+var toolMaterials as string[] = [
+	"Constantan", 
+	"Copper", 
+	"Electrum", 
+	"Gold", 
+	"Lead", 
+	"Nickel", 
+	"Silver", 
+	"Platinum", 
+	"Tin"];
+
+for input in toolMaterials {
+	var oreIngot as IItemStack = oreDict["ingot"~input].firstItem;
+	var orePlate as IItemStack = oreDict["plate"~input].firstItem;
+	var toolAxe as IItemStack = oreDict["toolHeadAxe"~input].firstItem;
+	var toolHammer as IItemStack = oreDict["toolHeadHammer"~input].firstItem;
+	var toolHoe as IItemStack = oreDict["toolHeadHoe"~input].firstItem;
+	var toolPickaxe as IItemStack = oreDict["toolHeadPickaxe"~input].firstItem;
+	var toolSense as IItemStack = oreDict["toolHeadSense"~input].firstItem;
+	var toolShovel as IItemStack = oreDict["toolHeadShovel"~input].firstItem;
+	var toolSword as IItemStack = oreDict["toolHeadSword"~input].firstItem;
+	var toolUniversalSpade as IItemStack = oreDict["toolHeadUniversalSpade"~input].firstItem;
+
+recipes.removeShaped(toolAxe);
+recipes.addShaped(toolAxe, [
+[orePlate, oreIngot],
+[orePlate, null]]);
+
+recipes.removeShaped(toolHammer);
+recipes.addShaped(toolHammer, [
+[orePlate, oreIngot, orePlate],
+[orePlate, oreIngot, orePlate]]);
+
+recipes.removeShaped(toolHoe);
+recipes.addShaped(toolHoe, [
+[orePlate, oreIngot]);
+
+recipes.removeShaped(toolPickaxe);
+recipes.addShaped(toolPickaxe, [
+[orePlate, oreIngot, orePlate]]);
+
+recipes.removeShaped(toolSense);
+recipes.addShaped(toolSense, [
+[orePlate, orePlate, orePlate]]);
+
+recipes.removeShaped(toolShovel);
+recipes.addShaped(toolShovel, [
+[orePlate]]);
+
+recipes.removeShaped(toolSword);
+recipes.addShaped(toolSword, [
+[orePlate],
+[orePlate]]);
+
+recipes.removeShaped(toolUniversalSpade);
+recipes.addShaped(toolUniversalSpade, [
+[orePlate, orePlate, orePlate],
+[oreIngot, null, oreIngot],
+[null, oreIngot, null]]);
+}

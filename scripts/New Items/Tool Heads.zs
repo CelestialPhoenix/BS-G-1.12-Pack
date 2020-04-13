@@ -12,11 +12,15 @@ import mods.contenttweaker.Material;
 
 var constantan = MaterialSystem.getMaterialBuilder().setName("Constantan").setColor(0xE39680).build();
 var copper = MaterialSystem.getMaterialBuilder().setName("Copper").setColor(0xFF8000).build();
+var electrum = MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(0xFFFF00).build();
 var gold = MaterialSystem.getMaterialBuilder().setName("Gold").setColor(0xFFFF00).build();
+var lead = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(0x8C648C).build();
+var nickel = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(0xAAAAFF).build();
 var silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(0xDCDCFF).build();
+var platinum = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(0xFFFF99).build();
 var tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(0xDCDCDC).build();
 
-var metal_list = [constantan, copper, gold, silver, tin] as Material[];
+var metal_list = [constantan, copper, electrum, gold, lead, nickel, silver, platinum, tin] as Material[];
 var part_names = ["tool_head_axe", "tool_head_hammer", "tool_head_hoe", "tool_head_pickaxe", "tool_head_sense", "tool_head_shovel", "tool_head_sword", "tool_head_universal_spade"] as string[];
 
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("tool_head_axe").setPartType(MaterialSystem.getPartType("item")).setOreDictName("toolHeadAxe").build();
