@@ -9,6 +9,10 @@ item.botania:manasteelAxe.name=Manadiamond Axe
 item.botania:manasteelSword.name=Manadiamond Sword
 item.botania:manasteelShears.name=Manadiamond Shears
 
+contenttweaker.part.frangible=Frangible %s
+
+contenttweaker.part.clathrate=%s Clathrate
+
 contenttweaker.part.tool_head_axe=%s Axe Head
 contenttweaker.part.tool_head_hammer=%s Hammer Head
 contenttweaker.part.tool_head_hoe=%s Hoe Head

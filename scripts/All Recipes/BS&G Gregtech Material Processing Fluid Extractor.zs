@@ -8,10 +8,10 @@ print("Hello Boys- I'm Baaaaack!!!");
 val FluidExtractor as RecipeMap = RecipeMap.getByName("fluid_extractor");
 
 #---Fluid Extraction---
-#--Alchemy--
+#--Alchemical Clathrates--
 FluidExtractor
     .recipeBuilder()
-    .inputs(<contenttweaker:clathrateluck>*1)
+    .inputs(<ore:clathrateLuck>*1)
 	.fluidOutputs([<liquid:luck>*100])
     .duration(100)
     .EUt(24)
@@ -19,7 +19,7 @@ FluidExtractor
 
 FluidExtractor
     .recipeBuilder()
-    .inputs(<contenttweaker:clathratemagnetic>*1)
+    .inputs(<ore:clathrateMagnetic>*1)
 	.fluidOutputs([<liquid:magnetic>*100])
     .duration(100)
     .EUt(24)
@@ -27,7 +27,7 @@ FluidExtractor
 
 FluidExtractor
     .recipeBuilder()
-    .inputs(<contenttweaker:clathraterefinedantimatter>*1)
+    .inputs(<ore:clathrateRefinedAntimatter>*1)
 	.fluidOutputs([<liquid:refined_antimatter>*300])
     .duration(100)
     .EUt(24)
@@ -35,7 +35,7 @@ FluidExtractor
 
 FluidExtractor
     .recipeBuilder()
-    .inputs(<contenttweaker:clathratetoxic>*1)
+    .inputs(<ore:clathrateToxic>*1)
 	.fluidOutputs([<liquid:toxic>*100])
     .duration(100)
     .EUt(24)
@@ -135,7 +135,7 @@ FluidExtractor
 
 FluidExtractor
     .recipeBuilder()
-    .inputs(<contenttweaker:clathratelubricant>*1)
+    .inputs(<ore:clathrateLubricant>*1)
 	.fluidOutputs([<liquid:lubricant>*100])
     .duration(100)
     .EUt(24)

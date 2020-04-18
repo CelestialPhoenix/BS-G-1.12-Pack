@@ -671,7 +671,7 @@ recipes.addShaped(toolHammer, [
 
 recipes.removeShaped(toolHoe);
 recipes.addShaped(toolHoe, [
-[orePlate, oreIngot]);
+[orePlate, oreIngot]]);
 
 recipes.removeShaped(toolPickaxe);
 recipes.addShaped(toolPickaxe, [

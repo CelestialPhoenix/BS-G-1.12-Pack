@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "base:ore",
+    "textures": {
+      "particle": "contenttweaker:blocks/frangible_gravel",
+      "texture": "contenttweaker:blocks/frangible_gravel",
+      "ore": "contenttweaker:blocks/frangible",
+      "ore_shadow": "contenttweaker:blocks/frangible_shadow"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

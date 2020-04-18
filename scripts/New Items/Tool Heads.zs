@@ -1,6 +1,6 @@
 #loader contenttweaker
 
-#Name: Blood Sweat & Gears Plates.zs
+#Name: Blood Sweat & Gears Tool Heads.zs
 #Author: PhoePhoe, IT3 team
 
 import mods.contenttweaker.VanillaFactory;
