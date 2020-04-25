@@ -1232,12 +1232,20 @@ mods.abyssalcraft.Transmutator.addTransmutation(crystalShardIngot*2, nuggetMater
 for input in gemOutput {
 	var gemMaterial as IItemStack  = oreDict["gem"~input].firstItem;
 	var gemTinyMaterial as IItemStack  = oreDict["dustTiny"~input].firstItem;
+	var gemFlawless as IItemStack  = oreDict["gemFlawless"~input].firstItem;
+	var gemExquisite as IItemStack  = oreDict["gemExquisite"~input].firstItem;
 
 	var crystalGem as IItemStack  = oreDict["crystal"~input].firstItem;
 	var crystalShardGem as IItemStack  = oreDict["crystalShard"~input].firstItem;
 
 mods.abyssalcraft.Transmutator.addTransmutation(crystalGem, gemMaterial, 0.0);
 mods.abyssalcraft.Transmutator.addTransmutation(crystalShardGem*2, gemTinyMaterial*3, 0.0);
+
+mods.abyssalcraft.Materializer.addCrystal(gemMaterial);
+mods.abyssalcraft.Materializer.addCrystal(gemFlawless);
+mods.abyssalcraft.Materializer.addCrystal(gemExquisite);
+mods.abyssalcraft.Materializer.addMaterialization(gemFlawless, [gemMaterial*2, crystalGem]);
+mods.abyssalcraft.Materializer.addMaterialization(gemExquisite, [gemFlawless*2, crystalGem]);
 }
 
 for input in dustOutput {

@@ -19,6 +19,7 @@ import mods.contenttweaker.MaterialPart;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.PartBuilder;
 import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.MaterialPartLocalizedNameSupplier;
 
 var ore_types = ["frangible"] as string[];
 
@@ -219,50 +220,53 @@ var materialList as string[] = [
 "Naquoxiite",
 "Naquothxa",
 "Montroydite",
-"Osmiite"];
+"Osmiite",
+"Quicksilver",
+"Glassy"
+];
 
 var materialName as string[] = [
-"Aluminium Ore",
-"Antimony Ore",
-"Beryllium Ore",
-"Bismuth Ore",
-"Cadmium Ore",
-"Caesium Ore",
-"Calcium Ore",
-"Carbon Ore",
-"Chrome Ore",
-"Cobalt Ore",
-"Copper Ore",
-"Gallium Ore",
-"Gold Ore",
-"Iridium Ore",
-"Iron Ore",
-"Lead Ore",
-"Lithium Ore",
-"Magnesium Ore",
-"Manganese Ore",
-"Molybdenum Ore",
-"Neodymium Ore",
-"Nickel Ore",
-"Niobium Ore",
-"Osmium Ore",
-"Palladium Ore",
-"Platinum Ore",
-"Phosphorus Ore",
-"Potassium Ore",
-"Silicon Ore",
-"Silver Ore",
-"Sodium Ore",
-"Sulfur Ore",
-"Tantalum Ore",
-"Thorium Ore",
-"Tin Ore",
-"Titanium Ore",
-"Tungsten Ore",
-"Uranium Ore",
-"Vanadium Ore",
-"Yttrium Ore",
-"Zinc Ore",
+"Aluminium",
+"Antimony",
+"Beryllium",
+"Bismuth",
+"Cadmium",
+"Caesium",
+"Calcium",
+"Carbon",
+"Chrome",
+"Cobalt",
+"Copper",
+"Gallium",
+"Gold",
+"Iridium",
+"Iron",
+"Lead",
+"Lithium",
+"Magnesium",
+"Manganese",
+"Molybdenum",
+"Neodymium",
+"Nickel",
+"Niobium",
+"Osmium",
+"Palladium",
+"Platinum",
+"Phosphorus",
+"Potassium",
+"Silicon",
+"Silver",
+"Sodium",
+"Sulfur",
+"Tantalum",
+"Thorium",
+"Tin",
+"Titanium",
+"Tungsten",
+"Uranium",
+"Vanadium",
+"Yttrium",
+"Zinc",
 #6x"Almandine",
 "Banded Iron",
 "Blue Topaz",
@@ -300,7 +304,7 @@ var materialName as string[] = [
 #4x"Saltpeter",
 "Sapphire",
 "Scheelite",
-"Silicon Dioxide Ore",
+"Silicon Dioxide",
 #6x"Sodalite",
 "Spessartine",
 "Sphalerite",
@@ -343,9 +347,9 @@ var materialName as string[] = [
 "Barite",
 "Wollastonite",
 "Kaolinite",
-"Naquadah Ore",
-"Naquadria  Ore",
-"Enriched Naquadah Ore",
+"Naquadah",
+"Naquadria ",
+"Enriched Naquadah",
 "Oilsands",
 "Rare Earths",
 "Tenorite",
@@ -418,7 +422,10 @@ var materialName as string[] = [
 "Naquoxiite",
 "Naquothxa",
 "Montroydite",
-"Osmiite"];
+"Osmiite",
+"Quicksilver",
+"Glassy"
+];
 
 var materialColour as int[] = [
 <material:aluminium>.color,
@@ -617,7 +624,9 @@ var materialColour as int[] = [
 <material:naquoxiite>.color,
 <material:naquothxa>.color,
 <material:montroydite>.color,
-<material:osmiite>.color];
+<material:osmiite>.color,
+<material:quicksilver>.color,
+<material:glassy>.color];
 
 var firstByproduct as string[] = [
 "Aluminium", //Aluminium,
@@ -816,7 +825,9 @@ var firstByproduct as string[] = [
 "Naquadah", //Naquoxiite,
 "Naquadria", //Naquothxa,
 "Cinnabar", //Montroydite,
-"Osmium" //Osmiite,
+"Osmium", //Osmiite,
+"Quicksilver", //Quicksilver
+"Glassy" //Glassy
 	];
 
 var secondByproduct as string[] = [
@@ -1016,7 +1027,9 @@ var secondByproduct as string[] = [
 "Naquadah", //Naquoxiite,
 "Naquadria", //Naquothxa,
 "Redstone", //Montroydite,
-"Osmium" //Osmiite,
+"Osmium", //Osmiite,
+"Quicksilver", //Quicksilver
+"Glassy" //Glassy
 	];
 
 var thirdByproduct as string[] = [
@@ -1216,7 +1229,9 @@ var thirdByproduct as string[] = [
 "Naquadah", //Naquoxiite,
 "Naquadria", //Naquothxa,
 "Redstone", //Montroydite,
-"Iridite" //Osmiite,
+"Iridite", //Osmiite,
+"Quicksilver", //Quicksilver
+"Glassy" //Glassy
 	];
 
 var fourthByproduct as string[] = [
@@ -1416,7 +1431,9 @@ var fourthByproduct as string[] = [
 "Naquoxiite", //Naquoxiite,
 "Naquothxa", //Naquothxa,
 "Montroydite", //Montroydite,
-"Osmiite" //Osmiite,
+"Osmiite", //Osmiite,
+"Quicksilver", //Quicksilver
+"Glassy" //Glassy
 	];
 
 for i, material in materialList {
@@ -1469,7 +1486,7 @@ for i, material in materialList {
         .addItem("empty", 1);
 
 	var part = MaterialSystem.getMaterialBuilder()
-		.setName(materialName[i])
+		.setName(material)
 		.setColor(materialColour[i])
 		.build()
 	    .registerPart("frangible")
@@ -1481,4 +1498,14 @@ for i, material in materialList {
         part.addDataValue("harvestTool", "pickaxe");
         part.addDataValue("harvestLevel", "10");
 		part.addDataValue("drops", oreDrops);
+	
+	//var internalName as string = ["contenttweaker.part.frangible."~material];
+	
+	//mods.contenttweaker.MaterialSystem.getMaterial(material)
+		//material.getUnlocalizedName(internalName);
+		//game.setLocalization(internalName, materialName[i]);
+	 
 }
+
+
+

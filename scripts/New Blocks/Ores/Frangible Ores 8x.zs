@@ -180,7 +180,7 @@ for i, material in materialList8 {
         .addItem("empty", 1);
 
 	var part = MaterialSystem.getMaterialBuilder()
-		.setName(materialName8[i])
+		.setName(material)
 		.setColor(materialColour8[i])
 		.build()
 	    .registerPart("frangible")
