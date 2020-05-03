@@ -798,8 +798,7 @@ SifterAdvancedIVGravelOre.addItemOutput(fourthByproduct);
 SifterAdvancedIVGravelOre.setChance(0.56);
 SifterAdvancedIVGravelOre.build();
 }
-
-for i, input in oreInput8 {
+for i, input in oreInput10 {
 	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
 	
@@ -809,95 +808,207 @@ for i, input in oreInput8 {
 	var sifterAdvancedIIIRecipeName as string = "SifterAdvancedIIIGravelOre"~input;
 	var sifterAdvancedIVRecipeName as string = "SifterAdvancedIVGravelOre"~input;
 	
-	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct8[i]].firstItem;
-	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct8[i]].firstItem;
-	var thirdByproduct as IItemStack = oreDict["crushed"~thirdByproduct8[i]].firstItem;
-	var fourthByproduct as IItemStack = oreDict["crushed"~fourthByproduct8[i]].firstItem;
+	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct10[i]].firstItem;
+	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct10[i]].firstItem;
+	var thirdByproduct as IItemStack = oreDict["crushed"~thirdByproduct10[i]].firstItem;
+	var fourthByproduct as IItemStack = oreDict["crushed"~fourthByproduct10[i]].firstItem;
 
 var SifterBasicGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterBasicRecipeName, "sifting_machine_basic", 800, 0);
 
 SifterBasicGravelOre.addEnergyPerTickInput(64);
 SifterBasicGravelOre.addItemInput(oreGravel);
-SifterBasicGravelOre.addItemOutput(oreCrushed*2);//220%
+SifterBasicGravelOre.addItemOutput(oreCrushed*2);//137.5%
 SifterBasicGravelOre.addItemOutput(oreCrushed);
-SifterBasicGravelOre.setChance(0.2);
+SifterBasicGravelOre.setChance(0.75);
 SifterBasicGravelOre.addItemOutput(firstByproduct);
-SifterBasicGravelOre.setChance(0.80);
 SifterBasicGravelOre.addItemOutput(secondByproduct);
-SifterBasicGravelOre.setChance(0.40);
+SifterBasicGravelOre.setChance(0.5);
 SifterBasicGravelOre.addItemOutput(thirdByproduct);
-SifterBasicGravelOre.setChance(0.40);
+SifterBasicGravelOre.setChance(0.5);
 SifterBasicGravelOre.addItemOutput(fourthByproduct);
-SifterBasicGravelOre.setChance(0.40);
+SifterBasicGravelOre.setChance(0.5);
 SifterBasicGravelOre.build();
 
 var SifterAdvancedGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedRecipeName, "sifting_machine_advanced", 400, 0);
 
 SifterAdvancedGravelOre.addEnergyPerTickInput(256);
 SifterAdvancedGravelOre.addItemInput(oreGravel);
-SifterAdvancedGravelOre.addItemOutput(oreCrushed*4); //225%
+SifterAdvancedGravelOre.addItemOutput(oreCrushed*6); //225%
 SifterAdvancedGravelOre.addItemOutput(oreCrushed);
-SifterAdvancedGravelOre.setChance(0.9);
+SifterAdvancedGravelOre.setChance(0.13);
 SifterAdvancedGravelOre.addItemOutput(firstByproduct);
-SifterAdvancedGravelOre.setChance(0.88);
+SifterAdvancedGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedGravelOre.setChance(0.1);
 SifterAdvancedGravelOre.addItemOutput(secondByproduct);
-SifterAdvancedGravelOre.setChance(0.44);
+SifterAdvancedGravelOre.setChance(0.55);
 SifterAdvancedGravelOre.addItemOutput(thirdByproduct);
-SifterAdvancedGravelOre.setChance(0.44);
+SifterAdvancedGravelOre.setChance(0.55);
 SifterAdvancedGravelOre.addItemOutput(fourthByproduct);
-SifterAdvancedGravelOre.setChance(0.44);
+SifterAdvancedGravelOre.setChance(0.55);
 SifterAdvancedGravelOre.build();
 
 var SifterAdvancedIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIRecipeName, "sifting_machine_advancedii", 200, 0);
 
 SifterAdvancedIIGravelOre.addEnergyPerTickInput(1024);
 SifterAdvancedIIGravelOre.addItemInput(oreGravel);
-SifterAdvancedIIGravelOre.addItemOutput(oreCrushed*5);
-SifterAdvancedIIGravelOre.addItemOutput(oreCrushed);
-SifterAdvancedIIGravelOre.setChance(0.6);
+SifterAdvancedIIGravelOre.addItemOutput(oreCrushed*7);
 SifterAdvancedIIGravelOre.addItemOutput(firstByproduct);
-SifterAdvancedIIGravelOre.setChance(0.96);
+SifterAdvancedIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIGravelOre.setChance(0.20);
 SifterAdvancedIIGravelOre.addItemOutput(secondByproduct);
-SifterAdvancedIIGravelOre.setChance(0.48);
+SifterAdvancedIIGravelOre.setChance(0.60);
 SifterAdvancedIIGravelOre.addItemOutput(thirdByproduct);
-SifterAdvancedIIGravelOre.setChance(0.48);
+SifterAdvancedIIGravelOre.setChance(0.60);
 SifterAdvancedIIGravelOre.addItemOutput(fourthByproduct);
-SifterAdvancedIIGravelOre.setChance(0.48);
+SifterAdvancedIIGravelOre.setChance(0.60);
 SifterAdvancedIIGravelOre.build();
 
 var SifterAdvancedIIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIRecipeName, "sifting_machine_advancediii", 100, 0);
 
 SifterAdvancedIIIGravelOre.addEnergyPerTickInput(4096);
 SifterAdvancedIIIGravelOre.addItemInput(oreGravel);
-SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed*6);
+SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed*7);
 SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed);
-SifterAdvancedIIIGravelOre.setChance(0.20);
+SifterAdvancedIIIGravelOre.setChance(0.135);
 SifterAdvancedIIIGravelOre.addItemOutput(firstByproduct);
 SifterAdvancedIIIGravelOre.addItemOutput(firstByproduct);
 SifterAdvancedIIIGravelOre.setChance(0.04);
 SifterAdvancedIIIGravelOre.addItemOutput(secondByproduct);
-SifterAdvancedIIIGravelOre.setChance(0.52);
+SifterAdvancedIIIGravelOre.setChance(0.65);
 SifterAdvancedIIIGravelOre.addItemOutput(thirdByproduct);
-SifterAdvancedIIIGravelOre.setChance(0.52);
+SifterAdvancedIIIGravelOre.setChance(0.65);
 SifterAdvancedIIIGravelOre.addItemOutput(fourthByproduct);
-SifterAdvancedIIIGravelOre.setChance(0.52);
+SifterAdvancedIIIGravelOre.setChance(0.65);
 SifterAdvancedIIIGravelOre.build();
 
 var SifterAdvancedIVGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVRecipeName, "sifting_machine_advancediv", 50, 0);
 
 SifterAdvancedIVGravelOre.addEnergyPerTickInput(16384);
 SifterAdvancedIVGravelOre.addItemInput(oreGravel);
-SifterAdvancedIVGravelOre.addItemOutput(oreCrushed*6);
+SifterAdvancedIVGravelOre.addItemOutput(oreCrushed*8);
 SifterAdvancedIVGravelOre.addItemOutput(oreCrushed);
-SifterAdvancedIVGravelOre.setChance(0.8);
+SifterAdvancedIVGravelOre.setChance(0.5);
 SifterAdvancedIVGravelOre.addItemOutput(firstByproduct);
 SifterAdvancedIVGravelOre.addItemOutput(firstByproduct);
-SifterAdvancedIVGravelOre.setChance(0.12);
+SifterAdvancedIVGravelOre.setChance(0.40);
 SifterAdvancedIVGravelOre.addItemOutput(secondByproduct);
-SifterAdvancedIVGravelOre.setChance(0.56);
+SifterAdvancedIVGravelOre.setChance(0.7);
 SifterAdvancedIVGravelOre.addItemOutput(thirdByproduct);
-SifterAdvancedIVGravelOre.setChance(0.56);
+SifterAdvancedIVGravelOre.setChance(0.7);
 SifterAdvancedIVGravelOre.addItemOutput(fourthByproduct);
-SifterAdvancedIVGravelOre.setChance(0.56);
+SifterAdvancedIVGravelOre.setChance(0.7);
 SifterAdvancedIVGravelOre.build();
 }
+
+for i, input in oreInput6 {
+	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	
+	var sifterBasicRecipeName as string = "SifterBasicGravelOre"~input;
+	var sifterAdvancedRecipeName as string = "SifterAdvancedGravelOre"~input;
+	var sifterAdvancedIIRecipeName as string = "SifterAdvancedIIGravelOre"~input;
+	var sifterAdvancedIIIRecipeName as string = "SifterAdvancedIIIGravelOre"~input;
+	var sifterAdvancedIVRecipeName as string = "SifterAdvancedIVGravelOre"~input;
+	
+	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct6[i]].firstItem;
+	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct6[i]].firstItem;
+	var thirdByproduct as IItemStack = oreDict["crushed"~thirdByproduct6[i]].firstItem;
+	var fourthByproduct as IItemStack = oreDict["crushed"~fourthByproduct6[i]].firstItem;
+
+var SifterBasicGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterBasicRecipeName, "sifting_machine_basic", 800, 0);
+
+SifterBasicGravelOre.addEnergyPerTickInput(64);
+SifterBasicGravelOre.addItemInput(oreGravel);
+SifterBasicGravelOre.addItemOutput(oreCrushed*3);//110%
+SifterBasicGravelOre.addItemOutput(oreCrushed);
+SifterBasicGravelOre.setChance(0.3);
+SifterBasicGravelOre.addItemOutput(firstByproduct);
+SifterBasicGravelOre.addItemOutput(firstByproduct);
+SifterBasicGravelOre.setChance(0.20);
+SifterBasicGravelOre.addItemOutput(secondByproduct);
+SifterBasicGravelOre.setChance(0.60);
+SifterBasicGravelOre.addItemOutput(thirdByproduct);
+SifterBasicGravelOre.setChance(0.60);
+SifterBasicGravelOre.addItemOutput(fourthByproduct);
+SifterBasicGravelOre.setChance(0.60);
+SifterBasicGravelOre.build();
+
+var SifterAdvancedGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedRecipeName, "sifting_machine_advanced", 400, 0);
+
+SifterAdvancedGravelOre.addEnergyPerTickInput(256);
+SifterAdvancedGravelOre.addItemInput(oreGravel);
+SifterAdvancedGravelOre.addItemOutput(oreCrushed*7); //225%
+SifterAdvancedGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedGravelOre.setChance(0.35);
+SifterAdvancedGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedGravelOre.setChance(0.32);
+SifterAdvancedGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedGravelOre.setChance(0.66);
+SifterAdvancedGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedGravelOre.setChance(0.66);
+SifterAdvancedGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedGravelOre.setChance(0.66);
+SifterAdvancedGravelOre.build();
+
+var SifterAdvancedIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIRecipeName, "sifting_machine_advancedii", 200, 0);
+
+SifterAdvancedIIGravelOre.addEnergyPerTickInput(1024);
+SifterAdvancedIIGravelOre.addItemInput(oreGravel);
+SifterAdvancedIIGravelOre.addItemOutput(oreCrushed*8);
+SifterAdvancedIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIGravelOre.setChance(0.4);
+SifterAdvancedIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIGravelOre.setChance(0.44);
+SifterAdvancedIIGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIIGravelOre.setChance(0.72);
+SifterAdvancedIIGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIIGravelOre.setChance(0.72);
+SifterAdvancedIIGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIIGravelOre.setChance(0.72);
+SifterAdvancedIIGravelOre.build();
+
+var SifterAdvancedIIIGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIIIRecipeName, "sifting_machine_advancediii", 100, 0);
+
+SifterAdvancedIIIGravelOre.addEnergyPerTickInput(4096);
+SifterAdvancedIIIGravelOre.addItemInput(oreGravel);
+SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed*11);
+SifterAdvancedIIIGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIIIGravelOre.setChance(0.3);
+SifterAdvancedIIIGravelOre.addItemOutput(firstByproduct*2);
+SifterAdvancedIIIGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.08);
+SifterAdvancedIIIGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIIIGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.04);
+SifterAdvancedIIIGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIIIGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.04);
+SifterAdvancedIIIGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIIIGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIIIGravelOre.setChance(0.04);
+SifterAdvancedIIIGravelOre.build();
+
+var SifterAdvancedIVGravelOre = mods.modularmachinery.RecipeBuilder.newBuilder(sifterAdvancedIVRecipeName, "sifting_machine_advancediv", 50, 0);
+
+SifterAdvancedIVGravelOre.addEnergyPerTickInput(16384);
+SifterAdvancedIVGravelOre.addItemInput(oreGravel);
+SifterAdvancedIVGravelOre.addItemOutput(oreCrushed*12);
+SifterAdvancedIVGravelOre.addItemOutput(oreCrushed);
+SifterAdvancedIVGravelOre.setChance(0.2);
+SifterAdvancedIVGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIVGravelOre.addItemOutput(firstByproduct);
+SifterAdvancedIVGravelOre.setChance(0.24);
+SifterAdvancedIVGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIVGravelOre.addItemOutput(secondByproduct);
+SifterAdvancedIVGravelOre.setChance(0.12);
+SifterAdvancedIVGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIVGravelOre.addItemOutput(thirdByproduct);
+SifterAdvancedIVGravelOre.setChance(0.12);
+SifterAdvancedIVGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIVGravelOre.addItemOutput(fourthByproduct);
+SifterAdvancedIVGravelOre.setChance(0.12);
+SifterAdvancedIVGravelOre.build();
+}
+

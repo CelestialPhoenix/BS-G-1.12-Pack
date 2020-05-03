@@ -19,12 +19,42 @@ val Autoclave as RecipeMap = RecipeMap.getByName("autoclave");
 #---Macerator---
 #In macerator ore processing.zs
 
+#---Old recipes---
+var oldOres as string[] = [
+	"CassiteriteSand",
+	"Bentonite",
+	"Cerium",
+	"Uranium235",
+	"Enargite",
+	"Jasper",
+	"Talc",
+	"Borax",
+	"Glauconite",
+	"Soapstone"
+	];
+
+for input in oldOres {
+	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
+	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
+	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+
+washer.findRecipe(16, [oreCrushed], [<liquid:water>*1000]).remove();
+washer.findRecipe(16, [oreCrushed], [<liquid:distilled_water>*1000]).remove();
+thermalCentrifuge.findRecipe(60, [oreCrushed], null).remove();
+thermalCentrifuge.findRecipe(60, [oreCrushedPurified], null).remove();
+centrifuge.findRecipe(24, [oreDustImpure], null).remove();
+centrifuge.findRecipe(5, [oreDustPure], null).remove();
+}
+
+
 #---Ore Washer---
 for i, input in oreInput {
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
 	var oreCrushedPurified as IItemStack = oreDict["crushedPurified"~input].firstItem;
 	var oreOutput as IItemStack = oreDict["dustTiny"~input].firstItem;
 	var primaryByproduct as IItemStack = oreDict["dustTiny"~firstByproduct[i]].firstItem;
+	var crushedPrimaryByproduct as IItemStack = oreDict["crushedPurified"~firstByproduct[i]].firstItem;
 	var dustPrimaryByproduct as IItemStack = oreDict["dust"~firstByproduct[i]].firstItem;
 	var secondaryByproduct as IItemStack = oreDict["dustTiny"~secondByproduct[i]].firstItem;
 	var tertiaryByproduct as IItemStack = oreDict["dustTiny"~thirdByproduct[i]].firstItem;
@@ -48,6 +78,16 @@ washer
     .outputs([oreCrushedPurified, primaryByproduct*1, <ore:dustStone>.firstItem])
     .duration(320)
     .EUt(12)
+    .buildAndRegister();
+
+washer
+    .recipeBuilder()
+    .inputs(oreCrushed)
+	.fluidInputs(<liquid:petrotheum>*100)
+    .outputs([oreCrushedPurified, <ore:dustStone>.firstItem])
+	.chancedOutput(crushedPrimaryByproduct, 1100, 1)
+    .duration(320)
+    .EUt(48)
     .buildAndRegister();
 
 washer

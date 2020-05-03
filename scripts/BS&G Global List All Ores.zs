@@ -13,6 +13,7 @@ print("Global Ore List");
 global oreInput as string[] = [
 "Aluminium",
 "Antimony",
+"Arsenic",
 "Beryllium",
 "Bismuth",
 "Cadmium",
@@ -207,11 +208,15 @@ global oreInput as string[] = [
 "Naquoxiite",
 "Naquothxa",
 "Montroydite",
-"Osmiite"];
+"Osmiite",
+"Quicksilver",
+"Glassy"
+];
 
 global firstByproduct as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -414,6 +419,7 @@ global firstByproduct as string[] = [
 global secondByproduct as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -616,6 +622,7 @@ global secondByproduct as string[] = [
 global thirdByproduct as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -819,6 +826,7 @@ global thirdByproduct as string[] = [
 global fourthByproduct as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,

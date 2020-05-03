@@ -25,50 +25,104 @@ var ore_types = ["frangible"] as string[];
 #3x
 var materialList3 as string[] = [
 "Bauxite",
-"RockSalt",
+"Rock Salt",
 "Salt",
-"Phosphor"
-	];
-
-var materialName3 as string[] = [
-"Bauxite",
-"RockSalt",
-"Salt",
-"Phosphor"
+"Phosphor",
+"Monazite",
+"[Nd]-Monazite",
+"Ilmenite",
+"Psudobrookite",
+"Xifengite",
+"Xilingolite",
+"Berryite",
+"[S]-Skaergaardite",
+"Xanthoconite",
+"Uytenbogaardtite",
 	];
 
 var materialColour3 as int[] = [
 <material:bauxite>.color,
 <material:rock_salt>.color,
 <material:salt>.color,
-<material:phosphor>.color];
+<material:phosphor>.color,
+<material:monazite>.color,
+<material:monazite_nd>.color,
+<material:ilmenite>.color,
+<material:psudobrookite>.color,
+<material:xifengite>.color,
+<material:xilingolite>.color,
+<material:berryite>.color,
+<material:skaergaardite_s>.color,
+<material:xanthoconite>.color,
+<material:uytenbogaardtite>.color,
+];
 
 var firstByproduct3 as string[] = [
-"Bauxite", //Rutile, 
+"Grossular", //Bauxite,
 "Salt", //RockSalt,
 "RockSalt", //Salt,
-"Apatite" //Phosphor,
+"Apatite", //Phosphor,
+"Thorium", //Monazite,
+"Didymium", //MonaziteNd,
+"Iron", //Ilmenite,
+"Rutile", //Psudobrookite,
+"Naquothxa", //Xifengite,
+"Naquarrite", //Xilingolite,
+"Silver", //Berryite,
+"SkaergaarditeS", //Uytenbogaardtite,
+"Sheldite", //Xanthoconite,
+"Uytenbogaardtite", //SkaergaarditeS,
 	];
 
 var secondByproduct3 as string[] = [
 "Rutile", //Bauxite,
-"Borax", //Salt,
 "Borax", //RockSalt,
-"Phosphate" //Phosphor,
+"Borax", //Salt,
+"Phosphate", //Phosphor,
+"Neodymium", //Monazite,
+"Phosphate", //MonaziteNd,
+"Rutile", //Ilmenite,
+"Bauxite", //Psudobrookite,
+"Iron", //Xifengite,
+"Naqulinite", //Xilingolite,
+"Lead", //Berryite,
+"Sheldite", //Uytenbogaardtite,
+"Platinum", //Xanthoconite,
+"Pallas", //SkaergaarditeS,
 	];
 
 var thirdByproduct3 as string[] = [
 "Gallium", //Bauxite,
 "Salt", //RockSalt,
 "RockSalt", //Salt,
-"Apatite" //Phosphor,
+"Apatite", //Phosphor,
+"RareEarth", //Monazite,
+"RareEarth", //MonaziteNd,
+"Iron", //Ilmenite,
+"Rutile", //Psudobrookite,
+"Naquadite", //Xifengite,
+"Bismuth", //Xilingolite,
+"Copper", //Berryite,
+"Sulfur", //Uytenbogaardtite,
+"Iridite", //Xanthoconite,
+"Bowieite", //SkaergaarditeS,
 	];
 
 var fourthByproduct3 as string[] = [
 "Bauxite", //Bauxite,
 "RockSalt", //RockSalt,
 "Salt", //Salt,
-"Phosphor" //Phosphor,
+"Phosphor", //Phosphor,
+"Monazite", //Monazite,
+"MonaziteNd", //MonaziteNd,
+"Ilmenite", //Ilmenite,
+"Psudobrookite", //Psudobrookite,
+"Xifengite", //Xifengite,
+"Xilingolite", //Xilingolite,
+"Berryite", //Berryite,
+"Uytenbogaardtite", //Uytenbogaardtite,
+"Xanthoconite", //Xanthoconite,
+"SkaergaarditeS", //SkaergaarditeS,
 	];
 
 for i, material in materialList3 {

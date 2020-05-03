@@ -18,6 +18,7 @@ print("Global List Ores by Macerator Output");
 global oreInput2 as string[] = [
 "Aluminium",
 "Antimony",
+"Arsenic",
 "Beryllium",
 "Bismuth",
 "Cadmium",
@@ -57,7 +58,7 @@ global oreInput2 as string[] = [
 "Vanadium",
 "Yttrium",
 "Zinc",
-#6x"Almandine",
+#4x"Almandine",
 "BandedIron",
 "BlueTopaz",
 "BrownLimonite",
@@ -75,11 +76,11 @@ global oreInput2 as string[] = [
 "Galena",
 "Garnierite",
 "GreenSapphire",
-#6x"Grossular",
-"Ilmenite",
+#4x"Grossular",
+#3x"Ilmenite",
 "Rutile",
 #3x"Bauxite",
-#6x"Lazurite",
+#12x"Lazurite",
 "Magnesite",
 "Magnetite",
 "Molybdenite",
@@ -132,7 +133,7 @@ global oreInput2 as string[] = [
 "Spodumene",
 "Lepidolite",
 "Pitchblende",
-#8x"Monazite",
+#3x"Monazite",
 "Malachite",
 "Barite",
 "Wollastonite",
@@ -155,7 +156,7 @@ global oreInput2 as string[] = [
 "Coffinite",
 "Thorite",
 "Zircon",
-"Psudobrookite",
+#3x"Psudobrookite",
 "Sperrylite",
 "Braggite",
 "Brannerite",
@@ -171,14 +172,14 @@ global oreInput2 as string[] = [
 "Naquadite",
 "Naqulinite",
 "Naquarrite",
-"Xifengite",
-"Xilingolite",
-"Berryite",
+#3x"Xifengite",
+#3x"Xilingolite",
+#3x"Berryite",
 "Bismuthinite",
-"Goslarite",
-"Uytenbogaardtite",
-"Xanthoconite",
-"SkaergaarditeS",
+#4x"Goslarite",
+#3x"Uytenbogaardtite",
+#3x"Xanthoconite",
+#3x"SkaergaarditeS",
 "BowieiteIr",
 "Lithrage",
 "Argite",
@@ -214,12 +215,13 @@ global oreInput2 as string[] = [
 "Montroydite",
 "Osmiite", //Osmiite,
 "Quicksilver", //Quicksilver
-"Glassy" //Glassy
+#4x"Glassy" //Glassy
 	];
 
 global firstByproduct2 as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -259,7 +261,7 @@ global firstByproduct2 as string[] = [
 "Vanadium", //Vanadium,
 "Yttrium", //Yttrium,
 "Zinc", //Zinc,
-#6x"GarnetRed", //Almandine,
+#4x"GarnetRed", //Almandine,
 "BandedIron", //BandedIron,
 "Topaz", //BlueTopaz,
 "Malachite", //BrownLimonite,
@@ -277,8 +279,8 @@ global firstByproduct2 as string[] = [
 "Sulfur", //Galena,
 "Nickel", //Garnierite,
 "Aluminium", //GreenSapphire,
-#6x"GarnetYellow", //Grossular,
-"Iron", //Ilmenite,
+#4x"GarnetYellow", //Grossular,
+#3x"Iron", //Ilmenite,
 "Bauxite", //Rutile,
 #3x"Grossular", //Bauxite,
 #6x"Sodalite", //Lazurite,
@@ -357,7 +359,7 @@ global firstByproduct2 as string[] = [
 "Huttonite", //Coffinite,
 "Uraninite", //Thorite,
 "Baddeleyite", //Zircon,
-"Rutile", //Psudobrookite,
+#3x"Rutile", //Psudobrookite,
 "Palladium", //Sperrylite,
 "Sheldite", //Braggite,
 "Rutile", //Brannerite,
@@ -373,14 +375,14 @@ global firstByproduct2 as string[] = [
 "Naquoxiite", //Naquadite,
 "Iron", //Naqulinite,
 "Nickel", //Naquarrite,
-"Naquothxa", //Xifengite,
-"Naquarrite", //Xilingolite,
-"Silver", //Berryite,
+#3x"Naquothxa", //Xifengite,
+#3x"Naquarrite", //Xilingolite,
+#3x"Silver", //Berryite,
 "Lead", //Bismuthinite,
-"Uvarovite", //Goslarite,
-"SkaergaarditeS", //Uytenbogaardtite,
-"Sheldite", //Xanthoconite,
-"Uytenbogaardtite", //SkaergaarditeS,
+#4x"Uvarovite", //Goslarite,
+#3x"SkaergaarditeS", //Uytenbogaardtite,
+#3x"Sheldite", //Xanthoconite,
+#3x"Uytenbogaardtite", //SkaergaarditeS,
 "Osmiite", //BowieiteIr,
 "Lead", //Lithrage,
 "Silver", //Argite,
@@ -416,12 +418,13 @@ global firstByproduct2 as string[] = [
 "Cinnabar", //Montroydite,
 "Osmium", //Osmiite,
 "Quicksilver", //Quicksilver
-"Glassy" //Glassy
+#4x"Glassy" //Glassy
 	];
 
 global secondByproduct2 as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -461,7 +464,7 @@ global secondByproduct2 as string[] = [
 "Vanadium", //Vanadium,
 "Yttrium", //Yttrium,
 "Zinc", //Zinc,
-#6x"Aluminium", //Almandine,
+#4x"Aluminium", //Almandine,
 "BandedIron", //BandedIron,
 "Topaz", //BlueTopaz,
 "YellowLimonite", //BrownLimonite,
@@ -479,8 +482,8 @@ global secondByproduct2 as string[] = [
 "Silver", //Galena,
 "Cobalt", //Garnierite,
 "Sapphire", //GreenSapphire,
-#6x"Calcium", //Grossular,
-"Rutile", //Ilmenite,
+#4x"Calcium", //Grossular,
+#3x"Rutile", //Ilmenite,
 "Psudobrookite", //Rutile,
 #3x"Rutile", //Bauxite,
 #6x"Lapis", //Lazurite,
@@ -559,7 +562,7 @@ global secondByproduct2 as string[] = [
 "Uraninite", //Coffinite,
 "Coffinite", //Thorite,
 "Zircon", //Zircon,
-"Bauxite", //Psudobrookite,
+#3x"Bauxite", //Psudobrookite,
 "Arsenic", //Sperrylite,
 "Pallas", //Braggite,
 "Lead", //Brannerite,
@@ -575,14 +578,14 @@ global secondByproduct2 as string[] = [
 "SiliconDioxide", //Naquadite,
 "Naquadite", //Naqulinite,
 "Naquothxa", //Naquarrite,
-"Iron", //Xifengite,
-"Naqulinite", //Xilingolite,
-"Lead", //Berryite,
+#3x"Iron", //Xifengite,
+#3x"Naqulinite", //Xilingolite,
+#3x"Lead", //Berryite,
 "Silver", //Bismuthinite,
-"Cadmite", //Goslarite,
-"Sheldite", //Uytenbogaardtite,
-"Platinum", //Xanthoconite,
-"Pallas", //SkaergaarditeS,
+#4x"Cadmite", //Goslarite,
+#3x"Sheldite", //Uytenbogaardtite,
+#3x"Platinum", //Xanthoconite,
+#3x"Pallas", //SkaergaarditeS,
 "Platinum", //BowieiteIr,
 "Lead", //Lithrage,
 "Silver", //Argite,
@@ -618,12 +621,13 @@ global secondByproduct2 as string[] = [
 "Redstone", //Montroydite,
 "Osmium", //Osmiite,
 "Quicksilver", //Quicksilver
-"Glassy" //Glassy
+#4x"Glassy" //Glassy
 	];
 
 global thirdByproduct2 as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -663,7 +667,7 @@ global thirdByproduct2 as string[] = [
 "Vanadium", //Vanadium,
 "Yttrium", //Yttrium,
 "Zinc", //Zinc,
-#6x"GarnetRed", //Almandine,
+#4x"GarnetRed", //Almandine,
 "BandedIron", //BandedIron,
 "Topaz", //BlueTopaz,
 "Malachite", //BrownLimonite,
@@ -681,8 +685,8 @@ global thirdByproduct2 as string[] = [
 "Lead", //Galena,
 "Nickel", //Garnierite,
 "Aluminium", //GreenSapphire,
-#6x"GarnetYellow", //Grossular,
-"Iron", //Ilmenite,
+#4x"GarnetYellow", //Grossular,
+#3x"Iron", //Ilmenite,
 "Aluminium", //Rutile,
 #3x"Gallium", //Bauxite,
 #6x"Sodalite", //Lazurite,
@@ -761,7 +765,7 @@ global thirdByproduct2 as string[] = [
 "Lead", //Coffinite,
 "Huttonite", //Thorite,
 "Uraninite", //Zircon,
-"Rutile", //Psudobrookite,
+#3x"Rutile", //Psudobrookite,
 "Platinum", //Sperrylite,
 "Garnierite", //Braggite,
 "Uraninite", //Brannerite,
@@ -777,14 +781,14 @@ global thirdByproduct2 as string[] = [
 "Naquoxiite", //Naquadite,
 "Sulfur", //Naqulinite,
 "Cobalt", //Naquarrite,
-"Naquadite", //Xifengite,
-"Bismuth", //Xilingolite,
-"Copper", //Berryite,
+#3x"Naquadite", //Xifengite,
+#3x"Bismuth", //Xilingolite,
+#3x"Copper", //Berryite,
 "Tin", //Bismuthinite,
-"Gallium", //Goslarite,
-"Sulfur", //Uytenbogaardtite,
-"Iridite", //Xanthoconite,
-"Bowieite", //SkaergaarditeS,
+#4x"Gallium", //Goslarite,
+#3x"Sulfur", //Uytenbogaardtite,
+#3x"Iridite", //Xanthoconite,
+#3x"Bowieite", //SkaergaarditeS,
 "Sulfur", //BowieiteIr,
 "Lead", //Lithrage,
 "Silver", //Argite,
@@ -820,12 +824,13 @@ global thirdByproduct2 as string[] = [
 "Redstone", //Montroydite,
 "Iridite", //Osmiite,
 "Quicksilver", //Quicksilver
-"Glassy" //Glassy
+#4x"Glassy" //Glassy
 	];
 
 global fourthByproduct2 as string[] = [
 "Aluminium", //Aluminium,
 "Antimony", //Antimony,
+"Arsenic", //Arsenic
 "Beryllium", //Beryllium,
 "Bismuth", //Bismuth,
 "Cadmium", //Cadmium,
@@ -883,8 +888,8 @@ global fourthByproduct2 as string[] = [
 "Galena", //Galena,
 "Garnierite", //Garnierite,
 "GreenSapphire", //GreenSapphire,
-#6x"Grossular", //Grossular,
-"Ilmenite", //Ilmenite,
+#4x"Grossular", //Grossular,
+#3x"Ilmenite", //Ilmenite,
 "Rutile", //Rutile,
 #3x"Bauxite", //Bauxite,
 #6x"Lazurite", //Lazurite,
@@ -963,7 +968,7 @@ global fourthByproduct2 as string[] = [
 "Coffinite", //Coffinite,
 "Thorite", //Thorite,
 "Zircon", //Zircon,
-"Psudobrookite", //Psudobrookite,
+#3x"Psudobrookite", //Psudobrookite,
 "Sperrylite", //Sperrylite,
 "Braggite", //Braggite,
 "Brannerite", //Brannerite,
@@ -979,14 +984,14 @@ global fourthByproduct2 as string[] = [
 "Naquadite", //Naquadite,
 "Naqulinite", //Naqulinite,
 "Naquarrite", //Naquarrite,
-"Xifengite", //Xifengite,
-"Xilingolite", //Xilingolite,
-"Berryite", //Berryite,
+#3x"Xifengite", //Xifengite,
+#3x"Xilingolite", //Xilingolite,
+#3x"Berryite", //Berryite,
 "Bismuthinite", //Bismuthinite,
-"Goslarite", //Goslarite,
-"Uytenbogaardtite", //Uytenbogaardtite,
-"Xanthoconite", //Xanthoconite,
-"SkaergaarditeS", //SkaergaarditeS,
+#4x"Goslarite", //Goslarite,
+#3x"Uytenbogaardtite", //Uytenbogaardtite,
+#3x"Xanthoconite", //Xanthoconite,
+#3x"SkaergaarditeS", //SkaergaarditeS,
 "BowieiteIr", //BowieiteIr,
 "Lithrage", //Lithrage,
 "Argite", //Argite,
@@ -1022,7 +1027,7 @@ global fourthByproduct2 as string[] = [
 "Montroydite", //Montroydite,
 "Osmiite", //Osmiite,
 "Quicksilver", //Quicksilver
-"Glassy" //Glassy
+#4x"Glassy" //Glassy
 	];
 
 #=====================
@@ -1032,13 +1037,34 @@ global oreInput3 as string[] = [
 "Bauxite",
 "RockSalt",
 "Salt",
-"Phosphor"];
+"Phosphor",
+"Monazite",
+"MonaziteNd",
+"Ilmenite",
+"Psudobrookite",
+"Xifengite",
+"Xilingolite",
+"Berryite",
+"SkaergaarditeS",
+"Sheldite",
+"Uytenbogaardtite",
+];
 
 global firstByproduct3 as string[] = [
 "Grossular", //Bauxite,
 "Salt", //RockSalt,
 "RockSalt", //Salt,
 "Apatite", //Phosphor,
+"Thorium", //Monazite,
+"Didymium", //MonaziteNd,
+"Iron", //Ilmenite,
+"Rutile", //Psudobrookite,
+"Naquothxa", //Xifengite,
+"Naquarrite", //Xilingolite,
+"Silver", //Berryite,
+"SkaergaarditeS", //Uytenbogaardtite,
+"Sheldite", //Xanthoconite,
+"Uytenbogaardtite", //SkaergaarditeS,
 ];
 
 global secondByproduct3 as string[] = [
@@ -1046,6 +1072,16 @@ global secondByproduct3 as string[] = [
 "Borax", //RockSalt,
 "Borax", //Salt,
 "Phosphate", //Phosphor,
+"Neodymium", //Monazite,
+"Phosphate", //MonaziteNd,
+"Rutile", //Ilmenite,
+"Bauxite", //Psudobrookite,
+"Iron", //Xifengite,
+"Naqulinite", //Xilingolite,
+"Lead", //Berryite,
+"Sheldite", //Uytenbogaardtite,
+"Platinum", //Xanthoconite,
+"Pallas", //SkaergaarditeS,
 	];
 
 global thirdByproduct3 as string[] = [
@@ -1053,6 +1089,16 @@ global thirdByproduct3 as string[] = [
 "Salt", //RockSalt,
 "RockSalt", //Salt,
 "Apatite", //Phosphor,
+"RareEarth", //Monazite,
+"RareEarth", //MonaziteNd,
+"Iron", //Ilmenite,
+"Rutile", //Psudobrookite,
+"Naquadite", //Xifengite,
+"Bismuth", //Xilingolite,
+"Copper", //Berryite,
+"Sulfur", //Uytenbogaardtite,
+"Iridite", //Xanthoconite,
+"Bowieite", //SkaergaarditeS,
 	];
 
 global fourthByproduct3 as string[] = [
@@ -1060,6 +1106,16 @@ global fourthByproduct3 as string[] = [
 "RockSalt", //RockSalt,
 "Salt", //Salt,
 "Phosphor", //Phosphor,
+"Monazite", //Monazite,
+"MonaziteNd", //MonaziteNd,
+"Ilmenite", //Ilmenite,
+"Psudobrookite", //Psudobrookite,
+"Xifengite", //Xifengite,
+"Xilingolite", //Xilingolite,
+"Berryite", //Berryite,
+"Uytenbogaardtite", //Uytenbogaardtite,
+"Xanthoconite", //Xanthoconite,
+"SkaergaarditeS", //SkaergaarditeS,
 	];
 
 #=====================
@@ -1069,13 +1125,22 @@ global oreInput4 as string[] = [
 "Pyrope",
 "Saltpeter",
 "GarnetRed",
-"GarnetYellow"];
+"GarnetYellow",
+"Almandine",
+"Grossular",
+"Glassy", //Glassy
+"Goslarite"
+];
 
 global firstByproduct4 as string[] = [
 "GarnetRed", //Pyrope,
 "Saltpeter", //Saltpeter,
 "Spessartine", //GarnetRed,
 "Andradite", //GarnetYellow,
+"GarnetRed", //Almandine,
+"GarnetYellow", //Grossular,
+"Glassy", //Glassy
+"Uvarovite", //Goslarite,
 ];
 
 global secondByproduct4 as string[] = [
@@ -1083,6 +1148,10 @@ global secondByproduct4 as string[] = [
 "Saltpeter", //Saltpeter,
 "Pyrope", //GarnetRed,
 "Grossular", //GarnetYellow,
+"Aluminium", //Almandine,
+"Calcium", //Grossular,
+"Glassy", //Glassy
+"Cadmite", //Goslarite,
 	];
 
 global thirdByproduct4 as string[] = [
@@ -1090,6 +1159,10 @@ global thirdByproduct4 as string[] = [
 "Saltpeter", //Saltpeter,
 "Almandine", //GarnetRed,
 "Uvarovite", //GarnetYellow,
+"GarnetRed", //Almandine,
+"GarnetYellow", //Grossular,
+"Glassy", //Glassy
+"Gallium", //Goslarite,
 	];
 
 global fourthByproduct4 as string[] = [
@@ -1097,6 +1170,10 @@ global fourthByproduct4 as string[] = [
 "Saltpeter", //Saltpeter,
 "GarnetRed", //GarnetRed,
 "GarnetYellow", //GarnetYellow,
+"Almandine", //Almandine,
+"Grossular", //Grossular,
+"Glassy", //Glassy
+"Goslarite", //Goslarite,
 	];
 
 #=====================
@@ -1104,103 +1181,117 @@ global fourthByproduct4 as string[] = [
 #=====================
 global oreInput5 as string[] = [
 "Apatite",
-"Electrotine"
 ];
 
 global firstByproduct5 as string[] = [
 "Apatite", //Apatite,
-"Sapphire", //Electrotine,
 ];
 
 global secondByproduct5 as string[] = [
 "Phosphor", //Apatite,
-"Cinnabar", //Electrotine,
 	];
 
 global thirdByproduct5 as string[] = [
 "Apatite", //Apatite,
-"RareEarth", //Electrotine,
 	];
 
 global fourthByproduct5 as string[] = [
 "Apatite", //Apatite,
-"Electrotine", //Electrotine,
 	];
 
 #=====================
 #---Outputs 6x--------
 #=====================
 global oreInput6 as string[] = [
-"Almandine",
-"Grossular",
-"Lazurite",
-"Sodalite",
-"Redstone",
-"Lapis",
 ];
 
 global firstByproduct6 as string[] = [
-"GarnetRed", //Almandine,
-"GarnetYellow", //Grossular,
-"Sodalite", //Lazurite,
-"Lazurite", //Sodalite,
-"Cinnabar", //Redstone,
-"Lazurite", //Lapis,
 ];
 
 global secondByproduct6 as string[] = [
-"Aluminium", //Almandine,
-"Calcium", //Grossular,
-"Lapis", //Lazurite,
-"Lapis", //Sodalite,
-"RareEarth", //Redstone,
-"Sodalite", //Lapis,
 	];
 
 global thirdByproduct6 as string[] = [
-"GarnetRed", //Almandine,
-"GarnetYellow", //Grossular,
-"Sodalite", //Lazurite,
-"Pyrite", //Sodalite,
-"Cinnabar", //Redstone,
-"Pyrite", //Lapis,
 	];
 
 global fourthByproduct6 as string[] = [
-"Almandine", //Almandine,
-"Grossular", //Grossular,
-"Lazurite", //Lazurite,
-"Sodalite", //Sodalite,
-"Redstone", //Redstone,
-"Lapis", //Lapis,
 	];
 
 #=====================
 #---Outputs 8x--------
 #=====================
 global oreInput8 as string[] = [
-"Monazite",
-"MonaziteNd"];
+];
 
 global firstByproduct8 as string[] = [
-"Thorium", //Monazite,
-"Didymium", //MonaziteNd,
 ];
 
 global secondByproduct8 as string[] = [
-"Neodymium", //Monazite,
-"Phosphate", //MonaziteNd,
 	];
 
 global thirdByproduct8 as string[] = [
-"RareEarth", //Monazite,
-"RareEarth", //MonaziteNd,
 	];
 
 global fourthByproduct8 as string[] = [
-"Monazite", //Monazite,
-"MonaziteNd", //MonaziteNd,
 	];
 
+#=====================
+#---Outputs 10x--------
+#=====================
+global oreInput10 as string[] = [
+"Electrotine",
+"Redstone",
+];
 
+global firstByproduct10 as string[] = [
+"Sapphire", //Electrotine,
+"Cinnabar", //Redstone,
+];
 
+global secondByproduct10 as string[] = [
+"Cinnabar", //Electrotine,
+"RareEarth", //Redstone,
+	];
+
+global thirdByproduct10 as string[] = [
+"RareEarth", //Electrotine,
+"Cinnabar", //Redstone,
+	];
+
+global fourthByproduct10 as string[] = [
+"Electrotine", //Electrotine,
+"Redstone", //Redstone,
+	];
+
+#=====================
+#---Outputs 12x--------
+#=====================
+global oreInput12 as string[] = [
+"Lazurite",
+"Sodalite",
+"Lapis",
+];
+
+global firstByproduct12 as string[] = [
+"Sodalite", //Lazurite,
+"Lazurite", //Sodalite,
+"Lazurite", //Lapis,
+];
+
+global secondByproduct12 as string[] = [
+"Lapis", //Lazurite,
+"Lapis", //Sodalite,
+"Sodalite", //Lapis,
+	];
+
+global thirdByproduct12 as string[] = [
+"Sodalite", //Lazurite,
+"Pyrite", //Sodalite,
+"Pyrite", //Lapis,
+	];
+
+global fourthByproduct12 as string[] = [
+"Lazurite", //Lazurite,
+"Sodalite", //Sodalite,
+"Lapis", //Lapis,
+	];

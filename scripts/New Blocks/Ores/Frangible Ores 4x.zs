@@ -25,50 +25,68 @@ var ore_types = ["frangible"] as string[];
 #4x
 var materialList4 as string[] = [
 "Pyrope",
-"GarnetYellow",
+"Saltpeter",
 "GarnetRed",
-"Saltpeter"
-	];
-
-var materialName4 as string[] = [
-"Pyrope",
-"Yellow Garnet",
-"Red Garnet",
-"Saltpeter"
+"GarnetYellow",
+"Almandine",
+"Grossular",
+"Glassy Ore", //Glassy
+"Goslarite"
 	];
 
 var materialColour4 as int[] = [
 <material:pyrope>.color,
 <material:garnet_yellow>.color,
 <material:garnet_red>.color,
-<material:saltpeter>.color];
+<material:saltpeter>.color,
+<material:almandine>.color,
+<material:grossular>.color,
+<material:glassy>.color,
+<material:goslarite>.color,
+];
 
 var firstByproduct4 as string[] = [
-"GarnetRed", //Pyrope, 
-"Andradite", //GarnetYellow,
+"GarnetRed", //Pyrope,
+"Saltpeter", //Saltpeter,
 "Spessartine", //GarnetRed,
-"Saltpeter" //Saltpeter,
+"Andradite", //GarnetYellow,
+"GarnetRed", //Almandine,
+"GarnetYellow", //Grossular,
+"Glassy", //Glassy
+"Uvarovite", //Goslarite,
 	];
 
 var secondByproduct4 as string[] = [
 "Almandine", //Pyrope,
-"Grossular", //GarnetYellow,
+"Saltpeter", //Saltpeter,
 "Pyrope", //GarnetRed,
-"Saltpeter" //Saltpeter,
+"Grossular", //GarnetYellow,
+"Aluminium", //Almandine,
+"Calcium", //Grossular,
+"Glassy", //Glassy
+"Cadmite", //Goslarite,
 	];
 
 var thirdByproduct4 as string[] = [
 "GarnetRed", //Pyrope,
-"Uvarovite", //GarnetYellow,
+"Saltpeter", //Saltpeter,
 "Almandine", //GarnetRed,
-"Saltpeter" //Saltpeter,
+"Uvarovite", //GarnetYellow,
+"GarnetRed", //Almandine,
+"GarnetYellow", //Grossular,
+"Glassy", //Glassy
+"Gallium", //Goslarite,
 	];
 
 var fourthByproduct4 as string[] = [
 "Pyrope", //Pyrope,
-"GarnetYellow", //GarnetYellow,
+"Saltpeter", //Saltpeter,
 "GarnetRed", //GarnetRed,
-"Saltpeter" //Saltpeter,
+"GarnetYellow", //GarnetYellow,
+"Almandine", //Almandine,
+"Grossular", //Grossular,
+"Glassy", //Glassy
+"Goslarite", //Goslarite,
 	];
 
 for i, material in materialList4 {

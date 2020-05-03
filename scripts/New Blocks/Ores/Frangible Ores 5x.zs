@@ -25,37 +25,26 @@ var ore_types = ["frangible"] as string[];
 #5x
 var materialList5 as string[] = [
 "Apatite",
-"Electrotine"
-	];
-
-var materialName5 as string[] = [
-"Apatite",
-"Electrotine"
 	];
 
 var materialColour5 as int[] = [
 <material:apatite>.color,
-<material:electrotine>.color
 	];
 
 var firstByproduct5 as string[] = [
 "Apatite", //Apatite,
-"Sapphire" //Electrotine
 	];
 
 var secondByproduct5 as string[] = [
 "Phosphor", //Apatite,
-"Cinnabar" //Electrotine
 	];
 
 var thirdByproduct5 as string[] = [
 "Apatite", //Apatite,
-"RareEarth" //Electrotine
 	];
 
 var fourthByproduct5 as string[] = [
 "Apatite", //Apatite,
-"Electrotine" //Electrotine
 	];
 
 for i, material in materialList5 {
