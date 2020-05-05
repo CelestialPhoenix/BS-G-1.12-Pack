@@ -15,7 +15,7 @@ for i, input in oreInput2 {
 	var oreStone as IItemStack = oreDict["ore"~input].firstItem;
 	var oreGravel as IItemStack = oreDict["oreGravel"~input].firstItem;
 	var oreCrushed as IItemStack = oreDict["crushed"~input].firstItem;
-	
+
 	var grinderRecipeNameWater as string = "GrinderOreWater"~input;
 	var grinderRecipeNamePetrotheum as string = "GrinderOrePetrotheum"~input;
 	var grinderRecipeNameTaint as string = "GrinderOreTaint"~input;
@@ -23,11 +23,11 @@ for i, input in oreInput2 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
-	
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
+
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct2[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct2[i]].firstItem;
 	var thirdByproduct as IItemStack = oreDict["crushed"~thirdByproduct2[i]].firstItem;
@@ -211,10 +211,10 @@ for i, input in oreInput3 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct3[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct3[i]].firstItem;
@@ -411,10 +411,10 @@ for i, input in oreInput4 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct4[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct4[i]].firstItem;
@@ -599,10 +599,10 @@ for i, input in oreInput5 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct5[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct5[i]].firstItem;
@@ -795,10 +795,10 @@ for i, input in oreInput10 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct10[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct10[i]].firstItem;
@@ -991,10 +991,10 @@ for i, input in oreInput12 {
 	var grinderRecipeNameLuck as string = "GrinderOreLuck"~input;
 
 	var grinderGravelRecipeNameWater as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameTaint as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameMana as string = "GrinderGravelOre"~input;
-	var grinderGravelRecipeNameLuck as string = "GrinderGravelOre"~input;
+	var grinderGravelRecipeNamePetrotheum as string = "GrinderGravelOrePetrotheum"~input;
+	var grinderGravelRecipeNameTaint as string = "GrinderGravelOreTaint"~input;
+	var grinderGravelRecipeNameMana as string = "GrinderGravelOreMana"~input;
+	var grinderGravelRecipeNameLuck as string = "GrinderGravelOreLuck"~input;
 	
 	var firstByproduct as IItemStack = oreDict["crushed"~firstByproduct12[i]].firstItem;
 	var secondByproduct as IItemStack = oreDict["crushed"~secondByproduct12[i]].firstItem;

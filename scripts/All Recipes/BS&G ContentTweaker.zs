@@ -4,6 +4,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
 
 print("Tweak Tweak Tweak Tweak");
 
@@ -11,6 +14,14 @@ print("Tweak Tweak Tweak Tweak");
 
 var canLubricant=<forestry:can:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}});
 var capsuleLubricant=<forestry:capsule:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 1000}});
+
+#Fix Frangible Ore Dict.
+for input in oreInput {
+	var oreFrangible as IItemStack = oreDict["oreFrangible"~input].firstItem;
+
+var oreBlock = (oreFrangible) as IBlock;
+oreBlock.definition.setHarvestLevel("pickaxe", -1);
+}
 
 #Tooltips
 #-Manuals-

@@ -152,6 +152,8 @@ tile.contenttweaker.oredreadstonepotassium.name=Potassium Ore
 tile.contenttweaker.oreendstonebrannerite.name=Brannerite
 tile.contenttweaker.oreendstoneuraninite.name=Uraninite
 
+tile.contenttweaker.frangible_gravel.name=Frangible Gravel
+
 tile.contenttweaker.oreglowstonegold.name=Gold Ore
 tile.contenttweaker.oreglowstoneredstone.name=Redstone Ore
 
@@ -285,6 +287,7 @@ tile.contenttweaker.castaxesteel.name=Cast Steel Axe Heads
 tile.contenttweaker.castaxetin.name=Cast Tin Axe Heads
 
 tile.contenttweaker.casthammerbronze.name=Cast Bronze Hammer Heads
+tile.contenttweaker.casthammercopper.name=Cast Copper Hammer Heads
 tile.contenttweaker.casthammeriron.name=Cast Iron Hammer Heads
 tile.contenttweaker.casthammersteel.name=Cast Steel Hammer Heads
 
@@ -391,6 +394,7 @@ tile.contenttweaker.mouldaxehead.name=Axe Head Mold
 tile.contenttweaker.mouldshovelhead.name=Shovel Head Mold
 tile.contenttweaker.mouldswordhead.name=Sword Head Mold
 tile.contenttweaker.mouldhoehead.name=Hoe Head Mold
+tile.contenttweaker.mouldhammerhead.name=Hammer Head Mold
 
 tile.contenttweaker.woodrotten.name=Rotten Wood
 tile.contenttweaker.woodslimegreen.name=Slimy Wood

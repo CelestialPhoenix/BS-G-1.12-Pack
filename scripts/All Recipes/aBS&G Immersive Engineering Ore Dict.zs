@@ -82,6 +82,7 @@ print("Trust me I'm an engineer");
 <ore:plateElectrum>.remove(<immersiveengineering:metal:37>);
 <ore:plateSteel>.remove(<immersiveengineering:metal:38>);
 <ore:plateIron>.remove(<immersiveengineering:metal:39>);
+<ore:plateGold>.remove(<immersiveengineering:metal:40>);
 
 #Scaffolding
 <ore:scaffoldingAluminum>.remove(<immersiveengineering:metal_decoration1:5>);
