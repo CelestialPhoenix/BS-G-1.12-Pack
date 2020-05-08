@@ -11,8 +11,17 @@ import mods.contenttweaker.Commands;
 #var PlateThick = VanillaFactory.createItem("platethick");
 #PlateThick.register();
 
+var PlateThickBeryllium = VanillaFactory.createItem("platethickberyllium");
+PlateThickBeryllium.register();
+
 var PlateThickDarmstadtium = VanillaFactory.createItem("platethickdarmstadtium");
 PlateThickDarmstadtium.register();
+
+var PlateThickPlastic = VanillaFactory.createItem("platethickplastic");
+PlateThickPlastic.register();
+
+var PlateThickPTFE = VanillaFactory.createItem("platethickptfe");
+PlateThickPTFE.register();
 
 var PlateThickTitanium = VanillaFactory.createItem("platethicktitanium");
 PlateThickTitanium.register();
@@ -22,6 +31,9 @@ PlateThickStainless.register();
 
 var PlateThickTungstenSteel = VanillaFactory.createItem("platethicktungstensteel");
 PlateThickTungstenSteel.register();
+
+var PlateThickUranium238 = VanillaFactory.createItem("platethickuranium238");
+PlateThickUranium238.register();
 
 var PlateThickSteelMagnetic = VanillaFactory.createItem("platethicksteelmagnetic");
 PlateThickSteelMagnetic.register();

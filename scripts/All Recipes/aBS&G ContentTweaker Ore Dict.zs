@@ -609,6 +609,11 @@ print("Tweak Tweak Tweak Tweak");
 <ore:plateThickHssg>.add(<contenttweaker:platethickhssg>);
 <ore:plateThickHsse>.add(<contenttweaker:platethickhsse>);
 <ore:plateThickWood>.add(<contenttweaker:platethickwood>);
+<ore:plateThickBeryllium>.add(<contenttweaker:platethickberyllium>);
+<ore:plateThickPlastic>.add(<contenttweaker:platethickplastic>);
+<ore:plateThickPTFE>.add(<contenttweaker:platethickptfe>);
+<ore:plateThickPolytetrafluroethylene>.add(<contenttweaker:platethickptfe>);
+<ore:plateThickUranium238>.add(<contenttweaker:platethickuranium238>);
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);

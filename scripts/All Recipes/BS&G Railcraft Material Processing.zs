@@ -347,6 +347,45 @@ RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*5, [
 [<ore:plateHSSS>, <ore:dustDiamond>, <ore:plateHSSS>],
 [<ore:plateOsmiridium>, <ore:plateHSSS>, <ore:plateOsmiridium>]], 200);
 
+#--NuclearCraft Plating--
+#Basic
+RollingMachine.addShaped(<nuclearcraft:part:0>*2, [
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>],
+[<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
+[<ore:plateAluminium>, <ore:plateSteel>, <ore:plateAluminium>]], 200);
+#Advanced
+RollingMachine.addShaped(<nuclearcraft:part:1>*2, [
+[<ore:plateAdvancedAlloy>, <ore:plateGraphite>, <ore:plateAdvancedAlloy>],
+[<nuclearcraft:part:0>, <nuclearcraft:part:0>, <nuclearcraft:part:0>],
+[<ore:plateStainlessSteel>, <ore:plateGraphite>, <ore:plateStainlessSteel>]], 200);
+#DU
+RollingMachine.addShaped(<nuclearcraft:part:2>*1, [
+[<ore:plateAdvancedAlloy>, <ore:ingotUranium238>, <ore:plateAdvancedAlloy>],
+[<ore:ingotUranium238>, <nuclearcraft:part:1>, <ore:ingotUranium238>],
+[<ore:plateZirconium>, <ore:ingotUranium238>, <ore:plateZirconium>]], 200);
+#Elite
+RollingMachine.addShaped(<nuclearcraft:part:3>*1, [
+[<ore:plateAdvancedAlloy>, <ore:plateBoron>, <ore:plateAdvancedAlloy>],
+[<ore:plateBoron>, <nuclearcraft:part:2>, <ore:plateBoron>],
+[<ore:plateTitanium>, <ore:plateBoron>, <ore:plateTitanium>]], 200);
+
+#--NuclearCraft Radiation Shielding--
+#Light
+RollingMachine.addShaped(<nuclearcraft:rad_shielding:0>*2, [
+[<ore:plateThickLead>, <nuclearcraft:part:0>, <ore:plateThickLead>],
+[<nuclearcraft:part:0>, <ore:plateThickSteel>, <nuclearcraft:part:0>],
+[<ore:plateThickLead>, <nuclearcraft:part:0>, <ore:plateThickLead>]], 200);
+#Medium
+RollingMachine.addShaped(<nuclearcraft:rad_shielding:1>*2, [
+[<ore:plateThickBeryllium>, <ore:plateThickBeryllium>, <ore:plateThickBeryllium>],
+[<nuclearcraft:part:1>, <ore:plateThickStainlessSteel>, <nuclearcraft:part:1>],
+[<ore:plateThickPlastic>, <ore:plateThickPlastic>, <ore:plateThickPlastic>]], 200);
+#Heavy
+RollingMachine.addShaped(<nuclearcraft:rad_shielding:2>*2, [
+[<ore:plateThickUranium238>, <ore:plateThickUranium238>, <ore:plateThickUranium238>],
+[<nuclearcraft:part:2>, <ore:plateThickTungstenSteel>, <nuclearcraft:part:2>],
+[<ore:plateThickPTFE>, <ore:plateThickPTFE>, <ore:plateThickPTFE>]], 200);
+
 #--Posts--
 RollingMachine.remove(<railcraft:post_metal:15>);
 RollingMachine.addShaped(<railcraft:post_metal:0>*6, [
@@ -1379,6 +1418,18 @@ RollingMachine.addShaped(<ore:plateThickTungstenSteel>.firstItem, [
 RollingMachine.addShaped(<ore:plateThickTitanium>.firstItem, [
 [<ore:plateTitanium>, <ore:plateTitanium>],
 [<ore:plateTitanium>, <ore:plateTitanium>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickBeryllium>.firstItem, [
+[<ore:plateBeryllium>, <ore:plateBeryllium>],
+[<ore:plateBeryllium>, <ore:plateBeryllium>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickPlastic>.firstItem, [
+[<ore:platePlastic>, <ore:platePlastic>],
+[<ore:platePlastic>, <ore:platePlastic>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickPTFE>.firstItem, [
+[<ore:platePolytetraflouroethylene>, <ore:platePolytetraflouroethylene>],
+[<ore:platePolytetraflouroethylene>, <ore:platePolytetraflouroethylene>]], 200);
 
 #-TFo Plates- 
 RollingMachine.addShaped(<ore:plateThickIron>.firstItem, [
