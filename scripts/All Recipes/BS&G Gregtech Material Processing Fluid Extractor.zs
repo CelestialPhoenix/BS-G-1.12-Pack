@@ -90,7 +90,7 @@ FluidExtractor
     .EUt(24)
     .buildAndRegister();
 
-
+#---Alchemical Fluids---
 #-Primal Mana-
 FluidExtractor
     .recipeBuilder()
@@ -121,6 +121,95 @@ FluidExtractor
     .inputs(<ore:manaDiamond>*1)
 	.fluidOutputs([<liquid:mana>*200])
     .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#-Taint-
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:logTaintwood>*1)
+	.fluidOutputs([<liquid:taint>*10])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:taint_soil>*1)
+	.fluidOutputs([<liquid:taint>*5])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:taint_rock>*1)
+	.fluidOutputs([<liquid:taint>*5])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+	
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:taint_crust>*1)
+	.fluidOutputs([<liquid:taint>*20])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+	
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]})*1)
+	.fluidOutputs([<liquid:taint>*10])
+    .duration(20)
+    .EUt(24)
+    .buildAndRegister();
+	
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]})*1)
+	.fluidOutputs([<liquid:taint>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+	
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:bottle_taint>*1)
+	.fluidOutputs([<liquid:taint>*400])
+    .duration(50)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:crystal_vitium>*1)
+	.fluidOutputs([<liquid:taint>*150])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:taint_fibre>*1)
+	.fluidOutputs([<liquid:taint>*30])
+    .duration(50)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:taint_feature>*1)
+	.fluidOutputs([<liquid:taint>*60])
+    .duration(50)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<thaumcraft:curio:5>*1)
+	.fluidOutputs([<liquid:taint>*100])
+    .duration(200)
     .EUt(24)
     .buildAndRegister();
 

@@ -35,11 +35,22 @@ var cobaltOre as string[] = [
 
 for input in cobaltOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
@@ -57,11 +68,22 @@ var cobaltnickelOre as string[] = [
 
 for input in cobaltnickelOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallCobalt>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
@@ -77,11 +99,22 @@ var electrotineOre as string[] = [
 
 for input in electrotineOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallElectrotine>.firstItem, 5000, 1000)
@@ -97,11 +130,22 @@ var goldOre as string[] = [
 
 for input in goldOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallGold>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallGold>.firstItem, 5000, 1000)
@@ -128,11 +172,22 @@ var ironOre as string[] = [
 
 for input in ironOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallIron>.firstItem, 5000, 1000)
@@ -153,11 +208,22 @@ var neodymiumOre as string[] = [
 
 for input in neodymiumOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
@@ -173,11 +239,22 @@ var neodymiumRichOre as string[] = [
 
 for input in neodymiumRichOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustNeodymium>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustNeodymium>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallNeodymium>.firstItem, 5000, 1000)
@@ -196,11 +273,22 @@ var nickelOre as string[] = [
 
 for input in nickelOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallNickel>.firstItem, 5000, 1000)
@@ -218,11 +306,22 @@ var redstoneOre as string[] = [
 
 for input in redstoneOre {
 	var dustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var crushedCentrifuged as IItemStack = oreDict["crushedCentrifuged"~input].firstItem;
 	var dust as IItemStack = oreDict["dust"~input].firstItem;
 
 separator
     .recipeBuilder()
     .inputs(dustPure)
+    .outputs(dust)
+	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)
+	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)
+    .duration(400)
+    .EUt(24)
+    .buildAndRegister();
+
+separator
+    .recipeBuilder()
+    .inputs(crushedCentrifuged)
     .outputs(dust)
 	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)
 	.chancedOutput(<ore:dustSmallRedstone>.firstItem, 5000, 1000)

@@ -83,6 +83,23 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:dyeWhite>.remove(<thermalfoundation:dye:15>);
 <ore:dye>.remove(<thermalfoundation:dye:*>);
 
+#Fishing Rods
+<ore:fishingRodCopper>.add(<thermalfoundation:tool.fishing_rod_copper>);
+<ore:fishingRodTin>.add(<thermalfoundation:tool.fishing_rod_tin>);
+<ore:fishingRodLead>.add(<thermalfoundation:tool.fishing_rod_lead>);
+<ore:fishingRodNickel>.add(<thermalfoundation:tool.fishing_rod_nickel>);
+<ore:fishingRodAluminium>.add(<thermalfoundation:tool.fishing_rod_aluminum>);
+<ore:fishingRodPlatinum>.add(<thermalfoundation:tool.fishing_rod_platinum>);
+<ore:fishingRodSteel>.add(<thermalfoundation:tool.fishing_rod_steel>);
+<ore:fishingRodElectrum>.add(<thermalfoundation:tool.fishing_rod_electrum>);
+<ore:fishingRodInvar>.add(<thermalfoundation:tool.fishing_rod_invar>);
+<ore:fishingRodBronze>.add(<thermalfoundation:tool.fishing_rod_bronze>);
+<ore:fishingRodGold>.add(<thermalfoundation:tool.fishing_rod_gold>);
+<ore:fishingRodIron>.add(<thermalfoundation:tool.fishing_rod_iron>);
+<ore:fishingRodDiamond>.add(<thermalfoundation:tool.fishing_rod_diamond>);
+<ore:fishingRodConstantan>.add(<thermalfoundation:tool.fishing_rod_constantan>);
+<ore:fishingRodSilver>.add(<thermalfoundation:tool.fishing_rod_silver>);
+
 #Gears
 #<ore:gear>.remove(<thermalfoundation:material:>);
 <ore:gearWood>.remove(<thermalfoundation:material:22>);
@@ -108,6 +125,20 @@ print("There are no bodies buried into the foundations. You can stop looking now
 <ore:gearSignalum>.remove(<thermalfoundation:material:293>);
 <ore:gearLumium>.remove(<thermalfoundation:material:294>);
 <ore:gearEnderium>.remove(<thermalfoundation:material:295>);
+
+#Horse Armour
+<ore:horseArmourCopper>.add(<thermalfoundation:horse_armor_copper>);
+<ore:horseArmourTin>.add(<thermalfoundation:horse_armor_tin>);
+<ore:horseArmourLead>.add(<thermalfoundation:horse_armor_lead>);
+<ore:horseArmourNickel>.add(<thermalfoundation:horse_armor_nickel>);
+<ore:horseArmourAluminium>.add(<thermalfoundation:horse_armor_aluminum>);
+<ore:horseArmourPlatinum>.add(<thermalfoundation:horse_armor_platinum>);
+<ore:horseArmourSteel>.add(<thermalfoundation:horse_armor_steel>);
+<ore:horseArmourElectrum>.add(<thermalfoundation:horse_armor_electrum>);
+<ore:horseArmourInvar>.add(<thermalfoundation:horse_armor_invar>);
+<ore:horseArmourBronze>.add(<thermalfoundation:horse_armor_bronze>);
+<ore:horseArmourSilver>.add(<thermalfoundation:horse_armor_silver>);
+<ore:horseArmourConstantan>.add(<thermalfoundation:horse_armor_constantan>);
 
 #Ingots
 <ore:ingotAluminum>.remove(<thermalfoundation:material:132>);

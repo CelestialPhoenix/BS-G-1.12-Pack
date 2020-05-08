@@ -993,6 +993,14 @@ recipes.removeShaped(<ore:ringStyreneButadieneRubber>.firstItem);
 recipes.removeShaped(<ore:ringSiliconRubber>.firstItem);
 recipes.removeShaped(<ore:ringTungstenThoriumAlloy>.firstItem);
 
+recipes.removeShaped(<ore:ringConstantan>.firstItem);
+recipes.removeShaped(<ore:ringNickel>.firstItem);
+recipes.removeShaped(<ore:ringSilver>.firstItem);
+recipes.removeShaped(<ore:ringElectrum>.firstItem);
+recipes.removeShaped(<ore:ringPlatinum>.firstItem);
+recipes.removeShaped(<ore:ringLead>.firstItem);
+recipes.removeShaped(<ore:ringTungsten>.firstItem);
+
 #Paper
 recipes.addShaped(<ore:ringPaper>.firstItem*4, [
 [null, <ore:paper>, null], 

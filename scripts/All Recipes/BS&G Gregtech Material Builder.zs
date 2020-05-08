@@ -61,13 +61,17 @@ copper.addFlags(["GENERATE_RING", "GENERATE_DENSE"]);
 var chrome = <material:chrome>;
 chrome.addFlags(["GENERATE_ORE"]);
 
+var cupronickel = <material:cupronickel>;
+cupronickel.addFlags(["GENERATE_RING"]);
+
+var electrum = <material:electrum>;
+electrum.addFlags(["GENERATE_RING"]);
+
 var gallium = <material:gallium>;
 gallium.addFlags(["GENERATE_ORE"]);
 
 var gold = <material:gold>;
 gold.addFlags(["GENERATE_DENSE", "GENERATE_GEAR", "GENERATE_SMALL_GEAR", "GENERATE_RING"]);
-
-var glass = <material:glass>;
 
 var greensapphire = <material:green_sapphire>;
 greensapphire.addFlags(["GENERATE_PLATE"]);
@@ -77,6 +81,9 @@ invar.addFlags(["NO_SMELTING", "GENERATE_FINE_WIRE"]);
 
 var kaolinite = <material:kaolinite>;
 kaolinite.addFlags(["GENERATE_ORE"]);
+
+var lead = <material:lead>;
+lead.addFlags(["GENERATE_RING"]);
 
 val magnesium = <material:magnesium>;
 magnesium.addFlags(["GENERATE_ORE"]);
@@ -88,10 +95,13 @@ var naquadria = <material:naquadria>;
 naquadria.addFlags(["GENERATE_ORE"]);
 
 val nickel = <material:nickel>;
-nickel.addFlags(["GENERATE_ROD"]);
+nickel.addFlags(["GENERATE_ROD", "GENERATE_RING"]);
 
 var phosphorus = <material:phosphorus>;
 phosphorus.addFlags(["GENERATE_ORE"]);
+
+var platinum = <material:platinum>;
+platinum.addFlags(["GENERATE_RING"]);
 
 var potassium = <material:potassium>;
 potassium.addFlags(["GENERATE_ORE"]);
@@ -110,6 +120,9 @@ silicon.addFlags(["GENERATE_ORE"]);
 
 var silicon_dioxide = <material:silicon_dioxide>;
 silicon_dioxide.addFlags(["GENERATE_ORE"]);
+
+var silver = <material:silver>;
+silver.addFlags(["GENERATE_RING"]);
 
 val rare_earth = <material:rare_earth>;
 rare_earth.addFlags(["GENERATE_ORE"]);
@@ -541,11 +554,12 @@ MaterialRegistry.createFluidMaterial(694, "alkenes", 0x35353A, "fluid", null);
 
 #--Alchemical Stuff--
 MaterialRegistry.createFluidMaterial(695, "magnetic", 0x000000, "fluid", null);
-MaterialRegistry.createFluidMaterial(696, "toxic", 0x440044, "fluid", null);
+MaterialRegistry.createFluidMaterial(696, "toxic", 0x550055, "fluid", null);
 MaterialRegistry.createFluidMaterial(697, "luck", 0xFFAAAA, "fluid", null);
 MaterialRegistry.createFluidMaterial(698, "distilled_coralium", 0x88DDDD, "fluid", null);
 MaterialRegistry.createFluidMaterial(699, "refined_antimatter", 0xEEEEEE, "fluid", null);
 val dustLustrous = MaterialRegistry.createDustMaterial(700, "lustrous", 0x332200, "shiny", 1, null);
+MaterialRegistry.createFluidMaterial(701, "taint", 0x440533, "fluid", null);
 
 #--Mod Integration--
 #-Botania-

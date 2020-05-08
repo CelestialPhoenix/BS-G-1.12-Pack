@@ -13,86 +13,86 @@ recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {PrimaryMat
 
 
 #non Gt tool materials (broken durability ect)
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "constantan"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "copper"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "copper"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "copper"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "copper"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "copper"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "copper"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "copper"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "copper"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "copper"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "copper"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "copper"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "copper"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "copper"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "copper"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "copper"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "copper"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "gold"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "gold"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "gold"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "gold"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "gold"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "gold"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "gold"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "gold"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "gold"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "gold"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "gold"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "gold"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "gold"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "gold"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "gold"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "gold"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "silver"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "silver"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "silver"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "silver"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "silver"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "silver"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "silver"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "silver"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "silver"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "silver"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "silver"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "silver"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "silver"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "silver"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "silver"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "silver"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "tin"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "tin"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "tin"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "tin"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "tin"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "tin"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "tin"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "tin"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "tin"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "tin"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "tin"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "tin"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "tin"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "tin"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "tin"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "tin"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "electrum"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "lead"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "lead"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "lead"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "lead"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "lead"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "lead"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "lead"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "lead"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "lead"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "lead"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "lead"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "lead"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "lead"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "lead"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "lead"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "lead"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "nickel"}})); //Universal Spade
 
-recipes.removeShaped(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Axe
-recipes.removeShaped(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Hammer
-recipes.removeShaped(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Hoe
-recipes.removeShaped(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Pickaxe
-recipes.removeShaped(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Sense
-recipes.removeShaped(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Shovel
-recipes.removeShaped(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Sword
-recipes.removeShaped(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Universal Spade
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Universal Spade
 
 #Sword Blades
 recipes.removeShaped(<ore:toolHeadSwordAluminium>.firstItem);

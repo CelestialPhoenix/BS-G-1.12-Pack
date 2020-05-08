@@ -19,6 +19,33 @@ val Autoclave as RecipeMap = RecipeMap.getByName("autoclave");
 #---Macerator---
 #In macerator ore processing.zs
 
+#---Remove Crafting Recipes---
+for input in oreInput {
+	var oreDustImpure as IItemStack = oreDict["dustImpure"~input].firstItem;
+	var oreDustPure as IItemStack = oreDict["dustPure"~input].firstItem;
+	var oreDust as IItemStack = oreDict["dust"~input].firstItem;
+
+recipes.removeShapeless(oreDustImpure);
+recipes.removeShapeless(oreDustPure);
+}
+
+recipes.removeShapeless(<ore:dustSalt>);
+recipes.removeShapeless(<ore:dustMagnetite>);
+recipes.removeShapeless(<ore:dustDiamond>);
+recipes.removeShapeless(<ore:dustBorax>);
+recipes.removeShapeless(<ore:dustPlatinum>);
+recipes.removeShapeless(<ore:dustSulfur>);
+recipes.removeShapeless(<ore:dustZirconium>);
+recipes.removeShapeless(<ore:dustVanadium>);
+recipes.removeShapeless(<ore:dustBismuth>);
+recipes.removeShapeless(<ore:dustLithium>);
+recipes.removeShapeless(<ore:dustArsenic>);
+recipes.removeShapeless(<ore:dustIridium>);
+recipes.removeShapeless(<ore:dustBeryllium>);
+recipes.removeShapeless(<ore:dustUranium>);
+recipes.removeShapeless(<ore:dustGraphite>);
+recipes.removeShapeless(<ore:dustSaltpeter>);
+
 #---Old recipes---
 var oldOres as string[] = [
 	"CassiteriteSand",
@@ -45,6 +72,9 @@ thermalCentrifuge.findRecipe(60, [oreCrushed], null).remove();
 thermalCentrifuge.findRecipe(60, [oreCrushedPurified], null).remove();
 centrifuge.findRecipe(24, [oreDustImpure], null).remove();
 centrifuge.findRecipe(5, [oreDustPure], null).remove();
+
+recipes.remove(oreDustImpure);
+recipes.remove(oreDustPure);
 }
 
 

@@ -22,7 +22,7 @@ print("Mwah ha ha ha ha ha");
 <ore:magmacream>.add(<minecraft:magma_cream>);
 <ore:snowball>.add(<minecraft:snowball>);
 <ore:itemFlint>.add(<minecraft:flint>);
-
+<ore:saddle>.add(<minecraft:saddle>);
 <ore:blockGlassColourless>.add(<minecraft:glass>);
 
 <ore:boat>.add(<minecraft:boat>);

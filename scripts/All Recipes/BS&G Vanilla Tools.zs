@@ -92,6 +92,25 @@ recipes.addShaped(<minecraft:golden_boots>,[
 [<ore:plateGold>, null, <ore:plateGold>],
 [<ore:plateGold>, null, <ore:plateGold>]]);
 
+#Horse Armour
+recipes.remove(<minecraft:iron_horse_armor>);
+recipes.addShaped(<minecraft:iron_horse_armor>,[
+[<ore:plateIron>, <ore:saddle>, <ore:plateIron>],
+[<ore:ringIron>, <ore:plateIron>, <ore:ringIron>],
+[<ore:plateIron>, null, <ore:plateIron>]]);
+
+recipes.remove(<minecraft:golden_horse_armor>);
+recipes.addShaped(<minecraft:golden_horse_armor>,[
+[<ore:plateGold>, <ore:saddle>, <ore:plateGold>],
+[<ore:ringGold>, <ore:plateGold>, <ore:ringGold>],
+[<ore:plateGold>, null, <ore:plateGold>]]);
+
+recipes.remove(<minecraft:diamond_horse_armor>);
+recipes.addShaped(<minecraft:diamond_horse_armor>,[
+[<ore:plateDiamond>, <ore:saddle>, <ore:plateDiamond>],
+[<ore:ringSteel>, <ore:plateDiamond>, <ore:ringSteel>],
+[<ore:plateDiamond>, null, <ore:plateDiamond>]]);
+
 #---Tools---
 #-misc tools-
 #Compass

@@ -301,9 +301,9 @@ recipes.addShaped(<contenttweaker:gearboxemptyaluminium>, [
 
 #stainless
 recipes.addShaped(<contenttweaker:gearboxemptystainless>, [
-[<ore:plateStainless>, <ore:mechcompStainless>, <ore:plateStainless>],
-[<ore:plateStainless>, null, <ore:plateStainless>], 
-[<ore:plateStainless>, <ore:mechcompStainless>, <ore:plateStainless>]]);
+[<ore:plateStainlessSteel>, <ore:mechcompStainless>, <ore:plateStainlessSteel>],
+[<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>], 
+[<ore:plateStainlessSteel>, <ore:mechcompStainless>, <ore:plateStainlessSteel>]]);
 
 #titanium
 recipes.addShaped(<contenttweaker:gearboxemptytitanium>, [
@@ -313,19 +313,13 @@ recipes.addShaped(<contenttweaker:gearboxemptytitanium>, [
 
 #tungstensteel
 recipes.addShaped(<contenttweaker:gearboxemptytungstensteel>, [
-[<ore:plateTungstensteel>, <ore:mechcompTungstensteel>, <ore:plateTungstensteel>],
-[<ore:plateTungstensteel>, null, <ore:plateTungstensteel>], 
-[<ore:plateTungstensteel>, <ore:mechcompTungstensteel>, <ore:plateTungstensteel>]]);
+[<ore:plateTungstenSteel>, <ore:mechcompTungstensteel>, <ore:plateTungstenSteel>],
+[<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>], 
+[<ore:plateTungstenSteel>, <ore:mechcompTungstensteel>, <ore:plateTungstenSteel>]]);
 
 #---Filled Gearboxes---
-#filling disabled due to major dupe bug with .giveBack
 recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, canLubricant.transformReplace(<forestry:can>*2), canLubricant]);
 recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, capsuleLubricant.transformReplace(<forestry:capsule>*2), capsuleLubricant]);
-
-#temp filling recipes
-#recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, cellLubricant, cellLubricant]);
-#recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, canLubricant, canLubricant]);
-#recipes.addShapeless(<contenttweaker:gearboxsteel>, [<contenttweaker:gearboxemptysteel>, capsuleLubricant, capsuleLubricant]);
 
 #gearboxes filled in ImEng bottling plant. See Immersive Engineering Material Processing.zs
 

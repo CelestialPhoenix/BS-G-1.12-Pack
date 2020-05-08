@@ -13,6 +13,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:nuggetConstantan>.addAll(<ore:nuggetCupronickel>);
 <ore:plateConstantan>.addAll(<ore:plateCupronickel>);
 <ore:stickConstantan>.addAll(<ore:stickCupronickel>);
+<ore:ringConstantan>.addAll(<ore:ringCupronickel>);
 <ore:stickLongConstantan>.addAll(<ore:stickLongCupronickel>);
 <ore:screwConstantan>.addAll(<ore:screwCupronickel>);
 <ore:wireGtSingleConstantan>.addAll(<ore:wireGtSingleCupronickel>);

@@ -8,7 +8,6 @@ print("Modular Everything!");
 
 
 #---CNC Machine---
-
 #cnc basic
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cnc_basic"}), [
 [<ore:circuitBasic>, <ore:pistonLV>, <ore:stickSteel>],
@@ -77,6 +76,13 @@ recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "mod
 [<ore:ringSteel>, <ore:plateSteel>, <ore:ringSteel>], 
 [<ore:circuitBasic>, <ore:cableGtSingleTin>, <ore:circuitBasic>]]);
 */
+
+#---Industrial Grinder---
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_grinder"}), [
+[<ore:craftingGrinder>, <ore:craftingGrinder>, <ore:craftingGrinder>],
+[<ore:stickTungstenSteel>, <ore:stickTungstenSteel>, <ore:stickTungstenSteel>], 
+[<ore:circuitExtreme>, <ore:plateTungstenSteel>, <ore:circuitExtreme>]]);
+
 #---Lathe---
 
 #lathe_basic

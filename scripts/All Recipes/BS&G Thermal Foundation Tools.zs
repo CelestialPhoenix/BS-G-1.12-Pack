@@ -1,15 +1,24 @@
 #Name: Blood Sweat & Gears Thermal Foundation Tools.zs
 #Author: PhoePhoe
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.gregtech.recipe.RecipeMap;
+
 print("There are no bodies buried into the foundations. You can stop looking now.");
 
 #---Axe---
 #Copper
 recipes.remove(<thermalfoundation:tool.axe_copper>);
-<thermalfoundation:tool.axe_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.axe_copper>, [
+[<ore:toolHeadAxeCopper>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.axe_tin>);
-<thermalfoundation:tool.axe_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.axe_tin>, [
+[<ore:toolHeadAxeTin>],
+[<ore:toolRodWood>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.axe_silver>);
 recipes.addShaped(<thermalfoundation:tool.axe_silver>, [
@@ -292,150 +301,156 @@ recipes.addShaped(<thermalfoundation:armor.plate_constantan>, [
 #---Excavators---
 #Copper
 recipes.remove(<thermalfoundation:tool.excavator_copper>);
-<thermalfoundation:tool.excavator_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.excavator_copper>, [
+[<ore:toolHeadUniversalSpadeCopper>],
+[<ore:stickLongStainlessSteel>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.excavator_tin>);
-<thermalfoundation:tool.excavator_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.excavator_tin>, [
+[<ore:toolHeadUniversalSpadeTin>],
+[<ore:stickLongStainlessSteel>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.excavator_silver>);
 recipes.addShaped(<thermalfoundation:tool.excavator_silver>, [
-[<ore:toolHeadPlowSilver>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeSilver>],
+[<ore:stickLongStainlessSteel>]]);
 #Lead
 recipes.remove(<thermalfoundation:tool.excavator_lead>);
 recipes.addShaped(<thermalfoundation:tool.excavator_lead>, [
-[<ore:toolHeadPlowLead>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeLead>],
+[<ore:stickLongStainlessSteel>]]);
 #Aluminium
 recipes.remove(<thermalfoundation:tool.excavator_aluminum>);
 recipes.addShaped(<thermalfoundation:tool.excavator_aluminum>, [
-[<ore:toolHeadPlowAluminium>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeAluminium>],
+[<ore:stickLongStainlessSteel>]]);
 #Nickel
 recipes.remove(<thermalfoundation:tool.excavator_nickel>);
 recipes.addShaped(<thermalfoundation:tool.excavator_nickel>, [
-[<ore:toolHeadPlowNickel>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeNickel>],
+[<ore:stickLongStainlessSteel>]]);
 #Platinum
 recipes.remove(<thermalfoundation:tool.excavator_platinum>);
 recipes.addShaped(<thermalfoundation:tool.excavator_platinum>, [
-[<ore:toolHeadPlowPlatinum>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadePlatinum>],
+[<ore:stickLongStainlessSteel>]]);
 #Steel
 recipes.remove(<thermalfoundation:tool.excavator_steel>);
 recipes.addShaped(<thermalfoundation:tool.excavator_steel>, [
-[<ore:toolHeadPlowSteel>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeSteel>],
+[<ore:stickLongStainlessSteel>]]);
 #Electrum
 recipes.remove(<thermalfoundation:tool.excavator_electrum>);
 recipes.addShaped(<thermalfoundation:tool.excavator_electrum>, [
-[<ore:toolHeadPlowElectrum>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeElectrum>],
+[<ore:stickLongStainlessSteel>]]);
 #Invar
 recipes.remove(<thermalfoundation:tool.excavator_invar>);
 recipes.addShaped(<thermalfoundation:tool.excavator_invar>, [
-[<ore:toolHeadPlowInvar>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeInvar>],
+[<ore:stickLongStainlessSteel>]]);
 #Bronze
 recipes.remove(<thermalfoundation:tool.excavator_bronze>);
 recipes.addShaped(<thermalfoundation:tool.excavator_bronze>, [
-[<ore:toolHeadPlowBronze>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeBronze>],
+[<ore:stickLongStainlessSteel>]]);
 #Constantan
 recipes.remove(<thermalfoundation:tool.excavator_constantan>);
 recipes.addShaped(<thermalfoundation:tool.excavator_constantan>, [
-[<ore:toolHeadPlowConstantan>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeConstantan>],
+[<ore:stickLongStainlessSteel>]]);
 #Iron
 recipes.remove(<thermalfoundation:tool.excavator_iron>);
 recipes.addShaped(<thermalfoundation:tool.excavator_iron>, [
-[<ore:toolHeadPlowIron>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeIron>],
+[<ore:stickLongStainlessSteel>]]);
 #Diamond
 recipes.remove(<thermalfoundation:tool.excavator_diamond>);
 recipes.addShaped(<thermalfoundation:tool.excavator_diamond>, [
-[<ore:toolHeadPlowDiamond>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeDiamond>],
+[<ore:stickLongStainlessSteel>]]);
 #Gold
 recipes.remove(<thermalfoundation:tool.excavator_gold>);
 recipes.addShaped(<thermalfoundation:tool.excavator_gold>, [
-[<ore:toolHeadPlowGold>],
-[<ore:stickTitanium>]]);
+[<ore:toolHeadUniversalSpadeGold>],
+[<ore:stickLongStainlessSteel>]]);
 
 #---Hammers---
 #Copper
 recipes.remove(<thermalfoundation:tool.hammer_copper>);
-<thermalfoundation:tool.hammer_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.hammer_copper>, [
+[<ore:toolHeadHammerTin>],
+[<ore:stickLongStainlessSteel>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.hammer_tin>);
 recipes.addShaped(<thermalfoundation:tool.hammer_tin>, [
 [<ore:toolHeadHammerTin>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.hammer_silver>);
 recipes.addShaped(<thermalfoundation:tool.hammer_silver>, [
 [<ore:toolHeadHammerSilver>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Lead
 recipes.remove(<thermalfoundation:tool.hammer_lead>);
 recipes.addShaped(<thermalfoundation:tool.hammer_lead>, [
 [<ore:toolHeadHammerLead>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Aluminium
 recipes.remove(<thermalfoundation:tool.hammer_aluminum>);
 recipes.addShaped(<thermalfoundation:tool.hammer_aluminum>, [
 [<ore:toolHeadHammerAluminium>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Nickel
 recipes.remove(<thermalfoundation:tool.hammer_nickel>);
 recipes.addShaped(<thermalfoundation:tool.hammer_nickel>, [
 [<ore:toolHeadHammerNickel>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Platinum
 recipes.remove(<thermalfoundation:tool.hammer_platinum>);
 recipes.addShaped(<thermalfoundation:tool.hammer_platinum>, [
 [<ore:toolHeadHammerPlatinum>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Steel
 recipes.remove(<thermalfoundation:tool.hammer_steel>);
 recipes.addShaped(<thermalfoundation:tool.hammer_steel>, [
 [<ore:toolHeadHammerSteel>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Electrum
 recipes.remove(<thermalfoundation:tool.hammer_electrum>);
 recipes.addShaped(<thermalfoundation:tool.hammer_electrum>, [
 [<ore:toolHeadHammerElectrum>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Invar
 recipes.remove(<thermalfoundation:tool.hammer_invar>);
 recipes.addShaped(<thermalfoundation:tool.hammer_invar>, [
 [<ore:toolHeadHammerInvar>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Bronze
 recipes.remove(<thermalfoundation:tool.hammer_bronze>);
 recipes.addShaped(<thermalfoundation:tool.hammer_bronze>, [
 [<ore:toolHeadHammerBronze>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Constantan
 recipes.remove(<thermalfoundation:tool.hammer_constantan>);
 recipes.addShaped(<thermalfoundation:tool.hammer_constantan>, [
 [<ore:toolHeadHammerConstantan>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Iron
 recipes.remove(<thermalfoundation:tool.hammer_iron>);
 recipes.addShaped(<thermalfoundation:tool.hammer_iron>, [
 [<ore:toolHeadHammerIron>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Gold
 recipes.remove(<thermalfoundation:tool.hammer_gold>);
 recipes.addShaped(<thermalfoundation:tool.hammer_gold>, [
 [<ore:toolHeadHammerGold>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 #Diamond
 recipes.remove(<thermalfoundation:tool.hammer_diamond>);
 recipes.addShaped(<thermalfoundation:tool.hammer_diamond>, [
 [<ore:toolHeadHammerDiamond>],
-[<ore:stickTitanium>]]);
+[<ore:stickLongStainlessSteel>]]);
 
 #---Helmets---
 #Copper
@@ -502,10 +517,14 @@ recipes.addShaped(<thermalfoundation:armor.helmet_constantan>, [
 #---Hoe---
 #Copper
 recipes.remove(<thermalfoundation:tool.hoe_copper>);
-<thermalfoundation:tool.hoe_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.hoe_copper>, [
+[<ore:toolHeadHoeSilver>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.hoe_tin>);
-<thermalfoundation:tool.hoe_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.hoe_tin>, [
+[<ore:toolHeadHoeSilver>],
+[<ore:toolRodWood>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.hoe_silver>);
 recipes.addShaped(<thermalfoundation:tool.hoe_silver>, [
@@ -556,6 +575,35 @@ recipes.remove(<thermalfoundation:tool.hoe_constantan>);
 recipes.addShaped(<thermalfoundation:tool.hoe_constantan>, [
 [<ore:toolHeadHoeConstantan>],
 [<ore:toolRodWood>]]);
+
+#Horse Armour
+#This awesome looping script was modified from FTB interactions
+var horseArmourMaterials as string[] = [
+	"Copper",
+	"Tin",
+	"Lead",
+	"Aluminium",
+	"Nickel",
+	"Platinum",
+	"Steel",
+	"Electrum",
+	"Invar",
+	"Bronze",
+	"Constantan",
+	"Silver"
+	];
+
+for input in horseArmourMaterials {
+	var plate as IItemStack = oreDict["plate"~input].firstItem;
+	var ring as IItemStack = oreDict["ring"~input].firstItem;
+	var horseArmour as IItemStack = oreDict["horseArmour"~input].firstItem;
+	
+recipes.remove(horseArmour);
+recipes.addShapedMirrored(horseArmour, [
+[plate, <ore:saddle>, plate],
+[ring, plate, ring],
+[plate, null, plate]]);
+}
 
 #---Leggings---
 #Copper
@@ -634,10 +682,14 @@ recipes.addShaped(<thermalfoundation:armor.legs_constantan>, [
 #---Pickaxe---
 #Copper
 recipes.remove(<thermalfoundation:tool.pickaxe_copper>);
-<thermalfoundation:tool.pickaxe_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.pickaxe_copper>, [
+[<ore:toolHeadPickaxeCopper>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.pickaxe_tin>);
-<thermalfoundation:tool.pickaxe_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.pickaxe_tin>, [
+[<ore:toolHeadPickaxeTin>],
+[<ore:toolRodWood>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.pickaxe_silver>);
 recipes.addShaped(<thermalfoundation:tool.pickaxe_silver>, [
@@ -688,6 +740,37 @@ recipes.remove(<thermalfoundation:tool.pickaxe_constantan>);
 recipes.addShaped(<thermalfoundation:tool.pickaxe_constantan>, [
 [<ore:toolHeadPickaxeConstantan>],
 [<ore:toolRodWood>]]);
+
+#---Rods---
+#This awesome looping script was modified from FTB interactions
+var toolMaterials as string[] = [
+	"Copper",
+	"Tin",
+	"Lead",
+	"Aluminium",
+	"Nickel",
+	"Platinum",
+	"Steel",
+	"Electrum",
+	"Invar",
+	"Bronze",
+	"Constantan",
+	"Silver",
+	"Iron",
+	"Gold",
+	"Diamond",
+	];
+
+for input in toolMaterials {
+	var oreStick as IItemStack = oreDict["stick"~input].firstItem;
+	var fishingRod as IItemStack = oreDict["fishingRod"~input].firstItem;
+	
+recipes.remove(fishingRod);
+recipes.addShapedMirrored(fishingRod, [
+[null, null, oreStick],
+[null, oreStick, <ore:string>],
+[<ore:stickWood>, null, <ore:string>]]);
+}
 
 #---Shears---
 #Copper
@@ -841,10 +924,14 @@ recipes.addShaped(<thermalfoundation:tool.shield_diamond>, [
 #---Sickle--
 #Copper
 recipes.remove(<thermalfoundation:tool.sickle_copper>);
-<thermalfoundation:tool.sickle_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.sickle_copper>, [
+[<ore:toolHeadSenseCopper>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.sickle_tin>);
-<thermalfoundation:tool.sickle_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.sickle_tin>, [
+[<ore:toolHeadSenseTin>],
+[<ore:toolRodWood>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.sickle_silver>);
 recipes.addShaped(<thermalfoundation:tool.sickle_silver>, [
@@ -914,10 +1001,14 @@ recipes.addShaped(<thermalfoundation:tool.sickle_diamond>, [
 #---Shovel---
 #Copper
 recipes.remove(<thermalfoundation:tool.shovel_copper>);
-<thermalfoundation:tool.shovel_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.shovel_copper>, [
+[<ore:toolHeadShovelCopper>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.shovel_tin>);
-<thermalfoundation:tool.shovel_tin>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.shovel_tin>, [
+[<ore:toolHeadShovelTin>],
+[<ore:toolRodWood>]]);
 #Silver
 recipes.remove(<thermalfoundation:tool.shovel_silver>);
 recipes.addShaped(<thermalfoundation:tool.shovel_silver>, [
@@ -972,7 +1063,9 @@ recipes.addShaped(<thermalfoundation:tool.shovel_constantan>, [
 #---Swords---
 #Copper
 recipes.remove(<thermalfoundation:tool.sword_copper>);
-<thermalfoundation:tool.sword_copper>.addTooltip("This item is disabled");
+recipes.addShaped(<thermalfoundation:tool.shovel_copper>, [
+[<ore:toolHeadShovelCopper>],
+[<ore:toolRodWood>]]);
 #Tin
 recipes.remove(<thermalfoundation:tool.sword_tin>);
 recipes.addShaped(<thermalfoundation:tool.sword_tin>, [
