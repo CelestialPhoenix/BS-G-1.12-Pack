@@ -1124,6 +1124,11 @@ item.contenttweaker.platethicksteelmagnetic.name=Thick Magnetic Steel Plate
 item.contenttweaker.platethickhsse.name=Thick HSS-E Plate
 item.contenttweaker.platethickhssg.name=Thick HSS-G Plate
 item.contenttweaker.platethickwood.name=Thick Wooden Plate
+item.contenttweaker.platethickberyllium.name=Thick Beryllium Plate
+item.contenttweaker.platethickplastic.name=Thick Polyethylene Plate
+item.contenttweaker.platethickptfe.name=Thick Polytetrafluoroethylene Plate
+item.contenttweaker.platethickuranium238.name=Thick Uranium238 Plate
+item.contenttweaker.platethickgraphite.name=Thick Graphite Plate
 
 item.contenttweaker.presstoolcutter.name=Metal Press Tool: Guillotine
 item.contenttweaker.presstoolringbender.name=Metal Press Tool: Ring Bender
