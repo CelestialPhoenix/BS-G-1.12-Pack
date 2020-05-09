@@ -22,7 +22,12 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_du>);
 recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:lithium_ion_battery_elite>.addTooltip("This item is disabled");
 
-
+#--Fission Reactor Components (solid fuel)
+recipes.remove(<nuclearcraft:fission_casing>); 
+recipes.addShaped(<nuclearcraft:fission_casing>*4, [
+[<ore:plateAdvancedAlloy>, <ore:platingBasic>, <ore:plateAdvancedAlloy>],
+[<ore:platingBasic>, <ore:hullHV>, <ore:platingBasic>],
+[<ore:plateAdvancedAlloy>, <ore:platingBasic>, <ore:plateAdvancedAlloy>]]);
 
 #--Infinite Source Machines--
 //No free stuff for you :)
