@@ -212,8 +212,7 @@ var thickPlateMaterials as string[] = [
 	"Boron",
 	"Wood",
 	"SteelMagnetic",
-	"Uranium238",
-	"Blue",
+	//"Uranium238",
 	"TungstenSteel",
 	"Beryllium",
 	"Titanium",
@@ -249,7 +248,7 @@ macerator
     .duration(150)
     .EUt(6)
     .buildAndRegister();
-
+}
 
 #--Rocks--
 #Overworld

@@ -22,6 +22,9 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_du>);
 recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:lithium_ion_battery_elite>.addTooltip("This item is disabled");
 
+#--Machines--
+//recipes needed
+
 #--Fission Reactor Components (solid fuel)--
 #Casing (solid)
 recipes.remove(<nuclearcraft:fission_casing>); 
@@ -39,13 +42,13 @@ recipes.addShaped(<nuclearcraft:fission_glass>*8, [
 
 #Conductor //Connector
 recipes.remove(<nuclearcraft:fission_conductor>); 
-recipes.addShaped(<nuclearcraft:fission_conductor>*8, [
+recipes.addShaped(<nuclearcraft:fission_conductor>*4, [
 [<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>],
 [<ore:platingBasic>, <ore:hullHV>, <ore:platingBasic>],
 [<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>]]);
 
 #Monitor
-<nuclearcraft:fission_monitor>.addTooltip("WiP recipe");
+<nuclearcraft:fission_monitor>.addTooltip("Recipe Needed");
 
 #Be-C Neutron Reflector 
 <nuclearcraft:fission_reflector:0>.displayName = "Be-C Neutron Reflector";
@@ -63,6 +66,11 @@ recipes.addShaped(<nuclearcraft:fission_reflector:1>*2, [
 [<ore:plateThickSteel>, <ore:hullHV>, <ore:plateThickSteel>],
 [<ore:plateThickLead>, <ore:plateThickSteel>, <ore:plateThickLead>]]);
 
+#Reactor Power Port
+<nuclearcraft:fission_power_port>.addTooltip("Recipe Needed");
+#Reactor Vent
+<nuclearcraft:fission_vent>.addTooltip("Recipe Needed");
+
 #Irradiator
 recipes.remove(<nuclearcraft:fission_irradiator>); 
 recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
@@ -71,7 +79,36 @@ recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
 [<ore:barsIron>, null, <ore:barsIron>]]);
 
 #Neutron Sources
-<nuclearcraft:fission_source:*>.addTooltip("WiP recipe");
+#Ra-Be
+recipes.remove(<nuclearcraft:fission_source:0>); 
+recipes.addShaped(<nuclearcraft:fission_source:0>, [
+[<ore:platingAdvanced>, <ore:dustRadium>, <ore:platingAdvanced>],
+[<ore:dustBeryllium>, <ore:hullHV>, <ore:dustBeryllium>],
+[<ore:platingAdvanced>, <ore:dustRadium>, <ore:platingAdvanced>]]);
+
+recipes.addShaped(<nuclearcraft:fission_source:0>, [
+[<ore:platingAdvanced>, <ore:dustBeryllium>, <ore:platingAdvanced>],
+[<ore:dustRadium>, <ore:hullHV>, <ore:dustRadium>],
+[<ore:platingAdvanced>, <ore:dustBeryllium>, <ore:platingAdvanced>]]);
+
+#Po-Be
+recipes.remove(<nuclearcraft:fission_source:1>); 
+recipes.addShaped(<nuclearcraft:fission_source:1>, [
+[<ore:platingAdvanced>, <ore:dustPolonium>, <ore:platingAdvanced>],
+[<ore:dustBeryllium>, <ore:hullHV>, <ore:dustBeryllium>],
+[<ore:platingAdvanced>, <ore:dustPolonium>, <ore:platingAdvanced>]]);
+
+recipes.addShaped(<nuclearcraft:fission_source:1>, [
+[<ore:platingAdvanced>, <ore:dustBeryllium>, <ore:platingAdvanced>],
+[<ore:dustPolonium>, <ore:hullHV>, <ore:dustPolonium>],
+[<ore:platingAdvanced>, <ore:dustBeryllium>, <ore:platingAdvanced>]]);
+
+#Cf252
+recipes.remove(<nuclearcraft:fission_source:2>); 
+recipes.addShaped(<nuclearcraft:fission_source:2>, [
+[<ore:platingAdvanced>, <ore:ingotCalifornium252All>, <ore:platingAdvanced>],
+[<ore:ingotCalifornium252All>, <ore:hullHV>, <ore:ingotCalifornium252All>],
+[<ore:platingAdvanced>, <ore:ingotCalifornium252All>, <ore:platingAdvanced>]]);
 
 #Fission Shield
 <nuclearcraft:fission_shield>.displayName = "B-Ag Neutron Shield";
@@ -103,13 +140,64 @@ recipes.addShaped(<nuclearcraft:part:14>*4, [
 [<ore:plateThickConstantan>, <ore:hullHV>, <ore:plateThickConstantan>],
 [<ore:plateThickAluminium>, <ore:pipeSmallBronze>, <ore:plateThickAluminium>]]);
 
+#--Shield Manager-- 
+recipes.remove(<nuclearcraft:fission_shield_manager>); 
+recipes.addShaped(<nuclearcraft:fission_shield_manager>, [
+[null, <ore:emitterEV>, null],
+[null, <ore:hullHV>, null],
+[null, <ore:circuitExtreme>, null]]);
+
+#--Fission Controller-- (Solid)
+recipes.remove(<nuclearcraft:solid_fission_controller>); 
+recipes.addShaped(<nuclearcraft:solid_fission_controller>, [
+[<ore:sensorEV>, <ore:emitterEV>, <ore:sensorEV>],
+[<ore:platingAdvanced>, <ore:motorEV>, <ore:platingAdvanced>],
+[<ore:circuitExtreme>, <ore:hullHV>, <ore:circuitExtreme>]]);
+
+//Flavoured Heat sinks (solid fuel)
+<nuclearcraft:solid_fission_sink:*>.addTooltip("Recipe Needed");
+<nuclearcraft:solid_fission_sink2:*>.addTooltip("Recipe Needed");
+
 #--Fission Reactor (Molten Salt)--
+
+#--Fission Controller-- (Molten Salt)
+recipes.remove(<nuclearcraft:salt_fission_controller>); 
+recipes.addShaped(<nuclearcraft:salt_fission_controller>, [
+[<ore:sensorIV>, <ore:emitterIV>, <ore:sensorIV>],
+[<ore:platingDU>, <ore:motorIV>, <ore:platingDU>],
+[<ore:circuitElite>, <ore:hullHV>, <ore:circuitElite>]]);
+
+#-Fission Vessel-
+recipes.remove(<nuclearcraft:salt_fission_vessel>); 
+recipes.addShaped(<nuclearcraft:salt_fission_vessel>, [
+[<ore:robotarmHV>, null, <ore:robotarmHV>],
+[<ore:ringStainlessSteel>, <ore:hullHV>, <ore:ringStainlessSteel>],
+[<ore:motorHV>, null, <ore:motorHV>]]);
+<nuclearcraft:salt_fission_vessel>.addTooltip("WiP Recipe");
+//Find out if solid or fluid fuel?
+
 #-Fission Ports-
 recipes.remove(<nuclearcraft:fission_vessel_port>); 
 recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
-[<ore:robotarmEV>, <nuclearcraft:fission_casing>, <ore:robotarmEV>],
+[<ore:robotarmIV>, <ore:motorIV>, <ore:robotarmIV>],
 [<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
-[<ore:circuitExtreme>, <ore:motorHV>, <ore:circuitExtreme>]]);
+[<ore:circuitElite>, <nuclearcraft:fission_casing>, <ore:circuitElite>]]);
+
+#-Coolant Heater Port-
+recipes.remove(<nuclearcraft:fission_heater_port>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port>, [
+[<ore:pipeMediumStainlessSteel>, <ore:pumpEV>, <ore:pipeMediumStainlessSteel>],
+[<ore:platingElite>, <ore:hullHV>, <ore:platingElite>],
+[<ore:tankStainlessSteel>, null, <ore:circuitExtreme>]]);
+
+//Flavoured Coolant Heater Ports
+<nuclearcraft:fission_heater_port:*>.addTooltip("Recipe Needed");
+<nuclearcraft:fission_heater_port2:*>.addTooltip("Recipe Needed");
+
+#--Heater Exchanger-- (currently broken)
+
+#--Turbine--
+
 
 #--Infinite Source Machines--
 //No free stuff for you :)
