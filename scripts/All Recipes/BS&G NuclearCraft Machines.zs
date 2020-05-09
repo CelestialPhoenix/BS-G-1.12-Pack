@@ -3,6 +3,27 @@
 
 print("Green Glowey Energy");
 
+#--Battery Blocks-- 
+recipes.remove(<nuclearcraft:voltaic_pile_basic>);
+<nuclearcraft:voltaic_pile_basic>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:voltaic_pile_advanced>);
+<nuclearcraft:voltaic_pile_advanced>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:voltaic_pile_du>);
+<nuclearcraft:voltaic_pile_du>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:voltaic_pile_elite>);
+<nuclearcraft:voltaic_pile_elite>.addTooltip("This item is disabled");
+
+recipes.remove(<nuclearcraft:lithium_ion_battery_basic>);
+<nuclearcraft:lithium_ion_battery_basic>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:lithium_ion_battery_advanced>);
+<nuclearcraft:lithium_ion_battery_advanced>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:lithium_ion_battery_du>);
+<nuclearcraft:lithium_ion_battery_du>.addTooltip("This item is disabled");
+recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
+<nuclearcraft:lithium_ion_battery_elite>.addTooltip("This item is disabled");
+
+
+
 #--Infinite Source Machines--
 //No free stuff for you :)
 
