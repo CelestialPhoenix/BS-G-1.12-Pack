@@ -13,13 +13,16 @@ print("Green Glowey Energy");
 <ore:blockLead>.remove(<nuclearcraft:ingot_block:2>);
 <ore:blockThorium>.remove(<nuclearcraft:ingot_block:3>);
 <ore:blockUranium>.remove(<nuclearcraft:ingot_block:4>);
+<ore:blockBoron>.remove(<nuclearcraft:ingot_block:5>);
 <ore:blockLithium>.remove(<nuclearcraft:ingot_block:6>);
 <ore:blockMagnesium>.remove(<nuclearcraft:ingot_block:7>);
 <ore:blockGraphite>.remove(<nuclearcraft:ingot_block:8>);
+<ore:blockBlockFissionModerator>.remove(<nuclearcraft:ingot_block:8>);
 <ore:blockBeryllium>.remove(<nuclearcraft:ingot_block:9>);
+<ore:blockFissionModerator>.remove(<nuclearcraft:ingot_block:9>);
 <ore:blockZirconium>.remove(<nuclearcraft:ingot_block:10>);
 <ore:blockManganese>.remove(<nuclearcraft:ingot_block:11>);
-<ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
+<ore:blockAluminum>.remove(<nuclearcraft:ingot_block:12>);
 <ore:blockSilver>.remove(<nuclearcraft:ingot_block:13>);
 
 #Dust

@@ -3,6 +3,10 @@
 
 print("Green Glowey Energy");
 
+#---Duplicate Materials---
+#Blocks
+recipes.remove(<nuclearcraft:ingot_block:*>);
+
 #---Recipes---
 
 #--Plating--
