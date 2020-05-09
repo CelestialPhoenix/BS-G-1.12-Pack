@@ -84,13 +84,13 @@ recipes.addShaped(<nuclearcraft:fission_shield>*4, [
 #-Fission Ports-
 recipes.remove(<nuclearcraft:fission_irradiator_port>); 
 recipes.addShaped(<nuclearcraft:fission_irradiator_port>, [
-[null, <ore:robotArmEV>, null],
+[null, <ore:robotarmEV>, null],
 [<ore:circuitExtreme>, <ore:ringStainlessSteel>, <ore:mechcompStainless>],
 [null, <nuclearcraft:fission_casing>, <ore:motorHV>]]);
 
 recipes.remove(<nuclearcraft:fission_cell_port>); 
 recipes.addShaped(<nuclearcraft:fission_cell_port>, [
-[<ore:robotArmEV>, <ore:motorHV>, <ore:robotArmEV>],
+[<ore:robotarmEV>, <ore:motorHV>, <ore:robotarmEV>],
 [<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
 [<ore:circuitExtreme>, <nuclearcraft:fission_casing>, <ore:circuitExtreme>]]);
 
@@ -107,7 +107,7 @@ recipes.addShaped(<nuclearcraft:part:14>*4, [
 #-Fission Ports-
 recipes.remove(<nuclearcraft:fission_vessel_port>); 
 recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
-[<ore:robotArmEV>, <nuclearcraft:fission_casing>, <ore:robotArmEV>],
+[<ore:robotarmEV>, <nuclearcraft:fission_casing>, <ore:robotarmEV>],
 [<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
 [<ore:circuitExtreme>, <ore:motorHV>, <ore:circuitExtreme>]]);
 

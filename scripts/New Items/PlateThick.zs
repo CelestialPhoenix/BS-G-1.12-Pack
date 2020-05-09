@@ -14,6 +14,9 @@ import mods.contenttweaker.Commands;
 var PlateThickBeryllium = VanillaFactory.createItem("platethickberyllium");
 PlateThickBeryllium.register();
 
+var PlateThickBoron = VanillaFactory.createItem("platethickboron");
+PlateThickBoron.register();
+
 var PlateThickDarmstadtium = VanillaFactory.createItem("platethickdarmstadtium");
 PlateThickDarmstadtium.register();
 

@@ -1066,6 +1066,7 @@ item.contenttweaker.platetitanium.name=Titanium Plate
 item.contenttweaker.platetungstensteel.name=Tungstensteel Plate
 item.contenttweaker.plateuranium.name=Uranium Plate
 item.contenttweaker.platewood.name=Wooden Plate
+item.contenttweaker.plateboron.name=Boron Plate
 
 item.contenttweaker.plateheavyaluminium.name=Heavy Aluminium Plate
 item.contenttweaker.plateheavychrome.name=Heavy Chrome Plate
@@ -1118,7 +1119,7 @@ item.contenttweaker.plateheavystyrenebutadienerubber.name=Heavy Styrene-Butadien
 
 item.contenttweaker.platethickdarmstadtium.name=Thick Darmstadtium Plate
 item.contenttweaker.platethicktitanium.name=Thick Titanium Plate
-item.contenttweaker.platethickstainless.name=Thick Stainless Plate
+item.contenttweaker.platethickstainless.name=Thick Stainless Steel Plate
 item.contenttweaker.platethicktungstensteel.name=Thick Tungstensteel Plate
 item.contenttweaker.platethicksteelmagnetic.name=Thick Magnetic Steel Plate
 item.contenttweaker.platethickhsse.name=Thick HSS-E Plate
@@ -1129,6 +1130,7 @@ item.contenttweaker.platethickplastic.name=Thick Polyethylene Plate
 item.contenttweaker.platethickptfe.name=Thick Polytetrafluoroethylene Plate
 item.contenttweaker.platethickuranium238.name=Thick Uranium238 Plate
 item.contenttweaker.platethickgraphite.name=Thick Graphite Plate
+item.contenttweaker.platethickboron.name=Thick Boron Plate
 
 item.contenttweaker.presstoolcutter.name=Metal Press Tool: Guillotine
 item.contenttweaker.presstoolringbender.name=Metal Press Tool: Ring Bender
@@ -1193,6 +1195,9 @@ item.contenttweaker.shaftiron.name=Iron Shaft
 item.contenttweaker.shaftsteel.name=Steel Shaft
 
 item.contenttweaker.shredded_biomass.name=Shredded Biomass
+
+item.contenttweaker.sinkfluid.name=Fluid Heat Sink
+item.contenttweaker.sinksolid.name=Solid Heat Sink
 
 item.contenttweaker.toolheadaxediamond.name=Diamond Axe Blade
 item.contenttweaker.toolheadhoediamond.name=Diamond Hoe Blade

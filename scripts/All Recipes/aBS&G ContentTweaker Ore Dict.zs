@@ -199,6 +199,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:gearSmallStone>.add(<contenttweaker:gearsmallstone>);
 <ore:gearSmallWax>.add(<contenttweaker:gearsmallwax>);
 
+#---Heat Sinks---
+<ore:heatsinkSolid>.add(<contenttweaker:sinksolid>);
+<ore:heatsinkFluid>.add(<contenttweaker:sinkfluid>);
+
 #---Ingots---
 #<ore:ingot>.add(<contenttweaker:ingot>);
 
@@ -546,6 +550,9 @@ print("Tweak Tweak Tweak Tweak");
 <ore:pipeMediumWax>.add(<contenttweaker:pipemediumwax>);
 <ore:pipeSmallWax>.add(<contenttweaker:pipesmallwax>);
 
+#Plate
+<ore:plateBoron>.add(<contenttweaker:plateboron>);
+
 /*
 #---PlateHeavy---
 #<ore:plateHeavy>.add(<contenttweaker:plateheavy>);
@@ -612,9 +619,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:plateThickBeryllium>.add(<contenttweaker:platethickberyllium>);
 <ore:plateThickPlastic>.add(<contenttweaker:platethickplastic>);
 <ore:plateThickPTFE>.add(<contenttweaker:platethickptfe>);
-<ore:plateThickPolytetrafluroethylene>.add(<contenttweaker:platethickptfe>);
+<ore:plateThickPolytetrafluoroethylene>.add(<contenttweaker:platethickptfe>);
 <ore:plateThickUranium238>.add(<contenttweaker:platethickuranium238>);
 <ore:plateThickGraphite>.add(<contenttweaker:platethickgraphite>);
+<ore:plateThickBoron>.add(<contenttweaker:platethickboron>);
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);

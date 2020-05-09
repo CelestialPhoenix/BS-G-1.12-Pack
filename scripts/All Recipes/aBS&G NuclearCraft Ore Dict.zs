@@ -17,7 +17,7 @@ print("Green Glowey Energy");
 <ore:blockLithium>.remove(<nuclearcraft:ingot_block:6>);
 <ore:blockMagnesium>.remove(<nuclearcraft:ingot_block:7>);
 <ore:blockGraphite>.remove(<nuclearcraft:ingot_block:8>);
-<ore:blockBlockFissionModerator>.remove(<nuclearcraft:ingot_block:8>);
+<ore:blockFissionModerator>.remove(<nuclearcraft:ingot_block:8>);
 <ore:blockBeryllium>.remove(<nuclearcraft:ingot_block:9>);
 <ore:blockFissionModerator>.remove(<nuclearcraft:ingot_block:9>);
 <ore:blockZirconium>.remove(<nuclearcraft:ingot_block:10>);

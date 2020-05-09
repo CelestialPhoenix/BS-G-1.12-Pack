@@ -350,7 +350,7 @@ RollingMachine.addShaped(<ore:ingotIridiumAlloy>.firstItem*5, [
 #--NuclearCraft Plating--
 #Basic
 RollingMachine.addShaped(<nuclearcraft:part:0>*2, [
-[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>],
+[<ore:plateLead>, <ore:plateSteel>, <ore:plateLead>],
 [<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
 [<ore:plateAluminium>, <ore:plateSteel>, <ore:plateAluminium>]], 200);
 #Advanced
@@ -1428,8 +1428,20 @@ RollingMachine.addShaped(<ore:plateThickPlastic>.firstItem, [
 [<ore:platePlastic>, <ore:platePlastic>]], 200);
 
 RollingMachine.addShaped(<ore:plateThickPTFE>.firstItem, [
-[<ore:platePolytetraflouroethylene>, <ore:platePolytetraflouroethylene>],
-[<ore:platePolytetraflouroethylene>, <ore:platePolytetraflouroethylene>]], 200);
+[<ore:platePolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>],
+[<ore:platePolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickGraphite>.firstItem, [
+[<ore:plateGraphite>, <ore:plateGraphite>],
+[<ore:plateGraphite>, <ore:plateGraphite>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickBoron>.firstItem, [
+[<ore:plateBoron>, <ore:plateBoron>],
+[<ore:plateBoron>, <ore:plateBoron>]], 200);
+
+RollingMachine.addShaped(<ore:plateThickUranium238>.firstItem, [
+[<ore:ingotUranium238>, <ore:ingotUranium238>],
+[<ore:ingotUranium238>, <ore:ingotUranium238>]], 200);
 
 #-TFo Plates- 
 RollingMachine.addShaped(<ore:plateThickIron>.firstItem, [

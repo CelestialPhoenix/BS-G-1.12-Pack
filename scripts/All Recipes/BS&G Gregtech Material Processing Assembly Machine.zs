@@ -382,6 +382,32 @@ theassembler
     .EUt(8)
     .buildAndRegister();
 
+#--ContentTweaker Components--
+#Heatsinks
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:foilAluminium>.firstItem*20, <ore:stickConstantan>.firstItem*6)
+    .outputs(<ore:heatsinkSolid>.firstItem)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeSmallStainlessSteel>.firstItem*6)
+    .outputs(<ore:heatsinkFluid>.firstItem)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeTinyStainlessSteel>.firstItem*6)
+    .outputs(<ore:heatsinkFluid>.firstItem)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+	
 #--Gregtech Components--
 #-Casings-
 #Heat Proof
