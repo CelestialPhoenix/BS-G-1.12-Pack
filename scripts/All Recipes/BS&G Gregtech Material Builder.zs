@@ -34,6 +34,9 @@ barite.addFlags(["GENERATE_ORE"]);
 var borax = <material:borax>;
 borax.addFlags(["GENERATE_ORE"]);
 
+var boron = <material:boron>;
+boron.addFlags(["GENERATE_PLATE"]);
+
 var brass = <material:brass>;
 brass.addFlags(["GENERATE_SMALL_GEAR"]);
 
