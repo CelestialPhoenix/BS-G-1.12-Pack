@@ -17,6 +17,9 @@ PlateThickBeryllium.register();
 var PlateThickDarmstadtium = VanillaFactory.createItem("platethickdarmstadtium");
 PlateThickDarmstadtium.register();
 
+var PlateThickGraphite = VanillaFactory.createItem("platethickgraphite");
+PlateThickGraphite.register();
+
 var PlateThickPlastic = VanillaFactory.createItem("platethickplastic");
 PlateThickPlastic.register();
 

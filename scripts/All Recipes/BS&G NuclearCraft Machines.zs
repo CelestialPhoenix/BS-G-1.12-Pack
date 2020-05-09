@@ -22,12 +22,53 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_du>);
 recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:lithium_ion_battery_elite>.addTooltip("This item is disabled");
 
-#--Fission Reactor Components (solid fuel)
+#--Fission Reactor Components (solid fuel)--
+#Casing (solid)
 recipes.remove(<nuclearcraft:fission_casing>); 
-recipes.addShaped(<nuclearcraft:fission_casing>*4, [
+recipes.addShaped(<nuclearcraft:fission_casing>*8, [
 [<ore:plateAdvancedAlloy>, <ore:platingBasic>, <ore:plateAdvancedAlloy>],
 [<ore:platingBasic>, <ore:hullHV>, <ore:platingBasic>],
 [<ore:plateAdvancedAlloy>, <ore:platingBasic>, <ore:plateAdvancedAlloy>]]);
+
+#Casing (glass)
+recipes.remove(<nuclearcraft:fission_glass>); 
+recipes.addShaped(<nuclearcraft:fission_glass>*8, [
+[<ore:blockGlassHardened>, <ore:platingBasic>, <ore:blockGlassHardened>],
+[<ore:platingBasic>, <ore:hullHV>, <ore:platingBasic>],
+[<ore:blockGlassHardened>, <ore:platingBasic>, <ore:blockGlassHardened>]]);
+
+#Conductor //Connector
+recipes.remove(<nuclearcraft:fission_conductor>); 
+recipes.addShaped(<nuclearcraft:fission_conductor>*8, [
+[<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>],
+[<ore:platingBasic>, <ore:hullHV>, <ore:platingBasic>],
+[<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>]]);
+
+#Monitor
+<nuclearcraft:fission_monitor>.addTooltip("WiP recipe");
+
+#Be-C Neutron Reflector 
+<nuclearcraft:fission_reflector:0>.displayName = "Be-C Neutron Reflector";
+recipes.remove(<nuclearcraft:fission_reflector:0>); 
+recipes.addShaped(<nuclearcraft:fission_reflector:0>*2, [
+[<ore:plateThickBeryllium>, <ore:plateThickGraphite>, <ore:plateThickBeryllium>],
+[<ore:plateThickGraphite>, <ore:hullHV>, <ore:plateThickGraphite>],
+[<ore:plateThickBeryllium>, <ore:plateThickGraphite>, <ore:plateThickBeryllium>]]);
+
+#Pb-Fe Neutron Reflector
+<nuclearcraft:fission_reflector:1>.displayName = "Pb-Fe Neutron Reflector";
+recipes.remove(<nuclearcraft:fission_reflector:1>); 
+recipes.addShaped(<nuclearcraft:fission_reflector:1>*2, [
+[<ore:plateThickLead>, <ore:plateThickSteel>, <ore:plateThickLead>],
+[<ore:plateThickSteel>, <ore:hullHV>, <ore:plateThickSteel>],
+[<ore:plateThickLead>, <ore:plateThickSteel>, <ore:plateThickLead>]]);
+
+#Irradiator
+recipes.remove(<nuclearcraft:fission_irradiator>); 
+recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
+[<ore:barsIron>, null, <ore:barsIron>],
+[null, <ore:hullHV>, null],
+[<ore:barsIron>, null, <ore:barsIron>]]);
 
 #--Infinite Source Machines--
 //No free stuff for you :)
