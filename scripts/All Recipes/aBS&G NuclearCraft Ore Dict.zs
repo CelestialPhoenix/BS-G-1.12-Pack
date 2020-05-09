@@ -83,4 +83,16 @@ print("Green Glowey Energy");
 #Tiny Dust
 #<ore:tinyDustLead>.remove(<nuclearcraft:tiny_dust_lead>);
 
+#---New Dicts---
+#Plating
+<ore:platingBasic>.add(<nuclearcraft:part:0>);
+<ore:platingAdvanced>.add(<nuclearcraft:part:1>);
+<ore:platingDU>.add(<nuclearcraft:part:2>);
+<ore:platingElite>.add(<nuclearcraft:part:3>);
+
+#Shielding
+<ore:shieldingLight>.add(<nuclearcraft:rad_shielding:0>);
+<ore:shieldingMedium>.add(<nuclearcraft:rad_shielding:1>);
+<ore:shieldingHeavy>.add(<nuclearcraft:rad_shielding:2>);
+
 
