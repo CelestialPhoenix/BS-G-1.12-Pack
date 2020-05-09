@@ -166,7 +166,7 @@ macerator
     .EUt(8)
     .buildAndRegister();
 
-#-Elements (heating)
+#-Elements (heating)-
 var heatingElements as string[] = [
 	"Copper",
 	"Cupronickel",
@@ -199,6 +199,57 @@ macerator
     .duration(100)
     .EUt(2)
     .buildAndRegister();
+
+#-Plates- (Thick)
+var thickPlateMaterials as string[] = [
+	"Plastic",
+	"Darmstadtium",
+	"Hsse",
+	"Hssg",
+	"StainlessSteel",
+	"Polytetrafluoroethylene",
+	"Graphite",
+	"Boron",
+	"Wood",
+	"SteelMagnetic",
+	"Uranium238",
+	"Blue",
+	"TungstenSteel",
+	"Beryllium",
+	"Titanium",
+	"Iron",
+	"Gold",
+	"Copper",
+	"Tin",
+	"Silver",
+	"Lead",
+	"Aluminium",
+	"Nickel",
+	"Platinum",
+	"Iridium",
+	"Mithril",
+	"Steel",
+	"Electrum",
+	"Invar",
+	"Bronze",
+	"Constantan",
+	"Signalum",
+	"Lumium",
+	"Enderium"
+	];
+
+for input in thickPlateMaterials {
+	var plateThick as IItemStack = oreDict["plateThick"~input].firstItem;
+	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(plateThick)
+    .outputs(metalDust*4)
+    .duration(150)
+    .EUt(6)
+    .buildAndRegister();
+
 
 #--Rocks--
 #Overworld
