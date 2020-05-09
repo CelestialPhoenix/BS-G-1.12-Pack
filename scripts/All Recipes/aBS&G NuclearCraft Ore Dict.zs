@@ -84,6 +84,10 @@ print("Green Glowey Energy");
 #<ore:tinyDustLead>.remove(<nuclearcraft:tiny_dust_lead>);
 
 #---New Dicts---
+#Replace Fission Moderator
+<ore:blockFissionModerator>.addAll(<ore:blockBeryllium>);
+<ore:blockFissionModerator>.addAll(<ore:blockGraphite>);
+
 #Plating
 <ore:platingBasic>.add(<nuclearcraft:part:0>);
 <ore:platingAdvanced>.add(<nuclearcraft:part:1>);

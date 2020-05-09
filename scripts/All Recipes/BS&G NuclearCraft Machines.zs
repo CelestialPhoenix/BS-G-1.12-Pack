@@ -70,6 +70,47 @@ recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
 [null, <ore:hullHV>, null],
 [<ore:barsIron>, null, <ore:barsIron>]]);
 
+#Neutron Sources
+<nuclearcraft:fission_source:*>.addTooltip("WiP recipe");
+
+#Fission Shield
+<nuclearcraft:fission_shield>.displayName = "B-Ag Neutron Shield";
+recipes.remove(<nuclearcraft:fission_shield>); 
+recipes.addShaped(<nuclearcraft:fission_shield>*4, [
+[<ore:stickStainlessSteel>, <ore:pistonHV>, <ore:ringStainlessSteel>],
+[<ore:plateThickBoron>, <ore:hullHV>, <ore:plateThickSilver>],
+[<ore:ringStainlessSteel>, <ore:pistonHV>, <ore:stickStainlessSteel>]]);
+
+#-Fission Ports-
+recipes.remove(<nuclearcraft:fission_irradiator_port>); 
+recipes.addShaped(<nuclearcraft:fission_irradiator_port>, [
+[null, <ore:robotArmEV>, null],
+[<ore:circuitExtreme>, <ore:ringStainlessSteel>, <ore:mechcompStainless>],
+[null, <nuclearcraft:fission_casing>, <ore:motorHV>]]);
+
+recipes.remove(<nuclearcraft:fission_cell_port>); 
+recipes.addShaped(<nuclearcraft:fission_cell_port>, [
+[<ore:robotArmEV>, <ore:motorHV>, <ore:robotArmEV>],
+[<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
+[<ore:circuitExtreme>, <nuclearcraft:fission_casing>, <ore:circuitExtreme>]]);
+
+//Vessel for molten salt reactor
+
+#-Heat Sinks-
+recipes.remove(<nuclearcraft:part:14>); 
+recipes.addShaped(<nuclearcraft:part:14>*4, [
+[<ore:plateThickAluminium>, <ore:pipeSmallTitanium>, <ore:plateThickAluminium>],
+[<ore:plateThickConstantan>, <ore:hullHV>, <ore:plateThickConstantan>],
+[<ore:plateThickAluminium>, <ore:pipeSmallBronze>, <ore:plateThickAluminium>]]);
+
+#--Fission Reactor (Molten Salt)--
+#-Fission Ports-
+recipes.remove(<nuclearcraft:fission_vessel_port>); 
+recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
+[<ore:robotArmEV>, <nuclearcraft:fission_casing>, <ore:robotArmEV>],
+[<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
+[<ore:circuitExtreme>, <ore:motorHV>, <ore:circuitExtreme>]]);
+
 #--Infinite Source Machines--
 //No free stuff for you :)
 
