@@ -73,6 +73,7 @@ print("Green Glowey Energy");
 <ore:oreLead>.remove(<nuclearcraft:ore:2>);
 <ore:oreThorium>.remove(<nuclearcraft:ore:3>);
 <ore:oreUranium>.remove(<nuclearcraft:ore:4>);
+<ore:oreBoron>.remove(<nuclearcraft:ore:5>);
 <ore:oreLithium>.remove(<nuclearcraft:ore:6>);
 <ore:oreMagnesium>.remove(<nuclearcraft:ore:7>);
 
