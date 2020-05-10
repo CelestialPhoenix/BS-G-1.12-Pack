@@ -136,9 +136,9 @@ recipes.addShaped(<nuclearcraft:fission_cell_port>, [
 #-Heat Sinks-
 recipes.remove(<nuclearcraft:part:14>); 
 recipes.addShaped(<nuclearcraft:part:14>*4, [
-[<ore:plateThickAluminium>, <ore:pipeSmallTitanium>, <ore:plateThickAluminium>],
-[<ore:plateThickConstantan>, <ore:hullHV>, <ore:plateThickConstantan>],
-[<ore:plateThickAluminium>, <ore:pipeSmallBronze>, <ore:plateThickAluminium>]]);
+[<ore:heatsinkSolid>, <ore:plateThickAluminium>, <ore:heatsinkSolid>],
+[<ore:pipeSmallTitanium>, <ore:hullHV>, <ore:pipeSmallTitanium>],
+[<ore:heatsinkSolid>, <ore:plateThickConstantan>, <ore:heatsinkSolid>]]);
 
 #--Shield Manager-- 
 recipes.remove(<nuclearcraft:fission_shield_manager>); 
@@ -194,6 +194,16 @@ recipes.addShaped(<nuclearcraft:fission_heater_port>, [
 <nuclearcraft:fission_heater_port:*>.addTooltip("Recipe Needed");
 <nuclearcraft:fission_heater_port2:*>.addTooltip("Recipe Needed");
 
+#Molten Salt Heat Sinks
+recipes.remove(<nuclearcraft:salt_fission_heater>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater>, [
+[<ore:heatsinkFluid>, <ore:plateThickAluminium>, <ore:heatsinkFluid>],
+[<ore:pipeSmallTitanium>, <ore:hullHV>, <ore:pipeSmallTitanium>],
+[<ore:heatsinkFluid>, <ore:plateThickConstantan>, <ore:heatsinkFluid>]]);
+
+<nuclearcraft:salt_fission_heater:*>.addTooltip("Recipe Needed");
+<nuclearcraft:salt_fission_heater2:*>.addTooltip("Recipe Needed");
+
 #--Heater Exchanger-- (currently broken)
 
 #--Turbine--
@@ -220,7 +230,7 @@ recipes.addShaped(<nuclearcraft:turbine_glass>*8, [
 
 #Rotor Shaft
 recipes.remove(<nuclearcraft:turbine_rotor_shaft>); 
-recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>*3, [
+recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>, [
 [<ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>]]);
 
 #Turbine Rotors
