@@ -221,9 +221,7 @@ recipes.addShaped(<nuclearcraft:turbine_glass>*8, [
 #Rotor Shaft
 recipes.remove(<nuclearcraft:turbine_rotor_shaft>); 
 recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>*3, [
-[<ore:plateThickMagnalium>, <ore:plateThickMagnalium>, <ore:plateThickMagnalium>],
-[<ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>],
-[<ore:plateThickMagnalium>, <ore:plateThickMagnalium>, <ore:plateThickMagnalium>]]);
+[<ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>]]);
 
 #Turbine Rotors
 //Recipes in the MM CNC Machine 
@@ -246,7 +244,8 @@ recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>*2, [
 [<ore:ringTitanium>, <ore:plateThickMagnalium>, <ore:ringTitanium>]]);
 
 #Turbine Coils
-<nuclearcraft:turbine_dynamo_coil:*>.addTooltip("Recipe Needed");
+recipes.remove(<nuclearcraft:turbine_dynamo_coil:*>);
+//Recipes in Gtech assembly machine.
 
 #Coil Connector
 recipes.remove(<nuclearcraft:turbine_coil_connector>); 

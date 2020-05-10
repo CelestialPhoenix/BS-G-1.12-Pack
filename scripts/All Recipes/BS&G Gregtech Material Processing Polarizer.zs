@@ -51,4 +51,11 @@ polarizer
     .EUt(6)
     .buildAndRegister();
 
-
+#Neodymium
+polarizer
+    .recipeBuilder()
+	.inputs(<ore:shaftNeodymium>.firstItem)
+	.outputs([<ore:shaftNeodymiumMagnetic>.firstItem])
+    .duration(16)
+    .EUt(48)
+    .buildAndRegister();

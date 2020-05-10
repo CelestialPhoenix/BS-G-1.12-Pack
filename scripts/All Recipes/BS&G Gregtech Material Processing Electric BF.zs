@@ -264,7 +264,7 @@ electricBF
     .inputs(<ore:dustClay>.firstItem*9, <ore:dustCarbon>.firstItem*9)
 	.fluidInputs([<liquid:silicon> * 1296])
     .outputs(<ore:blockSiCSiCCMC>.firstItem)
-	.property("temperature", 4000)
+	.property("temperature", 5000)
     .duration(1800)
     .EUt(2000)
     .buildAndRegister();

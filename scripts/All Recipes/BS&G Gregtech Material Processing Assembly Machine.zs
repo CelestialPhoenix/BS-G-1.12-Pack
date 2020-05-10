@@ -1438,6 +1438,57 @@ theassembler
     .buildAndRegister();
 }
 
+#---NuclearCraft---
+
+#--Turbine Coils--
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireMagnesium>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:0>) //Magnesium
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireBeryllium>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:1>) //Beryllium
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireGtSingleAluminium>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:2>) //Aluminium
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireGtSingleGold>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:3>) //Gold
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireGtSingleAnnealedCopper>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:4>) //Copper
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:shaftNeodymiumMagnetic>*1, <ore:wireGtSingleSilver>*32)
+    .outputs(<nuclearcraft:turbine_dynamo_coil:5>) //Silver
+    .duration(800)
+    .EUt(30)
+    .buildAndRegister();
+
 #---Vanilla----
 #Iron Bars
 theassembler.findRecipe(4, [<ore:stickIron>.firstItem*3, <metaitem:circuit.integrated>.withTag({Configuration: 3})], null).remove();

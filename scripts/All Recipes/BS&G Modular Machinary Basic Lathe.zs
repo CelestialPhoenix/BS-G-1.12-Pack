@@ -34,6 +34,17 @@ LatheBasicShaftCobalt.addItemOutput(<ore:shaftCobalt>);
 LatheBasicShaftCobalt.addItemOutput(<ore:dustCobalt>, 6);
 LatheBasicShaftCobalt.build();
 
+val LatheBasicShaftNeodymiym = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftneodymium", "lathe_basic", 450, 0);
+
+LatheBasicShaftNeodymiym.addEnergyPerTickInput(120);
+LatheBasicShaftNeodymiym.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 6}));
+LatheBasicShaftNeodymiym.setChance(0);
+LatheBasicShaftNeodymiym.addItemInput(<ore:blockNeodymium>);
+LatheBasicShaftNeodymiym.addFluidInput(<liquid:lubricant>*300);
+LatheBasicShaftNeodymiym.addItemOutput(<ore:shaftNeodymium>);
+LatheBasicShaftNeodymiym.addItemOutput(<ore:dustNeodymium>, 6);
+LatheBasicShaftNeodymiym.build();
+
 val LatheBasicShaftStainlessSteel = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftstainlesssteel", "lathe_basic", 450, 0);
 
 LatheBasicShaftStainlessSteel.addEnergyPerTickInput(120);

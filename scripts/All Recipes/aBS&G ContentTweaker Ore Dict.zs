@@ -641,6 +641,8 @@ print("Tweak Tweak Tweak Tweak");
 #<ore:shaft>.add(<contenttweaker:shaft>);
 <ore:shaftCobalt>.add(<contenttweaker:shaftcobalt>);
 <ore:shaftIron>.add(<contenttweaker:shaftiron>);
+<ore:shaftNeodymium>.add(<contenttweaker:shaftneodymium>);
+<ore:shaftNeodymiumMagnetic>.add(<contenttweaker:shaftneodymiummagnetic>);
 <ore:shaftSteel>.add(<contenttweaker:shaftsteel>);
 <ore:shaftStainlessSteel>.add(<contenttweaker:shaftstainlesssteel>);
 
@@ -689,3 +691,6 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Tool Rods---
 <ore:toolRodWood>.add(<contenttweaker:toolrodwood>);
+
+<ore:wireBeryllium>.add(<contenttweaker:wireberyllium>);
+<ore:wireMagnesium>.add(<contenttweaker:wiremagnesium>);

@@ -1195,6 +1195,8 @@ item.contenttweaker.rollers.name= Set of Rollers
 
 item.contenttweaker.shaftcobalt.name=Cobalt Shaft
 item.contenttweaker.shaftiron.name=Iron Shaft
+item.contenttweaker.shaftneodymium.name=Neodymium Shaft
+item.contenttweaker.shaftneodymiummagnetic.name=Magnetic Neodymium Shaft
 item.contenttweaker.shaftsteel.name=Steel Shaft
 item.contenttweaker.shaftstainlesssteel.name=Stainless Steel Shaft
 
@@ -1216,6 +1218,9 @@ item.contenttweaker.wireconstantan.name=Constantan Wire
 item.contenttweaker.wireelectrum.name=Electrum Wire
 item.contenttweaker.wireredalloy.name=Red Alloy Wire
 item.contenttweaker.wiresignalum.name=Signalum Wire
+
+item.contenttweaker.wiremagnesium.name=Magnesium Wire
+item.contenttweaker.wireberyllium.name=Beryllium Wire
 
 item.contenttweaker.wirefinegold.name=Fine Gold Wire
 item.contenttweaker.wirefineplatinum.name=Fine Platinum Wire
