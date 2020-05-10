@@ -1078,6 +1078,7 @@ CNCBasicRingTungstenThoriumAlloy.addItemOutput(<ore:dustSmallTungstenThoriumAllo
 CNCBasicRingTungstenThoriumAlloy.build();
 
 #---Turbine Rotors---
+
 val CNCBasicRotorSteel = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotorSteel", "cnc_basic", 600, 0);
 
 CNCBasicRotorSteel.addEnergyPerTickInput(120);
@@ -1089,27 +1090,27 @@ CNCBasicRotorSteel.addItemOutput(<nuclearcraft:turbine_rotor_blade_steel>);
 CNCBasicRotorSteel.addItemOutput(<ore:dustTungstenSteel>, 4);
 CNCBasicRotorSteel.build();
 
-val CNCBasicRotor = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotor", "cnc_basic", 600, 0);
+val CNCBasicRotorExtreme = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotorExtreme", "cnc_basic", 600, 0);
 
-CNCBasicRotor.addEnergyPerTickInput(120);
-CNCBasicRotor.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}));
-CNCBasicRotor.setChance(0);
-CNCBasicRotor.addItemInput(<ore:blockHsss>);
-CNCBasicRotor.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotor.addItemOutput(<nuclearcraft:turbine_rotor_blade_extreme>);
-CNCBasicRotor.addItemOutput(<ore:dustHsss>, 4);
-CNCBasicRotor.build();
+CNCBasicRotorExtreme.addEnergyPerTickInput(120);
+CNCBasicRotorExtreme.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}));
+CNCBasicRotorExtreme.setChance(0);
+CNCBasicRotorExtreme.addItemInput(<ore:blockHsss>);
+CNCBasicRotorExtreme.addFluidInput(<liquid:lubricant>*750);
+CNCBasicRotorExtreme.addItemOutput(<nuclearcraft:turbine_rotor_blade_extreme>);
+CNCBasicRotorExtreme.addItemOutput(<ore:dustHsss>, 4);
+CNCBasicRotorExtreme.build();
 
-val CNCBasicRotor = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotor", "cnc_basic", 600, 0);
+val CNCBasicRotorSiCSiC = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotorSiCSiC", "cnc_basic", 600, 0);
 
-CNCBasicRotor.addEnergyPerTickInput(120);
-CNCBasicRotor.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}));
-CNCBasicRotor.setChance(0);
-CNCBasicRotor.addItemInput(<ore:blockSiCSiCCMC>);
-CNCBasicRotor.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotor.addItemOutput(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
-CNCBasicRotor.addItemOutput(<ore:dustClay>, 2);
-CNCBasicRotor.build();
+CNCBasicRotorSiCSiC.addEnergyPerTickInput(120);
+CNCBasicRotorSiCSiC.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}));
+CNCBasicRotorSiCSiC.setChance(0);
+CNCBasicRotorSiCSiC.addItemInput(<ore:blockSiCSiCCMC>);
+CNCBasicRotorSiCSiC.addFluidInput(<liquid:lubricant>*750);
+CNCBasicRotorSiCSiC.addItemOutput(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
+CNCBasicRotorSiCSiC.addItemOutput(<ore:dustClay>, 2);
+CNCBasicRotorSiCSiC.build();
 
 val CNCBasicRotorStator = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotorStator", "cnc_basic", 600, 0);
 

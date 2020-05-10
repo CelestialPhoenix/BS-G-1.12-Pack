@@ -156,7 +156,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:brickInfernal>.add(<contenttweaker:blastbrick>);
 
 #Ceramic Matrix
-<ore:blockSiCSiCCMC>.addAll(<contenttweaker:block_sic_sic_cmc>);
+<ore:blockSiCSiCCMC>.add(<contenttweaker:block_sic_sic_cmc>);
 
 #---Circuits---
 <ore:circuitElite>.add(<contenttweaker:corequantum>);

@@ -266,7 +266,7 @@ electricBF
     .outputs(<ore:blockSiCSiCCMC>.firstItem)
 	.property("temperature", 4000)
     .duration(1800)
-    .EUt(120)
+    .EUt(2000)
     .buildAndRegister();
 
 #---Dusts---
