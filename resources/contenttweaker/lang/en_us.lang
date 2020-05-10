@@ -1131,6 +1131,7 @@ item.contenttweaker.platethickptfe.name=Thick Polytetrafluoroethylene Plate
 item.contenttweaker.platethickuranium238.name=Thick Uranium238 Plate
 item.contenttweaker.platethickgraphite.name=Thick Graphite Plate
 item.contenttweaker.platethickboron.name=Thick Boron Plate
+item.contenttweaker.platethickmagnalium.name=Thick Magnalium Plate
 
 item.contenttweaker.presstoolcutter.name=Metal Press Tool: Guillotine
 item.contenttweaker.presstoolringbender.name=Metal Press Tool: Ring Bender
@@ -1193,6 +1194,7 @@ item.contenttweaker.rollers.name= Set of Rollers
 item.contenttweaker.shaftcobalt.name=Cobalt Shaft
 item.contenttweaker.shaftiron.name=Iron Shaft
 item.contenttweaker.shaftsteel.name=Steel Shaft
+item.contenttweaker.shaftstainlesssteel.name=Stainless Steel Shaft
 
 item.contenttweaker.shredded_biomass.name=Shredded Biomass
 

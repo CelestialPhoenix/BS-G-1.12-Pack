@@ -623,6 +623,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:plateThickUranium238>.add(<contenttweaker:platethickuranium238>);
 <ore:plateThickGraphite>.add(<contenttweaker:platethickgraphite>);
 <ore:plateThickBoron>.add(<contenttweaker:platethickboron>);
+<ore:plateThickMagnalium>.add(<contenttweaker:platethickmagnalium>);
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);
@@ -637,6 +638,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:shaftCobalt>.add(<contenttweaker:shaftcobalt>);
 <ore:shaftIron>.add(<contenttweaker:shaftiron>);
 <ore:shaftSteel>.add(<contenttweaker:shaftsteel>);
+<ore:shaftStainlessSteel>.add(<contenttweaker:shaftstainlesssteel>);
 
 #---Sheetmetal---
 #<ore:sheet>.add(<contenttweaker:rolled>);

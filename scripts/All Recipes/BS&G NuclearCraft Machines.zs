@@ -218,6 +218,13 @@ recipes.addShaped(<nuclearcraft:turbine_glass>*8, [
 [<ore:plateThickMagnalium>, <ore:hullHV>, <ore:plateThickMagnalium>],
 [<ore:blockGlassHardened>, <ore:plateThickMagnalium>, <ore:blockGlassHardened>]]);
 
+#Rotor Shaft
+recipes.remove(<nuclearcraft:turbine_rotor_shaft>); 
+recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>*3, [
+[<ore:plateThickMagnalium>, <ore:plateThickMagnalium>, <ore:plateThickMagnalium>],
+[<ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>],
+[<ore:plateThickMagnalium>, <ore:plateThickMagnalium>, <ore:plateThickMagnalium>]]);
+
 #Turbine Rotors
 //Recipes in the MM CNC Machine 
 <nuclearcraft:turbine_rotor_blade_steel>.addTooltip("Recipe Needed");
