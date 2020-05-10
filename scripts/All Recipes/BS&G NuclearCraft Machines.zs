@@ -29,16 +29,16 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 #Casing (solid)
 recipes.remove(<nuclearcraft:fission_casing>); 
 recipes.addShaped(<nuclearcraft:fission_casing>*8, [
-[<ore:plateAdvancedAlloy>, <ore:shieldMedium>, <ore:plateAdvancedAlloy>],
+[<ore:plateAdvancedAlloy>, <ore:shieldingMedium>, <ore:plateAdvancedAlloy>],
 [<ore:platingAdvanced>, <ore:hullHV>, <ore:platingAdvanced>],
-[<ore:plateAdvancedAlloy>, <ore:shieldMedium>, <ore:plateAdvancedAlloy>]]);
+[<ore:plateAdvancedAlloy>, <ore:shieldingMedium>, <ore:plateAdvancedAlloy>]]);
 
 #Casing (glass)
 recipes.remove(<nuclearcraft:fission_glass>); 
 recipes.addShaped(<nuclearcraft:fission_glass>*8, [
-[<ore:blockGlassHardened>, <ore:shieldMedium>, <ore:blockGlassHardened>],
+[<ore:blockGlassHardened>, <ore:shieldingMedium>, <ore:blockGlassHardened>],
 [<ore:platingAdvanced>, <ore:hullHV>, <ore:platingAdvanced>],
-[<ore:blockGlassHardened>, <ore:shieldMedium>, <ore:blockGlassHardened>]]);
+[<ore:blockGlassHardened>, <ore:shieldingMedium>, <ore:blockGlassHardened>]]);
 
 #Conductor //Connector
 recipes.remove(<nuclearcraft:fission_conductor>); 
