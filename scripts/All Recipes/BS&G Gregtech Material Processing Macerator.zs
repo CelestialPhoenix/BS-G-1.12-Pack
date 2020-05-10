@@ -234,7 +234,8 @@ var thickPlateMaterials as string[] = [
 	"Constantan",
 	"Signalum",
 	"Lumium",
-	"Enderium"
+	"Enderium",
+	"Magnalium"
 	];
 
 for input in thickPlateMaterials {

@@ -1443,6 +1443,10 @@ RollingMachine.addShaped(<ore:plateThickUranium238>.firstItem, [
 [<ore:ingotUranium238>, <ore:ingotUranium238>],
 [<ore:ingotUranium238>, <ore:ingotUranium238>]], 200);
 
+RollingMachine.addShaped(<ore:plateThickMagnalium>.firstItem, [
+[<ore:plateMagnalium>, <ore:plateMagnalium>],
+[<ore:plateMagnalium>, <ore:plateMagnalium>]], 200);
+
 #-TFo Plates- 
 RollingMachine.addShaped(<ore:plateThickIron>.firstItem, [
 [<ore:plateIron>, <ore:plateIron>],
