@@ -163,16 +163,16 @@ recipes.addShaped(<nuclearcraft:solid_fission_controller>, [
 #--Fission Controller-- (Molten Salt)
 recipes.remove(<nuclearcraft:salt_fission_controller>); 
 recipes.addShaped(<nuclearcraft:salt_fission_controller>, [
-[<ore:sensorIV>, <ore:emitterIV>, <ore:sensorIV>],
-[<ore:platingDU>, <ore:motorIV>, <ore:platingDU>],
+[<ore:sensorEV>, <ore:emitterEV>, <ore:sensorEV>],
+[<ore:platingElite>, <ore:motorEV>, <ore:platingElite>],
 [<ore:circuitElite>, <ore:hullHV>, <ore:circuitElite>]]);
 
 #-Fission Vessel-
 recipes.remove(<nuclearcraft:salt_fission_vessel>); 
 recipes.addShaped(<nuclearcraft:salt_fission_vessel>, [
-[<ore:robotarmHV>, null, <ore:robotarmHV>],
+[<ore:robotarmHV>, <ore:pipeMediumStainlessSteel>, <ore:robotarmHV>],
 [<ore:ringStainlessSteel>, <ore:hullHV>, <ore:ringStainlessSteel>],
-[<ore:motorHV>, null, <ore:motorHV>]]);
+[<ore:motorHV>, <ore:pipeMediumStainlessSteel>, <ore:motorHV>]]);
 <nuclearcraft:salt_fission_vessel>.addTooltip("WiP Recipe");
 //Find out if solid or fluid fuel?
 
@@ -197,7 +197,60 @@ recipes.addShaped(<nuclearcraft:fission_heater_port>, [
 #--Heater Exchanger-- (currently broken)
 
 #--Turbine--
+#Controller
+recipes.remove(<nuclearcraft:turbine_controller>); 
+recipes.addShaped(<nuclearcraft:turbine_controller>, [
+[<ore:sensorEV>, <ore:emitterEV>, <ore:sensorEV>],
+[<ore:plateThickMagnalium>, <ore:hullHV>, <ore:plateThickMagnalium>],
+[<ore:platingAdvanced>, <ore:plateThickMagnalium>, <ore:platingAdvanced>]]);
 
+#Casing (solid)
+recipes.remove(<nuclearcraft:turbine_casing>); 
+recipes.addShaped(<nuclearcraft:turbine_casing>*8, [
+[<ore:plateAdvancedAlloy>, <ore:plateThickMagnalium>, <ore:plateAdvancedAlloy>],
+[<ore:plateThickMagnalium>, <ore:hullHV>, <ore:plateThickMagnalium>],
+[<ore:plateAdvancedAlloy>, <ore:plateThickMagnalium>, <ore:plateAdvancedAlloy>]]);
+
+#Casing (glass)
+recipes.remove(<nuclearcraft:turbine_glass>); 
+recipes.addShaped(<nuclearcraft:turbine_glass>*8, [
+[<ore:blockGlassHardened>, <ore:plateThickMagnalium>, <ore:blockGlassHardened>],
+[<ore:plateThickMagnalium>, <ore:hullHV>, <ore:plateThickMagnalium>],
+[<ore:blockGlassHardened>, <ore:plateThickMagnalium>, <ore:blockGlassHardened>]]);
+
+#Turbine Rotors
+//Recipes in the MM CNC Machine 
+<nuclearcraft:turbine_rotor_blade_steel>.addTooltip("Recipe Needed");
+<nuclearcraft:turbine_rotor_blade_extreme>.addTooltip("Recipe Needed");
+<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>.addTooltip("Recipe Needed");
+<nuclearcraft:turbine_rotor_stator>.addTooltip("Recipe Needed");
+
+#Rotor Bearing (glass)
+recipes.remove(<nuclearcraft:turbine_rotor_bearing>); 
+recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>*2, [
+[<ore:ringTitanium>, <ore:plateThickMagnalium>, <ore:ringTitanium>],
+[<ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>, <ore:shaftStainlessSteel>],
+[<ore:ringTitanium>, <ore:plateThickMagnalium>, <ore:ringTitanium>]]);
+
+#Turbine Coils
+<nuclearcraft:turbine_dynamo_coil:*>.addTooltip("Recipe Needed");
+
+#Coil Connector
+recipes.remove(<nuclearcraft:turbine_coil_connector>); 
+recipes.addShaped(<nuclearcraft:turbine_coil_connector>*4, [
+[<ore:plateThickGold>, <ore:plateThickCopper>, <ore:plateThickGold>],
+[<ore:plateThickCopper>, <ore:hullHV>, <ore:plateThickCopper>],
+[<ore:plateThickGold>, <ore:plateThickCopper>, <ore:plateThickGold>]]);
+
+#Fluid Inlet
+recipes.remove(<nuclearcraft:turbine_inlet>); 
+recipes.addShaped(<nuclearcraft:turbine_inlet>, [
+[<ore:pumpEV>, <nuclearcraft:turbine_casing>, <ore:pipeMediumStainlessSteel>]]);
+
+#Fluid Outlet
+recipes.remove(<nuclearcraft:turbine_outlet>); 
+recipes.addShaped(<nuclearcraft:turbine_outlet>, [
+[<ore:pipeMediumStainlessSteel>, <nuclearcraft:turbine_casing>, <ore:pumpEV>]]);
 
 #--Infinite Source Machines--
 //No free stuff for you :)

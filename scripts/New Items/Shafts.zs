@@ -14,3 +14,5 @@ var ShaftIron = VanillaFactory.createItem("shaftiron");
 ShaftIron.register();
 var ShaftSteel = VanillaFactory.createItem("shaftsteel");
 ShaftSteel.register();
+var ShaftStainlessSteel = VanillaFactory.createItem("shaftstainlesssteel");
+ShaftStainlessSteel.register();

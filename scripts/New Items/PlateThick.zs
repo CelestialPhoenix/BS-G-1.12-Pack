@@ -26,6 +26,9 @@ PlateThickGraphite.register();
 var PlateThickPlastic = VanillaFactory.createItem("platethickplastic");
 PlateThickPlastic.register();
 
+var PlateThickMagnalium = VanillaFactory.createItem("platethickmagnalium");
+PlateThickMagnalium.register();
+
 var PlateThickPTFE = VanillaFactory.createItem("platethickptfe");
 PlateThickPTFE.register();
 
