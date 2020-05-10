@@ -11,6 +11,51 @@ print("These is not the files you are looking for");
 #-150 ticks per unit of material removed
 #0.5mb/t lubricant use
 
+#---Shafts---
+val LatheBasicShaftIron = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftiron", "lathe_basic", 450, 0);
+
+LatheBasicShaftIron.addEnergyPerTickInput(120);
+LatheBasicShaftIron.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 6}));
+LatheBasicShaftIron.setChance(0);
+LatheBasicShaftIron.addItemInput(<ore:blockIron>);
+LatheBasicShaftIron.addFluidInput(<liquid:lubricant>*300);
+LatheBasicShaftIron.addItemOutput(<ore:shaftIron>);
+LatheBasicShaftIron.addItemOutput(<ore:dustIron>, 6);
+LatheBasicShaftIron.build();
+
+val LatheBasicShaftCobalt = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftcobalt", "lathe_basic", 450, 0);
+
+LatheBasicShaftCobalt.addEnergyPerTickInput(120);
+LatheBasicShaftCobalt.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 6}));
+LatheBasicShaftCobalt.setChance(0);
+LatheBasicShaftCobalt.addItemInput(<ore:blockCobalt>);
+LatheBasicShaftCobalt.addFluidInput(<liquid:lubricant>*300);
+LatheBasicShaftCobalt.addItemOutput(<ore:shaftCobalt>);
+LatheBasicShaftCobalt.addItemOutput(<ore:dustCobalt>, 6);
+LatheBasicShaftCobalt.build();
+
+val LatheBasicShaftStainlessSteel = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftstainlesssteel", "lathe_basic", 450, 0);
+
+LatheBasicShaftStainlessSteel.addEnergyPerTickInput(120);
+LatheBasicShaftStainlessSteel.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 6}));
+LatheBasicShaftStainlessSteel.setChance(0);
+LatheBasicShaftStainlessSteel.addItemInput(<ore:blockStainlessSteel>);
+LatheBasicShaftStainlessSteel.addFluidInput(<liquid:lubricant>*300);
+LatheBasicShaftStainlessSteel.addItemOutput(<ore:shaftStainlessSteel>);
+LatheBasicShaftStainlessSteel.addItemOutput(<ore:dustStainlessSteel>, 6);
+LatheBasicShaftStainlessSteel.build();
+
+val LatheBasicShaftSteel = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicshaftsteel", "lathe_basic", 450, 0);
+
+LatheBasicShaftSteel.addEnergyPerTickInput(120);
+LatheBasicShaftSteel.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 6}));
+LatheBasicShaftSteel.setChance(0);
+LatheBasicShaftSteel.addItemInput(<ore:blockSteel>);
+LatheBasicShaftSteel.addFluidInput(<liquid:lubricant>*300);
+LatheBasicShaftSteel.addItemOutput(<ore:shaftSteel>);
+LatheBasicShaftSteel.addItemOutput(<ore:dustSteel>, 6);
+LatheBasicShaftSteel.build();
+
 #---Pipes---
 #-Large-
 #val LatheBasicPipeLarge = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicpipelarge", "lathe_basic", 450, 0);
