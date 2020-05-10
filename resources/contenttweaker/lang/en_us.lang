@@ -264,6 +264,8 @@ tile.contenttweaker.darkstone.name=Darkstone
 
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
+tile.contenttweaker.block_sic_sic_cmc.name=SiC SiC CMC Block
+
 tile.contenttweaker.blockrolledbronze.name= Bronze Sheetmetal
 tile.contenttweaker.blockrolledchrome.name=Chrome Sheetmetal
 tile.contenttweaker.blockrolleddarmstadtium.name=Darmstadtium Sheetmetal

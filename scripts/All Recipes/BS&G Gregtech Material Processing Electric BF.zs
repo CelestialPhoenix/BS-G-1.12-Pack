@@ -258,6 +258,17 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
+#SicSicCMC
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustClay>.firstItem*9, <ore:dustCarbon>.firstItem*9)
+	.fluidInputs([<liquid:silicon> * 1296])
+    .outputs(<ore:blockSiCSiCCMC>.firstItem)
+	.property("temperature", 4000)
+    .duration(1800)
+    .EUt(120)
+    .buildAndRegister();
+
 #---Dusts---
 
 /*#######################

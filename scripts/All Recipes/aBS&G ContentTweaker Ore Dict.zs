@@ -6,6 +6,7 @@ print("Tweak Tweak Tweak Tweak");
 #=========
 #MaterialBuilder Fix <materialpart:material:part>
 #=========
+
 #Crystal Ore
 <ore:crystalAntimony>.addAll(<ore:crystalAntimonyOre>);
 <ore:crystalBismuth>.addAll(<ore:crystalBismuthOre>);
@@ -153,6 +154,9 @@ print("Tweak Tweak Tweak Tweak");
 #---Bricks---
 <ore:blockInfernalclay>.add(<contenttweaker:nethersludgeblock>);
 <ore:brickInfernal>.add(<contenttweaker:blastbrick>);
+
+#Ceramic Matrix
+<ore:blockSiCSiCCMC>.addAll(<contenttweaker:block_sic_sic_cmc>);
 
 #---Circuits---
 <ore:circuitElite>.add(<contenttweaker:corequantum>);

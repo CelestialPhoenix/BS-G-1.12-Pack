@@ -231,7 +231,7 @@ recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>*3, [
 recipes.remove(<nuclearcraft:turbine_rotor_blade_steel>);
 recipes.remove(<nuclearcraft:turbine_rotor_blade_extreme>);
 recipes.remove(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
-recipes.remove(<nuclearcraft:turbine_rotor_blade_stator>);
+recipes.remove(<nuclearcraft:turbine_rotor_stator>);
 
 <nuclearcraft:turbine_rotor_blade_steel>.addTooltip("Recipe Needed");
 <nuclearcraft:turbine_rotor_blade_extreme>.addTooltip("Recipe Needed");
