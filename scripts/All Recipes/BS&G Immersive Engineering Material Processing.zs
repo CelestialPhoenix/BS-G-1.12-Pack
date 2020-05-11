@@ -123,6 +123,14 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungs
 mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:solid_fission_sink2:12>, <nuclearcraft:part:14>, <liquid:liquid_nitrogen>*1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:solid_fission_sink2:13>, <nuclearcraft:part:14>, <liquid:liquid_helium>*1000);
 
+#Salt Reactor Heater Ports
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:fission_heater_port2:12>, <nuclearcraft:fission_heater_port>, <liquid:liquid_nitrogen>*1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:fission_heater_port2:13>, <nuclearcraft:fission_heater_port>, <liquid:liquid_helium>*1000);
+
+#Salt Reactor Heatsinks
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:salt_fission_heater2:12>, <nuclearcraft:salt_fission_heater>, <liquid:liquid_nitrogen>*1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:salt_fission_heater2:13>, <nuclearcraft:salt_fission_heater>, <liquid:liquid_helium>*1000);
+
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxsteel>, <contenttweaker:gearboxemptysteel>, <liquid:gearboxoil>*1000);
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxaluminium>, <contenttweaker:gearboxemptyaluminium>, <liquid:gearboxoil>*2000);
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxstainless>, <contenttweaker:gearboxemptystainless>, <liquid:gearboxoil>*4000);

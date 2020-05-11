@@ -374,10 +374,6 @@ recipes.addShaped(<nuclearcraft:solid_fission_controller>, [
 [<ore:platingAdvanced>, <ore:motorEV>, <ore:platingAdvanced>],
 [<ore:circuitExtreme>, <ore:hullHV>, <ore:circuitExtreme>]]);
 
-//Flavoured Heat sinks (solid fuel)
-<nuclearcraft:solid_fission_sink:*>.addTooltip("Recipe Needed");
-<nuclearcraft:solid_fission_sink2:*>.addTooltip("Recipe Needed");
-
 #--Fission Reactor (Molten Salt)--
 
 #--Fission Controller-- (Molten Salt)
@@ -404,15 +400,217 @@ recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
 [<ore:circuitElite>, <nuclearcraft:fission_casing>, <ore:circuitElite>]]);
 
 #-Coolant Heater Port-
-recipes.remove(<nuclearcraft:fission_heater_port>); 
-recipes.addShaped(<nuclearcraft:fission_heater_port>, [
+recipes.remove(<nuclearcraft:fission_heater_port:0>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:0>, [
 [<ore:pipeMediumStainlessSteel>, <ore:pumpEV>, <ore:pipeMediumStainlessSteel>],
 [<ore:platingElite>, <ore:hullHV>, <ore:platingElite>],
 [<ore:tankStainlessSteel>, null, <ore:circuitExtreme>]]);
 
 //Flavoured Coolant Heater Ports
-<nuclearcraft:fission_heater_port:*>.addTooltip("Recipe Needed");
-<nuclearcraft:fission_heater_port2:*>.addTooltip("Recipe Needed");
+//Iron
+recipes.remove(<nuclearcraft:fission_heater_port:1>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:1>*1, [
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+[<ore:plateIron>, <nuclearcraft:fission_heater_port>, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+//Redstone
+recipes.remove(<nuclearcraft:fission_heater_port:2>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:2>*1, [
+[<ore:plateRedstone>, <ore:plateRedstone>, <ore:plateRedstone>],
+[<ore:plateRedstone>, <nuclearcraft:fission_heater_port>, <ore:plateRedstone>],
+[<ore:plateRedstone>, <ore:plateRedstone>, <ore:plateRedstone>]]);
+
+//Quartz
+recipes.remove(<nuclearcraft:fission_heater_port:3>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:3>*1, [
+[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
+[<ore:plateQuartz>, <nuclearcraft:fission_heater_port>, <ore:plateQuartz>],
+[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>]]);
+
+//Obsidian
+recipes.remove(<nuclearcraft:fission_heater_port:4>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:4>*1, [
+[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>],
+[<ore:plateObsidian>, <nuclearcraft:fission_heater_port>, <ore:plateObsidian>],
+[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]]);
+
+//NetherBrick
+recipes.remove(<nuclearcraft:fission_heater_port:5>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:5>*1, [
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <nuclearcraft:fission_heater_port>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
+
+//Glowstone
+recipes.remove(<nuclearcraft:fission_heater_port:6>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:6>*1, [
+[<ore:plateGlowstone>, <ore:plateGlowstone>, <ore:plateGlowstone>],
+[<ore:plateGlowstone>, <nuclearcraft:fission_heater_port>, <ore:plateGlowstone>],
+[<ore:plateGlowstone>, <ore:plateGlowstone>, <ore:plateGlowstone>]]);
+
+//Lapis
+recipes.remove(<nuclearcraft:fission_heater_port:7>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:7>*1, [
+[<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>],
+[<ore:plateLapis>, <nuclearcraft:fission_heater_port>, <ore:plateLapis>],
+[<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]]);
+
+//Gold
+recipes.remove(<nuclearcraft:fission_heater_port:8>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:8>*1, [
+[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
+[<ore:plateGold>, <nuclearcraft:fission_heater_port>, <ore:plateGold>],
+[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+
+//Prismarine
+recipes.remove(<nuclearcraft:fission_heater_port:9>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:9>*1, [
+[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>],
+[<ore:gemPrismarine>, <nuclearcraft:fission_heater_port>, <ore:gemPrismarine>],
+[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
+
+//Slime
+recipes.remove(<nuclearcraft:fission_heater_port:10>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:10>*1, [
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>],
+[<ore:plateSlime>, <nuclearcraft:fission_heater_port>, <ore:plateSlime>],
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
+
+//Endstone
+recipes.remove(<nuclearcraft:fission_heater_port:11>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:11>*1, [
+[<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>],
+[<ore:plateEndstone>, <nuclearcraft:fission_heater_port>, <ore:plateEndstone>],
+[<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>]]);
+
+//Purpur
+recipes.remove(<nuclearcraft:fission_heater_port:12>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:12>*1, [
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>],
+[<ore:platePurpur>, <nuclearcraft:fission_heater_port>, <ore:platePurpur>],
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>]]);
+
+//Diamond
+recipes.remove(<nuclearcraft:fission_heater_port:13>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:13>*1, [
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <nuclearcraft:fission_heater_port>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
+
+//Emerald
+recipes.remove(<nuclearcraft:fission_heater_port:14>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:14>*1, [
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <nuclearcraft:fission_heater_port>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>]]);
+
+//Copper
+recipes.remove(<nuclearcraft:fission_heater_port:15>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port:15>*1, [
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+[<ore:plateCopper>, <nuclearcraft:fission_heater_port>, <ore:plateCopper>],
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+
+//Tin
+recipes.remove(<nuclearcraft:fission_heater_port2:0>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:0>*1, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateTin>, <nuclearcraft:fission_heater_port>, <ore:plateTin>],
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+
+//Lead
+recipes.remove(<nuclearcraft:fission_heater_port2:1>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:1>*1, [
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>],
+[<ore:plateLead>, <nuclearcraft:fission_heater_port>, <ore:plateLead>],
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>]]);
+
+//Boron
+recipes.remove(<nuclearcraft:fission_heater_port2:2>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:2>*1, [
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>],
+[<ore:plateBoron>, <nuclearcraft:fission_heater_port>, <ore:plateBoron>],
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>]]);
+
+//Lithium
+recipes.remove(<nuclearcraft:fission_heater_port2:3>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:3>*1, [
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>],
+[<ore:plateLithium>, <nuclearcraft:fission_heater_port>, <ore:plateLithium>],
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>]]);
+
+//Magnesium
+recipes.remove(<nuclearcraft:fission_heater_port2:4>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:4>*1, [
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <nuclearcraft:fission_heater_port>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>]]);
+
+//Manganese
+recipes.remove(<nuclearcraft:fission_heater_port2:5>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:5>*1, [
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <nuclearcraft:fission_heater_port>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+
+//Aluminium
+<nuclearcraft:fission_heater_port2:6>.displayName="Aluminium Fission Coolant Heater Port";
+recipes.remove(<nuclearcraft:fission_heater_port2:6>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:6>*1, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <nuclearcraft:fission_heater_port>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+
+//Silver
+recipes.remove(<nuclearcraft:fission_heater_port2:7>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:7>*1, [
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>],
+[<ore:plateSilver>, <nuclearcraft:fission_heater_port>, <ore:plateSilver>],
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+
+//Fluorite
+recipes.remove(<nuclearcraft:fission_heater_port2:8>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:8>*1, [
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <nuclearcraft:fission_heater_port>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>]]);
+
+//Villiaumite
+recipes.remove(<nuclearcraft:fission_heater_port2:9>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:9>*1, [
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <nuclearcraft:fission_heater_port>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>]]);
+
+//Carobbiite
+recipes.remove(<nuclearcraft:fission_heater_port2:10>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:10>*1, [
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <nuclearcraft:fission_heater_port>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+
+//Arsenic
+recipes.remove(<nuclearcraft:fission_heater_port2:11>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:11>*1, [
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <nuclearcraft:fission_heater_port>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>]]);
+
+//Liquid Nitrogen
+recipes.remove(<nuclearcraft:fission_heater_port2:12>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Liquid Helium
+recipes.remove(<nuclearcraft:fission_heater_port2:13>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Enderium
+recipes.remove(<nuclearcraft:fission_heater_port2:14>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:14>*1, [
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <nuclearcraft:fission_heater_port>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
 
 #Molten Salt Heat Sinks
 recipes.remove(<nuclearcraft:salt_fission_heater>); 
@@ -421,8 +619,210 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater>, [
 [<ore:pipeSmallTitanium>, <ore:hullHV>, <ore:pipeSmallTitanium>],
 [<ore:heatsinkFluid>, <ore:plateThickConstantan>, <ore:heatsinkFluid>]]);
 
-<nuclearcraft:salt_fission_heater:*>.addTooltip("Recipe Needed");
-<nuclearcraft:salt_fission_heater2:*>.addTooltip("Recipe Needed");
+//Iron
+recipes.remove(<nuclearcraft:salt_fission_heater:1>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:1>*1, [
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+[<ore:plateIron>, <nuclearcraft:salt_fission_heater>, <ore:plateIron>],
+[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+//Redstone
+recipes.remove(<nuclearcraft:salt_fission_heater:2>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:2>*1, [
+[<ore:plateRedstone>, <ore:plateRedstone>, <ore:plateRedstone>],
+[<ore:plateRedstone>, <nuclearcraft:salt_fission_heater>, <ore:plateRedstone>],
+[<ore:plateRedstone>, <ore:plateRedstone>, <ore:plateRedstone>]]);
+
+//Quartz
+recipes.remove(<nuclearcraft:salt_fission_heater:3>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:3>*1, [
+[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
+[<ore:plateQuartz>, <nuclearcraft:salt_fission_heater>, <ore:plateQuartz>],
+[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>]]);
+
+//Obsidian
+recipes.remove(<nuclearcraft:salt_fission_heater:4>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:4>*1, [
+[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>],
+[<ore:plateObsidian>, <nuclearcraft:salt_fission_heater>, <ore:plateObsidian>],
+[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]]);
+
+//NetherBrick
+recipes.remove(<nuclearcraft:salt_fission_heater:5>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:5>*1, [
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <nuclearcraft:salt_fission_heater>, <ore:ingotBrickNether>],
+[<ore:ingotBrickNether>, <ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
+
+//Glowstone
+recipes.remove(<nuclearcraft:salt_fission_heater:6>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:6>*1, [
+[<ore:plateGlowstone>, <ore:plateGlowstone>, <ore:plateGlowstone>],
+[<ore:plateGlowstone>, <nuclearcraft:salt_fission_heater>, <ore:plateGlowstone>],
+[<ore:plateGlowstone>, <ore:plateGlowstone>, <ore:plateGlowstone>]]);
+
+//Lapis
+recipes.remove(<nuclearcraft:salt_fission_heater:7>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:7>*1, [
+[<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>],
+[<ore:plateLapis>, <nuclearcraft:salt_fission_heater>, <ore:plateLapis>],
+[<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]]);
+
+//Gold
+recipes.remove(<nuclearcraft:salt_fission_heater:8>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:8>*1, [
+[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
+[<ore:plateGold>, <nuclearcraft:salt_fission_heater>, <ore:plateGold>],
+[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+
+//Prismarine
+recipes.remove(<nuclearcraft:salt_fission_heater:9>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:9>*1, [
+[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>],
+[<ore:gemPrismarine>, <nuclearcraft:salt_fission_heater>, <ore:gemPrismarine>],
+[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
+
+//Slime
+recipes.remove(<nuclearcraft:salt_fission_heater:10>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:10>*1, [
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>],
+[<ore:plateSlime>, <nuclearcraft:salt_fission_heater>, <ore:plateSlime>],
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
+
+//Endstone
+recipes.remove(<nuclearcraft:salt_fission_heater:11>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:11>*1, [
+[<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>],
+[<ore:plateEndstone>, <nuclearcraft:salt_fission_heater>, <ore:plateEndstone>],
+[<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>]]);
+
+//Purpur
+recipes.remove(<nuclearcraft:salt_fission_heater:12>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:12>*1, [
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>],
+[<ore:platePurpur>, <nuclearcraft:salt_fission_heater>, <ore:platePurpur>],
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>]]);
+
+//Diamond
+recipes.remove(<nuclearcraft:salt_fission_heater:13>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:13>*1, [
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <nuclearcraft:salt_fission_heater>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
+
+//Emerald
+recipes.remove(<nuclearcraft:salt_fission_heater:14>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:14>*1, [
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <nuclearcraft:salt_fission_heater>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>]]);
+
+//Copper
+recipes.remove(<nuclearcraft:salt_fission_heater:15>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater:15>*1, [
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+[<ore:plateCopper>, <nuclearcraft:salt_fission_heater>, <ore:plateCopper>],
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+
+//Tin
+recipes.remove(<nuclearcraft:salt_fission_heater2:0>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:0>*1, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateTin>, <nuclearcraft:salt_fission_heater>, <ore:plateTin>],
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+
+//Lead
+recipes.remove(<nuclearcraft:salt_fission_heater2:1>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:1>*1, [
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>],
+[<ore:plateLead>, <nuclearcraft:salt_fission_heater>, <ore:plateLead>],
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>]]);
+
+//Boron
+recipes.remove(<nuclearcraft:salt_fission_heater2:2>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:2>*1, [
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>],
+[<ore:plateBoron>, <nuclearcraft:salt_fission_heater>, <ore:plateBoron>],
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>]]);
+
+//Lithium
+recipes.remove(<nuclearcraft:salt_fission_heater2:3>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:3>*1, [
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>],
+[<ore:plateLithium>, <nuclearcraft:salt_fission_heater>, <ore:plateLithium>],
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>]]);
+
+//Magnesium
+recipes.remove(<nuclearcraft:salt_fission_heater2:4>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:4>*1, [
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <nuclearcraft:salt_fission_heater>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>]]);
+
+//Manganese
+recipes.remove(<nuclearcraft:salt_fission_heater2:5>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:5>*1, [
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <nuclearcraft:salt_fission_heater>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+
+//Aluminium
+<nuclearcraft:salt_fission_heater2:6>.displayName="Aluminium Fission Coolant Heater Port";
+recipes.remove(<nuclearcraft:salt_fission_heater2:6>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:6>*1, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <nuclearcraft:salt_fission_heater>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+
+//Silver
+recipes.remove(<nuclearcraft:salt_fission_heater2:7>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:7>*1, [
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>],
+[<ore:plateSilver>, <nuclearcraft:salt_fission_heater>, <ore:plateSilver>],
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+
+//Fluorite
+recipes.remove(<nuclearcraft:salt_fission_heater2:8>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:8>*1, [
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <nuclearcraft:salt_fission_heater>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>]]);
+
+//Villiaumite
+recipes.remove(<nuclearcraft:salt_fission_heater2:9>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:9>*1, [
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <nuclearcraft:salt_fission_heater>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>]]);
+
+//Carobbiite
+recipes.remove(<nuclearcraft:salt_fission_heater2:10>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:10>*1, [
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <nuclearcraft:salt_fission_heater>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+
+//Arsenic
+recipes.remove(<nuclearcraft:salt_fission_heater2:11>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:11>*1, [
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <nuclearcraft:salt_fission_heater>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>]]);
+
+//Liquid Nitrogen
+recipes.remove(<nuclearcraft:salt_fission_heater2:12>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Liquid Helium
+recipes.remove(<nuclearcraft:salt_fission_heater2:13>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Enderium
+recipes.remove(<nuclearcraft:salt_fission_heater2:14>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:14>*1, [
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <nuclearcraft:salt_fission_heater>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
 
 #--Heater Exchanger-- (currently broken)
 
