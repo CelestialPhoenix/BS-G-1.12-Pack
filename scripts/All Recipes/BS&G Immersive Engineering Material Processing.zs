@@ -118,6 +118,11 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxstain
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtitanium>, <contenttweaker:gearboxemptytitanium>, <liquid:lubricant>*8000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxtungstensteel>, <contenttweaker:gearboxemptytungstensteel>, <liquid:lubricant>*16000);
 
+#-Nuclearcraft-
+#Solid Reactor Heatsinks
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:solid_fission_sink2:12>, <nuclearcraft:part:14>, <liquid:liquid_nitrogen>*1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<nuclearcraft:solid_fission_sink2:13>, <nuclearcraft:part:14>, <liquid:liquid_helium>*1000);
+
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxsteel>, <contenttweaker:gearboxemptysteel>, <liquid:gearboxoil>*1000);
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxaluminium>, <contenttweaker:gearboxemptyaluminium>, <liquid:gearboxoil>*2000);
 #mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:gearboxstainless>, <contenttweaker:gearboxemptystainless>, <liquid:gearboxoil>*4000);

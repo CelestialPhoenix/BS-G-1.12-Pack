@@ -212,8 +212,11 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink:9>*1, [
 [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
 
 //Slime
-<nuclearcraft:solid_fission_sink:10>.addTooltip("I need a recipe!!");
-#Add deccicated slime items??
+recipes.remove(<nuclearcraft:solid_fission_sink:10>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink:10>*1, [
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>],
+[<ore:plateSlime>, <nuclearcraft:part:14>, <ore:plateSlime>],
+[<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
 
 //Endstone
 recipes.remove(<nuclearcraft:solid_fission_sink:11>); 
@@ -222,33 +225,140 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink:11>*1, [
 [<ore:plateEndstone>, <nuclearcraft:part:14>, <ore:plateEndstone>],
 [<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>]]);
 
-//
-recipes.remove(<nuclearcraft:solid_fission_sink:>); 
-recipes.addShaped(<nuclearcraft:solid_fission_sink:>*1, [
-[<ore:plate>, <ore:plate>, <ore:plate>],
-[<ore:plate>, <nuclearcraft:part:14>, <ore:plate>],
-[<ore:plate>, <ore:plate>, <ore:plate>]]);
+//Purpur
+recipes.remove(<nuclearcraft:solid_fission_sink:12>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink:12>*1, [
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>],
+[<ore:platePurpur>, <nuclearcraft:part:14>, <ore:platePurpur>],
+[<ore:platePurpur>, <ore:platePurpur>, <ore:platePurpur>]]);
 
-//
-recipes.remove(<nuclearcraft:solid_fission_sink:>); 
-recipes.addShaped(<nuclearcraft:solid_fission_sink:>*1, [
-[<ore:plate>, <ore:plate>, <ore:plate>],
-[<ore:plate>, <nuclearcraft:part:14>, <ore:plate>],
-[<ore:plate>, <ore:plate>, <ore:plate>]]);
+//Diamond
+recipes.remove(<nuclearcraft:solid_fission_sink:13>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink:13>*1, [
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <nuclearcraft:part:14>, <ore:plateDiamond>],
+[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
 
-//
-recipes.remove(<nuclearcraft:solid_fission_sink:>); 
-recipes.addShaped(<nuclearcraft:solid_fission_sink:>*1, [
-[<ore:plate>, <ore:plate>, <ore:plate>],
-[<ore:plate>, <nuclearcraft:part:14>, <ore:plate>],
-[<ore:plate>, <ore:plate>, <ore:plate>]]);
+//Emerald
+recipes.remove(<nuclearcraft:solid_fission_sink:14>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink:14>*1, [
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <nuclearcraft:part:14>, <ore:plateEmerald>],
+[<ore:plateEmerald>, <ore:plateEmerald>, <ore:plateEmerald>]]);
 
-//
-recipes.remove(<nuclearcraft:solid_fission_sink:>); 
-recipes.addShaped(<nuclearcraft:solid_fission_sink:>*1, [
-[<ore:plate>, <ore:plate>, <ore:plate>],
-[<ore:plate>, <nuclearcraft:part:14>, <ore:plate>],
-[<ore:plate>, <ore:plate>, <ore:plate>]]);
+//Copper
+recipes.remove(<nuclearcraft:solid_fission_sink:15>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink:15>*1, [
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+[<ore:plateCopper>, <nuclearcraft:part:14>, <ore:plateCopper>],
+[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+
+//Tin
+recipes.remove(<nuclearcraft:solid_fission_sink2:0>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:0>*1, [
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>],
+[<ore:plateTin>, <nuclearcraft:part:14>, <ore:plateTin>],
+[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+
+//Lead
+recipes.remove(<nuclearcraft:solid_fission_sink2:1>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:1>*1, [
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>],
+[<ore:plateLead>, <nuclearcraft:part:14>, <ore:plateLead>],
+[<ore:plateLead>, <ore:plateLead>, <ore:plateLead>]]);
+
+//Boron
+recipes.remove(<nuclearcraft:solid_fission_sink2:2>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:2>*1, [
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>],
+[<ore:plateBoron>, <nuclearcraft:part:14>, <ore:plateBoron>],
+[<ore:plateBoron>, <ore:plateBoron>, <ore:plateBoron>]]);
+
+//Lithium
+recipes.remove(<nuclearcraft:solid_fission_sink2:3>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:3>*1, [
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>],
+[<ore:plateLithium>, <nuclearcraft:part:14>, <ore:plateLithium>],
+[<ore:plateLithium>, <ore:plateLithium>, <ore:plateLithium>]]);
+
+//Magnesium
+recipes.remove(<nuclearcraft:solid_fission_sink2:4>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:4>*1, [
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <nuclearcraft:part:14>, <ore:plateMagnesium>],
+[<ore:plateMagnesium>, <ore:plateMagnesium>, <ore:plateMagnesium>]]);
+
+//Manganese
+recipes.remove(<nuclearcraft:solid_fission_sink2:5>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:5>*1, [
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <nuclearcraft:part:14>, <ore:plateMangenese>],
+[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+
+//Aluminium
+<nuclearcraft:solid_fission_sink2:6>.displayName="Aluminium Heat Sink";
+recipes.remove(<nuclearcraft:solid_fission_sink2:6>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:6>*1, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <nuclearcraft:part:14>, <ore:plateAluminium>],
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>]]);
+
+//Silver
+recipes.remove(<nuclearcraft:solid_fission_sink2:7>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:7>*1, [
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>],
+[<ore:plateSilver>, <nuclearcraft:part:14>, <ore:plateSilver>],
+[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+
+//Fluorite
+recipes.remove(<nuclearcraft:solid_fission_sink2:8>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:8>*1, [
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <nuclearcraft:part:14>, <ore:plateFluorite>],
+[<ore:plateFluorite>, <ore:plateFluorite>, <ore:plateFluorite>]]);
+
+//Villiaumite
+recipes.remove(<nuclearcraft:solid_fission_sink2:9>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:9>*1, [
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <nuclearcraft:part:14>, <ore:plateVilliaumite>],
+[<ore:plateVilliaumite>, <ore:plateVilliaumite>, <ore:plateVilliaumite>]]);
+
+//Carobbiite
+recipes.remove(<nuclearcraft:solid_fission_sink2:10>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:10>*1, [
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <nuclearcraft:part:14>, <ore:plateCarobbite>],
+[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+
+//Arsenic
+recipes.remove(<nuclearcraft:solid_fission_sink2:11>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:11>*1, [
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <nuclearcraft:part:14>, <ore:plateGalliumArsenide>],
+[<ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>, <ore:plateGalliumArsenide>]]);
+
+//Liquid Nitrogen
+recipes.remove(<nuclearcraft:solid_fission_sink2:12>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Liquid Helium
+recipes.remove(<nuclearcraft:solid_fission_sink2:13>); 
+#Recipes in ImEng Material Processing.zs Bottling Plant
+
+//Enderium
+recipes.remove(<nuclearcraft:solid_fission_sink2:14>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:14>*1, [
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <nuclearcraft:part:14>, <ore:plateEnderium>],
+[<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
+
+//Cryotheum
+recipes.remove(<nuclearcraft:solid_fission_sink2:15>); 
+recipes.addShaped(<nuclearcraft:solid_fission_sink2:15>*1, [
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <nuclearcraft:part:14>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>]]);
 
 #--Shield Manager-- 
 recipes.remove(<nuclearcraft:fission_shield_manager>); 
