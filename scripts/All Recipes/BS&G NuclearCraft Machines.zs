@@ -165,9 +165,14 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink:2>*1, [
 //Quartz
 recipes.remove(<nuclearcraft:solid_fission_sink:3>); 
 recipes.addShaped(<nuclearcraft:solid_fission_sink:3>*1, [
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <nuclearcraft:part:14>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>]]);
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <nuclearcraft:part:14>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>]]);
+
+recipes.addShaped(<nuclearcraft:solid_fission_sink:3>*1, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <nuclearcraft:part:14>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>]]);
 
 //Obsidian
 recipes.remove(<nuclearcraft:solid_fission_sink:4>); 
@@ -291,9 +296,9 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink2:4>*1, [
 //Manganese
 recipes.remove(<nuclearcraft:solid_fission_sink2:5>); 
 recipes.addShaped(<nuclearcraft:solid_fission_sink2:5>*1, [
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <nuclearcraft:part:14>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>],
+[<ore:plateManganese>, <nuclearcraft:part:14>, <ore:plateManganese>],
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>]]);
 
 //Aluminium
 <nuclearcraft:solid_fission_sink2:6>.displayName="Aluminium Heat Sink";
@@ -424,9 +429,14 @@ recipes.addShaped(<nuclearcraft:fission_heater_port:2>*1, [
 //Quartz
 recipes.remove(<nuclearcraft:fission_heater_port:3>); 
 recipes.addShaped(<nuclearcraft:fission_heater_port:3>*1, [
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <nuclearcraft:fission_heater_port>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>]]);
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <nuclearcraft:fission_heater_port>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>]]);
+
+recipes.addShaped(<nuclearcraft:fission_heater_port:3>*1, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <nuclearcraft:fission_heater_port>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>]]);
 
 //Obsidian
 recipes.remove(<nuclearcraft:fission_heater_port:4>); 
@@ -550,9 +560,9 @@ recipes.addShaped(<nuclearcraft:fission_heater_port2:4>*1, [
 //Manganese
 recipes.remove(<nuclearcraft:fission_heater_port2:5>); 
 recipes.addShaped(<nuclearcraft:fission_heater_port2:5>*1, [
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <nuclearcraft:fission_heater_port>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>],
+[<ore:plateManganese>, <nuclearcraft:fission_heater_port>, <ore:plateManganese>],
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>]]);
 
 //Aluminium
 <nuclearcraft:fission_heater_port2:6>.displayName="Aluminium Fission Coolant Heater Port";
@@ -636,9 +646,14 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater:2>*1, [
 //Quartz
 recipes.remove(<nuclearcraft:salt_fission_heater:3>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater:3>*1, [
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <nuclearcraft:salt_fission_heater>, <ore:plateQuartz>],
-[<ore:plateQuartz>, <ore:plateQuartz>, <ore:plateQuartz>]]);
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <nuclearcraft:salt_fission_heater>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>]]);
+
+recipes.addShaped(<nuclearcraft:salt_fission_heater:3>*1, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <nuclearcraft:salt_fission_heater>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:plateCertusQuartz>]]);
 
 //Obsidian
 recipes.remove(<nuclearcraft:salt_fission_heater:4>); 
@@ -762,9 +777,9 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater2:4>*1, [
 //Manganese
 recipes.remove(<nuclearcraft:salt_fission_heater2:5>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater2:5>*1, [
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <nuclearcraft:salt_fission_heater>, <ore:plateMangenese>],
-[<ore:plateMangenese>, <ore:plateMangenese>, <ore:plateMangenese>]]);
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>],
+[<ore:plateManganese>, <nuclearcraft:salt_fission_heater>, <ore:plateManganese>],
+[<ore:plateManganese>, <ore:plateManganese>, <ore:plateManganese>]]);
 
 //Aluminium
 <nuclearcraft:salt_fission_heater2:6>.displayName="Aluminium Fission Coolant Heater Port";
@@ -798,9 +813,9 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater2:9>*1, [
 //Carobbiite
 recipes.remove(<nuclearcraft:salt_fission_heater2:10>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater2:10>*1, [
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <nuclearcraft:salt_fission_heater>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <nuclearcraft:salt_fission_heater>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>]]);
 
 //Arsenic
 recipes.remove(<nuclearcraft:salt_fission_heater2:11>); 

@@ -11,4 +11,11 @@ import mods.contenttweaker.Commands;
 var PlateBoron = VanillaFactory.createItem("plateboron");
 PlateBoron.register();
 
+var PlateCryotheum = VanillaFactory.createItem("platecryotheum");
+PlateCryotheum.register();
 
+var PlatePurpur = VanillaFactory.createItem("platepurpur");
+PlatePurpur.register();
+
+var PlateSlime = VanillaFactory.createItem("plateslime");
+PlateSlime.register();

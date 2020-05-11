@@ -64,6 +64,9 @@ chrome.addFlags(["GENERATE_ORE"]);
 var cupronickel = <material:cupronickel>;
 cupronickel.addFlags(["GENERATE_RING"]);
 
+var endstone = <material:endstone>;
+endstone.addFlags(["GENERATE_PLATE"]);
+
 var electrum = <material:electrum>;
 electrum.addFlags(["GENERATE_RING"]);
 
@@ -86,16 +89,19 @@ var lead = <material:lead>;
 lead.addFlags(["GENERATE_RING"]);
 
 val magnesium = <material:magnesium>;
-magnesium.addFlags(["GENERATE_ORE"]);
+magnesium.addFlags(["GENERATE_ORE", "GENERATE_PLATE"]);
 
 val manganese = <material:manganese>;
-manganese.addFlags(["GENERATE_ORE"]);
+manganese.addFlags(["GENERATE_ORE", "GENERATE_PLATE"]);
 
 var naquadria = <material:naquadria>;
 naquadria.addFlags(["GENERATE_ORE"]);
 
 val nickel = <material:nickel>;
 nickel.addFlags(["GENERATE_ROD", "GENERATE_RING"]);
+
+val obsidian = <material:obsidian>;
+obsidian.addFlags(["GENERATE_PLATE"]);
 
 var phosphorus = <material:phosphorus>;
 phosphorus.addFlags(["GENERATE_ORE"]);
@@ -677,4 +683,15 @@ dustOmotholbasalt.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
 #Darkstone
 val dustDarkstone = MaterialRegistry.createDustMaterial(748, "darkstone", 0x050505, "dull", 1, [<material:silicon_dioxide>*5, <material:cassiterite>*2,<material:potassium_feldspar>*3, <material:mica>*4, <material:galena>*1]);
+
+#Nuclearcraft Materials
+val gemFluorite = MaterialRegistry.createGemMaterial(760, "fluorite", 0x338845, "shiny", 1, [<material:calcium>*1, <material:fluorine>*2]);
+gemFluorite.addFlags("GENERATE_PLATE");
+
+val gemVilliaumite = MaterialRegistry.createGemMaterial(761, "villiaumite", 0x335588, "shiny", 1, [<material:sodium>*1, <material:fluorine>*1]);
+gemVilliaumite.addFlags("GENERATE_PLATE");
+
+val gemCarobbiite = MaterialRegistry.createGemMaterial(762, "carobbiite", 0x666633, "shiny", 1, [<material:potassium>*1, <material:fluorine>*1]);
+gemCarobbiite.addFlags("GENERATE_PLATE");
+
 
