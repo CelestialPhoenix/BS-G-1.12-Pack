@@ -925,6 +925,8 @@ item.contenttweaker.dusttungsten.name=Tungsten Dust
 item.contenttweaker.dusttungstencarbide.name=TungstenCarbide Dust
 item.contenttweaker.dusttungstensteel.name=Tungstensteel Dust
 item.contenttweaker.dustzinc.name=Zinc Dust
+item.contenttweaker.dustpurpur.name=Xenolithic-Purpurite Dust
+item.contenttweaker.dustslime.name=Dessicated Slime Dust
 
 item.contenttweaker.dustsmallaluminium.name=Small Pile of Aluminium Dust
 item.contenttweaker.dustsmallbronze.name=Small Pile of Bronze Dust
@@ -1069,6 +1071,9 @@ item.contenttweaker.platetungstensteel.name=Tungstensteel Plate
 item.contenttweaker.plateuranium.name=Uranium Plate
 item.contenttweaker.platewood.name=Wooden Plate
 item.contenttweaker.plateboron.name=Boron Plate
+item.contenttweaker.platecryotheum.name=Cryotheum Plate
+item.contenttweaker.platepurpur.name=Purpur Plate
+item.contenttweaker.plateslime.name=Slime Plate
 
 item.contenttweaker.plateheavyaluminium.name=Heavy Aluminium Plate
 item.contenttweaker.plateheavychrome.name=Heavy Chrome Plate

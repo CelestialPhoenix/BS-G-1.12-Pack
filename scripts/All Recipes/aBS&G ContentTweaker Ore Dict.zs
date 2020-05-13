@@ -182,7 +182,8 @@ print("Tweak Tweak Tweak Tweak");
 <ore:coilReactanceElite>.add(<contenttweaker:coilreactanceenhanced>);
 
 #---Dust---
-#<ore:dust>.add(<contenttweaker:dust>);
+<ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
+<ore:dustSlime>.add(<contenttweaker:dustslime>);
 
 #--Elements---
 <ore:elementCopper>.add(<contenttweaker:elementcopper>);
