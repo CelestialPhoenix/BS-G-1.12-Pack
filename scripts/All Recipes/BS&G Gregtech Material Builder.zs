@@ -685,13 +685,13 @@ dustOmotholbasalt.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 val dustDarkstone = MaterialRegistry.createDustMaterial(748, "darkstone", 0x050505, "dull", 1, [<material:silicon_dioxide>*5, <material:cassiterite>*2,<material:potassium_feldspar>*3, <material:mica>*4, <material:galena>*1]);
 
 #Nuclearcraft Materials
-val gemFluorite = MaterialRegistry.createGemMaterial(760, "fluorite", 0x338845, "shiny", 1, [<material:calcium>*1, <material:fluorine>*2]);
+val gemFluorite = MaterialRegistry.createGemMaterial(760, "fluorite", 0x338845, "ruby", 1, [<material:calcium>*1, <material:fluorine>*2]);
 gemFluorite.addFlags("GENERATE_PLATE");
 
-val gemVilliaumite = MaterialRegistry.createGemMaterial(761, "villiaumite", 0x335588, "shiny", 1, [<material:sodium>*1, <material:fluorine>*1]);
+val gemVilliaumite = MaterialRegistry.createGemMaterial(761, "villiaumite", 0x335588, "ruby", 1, [<material:sodium>*1, <material:fluorine>*1]);
 gemVilliaumite.addFlags("GENERATE_PLATE");
 
-val gemCarobbiite = MaterialRegistry.createGemMaterial(762, "carobbiite", 0x666633, "shiny", 1, [<material:potassium>*1, <material:fluorine>*1]);
+val gemCarobbiite = MaterialRegistry.createGemMaterial(762, "carobbiite", 0x666633, "ruby", 1, [<material:potassium>*1, <material:fluorine>*1]);
 gemCarobbiite.addFlags("GENERATE_PLATE");
 
 
