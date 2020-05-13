@@ -224,6 +224,7 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink:10>*1, [
 [<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
 
 //Endstone
+<nuclearcraft:solid_fission_sink:11>.displayName="Xenolith Heat Sink";
 recipes.remove(<nuclearcraft:solid_fission_sink:11>); 
 recipes.addShaped(<nuclearcraft:solid_fission_sink:11>*1, [
 [<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>],
@@ -488,6 +489,7 @@ recipes.addShaped(<nuclearcraft:fission_heater_port:10>*1, [
 [<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
 
 //Endstone
+<nuclearcraft:fission_heater_port:11>.displayName="Xenolith Fission Coolant Heater Port";
 recipes.remove(<nuclearcraft:fission_heater_port:11>); 
 recipes.addShaped(<nuclearcraft:fission_heater_port:11>*1, [
 [<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>],
@@ -622,6 +624,13 @@ recipes.addShaped(<nuclearcraft:fission_heater_port2:14>*1, [
 [<ore:plateEnderium>, <nuclearcraft:fission_heater_port>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
 
+//Cryotheum
+recipes.remove(<nuclearcraft:fission_heater_port2:15>); 
+recipes.addShaped(<nuclearcraft:fission_heater_port2:15>*1, [
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <nuclearcraft:fission_heater_port>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>]]);
+
 #Molten Salt Heat Sinks
 recipes.remove(<nuclearcraft:salt_fission_heater>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater>, [
@@ -705,6 +714,7 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater:10>*1, [
 [<ore:plateSlime>, <ore:plateSlime>, <ore:plateSlime>]]);
 
 //Endstone
+<nuclearcraft:salt_fission_heater:11>.displayName="Xenolith Fission Coolant Heater";
 recipes.remove(<nuclearcraft:salt_fission_heater:11>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater:11>*1, [
 [<ore:plateEndstone>, <ore:plateEndstone>, <ore:plateEndstone>],
@@ -838,6 +848,13 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater2:14>*1, [
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <nuclearcraft:salt_fission_heater>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
+
+//Cryotheum
+recipes.remove(<nuclearcraft:salt_fission_heater2:14>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:14>*1, [
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <nuclearcraft:salt_fission_heater>, <ore:plateCryotheum>],
+[<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>]]);
 
 #--Heater Exchanger-- (currently broken)
 
