@@ -89,6 +89,15 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#Purpur-Xenolith stuff
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustEndstone>.firstItem*4, <ore:dustClay>.firstItem*1, <minecraft:chorus_fruit_popped>*8)
+    .outputs(<ore:dustPurpur>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #-Botania-
 #Floral Fertalizer
 mixer

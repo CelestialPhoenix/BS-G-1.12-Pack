@@ -271,6 +271,24 @@ compressor
     .buildAndRegister();
 
 #--Plates--
+#Contenttweaker
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustSlime>*3)
+    .outputs(<ore:plateSlime>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustPurpur>*3)
+    .outputs(<ore:platePurpur>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+#Gtech
 compressor.findRecipe(480, [<ore:dustStone>.firstItem*1], [null]).remove();
 compressor
     .recipeBuilder()
@@ -279,6 +297,7 @@ compressor
     .duration(400)
     .EUt(4)
     .buildAndRegister();
+
 compressor.findRecipe(480, [<ore:dustRedstone>.firstItem*1], [null]).remove();
 compressor
     .recipeBuilder()

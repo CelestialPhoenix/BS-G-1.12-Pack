@@ -31,6 +31,7 @@ centrifuge
     .EUt(80)
     .buildAndRegister();
 
+#Holystone
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustHolystone>.firstItem*1)
@@ -40,6 +41,16 @@ centrifuge
     .chancedOutput(<ore:dustTinyTetrahedrite>.firstItem*1, 800, 200)
     .duration(488)
     .EUt(20)
+    .buildAndRegister();
+
+#Slime
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:slimeball>.firstItem*5)
+    .outputs(<ore:dustSlime>.firstItem*2)
+	.fluidOutputs([<liquid:water>*50, <liquid:methane>*4])
+    .duration(100)
+    .EUt(5)
     .buildAndRegister();
 
 #--Abyssalcraft--
