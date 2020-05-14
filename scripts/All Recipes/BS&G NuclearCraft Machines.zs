@@ -68,8 +68,13 @@ recipes.addShaped(<nuclearcraft:fission_reflector:1>*2, [
 
 #Reactor Power Port
 <nuclearcraft:fission_power_port>.addTooltip("Recipe Needed");
+
 #Reactor Vent
-<nuclearcraft:fission_vent>.addTooltip("Recipe Needed");
+recipes.remove(<nuclearcraft:fission_vent>); 
+recipes.addShaped(<nuclearcraft:fission_vent>, [
+[<ore:motorEV>, <ore:rotorTitanium>, <ore:barsIron>],
+[<ore:circuitElite>, <ore:hullHV>, <ore:barsIron>],
+[<ore:motorEV>, <ore:rotorTitanium>, <ore:barsIron>]]);
 
 #Irradiator
 recipes.remove(<nuclearcraft:fission_irradiator>); 
@@ -77,6 +82,13 @@ recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
 [<ore:barsIron>, null, <ore:barsIron>],
 [null, <ore:hullHV>, null],
 [<ore:barsIron>, null, <ore:barsIron>]]);
+
+#Fission Monitor
+recipes.remove(<nuclearcraft:fission_monitor>); 
+recipes.addShaped(<nuclearcraft:fission_monitor>, [
+[null, <ore:sensorEV>, null],
+[null, <ore:hullHV>, null],
+[null, <ore:circuitElite>, null]]);
 
 #Neutron Sources
 #Ra-Be
@@ -379,6 +391,13 @@ recipes.addShaped(<nuclearcraft:solid_fission_controller>, [
 [<ore:sensorEV>, <ore:emitterEV>, <ore:sensorEV>],
 [<ore:platingAdvanced>, <ore:motorEV>, <ore:platingAdvanced>],
 [<ore:circuitExtreme>, <ore:hullHV>, <ore:circuitExtreme>]]);
+
+#--Fuel Cell-- (Solid)
+recipes.remove(<nuclearcraft:solid_fission_cell>); 
+recipes.addShaped(<nuclearcraft:solid_fission_cell>, [
+[<ore:plateAdvancedAlloy>, <ore:pipeMediumStainlessSteel>, <ore:plateAdvancedAlloy>],
+[<ore:platingAdvanced>, <ore:hullHV>, <ore:platingAdvanced>],
+[<ore:plateAdvancedAlloy>, <ore:pipeMediumStainlessSteel>, <ore:plateAdvancedAlloy>]]);
 
 #--Fission Reactor (Molten Salt)--
 
@@ -850,8 +869,8 @@ recipes.addShaped(<nuclearcraft:salt_fission_heater2:14>*1, [
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>]]);
 
 //Cryotheum
-recipes.remove(<nuclearcraft:salt_fission_heater2:14>); 
-recipes.addShaped(<nuclearcraft:salt_fission_heater2:14>*1, [
+recipes.remove(<nuclearcraft:salt_fission_heater2:15>); 
+recipes.addShaped(<nuclearcraft:salt_fission_heater2:15>*1, [
 [<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>],
 [<ore:plateCryotheum>, <nuclearcraft:salt_fission_heater>, <ore:plateCryotheum>],
 [<ore:plateCryotheum>, <ore:plateCryotheum>, <ore:plateCryotheum>]]);
