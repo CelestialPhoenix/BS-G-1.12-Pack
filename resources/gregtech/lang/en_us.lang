@@ -151,6 +151,11 @@ material.omothol_marble=Omothol Marble
 material.omothol_basalt=Omothol Basalt
 material.darkstone=Darkstone
 
+//-Nuclearcraft Materials-//
+material.flourite=Flourite
+material.villiaumite=Villiaumite
+material.carobbiite=Carobbiite
+
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
 material.cooperite=Cooperite
