@@ -258,6 +258,43 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
+#-NC Materials-
+#Flourite
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSmallCalcium>.firstItem*2)
+	.fluidInputs([<liquid:fluorine> * 1000])
+	.chancedOutput(<ore:gemFlourite>.firstItem, 7500, 5)
+	.chancedOutput(<ore:dustFlourite>.firstItem, 7500, 5)
+	.property("temperature", 2400)
+    .duration(1200)
+    .EUt(250)
+    .buildAndRegister();
+
+#Villiaumite
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSmallSodium>.firstItem*2)
+	.fluidInputs([<liquid:fluorine> * 500])
+	.chancedOutput(<ore:gemVilliaumite>.firstItem, 5000, 5)
+	.chancedOutput(<ore:dustVilliaumite>.firstItem, 5000, 5)
+	.property("temperature", 2400)
+    .duration(1200)
+    .EUt(250)
+    .buildAndRegister();
+
+#Carobbiite
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSmallPotassium>.firstItem*2)
+	.fluidInputs([<liquid:fluorine> * 500])
+	.chancedOutput(<ore:gemCarobbiite>.firstItem, 5000, 5)
+	.chancedOutput(<ore:dustCarobbiite>.firstItem, 5000, 5)
+	.property("temperature", 2400)
+    .duration(1200)
+    .EUt(250)
+    .buildAndRegister();
+
 #SicSicCMC
 electricBF
     .recipeBuilder()
