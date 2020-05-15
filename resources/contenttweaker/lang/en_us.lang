@@ -1073,7 +1073,8 @@ item.contenttweaker.platewood.name=Wooden Plate
 item.contenttweaker.plateboron.name=Boron Plate
 item.contenttweaker.platecryotheum.name=Cryotheum Plate
 item.contenttweaker.platepurpur.name=Xenolithic-Purpurite Plate
-item.contenttweaker.plateslime.name=Slime Plate
+item.contenttweaker.plateslime.name=Desiccated Slime Plate
+item.contenttweaker.platethermoelectric.name=Thermoelectric Plating
 
 item.contenttweaker.plateheavyaluminium.name=Heavy Aluminium Plate
 item.contenttweaker.plateheavychrome.name=Heavy Chrome Plate

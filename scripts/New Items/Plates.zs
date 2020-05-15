@@ -19,3 +19,6 @@ PlatePurpur.register();
 
 var PlateSlime = VanillaFactory.createItem("plateslime");
 PlateSlime.register();
+
+var PlateThermoElectric = VanillaFactory.createItem("platethermoelectric");
+PlateThermoElectric.register();

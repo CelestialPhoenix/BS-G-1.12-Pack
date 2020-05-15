@@ -193,6 +193,13 @@ RollingMachine.addShaped(boltMetal*2, [
 [null, null, null]], 200);
 }
 
+#--ContentTweaker--
+#ThermoElectric Plating
+RollingMachine.addShaped(<ore:plateThermoElectric>.firstItem*3, [
+[<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
+[<ore:plateElectrum>, <ore:plateBlueAlloy>, <ore:plateElectrum>],
+[<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]], 200);
+
 #--Fences--
 #This awesome looping script was modified from FTB interactions
 var fenceMaterials as string[] = [
@@ -356,7 +363,7 @@ RollingMachine.addShaped(<nuclearcraft:part:0>*2, [
 #Advanced
 RollingMachine.addShaped(<nuclearcraft:part:1>*2, [
 [<ore:plateBeryllium>, <ore:plateGraphite>, <ore:plateBeryllium>],
-[<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:[plateAdvancedAlloy>],
+[<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
 [<ore:plateStainlessSteel>, <ore:plateGraphite>, <ore:plateStainlessSteel>]], 200);
 #DU
 RollingMachine.addShaped(<nuclearcraft:part:2>*1, [

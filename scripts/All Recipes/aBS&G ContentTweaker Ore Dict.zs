@@ -560,6 +560,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:plateCryotheum>.add(<contenttweaker:platecryotheum>);
 <ore:plateSlime>.add(<contenttweaker:plateslime>);
 <ore:platePurpur>.add(<contenttweaker:platepurpur>);
+<ore:plateThermoElectric>.add(<contenttweaker:platethermoelectric>);
 
 /*
 #---PlateHeavy---

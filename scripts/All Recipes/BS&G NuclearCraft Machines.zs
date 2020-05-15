@@ -24,6 +24,124 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 
 #--Machines--
 //recipes needed
+#Solar panels removed later in 'no free stuff'
+
+#Nuclear Furnace
+recipes.remove(<nuclearcraft:nuclear_furnace>); 
+recipes.addShaped(<nuclearcraft:nuclear_furnace>, [
+[<ore:platingBasic>, <ore:shieldingLight>, <ore:platingBasic>],
+[<ore:shieldingLight>, <ore:hullHV>, <ore:shieldingLight],
+[<ore:platingBasic>, <ore:shieldingLight>, <ore:platingBasic>]]);
+
+#Manufactory
+//To be removed or reworked
+
+#Seperator
+//To be removed
+
+#Decay Hastener
+recipes.remove(<nuclearcraft:decay_hastener>); 
+recipes.addShaped(<nuclearcraft:decay_hastener>, [
+[<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>],
+[<ore:shieldingHeavy>, <ore:hullHV>, <ore:shieldingHeavy],
+[<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>]]);
+//Check ore dicts
+
+#Fuel Reprocessor
+recipes.remove(<nuclearcraft:fuel_reprocessor>); 
+recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [
+[<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>],
+[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:robotarmEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
+[<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>]]);
+
+#Alloy Furnace
+//To be removed
+
+#Fluid Infuser
+//To be removed
+
+#Melter
+//To be removed
+
+#Supercooler
+//To be removed
+
+#Electrolyzer
+//To be removed
+
+#Assembler
+//Rework into 'Solid Fuel Packager'
+
+#Ingot Former
+//To be removed
+
+#Pressurizer
+//To be removed
+
+#Chemical Reactor
+//To be removed
+
+#Salt Mixer
+//To be removed
+
+#Crystallizer
+//To be removed
+
+#Fluid Enricher
+//To be removed
+//----Move to ImEng Mixing plant or Gtech mixer
+
+#Fluid Extractor
+//To be removed
+
+#Centrifuge
+//To be removed
+
+#Rock Crusher
+//To be removed
+
+#Machine Interface
+recipes.remove(<nuclearcraft:machine_interface>); 
+recipes.addShaped(<nuclearcraft:machine_interface>, [
+[<ore:robotarmHV>, <ore:circuitAdvanced>, <ore:robotarmHV>],
+[<ore:ringStainlessSteel>, <ore:hullHV>, <ore:ringStainlessSteel>],
+[<ore:motorHV>, <ore:circuitAdvanced>, <ore:motorHV>]]);
+
+#-RTGs-
+//Uranium
+recipes.remove(<nuclearcraft:rtg_uranium>); 
+recipes.addShaped(<nuclearcraft:rtg_uranium>, [
+[<ore:shieldingMedium>, <ore:circuitAdvanced>, <ore:shieldingMedium>],
+[<ore:ingotUranium238All>, <nuclearcraft:decay_generator>, <ore:ingotUranium238All>],
+[<ore:shieldingMedium>, <ore:blockUranium238>, <ore:shieldingMedium>]]);
+
+//Plutonium
+recipes.remove(<nuclearcraft:rtg_plutonium>); 
+recipes.addShaped(<nuclearcraft:rtg_plutonium>, [
+[<ore:shieldingMedium>, <ore:circuitAdvanced>, <ore:shieldingMedium>],
+[<ore:ingotPlutonium238All>, <nuclearcraft:decay_generator>, <ore:ingotPlutonium238All>],
+[<ore:shieldingMedium>, <ore:ingotPlutonium238All>, <ore:shieldingMedium>]]);
+
+//Americium
+recipes.remove(<nuclearcraft:rtg_americium>); 
+recipes.addShaped(<nuclearcraft:rtg_americium>, [
+[<ore:shieldingHeavy>, <ore:circuitExtreme>, <ore:shieldingHeavy>],
+[<ore:ingotAmericium241All>, <nuclearcraft:decay_generator>, <ore:ingotAmericium241All>],
+[<ore:shieldingHeavy>, <ore:ingotAmericium241All>, <ore:shieldingHeavy>]]);
+
+//Californium
+recipes.remove(<nuclearcraft:rtg_californium>); 
+recipes.addShaped(<nuclearcraft:rtg_californium>, [
+[<ore:shieldingHeavy>, <ore:circuitElite>, <ore:shieldingHeavy>],
+[<ore:ingotCalifornium250All>, <nuclearcraft:decay_generator>, <ore:ingotCalifornium250All>],
+[<ore:shieldingHeavy>, <ore:ingotCalifornium250All>, <ore:shieldingHeavy>]]);
+
+#Decay Generator
+recipes.remove(<nuclearcraft:decay_generator>); 
+recipes.addShaped(<nuclearcraft:decay_generator>, [
+[<ore:plateThermoElectric>, <ore:circuitAdvanced>, <ore:plateThermoElectric>],
+[<ore:shieldingLight>, <ore:hullHV>, <ore:shieldingLight>],
+[<ore:plateThermoElectric>, <ore:shieldingLight>, <ore:plateThermoElectric>]]);
 
 #--Fission Reactor Components (solid fuel)--
 #Casing (solid)
