@@ -274,6 +274,14 @@ compressor
 #Contenttweaker
 compressor
     .recipeBuilder()
+    .inputs(<ore:dustCryotheum>*3)
+    .outputs(<ore:plateCryotheum>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
     .inputs(<ore:dustSlime>*3)
     .outputs(<ore:plateSlime>.firstItem*2)
     .duration(400)
@@ -488,6 +496,31 @@ compressor
     .recipeBuilder()
     .inputs(<ore:dustVinteum>*3)
     .outputs(<ore:plateVinteum>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+#Nuclearcraft
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustFluorite>*3)
+    .outputs(<ore:plateFluorite>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustVilliaumite>*3)
+    .outputs(<ore:plateVilliaumite>.firstItem*2)
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustCarobbiite>*3)
+    .outputs(<ore:plateCarobbiite>.firstItem*2)
     .duration(400)
     .EUt(4)
     .buildAndRegister();
