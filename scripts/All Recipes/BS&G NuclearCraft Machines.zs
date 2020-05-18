@@ -4,6 +4,7 @@
 print("Green Glowey Energy");
 
 #--Battery Blocks-- 
+/*
 recipes.remove(<nuclearcraft:voltaic_pile_basic>);
 <nuclearcraft:voltaic_pile_basic>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:voltaic_pile_advanced>);
@@ -21,7 +22,7 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_du>);
 <nuclearcraft:lithium_ion_battery_du>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 <nuclearcraft:lithium_ion_battery_elite>.addTooltip("This item is disabled");
-
+*/
 #--Machines--
 //recipes needed
 #Solar panels removed later in 'no free stuff'
@@ -30,22 +31,23 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_elite>);
 recipes.remove(<nuclearcraft:nuclear_furnace>); 
 recipes.addShaped(<nuclearcraft:nuclear_furnace>, [
 [<ore:platingBasic>, <ore:shieldingLight>, <ore:platingBasic>],
-[<ore:shieldingLight>, <ore:hullHV>, <ore:shieldingLight],
+[<ore:shieldingLight>, <ore:hullHV>, <ore:shieldingLight>],
 [<ore:platingBasic>, <ore:shieldingLight>, <ore:platingBasic>]]);
 
 #Manufactory
 //To be removed or reworked
+//Item in Item out
 
 #Seperator
 //To be removed
+//Item ib 2 Item out
 
 #Decay Hastener
 recipes.remove(<nuclearcraft:decay_hastener>); 
 recipes.addShaped(<nuclearcraft:decay_hastener>, [
 [<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>],
-[<ore:shieldingHeavy>, <ore:hullHV>, <ore:shieldingHeavy],
+[<ore:shieldingHeavy>, <ore:hullHV>, <ore:shieldingHeavy>],
 [<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>]]);
-//Check ore dicts
 
 #Fuel Reprocessor
 recipes.remove(<nuclearcraft:fuel_reprocessor>); 
@@ -56,49 +58,68 @@ recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [
 
 #Alloy Furnace
 //To be removed
+//2 Item in Item out
 
 #Fluid Infuser
 //To be removed
+//Item in Fluid in Item out
 
 #Melter
 //To be removed
+//Item in fluid out
 
 #Supercooler
 //To be removed
+//Fluid in fluid out
 
 #Electrolyzer
 //To be removed
+//Fluid in 4 fluids out
 
 #Assembler
 //Rework into 'Solid Fuel Packager'
+recipes.remove(<nuclearcraft:assembler>); 
+recipes.addShaped(<nuclearcraft:assembler>, [
+[<ore:platingAdvanced>, <ore:circuitElite>, <ore:platingAdvanced>],
+[<ore:robotarmEV>, <meta_tile_entity:gregtech:assembler.ev>, <ore:robotarmEV>],
+[<ore:platingAdvanced>, <ore:circuitElite>, <ore:platingAdvanced>]]);
 
 #Ingot Former
 //To be removed
+//Fluid in Item out
 
 #Pressurizer
 //To be removed
+//Item in Item out
 
 #Chemical Reactor
 //To be removed
+//2 Fluid in 2 Fluid out
 
 #Salt Mixer
 //To be removed
+//2 Fluid in 1 out
 
 #Crystallizer
 //To be removed
+//Fluid in Item out
 
 #Fluid Enricher
 //To be removed
+//Item in Fluid in Fluid out
 //----Move to ImEng Mixing plant or Gtech mixer
 
 #Fluid Extractor
 //To be removed
+//Item in Item out Fluid out
 
 #Centrifuge
 //To be removed
+//Fluid in 4 Fluid out
 
 #Rock Crusher
 //To be removed
+//Item in 3 Item out
 
 #Machine Interface
 recipes.remove(<nuclearcraft:machine_interface>); 
@@ -113,7 +134,7 @@ recipes.remove(<nuclearcraft:rtg_uranium>);
 recipes.addShaped(<nuclearcraft:rtg_uranium>, [
 [<ore:shieldingMedium>, <ore:circuitAdvanced>, <ore:shieldingMedium>],
 [<ore:ingotUranium238All>, <nuclearcraft:decay_generator>, <ore:ingotUranium238All>],
-[<ore:shieldingMedium>, <ore:blockUranium238>, <ore:shieldingMedium>]]);
+[<ore:shieldingMedium>, <ore:ingotUranium238All>, <ore:shieldingMedium>]]);
 
 //Plutonium
 recipes.remove(<nuclearcraft:rtg_plutonium>); 
@@ -1024,16 +1045,10 @@ recipes.addShaped(<nuclearcraft:turbine_rotor_shaft>, [
 
 #Turbine Rotors
 //Recipes in the MM CNC Machine 
-
 recipes.remove(<nuclearcraft:turbine_rotor_blade_steel>);
 recipes.remove(<nuclearcraft:turbine_rotor_blade_extreme>);
 recipes.remove(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
 recipes.remove(<nuclearcraft:turbine_rotor_stator>);
-
-<nuclearcraft:turbine_rotor_blade_steel>.addTooltip("Recipe Needed");
-<nuclearcraft:turbine_rotor_blade_extreme>.addTooltip("Recipe Needed");
-<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>.addTooltip("Recipe Needed");
-<nuclearcraft:turbine_rotor_stator>.addTooltip("Recipe Needed");
 
 #Rotor Bearing (glass)
 recipes.remove(<nuclearcraft:turbine_rotor_bearing>); 
@@ -1043,6 +1058,7 @@ recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>*2, [
 [<ore:ringTitanium>, <ore:plateThickMagnalium>, <ore:ringTitanium>]]);
 
 #Turbine Coils
+<nuclearcraft:turbine_dynamo_coil:2>.displayName="Aluminium Turbine Dynamo Coil"; //Fix name
 recipes.remove(<nuclearcraft:turbine_dynamo_coil:*>);
 //Recipes in Gtech assembly machine.
 
@@ -1067,20 +1083,20 @@ recipes.addShaped(<nuclearcraft:turbine_outlet>, [
 //No free stuff for you :)
 
 #Cobble
-recipes.remove(<nuclearcraft:cobblestone_generator>);
+/*recipes.remove(<nuclearcraft:cobblestone_generator>);
 <nuclearcraft:cobblestone_generator>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:cobblestone_generator_compact>);
 <nuclearcraft:cobblestone_generator_compact>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:cobblestone_generator_dense>);
-<nuclearcraft:cobblestone_generator_dense>.addTooltip("This item is disabled");
+<nuclearcraft:cobblestone_generator_dense>.addTooltip("This item is disabled");*/
 
 #Nitrogen
-recipes.remove(<nuclearcraft:nitrogen_collector>);
+/*recipes.remove(<nuclearcraft:nitrogen_collector>);
 <nuclearcraft:nitrogen_collector>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:nitrogen_collector_compact>);
 <nuclearcraft:nitrogen_collector_compact>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:nitrogen_collector_dense>);
-<nuclearcraft:nitrogen_collector_dense>.addTooltip("This item is disabled");
+<nuclearcraft:nitrogen_collector_dense>.addTooltip("This item is disabled");*/
 
 #Solar
 recipes.remove(<nuclearcraft:solar_panel_basic>);
@@ -1109,3 +1125,4 @@ recipes.remove(<nuclearcraft:water_source_compact>);
 <nuclearcraft:water_source_compact>.addTooltip("This item is disabled");
 recipes.remove(<nuclearcraft:water_source_dense>);
 <nuclearcraft:water_source_dense>.addTooltip("This item is disabled");
+
