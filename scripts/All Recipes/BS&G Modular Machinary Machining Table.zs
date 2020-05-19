@@ -1086,7 +1086,7 @@ CNCBasicRotorSteel.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configurat
 CNCBasicRotorSteel.setChance(0);
 CNCBasicRotorSteel.addItemInput(<ore:blockTungstenSteel>);
 CNCBasicRotorSteel.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotorSteel.addItemOutput(<nuclearcraft:turbine_rotor_blade_steel>);
+CNCBasicRotorSteel.addItemOutput(<nuclearcraft:turbine_rotor_blade_steel>*2);
 CNCBasicRotorSteel.addItemOutput(<ore:dustTungstenSteel>, 4);
 CNCBasicRotorSteel.build();
 
@@ -1097,7 +1097,7 @@ CNCBasicRotorExtreme.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configur
 CNCBasicRotorExtreme.setChance(0);
 CNCBasicRotorExtreme.addItemInput(<ore:blockHsss>);
 CNCBasicRotorExtreme.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotorExtreme.addItemOutput(<nuclearcraft:turbine_rotor_blade_extreme>);
+CNCBasicRotorExtreme.addItemOutput(<nuclearcraft:turbine_rotor_blade_extreme>*2);
 CNCBasicRotorExtreme.addItemOutput(<ore:dustHsss>, 4);
 CNCBasicRotorExtreme.build();
 
@@ -1108,7 +1108,7 @@ CNCBasicRotorSiCSiC.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configura
 CNCBasicRotorSiCSiC.setChance(0);
 CNCBasicRotorSiCSiC.addItemInput(<ore:blockSiCSiCCMC>);
 CNCBasicRotorSiCSiC.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotorSiCSiC.addItemOutput(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>);
+CNCBasicRotorSiCSiC.addItemOutput(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*2);
 CNCBasicRotorSiCSiC.addItemOutput(<ore:dustSiliconCarbide>, 4);
 CNCBasicRotorSiCSiC.build();
 
@@ -1119,6 +1119,6 @@ CNCBasicRotorStator.addItemInput(<gregtech:meta_item_1:32766>.withTag({Configura
 CNCBasicRotorStator.setChance(0);
 CNCBasicRotorStator.addItemInput(<ore:blockStainlessSteel>);
 CNCBasicRotorStator.addFluidInput(<liquid:lubricant>*750);
-CNCBasicRotorStator.addItemOutput(<nuclearcraft:turbine_rotor_stator>);
+CNCBasicRotorStator.addItemOutput(<nuclearcraft:turbine_rotor_stator>*2);
 CNCBasicRotorStator.addItemOutput(<ore:dustStainlessSteel>, 4);
 CNCBasicRotorStator.build();

@@ -302,7 +302,7 @@ electricBF
 	.fluidInputs([<liquid:silicon> * 144])
     .outputs(<ore:ingotSiliconCarbide>.firstItem)
 	.property("temperature", 5000)
-    .duration(800)
+    .duration(3200)
     .EUt(500)
     .buildAndRegister();
 
@@ -312,7 +312,7 @@ electricBF
 	.fluidInputs([<liquid:pyrotheum> * 200])
     .outputs(<ore:ingotSiliconCarbide>.firstItem)
 	.property("temperature", 5000)
-    .duration(200)
+    .duration(800)
     .EUt(2000)
     .buildAndRegister();
 
@@ -321,7 +321,7 @@ electricBF
     .inputs(<ore:dustSiliconCarbide>.firstItem*1)
     .outputs(<ore:ingotSiliconCarbide>.firstItem)
 	.property("temperature", 5000)
-    .duration(800)
+    .duration(3200)
     .EUt(500)
     .buildAndRegister();
 
