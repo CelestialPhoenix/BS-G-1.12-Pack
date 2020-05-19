@@ -1,4 +1,5 @@
 #Name: Blood Sweat & Gears ContentTweaker Ore Dict.zs
+#Name: Blood Sweat & Gears ContentTweaker Ore Dict.zs
 #Author: PhoePhoe
 
 print("Tweak Tweak Tweak Tweak");
@@ -184,6 +185,7 @@ print("Tweak Tweak Tweak Tweak");
 #---Dust---
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
+<ore:dustSiliconCarbide>.add(<contenttweaker:dustsiliconcarbide>);
 
 #--Elements---
 <ore:elementCopper>.add(<contenttweaker:elementcopper>);

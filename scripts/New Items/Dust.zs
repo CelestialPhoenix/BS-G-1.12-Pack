@@ -11,6 +11,9 @@ import mods.contenttweaker.Commands;
 var dustSlime = VanillaFactory.createItem("dustslime");
 dustSlime.register();
 
+var dustSiliconCarbide = VanillaFactory.createItem("dustsiliconcarbide");
+dustSiliconCarbide.register();
+
 var dustPurpur = VanillaFactory.createItem("dustpurpur");
 dustPurpur.register();
 

@@ -264,7 +264,7 @@ tile.contenttweaker.darkstone.name=Darkstone
 
 tile.contenttweaker.nethersludgeblock.name=Infernal Clay
 
-tile.contenttweaker.block_sic_sic_cmc.name=SiC SiC CMC Block
+tile.contenttweaker.block_sic_sic_cmc.name=Block of Silicon Carbide
 
 tile.contenttweaker.blockrolledbronze.name= Bronze Sheetmetal
 tile.contenttweaker.blockrolledchrome.name=Chrome Sheetmetal
@@ -927,6 +927,7 @@ item.contenttweaker.dusttungstensteel.name=Tungstensteel Dust
 item.contenttweaker.dustzinc.name=Zinc Dust
 item.contenttweaker.dustpurpur.name=Xenolithic-Purpurite Dust
 item.contenttweaker.dustslime.name=Dessicated Slime Dust
+item.contenttweaker.dustsiliconcarbide.name=Silicon Carbide Dust
 
 item.contenttweaker.dustsmallaluminium.name=Small Pile of Aluminium Dust
 item.contenttweaker.dustsmallbronze.name=Small Pile of Bronze Dust
@@ -1075,6 +1076,7 @@ item.contenttweaker.platecryotheum.name=Cryotheum Plate
 item.contenttweaker.platepurpur.name=Xenolithic-Purpurite Plate
 item.contenttweaker.plateslime.name=Desiccated Slime Plate
 item.contenttweaker.platethermoelectric.name=Thermoelectric Plating
+item.contenttweaker.platesiliconcarbide.name=Silicon Carbide Plate
 
 item.contenttweaker.plateheavyaluminium.name=Heavy Aluminium Plate
 item.contenttweaker.plateheavychrome.name=Heavy Chrome Plate

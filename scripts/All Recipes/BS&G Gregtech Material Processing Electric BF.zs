@@ -295,15 +295,34 @@ electricBF
     .EUt(250)
     .buildAndRegister();
 
-#SicSicCMC
+#SicSicCMC/SiliconCarbide
 electricBF
     .recipeBuilder()
-    .inputs(<ore:dustClay>.firstItem*9, <ore:dustCarbon>.firstItem*9)
-	.fluidInputs([<liquid:silicon> * 1296])
-    .outputs(<ore:blockSiCSiCCMC>.firstItem)
+    .inputs(<ore:dustClay>.firstItem*1, <ore:dustCarbon>.firstItem*1)
+	.fluidInputs([<liquid:silicon> * 144])
+    .outputs(<ore:ingotSiliconCarbide>.firstItem)
 	.property("temperature", 5000)
-    .duration(1800)
+    .duration(800)
+    .EUt(500)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSiliconCarbide>.firstItem*1)
+	.fluidInputs([<liquid:pyrotheum> * 200])
+    .outputs(<ore:ingotSiliconCarbide>.firstItem)
+	.property("temperature", 5000)
+    .duration(200)
     .EUt(2000)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustSiliconCarbide>.firstItem*1)
+    .outputs(<ore:ingotSiliconCarbide>.firstItem)
+	.property("temperature", 5000)
+    .duration(800)
+    .EUt(500)
     .buildAndRegister();
 
 #---Dusts---

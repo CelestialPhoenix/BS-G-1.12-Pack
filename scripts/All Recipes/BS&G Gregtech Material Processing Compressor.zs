@@ -136,6 +136,15 @@ compressor
     .EUt(2)
     .buildAndRegister();
 
+#Nuclearcraft
+compressor
+    .recipeBuilder()
+    .inputs(<ore:ingotSiliconCarbide>.firstItem)
+    .outputs(<ore:blockSiCSiCCMC>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
 #Primal
 compressor
     .recipeBuilder()
