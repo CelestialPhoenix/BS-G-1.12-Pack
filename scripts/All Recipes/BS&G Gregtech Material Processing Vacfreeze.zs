@@ -22,6 +22,25 @@ vacuum_freezer
 #5mb/t Gelid Cyroetheum use
 #2x processing speed, 4x less energy
 
+#SicSic CMC
+vacuum_freezer.findRecipe(120, [<ore:ingotHotSiCSiCCMC>.firstItem], null).remove();
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotSiCSiCCMC>.firstItem)
+	.fluidInputs([<liquid:cryotheum> * 1000])
+    .outputs(<ore:ingotSiCSiCCMC>.firstItem)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotSiCSiCCMC>.firstItem)
+    .outputs(<ore:ingotSiCSiCCMC>.firstItem)
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
 #ingotLumium
 vacuum_freezer.findRecipe(120, [<ore:ingotHotLumium>.firstItem], null).remove();
 vacuum_freezer

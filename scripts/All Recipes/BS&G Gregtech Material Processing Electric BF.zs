@@ -301,7 +301,7 @@ electricBF
     .recipeBuilder()
     .inputs(<ore:dustSiCSiCCMC>.firstItem*1)
 	.fluidInputs([<liquid:pyrotheum> * 200])
-    .outputs(<ore:ingotSiliconCarbide>.firstItem)
+    .outputs(<ore:ingotHotSiliconCarbide>.firstItem)
 	.property("temperature", 4500)
     .duration(800)
     .EUt(2000)
@@ -310,7 +310,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustSiCSiCCMC>.firstItem*1)
-    .outputs(<ore:ingotSiliconCarbide>.firstItem)
+    .outputs(<ore:ingotHotSiliconCarbide>.firstItem)
 	.property("temperature", 4500)
     .duration(3200)
     .EUt(500)

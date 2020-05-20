@@ -156,9 +156,6 @@ print("Tweak Tweak Tweak Tweak");
 <ore:blockInfernalclay>.add(<contenttweaker:nethersludgeblock>);
 <ore:brickInfernal>.add(<contenttweaker:blastbrick>);
 
-#Ceramic Matrix
-<ore:blockSiCSiCCMC>.add(<contenttweaker:block_sic_sic_cmc>);
-
 #---Circuits---
 <ore:circuitElite>.add(<contenttweaker:corequantum>);
 
@@ -185,7 +182,6 @@ print("Tweak Tweak Tweak Tweak");
 #---Dust---
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
-<ore:dustSiliconCarbide>.add(<contenttweaker:dustsiliconcarbide>);
 
 #--Elements---
 <ore:elementCopper>.add(<contenttweaker:elementcopper>);

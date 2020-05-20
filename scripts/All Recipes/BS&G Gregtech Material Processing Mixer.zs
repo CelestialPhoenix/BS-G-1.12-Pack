@@ -537,6 +537,24 @@ mixer
     .EUt(8)
     .buildAndRegister();
 
+#--Nuclearcraft--
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilicon>.firstItem*1, <ore:dustClay>.firstItem*1)
+    .outputs(<ore:dustSiliconCarbide>.firstItem*2)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustCarbon>.firstItem*2, <ore:dustClay>.firstItem*4)
+	.fluidInputs([<liquid:silicon>*288])
+    .outputs(<ore:dustSiCSiCCMC>.firstItem*5)
+    .duration(200)
+    .EUt(8)
+    .buildAndRegister();
+
 #Gunpowder
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem], null).remove();
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem], null).remove();

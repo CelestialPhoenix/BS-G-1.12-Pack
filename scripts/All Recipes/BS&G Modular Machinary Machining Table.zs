@@ -1109,7 +1109,7 @@ CNCBasicRotorSiCSiC.setChance(0);
 CNCBasicRotorSiCSiC.addItemInput(<ore:blockSiCSiCCMC>);
 CNCBasicRotorSiCSiC.addFluidInput(<liquid:lubricant>*750);
 CNCBasicRotorSiCSiC.addItemOutput(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*2);
-CNCBasicRotorSiCSiC.addItemOutput(<ore:dustSiliconCarbide>, 4);
+CNCBasicRotorSiCSiC.addItemOutput(<ore:dustSiCSiCCMC>, 4);
 CNCBasicRotorSiCSiC.build();
 
 val CNCBasicRotorStator = mods.modularmachinery.RecipeBuilder.newBuilder("CNCBasicRotorStator", "cnc_basic", 600, 0);
