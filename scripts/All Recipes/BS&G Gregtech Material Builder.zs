@@ -688,10 +688,12 @@ val dustDarkstone = MaterialRegistry.createDustMaterial(748, "darkstone", 0x0505
 val gemFluorite = MaterialRegistry.createGemMaterial(760, "fluorite", 0x338845, "ruby", 1, [<material:calcium>*1, <material:fluorine>*2]);
 gemFluorite.addFlags("GENERATE_PLATE");
 
-val gemVilliaumite = MaterialRegistry.createGemMaterial(761, "villiaumite", 0x335588, "ruby", 1, [<material:sodium>*1, <material:fluorine>*1]);
+val gemVilliaumite = MaterialRegistry.createGemMaterial(761, "villiaumite", 0x886622, "ruby", 1, [<material:sodium>*1, <material:fluorine>*1]);
 gemVilliaumite.addFlags("GENERATE_PLATE");
 
 val gemCarobbiite = MaterialRegistry.createGemMaterial(762, "carobbiite", 0x666633, "ruby", 1, [<material:potassium>*1, <material:fluorine>*1]);
 gemCarobbiite.addFlags("GENERATE_PLATE");
 
+val ingotSiliconCarbide = MaterialRegistry.createIngotMaterial(763, "silicon_carbide", 0x444440, "dull", 3, [<material:silicon>*1, <material:carbon>*1], 3.5, 0, 0, 1700);
 
+val ingotSiCSiCCMC = MaterialRegistry.createIngotMaterial(764, "sic_sic_cmc", 0x555550, "dull", 5, [<material:silicon>*1, <material:carbon>*1, <material:silicon>*1, <material:carbon>*1, <material:clay>*1], 3.5, 0, 0, 4500);

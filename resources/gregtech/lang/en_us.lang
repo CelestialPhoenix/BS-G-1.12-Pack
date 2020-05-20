@@ -155,6 +155,8 @@ material.darkstone=Darkstone
 material.flourite=Flourite
 material.villiaumite=Villiaumite
 material.carobbiite=Carobbiite
+material.silicon_carbide=Silicon Carbide
+material.sic_sic_cmc=SiC-SiC CMC
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
