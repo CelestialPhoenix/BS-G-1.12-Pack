@@ -69,6 +69,9 @@ print("Green Glowey Energy");
 <ore:ingotBronze>.remove(<nuclearcraft:alloy:0>);
 <ore:ingotSteel>.remove(<nuclearcraft:alloy:5>);
 
+<ore:ingotSiliconCarbide>.remove(<nuclearcraft:alloy:13>);
+<ore:ingotSiCSiCCMC>.remove(<nuclearcraft:alloy:14>);
+
 #Ore
 #<ore:ore>.remove(<nuclearcraft:ore:>);
 <ore:oreCopper>.remove(<nuclearcraft:ore:0>);

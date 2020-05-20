@@ -550,7 +550,7 @@ mixer
     .recipeBuilder()
     .inputs(<ore:dustCarbon>.firstItem*2, <ore:dustClay>.firstItem*4)
 	.fluidInputs([<liquid:silicon>*288])
-    .outputs(<ore:dustSiCSiCCMC>.firstItem*5)
+    .outputs(<ore:dustSiCSiCCMC>.firstItem*8)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
