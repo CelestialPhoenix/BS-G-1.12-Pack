@@ -139,8 +139,40 @@ compressor
 #Nuclearcraft
 compressor
     .recipeBuilder()
-    .inputs(<ore:ingotSiliconCarbide>.firstItem)
+    .inputs(<ore:gemFluorite>.firstItem)
+    .outputs(<ore:blockFluorite>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:gemVilliaumite>.firstItem)
+    .outputs(<ore:blockVilliaumite>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:gemCarobbiite>.firstItem)
+    .outputs(<ore:blockCarobbiite>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:ingotSiCSiCCMC>.firstItem)
     .outputs(<ore:blockSiCSiCCMC>.firstItem)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+compressor
+    .recipeBuilder()
+    .inputs(<ore:ingotSiliconCarbide>.firstItem)
+    .outputs(<ore:blockiliconCarbide>.firstItem)
     .duration(100)
     .EUt(2)
     .buildAndRegister();
