@@ -272,6 +272,25 @@ macerator
     .buildAndRegister();
 }
 
+#-Wires- (Regular)
+var thickPlateMaterials as string[] = [
+	"Beryllium",
+	"Magnesium",
+	];
+
+for input in thickPlateMaterials {
+	var wire as IItemStack = oreDict["wire"~input].firstItem;
+	var metalDustSmall as IItemStack = oreDict["dustSmall"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(wire)
+    .outputs(metalDustSmall*2)
+    .duration(150)
+    .EUt(6)
+    .buildAndRegister();
+}
+
 #--Rocks--
 #Overworld
 macerator

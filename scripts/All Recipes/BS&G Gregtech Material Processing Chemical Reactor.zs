@@ -29,6 +29,9 @@ var phialPraemunio = <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "
 #Nanoprocessor (Moved to BC assembly table)
 ChemReactor.findRecipe(480, [<metaitem:carbon.fibers>*16, <metaitem:wafer.central_processing_unit>], [<liquid:glowstone>*576]).remove();
 
+#Nuclearcraft Stuff
+ChemReactor.findRecipe(30, [<nuclearcraft:part:11>], [<liquid:water>*2000]).remove();
+
 #---Alchemical Stuff---
 #-Air Processing-
 #Compressed Air

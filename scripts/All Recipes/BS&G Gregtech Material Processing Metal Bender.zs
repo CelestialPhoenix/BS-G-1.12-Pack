@@ -10,3 +10,15 @@ val bender as RecipeMap = RecipeMap.getByName("metal_bender");
 
 bender.findRecipe(4, [<ore:plateIron>.firstItem*12, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 bender.findRecipe(4, [<ore:plateWroughtIron>.firstItem*12, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+
+#New plates
+
+bender
+    .recipeBuilder()
+    .inputs(<ore:ingotBoron>)
+    .outputs(<ore:plateBoron>.firstItem)
+    .duration(100)
+	.property("circuit", 0)
+    .EUt(2)
+    .buildAndRegister();
+
