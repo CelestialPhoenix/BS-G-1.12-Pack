@@ -46,10 +46,18 @@ print("Green Glowey Energy");
 <ore:dustNetherQuartz>.remove(<nuclearcraft:gem_dust:2>);
 <ore:dustObsidian>.remove(<nuclearcraft:gem_dust:3>);
 <ore:dustCoal>.remove(<nuclearcraft:gem_dust:4>);
+<ore:dustFluorite>.remove(<nuclearcraft:gem_dust:5>);
 <ore:dustSulfur>.remove(<nuclearcraft:gem_dust:6>);
 <ore:dustCoal>.remove(<nuclearcraft:gem_dust:7>);
+<ore:dustVilliaumite>.remove(<nuclearcraft:gem_dust:8>);
+<ore:dustCarobbiite>.remove(<nuclearcraft:gem_dust:9>);
 <ore:dustArsenic>.remove(<nuclearcraft:gem_dust:10>);
 <ore:dustEndstone>.remove(<nuclearcraft:gem_dust:11>);
+
+#Gem
+<ore:gemFluorite>.remove(<nuclearcraft:gem:2>);
+<ore:gemVilliaumite>.remove(<nuclearcraft:gem:3>);
+<ore:gemCarobbiite>.remove(<nuclearcraft:gem:5>);
 
 #Ingots
 #<ore:ingot>.remove(<nuclearcraft:ingot:>);
