@@ -200,6 +200,27 @@ macerator
     .EUt(2)
     .buildAndRegister();
 
+#-Plates- (Regular)
+var thickPlateMaterials as string[] = [
+	"Boron",
+	"Cryotheum",
+	"Purpur",
+	"Slime",
+	];
+
+for input in thickPlateMaterials {
+	var plate as IItemStack = oreDict["plate"~input].firstItem;
+	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
+
+macerator
+    .recipeBuilder()
+    .inputs(plate)
+    .outputs(metalDust)
+    .duration(150)
+    .EUt(6)
+    .buildAndRegister();
+}
+
 #-Plates- (Thick)
 var thickPlateMaterials as string[] = [
 	"Plastic",
