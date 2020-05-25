@@ -13,7 +13,7 @@ recipes.addShapedMirrored(<betterbuilderswands:wandstone>, [
 [<ore:livingwoodTwig>, null, null]]);
 
 #Iron
-<betterbuilderswands:wandstone>.displayName=("Wand of the Apprentice");
+<betterbuilderswands:wandiron>.displayName=("Wand of the Apprentice");
 recipes.removeShaped(<betterbuilderswands:wandiron>);
 recipes.addShapedMirrored(<betterbuilderswands:wandiron>, [
 [null, <ore:ringIron>, <ore:quicksilver>],
@@ -21,7 +21,7 @@ recipes.addShapedMirrored(<betterbuilderswands:wandiron>, [
 [<ore:dustSalisMundis>, null, null]]);
 
 #Diamond
-<betterbuilderswands:wandstone>.displayName=("Wand of the Master");
+<betterbuilderswands:wanddiamond>.displayName=("Wand of the Master");
 recipes.removeShaped(<betterbuilderswands:wanddiamond>);
 recipes.addShapedMirrored(<betterbuilderswands:wanddiamond>, [
 [null, <ore:ringChrome>, <thaumcraft:morphic_resonator>],
@@ -29,7 +29,7 @@ recipes.addShapedMirrored(<betterbuilderswands:wanddiamond>, [
 [<ore:stickDiamond>, null, null]]);
 
 #Netherstar
-<betterbuilderswands:wandstone>.displayName=("Wand of the Artisan");
+<betterbuilderswands:wandunbreakable>.displayName=("Wand of the Artisan");
 recipes.removeShaped(<betterbuilderswands:wandunbreakable>);
 recipes.addShapedMirrored(<betterbuilderswands:wandunbreakable>, [
 [null, <ore:ringTungsten>, <ore:gemNetherStar>],
