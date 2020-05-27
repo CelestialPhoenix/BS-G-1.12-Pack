@@ -201,14 +201,14 @@ macerator
     .buildAndRegister();
 
 #-Plates- (Regular)
-var thickPlateMaterials as string[] = [
+var plateMaterials as string[] = [
 	"Boron",
 	"Cryotheum",
 	"Purpur",
 	"Slime",
 	];
 
-for input in thickPlateMaterials {
+for input in plateMaterials {
 	var plate as IItemStack = oreDict["plate"~input].firstItem;
 	var metalDust as IItemStack = oreDict["dust"~input].firstItem;
 
@@ -273,12 +273,12 @@ macerator
 }
 
 #-Wires- (Regular)
-var thickPlateMaterials as string[] = [
+var wireMaterials as string[] = [
 	"Beryllium",
 	"Magnesium",
 	];
 
-for input in thickPlateMaterials {
+for input in wireMaterials {
 	var wire as IItemStack = oreDict["wire"~input].firstItem;
 	var metalDustSmall as IItemStack = oreDict["dustSmall"~input].firstItem;
 

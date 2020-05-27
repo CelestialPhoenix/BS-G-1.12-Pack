@@ -570,7 +570,7 @@ compressor
 compressor
     .recipeBuilder()
     .inputs(<ore:dustCarbon>*8)
-    .outputs(<ore:ingotGraphite>)
+    .outputs(<ore:ingotGraphite>.firstItem)
     .duration(20)
     .EUt(250)
     .buildAndRegister();

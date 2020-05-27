@@ -288,7 +288,7 @@ recipes.addShaped(<nuclearcraft:fission_cell_port>, [
 recipes.remove(<nuclearcraft:part:14>); 
 recipes.addShaped(<nuclearcraft:part:14>*4, [
 [<ore:heatsinkSolid>, <ore:plateThickAluminium>, <ore:heatsinkSolid>],
-[<ore:pipeSmallTitanium>, <ore:hullHV>, <ore:pipeSmallTitanium>],
+[<ore:pipeMediumTitanium>, <ore:hullHV>, <ore:pipeMediumTitanium>],
 [<ore:heatsinkSolid>, <ore:plateThickConstantan>, <ore:heatsinkSolid>]]);
 
 #Flavoured Heat Sinks
@@ -550,25 +550,25 @@ recipes.addShaped(<nuclearcraft:salt_fission_controller>, [
 #-Fission Vessel-
 recipes.remove(<nuclearcraft:salt_fission_vessel>); 
 recipes.addShaped(<nuclearcraft:salt_fission_vessel>, [
-[<ore:robotarmHV>, <ore:pipeMediumStainlessSteel>, <ore:robotarmHV>],
-[<ore:ringStainlessSteel>, <ore:hullHV>, <ore:ringStainlessSteel>],
-[<ore:motorHV>, <ore:pipeMediumStainlessSteel>, <ore:motorHV>]]);
+[<ore:pumpEV>, <ore:pipeMediumStainlessSteel>, <ore:pumpEV>],
+[<ore:ringTitanium>, <ore:hullHV>, <ore:ringTitanium>],
+[<ore:pumpEV>, <ore:pipeMediumStainlessSteel>, <ore:pumpEV>]]);
 <nuclearcraft:salt_fission_vessel>.addTooltip("WiP Recipe");
 //Find out if solid or fluid fuel?
 
 #-Fission Ports-
 recipes.remove(<nuclearcraft:fission_vessel_port>); 
 recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
-[<ore:robotarmIV>, <ore:motorIV>, <ore:robotarmIV>],
-[<ore:ringStainlessSteel>, <ore:mechcompStainless>, <ore:ringStainlessSteel>],
-[<ore:circuitElite>, <nuclearcraft:fission_casing>, <ore:circuitElite>]]);
+[<ore:pumpIV>, <ore:pipeMediumTitanium>, <ore:pumpIV>],
+[<ore:pipeMediumTitanium>, <nuclearcraft:fission_casing>, <ore:pipeMediumTitanium>],
+[<ore:circuitElite>, <sensorEV:sensorEV>, <ore:circuitElite>]]);
 
 #-Coolant Heater Port-
 recipes.remove(<nuclearcraft:fission_heater_port:0>); 
 recipes.addShaped(<nuclearcraft:fission_heater_port:0>, [
 [<ore:pipeMediumStainlessSteel>, <ore:pumpEV>, <ore:pipeMediumStainlessSteel>],
 [<ore:platingElite>, <ore:hullHV>, <ore:platingElite>],
-[<ore:tankStainlessSteel>, null, <ore:circuitExtreme>]]);
+[<ore:tankStainlessSteel>, <ore:pumpEV>, <ore:circuitExtreme>]]);
 
 //Flavoured Coolant Heater Ports
 //Iron
@@ -793,7 +793,7 @@ recipes.addShaped(<nuclearcraft:fission_heater_port2:15>*1, [
 recipes.remove(<nuclearcraft:salt_fission_heater>); 
 recipes.addShaped(<nuclearcraft:salt_fission_heater>, [
 [<ore:heatsinkFluid>, <ore:plateThickAluminium>, <ore:heatsinkFluid>],
-[<ore:pipeSmallTitanium>, <ore:hullHV>, <ore:pipeSmallTitanium>],
+[<ore:pipeMediumTitanium>, <ore:hullHV>, <ore:pipeMediumTitanium>],
 [<ore:heatsinkFluid>, <ore:plateThickConstantan>, <ore:heatsinkFluid>]]);
 
 //Iron

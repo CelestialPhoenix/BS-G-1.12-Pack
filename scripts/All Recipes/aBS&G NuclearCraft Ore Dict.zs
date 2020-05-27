@@ -57,7 +57,7 @@ print("Green Glowey Energy");
 #Gem
 <ore:gemFluorite>.remove(<nuclearcraft:gem:2>);
 <ore:gemVilliaumite>.remove(<nuclearcraft:gem:3>);
-<ore:gemCarobbiite>.remove(<nuclearcraft:gem:5>);
+<ore:gemCarobbiite>.remove(<nuclearcraft:gem:4>);
 
 #Ingots
 #<ore:ingot>.remove(<nuclearcraft:ingot:>);

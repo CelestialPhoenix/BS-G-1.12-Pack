@@ -9,7 +9,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 val Wiremill as RecipeMap = RecipeMap.getByName("wiremill");
 
 #New wires
-bender
+Wiremill
     .recipeBuilder()
     .inputs(<ore:ingotBeryllium>)
     .outputs(<ore:wireBeryllium>.firstItem*2)
@@ -17,7 +17,7 @@ bender
     .EUt(8)
     .buildAndRegister();
 
-bender
+Wiremill
     .recipeBuilder()
     .inputs(<ore:ingotMagnesium>)
     .outputs(<ore:wireMagnesium>.firstItem*2)
