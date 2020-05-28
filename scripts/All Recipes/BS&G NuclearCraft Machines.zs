@@ -561,7 +561,7 @@ recipes.remove(<nuclearcraft:fission_vessel_port>);
 recipes.addShaped(<nuclearcraft:fission_vessel_port>, [
 [<ore:pumpIV>, <ore:pipeMediumTitanium>, <ore:pumpIV>],
 [<ore:pipeMediumTitanium>, <nuclearcraft:fission_casing>, <ore:pipeMediumTitanium>],
-[<ore:circuitElite>, <sensorEV:sensorEV>, <ore:circuitElite>]]);
+[<ore:circuitElite>, <ore:sensorEV>, <ore:circuitElite>]]);
 
 #-Coolant Heater Port-
 recipes.remove(<nuclearcraft:fission_heater_port:0>); 
