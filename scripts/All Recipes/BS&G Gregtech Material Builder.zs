@@ -698,6 +698,7 @@ val gemCarobbiite = MaterialRegistry.createGemMaterial(762, "carobbiite", 0x6666
 gemCarobbiite.addFlags("GENERATE_PLATE");
 
 val ingotSiliconCarbide = MaterialRegistry.createIngotMaterial(763, "silicon_carbide", 0x444440, "dull", 3, [<material:silicon>*1, <material:carbon>*1], 3.5, 0, 0, 1700);
+ingotSiliconCarbide.addFlags("GENERATE_PLATE", "DECOMPOSITION_BY_CENTRIFUGING");
 
 val ingotSiCSiCCMC = MaterialRegistry.createIngotMaterial(764, "si_c_si_c_c_m_c", 0x555550, "dull", 5, [<material:silicon>*1, <material:carbon>*1, <material:silicon>*1, <material:carbon>*1, <material:clay>*4], 3.5, 0, 0, 4500);
 
