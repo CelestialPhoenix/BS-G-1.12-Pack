@@ -33,8 +33,8 @@ var fuelPellet as string[] = [
 	"N236",
 	"P239",
 	"P241",
-	"MIX239",
-	"MIX241",
+	//"MIX239",
+	//"MIX241",
 	"A242",
 	"Cm243",
 	"Cm245",
@@ -44,16 +44,16 @@ var fuelPellet as string[] = [
 	"Cf251",
 	];
 
-for input in fuelEnriched {
+for input in fuelPellet {
 	var pelletNakedLE as IItemStack = oreDict["ingotLE"~input].firstItem;
-	var pelletCarbideLE as IItemStack = oreDict["ingotLE"~Carbide].firstItem;
-	var pelletNitrideLE as IItemStack = oreDict["ingotLE"~Nitride].firstItem;
-	var pelletOxideLE as IItemStack = oreDict["ingotLE"~Oxide].firstItem;
+	var pelletCarbideLE as IItemStack = oreDict["ingotLE"~input~"Carbide"].firstItem;
+	var pelletNitrideLE as IItemStack = oreDict["ingotLE"~input~"Nitride"].firstItem;
+	var pelletOxideLE as IItemStack = oreDict["ingotLE"~input~"Oxide"].firstItem;
 
 	var pelletNakedHE as IItemStack = oreDict["ingotHE"~input].firstItem;
-	var pelletCarbideHE as IItemStack = oreDict["ingotHE"~Carbide].firstItem;
-	var pelletNitrideHE as IItemStack = oreDict["ingotHE"~Nitride].firstItem;
-	var pelletOxideHE as IItemStack = oreDict["ingotHE"~Oxide].firstItem;
+	var pelletCarbideHE as IItemStack = oreDict["ingotHE"~input~"Carbide"].firstItem;
+	var pelletNitrideHE as IItemStack = oreDict["ingotHE"~input~"Nitride"].firstItem;
+	var pelletOxideHE as IItemStack = oreDict["ingotHE"~input~"Oxide"].firstItem;
 
 recipes.remove(pelletNakedLE);
 recipes.remove(pelletCarbideLE);
@@ -66,12 +66,29 @@ recipes.remove(pelletNitrideHE);
 recipes.remove(pelletOxideHE);
 
 furnace.remove(pelletNakedLE);
-furnace.remove(pelletCarbideLE);
-furnace.remove(pelletNitrideLE);
-furnace.remove(pelletOxideLE);
+//furnace.remove(pelletCarbideLE);
+//furnace.remove(pelletNitrideLE);
+//furnace.remove(pelletOxideLE);
 
 furnace.remove(pelletNakedHE);
-furnace.remove(pelletCarbideHE);
-furnace.remove(pelletNitrideHE);
-furnace.remove(pelletOxideHE);
+//furnace.remove(pelletCarbideHE);
+//furnace.remove(pelletNitrideHE);
+//furnace.remove(pelletOxideHE);
 }
+
+recipes.remove(<ore:ingotMIX239>.firstItem);
+recipes.remove(<ore:ingotMIX239Carbide>.firstItem);
+recipes.remove(<ore:ingotMIX239TRISO>.firstItem);
+recipes.remove(<ore:ingotMIX239Oxide>.firstItem);
+recipes.remove(<ore:ingotMIX239Nitride>.firstItem);
+recipes.remove(<ore:ingotMIX239ZA>.firstItem);
+
+recipes.remove(<ore:ingotMIX241>.firstItem);
+recipes.remove(<ore:ingotMIX241Carbide>.firstItem);
+recipes.remove(<ore:ingotMIX241TRISO>.firstItem);
+recipes.remove(<ore:ingotMIX241Oxide>.firstItem);
+recipes.remove(<ore:ingotMIX241Nitride>.firstItem);
+recipes.remove(<ore:ingotMIX241ZA>.firstItem);
+
+furnace.remove(<ore:ingotMIX241>.firstItem);
+furnace.remove(<ore:ingotMIX239>.firstItem);

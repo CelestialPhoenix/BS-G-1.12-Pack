@@ -118,21 +118,21 @@ mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:pla
 }
 
 #TRISO Fuels
-for i, input in fuelEnriched {
-	var ingotFuelCarbideLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Carbide"].firstItem;
-	var ingotFuelCarbideHE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Carbide"].firstItem;
-	var ingotFuelTrisoLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"TRISO"].firstItem;
-	var ingotFuelTrisoHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"TRISO"].firstItem;
+for input in fuelPellet {
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~input~"Carbide"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~input~"Carbide"].firstItem;
+	var ingotFuelTrisoLE as IItemStack = oreDict["ingotLE"~input~"TRISO"].firstItem;
+	var ingotFuelTrisoHE as IItemStack = oreDict["ingotHE"~input~"TRISO"].firstItem;
 
-//mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoLE);
-//mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoHE);
+//mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoLE*9);
+//mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoHE*9);
 
-mods.nuclearcraft.Assembler.addRecipe(ingotFuelCarbideLE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoLE*1, 1.0, 1.0, 0.02);
-mods.nuclearcraft.Assembler.addRecipe(ingotFuelCarbideHE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoHE*1, 1.0, 1.0, 0.06);
+mods.nuclearcraft.Assembler.addRecipe(ingotFuelLE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, <minecraft:dirt>*9, 1.0, 1.0, 0.02);
+mods.nuclearcraft.Assembler.addRecipe(ingotFuelHE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, <minecraft:dirt>*9, 1.0, 1.0, 0.06);
 }
 
-mods.nuclearcraft.Assembler.removeRecipeWithOutput(<ore:ingotTBUTRISO>.firstItem);
-mods.nuclearcraft.Assembler.addRecipe(<ore:ingotTBUCarbide>*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoLE*1, 1.0, 1.0, 0.02);
+//mods.nuclearcraft.Assembler.removeRecipeWithOutput(<ore:ingotTBUTRISO>.firstItem*9);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotTBUCarbide>*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, <ore:ingotTBUTRISO>.firstItem*9, 1.0, 1.0, 0.02);
 
 #Mixed Fuels
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239Carbide>*1, <ore:ingotUranium238Carbide>*8, <ore:platePlastic>, null, <ore:ingotMIX239Carbide>.firstItem*1, 1.0, 1.0, 0.02);
@@ -147,4 +147,6 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241Nitride>*1, <ore:ing
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239ZA>.firstItem*1, <ore:ingotUranium238ZA>.firstItem*8, <ore:foilZirconium>*4, null, <ore:ingotMIX239ZA>.firstItem*1, 1.0, 1.0, 0.02);
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241ZA>.firstItem*1, <ore:ingotUranium238ZA>.firstItem*8, <ore:foilZirconium>, null, <ore:ingotMIX241ZA>.firstItem*1, 1.0, 1.0, 0.02);
 
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotMIX239Carbide>*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, <ore:ingotMIX239TRISO>.firstItem*9, 1.0, 1.0, 0.02);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotMIX241Carbide>*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, <ore:ingotMIX241TRISO>.firstItem*9, 1.0, 1.0, 0.02);
 

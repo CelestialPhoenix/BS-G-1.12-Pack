@@ -567,9 +567,6 @@ compressor
     .buildAndRegister();
 
 #Graphite
-compressor.findRecipe(2, [<ore:dustGraphite>.firstItem*1], [null]).remove();
-compressor.findRecipe(2, [<ore:ingotGraphite>.firstItem*1], [null]).remove();
-
 compressor
     .recipeBuilder()
     .inputs(<ore:dustCarbon>*8)

@@ -317,7 +317,7 @@ electricBF
     .buildAndRegister();
 
 #Silicon Carbide
-electricBF.findRecipe(120, [<ore:dustSiCSiCCMC>.firstItem], null).remove();
+electricBF.findRecipe(120, [<ore:dustSiliconCarbide>.firstItem], null).remove();
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustSiliconCarbide>.firstItem*1)
