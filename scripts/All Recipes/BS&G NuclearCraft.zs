@@ -28,7 +28,7 @@ recipes.remove(<nuclearcraft:part:12>); //Steel Chassis (block)
 
 #Upgrades
 recipes.remove(<nuclearcraft:upgrade>); //Speed
-recipes.addShaped(<nuclearcraft:turbine_rotor_bearing>, [
+recipes.addShaped(<nuclearcraft:upgrade>, [
 [<ore:ringTitanium>, <ore:circuitAdvanced>, <ore:ringTitanium>],
 [<ore:cableGtSingleAluminium>, <ore:plateReinforcedEpoxyResin>, <ore:cableGtSingleAluminium>],
 [<ore:ringTitanium>, <ore:circuitAdvanced>, <ore:ringTitanium>]]);

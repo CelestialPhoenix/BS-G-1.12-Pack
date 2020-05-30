@@ -422,7 +422,7 @@ theassembler
 
 theassembler
     .recipeBuilder()
-    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeSmallStainlessSteel>.firstItem*6)
+    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeSmallTitanium>.firstItem*6)
     .outputs(<ore:heatsinkFluid>.firstItem)
     .duration(200)
     .EUt(16)
@@ -430,7 +430,7 @@ theassembler
 
 theassembler
     .recipeBuilder()
-    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeTinyStainlessSteel>.firstItem*6)
+    .inputs(<ore:foilAluminium>.firstItem*20, <ore:pipeTinyTitanium>.firstItem*6)
     .outputs(<ore:heatsinkFluid>.firstItem)
     .duration(200)
     .EUt(16)

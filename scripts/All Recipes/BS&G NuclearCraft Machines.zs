@@ -217,8 +217,8 @@ recipes.addShaped(<nuclearcraft:fission_vent>, [
 
 #Irradiator
 recipes.remove(<nuclearcraft:fission_irradiator>); 
-recipes.addShaped(<nuclearcraft:fission_irradiator>*4, [
-[<ore:barsIron>, null, <ore:barsIron>],
+recipes.addShaped(<nuclearcraft:fission_irradiator>*1, [
+[<ore:barsIron>, <ore:robotarmEV>, <ore:barsIron>],
 [null, <ore:hullHV>, null],
 [<ore:barsIron>, null, <ore:barsIron>]]);
 
