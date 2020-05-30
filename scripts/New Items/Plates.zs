@@ -14,6 +14,15 @@ PlateBoron.register();
 var PlateCryotheum = VanillaFactory.createItem("platecryotheum");
 PlateCryotheum.register();
 
+var PlateComposite = VanillaFactory.createItem("platecomposite");
+PlateComposite.register();
+
+var PlateCompositeRubber = VanillaFactory.createItem("platecompositerubber");
+PlateCompositeRubber.register();
+
+var PlateCompositeUltimate = VanillaFactory.createItem("platecompositeultimate");
+PlateCompositeUltimate.register();
+
 var PlatePurpur = VanillaFactory.createItem("platepurpur");
 PlatePurpur.register();
 

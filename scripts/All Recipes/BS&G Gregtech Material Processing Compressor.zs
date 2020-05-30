@@ -580,7 +580,7 @@ compressor
 
 compressor
     .recipeBuilder()
-    .inputs(<ore:dustGraphite>*1)
+    .inputs(<ore:dustGraphite>*3)
     .outputs(<ore:ingotPyrolyticCarbon>.firstItem)
     .duration(20)
     .EUt(250)

@@ -560,6 +560,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:platePurpur>.add(<contenttweaker:platepurpur>);
 <ore:plateThermoElectric>.add(<contenttweaker:platethermoelectric>);
 
+<ore:plateComposite>.add(<contenttweaker:platecomposite>);
+<ore:plateCompositeRubber>.add(<contenttweaker:platecompositerubber>);
+<ore:plateCompositeUltimate>.add(<contenttweaker:platecompositeultimate>);
+
 /*
 #---PlateHeavy---
 #<ore:plateHeavy>.add(<contenttweaker:plateheavy>);

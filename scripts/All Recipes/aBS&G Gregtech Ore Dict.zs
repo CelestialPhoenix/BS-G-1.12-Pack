@@ -95,6 +95,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:plateAdvancedAlloy>.add(<metaitem:plate.advanced_alloy>);
 <ore:plateReinforcedAlloy>.add(<metaitem:plate.iridium_alloy>);
 
+<ore:plateCarbon>.add(<metaitem:carbon.plate>);
+
 #-plantball-
 <ore:plantball>.add(<metaitem:plant_ball>);
 

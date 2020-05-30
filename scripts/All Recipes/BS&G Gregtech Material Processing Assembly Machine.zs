@@ -383,6 +383,34 @@ theassembler
     .buildAndRegister();
 
 #--ContentTweaker Components--
+#Composite Plates
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateAdvancedAlloy>*1, <ore:plateCarbon>*1)
+	.fluidInputs([<liquid:glue>*100])
+    .outputs(<ore:plateComposite>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateRubber>*1, <ore:platePolytetrafluoroethylene>*1)
+	.fluidInputs([<liquid:glue>*100])
+    .outputs(<ore:plateCompositeRubber>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:plateZirconium>*1, <ore:plateAdvancedAlloy>*1, <ore:plateTitanium>*1)
+	.fluidInputs([<liquid:glue>*200])
+    .outputs(<ore:plateCompositeUltimate>.firstItem*1)
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
+
 #Heatsinks
 theassembler
     .recipeBuilder()
