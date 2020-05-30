@@ -3,10 +3,10 @@ tile.nuclearcraft.assembler.name=Fuel Packager
 tile.nuclearcraft.assembler.desc=Combines raw fuels into a fuel pellet.
 nuclearcraft.container.assembler=Fuel Packager
 
-tile.nuclearcraft.salt_mixer.name=Molten Salt Mixer
+tile.nuclearcraft.salt_mixer.name=Molten Fuel Blending Plant
 tile.nuclearcraft.salt_mixer.desc=Prepares fuel for the Molten Salt Reactor.
-nuclearcraft.container.salt_mixer=Molten Salt Mixer
+nuclearcraft.container.salt_mixer=Molten Fuel Blending Plant
 
-tile.nuclearcraft.extractor.name=Nuclear Fuel Crucible
+tile.nuclearcraft.extractor.name=Molten Fuel Crucible
 tile.nuclearcraft.extractor.desc=Melts down nuclear fuels.
-nuclearcraft.container.extractor=Nuclear Fuel Crucible
+nuclearcraft.container.extractor=Molten Fuel Crucible
