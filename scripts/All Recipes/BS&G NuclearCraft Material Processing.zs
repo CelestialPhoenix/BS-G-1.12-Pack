@@ -130,6 +130,7 @@ for i, input in fuelEnriched {
 mods.nuclearcraft.Assembler.addRecipe(ingotFuelCarbideLE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoLE*1, 1.0, 1.0, 0.02);
 mods.nuclearcraft.Assembler.addRecipe(ingotFuelCarbideHE*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoHE*1, 1.0, 1.0, 0.06);
 }
+
 mods.nuclearcraft.Assembler.removeRecipeWithOutput(<ore:ingotTBUTRISO>.firstItem);
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotTBUCarbide>*9, <ore:dustGraphite>*1, <ore:ingotPyroliticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoLE*1, 1.0, 1.0, 0.02);
 
