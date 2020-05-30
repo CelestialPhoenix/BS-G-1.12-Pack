@@ -19,8 +19,8 @@ var fuelEnriched as string[] = [
 	"Neptunium236",
 	"Plutonium239",
 	"Plutonium241",
-	"Plutonium239", //Mix
-	"Plutonium241",
+	//"Plutonium239", //Mix
+	//"Plutonium241",
 	"Americium242",
 	"Curium243",
 	"Curium245",
@@ -35,8 +35,8 @@ var fuelDepleted as string[] = [
 	"Neptunium237",
 	"Plutonium242",
 	"Plutonium242",
-	"Uranium238", //Mix
-	"Uranium238",
+	//"Uranium238", //Mix
+	//"Uranium238",
 	"Americium243",
 	"Curium246",
 	"Curium246",
@@ -51,8 +51,8 @@ var fuelPellet as string[] = [
 	"N236",
 	"P239",
 	"P241",
-	"MIX239",
-	"MIX241",
+	//"MIX239",
+	//"MIX241",
 	"A242",
 	"Cm243",
 	"Cm245",
@@ -69,8 +69,8 @@ for i, input in fuelEnriched {
 	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Carbide"].firstItem;
 	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Carbide"].firstItem;
 
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:foilPlastic>*4, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:platePlastic>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
 }
 
 #Oxide Fuels
@@ -80,8 +80,8 @@ for i, input in fuelEnriched {
 	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Oxide"].firstItem;
 	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Oxide"].firstItem;
 
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:foilPlastic>*4, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:platePlastic>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
 }
 
 #Nitride Fuels
@@ -91,8 +91,32 @@ for i, input in fuelEnriched {
 	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Nitride"].firstItem;
 	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Nitride"].firstItem;
 
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
-mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:foilPlastic>*4, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:platePlastic>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
 }
+
+#Zircalloy Fuels
+for i, input in fuelEnriched {
+	var ingotEnriched as IItemStack = oreDict["ingot"~input~"ZA"].firstItem;
+	var ingotDepleted as IItemStack = oreDict["ingot"~fuelDepleted[i]~"ZA"].firstItem;
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"ZA"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"ZA"].firstItem;
+
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:foilZirconium>*4, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:plateZirconium>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+}
+
+#Mixed Fuels
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239Carbide>*8, <ore:ingotUranium238Carbide>*1, <ore:platePlastic>, null, <ore:ingotMIX239Carbide>*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241Carbide>*8, <ore:ingotUranium238Carbide>*1, <ore:platePlastic>, null, <ore:ingotMIX241Carbide>*1, 1.0, 1.0, 0.2);
+
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239Oxide>*8, <ore:ingotUranium238Oxide>*1, <ore:platePlastic>, null, <ore:ingotMIX239Oxide>*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241Oxide>*8, <ore:ingotUranium238Oxide>*1, <ore:platePlastic>, null, <ore:ingotMIX241Oxide>*1, 1.0, 1.0, 0.2);
+
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239Nitride>*8, <ore:ingotUranium238Nitride>*1, <ore:platePlastic>, null, <ore:ingotMIX239Nitride>*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241Nitride>*8, <ore:ingotUranium238Nitride>*1, <ore:platePlastic>, null, <ore:ingotMIX241Nitride>*1, 1.0, 1.0, 0.2);
+
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239ZA>*8, <ore:ingotUranium238ZA>*1, <ore:foilZirconium>*4, null, <ore:ingotMIX239ZA>*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241ZA>*8, <ore:ingotUranium23ZA>*1, <ore:plateZirconium>, null, <ore:ingotMIX241ZA>*1, 1.0, 1.0, 0.2);
 
 

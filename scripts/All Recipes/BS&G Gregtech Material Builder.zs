@@ -106,6 +106,9 @@ obsidian.addFlags(["GENERATE_PLATE"]);
 var phosphorus = <material:phosphorus>;
 phosphorus.addFlags(["GENERATE_ORE"]);
 
+var plastic = <material:plastic>;
+plastic.addFlags(["GENERATE_FOIL"]);
+
 var platinum = <material:platinum>;
 platinum.addFlags(["GENERATE_RING"]);
 
