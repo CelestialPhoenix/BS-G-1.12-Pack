@@ -96,9 +96,12 @@ recipes.addShaped(<nuclearcraft:assembler>, [
 //To be removed
 //2 Fluid in 2 Fluid out
 
-#Salt Mixer
-//To be removed
-//2 Fluid in 1 out
+#Salt Mixer - Molten Fuel Mixer
+recipes.remove(<nuclearcraft:salt_mixer>); 
+recipes.addShaped(<nuclearcraft:salt_mixer>, [
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
+[<ore:pumpEV>, <meta_tile_entity:gregtech:mixer.ev>, <ore:pipeSmallTitanium>],
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Crystallizer
 //To be removed
@@ -109,9 +112,12 @@ recipes.addShaped(<nuclearcraft:assembler>, [
 //Item in Fluid in Fluid out
 //----Move to ImEng Mixing plant or Gtech mixer
 
-#Fluid Extractor
-//To be removed
-//Item in Item out Fluid out
+#Fluid Extractor- Reworked as Molten Fuel Extractor
+recipes.remove(<nuclearcraft:extractor>); 
+recipes.addShaped(<nuclearcraft:extractor>, [
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
+[<ore:robotarmEV>, <meta_tile_entity:gregtech:fluid_extractor.ev>, <ore:pipeSmallTitanium>],
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Centrifuge
 //To be removed

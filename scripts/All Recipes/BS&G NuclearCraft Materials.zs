@@ -27,7 +27,7 @@ recipes.remove(<nuclearcraft:rad_shielding:2>); //Heavy
 //Recipes in Railcraft Rolling Machine in Railcraft Material Processing.zs
 
 #---Fuel Materials---
-
+#Fuel Pellets
 var fuelPellet as string[] = [
 	"U233",
 	"N236",
@@ -49,21 +49,25 @@ for input in fuelPellet {
 	var pelletCarbideLE as IItemStack = oreDict["ingotLE"~input~"Carbide"].firstItem;
 	var pelletNitrideLE as IItemStack = oreDict["ingotLE"~input~"Nitride"].firstItem;
 	var pelletOxideLE as IItemStack = oreDict["ingotLE"~input~"Oxide"].firstItem;
+	var pelletZrLE as IItemStack = oreDict["ingotLE"~input~"ZA"].firstItem;
 
 	var pelletNakedHE as IItemStack = oreDict["ingotHE"~input].firstItem;
 	var pelletCarbideHE as IItemStack = oreDict["ingotHE"~input~"Carbide"].firstItem;
 	var pelletNitrideHE as IItemStack = oreDict["ingotHE"~input~"Nitride"].firstItem;
 	var pelletOxideHE as IItemStack = oreDict["ingotHE"~input~"Oxide"].firstItem;
+	var pelletZrHE as IItemStack = oreDict["ingotHE"~input~"ZA"].firstItem;
 
 recipes.remove(pelletNakedLE);
 recipes.remove(pelletCarbideLE);
 recipes.remove(pelletNitrideLE);
 recipes.remove(pelletOxideLE);
+recipes.remove(pelletZrLE);
 
 recipes.remove(pelletNakedHE);
 recipes.remove(pelletCarbideHE);
 recipes.remove(pelletNitrideHE);
 recipes.remove(pelletOxideHE);
+recipes.remove(pelletZrHE);
 
 furnace.remove(pelletNakedLE);
 //furnace.remove(pelletCarbideLE);

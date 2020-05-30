@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing Chemical Reactor.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -406,6 +409,66 @@ ChemReactor
     .duration(120)
     .EUt(480)
     .buildAndRegister();
+
+#--Nuclearcraft--
+#This awesome looping script was modified from FTB interactions
+var listIsotopes as string[] = [
+	"Uranium233",
+	"Uranium235",
+	"Uranium238",
+	"Neptunium236",
+	"Neptunium237",
+	"Plutonium238",
+	"Plutonium239",
+	"Plutonium241",
+	"Plutonium242",
+	"Americium241",
+	"Americium242",
+	"Americium243",
+	"Curium243",
+	"Curium245",
+	"Curium246",
+	"Curium247",
+	"Berkelium247",
+	"Berkelium248",
+	"Californium249",
+	"Californium250",
+	"Californium251",
+	"Californium252",
+	];
+
+for input in listIsotopes {
+	var isotopeRaw as IItemStack = oreDict["ingot"~input].firstItem;
+	var isotopeOxide as IItemStack = oreDict["ingot"~input~"Oxide"].firstItem;
+	var isotopeNitride as IItemStack = oreDict["ingot"~input~"Nitride"].firstItem;
+
+ChemReactor
+    .recipeBuilder()
+    .inputs(isotopeRaw*1)
+	.fluidInputs(<liquid:oxygen>*1000)
+    .outputs(isotopeOxide*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+    .inputs(isotopeRaw*1)
+	.fluidInputs(<liquid:aerotheum>*200)
+    .outputs(isotopeOxide*1)
+    .duration(20)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+    .inputs(isotopeRaw*1)
+	.fluidInputs(<liquid:nitrogen>*1000)
+    .outputs(isotopeNitride*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+}
 
 #---Quantum Circuits---
 ChemReactor.findRecipe(1920, [<metaitem:quantumeye>*2, <metaitem:wafer.nano_central_processing_unit>], [<liquid:gallium_arsenide>*288]).remove();
