@@ -19,6 +19,15 @@ var fuelEnriched as string[] = [
 	"Neptunium236",
 	"Plutonium239",
 	"Plutonium241",
+	"Plutonium239", //Mix
+	"Plutonium241",
+	"Americium242",
+	"Curium243",
+	"Curium245",
+	"Curium247",
+	"Berkelium248",
+	"Californium249",
+	"Californium251",
 	];
 
 var fuelDepleted as string[] = [
@@ -26,6 +35,15 @@ var fuelDepleted as string[] = [
 	"Neptunium237",
 	"Plutonium242",
 	"Plutonium242",
+	"Uranium238", //Mix
+	"Uranium238",
+	"Americium243",
+	"Curium246",
+	"Curium246",
+	"Curium246",
+	"Berkelium247",
+	"Californium252",
+	"Californium252",
 	];
 
 var fuelPellet as string[] = [
@@ -33,17 +51,48 @@ var fuelPellet as string[] = [
 	"N236",
 	"P239",
 	"P241",
+	"MIX239",
+	"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
 	];
 
 #Carbide Fuels
 for i, input in fuelEnriched {
-	var ingotEnriched as IItemStack = oreDict["ingot"~input~"carbide"].firstItem;
-	var ingotDepleted as IItemStack = oreDict["ingot"~fuelDepleted[i]~"carbide"].firstItem;
-	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"carbide"].firstItem;
-	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"carbide"].firstItem;
+	var ingotEnriched as IItemStack = oreDict["ingot"~input~"Carbide"].firstItem;
+	var ingotDepleted as IItemStack = oreDict["ingot"~fuelDepleted[i]~"Carbide"].firstItem;
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Carbide"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Carbide"].firstItem;
 
 mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
 mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
-
 }
+
+#Oxide Fuels
+for i, input in fuelEnriched {
+	var ingotEnriched as IItemStack = oreDict["ingot"~input~"Oxide"].firstItem;
+	var ingotDepleted as IItemStack = oreDict["ingot"~fuelDepleted[i]~"Oxide"].firstItem;
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Oxide"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Oxide"].firstItem;
+
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+}
+
+#Nitride Fuels
+for i, input in fuelEnriched {
+	var ingotEnriched as IItemStack = oreDict["ingot"~input~"Nitride"].firstItem;
+	var ingotDepleted as IItemStack = oreDict["ingot"~fuelDepleted[i]~"Nitride"].firstItem;
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~fuelPellet[i]~"Nitride"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"Nitride"].firstItem;
+
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*8, ingotEnriched*1, <ore:casingLight>, null, ingotFuelLE*1, 1.0, 1.0, 0.2);
+mods.nuclearcraft.Assembler.addRecipe(ingotDepleted*6, ingotEnriched*3, <ore:casingHeavy>, null, ingotFuelHE*1, 1.0, 1.0, 0.6);
+}
+
 
