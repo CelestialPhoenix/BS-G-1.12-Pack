@@ -179,7 +179,7 @@ zinc.addFlags(["GENERATE_ROD"]);
 #---New Elements---
 #Zirconium
 val ingotzirconum = MaterialRegistry.createIngotMaterial(500, "zirconium", 0x9EB0BA, "shiny", 3, null, 3.5, 0);
-ingotzirconum.addFlags("GENERATE_PLATE", "GENERATE_ORE");
+ingotzirconum.addFlags("GENERATE_PLATE", "GENERATE_ORE", "GENERATE_FOIL");
 
 #---New Ores---
 #Bertrandite
