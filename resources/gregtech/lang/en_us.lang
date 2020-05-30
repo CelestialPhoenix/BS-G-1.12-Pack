@@ -156,7 +156,7 @@ material.flourite=Flourite
 material.villiaumite=Villiaumite
 material.carobbiite=Carobbiite
 material.silicon_carbide=Silicon Carbide
-material.sic_sic_cmc=SiC-SiC CMC
+material.si_c_si_c_c_m_c=SiC-SiC CMC
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite

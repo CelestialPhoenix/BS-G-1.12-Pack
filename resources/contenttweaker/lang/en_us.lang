@@ -1078,6 +1078,10 @@ item.contenttweaker.plateslime.name=Desiccated Slime Plate
 item.contenttweaker.platethermoelectric.name=Thermoelectric Plating
 item.contenttweaker.platesiliconcarbide.name=Silicon Carbide Plate
 
+item.contenttweaker.platecomposite.name=Composite Plate
+item.contenttweaker.platecompositerubber.name=Composite Rubber Plate
+item.contenttweaker.platecompositeultimate.name=Ultimate Composite Plate
+
 item.contenttweaker.plateheavyaluminium.name=Heavy Aluminium Plate
 item.contenttweaker.plateheavychrome.name=Heavy Chrome Plate
 item.contenttweaker.plateheavycopper.name=Heavy Copper Plate

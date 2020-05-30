@@ -1,0 +1,5 @@
+
+tile.nuclearcraft.assembler.name=Fuel Packager
+tile.nuclearcraft.assembler.desc=Combines raw fuels into a fuel pellet.
+
+nuclearcraft.container.assembler=Fuel Packager
