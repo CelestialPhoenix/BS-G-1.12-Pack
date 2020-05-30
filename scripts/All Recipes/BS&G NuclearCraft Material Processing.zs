@@ -161,33 +161,33 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:ingotMIX241Carbide>*9, <ore:dustGraph
 mods.nuclearcraft.Extractor.removeRecipeWithInput(<nuclearcraft:ground_cocoa_nibs>);
 
 //Fuel Pellet Melting
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotTBU>, <ore:dustPlastic>, <fluid:tbu_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU233>, <ore:dustPlastic>, <fluid:leu_233_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU233>, <ore:dustPlastic>, <fluid:heu_233_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU235>, <ore:dustPlastic>, <fluid:leu_235_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU235>, <ore:dustPlastic>, <fluid:heu_235_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEN236>, <ore:dustPlastic>, <fluid:len_236_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEN236>, <ore:dustPlastic>, <fluid:hen_236_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP239>, <ore:dustPlastic>, <fluid:lep_239_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP239>, <ore:dustPlastic>, <fluid:hep_239_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP241>, <ore:dustPlastic>, <fluid:lep_241_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP241>, <ore:dustPlastic>, <fluid:hep_241_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX239>, <ore:dustPlastic>, <fluid:mix_239_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX241>, <ore:dustPlastic>, <fluid:mix_241_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEA242>, <ore:dustPlastic>, <fluid:lea_242_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEA242>, <ore:dustPlastic>, <fluid:hea_242_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm243>, <ore:dustPlastic>, <fluid:lecm_243_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm243>, <ore:dustPlastic>, <fluid:hecm_243_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm245>, <ore:dustPlastic>, <fluid:lecm_245_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm245>, <ore:dustPlastic>, <fluid:hecm245_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm247>, <ore:dustPlastic>, <fluid:lecm_247_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm247>, <ore:dustPlastic>, <fluid:hecm_247_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEB248>, <ore:dustPlastic>, <fluid:leb_248_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEB248>, <ore:dustPlastic>, <fluid:heb_248_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf249>, <ore:dustPlastic>, <fluid:lecf_249_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf249>, <ore:dustPlastic>, <fluid:hecf_249_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf251>, <ore:dustPlastic>, <fluid:lecf_251_fluoride>*144, 1.0, 1.0, 0.03});
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf251>, <ore:dustPlastic>, <fluid:hecf_251_fluoride>*144, 1.0, 1.0, 0.03});
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotTBU>, <ore:dustPlastic>, <fluid:tbu_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU233>, <ore:dustPlastic>, <fluid:leu_233_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU233>, <ore:dustPlastic>, <fluid:heu_233_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU235>, <ore:dustPlastic>, <fluid:leu_235_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU235>, <ore:dustPlastic>, <fluid:heu_235_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEN236>, <ore:dustPlastic>, <fluid:len_236_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEN236>, <ore:dustPlastic>, <fluid:hen_236_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP239>, <ore:dustPlastic>, <fluid:lep_239_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP239>, <ore:dustPlastic>, <fluid:hep_239_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP241>, <ore:dustPlastic>, <fluid:lep_241_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP241>, <ore:dustPlastic>, <fluid:hep_241_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX239>, <ore:dustPlastic>, <fluid:mix_239_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX241>, <ore:dustPlastic>, <fluid:mix_241_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEA242>, <ore:dustPlastic>, <fluid:lea_242_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEA242>, <ore:dustPlastic>, <fluid:hea_242_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm243>, <ore:dustPlastic>, <fluid:lecm_243_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm243>, <ore:dustPlastic>, <fluid:hecm_243_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm245>, <ore:dustPlastic>, <fluid:lecm_245_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm245>, <ore:dustPlastic>, <fluid:hecm245_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm247>, <ore:dustPlastic>, <fluid:lecm_247_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm247>, <ore:dustPlastic>, <fluid:hecm_247_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEB248>, <ore:dustPlastic>, <fluid:leb_248_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEB248>, <ore:dustPlastic>, <fluid:heb_248_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf249>, <ore:dustPlastic>, <fluid:lecf_249_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf249>, <ore:dustPlastic>, <fluid:hecf_249_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf251>, <ore:dustPlastic>, <fluid:lecf_251_fluoride>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf251>, <ore:dustPlastic>, <fluid:hecf_251_fluoride>*144, 1.0, 1.0, 0.03);
 
 //Isotope Melting
 
