@@ -635,6 +635,24 @@ mixer
 
 mixer
     .recipeBuilder()
+    .inputs(<ore:dustLazurite>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:lapis_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSodalite>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:lapis_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
     .inputs(<ore:dustGold>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:gold_nak>*144])
