@@ -816,7 +816,7 @@ mixer
 mixer
     .recipeBuilder()
 	.fluidInputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*1000])
-	.fluidOutputs([<fluid:liquid_nitrgen_nak>*144])
+	.fluidOutputs([<fluid:liquid_nitrogen_nak>*144])
     .duration(10)
     .EUt(256)
     .buildAndRegister();
