@@ -116,7 +116,7 @@ for input in listIsotopes {
 electrolyzer
     .recipeBuilder()
     .inputs(isotopeCarbide*1)
-    .outputs(isotopeRaw*1, <ore:dustGraphite>*1)
+    .outputs(isotopeRaw*1, <ore:dustGraphite>.firstItem*1)
     .duration(200)
     .EUt(600)
     .buildAndRegister();
@@ -124,7 +124,7 @@ electrolyzer
 electrolyzer
     .recipeBuilder()
     .inputs(isotopeZA*1)
-    .outputs(isotopeRaw*1, <ore:dustZirconium>*1)
+    .outputs(isotopeRaw*1, <ore:dustZirconium>.firstItem*1)
     .duration(200)
     .EUt(600)
     .buildAndRegister();
