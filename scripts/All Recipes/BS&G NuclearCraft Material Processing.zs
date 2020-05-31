@@ -161,33 +161,33 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:ingotMIX241Carbide>*9, <ore:dustGraph
 mods.nuclearcraft.Extractor.removeRecipeWithInput(<nuclearcraft:ground_cocoa_nibs>);
 
 //Fuel Pellet Melting
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotTBU>, <ore:dustPlastic>.firstItem, <fluid:tbu>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU233>, <ore:dustPlastic>.firstItem, <fluid:leu_233>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU233>, <ore:dustPlastic>.firstItem, <fluid:heu_233>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEU235>, <ore:dustPlastic>.firstItem, <fluid:leu_235>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEU235>, <ore:dustPlastic>.firstItem, <fluid:heu_235>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEN236>, <ore:dustPlastic>.firstItem, <fluid:len_236>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEN236>, <ore:dustPlastic>.firstItem, <fluid:hen_236>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP239>, <ore:dustPlastic>.firstItem, <fluid:lep_239>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP239>, <ore:dustPlastic>.firstItem, <fluid:hep_239>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEP241>, <ore:dustPlastic>.firstItem, <fluid:lep_241>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEP241>, <ore:dustPlastic>.firstItem, <fluid:hep_241>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX239>, <ore:dustPlastic>.firstItem, <fluid:mix_239>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotMIX241>, <ore:dustPlastic>.firstItem, <fluid:mix_241>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEA242>, <ore:dustPlastic>.firstItem, <fluid:lea_242>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEA242>, <ore:dustPlastic>.firstItem, <fluid:hea_242>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm243>, <ore:dustPlastic>.firstItem, <fluid:lecm_243>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm243>, <ore:dustPlastic>.firstItem, <fluid:hecm_243>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm245>, <ore:dustPlastic>.firstItem, <fluid:lecm_245>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm245>, <ore:dustPlastic>.firstItem, <fluid:hecm245>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECm247>, <ore:dustPlastic>.firstItem, <fluid:lecm_247>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECm247>, <ore:dustPlastic>.firstItem, <fluid:hecm_247>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLEB248>, <ore:dustPlastic>.firstItem, <fluid:leb_248>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHEB248>, <ore:dustPlastic>.firstItem, <fluid:heb_248>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf249>, <ore:dustPlastic>.firstItem, <fluid:lecf_249>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf249>, <ore:dustPlastic>.firstItem, <fluid:hecf_249>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotLECf251>, <ore:dustPlastic>.firstItem, <fluid:lecf_251>*144, 1.0, 1.0, 0.03);
-mods.nuclearcraft.Enricher.addRecipe(<ore:ingotHECf251>, <ore:dustPlastic>.firstItem, <fluid:hecf_251>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotTBU>, <ore:dustPlastic>.firstItem, <fluid:tbu>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEU233>, <ore:dustPlastic>.firstItem, <fluid:leu_233>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEU233>, <ore:dustPlastic>.firstItem, <fluid:heu_233>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEU235>, <ore:dustPlastic>.firstItem, <fluid:leu_235>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEU235>, <ore:dustPlastic>.firstItem, <fluid:heu_235>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEN236>, <ore:dustPlastic>.firstItem, <fluid:len_236>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEN236>, <ore:dustPlastic>.firstItem, <fluid:hen_236>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEP239>, <ore:dustPlastic>.firstItem, <fluid:lep_239>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEP239>, <ore:dustPlastic>.firstItem, <fluid:hep_239>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEP241>, <ore:dustPlastic>.firstItem, <fluid:lep_241>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEP241>, <ore:dustPlastic>.firstItem, <fluid:hep_241>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotMIX239>, <ore:dustPlastic>.firstItem, <fluid:mix_239>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotMIX241>, <ore:dustPlastic>.firstItem, <fluid:mix_241>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEA242>, <ore:dustPlastic>.firstItem, <fluid:lea_242>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEA242>, <ore:dustPlastic>.firstItem, <fluid:hea_242>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLECm243>, <ore:dustPlastic>.firstItem, <fluid:lecm_243>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECm243>, <ore:dustPlastic>.firstItem, <fluid:hecm_243>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLECm245>, <ore:dustPlastic>.firstItem, <fluid:lecm_245>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECm245>, <ore:dustPlastic>.firstItem, <fluid:hecm245>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLECm247>, <ore:dustPlastic>.firstItem, <fluid:lecm_247>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECm247>, <ore:dustPlastic>.firstItem, <fluid:hecm_247>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLEB248>, <ore:dustPlastic>.firstItem, <fluid:leb_248>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHEB248>, <ore:dustPlastic>.firstItem, <fluid:heb_248>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLECf249>, <ore:dustPlastic>.firstItem, <fluid:lecf_249>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECf249>, <ore:dustPlastic>.firstItem, <fluid:hecf_249>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotLECf251>, <ore:dustPlastic>.firstItem, <fluid:lecf_251>*144, 1.0, 1.0, 0.03);
+mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECf251>, <ore:dustPlastic>.firstItem, <fluid:hecf_251>*144, 1.0, 1.0, 0.03);
 
 //Isotope Melting
 

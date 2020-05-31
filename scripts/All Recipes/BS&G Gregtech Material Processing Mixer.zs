@@ -664,7 +664,7 @@ mixer
     .recipeBuilder()
     .inputs(<ore:dustEndstone>)
 	.fluidInputs([<fluid:nak>*144])
-	.fluidOutputs([<fluid:endstone_nak>*144])
+	.fluidOutputs([<fluid:end_stone_nak>*144])
     .duration(10)
     .EUt(256)
     .buildAndRegister();
@@ -779,15 +779,6 @@ mixer
 
 mixer
     .recipeBuilder()
-    .inputs(<ore:dust>)
-	.fluidInputs([<fluid:nak>*144])
-	.fluidOutputs([<fluid:_nak>*144])
-    .duration(10)
-    .EUt(256)
-    .buildAndRegister();
-
-mixer
-    .recipeBuilder()
     .inputs(<ore:dustFluorite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:fluorite_nak>*144])
@@ -824,16 +815,16 @@ mixer
 
 mixer
     .recipeBuilder()
-	.fluidInputs([<fluid:nak>*144, <fluid:nitrogen>*1000])
-	.fluidOutputs([<fluid:nitrgen_nak>*144])
+	.fluidInputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*1000])
+	.fluidOutputs([<fluid:liquid_nitrgen_nak>*144])
     .duration(10)
     .EUt(256)
     .buildAndRegister();
 
 mixer
     .recipeBuilder()
-	.fluidInputs([<fluid:nak>*144, <fluid:helium>*1000])
-	.fluidOutputs([<fluid:helium_nak>*144])
+	.fluidInputs([<fluid:nak>*144, <fluid:liquid_helium>*100])
+	.fluidOutputs([<fluid:liquid_helium_nak>*144])
     .duration(10)
     .EUt(256)
     .buildAndRegister();
