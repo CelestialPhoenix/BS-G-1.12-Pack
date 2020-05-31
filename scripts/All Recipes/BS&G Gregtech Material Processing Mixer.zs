@@ -1,6 +1,10 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing Mixer.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -538,6 +542,7 @@ mixer
     .buildAndRegister();
 
 #--Nuclearcraft--
+#Alloys
 mixer
     .recipeBuilder()
     .inputs(<ore:dustSilicon>.firstItem*1, <ore:dustClay>.firstItem*1)
@@ -553,6 +558,302 @@ mixer
     .outputs(<ore:dustSiCSiCCMC>.firstItem*8)
     .duration(200)
     .EUt(8)
+    .buildAndRegister();
+	
+#Nak Flavours
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustIron>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:iron_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustRedstone>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:redstone_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNetherQuartz>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:quartz_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustCertusQuartz>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:quartz_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustObsidian>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:obsidian_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustNetherbrick>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:nether_brick_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustGlowstone>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:glowstone_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustLapis>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:lapis_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustGold>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:gold_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustPrismarine>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:prismarine_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSlime>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:slime_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustEndstone>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:endstone_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustPurpur>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:purpur_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustDiamond>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:diamond_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustEmerald>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:emerald_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustCopper>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:copper_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustTin>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:tin_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustLead>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:lead_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustBoron>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:boron_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustLithium>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:lithium_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustMagnesium>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:magnesium_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustManganese>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:manganese_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustAluminium>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:aluminum_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustSilver>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:silver_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dust>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustFluorite>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:fluorite_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustVilliaumite>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:villiaumite_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustCarobbiite>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:carobbiite_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustArsenic>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:arsenic_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+	.fluidInputs([<fluid:nak>*144, <fluid:nitrogen>*1000])
+	.fluidOutputs([<fluid:nitrgen_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+	.fluidInputs([<fluid:nak>*144, <fluid:helium>*1000])
+	.fluidOutputs([<fluid:helium_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustEnderium>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:enderium_nak>*144])
+    .duration(10)
+    .EUt(256)
+    .buildAndRegister();
+
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustCryotheum>)
+	.fluidInputs([<fluid:nak>*144])
+	.fluidOutputs([<fluid:cryotheum_nak>*144])
+    .duration(10)
+    .EUt(256)
     .buildAndRegister();
 
 #Gunpowder

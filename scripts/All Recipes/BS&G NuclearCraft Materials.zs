@@ -1,5 +1,5 @@
 #Name: Blood Sweat & Gears NuclearCraft Machines.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
