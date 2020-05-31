@@ -152,6 +152,22 @@ alloysmelter
     .buildAndRegister();
 }
 
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotTBU>*1, <ore:dustGraphite>*1)
+    .outputs(<ore:ingotTBUCarbide>.firstItem*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotTBU>*1, <ore:dustZirconium>*1)
+    .outputs(<ore:ingotTBUZA>.firstItem*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
 #-Railcraft-
 #Glass (leaded)
 alloysmelter

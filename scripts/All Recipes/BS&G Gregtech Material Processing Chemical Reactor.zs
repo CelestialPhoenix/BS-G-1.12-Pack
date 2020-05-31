@@ -470,6 +470,33 @@ ChemReactor
     .buildAndRegister();
 }
 
+ChemReactor
+    .recipeBuilder()
+    .inputs(<ore:ingotTBU>*1)
+	.fluidInputs(<liquid:oxygen>*1000)
+    .outputs(<ore:ingotTBUOxide>.firstItem*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+    .inputs(<ore:ingotTBU>*1)
+	.fluidInputs(<liquid:aerotheum>*200)
+    .outputs(<ore:ingotTBUOxide>.firstItem*1)
+    .duration(20)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+    .inputs(<ore:ingotTBU>*1)
+	.fluidInputs(<liquid:nitrogen>*1000)
+    .outputs(<ore:ingotTBUNitride>.firstItem*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
 #---Quantum Circuits---
 ChemReactor.findRecipe(1920, [<metaitem:quantumeye>*2, <metaitem:wafer.nano_central_processing_unit>], [<liquid:gallium_arsenide>*288]).remove();
 ChemReactor.findRecipe(1920, [<ore:cableGtSingleSuperconductor>.firstItem*8, <metaitem:wafer.nano_central_processing_unit>], null).remove();
