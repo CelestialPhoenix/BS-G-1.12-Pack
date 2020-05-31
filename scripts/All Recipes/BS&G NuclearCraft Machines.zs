@@ -40,7 +40,7 @@ recipes.addShaped(<nuclearcraft:nuclear_furnace>, [
 
 #Seperator
 //To be removed
-//Item ib 2 Item out
+//Item in 2 Item out
 
 #Decay Hastener
 recipes.remove(<nuclearcraft:decay_hastener>); 
@@ -120,8 +120,11 @@ recipes.addShaped(<nuclearcraft:extractor>, [
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Centrifuge
-//To be removed
-//Fluid in 4 Fluid out
+recipes.remove(<nuclearcraft:centrifuge>); 
+recipes.addShaped(<nuclearcraft:centrifuge>, [
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
+[<ore:pumpEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>, <ore:pipeMediumTitanium>],
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Rock Crusher
 //To be removed
