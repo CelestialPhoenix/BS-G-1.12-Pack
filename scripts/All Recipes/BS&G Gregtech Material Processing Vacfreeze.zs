@@ -22,6 +22,65 @@ vacuum_freezer
 #5mb/t Gelid Cyroetheum use
 #2x processing speed, 4x less energy
 
+#-NC Supercooler-
+#Emergency Coolant
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}))
+	.fluidInputs([<liquid:emergency_coolant_heated> * 8000])
+	.fluidOutputs([<liquid:emergency_coolant> * 25])
+    .outputs(<metaitem:fluid_cell>)
+    .duration(800)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+	.fluidInputs([<liquid:emergency_coolant_heated> * 1000])
+	.fluidOutputs([<liquid:emergency_coolant> * 1000])
+    .duration(1600)
+    .EUt(480)
+    .buildAndRegister();
+
+#Nitrogen
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}))
+	.fluidInputs([<liquid:nitrogen> * 8000])
+	.fluidOutputs([<liquid:liquid_nitrogen> * 25])
+    .outputs(<metaitem:fluid_cell>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+	.fluidInputs([<liquid:nitrogen> * 8000])
+	.fluidOutputs([<liquid:liquid_nitrogen> * 25])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
+#Helium
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cryotheum", Amount: 1000}}))
+	.fluidInputs([<liquid:helium> * 8000])
+	.fluidOutputs([<liquid:liquid_helium> * 25])
+    .outputs(<metaitem:fluid_cell>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+	.fluidInputs([<liquid:helium> * 8000])
+	.fluidOutputs([<liquid:liquid_helium> * 25])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+
+#-Ingot Freezing-
 #SicSic CMC
 vacuum_freezer.findRecipe(120, [<ore:ingotHotSiCSiCCMC>.firstItem], null).remove();
 vacuum_freezer
