@@ -30,6 +30,7 @@ recipes.remove(<nuclearcraft:rad_shielding:2>); //Heavy
 #Fuel Pellets
 var fuelPellet as string[] = [
 	"U233",
+	"U235",
 	"N236",
 	"P239",
 	"P241",
