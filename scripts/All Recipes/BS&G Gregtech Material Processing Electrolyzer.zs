@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears Gregtech Materials Processing Electrolyzer---.zs
-#Author: PhoePhoe, The awesome folks on the GT:CE discord
+#Author: PhoePhoe, The awesome folks on the GT:CE discord, FTB:I dev team
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
@@ -74,4 +77,74 @@ electrolyzer
 
 #Abyssalcraft
 electrolyzer.findRecipe(60, [<ore:dustAbyssalstone>.firstItem*22], null).remove();
+
+#---Nuclearcraft---
+#Isotope Flavours
+#This awesome looping script was modified from FTB interactions
+var listIsotopes as string[] = [
+	"Uranium233",
+	"Uranium235",
+	"Uranium238",
+	"Neptunium236",
+	"Neptunium237",
+	"Plutonium238",
+	"Plutonium239",
+	"Plutonium241",
+	"Plutonium242",
+	"Americium241",
+	"Americium242",
+	"Americium243",
+	"Curium243",
+	"Curium245",
+	"Curium246",
+	"Curium247",
+	"Berkelium247",
+	"Berkelium248",
+	"Californium249",
+	"Californium250",
+	"Californium251",
+	"Californium252",
+	];
+
+for input in listIsotopes {
+	var isotopeRaw as IItemStack = oreDict["ingot"~input].firstItem;
+	var isotopeCarbide as IItemStack = oreDict["ingot"~input~"Carbide"].firstItem;
+	var isotopeOxide as IItemStack = oreDict["ingot"~input~"Oxide"].firstItem;
+	var isotopeNitride as IItemStack = oreDict["ingot"~input~"Nitride"].firstItem;
+	var isotopeZA as IItemStack = oreDict["ingot"~input~"ZA"].firstItem;
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(isotopeCarbide*1)
+    .outputs(isotopeRaw*1, <ore:dustGraphite>*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(isotopeZA*1)
+    .outputs(isotopeRaw*1, <ore:dustZirconium>*1)
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(isotopeOxide*1)
+    .outputs(isotopeRaw*1)
+	.fluidOutputs([<liquid:oxygen>*1000])
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+    .inputs(isotopeNitride*1)
+    .outputs(isotopeRaw*1)
+	.fluidOutputs([<liquid:nitrogen>*1000])
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+}
 

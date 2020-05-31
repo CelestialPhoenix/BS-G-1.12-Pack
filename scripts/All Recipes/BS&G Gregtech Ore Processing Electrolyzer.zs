@@ -8,7 +8,6 @@ print("Hello Boys- I'm Baaaaack!!!");
 val electrolyzer as RecipeMap = RecipeMap.getByName("electrolyzer");
 
 #---Ore Dust---
-
 electrolyzer
     .recipeBuilder()
     .inputs(<ore:dustZircon>.firstItem*6)
@@ -17,3 +16,4 @@ electrolyzer
     .duration(720)
     .EUt(60)
     .buildAndRegister();
+
