@@ -77,7 +77,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustIron>)
+    .outputs(<ore:dustIron>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:iron_nak>*144])
     .duration(10)
@@ -86,7 +86,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustRedstone>)
+    .outputs(<ore:dustRedstone>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:redstone_nak>*144])
     .duration(10)
@@ -95,7 +95,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustNetherQuartz>)
+    .outputs(<ore:dustSiliconDioxide>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:quartz_nak>*144])
     .duration(10)
@@ -104,16 +104,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustCertusQuartz>)
-	.fluidOutputs([<fluid:nak>*144])
-	.fluidInputs([<fluid:quartz_nak>*144])
-    .duration(10)
-    .EUt(256)
-    .buildAndRegister();
-
-centrifuge
-    .recipeBuilder()
-    .outputs(<ore:dustObsidian>)
+    .outputs(<ore:dustObsidian>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:obsidian_nak>*144])
     .duration(10)
@@ -122,7 +113,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustNetherbrick>)
+    .outputs(<ore:dustNetherbrick>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:nether_brick_nak>*144])
     .duration(10)
@@ -131,7 +122,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustGlowstone>)
+    .outputs(<ore:dustGlowstone>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:glowstone_nak>*144])
     .duration(10)
@@ -140,7 +131,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustLapis>)
+    .outputs(<ore:dyeBlue>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:lapis_nak>*144])
     .duration(10)
@@ -149,25 +140,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustLazurite>)
-	.fluidOutputs([<fluid:nak>*144])
-	.fluidInputs([<fluid:lapis_nak>*144])
-    .duration(10)
-    .EUt(256)
-    .buildAndRegister();
-
-centrifuge
-    .recipeBuilder()
-    .outputs(<ore:dustSodalite>)
-	.fluidOutputs([<fluid:nak>*144])
-	.fluidInputs([<fluid:lapis_nak>*144])
-    .duration(10)
-    .EUt(256)
-    .buildAndRegister();
-
-centrifuge
-    .recipeBuilder()
-    .outputs(<ore:dustGold>)
+    .outputs(<ore:dustGold>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:gold_nak>*144])
     .duration(10)
@@ -176,7 +149,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustPrismarine>)
+    .outputs(<ore:dustPrismarine>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:prismarine_nak>*144])
     .duration(10)
@@ -185,7 +158,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustSlime>)
+    .outputs(<ore:dustSlime>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:slime_nak>*144])
     .duration(10)
@@ -194,7 +167,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustEndstone>)
+    .outputs(<ore:dustEndstone>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:end_stone_nak>*144])
     .duration(10)
@@ -203,7 +176,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustPurpur>)
+    .outputs(<ore:dustPurpur>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:purpur_nak>*144])
     .duration(10)
@@ -212,7 +185,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustDiamond>)
+    .outputs(<ore:dustDiamond>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:diamond_nak>*144])
     .duration(10)
@@ -221,7 +194,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustEmerald>)
+    .outputs(<ore:dustEmerald>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:emerald_nak>*144])
     .duration(10)
@@ -230,7 +203,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustCopper>)
+    .outputs(<ore:dustCopper>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:copper_nak>*144])
     .duration(10)
@@ -239,7 +212,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustTin>)
+    .outputs(<ore:dustTin>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:tin_nak>*144])
     .duration(10)
@@ -248,7 +221,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustLead>)
+    .outputs(<ore:dustLead>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:lead_nak>*144])
     .duration(10)
@@ -257,7 +230,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustBoron>)
+    .outputs(<ore:dustBoron>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:boron_nak>*144])
     .duration(10)
@@ -266,7 +239,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustLithium>)
+    .outputs(<ore:dustLithium>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:lithium_nak>*144])
     .duration(10)
@@ -275,7 +248,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustMagnesium>)
+    .outputs(<ore:dustMagnesium>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:magnesium_nak>*144])
     .duration(10)
@@ -284,7 +257,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustManganese>)
+    .outputs(<ore:dustManganese>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:manganese_nak>*144])
     .duration(10)
@@ -293,7 +266,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustAluminium>)
+    .outputs(<ore:dustAluminium>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:aluminum_nak>*144])
     .duration(10)
@@ -302,7 +275,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustSilver>)
+    .outputs(<ore:dustSilver>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:silver_nak>*144])
     .duration(10)
@@ -311,7 +284,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustFluorite>)
+    .outputs(<ore:dustFluorite>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:fluorite_nak>*144])
     .duration(10)
@@ -320,7 +293,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustVilliaumite>)
+    .outputs(<ore:dustVilliaumite>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:villiaumite_nak>*144])
     .duration(10)
@@ -329,7 +302,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustCarobbiite>)
+    .outputs(<ore:dustCarobbiite>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:carobbiite_nak>*144])
     .duration(10)
@@ -338,7 +311,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustArsenic>)
+    .outputs(<ore:dustArsenic>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:arsenic_nak>*144])
     .duration(10)
@@ -347,7 +320,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-	.fluidOutputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*1000])
+	.fluidOutputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*100])
 	.fluidInputs([<fluid:liquid_nitrogen_nak>*144])
     .duration(10)
     .EUt(256)
@@ -363,7 +336,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustEnderium>)
+    .outputs(<ore:dustEnderium>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:enderium_nak>*144])
     .duration(10)
@@ -372,7 +345,7 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-    .outputs(<ore:dustCryotheum>)
+    .outputs(<ore:dustCryotheum>.firstItem)
 	.fluidOutputs([<fluid:nak>*144])
 	.fluidInputs([<fluid:cryotheum_nak>*144])
     .duration(10)
