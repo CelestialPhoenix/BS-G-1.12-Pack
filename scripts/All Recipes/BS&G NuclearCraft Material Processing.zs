@@ -268,6 +268,42 @@ mods.nuclearcraft.SaltMixer.addRecipe(<fluid:hecf_251>*144, <fluid:fluorine>*100
 
 #--Centrifuge//Molten Fuel Reprocessor--
 //Clear out old recipes
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:boron>*192);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:lithium>*160);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:redstone_ethanol>*250);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:iron_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:redstone_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:quartz_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:obsidian_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:nether_brick_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:glowstone_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:lapis_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:gold_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:prismarine_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:slime_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:end_stone_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:purpur_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:diamond_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:emerald_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:copper_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:tin_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:lead_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:boron_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:lithium_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:magnesium_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:manganese_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:aluminum_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:silver_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:fluorite_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:villiaumite_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:carobbiite_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:arsenic_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:liquid_nitrogen_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:liquid_helium_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:enderium_nak>*576);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:cryotheum_nak>*576);
+
+//Replacing 2 stages with 1
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:depleted_tbu_fluoride_flibe>*144);
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:depleted_leu_233_fluoride_flibe>*144);
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:depleted_heu_233_fluoride_flibe>*144);
