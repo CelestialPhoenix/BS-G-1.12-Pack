@@ -45,15 +45,15 @@ recipes.addShaped(<nuclearcraft:nuclear_furnace>, [
 #Decay Hastener
 recipes.remove(<nuclearcraft:decay_hastener>); 
 recipes.addShaped(<nuclearcraft:decay_hastener>, [
-[<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>],
+[<ore:platingElite>, <ore:shieldingHeavy>, <ore:platingElite>],
 [<ore:shieldingHeavy>, <ore:hullHV>, <ore:shieldingHeavy>],
-[<ore:platingDU>, <ore:shieldingHeavy>, <ore:platingDU>]]);
+[<ore:platingElite>, <ore:shieldingHeavy>, <ore:platingElite>]]);
 
 #Fuel Reprocessor
 recipes.remove(<nuclearcraft:fuel_reprocessor>); 
 recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [
 [<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>],
-[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:robotarmEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
+[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:robotarmIV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
 [<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>]]);
 
 #Alloy Furnace
@@ -80,9 +80,9 @@ recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [
 //Rework into 'Solid Fuel Packager'
 recipes.remove(<nuclearcraft:assembler>); 
 recipes.addShaped(<nuclearcraft:assembler>, [
-[<ore:platingAdvanced>, <ore:circuitElite>, <ore:platingAdvanced>],
+[<ore:platingAdvanced>, <ore:circuitExtreme>, <ore:platingAdvanced>],
 [<ore:robotarmEV>, <meta_tile_entity:gregtech:assembler.ev>, <ore:robotarmEV>],
-[<ore:platingAdvanced>, <ore:circuitElite>, <ore:platingAdvanced>]]);
+[<ore:platingAdvanced>, <ore:circuitExtreme>, <ore:platingAdvanced>]]);
 
 #Ingot Former- Molten Fuel Casting Unit
 recipes.remove(<nuclearcraft:ingot_former>); 
@@ -119,14 +119,14 @@ recipes.addShaped(<nuclearcraft:salt_mixer>, [
 recipes.remove(<nuclearcraft:extractor>); 
 recipes.addShaped(<nuclearcraft:extractor>, [
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
-[<ore:robotarmEV>, <meta_tile_entity:gregtech:fluid_extractor.ev>, <ore:pipeSmallTitanium>],
+[<ore:robotarmEV>, <meta_tile_entity:gregtech:fluid_extractor.ev>, <ore:pipeMediumTitanium>],
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Centrifuge- Reworked as molten fuel reprocessor
 recipes.remove(<nuclearcraft:centrifuge>); 
 recipes.addShaped(<nuclearcraft:centrifuge>, [
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
-[<ore:pumpEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>, <ore:pipeMediumTitanium>],
+[<ore:pumpIV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>, <ore:pipeMediumTitanium>],
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Rock Crusher
