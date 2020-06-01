@@ -52,9 +52,9 @@ recipes.addShaped(<nuclearcraft:decay_hastener>, [
 #Fuel Reprocessor
 recipes.remove(<nuclearcraft:fuel_reprocessor>); 
 recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [
-[<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>],
-[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:robotarmIV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
-[<ore:platingDU>, <ore:circuitElite>, <ore:platingDU>]]);
+[<ore:platingDU>, <ore:plateTitanium>, <ore:platingDU>],
+[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:conveyorEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
+[<ore:platingDU>, <ore:plateTitanium>, <ore:platingDU>]]);
 
 #Alloy Furnace
 //To be removed
@@ -126,7 +126,7 @@ recipes.addShaped(<nuclearcraft:extractor>, [
 recipes.remove(<nuclearcraft:centrifuge>); 
 recipes.addShaped(<nuclearcraft:centrifuge>, [
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
-[<ore:pumpIV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>, <ore:pipeMediumTitanium>],
+[<meta_tile_entity:gregtech:centrifuge.ev>, <ore:pumpEV>, <meta_tile_entity:gregtech:thermal_centrifuge.ev>],
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Rock Crusher
