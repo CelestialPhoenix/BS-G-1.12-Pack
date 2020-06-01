@@ -12,5 +12,9 @@ tile.nuclearcraft.extractor.desc=Melts down nuclear fuels.
 nuclearcraft.container.extractor=Molten Fuel Crucible
 
 tile.nuclearcraft.centrifuge.name=Molten Fuel Reprocessor
-tile.nuclearcraft.centrifuge.desc=Extracts materials from depleted molten fuel.
+tile.nuclearcraft.centrifuge.desc=Extracts isotopes from depleted molten fuel.
 nuclearcraft.container.centrifuge=Molten Fuel Reprocessor
+
+tile.nuclearcraft.ingot_former.name=Molten Isotope Casting Unit
+tile.nuclearcraft.ingot_former.desc=Reforms molten isotopes into solid mateials
+nuclearcraft.container.ingot_former=Molten Isotope Casting Unit
