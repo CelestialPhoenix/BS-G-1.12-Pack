@@ -439,7 +439,7 @@ mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotNickel>.firstItem
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotSilver>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotElectrum>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotSteel>.firstItem);
-mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<thermalfoundation:material:132>.firstItem);
+mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<thermalfoundation:material:132>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotPlatinum>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotIridium>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotInvar>.firstItem);
@@ -558,8 +558,8 @@ mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotUnsweetenedChocol
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotDarkChocolate>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotChocolate>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:dustSugar>.firstItem);
-mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<nuclearcraft:geletin>);
-mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotMarshmallow>.firstItem);
+mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<nuclearcraft:gelatin>);
+mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotMarshmallow>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingot>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingot>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingot>.firstItem);
