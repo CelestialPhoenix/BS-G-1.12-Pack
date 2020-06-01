@@ -84,9 +84,12 @@ recipes.addShaped(<nuclearcraft:assembler>, [
 [<ore:robotarmEV>, <meta_tile_entity:gregtech:assembler.ev>, <ore:robotarmEV>],
 [<ore:platingAdvanced>, <ore:circuitElite>, <ore:platingAdvanced>]]);
 
-#Ingot Former
-//To be removed
-//Fluid in Item out
+#Ingot Former- Molten Fuel Casting Unit
+recipes.remove(<nuclearcraft:ingot_former>); 
+recipes.addShaped(<nuclearcraft:ingot_former>, [
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
+[<ore:pumpEV>, <meta_tile_entity:gregtech:autoclave.ev>, <ore:robotarmEV>],
+[<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
 #Pressurizer
 //To be removed
@@ -119,7 +122,7 @@ recipes.addShaped(<nuclearcraft:extractor>, [
 [<ore:robotarmEV>, <meta_tile_entity:gregtech:fluid_extractor.ev>, <ore:pipeSmallTitanium>],
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>]]);
 
-#Centrifuge
+#Centrifuge- Reworked as molten fuel reprocessor
 recipes.remove(<nuclearcraft:centrifuge>); 
 recipes.addShaped(<nuclearcraft:centrifuge>, [
 [<gregtech:metal_casing:2>, <ore:platingElite>, <gregtech:metal_casing:2>],
