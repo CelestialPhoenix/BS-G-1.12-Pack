@@ -148,3 +148,13 @@ electrolyzer
     .buildAndRegister();
 }
 
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:nak>*144])
+	.outputs([<ore:dustSodium>.firstItem*1, <ore:dustPotassium>.firstItem*1])
+    .duration(100)
+    .EUt(60)
+    .buildAndRegister();
+
+#Nak Recycling
+
