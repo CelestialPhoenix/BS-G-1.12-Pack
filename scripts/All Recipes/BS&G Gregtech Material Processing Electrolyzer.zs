@@ -151,7 +151,7 @@ electrolyzer
 electrolyzer
     .recipeBuilder()
 	.fluidInputs([<fluid:flibe>*432])
-	.outputs([<ore:dustLithiumFlouride>.firstItem*2, <ore:dustBerylliumFluoride>.firstItem*1])
+	.outputs([<ore:dustLithiumFluoride>.firstItem*2, <ore:dustBerylliumFluoride>.firstItem*1])
     .duration(100)
     .EUt(120)
     .buildAndRegister();
