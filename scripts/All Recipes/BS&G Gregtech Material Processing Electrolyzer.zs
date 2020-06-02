@@ -150,10 +150,11 @@ electrolyzer
 
 electrolyzer
     .recipeBuilder()
-	.fluidInputs([<fluid:flibe>*432])
-	.outputs([<ore:dustLithiumFluoride>.firstItem*2, <ore:dustBerylliumFluoride>.firstItem*1])
-    .duration(100)
-    .EUt(120)
+	.fluidInputs([<fluid:flibe>*1008])
+	.outputs([<ore:dustLithium>.firstItem*2, <ore:dustBeryllium>.firstItem*1])
+	.fluidOutputs([<liquid:fluorine>*4000])
+    .duration(300)
+    .EUt(400)
     .buildAndRegister();
 
 #Nak Recycling
