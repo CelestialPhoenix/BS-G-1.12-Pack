@@ -411,6 +411,34 @@ ChemReactor
     .buildAndRegister();
 
 #--Nuclearcraft--
+#FLiBE stuff
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustLithium>*1)
+    .fluidInputs(<liquid:fluorine>*1000)
+	.outputs(<ore:dustLithiumFluoride>.firstItem*1)
+    .duration(10)
+    .EUt(120)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustBeryllium>*1)
+    .fluidInputs(<liquid:fluorine>*2000)
+	.outputs(<ore:dustBerylliumFluoride>.firstItem*1)
+    .duration(10)
+    .EUt(120)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustLithiumFluoride>*2, <ore:dustBerylliumFluoride>*1)
+	.fluidOutputs([<liquid:flibe>*432])
+    .duration(200)
+    .EUt(600)
+    .buildAndRegister();
+
+#Isotopes
 #This awesome looping script was modified from FTB interactions
 var listIsotopes as string[] = [
 	"Uranium233",

@@ -150,11 +150,17 @@ electrolyzer
 
 electrolyzer
     .recipeBuilder()
+	.fluidInputs([<fluid:flibe>*432])
+	.outputs([<ore:dustLithiumFlouride>.firstItem*2, <ore:dustBerylliumFluoride>.firstItem*1])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+#Nak Recycling
+electrolyzer
+    .recipeBuilder()
 	.fluidInputs([<fluid:nak>*144])
 	.outputs([<ore:dustSodium>.firstItem*1, <ore:dustPotassium>.firstItem*1])
     .duration(100)
     .EUt(60)
     .buildAndRegister();
-
-#Nak Recycling
-

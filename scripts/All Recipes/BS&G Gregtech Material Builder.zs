@@ -702,4 +702,7 @@ ingotSiliconCarbide.addFlags("GENERATE_PLATE", "DECOMPOSITION_BY_CENTRIFUGING");
 
 val ingotSiCSiCCMC = MaterialRegistry.createIngotMaterial(764, "si_c_si_c_c_m_c", 0x555550, "dull", 5, [<material:silicon>*1, <material:carbon>*1, <material:silicon>*1, <material:carbon>*1, <material:clay>*4], 3.5, 0, 0, 4500);
 
+val dustLithiumFluoride = MaterialRegistry.createDustMaterial(765, "lithium_fluoride", 0xBBBBBB, "shiny", 1, [<material:lithium>*1, <material:fluorine>*1]);
+
+val dustBerylliumFluoride = MaterialRegistry.createDustMaterial(766, "beryllium_fluoride", 0x888888, "dull", 1, [<material:beryllium>*1, <material:fluorine>*2]);
 
