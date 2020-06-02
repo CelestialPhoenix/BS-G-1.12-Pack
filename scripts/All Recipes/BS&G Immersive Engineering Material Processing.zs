@@ -56,6 +56,10 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:dustGold>, <ore:ingotSilver>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:ingotGold>, <ore:dustSilver>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:dustGold>, <ore:dustSilver>, 180);
+
+#Nuggets-ingot smelting
+mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTin>.firstItem*1, <ore:nuggetTin>*9, null, 200);
+
 #invar.
 #use the blast furnace. Noob ;)
 #magnalium

@@ -141,6 +141,7 @@ furnace.addRecipe(<ore:nuggetPolyvinylChloride>.firstItem*9, <ore:ingotPolyvinyl
 
 #--Ingot Smelting (from Nuggets)--
 #furnace.addRecipe(<ore:ingot>.firstItem, <ore:nugget>*9);
+/*
 furnace.addRecipe(<ore:ingotAmericium>.firstItem, <ore:nuggetAmericium>*9);
 furnace.addRecipe(<ore:ingotAntimony>.firstItem, <ore:nuggetAntimony>*9);
 furnace.addRecipe(<ore:ingotBarium>.firstItem, <ore:nuggetBarium>*9);
@@ -203,7 +204,7 @@ furnace.addRecipe(<ore:ingotThaumium>.firstItem, <ore:nuggetThaumium>*9);
 furnace.addRecipe(<ore:ingotVoidMetal>.firstItem, <ore:nuggetVoidMetal>*9);
 furnace.addRecipe(<ore:ingotBlueAlloy>.firstItem, <ore:nuggetBlueAlloy>*9);
 furnace.addRecipe(<ore:ingotPolyvinylChloride>.firstItem, <ore:nuggetPolyvinylChloride>*9);
-
+*/
 #--Recycling--
 #Vanilla
 furnace.addRecipe(<ore:dustRedstone>.firstItem*2, <minecraft:trapdoor>);
