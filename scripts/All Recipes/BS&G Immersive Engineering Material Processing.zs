@@ -58,7 +58,25 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2
 mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotElectrum>.firstItem*2, <ore:dustGold>, <ore:dustSilver>, 180);
 
 #Nuggets-ingot smelting
-mods.immersiveengineering.AlloySmelter.addRecipe(<ore:ingotTin>.firstItem*1, <ore:nuggetTin>*9, null, 200);
+var listBasicMetals as string[] = [
+	"Brass",
+	"Bronze",
+	"Copper",
+	"Gold",
+	"Iron",
+	"Lead",
+	"Nickel",
+	"Silver",
+	"Tin",
+	"Zinc",
+	];
+
+for input in listBasicMetals {
+    var Ingot as IItemStack = oreDict["ingot"~input].firstItem;
+    var Nugget as IItemStack = oreDict["nugget"~input].firstItem;
+	
+mods.immersiveengineering.AlloySmelter.addRecipe(Ingot*1, Nugget*1, Nugget*8, 200);
+}
 
 #invar.
 #use the blast furnace. Noob ;)
