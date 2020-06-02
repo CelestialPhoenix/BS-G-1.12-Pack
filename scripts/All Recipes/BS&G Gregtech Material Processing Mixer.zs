@@ -559,14 +559,14 @@ mixer
     .duration(200)
     .EUt(8)
     .buildAndRegister();
-	
+
 #Nak Flavours
 mixer
     .recipeBuilder()
     .inputs(<ore:dustIron>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:iron_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -575,7 +575,7 @@ mixer
     .inputs(<ore:dustRedstone>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:redstone_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -584,7 +584,7 @@ mixer
     .inputs(<ore:dustNetherQuartz>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:quartz_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -593,7 +593,7 @@ mixer
     .inputs(<ore:dustCertusQuartz>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:quartz_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -602,7 +602,7 @@ mixer
     .inputs(<ore:dustObsidian>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:obsidian_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -611,7 +611,7 @@ mixer
     .inputs(<ore:dustNetherbrick>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:nether_brick_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -620,7 +620,7 @@ mixer
     .inputs(<ore:dustGlowstone>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:glowstone_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -629,7 +629,7 @@ mixer
     .inputs(<ore:dustLapis>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -638,7 +638,7 @@ mixer
     .inputs(<ore:dustLazurite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -647,7 +647,7 @@ mixer
     .inputs(<ore:dustSodalite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -656,7 +656,7 @@ mixer
     .inputs(<ore:dustGold>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:gold_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -665,7 +665,7 @@ mixer
     .inputs(<ore:dustPrismarine>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:prismarine_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -674,7 +674,7 @@ mixer
     .inputs(<ore:dustSlime>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:slime_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -683,7 +683,7 @@ mixer
     .inputs(<ore:dustEndstone>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:end_stone_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -692,7 +692,7 @@ mixer
     .inputs(<ore:dustPurpur>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:purpur_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -701,7 +701,7 @@ mixer
     .inputs(<ore:dustDiamond>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:diamond_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -710,7 +710,7 @@ mixer
     .inputs(<ore:dustEmerald>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:emerald_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -719,7 +719,7 @@ mixer
     .inputs(<ore:dustCopper>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:copper_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -728,7 +728,7 @@ mixer
     .inputs(<ore:dustTin>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:tin_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -737,7 +737,7 @@ mixer
     .inputs(<ore:dustLead>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lead_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -746,7 +746,7 @@ mixer
     .inputs(<ore:dustBoron>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:boron_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -755,7 +755,7 @@ mixer
     .inputs(<ore:dustLithium>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lithium_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -764,7 +764,7 @@ mixer
     .inputs(<ore:dustMagnesium>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:magnesium_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -773,7 +773,7 @@ mixer
     .inputs(<ore:dustManganese>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:manganese_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -782,7 +782,7 @@ mixer
     .inputs(<ore:dustAluminium>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:aluminum_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -791,7 +791,7 @@ mixer
     .inputs(<ore:dustSilver>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:silver_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -800,7 +800,7 @@ mixer
     .inputs(<ore:dustFluorite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:fluorite_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -809,7 +809,7 @@ mixer
     .inputs(<ore:dustVilliaumite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:villiaumite_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -818,7 +818,7 @@ mixer
     .inputs(<ore:dustCarobbiite>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:carobbiite_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -827,7 +827,7 @@ mixer
     .inputs(<ore:dustArsenic>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:arsenic_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -835,7 +835,7 @@ mixer
     .recipeBuilder()
 	.fluidInputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*100])
 	.fluidOutputs([<fluid:liquid_nitrogen_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -843,7 +843,7 @@ mixer
     .recipeBuilder()
 	.fluidInputs([<fluid:nak>*144, <fluid:liquid_helium>*100])
 	.fluidOutputs([<fluid:liquid_helium_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -852,7 +852,7 @@ mixer
     .inputs(<ore:dustEnderium>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:enderium_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 
@@ -861,7 +861,7 @@ mixer
     .inputs(<ore:dustCryotheum>)
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:cryotheum_nak>*144])
-    .duration(10)
+    .duration(100)
     .EUt(256)
     .buildAndRegister();
 

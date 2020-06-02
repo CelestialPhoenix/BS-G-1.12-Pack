@@ -640,6 +640,12 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*36, <liquid:honey>*24
 mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*30, <liquid:honey>*20, [<ore:itemBiomass>], 256);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:biomass>*36, <liquid:honey>*24, [<ore:itemBiomass>.firstItem, <ore:dustTinyWood>], 256);
 
+#Nak
+mods.immersiveengineering.Mixer.addRecipe(<liquid:nak>*288, <liquid:ethanol>*100, [<ore:dustSodium>.firstItem, <ore:dustPotassium>], 200);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:nak>*288, <liquid:ethanol>*100, [<ore:dustSodium>.firstItem, <ore:ingotPotassium>], 600);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:nak>*288, <liquid:ethanol>*100, [<ore:ingotSodium>.firstItem, <ore:dustPotassium>], 600);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:nak>*288, <liquid:ethanol>*100, [<ore:ingotSodium>.firstItem, <ore:ingotPotassium>], 1000);
+
 #---Refinery---
 #mods.immersiveengineering.Refinery.addRecipe(<liquid:iron>, <liquid:water>, <liquid:lava>, 2048);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline>*60, <liquid:naphtha>*40, <liquid:benzene>*10, 5);
