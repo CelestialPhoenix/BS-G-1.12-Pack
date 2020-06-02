@@ -56,7 +56,7 @@ mixer
 mixer
     .recipeBuilder()
     .inputs(<ore:dustNetherrack>.firstItem*4, <ore:soulsand>.firstItem*2, <ore:magmacream>.firstItem*2, <ore:blockMagma>.firstItem)
-    .outputs(<contenttweaker:clayinfernal>*10)
+    .outputs(<contenttweaker:clayinfernal>*15)
     .duration(200)
     .EUt(8)
     .buildAndRegister();

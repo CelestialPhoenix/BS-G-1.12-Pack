@@ -130,7 +130,7 @@ recipes.addShapeless(<contenttweaker:claygrout>*2, [<ore:sand>, <ore:gravel>, <o
 recipes.addShapeless(<contenttweaker:claygrout>*8, [<ore:sand>, <ore:sand>, <ore:sand>, <ore:sand>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:gravel>, <ore:blockClay>]);
 recipes.addShapeless(<contenttweaker:claygrout>*4, [<tconstruct:soil:0>]);
 
-recipes.addShapeless(<contenttweaker:clayinfernal>*8, [<ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>, <ore:soulSand>, <ore:blockMagma>, <ore:soulSand>, <ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>]);
+recipes.addShapeless(<contenttweaker:clayinfernal>*12, [<ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>, <ore:soulSand>, <ore:blockMagma>, <ore:soulSand>, <ore:dustNetherrack>, <ore:magmacream>, <ore:dustNetherrack>]);
 
 recipes.addShapeless(<contenttweaker:claynether>*4, [<ore:dustNetherrack>, <ore:dustNetherrack>, <ore:soulSand>, <ore:dustNetherrack>, <ore:dustNetherrack>]);
 
