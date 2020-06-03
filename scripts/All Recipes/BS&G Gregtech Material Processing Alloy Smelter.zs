@@ -75,8 +75,8 @@ alloysmelter
     .buildAndRegister();
 
 #-RedAlloy-
-alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:ingotCopper>.firstItem*1], null).remove();
-alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:dustCopper>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:ingotAnnealedCopper>.firstItem*1], null).remove();
+alloysmelter.findRecipe(16, [<ore:dustRedstone>.firstItem*4, <ore:dustAnnealedCopper>.firstItem*1], null).remove();
 alloysmelter
     .recipeBuilder()
     .inputs(<ore:ingotCopper>.firstItem*1, <ore:dustRedstone>.firstItem*4)
