@@ -10,6 +10,29 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val ForgeHammer as RecipeMap = RecipeMap.getByName("forge_hammer");
 
+#--Poor Ores--
+var poorOres as string[] = [
+	"Iron",
+	"Diamond",
+	"Lapis",
+	"Nickel",
+	"Tin",
+	"Copper",
+	"Galena",
+	];
+
+for input in poorOres {
+	var orePoor as IItemStack  = oreDict["orePoor"~input];
+	var oreDust as IItemStack = oreDict["dustImpure"~input].firstItem;
+	
+ForgeHammer
+    .recipeBuilder()
+    .inputs(orePoor)
+	.chancedOutput(oreDust, 3500, 1000)
+    .duration(100)
+    .EUt(6)
+    .buildAndRegister();
+}	
 
 #================
 #-----Remove Old Recipes----

@@ -81,6 +81,31 @@ macerator
     .EUt(12)
     .buildAndRegister();
 
+#--Poor Ores--
+var poorOres as string[] = [
+	"Iron",
+	"Diamond",
+	"Lapis",
+	"Nickel",
+	"Tin",
+	"Copper",
+	"Galena",
+	];
+
+for input in poorOres {
+	var orePoor as IItemStack  = oreDict["orePoor"~input];
+	var oreDust as IItemStack = oreDict["dustImpure"~input].firstItem;
+	
+macerator
+    .recipeBuilder()
+    .inputs(orePoor)
+	.chancedOutput(oreDust, 5000, 1000)
+    .duration(200)
+    .EUt(6)
+    .buildAndRegister();
+}	
+
+
 #================
 #-----Remove Old Recipes----
 #================
