@@ -444,15 +444,15 @@ mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureWolfram
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureRedstone>.firstItem*15, <contenttweaker:orenetherredstone>);
 
 #Poor Ores
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureIron>.firstItem*1, <contenttweaker:orepoorgravelIron>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureIron>.firstItem*1, <contenttweaker:orepoorgraveliron>);
 #Poor black granite diamond
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureDiamond>.firstItem*1, <contenttweaker:orepoorgraveldiamond>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureLapis>.firstItem*1, <contenttweaker:orepoormarblelapis>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNickel>.firstItem*1, <contenttweaker:orepoorsandnickel>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNickel>.firstItem*1, <contenttweaker:orepoorredsandnickel>);
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureTin>.firstItem*1, <contenttweaker:orepoorgraveltin>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCopper>.firstItem*1, <contenttweaker:orepoorgravelcopper>);
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNickel>.firstItem*1, <contenttweaker:orepoorgravelgalena>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCopper>.firstItem*1, <contenttweaker:oregravelpoorcopper>);
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureNickel>.firstItem*1, <contenttweaker:orepoorgalena>);
 
 #Soul
 mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<ore:dustImpureCoal>.firstItem*3, <contenttweaker:oresoulcoal>);
