@@ -157,6 +157,8 @@ material.villiaumite=Villiaumite
 material.carobbiite=Carobbiite
 material.silicon_carbide=Silicon Carbide
 material.si_c_si_c_c_m_c=SiC-SiC CMC
+material.lithium_fluoride=Lithium Fluoride
+material.beryllium_fluoride=Beryllium Fluoride
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite

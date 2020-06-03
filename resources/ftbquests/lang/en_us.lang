@@ -1,0 +1,12 @@
+ftbquests=FTB Quests
+
+item.ftbquests.book.name=Guide Book
+item.ftbquests.book.tooltip=Right-click to open the guide.
+
+sidebar_button.ftbquests.quests=Guide
+key.ftbquests.quests=Open Guide
+
+ftbquests.quest=Quest
+ftbquests.quests=Quests
+ftbquests.quest.completed=Quest completed!
+
