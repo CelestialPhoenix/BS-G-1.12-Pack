@@ -3,6 +3,11 @@
 
 print("I'll cast my eye on you");
 
+#Coal
+mods.tconstruct.Melting.removeRecipe(<liquid:coal>, <ore:ingotGraphite>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:coal>, <ore:dustGraphite>.firstItem);
+mods.tconstruct.Melting.removeRecipe(<liquid:coal>, <ore:blockGraphite>.firstItem);
+
 #Constantan
 mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>);
 mods.tconstruct.Alloy.addRecipe(<liquid:cupronickel>*2, [<liquid:copper>*1, <liquid:nickel>*1]);
