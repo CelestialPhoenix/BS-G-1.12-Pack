@@ -30,7 +30,7 @@ theassembler.findRecipe(16, [<ore:plateDarmstadtium>.firstItem * 8, <metaitem:ci
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateWood>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_wood_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -41,7 +41,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:slabCobblestone>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_cobble_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -52,7 +52,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateStone>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_stone_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -63,7 +63,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateNetherQuartz>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_quartz_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -73,7 +73,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateCertusQuartz>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_quartz_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -84,7 +84,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateIron>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_iron_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -94,7 +94,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateWroughtIron>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_iron_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -105,7 +105,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateGold>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_gold_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -115,7 +115,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateRoseGold>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_gold_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -126,7 +126,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateSilver>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_clay_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -136,7 +136,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateSterlingSilver>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_clay_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -147,7 +147,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:slabSandstone>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_sandstone_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -158,7 +158,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs([<ore:plateRedstone>*3, <ore:dyeBlack>*3])
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_void_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -169,7 +169,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateObsidian>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_obsidian_item>*8)
 	.property("circuit", 6)
     .duration(180)
@@ -180,7 +180,7 @@ theassembler
 theassembler
     .recipeBuilder()
     .inputs(<ore:plateDiamond>*6)
-	.fluidInputs([<liquid:glass>*164])
+	.fluidInputs([<liquid:glass>*144])
     .outputs(<buildcrafttransport:pipe_diamond_item>*8)
 	.property("circuit", 6)
     .duration(180)
