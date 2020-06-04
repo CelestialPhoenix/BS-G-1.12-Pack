@@ -45,6 +45,48 @@ electricBF.findRecipe(120, [<ore:dustTinyBlackSteel>.firstItem], null).remove();
 #Oink!
 electricBF.findRecipe(120, [<ore:ingotPigIron>.firstItem], [<liquid:oxygen> * 1000]).remove();
 
+#--Boules--
+electricBF.findRecipe(120, [<ore:dustSilicon>.firstItem*32, <ore:dustTinyGallium>.firstItem*1, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:ingotSilicon>.firstItem*32)
+	.fluidInputs([<liquid:pyrotheum> * 4500])
+    .outputs(<metaitem:boule.silicon>)
+	.property("temperature", 1784)
+    .duration(2250)
+    .EUt(480)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:ingotSilicon>.firstItem*32)
+    .outputs(<metaitem:boule.silicon>)
+	.property("temperature", 1784)
+    .duration(9000)
+    .EUt(120)
+    .buildAndRegister();
+
+electricBF.findRecipe(120, [<ore:dustSilicon>.firstItem*64, <ore:dustGlowstone>.firstItem*8, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:nitrogen>*8000]).remove();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:blockSilicon>*8, <ore:dustGlowstone>*8, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}})*8)
+	.fluidInputs([<liquid:pyrotheum> * 4500])
+    .outputs(<metaitem:boule.glowstone>)
+	.property("temperature", 2484)
+    .duration(2250)
+    .EUt(1920)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:blockSilicon>*8, <ore:dustGlowstone>*8)
+	.fluidInputs([<liquid:nitrogen> * 8000])
+    .outputs(<metaitem:boule.glowstone>)
+	.property("temperature", 2484)
+    .duration(9000)
+    .EUt(480)
+    .buildAndRegister();
+
 #--Magic Alloys--
 #Enderium
 electricBF.findRecipe(120, [<ore:dustEnderium>.firstItem], null).remove();

@@ -536,8 +536,8 @@ print("Tweak Tweak Tweak Tweak");
 <ore:orepoorDiamond>.add(<contenttweaker:orepoorgraveldiamond>);
 <ore:orepoorGalena>.add(<contenttweaker:orepoorgalena>);
 <ore:orepoorIron>.add(<contenttweaker:orepoorgraveliron>);
-<ore:orepoorlapis>.add(<contenttweaker:orepoormarblelapis>);
-<ore:orepoorlead>.add(<contenttweaker:orepoorlead>);
+<ore:orepoorLapis>.add(<contenttweaker:orepoormarblelapis>);
+<ore:orepoorLead>.add(<contenttweaker:orepoorlead>);
 <ore:orepoorNickel>.add(<contenttweaker:orepoorredsandnickel>);
 <ore:orepoorNickel>.add(<contenttweaker:orepoorsandnickel>);
 <ore:orepoorSilver>.add(<contenttweaker:orepoorsilver>);
@@ -687,6 +687,10 @@ print("Tweak Tweak Tweak Tweak");
 <ore:blockSheetmetalTungstenSteel>.add(<contenttweaker:blockrolledtungstensteel>);
 
 #Stones
+<ore:graniteBlack>.add(<contenttweaker:blackgranite>);
+
+<ore:stoneMarble>.add(<contenttweaker:marble>);
+
 <ore:stoneDolomite>.add(<contenttweaker:dolomite>);
 <ore:stoneDreadedObsidian>.add(<contenttweaker:dreadedobsidian>);
 

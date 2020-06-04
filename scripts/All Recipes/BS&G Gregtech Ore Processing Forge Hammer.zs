@@ -16,13 +16,14 @@ var poorOres as string[] = [
 	"Diamond",
 	"Lapis",
 	"Nickel",
+	"Lead",
 	"Tin",
 	"Copper",
 	"Galena",
 	];
 
 for input in poorOres {
-	var orePoor as IItemStack  = oreDict["orePoor"~input];
+	var orePoor as IItemStack  = oreDict["orepoor"~input];
 	var oreDust as IItemStack = oreDict["dustImpure"~input].firstItem;
 	
 ForgeHammer
