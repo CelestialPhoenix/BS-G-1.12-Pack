@@ -547,10 +547,10 @@ recipes.addShaped(<ore:toolHeadWrenchPalladium>.firstItem, [
 #[<ore:screwSteel>, <ore:plateSilver>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchThorium>.firstItem);
-recipes.addShaped(<ore:toolHeadWrenchThaumium>.firstItem, [
-[null, <ore:plate>, <ore:screwSteel>], 
-[<ore:plate>, <ore:ringSteel>, <ore:plate>], 
-[<ore:screwSteel>, <ore:plate>, null]]);
+recipes.addShaped(<ore:toolHeadWrenchThorium>.firstItem, [
+[null, <ore:plateThorium>, <ore:screwSteel>], 
+[<ore:plateThorium>, <ore:ringSteel>, <ore:plateThorium>], 
+[<ore:screwSteel>, <ore:plateThorium>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchTitanium>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchTitanium>.firstItem, [
@@ -904,7 +904,7 @@ recipes.addShaped(<ore:toolHeadWrenchManyullyn>.firstItem, [
 recipes.removeShaped(<ore:toolHeadWrenchMithril>.firstItem);
 recipes.addShaped(<ore:toolHeadWrenchMithril>.firstItem, [
 [null, <ore:plateMithril>, <ore:screwSteel>], 
-[<ore:plate>, <ore:ringSteel>, <ore:plateMithril>], 
+[<ore:plateMithril>, <ore:ringSteel>, <ore:plateMithril>], 
 [<ore:screwSteel>, <ore:plateMithril>, null]]);
 
 recipes.removeShaped(<ore:toolHeadWrenchTerrasteel>.firstItem);
