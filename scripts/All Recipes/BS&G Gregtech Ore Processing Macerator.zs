@@ -81,6 +81,16 @@ macerator
     .EUt(12)
     .buildAndRegister();
 
+#--Rich Diamond--
+macerator
+    .recipeBuilder()
+    .inputs(<ore:oreRichDiamond>)
+    .outputs(<ore:crushedDiamond>.firstItem*3)
+	.chancedOutput(<ore:dustDiamond>.firstItem, 1400, 850)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
 #--Poor Ores--
 var poorOres as string[] = [
 	"Iron",

@@ -395,6 +395,91 @@ GrinderGravelOreLuck.setChance(0.5);
 GrinderGravelOreLuck.build();
 }
 
+#---Rich Diamond---
+var GrinderStoneDiamondWater = mods.modularmachinery.RecipeBuilder.newBuilder("grinderDiamondWater", "industrial_grinder", 800, 0);
+GrinderStoneDiamondWater.addEnergyPerTickInput(8000);
+GrinderStoneDiamondWater.addItemInput(<ore:orerichDiamond>);
+GrinderStoneDiamondWater.addFluidInput(<liquid:distilled_water>*500);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>, 3);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.75);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.75);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.25);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.25);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.25);
+GrinderStoneDiamondWater.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondWater.setChance(0.25);
+GrinderStoneDiamondWater.build();
+
+var GrinderStoneDiamondPetrotheum = mods.modularmachinery.RecipeBuilder.newBuilder("grinderDiamondPetrotheum", "industrial_grinder", 800, 0);
+GrinderStoneDiamondPetrotheum.addEnergyPerTickInput(12000);
+GrinderStoneDiamondPetrotheum.addItemInput(<ore:orerichDiamond>);
+GrinderStoneDiamondPetrotheum.addFluidInput(<liquid:petrotheum>*100);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>, 4);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.75);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.75);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.25);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.25);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.25);
+GrinderStoneDiamondPetrotheum.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondPetrotheum.setChance(0.25);
+GrinderStoneDiamondPetrotheum.build();
+
+var GrinderStoneDiamondTaint = mods.modularmachinery.RecipeBuilder.newBuilder("grinderDiamondNameTaint", "industrial_grinder", 800, 0);
+GrinderStoneDiamondTaint.addEnergyPerTickInput(8000);
+GrinderStoneDiamondTaint.addItemInput(<ore:orerichDiamond>);
+GrinderStoneDiamondTaint.addFluidInput(<liquid:taint>*100);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.setChance(0.5);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.setChance(0.5);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.setChance(0.5);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondTaint.setChance(0.5);
+GrinderStoneDiamondTaint.build();
+
+var GrinderStoneDiamondMana = mods.modularmachinery.RecipeBuilder.newBuilder("grinderDiamondNameMana", "industrial_grinder", 800, 0);
+GrinderStoneDiamondMana.addEnergyPerTickInput(12000);
+GrinderStoneDiamondMana.addItemInput(<ore:orerichDiamond>);
+GrinderStoneDiamondMana.addFluidInput(<liquid:mana>*100);
+GrinderStoneDiamondMana.addItemOutput(<ore:crushedDiamond>, 6);
+GrinderStoneDiamondMana.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondMana.setChance(0.5);
+GrinderStoneDiamondMana.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondMana.setChance(0.5);
+GrinderStoneDiamondMana.build();
+
+var GrinderStoneDiamondLuck = mods.modularmachinery.RecipeBuilder.newBuilder("grinderDiamondLuck", "industrial_grinder", 800, 0);
+GrinderStoneDiamondLuck.addEnergyPerTickInput(12000);
+GrinderStoneDiamondLuck.addItemInput(<ore:orerichDiamond>);
+GrinderStoneDiamondLuck.addFluidInput(<liquid:luck>*100);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>, 4);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondLuck.setChance(0.75);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondLuck.setChance(0.5);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondLuck.setChance(0.5);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondLuck.setChance(0.5);
+GrinderStoneDiamondLuck.addItemOutput(<ore:crushedDiamond>);
+GrinderStoneDiamondLuck.setChance(0.5);
+GrinderStoneDiamondLuck.build();
+
 #=========================
 #---4x Ore Processing---
 #========================
