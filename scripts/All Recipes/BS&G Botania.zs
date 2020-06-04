@@ -19,6 +19,6 @@ recipes.addShaped(<botania:pump>, [
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>]]);
 
 #Mana Pump
-recipes.remove(<botania:lexicon>.withTag({}));
+recipes.remove(<botania:lexicon>);
 recipes.addShapeless(<botania:lexicon>.withTag({}), [<botania:flower:*>, <minecraft:book>]);
 

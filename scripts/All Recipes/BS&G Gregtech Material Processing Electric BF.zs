@@ -66,7 +66,7 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
-electricBF.findRecipe(120, [<ore:dustSilicon>.firstItem*64, <ore:dustGlowstone>.firstItem*8, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:nitrogen>*8000]).remove();
+electricBF.findRecipe(480, [<ore:dustSilicon>.firstItem*64, <ore:dustGlowstone>.firstItem*8, <metaitem:circuit.integrated>.withTag({Configuration: 1})], [<liquid:nitrogen>*8000]).remove();
 electricBF
     .recipeBuilder()
     .inputs(<ore:blockSilicon>*8, <ore:dustGlowstone>*8, <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "nitrogen", Amount: 1000}})*8)

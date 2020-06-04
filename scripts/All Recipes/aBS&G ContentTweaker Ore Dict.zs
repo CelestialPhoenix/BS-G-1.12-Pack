@@ -687,7 +687,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:blockSheetmetalTungstenSteel>.add(<contenttweaker:blockrolledtungstensteel>);
 
 #Stones
-<ore:graniteBlack>.add(<contenttweaker:blackgranite>);
+<ore:stoneGraniteBlack>.add(<contenttweaker:blackgranite>);
 
 <ore:stoneMarble>.add(<contenttweaker:marble>);
 

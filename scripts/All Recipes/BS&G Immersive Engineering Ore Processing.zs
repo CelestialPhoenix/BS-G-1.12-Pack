@@ -595,5 +595,5 @@ mods.immersiveengineering.Crusher.addRecipe(oreDust, clusterNative, 4096, oreDus
 }
 mods.immersiveengineering.Crusher.addRecipe(<ore:quicksilver>.firstItem*2, <ore:clusterQuicksilver>, 4096, <ore:quicksilver>.firstItem, 0.25);
 #Rich Diamond
-mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelDiamond>.firstItem*1, <ore:orerichDiamond>, 4096, <ore:crushedDiamond>.firstItem, 1.0);
+mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelDiamond>.firstItem*1, <ore:orerichDiamond>, 4096, <ore:crushedDiamond>.firstItem, 0.9);
 

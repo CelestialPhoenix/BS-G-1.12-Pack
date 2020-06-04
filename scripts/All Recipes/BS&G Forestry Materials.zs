@@ -24,8 +24,8 @@ recipes.removeShaped(<forestry:gear_tin>);
 
 #gems
 recipes.remove(<forestry:apatite>);
-<forestry:apatite>.addTooltip("This item is disabled");
-
+//<forestry:apatite>.addTooltip("This item is disabled");
+//This gem is needed in worldgen. DO NOT remove
 #ingots
 recipes.remove(<forestry:ingot_bronze>);
 furnace.remove(<forestry:ingot_bronze>);

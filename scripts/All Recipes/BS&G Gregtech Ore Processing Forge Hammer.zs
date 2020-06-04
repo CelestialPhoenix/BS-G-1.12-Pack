@@ -35,6 +35,15 @@ ForgeHammer
     .buildAndRegister();
 }	
 
+#rich diamond
+ForgeHammer
+    .recipeBuilder()
+    .inputs(<ore:orerichDiamond>)
+    .outputs(<ore:crushedDiamond>.firstItem*2)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
 #================
 #-----Remove Old Recipes----
 #================

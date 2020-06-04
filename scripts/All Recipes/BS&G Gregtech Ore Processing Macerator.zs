@@ -84,9 +84,9 @@ macerator
 #--Rich Diamond--
 macerator
     .recipeBuilder()
-    .inputs(<ore:oreRichDiamond>)
+    .inputs(<ore:orerichDiamond>)
     .outputs(<ore:crushedDiamond>.firstItem*3)
-	.chancedOutput(<ore:dustDiamond>.firstItem, 1400, 850)
+	.chancedOutput(<ore:crushedDiamond>.firstItem, 1400, 850)
     .duration(400)
     .EUt(12)
     .buildAndRegister();
