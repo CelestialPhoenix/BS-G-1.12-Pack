@@ -57,3 +57,24 @@ recipes.addShaped(<immersiveengineering:jerrycan>, [
 [<ore:plateSteel>, <ore:stickSteel>, <ore:plateSteel>],
 [<ore:plateSteel>, <ore:dyeGreen>, <ore:plateSteel>], 
 [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+
+#---Weapons---
+#Chem Thrower
+recipes.removeShaped(<immersiveengineering:chemthrower>);
+recipes.addShaped(<immersiveengineering:chemthrower>, [
+[null, <immersiveengineering:toolupgrade>, null],
+[<immersiveengineering:material:14>, <ore:pumpHV>, <immersiveengineering:toolupgrade>], 
+[<immersiveengineering:material:13>, null, <immersiveengineering:material:13>]]);
+
+#Railgun
+recipes.removeShaped(<immersiveengineering:railgun>);
+recipes.addShaped(<immersiveengineering:railgun>, [
+[<immersiveengineering:material:14>, <immersiveengineering:metal_decoration0:2>, <gregtech:meta_item_1:32538>],
+[<immersiveengineering:metal_decoration0:2>, <immersiveengineering:material:14>, <immersiveengineering:metal_decoration0:2>], 
+[<immersiveengineering:material:13>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:material:13>]]);
+
+#Revolver
+recipes.removeShaped(<immersiveengineering:revolver>);
+recipes.addShaped(<immersiveengineering:revolver>, [
+[<immersiveengineering:material:14>, <immersiveengineering:material:15>, <immersiveengineering:material:16>], 
+[null, null, <immersiveengineering:material:13>]]);
