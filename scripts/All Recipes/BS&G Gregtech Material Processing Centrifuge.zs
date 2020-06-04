@@ -13,7 +13,7 @@ centrifuge.findRecipe(30, [<ore:dustDarkAsh>.firstItem*2], null).remove();
 centrifuge
     .recipeBuilder()
     .inputs(<ore:dustDarkAsh>)
-    .outputs(<ore:dustDustAsh>.firstItem*1, <ore:dustSlag>.firstItem*3)
+    .outputs(<ore:dustAsh>.firstItem*1, <ore:dustSlag>.firstItem*3)
 	.chancedOutput(<ore:dustSlag>.firstItem, 5000, 1000)
     .duration(100)
     .EUt(30)
