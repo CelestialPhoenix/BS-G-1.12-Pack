@@ -18,8 +18,8 @@ var lead = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(0x8C648C
 var nickel = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(0xAAAAFF).build();
 var silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(0xDCDCFF).build();
 var platinum = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(0xFFFF99).build();
-var quartzCertus = MaterialSystem.getMaterialBuilder().setName("Certus_Quartz").setColor(0xD2D2E6).build();
-var quartzNether = MaterialSystem.getMaterialBuilder().setName("Nether_Quartz").setColor(0xE6D2D2).build();
+var quartzCertus = MaterialSystem.getMaterialBuilder().setName("Certus Quartz").setColor(0xD2D2E6).build();
+var quartzNether = MaterialSystem.getMaterialBuilder().setName("Nether Quartz").setColor(0xE6D2D2).build();
 var tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(0xDCDCDC).build();
 
 var metal_list = [constantan, copper, electrum, gold, lead, nickel, silver, platinum, quartzCertus, quartzNether, tin] as Material[];
