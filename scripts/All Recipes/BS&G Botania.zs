@@ -13,7 +13,7 @@ mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "ore
 #---Recipes---
 #Lexica Botania
 recipes.remove(<botania:pump>);
-recipes.addShaped(<botania:pump>), [
+recipes.addShaped(<botania:pump>, [
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>],
 [<ore:stickManasteel>, <ore:rotorBronze>, <ore:stickManasteel>], 
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>]]);
