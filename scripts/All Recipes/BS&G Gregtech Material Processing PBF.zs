@@ -15,13 +15,13 @@ for recipe in RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
 
 PBFRecipeBuilder.start()
     .input(<ore:blockIron>*1)
-    .output(<ore:blockSteel>.firstItem*1, <ore:itemSlag>.firstItem*9)
+    .output(<ore:blockSteel>.firstItem*1)
     .duration(10240)
     .fuelAmount(2)
     .buildAndRegister();
 PBFRecipeBuilder.start()
     .input(<ore:blockWroughtIron>*1)
-    .output(<ore:blockSteel>.firstItem*1, <ore:itemSlag>.firstItem*9)
+    .output(<ore:blockSteel>.firstItem*1)
     .duration(5120)
     .fuelAmount(2)
     .buildAndRegister();
