@@ -330,3 +330,4 @@ recipes.remove(<thermalfoundation:material:802>);
 #---New Recipes---
 #Rockwool
 furnace.addRecipe(<thermalfoundation:rockwool:7>, <ore:dustSlag>);
+furnace.remove(<ore:itemSlag>.firstItem); //removes Gravel to Clinker smelting
