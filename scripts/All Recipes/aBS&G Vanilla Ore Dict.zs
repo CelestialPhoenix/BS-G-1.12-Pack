@@ -3,6 +3,14 @@
 
 print("Mwah ha ha ha ha ha");
 
+//bonemeal fix
+val bonemeal = <ore:dustBone>;
+
+for item in bonemeal.items{
+	<ore:dustBone>.remove(item);
+}
+<ore:dustBone>.add(<minecraft:dye:15>);
+
 #ore dict
 #<ore:>.remove(<minecraft:>);
 <ore:stoneCobble>.remove(<minecraft:mossy_cobblestone>);
