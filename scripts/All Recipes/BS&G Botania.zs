@@ -12,13 +12,13 @@ mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "ore
 
 #---Recipes---
 #Lexica Botania
-recipes.remove(<botania:lexicon>.withTag({}));
-recipes.addShaped(<botania:lexicon>.withTag({}), [
+recipes.remove(<botania:pump>);
+recipes.addShaped(<botania:pump>), [
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>],
 [<ore:stickManasteel>, <ore:rotorBronze>, <ore:stickManasteel>], 
 [<ore:rockLiving>, <ore:rockLiving>, <ore:rockLiving>]]);
 
 #Mana Pump
-recipes.remove(<botania:pump>);
-recipes.addShapeless(<botania:pump>, [<botania:flower:*>, <minecraft:book>]);
+recipes.remove(<botania:lexicon>.withTag({}));
+recipes.addShapeless(<botania:lexicon>.withTag({}), [<botania:flower:*>, <minecraft:book>]);
 
