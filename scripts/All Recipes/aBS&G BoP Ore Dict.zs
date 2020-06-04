@@ -107,7 +107,7 @@ print("BoP ...BLeepBleepBoop - R2D2");
 <ore:sandWhite>.add(<biomesoplenty:white_sand>);
 
 <ore:sandstoneWhite>.add(<biomesoplenty:white_sandstone:0>);
-<ore:slabSandstone>.add(<biomesoplenty:other_slab:1>);
+<ore:slabWhiteSandstone>.add(<biomesoplenty:other_slab:1>);
 
 #slabs
 <ore:slabSacredOak>.add(<biomesoplenty:wood_slab_0:0>);
