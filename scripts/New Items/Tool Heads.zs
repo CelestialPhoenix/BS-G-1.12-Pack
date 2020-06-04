@@ -18,9 +18,11 @@ var lead = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(0x8C648C
 var nickel = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(0xAAAAFF).build();
 var silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(0xDCDCFF).build();
 var platinum = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(0xFFFF99).build();
+var quartzCertus = MaterialSystem.getMaterialBuilder().setName("Certus_Quartz").setColor(0xD2D2E6).build();
+var quartzNether = MaterialSystem.getMaterialBuilder().setName("Nether_Quartz").setColor(0xE6D2D2).build();
 var tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(0xDCDCDC).build();
 
-var metal_list = [constantan, copper, electrum, gold, lead, nickel, silver, platinum, tin] as Material[];
+var metal_list = [constantan, copper, electrum, gold, lead, nickel, silver, platinum, quartzCertus, quartzNether, tin] as Material[];
 var part_names = ["tool_head_axe", "tool_head_hammer", "tool_head_hoe", "tool_head_pickaxe", "tool_head_sense", "tool_head_shovel", "tool_head_sword", "tool_head_universal_spade"] as string[];
 
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("tool_head_axe").setPartType(MaterialSystem.getPartType("item")).setOreDictName("toolHeadAxe").build();

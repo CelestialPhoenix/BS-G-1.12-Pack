@@ -546,6 +546,25 @@ theassembler
     .EUt(16)
     .buildAndRegister();
 
+#-Chemical Cells-
+theassembler.findRecipe(64, [<ore:ringSteel>.firstItem*8, <ore:plateDenseSteel>.firstItem*2, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringSteel>*8, <ore:plateThickSteel>*4)
+    .outputs(<metaitem:large_fluid_cell.steel>)
+    .duration(100)
+    .EUt(64)
+    .buildAndRegister();
+
+theassembler.findRecipe(256, [<ore:ringTungstenSteel>.firstItem*8, <ore:plateDenseTungstenSteel>.firstItem*2, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
+theassembler
+    .recipeBuilder()
+    .inputs(<ore:ringTungstenSteel>*8, <ore:plateThickTungstenSteel>*4)
+    .outputs(<metaitem:large_fluid_cell.tungstensteel>)
+    .duration(200)
+    .EUt(258)
+    .buildAndRegister();
+
 #-Motors-
 #LV
 theassembler
