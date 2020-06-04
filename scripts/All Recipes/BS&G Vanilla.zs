@@ -97,6 +97,8 @@ recipes.addShaped(<minecraft:bowl>,[
 [<ore:plankWood>, null, <ore:plankWood>],
 [null, <ore:plankWood>, null]]);
 
+recipes.removeShaped(<minecraft:tnt>); //Gtech Chemi reactor recipe
+
 #---Removed Smelting Recipes---
 #Charcoal
 furnace.remove(<minecraft:coal:1>);
