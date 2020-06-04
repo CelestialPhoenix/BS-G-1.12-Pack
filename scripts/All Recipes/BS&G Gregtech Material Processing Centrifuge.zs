@@ -5,10 +5,21 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#---Centrifuge---
-#Rubber
 val centrifuge as RecipeMap = RecipeMap.getByName("centrifuge");
-	
+#---Centrifuge---
+
+#Dark Ashes
+centrifuge.findRecipe(30, [<ore:dustDarkAsh>.firstItem*2], null).remove();
+centrifuge
+    .recipeBuilder()
+    .inputs(<ore:dustDarkAsh>)
+    .outputs(<ore:dustDustAsh>.firstItem*1, <ore:dustSlag>.firstItem*3)
+	.chancedOutput(<ore:dustSlag>.firstItem, 5000, 1000)
+    .duration(100)
+    .EUt(30)
+    .buildAndRegister();
+
+#Rubber
 centrifuge.findRecipe(5, [<metaitem:rubber_drop>*1], null).remove();
 centrifuge
     .recipeBuilder()

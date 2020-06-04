@@ -557,6 +557,17 @@ extractor
     .buildAndRegister();
 }
 
+#--Gtech Stuff--
+
+#Dark Ash (Clinker)
+extractor
+    .recipeBuilder()
+    .inputs(<ore:dustDarkAsh>)
+    .outputs(<ore:dustSlag>.firstItem)
+    .duration(200)
+    .EUt(2)
+    .buildAndRegister();
+
 #Flint
 extractor
     .recipeBuilder()
