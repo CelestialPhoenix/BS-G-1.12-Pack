@@ -12,7 +12,8 @@ print("Nice to see you, wouldn't want to tree you");
 <ore:blockCharcoal>.remove(<forestry:charcoal>);
 
 #Gems
-<ore:gemApatite>.remove(<forestry:apatite>);
+//<ore:gemApatite>.remove(<forestry:apatite>);
+#--This ore is worldgen. DO NOT remove ore tag!--
 
 #Gears
 <ore:gearBronze>.remove(<forestry:gear_bronze>);
