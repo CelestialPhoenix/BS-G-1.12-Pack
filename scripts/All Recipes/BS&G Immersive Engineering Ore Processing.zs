@@ -248,6 +248,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ore:dustTinyOsmium>.firstItem*11
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:itemSlag>.firstItem*12, <ore:oreGlassy>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*7, <ore:oreElectrotine>, <ore:itemSlagRich>.firstItem*2, 2000, 2048);
 
+mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingotAluminium>.firstItem*24, <ore:orerichLapis>, <ore:itemSlagRich>.firstItem*5, 2000, 2048);
+
 #Native Clusters
 #Alphabetical
 #mods.immersiveengineering.ArcFurnace.addRecipe(<ore:ingot>.firstItem*2, <ore:cluster>, <ore:itemSlagRich>.firstItem, 20, 2048); #
@@ -509,7 +511,7 @@ var oreInput as string[] = [
 "Osmiite"];
 
 #---Crusher---
-
+/*
 #Ore Block Crushing
 #Old recipes removal
 #mods.immersiveengineering.Crusher.removeRecipe(item output);
@@ -596,4 +598,6 @@ mods.immersiveengineering.Crusher.addRecipe(oreDust, clusterNative, 4096, oreDus
 mods.immersiveengineering.Crusher.addRecipe(<ore:quicksilver>.firstItem*2, <ore:clusterQuicksilver>, 4096, <ore:quicksilver>.firstItem, 0.25);
 #Rich Diamond
 mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelDiamond>.firstItem*1, <ore:orerichDiamond>, 4096, <ore:crushedDiamond>.firstItem, 0.9);
+mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelLapis>.firstItem*1, <ore:orerichLapis>, 4096, <ore:crushedLapis>.firstItem, 0.9);
 
+*/

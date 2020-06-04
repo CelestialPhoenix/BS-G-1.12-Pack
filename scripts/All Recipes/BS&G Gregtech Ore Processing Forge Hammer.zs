@@ -35,11 +35,20 @@ ForgeHammer
     .buildAndRegister();
 }	
 
-#rich diamond
+#Rich Diamond
 ForgeHammer
     .recipeBuilder()
     .inputs(<ore:orerichDiamond>)
     .outputs(<ore:crushedDiamond>.firstItem*2)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#Rich Lapis
+ForgeHammer
+    .recipeBuilder()
+    .inputs(<ore:orerichLapis>)
+    .outputs(<ore:crushedLapis>.firstItem*12)
     .duration(400)
     .EUt(12)
     .buildAndRegister();

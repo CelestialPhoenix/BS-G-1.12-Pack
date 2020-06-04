@@ -86,7 +86,17 @@ macerator
     .recipeBuilder()
     .inputs(<ore:orerichDiamond>)
     .outputs(<ore:crushedDiamond>.firstItem*3)
-	.chancedOutput(<ore:crushedDiamond>.firstItem, 1400, 850)
+	.chancedOutput(<ore:crushedDiamond>.firstItem, 3000, 850)
+    .duration(400)
+    .EUt(12)
+    .buildAndRegister();
+
+#--Rich Lapis--
+macerator
+    .recipeBuilder()
+    .inputs(<ore:orerichLapis>)
+    .outputs(<ore:crushedLapis>.firstItem*18)
+	.chancedOutput(<ore:crushedLazurite>.firstItem, 3000, 850)
     .duration(400)
     .EUt(12)
     .buildAndRegister();

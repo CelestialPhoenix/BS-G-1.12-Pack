@@ -179,7 +179,7 @@ mods.immersiveengineering.CokeOven.addRecipe(<abyssalcraft:charcoal>, 250, <ore:
 
 #---Crusher---
 #Fix stupids
-mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
+/*mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
 mods.immersiveengineering.Crusher.removeRecipe(<railcraft:dust:7>);
@@ -311,7 +311,7 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:string>*3, <minecraft:woo
 
 #Xenolith
 mods.immersiveengineering.Crusher.addRecipe(<ore:dustEndstone>.firstItem*1, <ore:endstone>, 1024, <ore:dustTinyTungstate>.firstItem, 0.15);
-
+*/
 #---Fermenter---
 #mods.immersiveengineering.Fermenter.addRecipe(<minecraft:diamond>, <liquid:water>, <ore:logWood>, 2048);
 #Methane 448Rf/mB or 112Eu/mB
