@@ -9,10 +9,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Circuits---
 #-Circuit Boards-
 recipes.remove(<metaitem:board.coated>);
-recipes.addShaped(<metaitem:board.coated>, [
-[<ore:casingCopper>], 
-[<ore:resinSticky>], 
-[<ore:plateWood>]]);
+recipes.addShaped(<metaitem:board.coated>, [ 
+[<ore:resinSticky>, <ore:resinSticky>, <ore:resinSticky>], 
+[<ore:plateWood>, <ore:plateWood>, <ore:plateWood>]]);
 
 #-Circuit Components-
 
