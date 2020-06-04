@@ -433,6 +433,20 @@ recipes.addShaped(<meta_tile_entity:gregtech:fluid_heater.ev>, [
 [<ore:cableGtSingleAluminium>, <ore:circuitExtreme>, <ore:cableGtSingleAluminium>]]);
 
 #--Furnace--
+#LP
+recipes.remove(<meta_tile_entity:gregtech:steam_furnace_steel>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_furnace_steel>, [
+[<ore:ingotBrick>, <ore:pipeSmallBronze>, <ore:ingotBrick>], 
+[<ore:pipeSmallBronze>, <ore:hullBronzeBrick>, <ore:pipeSmallBronze>], 
+[<ore:ingotBrick>, <ore:pipeSmallBronze>, <ore:ingotBrick>]]);
+
+#HP
+recipes.remove(<meta_tile_entity:gregtech:steam_furnace_steel>);
+recipes.addShaped(<meta_tile_entity:gregtech:steam_furnace_steel>, [
+[<ore:ingotBrick>, <ore:pipeSmallSteel>, <ore:ingotBrick>], 
+[<ore:pipeSmallSteel>, <ore:hullSteelBrick>, <ore:pipeSmallSteel>], 
+[<ore:ingotBrick>, <ore:pipeSmallSteel>, <ore:ingotBrick>]]);
+
 #LV
 recipes.remove(<meta_tile_entity:gregtech:electric_furnace.lv>);
 recipes.addShaped(<meta_tile_entity:gregtech:electric_furnace.lv>, [
