@@ -962,10 +962,10 @@ recipes.removeShaped(<ore:screwNaquadria>.firstItem);
 recipes.removeShaped(<ore:screwTritanium>.firstItem);
 recipes.removeShaped(<ore:screwDuranium>.firstItem);
 recipes.removeShaped(<ore:screwPolyphenyleneSulfide>.firstItem);
-recipes.addShapeless(<ore:screwPolyphenyleneSulfide>.firstItem*4, [<ore:boltPolyphenyleneSulfide>]);
+#recipes.addShapeless(<ore:screwPolyphenyleneSulfide>.firstItem*4, [<ore:boltPolyphenyleneSulfide>]);
 recipes.removeShaped(<ore:screwNickelZincFerrite>.firstItem);
 recipes.removeShaped(<ore:screwPolyvinylChloride>.firstItem);
-recipes.addShapeless(<ore:screwPolyvinylChloride>.firstItem*4, [<ore:boltPolyvinylChloride>]);
+#recipes.addShapeless(<ore:screwPolyvinylChloride>.firstItem*4, [<ore:boltPolyvinylChloride>]);
 
 #Ring
 recipes.removeShaped(<ore:ringAluminium>.firstItem);
