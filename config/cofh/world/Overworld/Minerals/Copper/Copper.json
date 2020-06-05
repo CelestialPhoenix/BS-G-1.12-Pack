@@ -174,7 +174,8 @@
                      "biomesoplentyorigin_island",
                      "thaumcraft:magical_forest",
                      "abyssalcraft:darklands_forest",
-                     "abyssalcraft:darklands"
+                     "abyssalcraft:darklands",
+					 "biomesoplenty:woodland"
                   ]
                }
             ]
