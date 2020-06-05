@@ -111,7 +111,7 @@
             }
          ],
          "cluster-count":100,
-         "chunk-chance":80,
+         "chunk-chance":20,
          "min-height":3,
          "vein-height":90,
          "vein-diameter":55,
