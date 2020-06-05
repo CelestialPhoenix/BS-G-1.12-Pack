@@ -1198,3 +1198,31 @@ lathe
     .duration(300)
     .EUt(16)
     .buildAndRegister(); 
+
+lathe.findRecipe(16, [<ore:ingotRedAlloy>.firstItem], null).remove();
+lathe
+    .recipeBuilder()
+    .inputs(<ore:ingotRedAlloy>.firstItem)
+    .outputs(<ore:stickRedAlloy>.firstItem, <ore:dustSmallRedAlloy>.firstItem*2)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();
+
+lathe.findRecipe(16, [<ore:ingotNickel>.firstItem], null).remove();
+lathe
+    .recipeBuilder()
+    .inputs(<ore:ingotNickel>.firstItem)
+    .outputs(<ore:stickNickel>.firstItem, <ore:dustSmallNickel>.firstItem*2)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();
+
+lathe.findRecipe(16, [<ore:ingotUranium>.firstItem], null).remove();
+lathe
+    .recipeBuilder()
+    .inputs(<ore:ingotUranium>.firstItem)
+    .outputs(<ore:stickUranium>.firstItem, <ore:dustSmallUranium>.firstItem*2)
+    .duration(300)
+    .EUt(16)
+    .buildAndRegister();
+
