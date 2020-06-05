@@ -1,6 +1,6 @@
 #Name: Blood Sweat & Gears Immersive Engineering Ore Processing.zs
 #Author: PhoePhoe
-#norun
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
@@ -511,7 +511,7 @@ var oreInput as string[] = [
 "Osmiite"];
 
 #---Crusher---
-/*
+
 #Ore Block Crushing
 #Old recipes removal
 #mods.immersiveengineering.Crusher.removeRecipe(item output);
@@ -600,4 +600,3 @@ mods.immersiveengineering.Crusher.addRecipe(<ore:quicksilver>.firstItem*2, <ore:
 mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelDiamond>.firstItem*1, <ore:orerichDiamond>, 4096, <ore:crushedDiamond>.firstItem, 0.9);
 mods.immersiveengineering.Crusher.addRecipe(<ore:oreGravelLapis>.firstItem*1, <ore:orerichLapis>, 4096, <ore:crushedLapis>.firstItem, 0.9);
 
-*/

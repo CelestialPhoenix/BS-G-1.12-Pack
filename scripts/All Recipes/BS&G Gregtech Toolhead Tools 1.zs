@@ -640,8 +640,10 @@ recipes.removeShaped(<ore:toolHeadPickaxeEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadPickaxeCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadPickaxeCertusQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeCertusQuartz>.firstItem, [
 [<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:plateCertusQuartz>]]);
+recipes.removeShaped(<ore:toolHeadPickaxeNetherQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:plateNetherQuartz>]]);
 
@@ -871,8 +873,10 @@ recipes.removeShaped(<ore:toolHeadShovelEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadShovelEnderium>.firstItem, [
 [<ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadShovelCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadShovelCertusQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadShovelCertusQuartz>.firstItem, [
 [<ore:plateCertusQuartz>]]);
+recipes.removeShaped(<ore:toolHeadShovelNetherQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadShovelNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>]]);
 
@@ -1174,10 +1178,10 @@ recipes.removeShaped(<ore:toolHeadAxeNetherQuartz>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadAxeNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>, <ore:gemNetherQuartz>],
 [<ore:plateNetherQuartz>]]);
-recipes.removeShaped(<ore:toolHeadAxeNetherQuartz>.firstItem);
-recipes.addShapedMirrored(<ore:toolHeadAxeNetherQuartz>.firstItem, [
-[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>],
-[<ore:plateNetherQuartz>]]);
+recipes.removeShaped(<ore:toolHeadAxeCertusQuartz>.firstItem);
+recipes.addShapedMirrored(<ore:toolHeadAxeCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>],
+[<ore:plateCertusQuartz>]]);
 
 #Hoe
 recipes.removeShaped(<ore:toolHeadHoeAluminium>.firstItem);
@@ -1404,8 +1408,10 @@ recipes.removeShaped(<ore:toolHeadHoeEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadHoeEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadHoeCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadHoeNetherQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadHoeNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>, <ore:plateNetherQuartz>]]);
+recipes.removeShaped(<ore:toolHeadHoeCertusQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadHoeCertusQuartz>.firstItem, [
 [<ore:plateCertusQuartz>, <ore:plateCertusQuartz>]]);
 
