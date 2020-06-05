@@ -1895,3 +1895,36 @@ LatheBasicRodPolyvinylChloride.addFluidInput(<liquid:lubricant>*37);
 LatheBasicRodPolyvinylChloride.addItemOutput(<ore:stickPolyvinylChloride>);
 LatheBasicRodPolyvinylChloride.addItemOutput(<ore:dustSmallPolyvinylChloride>, 2);
 LatheBasicRodPolyvinylChloride.build();
+
+val LatheBasicRodRedAlloy = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicrodRedAlloy", "lathe_basic", 75, 0);
+
+LatheBasicRodRedAlloy.addEnergyPerTickInput(120);
+LatheBasicRodRedAlloy.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 1}));
+LatheBasicRodRedAlloy.setChance(0);
+LatheBasicRodRedAlloy.addItemInput(<ore:ingotRedAlloy>);
+LatheBasicRodRedAlloy.addFluidInput(<liquid:lubricant>*37);
+LatheBasicRodRedAlloy.addItemOutput(<ore:stickRedAlloy>);
+LatheBasicRodRedAlloy.addItemOutput(<ore:dustSmallRedAlloy>, 2);
+LatheBasicRodRedAlloy.build();
+
+val LatheBasicRodNickel = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicrodNickel", "lathe_basic", 75, 0);
+
+LatheBasicRodNickel.addEnergyPerTickInput(120);
+LatheBasicRodNickel.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 1}));
+LatheBasicRodNickel.setChance(0);
+LatheBasicRodNickel.addItemInput(<ore:ingotNickel>);
+LatheBasicRodNickel.addFluidInput(<liquid:lubricant>*37);
+LatheBasicRodNickel.addItemOutput(<ore:stickNickel>);
+LatheBasicRodNickel.addItemOutput(<ore:dustSmallNickel>, 2);
+LatheBasicRodNickel.build();
+
+val LatheBasicRodUranium = mods.modularmachinery.RecipeBuilder.newBuilder("lathebasicrodUranium", "lathe_basic", 75, 0);
+
+LatheBasicRodUranium.addEnergyPerTickInput(120);
+LatheBasicRodUranium.addItemInput(<metaitem:circuit.integrated>.withTag({Configuration: 1}));
+LatheBasicRodUranium.setChance(0);
+LatheBasicRodUranium.addItemInput(<ore:ingotUranium>);
+LatheBasicRodUranium.addFluidInput(<liquid:lubricant>*37);
+LatheBasicRodUranium.addItemOutput(<ore:stickUranium>);
+LatheBasicRodUranium.addItemOutput(<ore:dustSmallUranium>, 2);
+LatheBasicRodUranium.build();
