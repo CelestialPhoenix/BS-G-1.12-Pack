@@ -1,6 +1,6 @@
 #Name: Blood Sweat & Gears Immersive Engineering Ore Processing.zs
 #Author: PhoePhoe
-
+#norun
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;

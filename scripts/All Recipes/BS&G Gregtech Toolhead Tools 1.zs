@@ -94,6 +94,24 @@ recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "plati
 recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Sword
 recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "platinum"}})); //Universal Spade
 
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "certus_quartz"}})); //Universal Spade
+
+recipes.remove(<gregtech:meta_tool:3>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Axe
+recipes.remove(<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Hammer
+recipes.remove(<gregtech:meta_tool:4>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Hoe
+recipes.remove(<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Pickaxe
+recipes.remove(<gregtech:meta_tool:19>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Sense
+recipes.remove(<gregtech:meta_tool:2>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Shovel
+recipes.remove(<gregtech:meta_tool:0>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Sword
+recipes.remove(<gregtech:meta_tool:16>.withTag({"GT.ToolStats": {Material: "nether_quartz"}})); //Universal Spade
+
 #Sword Blades
 recipes.removeShaped(<ore:toolHeadSwordAluminium>.firstItem);
 recipes.addShaped(<ore:toolHeadSwordAluminium>.firstItem, [
@@ -1687,7 +1705,7 @@ recipes.removeShaped(<ore:toolHeadHammerEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadHammerEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>]]);
-recipes.removeShaped(<ore:toolHeadHammerCobaltMagnetic>.firstItem);
+//recipes.removeShaped(<ore:toolHeadHammerCobaltMagnetic>.firstItem);
 recipes.removeShaped(<ore:toolHeadHammerCertusQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadHammerCertusQuartz>.firstItem, [
 [<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:plateCertusQuartz>],

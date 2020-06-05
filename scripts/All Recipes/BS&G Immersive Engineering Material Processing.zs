@@ -1,6 +1,6 @@
 #Name: Blood Sweat & Gears Immersive Engineering Material Processing.zs
 #Author: PhoePhoe, FTB:I dev team
-
+#norun
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;

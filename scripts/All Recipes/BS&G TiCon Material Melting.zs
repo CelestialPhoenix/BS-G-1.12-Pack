@@ -8,12 +8,12 @@ mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*144, <ore:ingotAluminium>.f
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1296, <ore:blockAluminium>.firstItem, 800);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*16, <ore:nuggetAluminium>.firstItem, 800);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*144, <ore:plateAluminium>.firstItem, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*576, <thermalfoundation:armor.boots_aluminium>, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1152, <thermalfoundation:armor.plate_aluminium>, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*720, <thermalfoundation:armor.helmet_aluminium>, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1008, <thermalfoundation:armor.legs_aluminium>, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*288, <thermalfoundation:tool.shears_aluminium>, 800);
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*288, <thermalfoundation:tool.fishing_rod_aluminium>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*576, <thermalfoundation:armor.boots_aluminum>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1152, <thermalfoundation:armor.plate_aluminum>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*720, <thermalfoundation:armor.helmet_aluminum>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1008, <thermalfoundation:armor.legs_aluminum>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*288, <thermalfoundation:tool.shears_aluminum>, 800);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*288, <thermalfoundation:tool.fishing_rod_aluminum>, 800);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*576, <ore:plateThickAluminium>.firstItem, 800);
 
 #Coal
