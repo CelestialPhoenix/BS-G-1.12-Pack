@@ -591,3 +591,12 @@ compressor
     .duration(200)
     .EUt(4)
     .buildAndRegister();
+
+#ViesCraft
+compressor
+    .recipeBuilder()
+    .inputs(<ore:dustCharcoal>*4)
+    .outputs(<vc:item_viesoline_pellets>*1)
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();

@@ -4,6 +4,10 @@
 print("With a crew of drunken pilots...");
 
 #---New Recipes---
+#Airship Fuel
+recipes.remove(<vc:item_viesoline_pellets>);
+//Recipe in Gtech compressor
+
 #--Airship parts--
 #Airship Core
 <vc:item_airship_ignition>.displayName="Sterling Engine";
