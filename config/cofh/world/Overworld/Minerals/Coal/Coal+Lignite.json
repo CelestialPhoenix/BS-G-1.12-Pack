@@ -27,6 +27,7 @@
                ],
                "material":[  
                   "minecraft:dirt",
+                  "minecraft:grass",
                   "biomesoplenty:mud",
 				  "biomesoplenty:dirt"
                ],
