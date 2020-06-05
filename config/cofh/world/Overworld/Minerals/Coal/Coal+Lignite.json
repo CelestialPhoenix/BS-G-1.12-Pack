@@ -7,21 +7,30 @@
          "generator":[  
             {  
                "type":"plate",
-               "weight":"50",
+               "weight":50,
                "block":[  
                   {  
                      "name":"minecraft:dirt",
                      "metadata":0,
                      "weight":80
                   },
+                  {  
+                     "name":"biomesoplenty:mud",
+                     "metadata":0,
+                     "weight":80
+                  },
 				  {  
                      "name":"contenttweaker:oredirtlignite",
                      "metadata":0,
-                     "weight":30
+                     "weight":10
                   }
                ],
-               "material":"minecraft:dirt",
-               "radius":7,
+               "material":[  
+                  "minecraft:dirt",
+                  "biomesoplenty:mud",
+				  "biomesoplenty:dirt"
+               ],
+               "radius":9,
                "height":0,
                "slim":"false"
             },
