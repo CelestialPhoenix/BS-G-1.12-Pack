@@ -14,9 +14,9 @@ var ringsteel=<ore:ringSteel>;
 var rodsteel=<ore:stickSteel>;
 
 #---Icons---
-mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:0>.withTag({display:{Name: "Metal Press"}}));
-mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:1>);
-mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:2>);
+#mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:0>.withTag({display:{Name: "Metal Press"}}));
+#mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:1>);
+#mods.jei.JEI.addItem(<immersiveengineering:metal_multiblock:2>);
 
 #recipes.addShaped(<contenttweaker:manualmetalpress>, [
 #[<immersiveengineering:metal_multiblock:0>]]);

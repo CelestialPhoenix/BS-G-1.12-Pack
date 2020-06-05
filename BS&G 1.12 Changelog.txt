@@ -5,25 +5,27 @@ Read at your own risk.
 Centrifuge plants to methane recipes
 Fluid Extractor, chemi reactor crafting recipes- require heating elements?
 Ingot mould for smeltery casting
+Quest hints for ore locations
 -------------
+Diamond compressor recipe- check if config is resetting somewhere through Twitch/CF
+t-Make coralium deposits a little smaller
 ImEng crusher and metal press recipes all broken
-t-quartz tool heads
-t-Add smeltery recipes for aluminium
-t-random recipe for PCV bolts
-t-clean up lathe recipes
-t-clean up file recipes- check other tools
-t-screw crafting recipes- PVC, P-sulphide
 ------------------
-
 
 30.0 Pressing the Nuclear Button.
 All Mods
 -added processing recipes for rich Diamond, Lapis ores
+-fixed a bunch of broken ore dicts
 AbyssalCraft
 -Enabled TC warp wuss mode
 -Coralium ore now generates in a single massive lump instead of everywhere
+-disabled coralium converting fluids outside the wasteland. Too destructive for a simple accident/grief
 Aether II
 -enabled weather effects in the Aether, just clouds and effects so no storms here.
+Botnaia
+-fixed an embarassing screw up with crafting recipes
+CoFHWorld
+-fixed diamond ore generation
 ContentTweaker
 -added a bunch of NC related items
 -fixed broken ore dict entries
@@ -41,6 +43,7 @@ Gregtech
 -fixed and tidied stuff
 -cleared out file recipes
 Immersive Engineering
+-added nugget-ingot smelting in alloy kiln
 -fixed revolver recipe
 NuclearCraft
 -removed duplicate machines and components
@@ -54,7 +57,9 @@ TiCon
 -fixed graphite-coal smelting loop
 -added aluminium melting since this randomly went missing
 Vanilla
--fixed something, can't remember what
+-dupe bug with smelting ingots
+Weather2
+-tweaked render settings a little- should run better
 
 29.0 Frangible!
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
