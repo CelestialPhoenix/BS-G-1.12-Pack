@@ -40,7 +40,17 @@
                   "minecraft:iron_ore",
                   "minecraft:coal_ore",
                   "minecraft:sandstone",
-                  "minecraft:red_sandstone"
+                  "minecraft:red_sandstone",
+                  "minecraft:iron_ore",
+                  "minecraft:coal_ore",
+                  "minecraft:sandstone",
+                  "minecraft:red_sandstone",
+				  "quark:slate",
+				  "quark:limestone",
+				  "quark:biome_cobblestone",
+				  "projectred-exploration:stone",
+				  "contenttweaker:marble",
+				  "minecraft:mycelium"
                ],
                "radius":1,
                "height":5,
