@@ -61,7 +61,8 @@
                      "jungle_m",
                      "jungle_edge_m",
 					 "mutated_jungle",
-					 "mutated_jungle_edge"
+					 "mutated_jungle_edge",
+					 "biomesoplenty:rainforest"
                   ]
                }
             ]

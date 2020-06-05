@@ -39,7 +39,7 @@
             "fat":"false"
          },
          "cluster-count":1,
-         "chunk-chance":64,
+         "chunk-chance":32,
          "min-height":3,
          "max-height":10,
          "retrogen":"true",
@@ -62,7 +62,8 @@
                      "jungle_m",
                      "jungle_edge_m",
 					 "mutated_jungle",
-					 "mutated_jungle_edge"
+					 "mutated_jungle_edge",
+					 "biomesoplenty:rainforest"
                   ]
                }
             ]
