@@ -90,7 +90,9 @@
 				  "forestry:leaves.decorative.1",
 				  "forestry:leaves.decorative.2",
 				  "primal:logs",
-				  "primal:leaves"
+				  "primal:leaves",
+				  "abyssalcraft:coraliumore",
+				  "abyssalcraft:coraliumstone"
                ],
                "radius":1,
                "height":5,

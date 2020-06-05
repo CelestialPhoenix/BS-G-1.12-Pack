@@ -50,7 +50,9 @@
 				  "quark:biome_cobblestone",
 				  "projectred-exploration:stone",
 				  "contenttweaker:marble",
-				  "minecraft:mycelium"
+				  "minecraft:mycelium",
+				  "abyssalcraft:coraliumore",
+				  "abyssalcraft:coraliumstone"
                ],
                "radius":1,
                "height":5,

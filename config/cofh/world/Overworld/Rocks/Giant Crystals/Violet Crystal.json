@@ -82,7 +82,9 @@
 				  "forestry:leaves.decorative.1",
 				  "forestry:leaves.decorative.2",
 				  "primal:logs",
-				  "primal:leaves"
+				  "primal:leaves",
+				  "abyssalcraft:coraliumore",
+				  "abyssalcraft:coraliumstone"
             ],
             "min-height":32,
             "height-variance":48,
