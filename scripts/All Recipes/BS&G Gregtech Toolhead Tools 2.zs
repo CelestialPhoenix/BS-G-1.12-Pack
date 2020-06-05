@@ -1527,6 +1527,12 @@ recipes.removeShaped(<ore:toolHeadSenseEnderium>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:plateEnderium>, <ore:ingotEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadSenseCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
+recipes.addShapedMirrored(<ore:toolHeadSenseCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:gemCertusQuartz>]]);
+recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
+recipes.addShapedMirrored(<ore:toolHeadSenseCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:gemCertusQuartz>]]);
 
 #BuzzSaw (tool removed)
 recipes.remove(<gregtech:meta_tool:33>);

@@ -388,6 +388,14 @@ recipes.addShaped(<ore:toolHeadSwordEnderium>.firstItem, [
 [<ore:plateEnderium>],
 [<ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadSwordCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadSwordCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadSwordCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>]]);
+recipes.removeShaped(<ore:toolHeadSwordNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadSwordNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>]]);
 
 #Pickaxe
 recipes.removeShaped(<ore:toolHeadPickaxeAluminium>.firstItem);
@@ -614,6 +622,10 @@ recipes.removeShaped(<ore:toolHeadPickaxeEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadPickaxeEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadPickaxeCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadPickaxeCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:plateCertusQuartz>]]);
+recipes.addShaped(<ore:toolHeadPickaxeNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:plateNetherQuartz>]]);
 
 #Shovel
 recipes.removeShaped(<ore:toolHeadShovelAluminium>.firstItem);
@@ -841,6 +853,10 @@ recipes.removeShaped(<ore:toolHeadShovelEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadShovelEnderium>.firstItem, [
 [<ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadShovelCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadShovelCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>]]);
+recipes.addShaped(<ore:toolHeadShovelNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>]]);
 
 #Axe
 recipes.removeShaped(<ore:toolHeadAxeAluminium>.firstItem);
@@ -1136,7 +1152,14 @@ recipes.addShapedMirrored(<ore:toolHeadAxeEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ingotEnderium>],
 [<ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadAxeCobaltMagnetic>.firstItem);
-
+recipes.removeShaped(<ore:toolHeadAxeNetherQuartz>.firstItem);
+recipes.addShapedMirrored(<ore:toolHeadAxeNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>],
+[<ore:plateNetherQuartz>]]);
+recipes.removeShaped(<ore:toolHeadAxeNetherQuartz>.firstItem);
+recipes.addShapedMirrored(<ore:toolHeadAxeNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>],
+[<ore:plateNetherQuartz>]]);
 
 #Hoe
 recipes.removeShaped(<ore:toolHeadHoeAluminium>.firstItem);
@@ -1363,6 +1386,10 @@ recipes.removeShaped(<ore:toolHeadHoeEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadHoeEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:plateEnderium>]]);
 #recipes.removeShaped(<ore:toolHeadHoeCobaltMagnetic>.firstItem);
+recipes.addShaped(<ore:toolHeadHoeNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>]]);
+recipes.addShaped(<ore:toolHeadHoeCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>]]);
 
 #Hammer
 #Removing shaped ingots+stick recipes
@@ -1660,7 +1687,15 @@ recipes.removeShaped(<ore:toolHeadHammerEnderium>.firstItem);
 recipes.addShaped(<ore:toolHeadHammerEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <ore:ingotEnderium>, <ore:plateEnderium>]]);
-#recipes.removeShaped(<ore:toolHeadHammerCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadHammerCobaltMagnetic>.firstItem);
+recipes.removeShaped(<ore:toolHeadHammerCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadHammerCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:plateCertusQuartz>],
+[<ore:plateCertusQuartz>, <ore:gemCertusQuartz>, <ore:plateCertusQuartz>]]);
+recipes.removeShaped(<ore:toolHeadHammerNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadHammerNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:plateNetherQuartz>],
+[<ore:plateNetherQuartz>, <ore:gemNetherQuartz>, <ore:plateNetherQuartz>]]);
 
 #File (tool disabled)
 recipes.remove(<gregtech:meta_tool:9>);

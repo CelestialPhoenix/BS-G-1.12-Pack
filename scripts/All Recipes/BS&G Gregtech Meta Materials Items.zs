@@ -682,6 +682,10 @@ recipes.addShapedMirrored(<ore:stickPolyvinylChloride>.firstItem*4, [
 [<ore:ingotPolyvinylChloride>, null],
 [null, <ore:ingotPolyvinylChloride>]]);
 
+recipes.removeShaped(<ore:stickRedAlloy>.firstItem);
+recipes.removeShaped(<ore:stickNickel>.firstItem);
+recipes.removeShaped(<ore:stickUranium>.firstItem);
+
 #Long Rods
 recipes.removeShaped(<ore:stickLongAluminium>.firstItem);
 recipes.removeShaped(<ore:stickLongAmericium>.firstItem);
