@@ -5,14 +5,29 @@ Read at your own risk.
 Centrifuge plants to methane recipes
 Fluid Extractor, chemi reactor crafting recipes- require heating elements?
 Ingot mould for smeltery casting
-Quest hints for ore locations
+Look into RC machines failing upon chunkload/reload
 -------------
 Diamond compressor recipe- check if config is resetting somewhere through Twitch/CF
-t-Make coralium deposits a little smaller
-ImEng crusher and metal press recipes all broken
 ------------------
 
 30.0 Pressing the Nuclear Button.
+When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
+WARNING: This will *poof* all the current crystal/shard ore items, petrochem/alchemical clathrates, some nuclearcraft machines, and a few wierd GT ore indicators that aren't in use here.
+Added Controlling 3.0.9 by JaradIII08
+Added CraftingTweaks 8.1.9 BlayTheNinth 
+Added InventoryTweaks 1.63 by JimeoWan
+Added More Overlays 1.15.1 by FeldiM245
+Added Realistic Item Drops 1.2.14 by Funwayguy
+Added The One Probe 1.4.28 by McJTY
+Added TOP Addons 1.13.0 by DrManganese
+Updated AbyssalCraft to 1.9.19.1
+Updated AbyssalCraft Integration to 1.11.2
+Updated AetherII to 0.3.0+build411-universal
+Updated Athenaeum to 1.18.1
+Updated Gregtech to 1.9.1.505
+Updated Logistics Pipes to 0.10.3.31
+Updated Immersive Technology to 1.7.61
+Updated NuclearCraft to 2o.2.7-1.12.2
 All Mods
 -added processing recipes for rich Diamond, Lapis ores
 -fixed a bunch of broken ore dicts
@@ -26,15 +41,23 @@ Botnaia
 -fixed an embarassing screw up with crafting recipes
 CoFHWorld
 -fixed diamond ore generation
+-buffed coal generation, now has surface trace
+-buffed and fixed redstone generation
+-tweaked Tetrahedrite, Bismuth, Salts, Molybdenum, Magnesium
 ContentTweaker
 -added a bunch of NC related items
 -fixed broken ore dict entries
 -added quartz tool heads
+Forestry
+-Changed trees not to generate in abyssal dimensions
 FTB Quests
 -rebranded as guide
 -added hints for ore-gen locations
 -added few infomational quests
 -fixed machine parts quest requiring a motor
+-fixed starting quests not appearing front and centre
+-tweaked a few quests/dependancies for easier reading
+-added a dirty dirty secret for dirty dirty cheats
 Gregtech
 -processing for nuclear isotopes
 -processing for non-nuclear NC materials
@@ -45,21 +68,34 @@ Gregtech
 Immersive Engineering
 -added nugget-ingot smelting in alloy kiln
 -fixed revolver recipe
+JEI
+-tidied a lot of disabled items
+t-hidden ore byproduct tab since its inaccurate
+MoreOverlays
+-disabled the light level overlay
 NuclearCraft
 -removed duplicate machines and components
 -redesigned a few machines; 
 -new recipes for machines
 -new recipes for reactor and turbines components
 -tweaked fuel processing line a little
+Realistic Item Drops
+-enabled auto pickup
 ThermalFoundation
 -removed easy clinker smelting
 TiCon
 -fixed graphite-coal smelting loop
 -added aluminium melting since this randomly went missing
+ToP
+-new recipes for probe
+-new recipes for goggles
+-disabled note
 Vanilla
 -dupe bug with smelting ingots
+ViesCraft
+t-tweaked fuel recipe
 Weather2
--tweaked render settings a little- should run better
+-tweaked render settings a little; should run better
 
 29.0 Frangible!
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
