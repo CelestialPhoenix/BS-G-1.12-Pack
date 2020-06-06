@@ -3,7 +3,7 @@
 
 {  
    "populate":{  
-      "Tetrahedrite":{  
+      "Tetrahedrite2":{  
          "distribution":"fractal",
          "generator":[  
             {  
@@ -127,9 +127,9 @@
                "slim":"false"
             }
          ],
-         "cluster-count":5,
-         "chunk-chance":60,
-         "min-height":80,
+         "cluster-count":15,
+         "chunk-chance":100,
+         "min-height":50,
          "vein-height":10,
          "vein-diameter":90,
          "vertical-density":14000,
