@@ -297,3 +297,6 @@ Agglomeration.addRecipe(<ore:clathrateLuck>.firstItem, [<ore:elvenPixieDust>, <o
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource:0>, <botania:manaresource:1>]);
 Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:ingotManasteel>, <ore:manaDiamond>, <ore:manaPearl>], 500000);
 Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:dustTerrasteel>], 100000);
+
+#---Antique Atlas---
+mods.botania.RuneAltar.addRecipe(<antiqueatlas:empty_antique_atlas>, [<minecraft:paper>, <minecraft:paper>, <thaumcraft:scribing_tools>, <minecraft:map>, <minecraft:paper>, <minecraft:paper>], 80000);

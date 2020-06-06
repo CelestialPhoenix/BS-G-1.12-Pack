@@ -38,6 +38,9 @@ var steamLightFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_
 var steamHeavyFuel = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_heavy_fuel", Amount: 1000}});
 var steamTar = <metaitem:fluid_cell>.withTag({Fluid: {FluidName: "cracked_tar", Amount: 1000}});
 
+#---Antique Atlas---
+mods.thaumcraft.Infusion.registerRecipe("AntiqueAtlas", "", <antiqueatlas:empty_antique_atlas>, 0, [<aspect:praecantatio>*20, <aspect:motus>*5, <aspect:cognitio>*20], <minecraft:book>, [<minecraft:paper>, <minecraft:paper>, <thaumcraft:scribing_tools>, <minecraft:map>, <minecraft:paper>, <minecraft:paper>]);
+
 #---Alchemical Processing---
 #Remove Recipes - done via recipe name
 #mods.thaumcraft.Crucible.removeRecipe(<minecraft:slimeball>);
