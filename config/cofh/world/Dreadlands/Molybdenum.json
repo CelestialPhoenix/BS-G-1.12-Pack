@@ -39,6 +39,10 @@
 				  {  
                      "name":"abyssalcraft:dreadlandsdirt",
                      "metadata":0
+                  },
+				  {  
+                     "name":"abyssalcraft:dreadgrass",
+                     "metadata":0
                   }
                ],
                "radius":5,

@@ -1,9 +1,9 @@
-#Name: Blood Sweat & Gears Salts1.zs
+#Name: Blood Sweat & Gears Salts3.zs
 #Author: PhoePhoe
 
 {  
    "populate":{  
-      "Salts1":{  
+      "Salts4":{  
          "distribution":"fractal",
          "generator":[  
             {  
@@ -39,6 +39,11 @@
                   },
                   {  
                      "name":"contenttweaker:oreabyssalsalt",
+                     "metadata":0,
+                     "weight":85
+                  },
+                  {  
+                     "name":"abyssalcraft:abyssalsand",
                      "metadata":0,
                      "weight":85
                   }
@@ -130,7 +135,7 @@
          ],
          "cluster-count":100,
          "chunk-chance":75,
-         "min-height":10,
+         "min-height":65,
          "vein-height":30,
          "vein-diameter":100,
          "vertical-density":100,

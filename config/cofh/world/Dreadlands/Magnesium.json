@@ -36,6 +36,14 @@
                      "name":"abyssalcraft:stone",
                      "metadata":3,
                      "weight":85
+                  },
+				  {  
+                     "name":"abyssalcraft:dreadlandsdirt",
+                     "metadata":0
+                  },
+				  {  
+                     "name":"abyssalcraft:dreadgrass",
+                     "metadata":0
                   }
                ],
                "cluster-size":32

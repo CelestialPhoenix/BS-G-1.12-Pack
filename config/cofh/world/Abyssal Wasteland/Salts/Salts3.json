@@ -41,6 +41,11 @@
                      "name":"contenttweaker:oreabyssalsalt",
                      "metadata":0,
                      "weight":85
+                  },
+                  {  
+                     "name":"abyssalcraft:abyssalsand",
+                     "metadata":0,
+                     "weight":85
                   }
 				  ],
                "cluster-size":32
@@ -129,7 +134,7 @@
             }
          ],
          "cluster-count":100,
-         "chunk-chance":200,
+         "chunk-chance":75,
          "min-height":50,
          "vein-height":30,
          "vein-diameter":100,
