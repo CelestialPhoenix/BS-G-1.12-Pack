@@ -12,12 +12,12 @@
                   {  
                      "name":"minecraft:dirt",
                      "metadata":0,
-                     "weight":80
+                     "weight":50
                   },
                   {  
                      "name":"biomesoplenty:mud",
                      "metadata":0,
-                     "weight":80
+                     "weight":100
                   },
 				  {  
                      "name":"contenttweaker:oredirtlignite",
