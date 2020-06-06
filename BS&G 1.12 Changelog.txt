@@ -1,14 +1,23 @@
 Warning: The log is long and full of spoilers.
 Read at your own risk.
 
+Econbrony - Ecobroium Ec
+Puyre Puyrium Py
+Vyraal1 - Vyraallium Vy
+Jason - McRavium Jm
+
 ------------
 Centrifuge plants to methane recipes
 Fluid Extractor, chemi reactor crafting recipes- require heating elements?
 Ingot mould for smeltery casting
-Look into RC machines failing upon chunkload/reload
--------------
-Diamond compressor recipe- check if config is resetting somewhere through Twitch/CF
-------------------
+Add in and integrate Antique Atlas
+Tidy Gtech multiblock descriptions as they hide the preview model. copy to JEI description
+
+31.0
+Added Antique Atlas 4.6.3 by Hunternif et al
+Antique Atlas
+-new recipes, either Thaumcraft or Botania
+-disabled auto-markers
 
 30.0 Pressing the Nuclear Button.
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
@@ -70,7 +79,7 @@ Immersive Engineering
 -fixed revolver recipe
 JEI
 -tidied a lot of disabled items
-t-hidden ore byproduct tab since its inaccurate
+-hidden ore byproduct tab since its inaccurate
 MoreOverlays
 -disabled the light level overlay
 NuclearCraft
@@ -93,7 +102,7 @@ ToP
 Vanilla
 -dupe bug with smelting ingots
 ViesCraft
-t-tweaked fuel recipe
+-tweaked fuel recipe
 Weather2
 -tweaked render settings a little; should run better
 
