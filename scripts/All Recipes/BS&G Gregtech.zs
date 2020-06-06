@@ -3,6 +3,9 @@
 
 print("Hello Boys- I'm Baaaaack!!!");
 
+#---JEI catagories---
+mods.jei.JEI.hideCategory("gregtech:ore_by_product");
+
 #---Naming---
 <metaitem:circuit.basic>.displayName="Crude Circuit";
 <metaitem:circuit.basic_electronic>.displayName="Simple Circuit";
