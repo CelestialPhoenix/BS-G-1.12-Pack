@@ -1,0 +1,37 @@
+#Name: Blood Sweat & Gears Redstone Scattered.zs
+#Author: PhoePhoe
+
+{  
+   "populate":{
+      "redstonescattered":{  
+         "distribution":"uniform",
+         "generator":{  
+            "type":"cluster",
+            "block":[  
+               {  
+                  "name":"minecraft:redstone_ore",
+                  "metadata":0,
+                  "weight":90
+               },
+               {  
+                  "name":"minecraft:stone",
+                  "metadata":0,
+                  "weight":10
+               }
+            ],
+            "material":"minecraft:stone",
+            "cluster-size":4
+         },
+         "cluster-count":16,
+         "min-height":0,
+         "max-height":32,
+         "retrogen":"true",
+         "dimension":{  
+            "restriction":"whitelist",
+            "value":[  
+               0
+            ]
+         }
+      },
+   }
+}
