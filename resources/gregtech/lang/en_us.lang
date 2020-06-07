@@ -213,21 +213,36 @@ gregtech.machine.assembler.iv.name=Advanced Assembler IV
 //Autoclave
 gregtech.machine.autoclave.iv.name=Advanced Autoclave IV
 
+//Boiler (large)
+gregtech.multiblock.large_boiler.description=
+
 //Compressor
 gregtech.machine.compressor.ev.name=Advanced Compressor III
+
+//Cracker
+gregtech.multiblock.cracker.description=
+
+//Diesel Engine
+gregtech.multiblock.diesel_engine.description=
 
 //Distil tower (Refinary Tower)
 gregtech.machine.distillation_tower.name=Refinery Tower
 gregtech.machine.distillation_tower.tooltip=Precision Distillation
-gregtech.multiblock.distillation_tower.description=The Refinery Tower is a multiblock structure used for distilling the various types of Oil, their byproducts and some other fluids.
+gregtech.multiblock.distillation_tower.description=
 recipemap.distillation_tower.name=Refinery Tower
 achievement.oilplant.desc=Start up a Refinery Tower
+
+//Electric Blast Furnace
+gregtech.multiblock.electric_blast_furnace.description=
 
 //Electrolyzer
 gregtech.machine.electrolyzer.ev.name=Advanced Electrolyzer III
 
 //Extractor
 gregtech.machine.extractor.ev.name=Advanced Extractor III
+
+//Implosion Compressor
+gregtech.multiblock.implosion_compressor.description=
 
 //Laser Engraver
 gregtech.machine.laser_engraver.iv.name=Advanced Laser Engraver IV
@@ -239,3 +254,15 @@ gregtech.machine.macerator.hv.name=Universal Macerator
 gregtech.machine.macerator.hv.tooltip=Crushing your ores ...with byproducts!
 gregtech.machine.macerator.ev.name=Universal Macerator II
 gregtech.machine.macerator.ev.tooltip=Crushing your ores ...with byproducts!
+
+//Multi Smelter
+gregtech.multiblock.multi_smelter.description=The Multi Smelter is a multiblock structure used for smelting massive amounts of items at once. Different tiers of coils provide a speed boost and energy efficiency gain. 16 is the base value of items smelted per operation, and can be multiplied by using higher level coils.
+
+//Primitative Blast Furnace
+gregtech.multiblock.primitive_blast_furnace.description=
+
+//Pyro Oven
+gregtech.multiblock.pyrolyze_oven.description=
+
+//Vacuum Freezer
+gregtech.multiblock.vacuum_freezer.description=
