@@ -73,16 +73,16 @@ for input in cobaltOre {
 	var isotopenitride as string = "ingot"~input~"nitride";
 	var isotopeoxide as string = "ingot"~input~"oxide";
 
-var plain = VanillaFactory.createItem("isotope");
+var plain = VanillaFactory.createItem(isotope);
 plain.register();
 
-var carbide = VanillaFactory.createItem("isotopecarbide");
+var carbide = VanillaFactory.createItem(isotopecarbide);
 carbide.register();
 
-var nitride = VanillaFactory.createItem("isotopenitride");
+var nitride = VanillaFactory.createItem(isotopenitride);
 nitride.register();
 
-var oxide = VanillaFactory.createItem("isotopeoxide");
+var oxide = VanillaFactory.createItem(isotopeoxide);
 oxide.register();
 }
 

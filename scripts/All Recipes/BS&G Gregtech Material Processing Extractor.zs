@@ -82,14 +82,14 @@ extractor
 extractor
     .recipeBuilder()
     .inputs(<minecraft:skull:2>)//Zombie
-    .outputs(<minecraft:rotton_flesh>*2)
+    .outputs(<minecraft:rotten_flesh>*2)
     .duration(200)
     .EUt(5)
     .buildAndRegister();
 
 extractor
     .recipeBuilder()
-    .inputs(<minecraft:skull:3>)//Creeper
+    .inputs(<minecraft:skull:4>)//Creeper
     .outputs(<ore:dustGunpowder>.firstItem*2)
     .duration(200)
     .EUt(5)

@@ -99,15 +99,15 @@ macerator
     .recipeBuilder()
     .inputs(<minecraft:skull:2>)//Zombie
     .outputs(<ore:dustBone>.firstItem*10)
-	.chancedOutput(<minecraft:rotten_flesh>.firstItem, 7000, 1500)
-	.chancedOutput(<minecraft:rotten_flesh>.firstItem, 2000, 1000)
+	.chancedOutput(<minecraft:rotten_flesh>, 7000, 1500)
+	.chancedOutput(<minecraft:rotten_flesh>, 2000, 1000)
     .duration(40)
     .EUt(2)
     .buildAndRegister();
 
 macerator
     .recipeBuilder()
-    .inputs(<minecraft:skull:3>)//Creeper
+    .inputs(<minecraft:skull:4>)//Creeper
     .outputs(<ore:dustBone>.firstItem*10)
 	.chancedOutput(<ore:dustGunpowder>.firstItem, 7000, 1500)
 	.chancedOutput(<ore:dustGunpowder>.firstItem, 2000, 1000)

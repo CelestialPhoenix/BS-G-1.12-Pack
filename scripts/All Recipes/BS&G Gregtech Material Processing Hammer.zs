@@ -48,7 +48,7 @@ hammer
 
 hammer
     .recipeBuilder()
-    .inputs(<minecraft:skull:3>)//Creeper
+    .inputs(<minecraft:skull:4>)//Creeper
     .outputs(<ore:dustBone>.firstItem*6)
     .duration(30)
     .EUt(2)
