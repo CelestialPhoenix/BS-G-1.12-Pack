@@ -62,6 +62,39 @@ extractor
     .buildAndRegister();
 }
 
+#Bones/Skulls
+extractor
+    .recipeBuilder()
+    .inputs(<minecraft:skull:0>)
+    .outputs(<ore:dustBone>.firstItem*8)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<minecraft:skull:1>)//Wither
+    .outputs(<ore:dustCoal>.firstItem*2)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<minecraft:skull:2>)//Zombie
+    .outputs(<minecraft:rotton_flesh>*2)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
+extractor
+    .recipeBuilder()
+    .inputs(<minecraft:skull:3>)//Creeper
+    .outputs(<ore:dustGunpowder>.firstItem*2)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
 #-Dyes-
 
 #Black

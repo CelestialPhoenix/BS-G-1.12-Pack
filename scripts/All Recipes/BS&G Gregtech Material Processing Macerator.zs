@@ -65,6 +65,56 @@ macerator
     .EUt(2)
     .buildAndRegister();
 
+#Bones
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:bone>)
+    .outputs(<ore:dustBone>.firstItem*3)
+	.chancedOutput(<ore:dustBone>.firstItem, 5000, 1000)
+    .duration(25)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:skull:0>)
+    .outputs(<ore:dustBone>.firstItem*10)
+	.chancedOutput(<ore:dustBone>.firstItem, 7000, 1500)
+	.chancedOutput(<ore:dustBone>.firstItem, 2000, 1000)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:skull:1>)//Wither
+    .outputs(<ore:dustBone>.firstItem*10)
+	.chancedOutput(<ore:dustCoal>.firstItem, 7000, 1500)
+	.chancedOutput(<ore:dustCoal>.firstItem, 2000, 1000)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:skull:2>)//Zombie
+    .outputs(<ore:dustBone>.firstItem*10)
+	.chancedOutput(<minecraft:rotten_flesh>.firstItem, 7000, 1500)
+	.chancedOutput(<minecraft:rotten_flesh>.firstItem, 2000, 1000)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
+macerator
+    .recipeBuilder()
+    .inputs(<minecraft:skull:3>)//Creeper
+    .outputs(<ore:dustBone>.firstItem*10)
+	.chancedOutput(<ore:dustGunpowder>.firstItem, 7000, 1500)
+	.chancedOutput(<ore:dustGunpowder>.firstItem, 2000, 1000)
+    .duration(40)
+    .EUt(2)
+    .buildAndRegister();
+
 #-Brick [dust]-
 macerator.findRecipe(8, [<minecraft:stone_slab:4>], null).remove();
 macerator.findRecipe(8, [<minecraft:brick_stairs>], null).remove();

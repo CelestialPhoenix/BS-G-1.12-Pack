@@ -8,10 +8,52 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#---Compressor---
+#---Forge Hammer---
 val hammer as RecipeMap = RecipeMap.getByName("forge_hammer");
 
 #--Botania--
+
+#Bones
+hammer
+    .recipeBuilder()
+    .inputs(<minecraft:bone>)
+    .outputs(<ore:dustBone>.firstItem*2)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+
+hammer
+    .recipeBuilder()
+    .inputs(<minecraft:skull:0>)
+    .outputs(<ore:dustBone>.firstItem*6)
+    .duration(30)
+    .EUt(2)
+    .buildAndRegister();
+
+hammer
+    .recipeBuilder()
+    .inputs(<minecraft:skull:1>)//Wither
+    .outputs(<ore:dustBone>.firstItem*6)
+    .duration(30)
+    .EUt(2)
+    .buildAndRegister();
+
+hammer
+    .recipeBuilder()
+    .inputs(<minecraft:skull:2>)//Zombie
+    .outputs(<ore:dustBone>.firstItem*6)
+    .duration(30)
+    .EUt(2)
+    .buildAndRegister();
+
+hammer
+    .recipeBuilder()
+    .inputs(<minecraft:skull:3>)//Creeper
+    .outputs(<ore:dustBone>.firstItem*6)
+    .duration(30)
+    .EUt(2)
+    .buildAndRegister();
+
 #Flowers
 
 #This awesome looping script was modified from FTB interactions
