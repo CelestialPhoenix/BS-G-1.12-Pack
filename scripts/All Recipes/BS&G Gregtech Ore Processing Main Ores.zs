@@ -174,7 +174,7 @@ thermalCentrifuge
     .inputs(oreCrushed)
     .outputs([oreCrushedCentrifuged, primaryByproduct*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 
 thermalCentrifuge.findRecipe(60, [oreCrushedPurified], null).remove();
@@ -183,7 +183,7 @@ thermalCentrifuge
     .inputs(oreCrushedPurified)
     .outputs([oreCrushedCentrifuged, secondaryByproduct*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 }
 
@@ -331,7 +331,7 @@ thermalCentrifuge
     .inputs(<ore:crushedGlassy>)
     .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 
 thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedGlassy>.firstItem], null).remove();
@@ -340,7 +340,7 @@ thermalCentrifuge
     .inputs(<ore:crushedPurifiedGlassy>)
     .outputs([<ore:crushedCentrifugedGlassy>.firstItem, <ore:dustTinyGlass>.firstItem*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 
 centrifuge.findRecipe(24, [<ore:dustImpureGlassy>.firstItem], null).remove();
@@ -449,7 +449,7 @@ thermalCentrifuge
     .inputs(<ore:crushedQuicksilver>)
     .outputs([<ore:crushedCentrifugedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 
 thermalCentrifuge.findRecipe(60, [<ore:crushedPurifiedQuicksilver>.firstItem], null).remove();
@@ -458,7 +458,7 @@ thermalCentrifuge
     .inputs(<ore:crushedPurifiedQuicksilver>)
     .outputs([<ore:crushedCentrifugedQuicksilver>.firstItem, <ore:nuggetQuicksilver>.firstItem*1])
     .duration(520)
-    .EUt(60)
+    .EUt(20)
     .buildAndRegister();
 
 centrifuge.findRecipe(24, [<ore:dustImpureQuicksilver>.firstItem], null).remove();

@@ -356,9 +356,9 @@ recipes.addShaped(<contenttweaker:chassistitanium>, [
 
 #chassis IV
 recipes.addShaped(<contenttweaker:chassistungstensteel>, [
-[null, <ore:sheetTunstenSteel>, null],
-[<ore:sheetTunstenSteel>, <ore:frameGtTitanium>, <ore:sheetTunstenSteel>], 
-[null, <ore:sheetTunstenSteel>, null]]);
+[null, <ore:sheetTungstenSteel>, null],
+[<ore:sheetTungstenSteel>, <ore:frameGtTitanium>, <ore:sheetTungstenSteel>], 
+[null, <ore:sheetTungstenSteel>, null]]);
 
 #chassis LuV
 recipes.addShaped(<contenttweaker:chassischrome>, [
