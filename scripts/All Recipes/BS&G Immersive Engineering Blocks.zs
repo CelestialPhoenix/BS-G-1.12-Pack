@@ -123,7 +123,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:2>, [
 recipes.removeShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}));
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})*8, [
 [<ore:leather>, <ore:leather>, <ore:leather>],
-[<ore:ringIron>, <ore:rodIron>, <ore:ringIron>], 
+[<ore:ringIron>, <ore:stickIron>, <ore:ringIron>], 
 [<ore:leather>, <ore:leather>, <ore:leather>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})*8, [
 [<ore:leather>, <ore:leather>, <ore:leather>],
@@ -131,7 +131,7 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 [<ore:leather>, <ore:leather>, <ore:leather>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})*8, [
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
-[<ore:ringIron>, <ore:rodIron>, <ore:ringIron>], 
+[<ore:ringIron>, <ore:stickIron>, <ore:ringIron>], 
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})*8, [
 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
