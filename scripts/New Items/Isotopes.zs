@@ -10,7 +10,6 @@ import mods.contenttweaker.Commands;
 
 #This awesome looping script was modified from FTB interactions
 var cobaltOre as string[] = [
-	"nq312",
 	"nq313",
 	"nq314",
 	"nq319",
@@ -31,7 +30,6 @@ var cobaltOre as string[] = [
 	"jm316",
 	"jm317",
 	"jm318",
-	"jm319",
 	"jm320",
 	"jm322",
 	"jm323",
