@@ -122,7 +122,7 @@ var lBoC = VanillaFactory.createItem(fuelLEBoC);
 lBoC.register();
 
 var lTNC = VanillaFactory.createItem(fuelLETNC);
-TNC.register();
+lTNC.register();
 
 var lLcT = VanillaFactory.createItem(fuelLELcT);
 lLcT.register();
@@ -138,31 +138,31 @@ hLcT.register();
 }
 
 #TBU
-var tbuBoC = VanillaFactory.createItem(ingottbuboc);
-tubBoC.register();
+var tbuBoC = VanillaFactory.createItem("ingottbuboc");
+tbuBoC.register();
 
-var tbuTNC = VanillaFactory.createItem(ingottubtnc);
+var tbuTNC = VanillaFactory.createItem("ingottubtnc");
 tbuTNC.register();
 
-var tubLcT = VanillaFactory.createItem(ingottublct);
+var tbuLcT = VanillaFactory.createItem("ingottublct");
 tbuLcT.register();
 
 #Mix239
-var mix239BoC = VanillaFactory.createItem(ingotmix239boc);
-tubBoC.register();
+var mix239BoC = VanillaFactory.createItem("ingotmix239boc");
+mix239BoC.register();
 
-var mix239TNC = VanillaFactory.createItem(ingotmix239tnc);
-m239TNC.register();
+var mix239TNC = VanillaFactory.createItem("ingotmix239tnc");
+mix239TNC.register();
 
-var mix239LcT = VanillaFactory.createItem(ingotmix239lct);
+var mix239LcT = VanillaFactory.createItem("ingotmix239lct");
 mix239LcT.register();
 
 #Mix241
-var mix241BoC = VanillaFactory.createItem(ingotmix241boc);
-tubBoC.register();
+var mix241BoC = VanillaFactory.createItem("ingotmix241boc");
+mix241BoC.register();
 
-var mix241TNC = VanillaFactory.createItem(ingotmix241tnc);
+var mix241TNC = VanillaFactory.createItem("ingotmix241tnc");
 mix241TNC.register();
 
-var mix241LcT = VanillaFactory.createItem(ingotmix241lct);
+var mix241LcT = VanillaFactory.createItem("ingotmix241lct");
 mix241LcT.register();
