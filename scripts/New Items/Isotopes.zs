@@ -9,7 +9,7 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
 #This awesome looping script was modified from FTB interactions
-var cobaltOre as string[] = [
+var Isotopes as string[] = [
 	"nq313",
 	"nq314",
 	"nq319",
@@ -65,7 +65,7 @@ var cobaltOre as string[] = [
 	"vy330"
 	];
 
-for input in cobaltOre {
+for input in Isotopes {
 	var isotope as string = "ingot"~input;
 	var isotopecarbide as string = "ingot"~input~"carbide";
 	var isotopenitride as string = "ingot"~input~"nitride";
