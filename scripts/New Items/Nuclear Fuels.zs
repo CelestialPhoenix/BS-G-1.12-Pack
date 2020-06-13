@@ -34,9 +34,9 @@ var NaquadahFuels as string[] = [
 
 for input in NaquadahFuels {
 	var fuelLE as string = "ingotle"~input;
-	var fuelHE as string = "ingotle"~input;
+	var fuelHE as string = "ingothe"~input;
 	var fuelLECarbide as string = "ingotle"~input~"carbide";
-	var fuelHECarbide as string = "ingotle"~input~"carbide";
+	var fuelHECarbide as string = "ingothe"~input~"carbide";
 	var fuelLENitride as string = "ingotle"~input~"nitride";
 	var fuelHENitride as string = "ingothe"~input~"nitride";
 	var fuelLEOxide as string = "ingotle"~input~"oxide";

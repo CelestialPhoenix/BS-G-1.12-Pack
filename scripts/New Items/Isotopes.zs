@@ -70,6 +70,7 @@ for input in Isotopes {
 	var isotopecarbide as string = "ingot"~input~"carbide";
 	var isotopenitride as string = "ingot"~input~"nitride";
 	var isotopeoxide as string = "ingot"~input~"oxide";
+	var isotopeza as string = "ingot"~input~"za";
 
 var plain = VanillaFactory.createItem(isotope);
 plain.register();
@@ -82,6 +83,9 @@ nitride.register();
 
 var oxide = VanillaFactory.createItem(isotopeoxide);
 oxide.register();
+
+var za = VanillaFactory.createItem(isotopeza);
+za.register();
 }
 
 
