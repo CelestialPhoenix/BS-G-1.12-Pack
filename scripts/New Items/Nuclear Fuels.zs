@@ -75,6 +75,57 @@ var HETriso = VanillaFactory.createItem(fuelHETriso);
 HETriso.register();
 }
 
+var MagicFuels as string[] = [
+	"tbu",
+	"u233",
+	"u235",
+	"n236",
+	"p339",
+	"p241",
+	"mix239",
+	"mix241",
+	"a242",
+	"cm243",
+	"cm245",
+	"cm247",
+	"b248",
+	"cf249",
+	"cf251",
+	"nq314",
+	"nq319",
+	"cc315",
+	"cc320",
+	"jt315",
+	"jt323",
+	"sa319",
+	"sa323",
+	"jm316",
+	"jm318",
+	"jm323",
+	"ec319",
+	"ec321",
+	"ec326",
+	"py322",
+	"py324",
+	"py326",
+	"vy321",
+	"vy324",
+	"vy327",
+	];
 
+for input in MagicFuels {
+	var fuelBoC as string = "ingotboc"~input;
+	var fuelTNC as string = "ingottnc"~input;
+	var fuelLcT as string = "ingotlct"~input;
+
+var BoC = VanillaFactory.createItem(fuelBoC);
+BoC.register();
+
+var TNC = VanillaFactory.createItem(fuelTNC);
+TNC.register();
+
+var LcT = VanillaFactory.createItem(fuelLcT);
+LcT.register();
+}
 
 
