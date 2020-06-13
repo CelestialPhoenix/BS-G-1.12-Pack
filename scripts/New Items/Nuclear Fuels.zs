@@ -41,6 +41,8 @@ for input in NaquadahFuels {
 	var fuelHENitride as string = "ingothe"~input~"nitride";
 	var fuelLEOxide as string = "ingotle"~input~"oxide";
 	var fuelHEOxide as string = "ingothe"~input~"oxide";
+	var fuelLEZA as string = "ingotle"~input~"za";
+	var fuelHEZA as string = "ingothe"~input~"za";
 	var fuelLETriso as string = "ingotle"~input~"triso";
 	var fuelHETriso as string = "ingothe"~input~"triso";
 	
@@ -50,6 +52,8 @@ for input in NaquadahFuels {
 	var fuelDepletedHENitride as string = "ingotdepletedhe"~input~"nitride";
 	var fuelDepletedLEOxide as string = "ingotdepletedle"~input~"oxide";
 	var fuelDepletedHEOxide as string = "ingotdepletedhe"~input~"oxide";
+	var fuelDepletedLEZA as string = "ingotdepletedle"~input~"za";
+	var fuelDepletedHEZA as string = "ingotdepletedhe"~input~"za";
 	var fuelDepletedLETriso as string = "ingotdepletedle"~input~"triso";
 	var fuelDepletedHETriso as string = "ingotdepletedhe"~input~"triso";
 
@@ -77,6 +81,12 @@ LEOxide.register();
 var HEOxide = VanillaFactory.createItem(fuelHEOxide);
 HEOxide.register();
 
+var LEZA = VanillaFactory.createItem(fuelLEZA);
+LEZA.register();
+
+var HEZA = VanillaFactory.createItem(fuelHEZA);
+HEZA.register();
+
 var LETriso = VanillaFactory.createItem(fuelLETriso);
 LETriso.register();
 
@@ -99,6 +109,12 @@ var LEOxideDepleted = VanillaFactory.createItem(fuelDepletedLEOxide);
 LEOxideDepleted.register();
 
 var HEOxideDepleted = VanillaFactory.createItem(fuelDepletedHEOxide);
+HEOxideDepleted.register();
+
+var LEZADepleted = VanillaFactory.createItem(fuelDepletedLEZA);
+LEZADepleted.register();
+
+var HEOxideDepleted = VanillaFactory.createItem(fuelDepletedHEZA);
 HEOxideDepleted.register();
 
 var LETrisoDepleted = VanillaFactory.createItem(fuelDepletedLETriso);
