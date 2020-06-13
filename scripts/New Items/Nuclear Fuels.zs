@@ -111,12 +111,12 @@ var MagicFuels as string[] = [
 	];
 
 for input in MagicFuels {
-	var fuelLEBoC as string = "ingotleboc"~input;
-	var fuelLETNC as string = "ingotletnc"~input;
-	var fuelLELcT as string = "ingotlelct"~input;
-	var fuelHEBoC as string = "ingotheboc"~input;
-	var fuelHETNC as string = "ingothetnc"~input;
-	var fuelHELcT as string = "ingothelct"~input;
+	var fuelLEBoC as string = "ingotle"~input~"boc";
+	var fuelLETNC as string = "ingotle"~input~"tnc";
+	var fuelLELcT as string = "ingotle"~input~"lct";
+	var fuelHEBoC as string = "ingothe"~input~"boc";
+	var fuelHETNC as string = "ingothe"~input~"tnc";
+	var fuelHELcT as string = "ingothe"~input~"lct";
 
 var lBoC = VanillaFactory.createItem(fuelLEBoC);
 lBoC.register();
@@ -144,7 +144,7 @@ tbuBoC.register();
 var tbuTNC = VanillaFactory.createItem("ingottubtnc");
 tbuTNC.register();
 
-var tbuLcT = VanillaFactory.createItem("ingottublct");
+var tbuLcT = VanillaFactory.createItem("ingottbulct");
 tbuLcT.register();
 
 #Mix239
