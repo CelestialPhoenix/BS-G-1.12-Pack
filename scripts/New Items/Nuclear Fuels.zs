@@ -76,14 +76,11 @@ HETriso.register();
 }
 
 var MagicFuels as string[] = [
-	"tbu",
 	"u233",
 	"u235",
 	"n236",
-	"p339",
+	"p239",
 	"p241",
-	"mix239",
-	"mix241",
 	"a242",
 	"cm243",
 	"cm245",
@@ -114,18 +111,58 @@ var MagicFuels as string[] = [
 	];
 
 for input in MagicFuels {
-	var fuelBoC as string = "ingotboc"~input;
-	var fuelTNC as string = "ingottnc"~input;
-	var fuelLcT as string = "ingotlct"~input;
+	var fuelLEBoC as string = "ingotleboc"~input;
+	var fuelLETNC as string = "ingotletnc"~input;
+	var fuelLELcT as string = "ingotlelct"~input;
+	var fuelHEBoC as string = "ingotheboc"~input;
+	var fuelHETNC as string = "ingothetnc"~input;
+	var fuelHELcT as string = "ingothelct"~input;
 
-var BoC = VanillaFactory.createItem(fuelBoC);
-BoC.register();
+var lBoC = VanillaFactory.createItem(fuelLEBoC);
+lBoC.register();
 
-var TNC = VanillaFactory.createItem(fuelTNC);
+var lTNC = VanillaFactory.createItem(fuelLETNC);
 TNC.register();
 
-var LcT = VanillaFactory.createItem(fuelLcT);
-LcT.register();
+var lLcT = VanillaFactory.createItem(fuelLELcT);
+lLcT.register();
+
+var hBoC = VanillaFactory.createItem(fuelHEBoC);
+hBoC.register();
+
+var hTNC = VanillaFactory.createItem(fuelHETNC);
+hTNC.register();
+
+var hLcT = VanillaFactory.createItem(fuelHELcT);
+hLcT.register();
 }
 
+#TBU
+var tbuBoC = VanillaFactory.createItem(ingottbuboc);
+tubBoC.register();
 
+var tbuTNC = VanillaFactory.createItem(ingottubtnc);
+tbuTNC.register();
+
+var tubLcT = VanillaFactory.createItem(ingottublct);
+tbuLcT.register();
+
+#Mix239
+var mix239BoC = VanillaFactory.createItem(ingotmix239boc);
+tubBoC.register();
+
+var mix239TNC = VanillaFactory.createItem(ingotmix239tnc);
+m239TNC.register();
+
+var mix239LcT = VanillaFactory.createItem(ingotmix239lct);
+mix239LcT.register();
+
+#Mix241
+var mix241BoC = VanillaFactory.createItem(ingotmix241boc);
+tubBoC.register();
+
+var mix241TNC = VanillaFactory.createItem(ingotmix241tnc);
+mix241TNC.register();
+
+var mix241LcT = VanillaFactory.createItem(ingotmix241lct);
+mix241LcT.register();
