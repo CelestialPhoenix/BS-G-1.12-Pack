@@ -114,8 +114,8 @@ HEOxideDepleted.register();
 var LEZADepleted = VanillaFactory.createItem(fuelDepletedLEZA);
 LEZADepleted.register();
 
-var HEOxideDepleted = VanillaFactory.createItem(fuelDepletedHEZA);
-HEOxideDepleted.register();
+var HEZADepleted = VanillaFactory.createItem(fuelDepletedHEZA);
+HEZADepleted.register();
 
 var LETrisoDepleted = VanillaFactory.createItem(fuelDepletedLETriso);
 LETrisoDepleted.register();
@@ -214,7 +214,7 @@ hLcTDepleted.register();
 var tbuBoC = VanillaFactory.createItem("ingottbuboc");
 tbuBoC.register();
 
-var tbuTNC = VanillaFactory.createItem("ingottubtnc");
+var tbuTNC = VanillaFactory.createItem("ingottbutnc");
 tbuTNC.register();
 
 var tbuLcT = VanillaFactory.createItem("ingottbulct");
@@ -244,7 +244,7 @@ mix241LcT.register();
 var tbuBoCDepleted = VanillaFactory.createItem("ingotdepletedtbuboc");
 tbuBoCDepleted.register();
 
-var tbuTNCDepleted = VanillaFactory.createItem("ingotdepletedtubtnc");
+var tbuTNCDepleted = VanillaFactory.createItem("ingotdepletedtbutnc");
 tbuTNCDepleted.register();
 
 var tbuLcTDepleted = VanillaFactory.createItem("ingotdepletedtbulct");
