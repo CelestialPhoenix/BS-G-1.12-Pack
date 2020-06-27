@@ -161,16 +161,16 @@ var MagicFuels as string[] = [
 
 for input in MagicFuels {
 	var fuelLEBoC as string = "ingotle"~input~"boc";
-	var fuelLETNC as string = "ingotle"~input~"tnc";
+	var fuelLETNC as string = "ingotle"~input~"tns";
 	var fuelLELcT as string = "ingotle"~input~"lct";
 	var fuelHEBoC as string = "ingothe"~input~"boc";
-	var fuelHETNC as string = "ingothe"~input~"tnc";
+	var fuelHETNC as string = "ingothe"~input~"tns";
 	var fuelHELcT as string = "ingothe"~input~"lct";
 	var fuelDepletedLEBoC as string = "ingotdepletedle"~input~"boc";
-	var fuelDepletedLETNC as string = "ingotdepletedle"~input~"tnc";
+	var fuelDepletedLETNC as string = "ingotdepletedle"~input~"tns";
 	var fuelDepletedLELcT as string = "ingotdepletedle"~input~"lct";
 	var fuelDepletedHEBoC as string = "ingotdepletedhe"~input~"boc";
-	var fuelDepletedHETNC as string = "ingotdepletedhe"~input~"tnc";
+	var fuelDepletedHETNC as string = "ingotdepletedhe"~input~"tns";
 	var fuelDepletedHELcT as string = "ingotdepletedhe"~input~"lct";
 
 var lBoC = VanillaFactory.createItem(fuelLEBoC);
@@ -214,7 +214,7 @@ hLcTDepleted.register();
 var tbuBoC = VanillaFactory.createItem("ingottbuboc");
 tbuBoC.register();
 
-var tbuTNC = VanillaFactory.createItem("ingottbutnc");
+var tbuTNC = VanillaFactory.createItem("ingottbutns");
 tbuTNC.register();
 
 var tbuLcT = VanillaFactory.createItem("ingottbulct");
@@ -224,7 +224,7 @@ tbuLcT.register();
 var mix239BoC = VanillaFactory.createItem("ingotmix239boc");
 mix239BoC.register();
 
-var mix239TNC = VanillaFactory.createItem("ingotmix239tnc");
+var mix239TNC = VanillaFactory.createItem("ingotmix239tns");
 mix239TNC.register();
 
 var mix239LcT = VanillaFactory.createItem("ingotmix239lct");
@@ -234,7 +234,7 @@ mix239LcT.register();
 var mix241BoC = VanillaFactory.createItem("ingotmix241boc");
 mix241BoC.register();
 
-var mix241TNC = VanillaFactory.createItem("ingotmix241tnc");
+var mix241TNC = VanillaFactory.createItem("ingotmix241tns");
 mix241TNC.register();
 
 var mix241LcT = VanillaFactory.createItem("ingotmix241lct");
@@ -244,7 +244,7 @@ mix241LcT.register();
 var tbuBoCDepleted = VanillaFactory.createItem("ingotdepletedtbuboc");
 tbuBoCDepleted.register();
 
-var tbuTNCDepleted = VanillaFactory.createItem("ingotdepletedtbutnc");
+var tbuTNCDepleted = VanillaFactory.createItem("ingotdepletedtbutns");
 tbuTNCDepleted.register();
 
 var tbuLcTDepleted = VanillaFactory.createItem("ingotdepletedtbulct");
@@ -254,7 +254,7 @@ tbuLcTDepleted.register();
 var mix239BoCDepleted = VanillaFactory.createItem("ingotdepletedmix239boc");
 mix239BoCDepleted.register();
 
-var mix239TNCDepleted = VanillaFactory.createItem("ingotdepletedmix239tnc");
+var mix239TNCDepleted = VanillaFactory.createItem("ingotdepletedmix239tns");
 mix239TNCDepleted.register();
 
 var mix239LcTDepleted = VanillaFactory.createItem("ingotdepletedmix239lct");
@@ -264,7 +264,7 @@ mix239LcTDepleted.register();
 var mix241BoCDepleted = VanillaFactory.createItem("ingotdepletedmix241boc");
 mix241BoCDepleted.register();
 
-var mix241TNCDepleted = VanillaFactory.createItem("ingotdepletedmix241tnc");
+var mix241TNCDepleted = VanillaFactory.createItem("ingotdepletedmix241tns");
 mix241TNCDepleted.register();
 
 var mix241LcTDepleted = VanillaFactory.createItem("ingotdepletedmix241lct");
