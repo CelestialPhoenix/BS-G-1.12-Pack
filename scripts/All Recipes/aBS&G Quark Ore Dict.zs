@@ -4,8 +4,8 @@
 print("The post duck says...?");
 
 #---remove entries---
-<ore:slimeball>.remove(<quark:slime_bucket:0>);
-<ore:slimeball>.remove(<quark:slime_bucket:1>);
+#<ore:slimeball>.remove(<quark:slime_bucket:0>);
+#<ore:slimeball>.remove(<quark:slime_bucket:1>);
 
 #---ore dicting
 #dyes
