@@ -182,7 +182,7 @@ for i, input in fuelFissile {
 	var ingotFuelHE as IItemStack = oreDict["ingotHE"~fuelPellet[i]~"ZA"].firstItem;
 
 mods.nuclearcraft.Assembler.addRecipe(ingotFertile*8, ingotFissile*1, <ore:foilZirconium>*4, null, ingotFuelLE*9, 1.0, 1.0, 0.02);
-mods.nuclearcraft.Assembler.addRecipe(ingotFertile*6, ingotFissile*3, <ore:plateZirconium>*2, null, ingotFuelHE*9, 1.0, 1.0, 0.06);
+mods.nuclearcraft.Assembler.addRecipe(ingotFertile*6, ingotFissile*3, <ore:plateZirconium>*1, null, ingotFuelHE*9, 1.0, 1.0, 0.06);
 }
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium239ZA>.firstItem*1, <ore:ingotUranium238ZA>.firstItem*8, <ore:foilZirconium>*4, null, <ore:ingotMIX239ZA>.firstItem*9, 1.0, 1.0, 0.02);
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPlutonium241ZA>.firstItem*1, <ore:ingotUranium238ZA>.firstItem*8, <ore:foilZirconium>*4, null, <ore:ingotMIX241ZA>.firstItem*9, 1.0, 1.0, 0.02);
