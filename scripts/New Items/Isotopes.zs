@@ -10,6 +10,7 @@ import mods.contenttweaker.Commands;
 
 #This awesome looping script was modified from FTB interactions
 var Isotopes as string[] = [
+	"nq312",
 	"nq313",
 	"nq314",
 	"nq319",
