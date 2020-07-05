@@ -20,6 +20,12 @@ PlateThickBoron.register();
 var PlateThickDarmstadtium = VanillaFactory.createItem("platethickdarmstadtium");
 PlateThickDarmstadtium.register();
 
+var PlateDreadiumCarbide = VanillaFactory.createItem("platethickdreadiumcarbide");
+PlateDreadiumCarbide.register();
+
+var PlateThickElementalTerrasteel = VanillaFactory.createItem("platethickelementalterrasteel");
+PlateThickElementalTerrasteel.register();
+
 var PlateThickGraphite = VanillaFactory.createItem("platethickgraphite");
 PlateThickGraphite.register();
 
@@ -31,6 +37,9 @@ PlateThickMagnalium.register();
 
 var PlateThickPTFE = VanillaFactory.createItem("platethickptfe");
 PlateThickPTFE.register();
+
+var PlateThickRarifiedVoidMetal = VanillaFactory.createItem("platethickrarifiedvoidmetal");
+PlateThickRarifiedVoidMetal.register();
 
 var PlateThickTitanium = VanillaFactory.createItem("platethicktitanium");
 PlateThickTitanium.register();
