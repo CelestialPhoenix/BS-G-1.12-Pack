@@ -202,6 +202,11 @@ print("Tweak Tweak Tweak Tweak");
 <ore:gearSmallStone>.add(<contenttweaker:gearsmallstone>);
 <ore:gearSmallWax>.add(<contenttweaker:gearsmallwax>);
 
+#Gradle
+<ore:gradleAbyssal>.add(<contenttweaker:gradleabyssal>);
+<ore:gradleBotanical>.add(<contenttweaker:gradlebotanical>);
+<ore:gradleThaumic>.add(<contenttweaker:gradlethaumic>);
+
 #---Heat Sinks---
 <ore:heatsinkSolid>.add(<contenttweaker:sinksolid>);
 <ore:heatsinkFluid>.add(<contenttweaker:sinkfluid>);
