@@ -303,6 +303,6 @@ mods.botania.RuneAltar.addRecipe(<antiqueatlas:empty_antique_atlas>, [<minecraft
 
 #---Nuclear Stuff---
 #BoC gradle
-mods.botania.RuneAltar.addRecipe(<contenttweaker:gradlebotanical>, [<ore:vine>, <ore:plateElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateElementalTerrasteel>, <ore:vine>, <ore:plateElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateElementalTerrasteel>], 80000);
+mods.botania.RuneAltar.addRecipe(<contenttweaker:gradlebotanical>, [<ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateThickElementalTerrasteel>], 80000);
 
 #Nuclear Fuels

@@ -132,7 +132,7 @@ mods.thaumcraft.Infusion.registerRecipe("clathrateToxicUranium", "", <ore:clathr
 #TNS Gradle
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<aspect:ignis>*6, <aspect:terra>*6, <aspect:ordo>*12], <contenttweaker:gradlethaumic>*1, [
 [<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>],
-[<ore:plateThickRarifiedVoidMetal>, <thaumcraft:morphic_resonator>, <minecraft:plateThickRarifiedVoidMetal>],
+[<ore:plateThickRarifiedVoidMetal>, <thaumcraft:morphic_resonator>, <ore:plateThickRarifiedVoidMetal>],
 [<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>]]);
 
 
