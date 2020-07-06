@@ -300,3 +300,9 @@ Agglomeration.addRecipe(<ore:ingotHotTerrasteel>.firstItem, [<ore:dustTerrasteel
 
 #---Antique Atlas---
 mods.botania.RuneAltar.addRecipe(<antiqueatlas:empty_antique_atlas>, [<minecraft:paper>, <minecraft:paper>, <thaumcraft:scribing_tools>, <minecraft:map>, <minecraft:paper>, <minecraft:paper>], 80000);
+
+#---Nuclear Stuff---
+#BoC gradle
+mods.botania.RuneAltar.addRecipe(<contenttweaker:gradlebotanical>, [<ore:vine>, <ore:plateElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateElementalTerrasteel>, <ore:vine>, <ore:plateElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateElementalTerrasteel>], 80000);
+
+#Nuclear Fuels

@@ -290,4 +290,6 @@ mods.abyssalcraft.Transmutator.addTransmutation(<gregtech:mineral:0>, <railcraft
 
 mods.abyssalcraft.Transmutator.addTransmutation(<gregtech:mineral:2>, <railcraft:generic:8>, 0);
 
+#---Nuclear Stuff---
+
 

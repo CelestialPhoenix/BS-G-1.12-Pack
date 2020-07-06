@@ -376,6 +376,22 @@ RollingMachine.addShaped(<nuclearcraft:part:3>*1, [
 [<ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>, <ore:plateAdvancedAlloy>],
 [<ore:plateTungsten>, <ore:plateBoron>, <ore:plateTungsten>]], 200);
 
+#Magic plating
+RollingMachine.addShaped(<contenttweaker:platethickdreadiumcarbide>*1, [
+[<abyssalcraft:charcoal>, <ore:ingotDreadium>, <abyssalcraft:charcoal>],
+[<ore:ingotDreadium>, <abyssalcraft:charcoal>, <ore:ingotDreadium>],
+[<abyssalcraft:charcoal>, <ore:ingotDreadium>, <abyssalcraft:charcoal>]], 200);
+
+RollingMachine.addShaped(<contenttweaker:platethickelementalterrasteel>*1, [
+[<ore:ingotElvenElementium>, <ore:plateTerrasteel>, <ore:ingotElvenElementium>],
+[<ore:plateTerrasteel>, <ore:ingotElvenElementium>, <ore:plateTerrasteel>],
+[<ore:ingotElvenElementium>, <ore:plateTerrasteel>, <ore:ingotElvenElementium>]], 200);
+
+RollingMachine.addShaped(<contenttweaker:platethickrarifiedvoidmetal>*1, [
+[<thaumcraft:nugget:10>, <ore:plateVoidMetal>, <thaumcraft:nugget:10>],
+[<ore:plateVoidMetal>, <thaumcraft:nugget:10>, <ore:plateVoidMetal>],
+[<thaumcraft:nugget:10>, <ore:plateVoidMetal>, <thaumcraft:nugget:10>]], 200);
+
 #--NuclearCraft Radiation Shielding--
 #Light
 RollingMachine.addShaped(<nuclearcraft:rad_shielding:0>*2, [

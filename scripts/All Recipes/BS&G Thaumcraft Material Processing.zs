@@ -127,3 +127,12 @@ mods.thaumcraft.Infusion.registerRecipe("clathrateToxicNaquadria", "", <ore:clat
 
 mods.thaumcraft.Infusion.registerRecipe("clathrateToxicUranium", "", <ore:clathrateToxic>.firstItem, 5, [<aspect:mortuus>*5, <aspect:vitium>*5, <aspect:alkimia>*5], <thaumcraft:nugget:10>, [<ore:dustTinyUranium>, crystalMetallum, crystalMetallum, <ore:dustTinyUranium>, crystalMetallum, crystalMetallum, <ore:dustTinyUranium>, crystalMetallum, crystalMetallum]);
 
+#---Nuclear Stuff---
+
+#TNS Gradle
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<aspect:ignis>*6, <aspect:terra>*6, <aspect:ordo>*12], <contenttweaker:gradlethaumic>*1, [
+[<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>],
+[<ore:plateThickRarifiedVoidMetal>, <thaumcraft:morphic_resonator>, <minecraft:plateThickRarifiedVoidMetal>],
+[<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>]]);
+
+

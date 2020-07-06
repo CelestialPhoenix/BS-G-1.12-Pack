@@ -1797,7 +1797,7 @@ print("Tweak Tweak Tweak Tweak");
 
 <ore:plateThickDreadiumCarbide>.add(<contenttweaker:platethickdreadiumcarbide>);
 <ore:plateThickElementalTerrasteel>.add(<contenttweaker:platethickelementalterrasteel>);
-<ore:plateThickRarifiedVoidmetal>.add(<contenttweaker:platethickrarifiedvoidmetal>);
+<ore:plateThickRarifiedVoidMetal>.add(<contenttweaker:platethickrarifiedvoidmetal>);
 
 #---Rings---
 #<ore:ring>.add(<contenttweaker:ring>);
