@@ -141,14 +141,14 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<asp
 
 #TNS Fuels
 var LEfuelPellet as string[] = [
-	"TBU",
+	//"TBU",
 	"U233",
 	"U235",
 	"N236",
 	"P239",
 	"P241",
-	"MIX239",
-	"MIX241",
+	//"MIX239",
+	//"MIX241",
 	"A242",
 	"Cm243",
 	"Cm245",
