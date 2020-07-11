@@ -21,7 +21,8 @@ print("Green Glowey Energy");
 
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotIron>, <ore:blockIron>.firstItem, 1340, 30, 1.0, 1, false, 0.024174274194);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotCopper>, <ore:blockCopper>.firstItem, 1340, 30, 1.0, 0.0, false, 0.024174274194);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotGold>, <ore:blockGold>.firstItem, 1340, 30, 1.0, 0, false, 0.024174274194);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotGold>, <ore:blockGold>.firstItem, 1340, 30, 0.00001, 22, false, 0.024174274194);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:gemNetherStar>, <ore:blockGold>.firstItem, 2000, 100, 0.00001, 66, false, 0.5);
 
 #-Fuels-
 
@@ -359,3 +360,44 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy324LCT>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy327LCT>, <ore:ingotDepletedHEVy327LCT>.firstItem, 594, 35100, 3.525, 6, true, 0.387838679634);
 																
 
+#===Pebble Bed Reactor===
+#LE TRISO																																
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLENq314TRISO>, <ore:ingotDepletedLENq314TRISO>.firstItem, 1072, 1620, 0.9, 25, true, 0.030217842742);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLENq319TRISO>, <ore:ingotDepletedLENq319TRISO>.firstItem, 998, 1740, 0.9, 24, true, 0.030389601162);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLECc315TRISO>, <ore:ingotDepletedLECc315TRISO>.firstItem, 964, 1800, 0.925, 24, true, 0.029616479496);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLECc320TRISO>, <ore:ingotDepletedLECc320TRISO>.firstItem, 1024, 1695, 0.925, 25, true, 0.028668834377);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEJt315TRISO>, <ore:ingotDepletedLEJt315TRISO>.firstItem, 989, 1755, 0.95, 24, true, 0.030857650403);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEJt323TRISO>, <ore:ingotDepletedLEJt323TRISO>.firstItem, 897, 1935, 0.95, 23, true, 0.031285666035);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLESa319TRISO>, <ore:ingotDepletedLESa319TRISO>.firstItem, 904, 1920, 0.975, 23, true, 0.035257490902);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLESa323TRISO>, <ore:ingotDepletedLESa323TRISO>.firstItem, 870, 1995, 0.975, 23, true, 0.035192650423);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEJm316TRISO>, <ore:ingotDepletedLEJm316TRISO>.firstItem, 815, 2130, 1, 22, true, 0.037659669314);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEJm318TRISO>, <ore:ingotDepletedLEJm318TRISO>.firstItem, 839, 2070, 1, 22, true, 0.038035747243);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEJm323TRISO>, <ore:ingotDepletedLEJm323TRISO>.firstItem, 904, 1920, 1, 23, true, 0.038310794216);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEEc319TRISO>, <ore:ingotDepletedLEEc319TRISO>.firstItem, 782, 2220, 1.025, 22, true, 0.038813598097);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEEc326TRISO>, <ore:ingotDepletedLEEc326TRISO>.firstItem, 827, 2100, 1.025, 22, true, 0.038612525112);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEPy322TRISO>, <ore:ingotDepletedLEPy322TRISO>.firstItem, 761, 2280, 1.05, 21, true, 0.042421206058);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEPy324TRISO>, <ore:ingotDepletedLEPy324TRISO>.firstItem, 750, 2315, 1.05, 21, true, 0.042653396186);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEPy326TRISO>, <ore:ingotDepletedLEPy326TRISO>.firstItem, 739, 2350, 1.05, 21, true, 0.043086080627);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEVy321TRISO>, <ore:ingotDepletedLEVy321TRISO>.firstItem, 710, 2445, 1.075, 21, true, 0.048537974660);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEVy324TRISO>, <ore:ingotDepletedLEVy324TRISO>.firstItem, 729, 2380, 1.075, 21, true, 0.048191926568);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotLEVy327TRISO>, <ore:ingotDepletedLEVy327TRISO>.firstItem, 742, 2340, 1.075, 21, true, 0.048698422194);
+																
+#HE TRISO																
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHENq314TRISO>, <ore:ingotDepletedHENq314TRISO>.firstItem, 1072, 4860, 0.95, 15, true, 0.031659209428);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHENq319TRISO>, <ore:ingotDepletedHENq319TRISO>.firstItem, 998, 5220, 0.95, 14, true, 0.031616489144);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHECc315TRISO>, <ore:ingotDepletedHECc315TRISO>.firstItem, 964, 5400, 0.975, 14, true, 0.030456178123);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHECc320TRISO>, <ore:ingotDepletedHECc320TRISO>.firstItem, 1024, 5085, 0.975, 14, true, 0.029626313435);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEJt315TRISO>, <ore:ingotDepletedHEJt315TRISO>.firstItem, 989, 5265, 1, 14, true, 0.031956227328);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEJt323TRISO>, <ore:ingotDepletedHEJt323TRISO>.firstItem, 897, 5805, 1, 13, true, 0.032836114847);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHESa319TRISO>, <ore:ingotDepletedHESa319TRISO>.firstItem, 904, 5760, 1.025, 13, true, 0.035988753719);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHESa323TRISO>, <ore:ingotDepletedHESa323TRISO>.firstItem, 870, 5985, 1.025, 13, true, 0.035596720713);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEJm316TRISO>, <ore:ingotDepletedHEJm316TRISO>.firstItem, 815, 6390, 1.05, 13, true, 0.037692381623);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEJm318TRISO>, <ore:ingotDepletedHEJm318TRISO>.firstItem, 839, 6210, 1.05, 13, true, 0.038436955144);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEJm323TRISO>, <ore:ingotDepletedHEJm323TRISO>.firstItem, 904, 5760, 1.05, 13, true, 0.038621827553);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEEc319TRISO>, <ore:ingotDepletedHEEc319TRISO>.firstItem, 782, 6660, 1.075, 12, true, 0.039227691260);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEEc326TRISO>, <ore:ingotDepletedHEEc326TRISO>.firstItem, 827, 6300, 1.075, 13, true, 0.039027190855);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEPy322TRISO>, <ore:ingotDepletedHEPy322TRISO>.firstItem, 761, 6840, 1.1, 12, true, 0.042706005941);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEPy324TRISO>, <ore:ingotDepletedHEPy324TRISO>.firstItem, 750, 6945, 1.1, 12, true, 0.043218875090);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEPy326TRISO>, <ore:ingotDepletedHEPy326TRISO>.firstItem, 739, 7050, 1.1, 12, true, 0.043472682178);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEVy321TRISO>, <ore:ingotDepletedHEVy321TRISO>.firstItem, 710, 7335, 1.125, 12, true, 0.048374313105);
+mods.nuclearcraft.PebbleFission.addRecipe(<ore:ingotHEVy324TRISO>, <ore:ingotDepletedHEVy324TRISO>.firstItem, 729, 7140, 1.125, 12, true, 0.047634169392);

@@ -1,5 +1,9 @@
 #Name: Blood Sweat & Gears Abyssalcraft Material Processing.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 print("I'm not evil I promise");
 
@@ -292,4 +296,124 @@ mods.abyssalcraft.Transmutator.addTransmutation(<gregtech:mineral:2>, <railcraft
 
 #---Nuclear Stuff---
 
+#Lc'T Gradle
+mods.abyssalcraft.InfusionRitual.addRitual("infusionRitualTest", 3, 1, 10000, false, <contenttweaker:gradleabyssal>, <ore:gemDiamond>, [<ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>], false); 
+game.setLocalization("ac.ritual.infusionRitualTest", "Infusion Ritual Test"); 
+game.setLocalization("ac.ritual.infusionRitualTest.desc", "This is a test ritual, turning dirt into diamonds by infusing it with more Dirt!");
 
+#-Fuels-
+var LEfuelPellet as string[] = [
+	//"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+var HEfuelPellet as string[] = [
+	//"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+var MiscfuelPellet as string[] = [
+	"TBU",
+	"MIX239",
+	"MIX241",
+	];
+
+for input in MiscfuelPellet {
+	var ingotFuelZ as IItemStack = oreDict["ingot"~input~"ZA"].firstItem;
+	var ingotFuelLcT as IItemStack = oreDict["ingot"~input~"LCT"].firstItem;
+	var ingotFuelName as string = "ac.ritual.ingot"~input~"LCT";
+	var ritualName as string = "ac.ritual.ingot"~input~"LCT";
+	var ritualDesc as string = "ac.ritual.ingot"~input~"LCT.desc";
+
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 10000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
+game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
+game.setLocalization(ritualDesc, "The nuclear abyss awaits");
+}
+
+for input in LEfuelPellet {
+	var ingotFuelZ as IItemStack = oreDict["ingotLE"~input~"ZA"].firstItem;
+	var ingotFuelLcT as IItemStack = oreDict["ingotLE"~input~"LCT"].firstItem;
+	var ingotFuelName as string = "ac.ritual.ingotLE"~input~"LCT";
+	var ritualName as string = "ac.ritual.ingotLE"~input~"LCT";
+	var ritualDesc as string = "ac.ritual.ingotLE"~input~"LCT.desc";
+	
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 10000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
+game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
+game.setLocalization(ritualDesc, "The nuclear abyss awaits");
+}
+
+for input in HEfuelPellet {
+	var ingotFuelZ as IItemStack = oreDict["ingotHE"~input~"ZA"].firstItem;
+	var ingotFuelLcT as IItemStack = oreDict["ingotHE"~input~"LCT"].firstItem;
+	var ingotFuelName as string = "ac.ritual.ingotHE"~input~"LCT";
+	var ritualName as string = "ac.ritual.ingotHE"~input~"LCT";
+	var ritualDesc as string = "ac.ritual.ingotHE"~input~"LCT.desc";
+	
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 25000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
+game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
+game.setLocalization(ritualDesc, "The nuclear abyss awaits");
+}
