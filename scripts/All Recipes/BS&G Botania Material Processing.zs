@@ -386,14 +386,14 @@ var HEfuelPellet as string[] = [
 	];
 
 for input in LEfuelPellet {
-	var ingotFuelN as IItemStack = oreDict["ingotLE"~input~"nitride"].firstItem;
+	var ingotFuelN as IItemStack = oreDict["ingotLE"~input~"Nitride"].firstItem;
 	var ingotFuelBoC as IItemStack = oreDict["ingotLE"~input~"BoC"].firstItem;
 	
 Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 32000);
 }
 
 for input in HEfuelPellet {
-	var ingotFuelN as IItemStack = oreDict["ingotHE"~input~"nitride"].firstItem;
+	var ingotFuelN as IItemStack = oreDict["ingotHE"~input~"Nitride"].firstItem;
 	var ingotFuelBoC as IItemStack = oreDict["ingotHE"~input~"BoC"].firstItem;
 	
 Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 96000);
