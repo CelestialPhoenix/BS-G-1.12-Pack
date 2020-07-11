@@ -1,5 +1,9 @@
 #Name: Blood Sweat & Gears Botania Material Processing.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.botaniatweaks.Agglomeration;
 
@@ -306,3 +310,91 @@ mods.botania.RuneAltar.addRecipe(<antiqueatlas:empty_antique_atlas>, [<minecraft
 mods.botania.RuneAltar.addRecipe(<contenttweaker:gradlebotanical>, [<ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:vine>, <ore:plateThickElementalTerrasteel>, <ore:elvenDragonstone>, <ore:vine>, <ore:plateThickElementalTerrasteel>], 80000);
 
 #Nuclear Fuels
+
+var LEfuelPellet as string[] = [
+	"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	"MIX239",
+	"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+var HEfuelPellet as string[] = [
+	//"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+for input in LEfuelPellet {
+	var ingotFuelN as IItemStack = oreDict["ingotLE"~input~"nitride"].firstItem;
+	var ingotFuelBoC as IItemStack = oreDict["ingotLE"~input~"BoC"].firstItem;
+	
+Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 32000);
+}
+
+for input in HEfuelPellet {
+	var ingotFuelN as IItemStack = oreDict["ingotHE"~input~"nitride"].firstItem;
+	var ingotFuelBoC as IItemStack = oreDict["ingotHE"~input~"BoC"].firstItem;
+	
+Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 96000);
+}

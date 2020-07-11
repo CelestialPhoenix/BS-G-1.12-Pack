@@ -648,3 +648,107 @@ mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotLECf249>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotHECf249>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotLECf251>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotHECf251>);
+
+#====Fuel Reprocessing=====
+
+#--Magic Fuels--
+var LEfuelPellet as string[] = [
+	"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	"MIX239",
+	"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+var HEfuelPellet as string[] = [
+	//"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+for input in LEfuelPellet {
+	var ingotDepletedN as IItemStack = oreDict["ingotDepletedLE"~input~"Nitride"].firstItem;
+	var ingotDepletedO as IItemStack = oreDict["ingotDepletedLE"~input~"Oxide"].firstItem;
+	var ingotDepletedZ as IItemStack = oreDict["ingotDepletedLE"~input~"ZA"].firstItem;
+	var ingotDepletedBoC as IItemStack = oreDict["ingotDepletedLE"~input~"BoC"].firstItem;
+	var ingotDepletedTNS as IItemStack = oreDict["ingotDepletedLE"~input~"TNS"].firstItem;
+	var ingotDepletedLcT as IItemStack = oreDict["ingotDepletedLE"~input~"LCT"].firstItem;
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedBoC, ingotDepletedN, <ore:dustAsh>.firstItem*8, <ore:gradleBotanical>.firstItem, null, null, null, 1.0, 1.0, 0.0);
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedTNS, ingotDepletedO, <ore:dustAsh>.firstItem*8, <ore:gradleThaumic>.firstItem, null, null, null, 1.0, 0.8, 0.0005);
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedLcT, ingotDepletedZ, <ore:dustAsh>.firstItem*8, <ore:gradleAbyssal>.firstItem, null, null, null, 1.0, 1.0, 0.05);
+}
+
+for input in HEfuelPellet {
+	var ingotDepletedN as IItemStack = oreDict["ingotDepletedHE"~input~"Nitride"].firstItem;
+	var ingotDepletedO as IItemStack = oreDict["ingotDepletedHE"~input~"Oxide"].firstItem;
+	var ingotDepletedZ as IItemStack = oreDict["ingotDepletedHE"~input~"ZA"].firstItem;
+	var ingotDepletedBoC as IItemStack = oreDict["ingotDepletedHE"~input~"BoC"].firstItem;
+	var ingotDepletedTNS as IItemStack = oreDict["ingotDepletedHE"~input~"TNS"].firstItem;
+	var ingotDepletedLcT as IItemStack = oreDict["ingotDepletedHE"~input~"LCT"].firstItem;
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedBoC, ingotDepletedN, <ore:dustAsh>.firstItem*8, <ore:gradleBotanical>.firstItem, null, null, null, 1.5, 1.0, 0.0);
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedTNS, ingotDepletedO, <ore:dustAsh>.firstItem*8, <ore:gradleThaumic>.firstItem, null, null, null, 1.5, 0.8, 0.0005);
+mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedLcT, ingotDepletedZ, <ore:dustAsh>.firstItem*8, <ore:gradleAbyssal>.firstItem, null, null, null, 1.5, 1.0, 0.05);
+}
+

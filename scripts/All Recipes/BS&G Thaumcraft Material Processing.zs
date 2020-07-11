@@ -1,5 +1,9 @@
 #Name: Blood Sweat & Gears Thaumcraft Material Processing.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, FTB:I dev team
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.thaumcraft.Crucible;
 
@@ -130,9 +134,98 @@ mods.thaumcraft.Infusion.registerRecipe("clathrateToxicUranium", "", <ore:clathr
 #---Nuclear Stuff---
 
 #TNS Gradle
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<aspect:ignis>*6, <aspect:terra>*6, <aspect:ordo>*12], <contenttweaker:gradlethaumic>*1, [
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<aspect:ordo>*12, <aspect:machina>*6, <aspect:gelum>*6, <aspect:vacuos>*6], <contenttweaker:gradlethaumic>*1, [
 [<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>],
 [<ore:plateThickRarifiedVoidMetal>, <thaumcraft:morphic_resonator>, <ore:plateThickRarifiedVoidMetal>],
 [<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>]]);
 
+#TNS Fuels
+var LEfuelPellet as string[] = [
+	"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	"MIX239",
+	"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
 
+var HEfuelPellet as string[] = [
+	//"TBU",
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251",
+	"Nq314",
+	"Nq319",
+	"Cc315",
+	"Cc320",
+	"Jt315",
+	"Jt323",
+	"Sa319",
+	"Sa323",
+	"Jm316",
+	"Jm318",
+	"Jm323",
+	"Ec319",
+	"Ec326",
+	"Py322",
+	"Py324",
+	"Py326",
+	"Vy321",
+	"Vy324",
+	"Vy327",
+	];
+
+for input in LEfuelPellet {
+	var ingotFuelO as IItemStack = oreDict["ingotLE"~input~"Oxide"].firstItem;
+	var ingotFuelTNS as IItemStack = oreDict["ingotLE"~input~"TNS"].firstItem;
+	var ingotFuelName as string = ["ingotLE"~input~"TNS"];
+	
+mods.thaumcraft.Infusion.registerRecipe(ingotFuelName, "", ingotFuelTNS, 10, [<aspect:vacuos>*16, <aspect:ordo>*16, <aspect:permutatio>*16, <aspect:alienis>*16], <ore:gradleThaumic>, [ingotFuelO, <ore:gemNetherStar>]);
+}
+
+for input in HEfuelPellet {
+	var ingotFuelO as IItemStack = oreDict["ingotHE"~input~"Oxide"].firstItem;
+	var ingotFuelTNS as IItemStack = oreDict["ingotHE"~input~"TNS"].firstItem;
+	var ingotFuelName as string = ["ingotHE"~input~"TNS"];
+	
+mods.thaumcraft.Infusion.registerRecipe(ingotFuelName, "", ingotFuelTNS, 15, [<aspect:vacuos>*48, <aspect:ordo>*48, <aspect:permutatio>*48, <aspect:alienis>*48], <ore:gradleThaumic>, [ingotFuelO, <ore:gemNetherStar>]);
+}
