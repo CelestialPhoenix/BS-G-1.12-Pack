@@ -1,23 +1,49 @@
 Warning: The log is long and full of spoilers.
 Read at your own risk.
 
-Econbrony - Ecobroium Ec
-Puyre Puyrium Py
-Vyraal1 - Vyraallium Vy
-Jason - McRavium Jm
-
 ------------
 Centrifuge plants to methane recipes
 Fluid Extractor, chemi reactor crafting recipes- require heating elements?
 Ingot mould for smeltery casting
-Add in and integrate Antique Atlas
-Tidy Gtech multiblock descriptions as they hide the preview model. copy to JEI description
+Tidy Gtech multiblock descriptions as they hide the preview model. copy to JEI description- just turbines to go?
+NC machine upgrades could be magic based?
+Decay Hastener could be Decay Bombardment Chamber?
+Check over RC locomotive recipes, add recipes for perpetuum locomotive
+
+Using a nuclear reactor to recharge primordial pearls7
+NeS 252 fuel- allows burning of Nether Stars for power
+Using alchemy/magic mods to make ImEng bullets for revolver.
+
+LECc-230 ZA fuel wrong texture
+
+if you want to add custom isotopes, radiation is just 1/(lifetime in years)
+and custom fuels' radiation should just be the sum of its components (divided by the output number of fuel pellets)
+meaning that a standard fuel pellet recipe which makes 9 fuel cells has each fuel cell being simply the average of the components
+
+emitted_rads = (fuel + depleted_fuel + 0.033)*cell_count/64
 
 31.0
+A special thank you to QuantumTraverse for helping with the Nuclearcraft fuel calculations and coefficients.
 Added Antique Atlas 4.6.3 by Hunternif et al
+Updated Gregtech to 1.9.1.507
 Antique Atlas
--new recipes, either Thaumcraft or Botania
+-new recipes, choice of Thaumcraft or Botania
 -disabled auto-markers
+ContentTweaker
+-fixed IV machine chassis recipe
+-Added Naquadah, Ceresium, Jupiterium, Saturnium, McRavium, Ecobronium, Pyurium, Vyrallium Isotopes
+-Added Nq, Cc, Jt, Sa, Jm, Ec, Py, Vy nuclear fuels
+-Added BoC, TNC, Lc'T nuclear fuel types
+-Added BoC, TNC, Lc'T nuclear gradles
+-Added thick Dreadium Carbide, Elemental Terrasteel, and Rarified Voidmetal plates
+Gregtech
+-moved multiblock descriptions to JEI tab.
+-thermal centrifuge ore processing now LV
+-added recipes for processing bones and skulls
+Immersive Engineering
+-fixed broken convayor recipes
+Quark
+-disabled slime bucket
 
 30.0 Pressing the Nuclear Button.
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
