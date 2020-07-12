@@ -153,7 +153,7 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy324ZA>, <ore:ingotDeplete
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy327ZA>, <ore:ingotDepletedHEVy327ZA>.firstItem, 594, 8775, 2.4, 12, true, 0.060599793693);
 																
 #LE BoC																
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBUBoC>, <ore:ingotDepletedLETBUBoC>.firstItem, 18000, 32, 1, 585, false, 0.000000000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBUBoC>, <ore:ingotDepletedTBUBoC>.firstItem, 18000, 32, 1, 585, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU233BoC>, <ore:ingotDepletedLEU233BoC>.firstItem, 3333, 172.8, 1.1, 195, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU235BoC>, <ore:ingotDepletedLEU235BoC>.firstItem, 6000, 96, 1, 255, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEN236BoC>, <ore:ingotDepletedLEN236BoC>.firstItem, 2466, 233.6, 1.1, 175, false, 0.000000000000);
@@ -166,8 +166,8 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECm247BoC>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEB248BoC>, <ore:ingotDepletedLEB248BoC>.firstItem, 2707, 212.8, 1.65, 183, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf249BoC>, <ore:ingotDepletedLECf249BoC>.firstItem, 1333, 432, 1.75, 150, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf251BoC>, <ore:ingotDepletedLECf251BoC>.firstItem, 2500, 230.4, 1.8, 178, false, 0.000000000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix239BoC>, <ore:ingotDepletedLEMix239BoC>.firstItem, 5450, 105.6, 1.05, 235, false, 0.000000000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix241BoC>, <ore:ingotDepletedLEMix241BoC>.firstItem, 3775, 153.6, 1.15, 200, false, 0.000000000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX239BoC>, <ore:ingotDepletedMIX239BoC>.firstItem, 5450, 105.6, 1.05, 235, false, 0.000000000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX241BoC>, <ore:ingotDepletedMIX241BoC>.firstItem, 3775, 153.6, 1.15, 200, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq314BoC>, <ore:ingotDepletedLENq314BoC>.firstItem, 1072, 1296, 1.8, 60, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq319BoC>, <ore:ingotDepletedLENq319BoC>.firstItem, 998, 1392, 1.8, 58, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECc315BoC>, <ore:ingotDepletedLECc315BoC>.firstItem, 964, 1440, 1.85, 57, false, 0.000000000000);
@@ -222,7 +222,7 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy324BoC>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy327BoC>, <ore:ingotDepletedHEVy327BoC>.firstItem, 742, 5616, 2.25, 29, false, 0.000000000000);
 																
 #LE TNS																
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBUTNS>, <ore:ingotDepletedLETBUTNS>.firstItem, 14400, 20, 1, 234, false, 0.000000000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBUTNS>, <ore:ingotDepletedTBUTNS>.firstItem, 14400, 20, 1, 234, false, 0.000000000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU233TNS>, <ore:ingotDepletedLEU233TNS>.firstItem, 2667, 108, 1.1, 78, false, 0.000000098000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU235TNS>, <ore:ingotDepletedLEU235TNS>.firstItem, 4800, 60, 1, 102, false, 0.000515000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEN236TNS>, <ore:ingotDepletedLEN236TNS>.firstItem, 1973, 146, 1.1, 70, false, 0.000000160000);
@@ -235,8 +235,8 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECm247TNS>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEB248TNS>, <ore:ingotDepletedLEB248TNS>.firstItem, 2165, 133, 1.65, 73, false, 0.000000141000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf249TNS>, <ore:ingotDepletedLECf249TNS>.firstItem, 1067, 270, 1.75, 60, true, 0.000047000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf251TNS>, <ore:ingotDepletedLECf251TNS>.firstItem, 2000, 144, 1.8, 71, true, 0.000011000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix239TNS>, <ore:ingotDepletedLEMix239TNS>.firstItem, 4360, 66, 1.05, 94, false, 0.000064000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix241TNS>, <ore:ingotDepletedLEMix241TNS>.firstItem, 3020, 96, 1.15, 80, false, 0.000000764000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX239TNS>, <ore:ingotDepletedMIX239TNS>.firstItem, 4360, 66, 1.05, 94, false, 0.000064000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX241TNS>, <ore:ingotDepletedMIX241TNS>.firstItem, 3020, 96, 1.15, 80, false, 0.000000764000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq314TNS>, <ore:ingotDepletedLENq314TNS>.firstItem, 1340, 810, 1.8, 37, true, 0.030217842742);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq319TNS>, <ore:ingotDepletedLENq319TNS>.firstItem, 1247, 870, 1.8, 36, true, 0.030389601162);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECc315TNS>, <ore:ingotDepletedLECc315TNS>.firstItem, 1206, 900, 1.85, 35, true, 0.029616479496);
@@ -291,7 +291,7 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy324TNS>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotHEVy327TNS>, <ore:ingotDepletedHEVy327TNS>.firstItem, 927, 3510, 2.35, 18, true, 0.048479834954);
 																
 #LE Lc'T																
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBULCT>, <ore:ingotDepletedLETBULCT>.firstItem, 14400, 200, 1.5, 99, true, 0.000000640000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotTBULCT>, <ore:ingotDepletedTBULCT>.firstItem, 14400, 200, 1.5, 99, true, 0.000000640000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU233LCT>, <ore:ingotDepletedLEU233LCT>.firstItem, 2667, 1080, 1.65, 33, true, 0.000000784000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEU235LCT>, <ore:ingotDepletedLEU235LCT>.firstItem, 4800, 600, 1.5, 43, true, 0.004120000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEN236LCT>, <ore:ingotDepletedLEN236LCT>.firstItem, 1973, 1460, 1.65, 30, true, 0.000001280000);
@@ -304,8 +304,8 @@ mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECm247LCT>, <ore:ingotDeplet
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLEB248LCT>, <ore:ingotDepletedLEB248LCT>.firstItem, 2165, 1330, 2.475, 31, true, 0.000001128000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf249LCT>, <ore:ingotDepletedLECf249LCT>.firstItem, 1067, 2700, 2.625, 26, true, 0.000376000000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECf251LCT>, <ore:ingotDepletedLECf251LCT>.firstItem, 2000, 1440, 2.7, 30, true, 0.000088000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix239LCT>, <ore:ingotDepletedLEMix239LCT>.firstItem, 4360, 660, 1.575, 40, true, 0.000512000000);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMix241LCT>, <ore:ingotDepletedLEMix241LCT>.firstItem, 3020, 960, 1.725, 34, true, 0.000006112000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX239LCT>, <ore:ingotDepletedMIX239LCT>.firstItem, 4360, 660, 1.575, 40, true, 0.000512000000);
+mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotMIX241LCT>, <ore:ingotDepletedMIX241LCT>.firstItem, 3020, 960, 1.725, 34, true, 0.000006112000);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq314LCT>, <ore:ingotDepletedLENq314LCT>.firstItem, 857, 8100, 2.7, 13, true, 0.241742741936);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLENq319LCT>, <ore:ingotDepletedLENq319LCT>.firstItem, 798, 8700, 2.7, 12, true, 0.243116809295);
 mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotLECc315LCT>, <ore:ingotDepletedLECc315LCT>.firstItem, 772, 9000, 2.775, 12, true, 0.236931835972);
