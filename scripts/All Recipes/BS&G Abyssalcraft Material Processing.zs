@@ -301,119 +301,204 @@ mods.abyssalcraft.InfusionRitual.addRitual("infusionRitualTest", 3, 1, 10000, fa
 game.setLocalization("ac.ritual.infusionRitualTest", "Infusion Ritual Test"); 
 game.setLocalization("ac.ritual.infusionRitualTest.desc", "This is a test ritual, turning dirt into diamonds by infusing it with more Dirt!");
 
-#-Fuels-
-var LEfuelPellet as string[] = [
-	//"TBU",
-	"U233",
-	"U235",
-	"N236",
-	"P239",
-	"P241",
-	//"MIX239",
-	//"MIX241",
-	"A242",
-	"Cm243",
-	"Cm245",
-	"Cm247",
-	"B248",
-	"Cf249",
-	"Cf251",
-	"Nq314",
-	"Nq319",
-	"Cc315",
-	"Cc320",
-	"Jt315",
-	"Jt323",
-	"Sa319",
-	"Sa323",
-	"Jm316",
-	"Jm318",
-	"Jm323",
-	"Ec319",
-	"Ec326",
-	"Py322",
-	"Py324",
-	"Py326",
-	"Vy321",
-	"Vy324",
-	"Vy327",
-	];
+#--Fuels--
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLETBU", 3, 1, 10000, false, <ore:ingotTBULCT>.firstItem, <ore:ingotTBUZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEU233", 3, 1, 10000, false, <ore:ingotLEU233LCT>.firstItem, <ore:ingotLEU233ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEU235", 3, 1, 10000, false, <ore:ingotLEU235LCT>.firstItem, <ore:ingotLEU235ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEN236", 3, 1, 10000, false, <ore:ingotLEN236LCT>.firstItem, <ore:ingotLEN236ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEP239", 3, 1, 10000, false, <ore:ingotLEP239LCT>.firstItem, <ore:ingotLEP239ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEP241", 3, 1, 10000, false, <ore:ingotLEP241LCT>.firstItem, <ore:ingotLEP241ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEA242", 3, 1, 10000, false, <ore:ingotLEA242LCT>.firstItem, <ore:ingotLEA242ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECm243", 3, 1, 10000, false, <ore:ingotLECm243LCT>.firstItem, <ore:ingotLECm243ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECm245", 3, 1, 10000, false, <ore:ingotLECm245LCT>.firstItem, <ore:ingotLECm245ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECm245", 3, 1, 10000, false, <ore:ingotLECm245LCT>.firstItem, <ore:ingotLECm245ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEB248", 3, 1, 10000, false, <ore:ingotLEB248LCT>.firstItem, <ore:ingotLEB248ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECf249", 3, 1, 10000, false, <ore:ingotLECf249LCT>.firstItem, <ore:ingotLECf249ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECf251", 3, 1, 10000, false, <ore:ingotLECf251LCT>.firstItem, <ore:ingotLECf251ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEMix239", 3, 1, 10000, false, <ore:ingotMix239LCT>.firstItem, <ore:ingotMix239ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEMix241", 3, 1, 10000, false, <ore:ingotMix241LCT>.firstItem, <ore:ingotMix241ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLENq314", 3, 1, 10000, false, <ore:ingotLENq314LCT>.firstItem, <ore:ingotLENq314ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLENq319", 3, 1, 10000, false, <ore:ingotLENq319LCT>.firstItem, <ore:ingotLENq319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECc315", 3, 1, 10000, false, <ore:ingotLECc315LCT>.firstItem, <ore:ingotLECc315ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLECc320", 3, 1, 10000, false, <ore:ingotLECc320LCT>.firstItem, <ore:ingotLECc320ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEJt315", 3, 1, 10000, false, <ore:ingotLEJt315LCT>.firstItem, <ore:ingotLEJt315ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEJt323", 3, 1, 10000, false, <ore:ingotLEJt323LCT>.firstItem, <ore:ingotLEJt323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLESa319", 3, 1, 10000, false, <ore:ingotLESa319LCT>.firstItem, <ore:ingotLESa319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLESa323", 3, 1, 10000, false, <ore:ingotLESa323LCT>.firstItem, <ore:ingotLESa323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEJm316", 3, 1, 10000, false, <ore:ingotLEJm316LCT>.firstItem, <ore:ingotLEJm316ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEJm318", 3, 1, 10000, false, <ore:ingotLEJm318LCT>.firstItem, <ore:ingotLEJm318ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEJm323", 3, 1, 10000, false, <ore:ingotLEJm323LCT>.firstItem, <ore:ingotLEJm323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEEc319", 3, 1, 10000, false, <ore:ingotLEEc319LCT>.firstItem, <ore:ingotLEEc319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEEc326", 3, 1, 10000, false, <ore:ingotLEEc326LCT>.firstItem, <ore:ingotLEEc326ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEPy322", 3, 1, 10000, false, <ore:ingotLEPy322LCT>.firstItem, <ore:ingotLEPy322ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEPy324", 3, 1, 10000, false, <ore:ingotLEPy324LCT>.firstItem, <ore:ingotLEPy324ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEPy326", 3, 1, 10000, false, <ore:ingotLEPy326LCT>.firstItem, <ore:ingotLEPy326ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEVy321", 3, 1, 10000, false, <ore:ingotLEVy321LCT>.firstItem, <ore:ingotLEVy321ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEVy324", 3, 1, 10000, false, <ore:ingotLEVy324LCT>.firstItem, <ore:ingotLEVy324ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelLEVy327", 3, 1, 10000, false, <ore:ingotLEVy327LCT>.firstItem, <ore:ingotLEVy327ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+						
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEU233", 3, 1, 10000, false, <ore:ingotLEU233LCT>.firstItem, <ore:ingotLEU233ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEU235", 3, 1, 10000, false, <ore:ingotLEU235LCT>.firstItem, <ore:ingotLEU235ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEN236", 3, 1, 10000, false, <ore:ingotLEN236LCT>.firstItem, <ore:ingotLEN236ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEP239", 3, 1, 10000, false, <ore:ingotLEP239LCT>.firstItem, <ore:ingotLEP239ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEP241", 3, 1, 10000, false, <ore:ingotLEP241LCT>.firstItem, <ore:ingotLEP241ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEA242", 3, 1, 10000, false, <ore:ingotLEA242LCT>.firstItem, <ore:ingotLEA242ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECm243", 3, 1, 10000, false, <ore:ingotLECm243LCT>.firstItem, <ore:ingotLECm243ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECm245", 3, 1, 10000, false, <ore:ingotLECm245LCT>.firstItem, <ore:ingotLECm245ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECm245", 3, 1, 10000, false, <ore:ingotLECm245LCT>.firstItem, <ore:ingotLECm245ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEB248", 3, 1, 10000, false, <ore:ingotLEB248LCT>.firstItem, <ore:ingotLEB248ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECf249", 3, 1, 10000, false, <ore:ingotLECf249LCT>.firstItem, <ore:ingotLECf249ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECf251", 3, 1, 10000, false, <ore:ingotLECf251LCT>.firstItem, <ore:ingotLECf251ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHENq314", 3, 1, 10000, false, <ore:ingotLENq314LCT>.firstItem, <ore:ingotLENq314ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHENq319", 3, 1, 10000, false, <ore:ingotLENq319LCT>.firstItem, <ore:ingotLENq319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECc315", 3, 1, 10000, false, <ore:ingotLECc315LCT>.firstItem, <ore:ingotLECc315ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHECc320", 3, 1, 10000, false, <ore:ingotLECc320LCT>.firstItem, <ore:ingotLECc320ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEJt315", 3, 1, 10000, false, <ore:ingotLEJt315LCT>.firstItem, <ore:ingotLEJt315ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEJt323", 3, 1, 10000, false, <ore:ingotLEJt323LCT>.firstItem, <ore:ingotLEJt323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHESa319", 3, 1, 10000, false, <ore:ingotLESa319LCT>.firstItem, <ore:ingotLESa319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHESa323", 3, 1, 10000, false, <ore:ingotLESa323LCT>.firstItem, <ore:ingotLESa323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEJm316", 3, 1, 10000, false, <ore:ingotLEJm316LCT>.firstItem, <ore:ingotLEJm316ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEJm318", 3, 1, 10000, false, <ore:ingotLEJm318LCT>.firstItem, <ore:ingotLEJm318ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEJm323", 3, 1, 10000, false, <ore:ingotLEJm323LCT>.firstItem, <ore:ingotLEJm323ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEEc319", 3, 1, 10000, false, <ore:ingotLEEc319LCT>.firstItem, <ore:ingotLEEc319ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEEc326", 3, 1, 10000, false, <ore:ingotLEEc326LCT>.firstItem, <ore:ingotLEEc326ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEPy322", 3, 1, 10000, false, <ore:ingotLEPy322LCT>.firstItem, <ore:ingotLEPy322ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEPy324", 3, 1, 10000, false, <ore:ingotLEPy324LCT>.firstItem, <ore:ingotLEPy324ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEPy326", 3, 1, 10000, false, <ore:ingotLEPy326LCT>.firstItem, <ore:ingotLEPy326ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEVy321", 3, 1, 10000, false, <ore:ingotLEVy321LCT>.firstItem, <ore:ingotLEVy321ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEVy324", 3, 1, 10000, false, <ore:ingotLEVy324LCT>.firstItem, <ore:ingotLEVy324ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelHEVy327", 3, 1, 10000, false, <ore:ingotLEVy327LCT>.firstItem, <ore:ingotLEVy327ZA>, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false);
 
-var HEfuelPellet as string[] = [
-	//"TBU",
-	"U233",
-	"U235",
-	"N236",
-	"P239",
-	"P241",
-	//"MIX239",
-	//"MIX241",
-	"A242",
-	"Cm243",
-	"Cm245",
-	"Cm247",
-	"B248",
-	"Cf249",
-	"Cf251",
-	"Nq314",
-	"Nq319",
-	"Cc315",
-	"Cc320",
-	"Jt315",
-	"Jt323",
-	"Sa319",
-	"Sa323",
-	"Jm316",
-	"Jm318",
-	"Jm323",
-	"Ec319",
-	"Ec326",
-	"Py322",
-	"Py324",
-	"Py326",
-	"Vy321",
-	"Vy324",
-	"Vy327",
-	];
+game.setLocalization("ingotFuelLETBU", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEU233", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEU235", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEN236", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEP239", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEP241", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEA242", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECm243", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECm245", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECm245", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEB248", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECf249", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECf251", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEMix239", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEMix241", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLENq314", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLENq319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECc315", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLECc320", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEJt315", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEJt323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLESa319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLESa323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEJm316", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEJm318", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEJm323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEEc319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEEc326", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEPy322", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEPy324", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEPy326", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEVy321", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEVy324", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelLEVy327", "Fuel Infusion Ritual.");
 
-var MiscfuelPellet as string[] = [
-	"TBU",
-	"MIX239",
-	"MIX241",
-	];
+game.setLocalization("ingotFuelHEU233", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEU235", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEN236", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEP239", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEP241", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEA242", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECm243", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECm245", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECm245", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEB248", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECf249", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECf251", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHENq314", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHENq319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECc315", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHECc320", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEJt315", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEJt323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHESa319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHESa323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEJm316", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEJm318", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEJm323", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEEc319", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEEc326", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEPy322", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEPy324", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEPy326", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEVy321", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEVy324", "Fuel Infusion Ritual.");
+game.setLocalization("ingotFuelHEVy327", "Fuel Infusion Ritual.");
 
-for input in MiscfuelPellet {
-	var ingotFuelZ as IItemStack = oreDict["ingot"~input~"ZA"].firstItem;
-	var ingotFuelLcT as IItemStack = oreDict["ingot"~input~"LCT"].firstItem;
-	var ingotFuelName as string = "ac.ritual.ingot"~input~"LCT";
-	var ritualName as string = "ac.ritual.ingot"~input~"LCT";
-	var ritualDesc as string = "ac.ritual.ingot"~input~"LCT.desc";
-
-mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 10000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
-game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
-game.setLocalization(ritualDesc, "The nuclear abyss awaits");
-}
-
-for input in LEfuelPellet {
-	var ingotFuelZ as IItemStack = oreDict["ingotLE"~input~"ZA"].firstItem;
-	var ingotFuelLcT as IItemStack = oreDict["ingotLE"~input~"LCT"].firstItem;
-	var ingotFuelName as string = "ac.ritual.ingotLE"~input~"LCT";
-	var ritualName as string = "ac.ritual.ingotLE"~input~"LCT";
-	var ritualDesc as string = "ac.ritual.ingotLE"~input~"LCT.desc";
-	
-mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 10000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
-game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
-game.setLocalization(ritualDesc, "The nuclear abyss awaits");
-}
-
-for input in HEfuelPellet {
-	var ingotFuelZ as IItemStack = oreDict["ingotHE"~input~"ZA"].firstItem;
-	var ingotFuelLcT as IItemStack = oreDict["ingotHE"~input~"LCT"].firstItem;
-	var ingotFuelName as string = "ac.ritual.ingotHE"~input~"LCT";
-	var ritualName as string = "ac.ritual.ingotHE"~input~"LCT";
-	var ritualDesc as string = "ac.ritual.ingotHE"~input~"LCT.desc";
-	
-mods.abyssalcraft.InfusionRitual.addRitual("ingotFuelName", 3, 1, 25000, false, ingotFuelLcT, ingotFuelZ, [<ore:gemNetherStar>, <ore:gradleAbyssal>], false); 
-game.setLocalization(ritualName, "Fuel Infusion Ritual"); 
-game.setLocalization(ritualDesc, "The nuclear abyss awaits");
-}
+game.setLocalization("ingotFuelLETBU.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEU233.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEU235.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEN236.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEP239.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEP241.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEA242.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECm243.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECm245.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECm245.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEB248.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECf249.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECf251.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEMix239.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEMix241.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLENq314.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLENq319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECc315.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLECc320.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEJt315.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEJt323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLESa319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLESa323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEJm316.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEJm318.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEJm323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEEc319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEEc326.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEPy322.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEPy324.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEPy326.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEVy321.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEVy324.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelLEVy327.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+		
+game.setLocalization("ingotFuelHEU233.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEU235.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEN236.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEP239.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEP241.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEA242.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECm243.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECm245.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECm245.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEB248.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECf249.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECf251.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHENq314.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHENq319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECc315.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHECc320.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEJt315.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEJt323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHESa319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHESa323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEJm316.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEJm318.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEJm323.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEEc319.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEEc326.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEPy322.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEPy324.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEPy326.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEVy321.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEVy324.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+game.setLocalization("ingotFuelHEVy327.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
