@@ -297,7 +297,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<gregtech:mineral:2>, <railcraft
 #---Nuclear Stuff---
 
 #Lc'T Gradle
-mods.abyssalcraft.InfusionRitual.addRitual("infusionRitualTest", 3, 1, 10000, false, <contenttweaker:gradleabyssal>, <ore:gemDiamond>, [<ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>, <ore:plateDreadiumCarbide>], false); 
+mods.abyssalcraft.InfusionRitual.addRitual("infusionRitualTest", 3, 1, 10000, false, <contenttweaker:gradleabyssal>, <ore:gemShadow>, [<ore:plateThickDreadiumCarbide>, <ore:ingotEthaxium>, <ore:plateThickDreadiumCarbide>, <ore:ingotEthaxium>, <ore:plateThickDreadiumCarbide>, <ore:ingotEthaxium>, <ore:plateThickDreadiumCarbide>, <ore:ingotEthaxium>], false); 
 game.setLocalization("ac.ritual.infusionRitualTest", "Infusion Ritual Test"); 
 game.setLocalization("ac.ritual.infusionRitualTest.desc", "This is a test ritual, turning dirt into diamonds by infusing it with more Dirt!");
 
