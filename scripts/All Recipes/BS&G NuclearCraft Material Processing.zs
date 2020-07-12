@@ -771,3 +771,179 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedTNS, ingotDepletedO, <o
 mods.nuclearcraft.FuelReprocessor.addRecipe(ingotDepletedLcT, ingotDepletedZ, <ore:dustAsh>.firstItem*8, <ore:gradleAbyssal>.firstItem, null, null, null, 1.5, 1.0, 0.05);
 }
 
+#---Naquadah Fuel Reprocessing---
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq314Oxide>,<ore:ingotJt316Oxide>*4, <ore:ingotCc314Oxide>*3, <ore:ingotNq319Oxide>*1, <ore:ingotNq312Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq319Oxide>,<ore:ingotJt316Oxide>*4, <ore:ingotNq313Oxide>*3, <ore:ingotCc319Oxide>*1, <ore:ingotJt323Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc315Oxide>,<ore:ingotSa319Oxide>*4, <ore:ingotCc320Oxide>*3, <ore:ingotJt315Oxide>*1, <ore:ingotJt316Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320Oxide>,<ore:ingotJt316Oxide>*4, <ore:ingotCc320Oxide>*3, <ore:ingotSa319Oxide>*1, <ore:ingotJt320Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323Oxide>,<ore:ingotSa316Oxide>*4, <ore:ingotJm320Oxide>*3, <ore:ingotSa323Oxide>*1, <ore:ingotJm324Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315Oxide>,<ore:ingotSa316Oxide>*4, <ore:ingotJm320Oxide>*3, <ore:ingotEc319Oxide>*1, <ore:ingotJm317Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319Oxide>,<ore:ingotJm316Oxide>*4, <ore:ingotEc320Oxide>*3, <ore:ingotJm320Oxide>*1, <ore:ingotJm322Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Oxide>,<ore:ingotJm316Oxide>*4, <ore:ingotEc320Oxide>*3, <ore:ingotJm322Oxide>*1, <ore:ingotJm323Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315Oxide>,<ore:ingotSa316Oxide>*4, <ore:ingotJm320Oxide>*3, <ore:ingotEc319Oxide>*1, <ore:ingotJm317Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319Oxide>,<ore:ingotJm316Oxide>*4, <ore:ingotEc320Oxide>*3, <ore:ingotJm320Oxide>*1, <ore:ingotJm322Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Oxide>,<ore:ingotJm316Oxide>*4, <ore:ingotEc320Oxide>*3, <ore:ingotJm322Oxide>*1, <ore:ingotJm323Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm318Oxide>,<ore:ingotEc322Oxide>*4, <ore:ingotPy326Oxide>*3, <ore:ingotPy319Oxide>*1, <ore:ingotVy320Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc319Oxide>,<ore:ingotPy324Oxide>*4, <ore:ingotPy325Oxide>*3, <ore:ingotPy321Oxide>*1, <ore:ingotSa315Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc321Oxide>,<ore:ingotPy324Oxide>*4, <ore:ingotPy325Oxide>*3, <ore:ingotPy323Oxide>*1, <ore:ingotSa317Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322Oxide>,<ore:ingotEc322Oxide>*4, <ore:ingotPy326Oxide>*3, <ore:ingotPy319Oxide>*1, <ore:ingotVy320Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy324Oxide>,<ore:ingotPy321Oxide>*4, <ore:ingotVy323Oxide>*3, <ore:ingotVy325Oxide>*1, <ore:ingotPy323Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326Oxide>,<ore:ingotPy321Oxide>*4, <ore:ingotVy323Oxide>*3, <ore:ingotPy327Oxide>*1, <ore:ingotPy328Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy321Oxide>,<ore:ingotVy328Oxide>*4, <ore:ingotVy329Oxide>*3, <ore:ingotVy323Oxide>*1, <ore:ingotVy325Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy324Oxide>,<ore:ingotVy328Oxide>*4, <ore:ingotVy329Oxide>*3, <ore:ingotVy330Oxide>*1, <ore:ingotVy329Oxide>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327Oxide>,<ore:ingotVy328Oxide>*4, <ore:ingotVy329Oxide>*3, <ore:ingotVy330Oxide>*1, <ore:ingotVy329Oxide>*1, null, null, 1.0, 1.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq323Oxide>,<ore:ingotJt326Oxide>*3, <ore:ingotCc323Oxide>*3, <ore:ingotNq329Oxide>*2, <ore:ingotNq322Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq329Oxide>,<ore:ingotJt326Oxide>*3, <ore:ingotNq323Oxide>*3, <ore:ingotCc329Oxide>*2, <ore:ingotJt323Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc325Oxide>,<ore:ingotSa329Oxide>*3, <ore:ingotCc320Oxide>*3, <ore:ingotJt325Oxide>*2, <ore:ingotJt326Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320Oxide>,<ore:ingotJt326Oxide>*3, <ore:ingotCc320Oxide>*3, <ore:ingotSa329Oxide>*2, <ore:ingotJt320Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323Oxide>,<ore:ingotSa326Oxide>*3, <ore:ingotJm320Oxide>*3, <ore:ingotSa323Oxide>*2, <ore:ingotJm323Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325Oxide>,<ore:ingotSa326Oxide>*3, <ore:ingotJm320Oxide>*3, <ore:ingotEc329Oxide>*2, <ore:ingotJm327Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329Oxide>,<ore:ingotJm326Oxide>*3, <ore:ingotEc320Oxide>*3, <ore:ingotJm320Oxide>*2, <ore:ingotJm322Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Oxide>,<ore:ingotJm326Oxide>*3, <ore:ingotEc320Oxide>*3, <ore:ingotJm322Oxide>*2, <ore:ingotJm323Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325Oxide>,<ore:ingotSa326Oxide>*3, <ore:ingotJm320Oxide>*3, <ore:ingotEc329Oxide>*2, <ore:ingotJm327Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329Oxide>,<ore:ingotJm326Oxide>*3, <ore:ingotEc320Oxide>*3, <ore:ingotJm320Oxide>*2, <ore:ingotJm322Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Oxide>,<ore:ingotJm326Oxide>*3, <ore:ingotEc320Oxide>*3, <ore:ingotJm322Oxide>*2, <ore:ingotJm323Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm321Oxide>,<ore:ingotEc322Oxide>*3, <ore:ingotPy326Oxide>*3, <ore:ingotPy329Oxide>*2, <ore:ingotVy320Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc329Oxide>,<ore:ingotPy323Oxide>*3, <ore:ingotPy325Oxide>*3, <ore:ingotPy322Oxide>*2, <ore:ingotSa325Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc322Oxide>,<ore:ingotPy323Oxide>*3, <ore:ingotPy325Oxide>*3, <ore:ingotPy323Oxide>*2, <ore:ingotSa327Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322Oxide>,<ore:ingotEc322Oxide>*3, <ore:ingotPy326Oxide>*3, <ore:ingotPy329Oxide>*2, <ore:ingotVy320Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy323Oxide>,<ore:ingotPy322Oxide>*3, <ore:ingotVy323Oxide>*3, <ore:ingotVy325Oxide>*2, <ore:ingotPy323Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326Oxide>,<ore:ingotPy322Oxide>*3, <ore:ingotVy323Oxide>*3, <ore:ingotPy327Oxide>*2, <ore:ingotPy321Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy322Oxide>,<ore:ingotVy321Oxide>*3, <ore:ingotVy329Oxide>*3, <ore:ingotVy323Oxide>*2, <ore:ingotVy325Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy323Oxide>,<ore:ingotVy321Oxide>*3, <ore:ingotVy329Oxide>*3, <ore:ingotVy330Oxide>*2, <ore:ingotVy329Oxide>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327Oxide>,<ore:ingotVy321Oxide>*3, <ore:ingotVy329Oxide>*3, <ore:ingotVy330Oxide>*2, <ore:ingotVy329Oxide>*1, null, null, 2.0, 2.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq314Nitride>,<ore:ingotJt316Nitride>*4, <ore:ingotCc314Nitride>*3, <ore:ingotNq319Nitride>*1, <ore:ingotNq312Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq319Nitride>,<ore:ingotJt316Nitride>*4, <ore:ingotNq313Nitride>*3, <ore:ingotCc319Nitride>*1, <ore:ingotJt323Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc315Nitride>,<ore:ingotSa319Nitride>*4, <ore:ingotCc320Nitride>*3, <ore:ingotJt315Nitride>*1, <ore:ingotJt316Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320Nitride>,<ore:ingotJt316Nitride>*4, <ore:ingotCc320Nitride>*3, <ore:ingotSa319Nitride>*1, <ore:ingotJt320Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323Nitride>,<ore:ingotSa316Nitride>*4, <ore:ingotJm320Nitride>*3, <ore:ingotSa323Nitride>*1, <ore:ingotJm324Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315Nitride>,<ore:ingotSa316Nitride>*4, <ore:ingotJm320Nitride>*3, <ore:ingotEc319Nitride>*1, <ore:ingotJm317Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319Nitride>,<ore:ingotJm316Nitride>*4, <ore:ingotEc320Nitride>*3, <ore:ingotJm320Nitride>*1, <ore:ingotJm322Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Nitride>,<ore:ingotJm316Nitride>*4, <ore:ingotEc320Nitride>*3, <ore:ingotJm322Nitride>*1, <ore:ingotJm323Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315Nitride>,<ore:ingotSa316Nitride>*4, <ore:ingotJm320Nitride>*3, <ore:ingotEc319Nitride>*1, <ore:ingotJm317Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319Nitride>,<ore:ingotJm316Nitride>*4, <ore:ingotEc320Nitride>*3, <ore:ingotJm320Nitride>*1, <ore:ingotJm322Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Nitride>,<ore:ingotJm316Nitride>*4, <ore:ingotEc320Nitride>*3, <ore:ingotJm322Nitride>*1, <ore:ingotJm323Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm318Nitride>,<ore:ingotEc322Nitride>*4, <ore:ingotPy326Nitride>*3, <ore:ingotPy319Nitride>*1, <ore:ingotVy320Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc319Nitride>,<ore:ingotPy324Nitride>*4, <ore:ingotPy325Nitride>*3, <ore:ingotPy321Nitride>*1, <ore:ingotSa315Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc321Nitride>,<ore:ingotPy324Nitride>*4, <ore:ingotPy325Nitride>*3, <ore:ingotPy323Nitride>*1, <ore:ingotSa317Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322Nitride>,<ore:ingotEc322Nitride>*4, <ore:ingotPy326Nitride>*3, <ore:ingotPy319Nitride>*1, <ore:ingotVy320Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy324Nitride>,<ore:ingotPy321Nitride>*4, <ore:ingotVy323Nitride>*3, <ore:ingotVy325Nitride>*1, <ore:ingotPy323Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326Nitride>,<ore:ingotPy321Nitride>*4, <ore:ingotVy323Nitride>*3, <ore:ingotPy327Nitride>*1, <ore:ingotPy328Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy321Nitride>,<ore:ingotVy328Nitride>*4, <ore:ingotVy329Nitride>*3, <ore:ingotVy323Nitride>*1, <ore:ingotVy325Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy324Nitride>,<ore:ingotVy328Nitride>*4, <ore:ingotVy329Nitride>*3, <ore:ingotVy330Nitride>*1, <ore:ingotVy329Nitride>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327Nitride>,<ore:ingotVy328Nitride>*4, <ore:ingotVy329Nitride>*3, <ore:ingotVy330Nitride>*1, <ore:ingotVy329Nitride>*1, null, null, 1.0, 1.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq323Nitride>,<ore:ingotJt326Nitride>*3, <ore:ingotCc323Nitride>*3, <ore:ingotNq329Nitride>*2, <ore:ingotNq322Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq329Nitride>,<ore:ingotJt326Nitride>*3, <ore:ingotNq323Nitride>*3, <ore:ingotCc329Nitride>*2, <ore:ingotJt323Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc325Nitride>,<ore:ingotSa329Nitride>*3, <ore:ingotCc320Nitride>*3, <ore:ingotJt325Nitride>*2, <ore:ingotJt326Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320Nitride>,<ore:ingotJt326Nitride>*3, <ore:ingotCc320Nitride>*3, <ore:ingotSa329Nitride>*2, <ore:ingotJt320Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323Nitride>,<ore:ingotSa326Nitride>*3, <ore:ingotJm320Nitride>*3, <ore:ingotSa323Nitride>*2, <ore:ingotJm323Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325Nitride>,<ore:ingotSa326Nitride>*3, <ore:ingotJm320Nitride>*3, <ore:ingotEc329Nitride>*2, <ore:ingotJm327Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329Nitride>,<ore:ingotJm326Nitride>*3, <ore:ingotEc320Nitride>*3, <ore:ingotJm320Nitride>*2, <ore:ingotJm322Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Nitride>,<ore:ingotJm326Nitride>*3, <ore:ingotEc320Nitride>*3, <ore:ingotJm322Nitride>*2, <ore:ingotJm323Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325Nitride>,<ore:ingotSa326Nitride>*3, <ore:ingotJm320Nitride>*3, <ore:ingotEc329Nitride>*2, <ore:ingotJm327Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329Nitride>,<ore:ingotJm326Nitride>*3, <ore:ingotEc320Nitride>*3, <ore:ingotJm320Nitride>*2, <ore:ingotJm322Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323Nitride>,<ore:ingotJm326Nitride>*3, <ore:ingotEc320Nitride>*3, <ore:ingotJm322Nitride>*2, <ore:ingotJm323Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm321Nitride>,<ore:ingotEc322Nitride>*3, <ore:ingotPy326Nitride>*3, <ore:ingotPy329Nitride>*2, <ore:ingotVy320Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc329Nitride>,<ore:ingotPy323Nitride>*3, <ore:ingotPy325Nitride>*3, <ore:ingotPy322Nitride>*2, <ore:ingotSa325Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc322Nitride>,<ore:ingotPy323Nitride>*3, <ore:ingotPy325Nitride>*3, <ore:ingotPy323Nitride>*2, <ore:ingotSa327Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322Nitride>,<ore:ingotEc322Nitride>*3, <ore:ingotPy326Nitride>*3, <ore:ingotPy329Nitride>*2, <ore:ingotVy320Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy323Nitride>,<ore:ingotPy322Nitride>*3, <ore:ingotVy323Nitride>*3, <ore:ingotVy325Nitride>*2, <ore:ingotPy323Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326Nitride>,<ore:ingotPy322Nitride>*3, <ore:ingotVy323Nitride>*3, <ore:ingotPy327Nitride>*2, <ore:ingotPy321Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy322Nitride>,<ore:ingotVy321Nitride>*3, <ore:ingotVy329Nitride>*3, <ore:ingotVy323Nitride>*2, <ore:ingotVy325Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy323Nitride>,<ore:ingotVy321Nitride>*3, <ore:ingotVy329Nitride>*3, <ore:ingotVy330Nitride>*2, <ore:ingotVy329Nitride>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327Nitride>,<ore:ingotVy321Nitride>*3, <ore:ingotVy329Nitride>*3, <ore:ingotVy330Nitride>*2, <ore:ingotVy329Nitride>*1, null, null, 2.0, 2.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq314ZA>,<ore:ingotJt316ZA>*4, <ore:ingotCc314ZA>*3, <ore:ingotNq319ZA>*1, <ore:ingotNq312ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq319ZA>,<ore:ingotJt316ZA>*4, <ore:ingotNq313ZA>*3, <ore:ingotCc319ZA>*1, <ore:ingotJt323ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc315ZA>,<ore:ingotSa319ZA>*4, <ore:ingotCc320ZA>*3, <ore:ingotJt315ZA>*1, <ore:ingotJt316ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320ZA>,<ore:ingotJt316ZA>*4, <ore:ingotCc320ZA>*3, <ore:ingotSa319ZA>*1, <ore:ingotJt320ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323ZA>,<ore:ingotSa316ZA>*4, <ore:ingotJm320ZA>*3, <ore:ingotSa323ZA>*1, <ore:ingotJm324ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315ZA>,<ore:ingotSa316ZA>*4, <ore:ingotJm320ZA>*3, <ore:ingotEc319ZA>*1, <ore:ingotJm317ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319ZA>,<ore:ingotJm316ZA>*4, <ore:ingotEc320ZA>*3, <ore:ingotJm320ZA>*1, <ore:ingotJm322ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323ZA>,<ore:ingotJm316ZA>*4, <ore:ingotEc320ZA>*3, <ore:ingotJm322ZA>*1, <ore:ingotJm323ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315ZA>,<ore:ingotSa316ZA>*4, <ore:ingotJm320ZA>*3, <ore:ingotEc319ZA>*1, <ore:ingotJm317ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319ZA>,<ore:ingotJm316ZA>*4, <ore:ingotEc320ZA>*3, <ore:ingotJm320ZA>*1, <ore:ingotJm322ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323ZA>,<ore:ingotJm316ZA>*4, <ore:ingotEc320ZA>*3, <ore:ingotJm322ZA>*1, <ore:ingotJm323ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm318ZA>,<ore:ingotEc322ZA>*4, <ore:ingotPy326ZA>*3, <ore:ingotPy319ZA>*1, <ore:ingotVy320ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc319ZA>,<ore:ingotPy324ZA>*4, <ore:ingotPy325ZA>*3, <ore:ingotPy321ZA>*1, <ore:ingotSa315ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc321ZA>,<ore:ingotPy324ZA>*4, <ore:ingotPy325ZA>*3, <ore:ingotPy323ZA>*1, <ore:ingotSa317ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322ZA>,<ore:ingotEc322ZA>*4, <ore:ingotPy326ZA>*3, <ore:ingotPy319ZA>*1, <ore:ingotVy320ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy324ZA>,<ore:ingotPy321ZA>*4, <ore:ingotVy323ZA>*3, <ore:ingotVy325ZA>*1, <ore:ingotPy323ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326ZA>,<ore:ingotPy321ZA>*4, <ore:ingotVy323ZA>*3, <ore:ingotPy327ZA>*1, <ore:ingotPy328ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy321ZA>,<ore:ingotVy328ZA>*4, <ore:ingotVy329ZA>*3, <ore:ingotVy323ZA>*1, <ore:ingotVy325ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy324ZA>,<ore:ingotVy328ZA>*4, <ore:ingotVy329ZA>*3, <ore:ingotVy330ZA>*1, <ore:ingotVy329ZA>*1, null, null, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327ZA>,<ore:ingotVy328ZA>*4, <ore:ingotVy329ZA>*3, <ore:ingotVy330ZA>*1, <ore:ingotVy329ZA>*1, null, null, 1.0, 1.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq323ZA>,<ore:ingotJt326ZA>*3, <ore:ingotCc323ZA>*3, <ore:ingotNq329ZA>*2, <ore:ingotNq322ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq329ZA>,<ore:ingotJt326ZA>*3, <ore:ingotNq323ZA>*3, <ore:ingotCc329ZA>*2, <ore:ingotJt323ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc325ZA>,<ore:ingotSa329ZA>*3, <ore:ingotCc320ZA>*3, <ore:ingotJt325ZA>*2, <ore:ingotJt326ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320ZA>,<ore:ingotJt326ZA>*3, <ore:ingotCc320ZA>*3, <ore:ingotSa329ZA>*2, <ore:ingotJt320ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323ZA>,<ore:ingotSa326ZA>*3, <ore:ingotJm320ZA>*3, <ore:ingotSa323ZA>*2, <ore:ingotJm323ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325ZA>,<ore:ingotSa326ZA>*3, <ore:ingotJm320ZA>*3, <ore:ingotEc329ZA>*2, <ore:ingotJm327ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329ZA>,<ore:ingotJm326ZA>*3, <ore:ingotEc320ZA>*3, <ore:ingotJm320ZA>*2, <ore:ingotJm322ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323ZA>,<ore:ingotJm326ZA>*3, <ore:ingotEc320ZA>*3, <ore:ingotJm322ZA>*2, <ore:ingotJm323ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325ZA>,<ore:ingotSa326ZA>*3, <ore:ingotJm320ZA>*3, <ore:ingotEc329ZA>*2, <ore:ingotJm327ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329ZA>,<ore:ingotJm326ZA>*3, <ore:ingotEc320ZA>*3, <ore:ingotJm320ZA>*2, <ore:ingotJm322ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323ZA>,<ore:ingotJm326ZA>*3, <ore:ingotEc320ZA>*3, <ore:ingotJm322ZA>*2, <ore:ingotJm323ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm321ZA>,<ore:ingotEc322ZA>*3, <ore:ingotPy326ZA>*3, <ore:ingotPy329ZA>*2, <ore:ingotVy320ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc329ZA>,<ore:ingotPy323ZA>*3, <ore:ingotPy325ZA>*3, <ore:ingotPy322ZA>*2, <ore:ingotSa325ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc322ZA>,<ore:ingotPy323ZA>*3, <ore:ingotPy325ZA>*3, <ore:ingotPy323ZA>*2, <ore:ingotSa327ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322ZA>,<ore:ingotEc322ZA>*3, <ore:ingotPy326ZA>*3, <ore:ingotPy329ZA>*2, <ore:ingotVy320ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy323ZA>,<ore:ingotPy322ZA>*3, <ore:ingotVy323ZA>*3, <ore:ingotVy325ZA>*2, <ore:ingotPy323ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326ZA>,<ore:ingotPy322ZA>*3, <ore:ingotVy323ZA>*3, <ore:ingotPy327ZA>*2, <ore:ingotPy321ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy322ZA>,<ore:ingotVy321ZA>*3, <ore:ingotVy329ZA>*3, <ore:ingotVy323ZA>*2, <ore:ingotVy325ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy323ZA>,<ore:ingotVy321ZA>*3, <ore:ingotVy329ZA>*3, <ore:ingotVy330ZA>*2, <ore:ingotVy329ZA>*1, null, null, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327ZA>,<ore:ingotVy321ZA>*3, <ore:ingotVy329ZA>*3, <ore:ingotVy330ZA>*2, <ore:ingotVy329ZA>*1, null, null, 2.0, 2.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq314TRISIO>, <ore:ingotJt316Carbide>*4, <ore:ingotCc314Carbide>*3, <ore:ingotNq319Carbide>*1, <ore:ingotNq312Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq319TRISIO>, <ore:ingotJt316Carbide>*4, <ore:ingotNq313Carbide>*3, <ore:ingotCc319Carbide>*1, <ore:ingotJt323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc315TRISIO>, <ore:ingotSa319Carbide>*4, <ore:ingotCc320Carbide>*3, <ore:ingotJt315Carbide>*1, <ore:ingotJt316Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320TRISIO>, <ore:ingotJt316Carbide>*4, <ore:ingotCc320Carbide>*3, <ore:ingotSa319Carbide>*1, <ore:ingotJt320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323TRISIO>, <ore:ingotSa316Carbide>*4, <ore:ingotJm320Carbide>*3, <ore:ingotSa323Carbide>*1, <ore:ingotJm324Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315TRISIO>, <ore:ingotSa316Carbide>*4, <ore:ingotJm320Carbide>*3, <ore:ingotEc319Carbide>*1, <ore:ingotJm317Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319TRISIO>, <ore:ingotJm316Carbide>*4, <ore:ingotEc320Carbide>*3, <ore:ingotJm320Carbide>*1, <ore:ingotJm322Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323TRISIO>, <ore:ingotJm316Carbide>*4, <ore:ingotEc320Carbide>*3, <ore:ingotJm322Carbide>*1, <ore:ingotJm323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt315TRISIO>, <ore:ingotSa316Carbide>*4, <ore:ingotJm320Carbide>*3, <ore:ingotEc319Carbide>*1, <ore:ingotJm317Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa319TRISIO>, <ore:ingotJm316Carbide>*4, <ore:ingotEc320Carbide>*3, <ore:ingotJm320Carbide>*1, <ore:ingotJm322Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323TRISIO>, <ore:ingotJm316Carbide>*4, <ore:ingotEc320Carbide>*3, <ore:ingotJm322Carbide>*1, <ore:ingotJm323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm318TRISIO>, <ore:ingotEc322Carbide>*4, <ore:ingotPy326Carbide>*3, <ore:ingotPy319Carbide>*1, <ore:ingotVy320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc319TRISIO>, <ore:ingotPy324Carbide>*4, <ore:ingotPy325Carbide>*3, <ore:ingotPy321Carbide>*1, <ore:ingotSa315Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc321TRISIO>, <ore:ingotPy324Carbide>*4, <ore:ingotPy325Carbide>*3, <ore:ingotPy323Carbide>*1, <ore:ingotSa317Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322TRISIO>, <ore:ingotEc322Carbide>*4, <ore:ingotPy326Carbide>*3, <ore:ingotPy319Carbide>*1, <ore:ingotVy320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy324TRISIO>, <ore:ingotPy321Carbide>*4, <ore:ingotVy323Carbide>*3, <ore:ingotVy325Carbide>*1, <ore:ingotPy323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326TRISIO>, <ore:ingotPy321Carbide>*4, <ore:ingotVy323Carbide>*3, <ore:ingotPy327Carbide>*1, <ore:ingotPy328Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy321TRISIO>, <ore:ingotVy328Carbide>*4, <ore:ingotVy329Carbide>*3, <ore:ingotVy323Carbide>*1, <ore:ingotVy325Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy324TRISIO>, <ore:ingotVy328Carbide>*4, <ore:ingotVy329Carbide>*3, <ore:ingotVy330Carbide>*1, <ore:ingotVy329Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327TRISIO>, <ore:ingotVy328Carbide>*4, <ore:ingotVy329Carbide>*3, <ore:ingotVy330Carbide>*1, <ore:ingotVy329Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 1.0, 1.0, 0.05);
+
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq323TRISIO>, <ore:ingotJt326Carbide>*3, <ore:ingotCc323Carbide>*3, <ore:ingotNq329Carbide>*2, <ore:ingotNq322Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLENq329TRISIO>, <ore:ingotJt326Carbide>*3, <ore:ingotNq323Carbide>*3, <ore:ingotCc329Carbide>*2, <ore:ingotJt323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc325TRISIO>, <ore:ingotSa329Carbide>*3, <ore:ingotCc320Carbide>*3, <ore:ingotJt325Carbide>*2, <ore:ingotJt326Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLECc320TRISIO>, <ore:ingotJt326Carbide>*3, <ore:ingotCc320Carbide>*3, <ore:ingotSa329Carbide>*2, <ore:ingotJt320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt323TRISIO>, <ore:ingotSa326Carbide>*3, <ore:ingotJm320Carbide>*3, <ore:ingotSa323Carbide>*2, <ore:ingotJm323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325TRISIO>, <ore:ingotSa326Carbide>*3, <ore:ingotJm320Carbide>*3, <ore:ingotEc329Carbide>*2, <ore:ingotJm327Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329TRISIO>, <ore:ingotJm326Carbide>*3, <ore:ingotEc320Carbide>*3, <ore:ingotJm320Carbide>*2, <ore:ingotJm322Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323TRISIO>, <ore:ingotJm326Carbide>*3, <ore:ingotEc320Carbide>*3, <ore:ingotJm322Carbide>*2, <ore:ingotJm323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJt325TRISIO>, <ore:ingotSa326Carbide>*3, <ore:ingotJm320Carbide>*3, <ore:ingotEc329Carbide>*2, <ore:ingotJm327Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa329TRISIO>, <ore:ingotJm326Carbide>*3, <ore:ingotEc320Carbide>*3, <ore:ingotJm320Carbide>*2, <ore:ingotJm322Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLESa323TRISIO>, <ore:ingotJm326Carbide>*3, <ore:ingotEc320Carbide>*3, <ore:ingotJm322Carbide>*2, <ore:ingotJm323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEJm321TRISIO>, <ore:ingotEc322Carbide>*3, <ore:ingotPy326Carbide>*3, <ore:ingotPy329Carbide>*2, <ore:ingotVy320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc329TRISIO>, <ore:ingotPy323Carbide>*3, <ore:ingotPy325Carbide>*3, <ore:ingotPy322Carbide>*2, <ore:ingotSa325Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEEc322TRISIO>, <ore:ingotPy323Carbide>*3, <ore:ingotPy325Carbide>*3, <ore:ingotPy323Carbide>*2, <ore:ingotSa327Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy322TRISIO>, <ore:ingotEc322Carbide>*3, <ore:ingotPy326Carbide>*3, <ore:ingotPy329Carbide>*2, <ore:ingotVy320Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy323TRISIO>, <ore:ingotPy322Carbide>*3, <ore:ingotVy323Carbide>*3, <ore:ingotVy325Carbide>*2, <ore:ingotPy323Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEPy326TRISIO>, <ore:ingotPy322Carbide>*3, <ore:ingotVy323Carbide>*3, <ore:ingotPy327Carbide>*2, <ore:ingotPy321Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy322TRISIO>, <ore:ingotVy321Carbide>*3, <ore:ingotVy329Carbide>*3, <ore:ingotVy323Carbide>*2, <ore:ingotVy325Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy323TRISIO>, <ore:ingotVy321Carbide>*3, <ore:ingotVy329Carbide>*3, <ore:ingotVy330Carbide>*2, <ore:ingotVy329Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedLEVy327TRISIO>, <ore:ingotVy321Carbide>*3, <ore:ingotVy329Carbide>*3, <ore:ingotVy330Carbide>*2, <ore:ingotVy329Carbide>*1, <ore:dustGraphite>*4, <ore:dustSiliconCarbide>, 2.0, 2.0, 0.05);
+
+
+
+
+
+
+
+
