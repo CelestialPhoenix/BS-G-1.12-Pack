@@ -706,3 +706,8 @@ val dustLithiumFluoride = MaterialRegistry.createDustMaterial(765, "lithium_fluo
 
 val dustBerylliumFluoride = MaterialRegistry.createDustMaterial(766, "beryllium_fluoride", 0x888888, "dull", 1, [<material:beryllium>*1, <material:fluorine>*2]);
 
+val dustUraniumDioxide = MaterialRegistry.createDustMaterial(767, "uranium_dioxide", 0xBBFFBB, "dull", 1, [<material:uranium>*1, <material:oxygen>*2]);
+
+MaterialRegistry.createFluidMaterial(768, "uranium_hexafluoride", 0xEEFFEE, "fluid", null);
+MaterialRegistry.createFluidMaterial(767, "uranium235_hexafluoride", 0xEEFFEE, "fluid", null);
+MaterialRegistry.createFluidMaterial(770, "uranium235_hexafluoride", 0xEEFFEE, "fluid", null);

@@ -159,6 +159,10 @@ material.silicon_carbide=Silicon Carbide
 material.si_c_si_c_c_m_c=SiC-SiC CMC
 material.lithium_fluoride=Lithium Fluoride
 material.beryllium_fluoride=Beryllium Fluoride
+material.uranium_dioxide=Uranium Dioxide
+material.uranium_hexafluoride=Uranium Hexafluoride
+material.uranium235_hexafluoride=Uranium-238 Hexafluoride
+material.uranium238_hexafluoride=Uranium-235 Hexafluoride
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
