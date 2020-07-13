@@ -6,13 +6,15 @@ print("Green Glowey Energy");
 #removing entries
 #<ore:>.remove(<nuclearcraft:>);
 
-
+/*
 #-Remove Duplicate Gtech entry
+
 val U235 = <ore:ingotUranium235>;
 for item in U235.items{
 	<ore:ingotUranium235>.remove(item);
 }
-<ore:ingotUranium235>.add(<nuclearcraft:uranium:5>);
+<ore:ingotUranium235>.add(<nuclearcraft:uranium:5>);*/
+<ore:ingotUranium235>.remove(<nuclearcraft:uranium:5>);
 
 #Blocks
 #<ore:block>.remove(<nuclearcraft:ingot_block:>);
