@@ -929,6 +929,11 @@ item.contenttweaker.dustpurpur.name=Xenolithic-Purpurite Dust
 item.contenttweaker.dustslime.name=Dessicated Slime Dust
 item.contenttweaker.dustsiliconcarbide.name=Silicon Carbide Dust
 
+item.contenttweaker.dustcalithoriumaby.name=Calithorium Dust
+item.contenttweaker.dustcalithoriumboc.name=Calithorium Dust
+item.contenttweaker.dustcalithoriumthaum.name=Calithorium Dust
+item.contenttweaker.dustTBU.name=TBU Dust
+
 item.contenttweaker.dustsmallaluminium.name=Small Pile of Aluminium Dust
 item.contenttweaker.dustsmallbronze.name=Small Pile of Bronze Dust
 item.contenttweaker.dustsmallcopper.name=Small Pile of Copper Dust
@@ -1004,6 +1009,8 @@ item.contenttweaker.ingottungsten.name=Tungsten Ingot
 item.contenttweaker.ingottungstencarbide.name=Tungstencarbide Ingot
 item.contenttweaker.ingottungstensteel.name=Tungstensteel Ingot
 item.contenttweaker.ingotzinc.name=Zinc Ingot
+
+item.contenttweaker.ingotcalithorium.name=Calithorium Ingot
 
 item.contenttweaker.ingotnq313.name=Naquadah-313
 item.contenttweaker.ingotnq314.name=Naquadah-314
