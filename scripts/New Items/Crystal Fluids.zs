@@ -18,10 +18,15 @@ var luck = MaterialSystem.getMaterialBuilder().setName("Luck").setColor(0xFFAAAA
 var magnetic = MaterialSystem.getMaterialBuilder().setName("Magnetic").setColor(0x000000).build();
 var toxic = MaterialSystem.getMaterialBuilder().setName("Toxic").setColor(0x440044).build();
 
+#Nuclear
+var UF6 = MaterialSystem.getMaterialBuilder().setName("Uranium Hexafluoride").setColor(0xEEFFEE).build();
+var UF6235 = MaterialSystem.getMaterialBuilder().setName("Uranium-235 Hexafluoride").setColor(0xEEFFEE).build();
+var UF6238 = MaterialSystem.getMaterialBuilder().setName("Uranium-238 Hexafluoride").setColor(0xDDFFDD).build();
+
 #Petrochem
 var lubricant = MaterialSystem.getMaterialBuilder().setName("Lubricant").setColor(0xFFFF00).build();
 
-var fluid_list = [antimatter, refined_antimatter, luck, magnetic, toxic, lubricant] as Material[];
+var fluid_list = [antimatter, refined_antimatter, luck, magnetic, toxic, UF6, UF6235, UF6238, lubricant] as Material[];
 var part_names = ["clathrate"] as string[];
 
 mods.contenttweaker.MaterialSystem.getPartBuilder().setName("clathrate").setPartType(MaterialSystem.getPartType("item")).setOreDictName("clathrate").build();
