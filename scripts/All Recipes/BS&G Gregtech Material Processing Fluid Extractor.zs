@@ -8,7 +8,8 @@ print("Hello Boys- I'm Baaaaack!!!");
 val FluidExtractor as RecipeMap = RecipeMap.getByName("fluid_extractor");
 
 #---Fluid Extraction---
-#--Alchemical Clathrates--
+#--Clathrates--
+#Alchemical
 FluidExtractor
     .recipeBuilder()
     .inputs(<ore:clathrateLuck>*1)
@@ -37,6 +38,31 @@ FluidExtractor
     .recipeBuilder()
     .inputs(<ore:clathrateToxic>*1)
 	.fluidOutputs([<liquid:toxic>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+#Nuclear
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateUraniumHexafluoride>*1)
+	.fluidOutputs([<liquid:uranium_hexafluoride>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateUranium-235Hexafluoride>*1)
+	.fluidOutputs([<liquid:uranium-235_hexafluoride>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateUranium-238Hexafluoride>*1)
+	.fluidOutputs([<liquid:uranium-238_hexafluoride>*100])
     .duration(100)
     .EUt(24)
     .buildAndRegister();
