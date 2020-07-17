@@ -180,8 +180,12 @@ print("Tweak Tweak Tweak Tweak");
 <ore:coilReactanceElite>.add(<contenttweaker:coilreactanceenhanced>);
 
 #---Dust---
+<ore:dustCalithoriumAby>.add(<contenttweaker:dustcalithoriumaby>);
+<ore:dustCalithoriumBot>.add(<contenttweaker:dustcalithoriumbot>);
+<ore:dustCalithoriumThaum>.add(<contenttweaker:dustcalithoriumthaum>);
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
+<ore:dustTBU>.add(<contenttweaker:dusttbu>);
 
 #--Elements---
 <ore:elementCopper>.add(<contenttweaker:elementcopper>);
@@ -213,6 +217,7 @@ print("Tweak Tweak Tweak Tweak");
 
 #---Ingots---
 #<ore:ingot>.add(<contenttweaker:ingot>);
+<ore:ingotCalithorium>.add(<contenttweaker:ingotcalithorium>);
 
 #Isotopes
 <ore:ingotNaquadah>.add(<contenttweaker:ingotnq312>);

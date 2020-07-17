@@ -193,6 +193,13 @@ mods.abyssalcraft.Crystallizer.removeCrystallization(<minecraft:bone>);
 #--Alchemy-- 
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}), <materialpart:antimatter:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
+#--Nuclear--
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium_hexafluoride", Amount: 1000}}), <materialpart:uranium_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium238_hexafluoride", Amount: 1000}}), <materialpart:uranium-238_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium235_hexafluoride", Amount: 1000}}), <materialpart:uranium-235_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
 #--Petrochem--
 #Bitumen
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "bitumen", Amount: 1000}}), <immersivepetroleum:material>*10, <metaitem:fluid_cell>, 0.0);
