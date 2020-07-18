@@ -941,3 +941,7 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy321TRISO>.firs
 mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy324TRISO>.firstItem,<ore:ingotVyrallium328Carbide>.firstItem*3, <ore:ingotVyrallium329Carbide>.firstItem*3, <ore:ingotVyrallium330Carbide>.firstItem*2, <ore:ingotVyrallium329Carbide>.firstItem*1, <ore:dustGraphite>.firstItem*4, <ore:ingotSiliconCarbide>.firstItem*1, 1.0, 1.0, 0.05);
 mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy327TRISO>.firstItem,<ore:ingotVyrallium328Carbide>.firstItem*3, <ore:ingotVyrallium329Carbide>.firstItem*3, <ore:ingotVyrallium330Carbide>.firstItem*2, <ore:ingotVyrallium329Carbide>.firstItem*1, <ore:dustGraphite>.firstItem*4, <ore:ingotSiliconCarbide>.firstItem*1, 1.0, 1.0, 0.05);
 
+#---Neutron Irridiator---
+//mods.nuclearcraft.FissionIrradiator.addRecipe(IIngredient itemInput, IIngredient itemOutput, int fluxRequired, double heatPerFlux, double efficiency, double radiation);
+
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotCalithorium>, <ore:dustCalithoriumThaum>, 40000, 0.0, 1.0, 0.00000000000284);

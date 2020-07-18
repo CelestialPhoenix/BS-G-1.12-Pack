@@ -509,3 +509,6 @@ game.setLocalization("ingotFuelHEPy326.desc", "Lc'T fuels burn 4x hotter than th
 game.setLocalization("ingotFuelHEVy321.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
 game.setLocalization("ingotFuelHEVy324.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
 game.setLocalization("ingotFuelHEVy327.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
+
+#Thorium Enrichment Processing
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotcalithorium>, <contenttweaker:ingotcalithoriumaby>, 0);

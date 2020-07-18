@@ -419,7 +419,7 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustProtactinium233>.firstItem*1
 
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustPolonium>.firstItem*1, [<ore:dustBismuth>], 1920000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
 
-mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustTBP>.firstItem*1, [<ore:ingotCalithorium>], 40000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustCalithoriumBot>.firstItem*1, [<ore:ingotCalithorium>], 40000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
 
 #Uranium Enrichment Processing
 mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>, 4000);
