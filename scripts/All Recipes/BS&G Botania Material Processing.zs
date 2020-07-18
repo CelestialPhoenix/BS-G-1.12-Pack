@@ -411,3 +411,8 @@ for input in HEfuelPellet {
 	
 Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 96000);
 }
+
+#Uranium Enrichment Processing
+mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>, 4000);
+mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clathrateUranium235Hexafluoride>, 4000);
+
