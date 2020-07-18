@@ -711,3 +711,5 @@ val dustUraniumDioxide = MaterialRegistry.createDustMaterial(767, "uranium_dioxi
 MaterialRegistry.createFluidMaterial(768, "uranium_hexafluoride", 0xEEFFEE, "fluid", null);
 MaterialRegistry.createFluidMaterial(769, "uranium235_hexafluoride", 0xEEFFEE, "fluid", null);
 MaterialRegistry.createFluidMaterial(770, "uranium238_hexafluoride", 0xDDFFDD, "fluid", null);
+
+val dustUraniumDioxide = MaterialRegistry.createDustMaterial(771, "californium_252", 0x552222, "dull", 1, null);
