@@ -243,3 +243,45 @@ for input in HEfuelPellet {
 	
 mods.thaumcraft.Infusion.registerRecipe(ingotFuelName, "", ingotFuelTNS, 15, [<aspect:vacuos>*48, <aspect:ordo>*48, <aspect:permutatio>*48, <aspect:alienis>*48], <ore:gradleThaumic>, [ingotFuelO, <ore:gemNetherStar>]);
 }
+
+#Decay Hastner Processing
+#Burns 1 aspect/tick, rounded up.
+mods.thaumcraft.Crucible.registerRecipe("decayThorium", "METALLURGY@1", <ore:ingotLead>.firstItem, <ore:ingotThorium>, [<aspect:perditio>*61, <aspect:permutatio>*61]);
+mods.thaumcraft.Crucible.registerRecipe("decayThoriumDust", "METALLURGY@1", <ore:dustLead>.firstItem, <ore:dustThorium>, [<aspect:perditio>*61, <aspect:permutatio>*61]);
+mods.thaumcraft.Crucible.registerRecipe("decayRadium", "METALLURGY@1", <ore:dustLead>.firstItem, <ore:dustRadium>, [<aspect:perditio>*41, <aspect:permutatio>*41]);
+mods.thaumcraft.Crucible.registerRecipe("decayPolonium", "METALLURGY@1", <ore:dustLead>.firstItem, <ore:dustPolonium>, [<aspect:perditio>*18, <aspect:permutatio>*18]);
+mods.thaumcraft.Crucible.registerRecipe("decayThoriumFuelDust", "METALLURGY@1", <ore:dustTBU>.firstItem, <ore:dustTBP>, [<aspect:perditio>*25, <aspect:permutatio>*25]);
+mods.thaumcraft.Crucible.registerRecipe("decayProtactium233", "METALLURGY@1", <ore:dustUranium233>.firstItem, <ore:dustProtactium233>, [<aspect:perditio>*8, <aspect:permutatio>*8]);
+mods.thaumcraft.Crucible.registerRecipe("decayU235", "METALLURGY@1", <ore:ingotBismuth>.firstItem, <ore:ingotUranium235>, [<aspect:perditio>*59, <aspect:permutatio>*59]);
+
+mods.thaumcraft.Crucible.registerRecipe("decayU238", "METALLURGY@1", <ore:dustRadium>.firstItem, <ore:dustUranium238>, [<aspect:perditio>*60, <aspect:permutatio>*60]);
+mods.thaumcraft.Crucible.registerRecipe("decayNp236", "METALLURGY@1", <ore:ingotThorium>.firstItem, <ore:ingotNeptunium236>, [<aspect:perditio>*53, <aspect:permutatio>*53]);
+mods.thaumcraft.Crucible.registerRecipe("decayNp237", "METALLURGY@1", <ore:ingotUranium233>.firstItem, <ore:ingotNeptunium237>, [<aspect:perditio>*53, <aspect:permutatio>*53]);
+mods.thaumcraft.Crucible.registerRecipe("decayPu238", "METALLURGY@1", <ore:ingotLead>.firstItem, <ore:ingotPlutonium238>, [<aspect:perditio>*33, <aspect:permutatio>*33]);
+
+mods.thaumcraft.Crucible.registerRecipe("decayPu239", "METALLURGY@1", <ore:ingotUranium233>.firstItem, <ore:ingotPlutonium239>, [<aspect:perditio>*46, <aspect:permutatio>*46]);
+mods.thaumcraft.Crucible.registerRecipe("decayPu241", "METALLURGY@1", <ore:ingotNeptunium237>.firstItem, <ore:ingotPlutonium241>, [<aspect:perditio>*46, <aspect:permutatio>*46]);
+
+mods.thaumcraft.Crucible.registerRecipe("decayPu242", "METALLURGY@1", <ore:ingotUranium238>.firstItem, <ore:ingotPlutonium242>, [<aspect:perditio>*46, <aspect:permutatio>*46]);
+
+mods.thaumcraft.Crucible.registerRecipe("decayAm241", "METALLURGY@1", <ore:ingotNeptunium237>.firstItem, <ore:ingotAmericium241>, [<aspect:perditio>*38, <aspect:permutatio>*38]);
+mods.thaumcraft.Crucible.registerRecipe("decayAm242", "METALLURGY@1", <ore:ingotLead>.firstItem, <ore:ingotAmericium242>, [<aspect:perditio>*34, <aspect:permutatio>*34]);
+mods.thaumcraft.Crucible.registerRecipe("decayAm243", "METALLURGY@1", <ore:ingotPlutonium239>.firstItem, <ore:ingotAmericium243>, [<aspect:perditio>*44, <aspect:permutatio>*44]);
+mods.thaumcraft.Crucible.registerRecipe("decayCm243", "METALLURGY@1", <ore:ingotPlutonium239>.firstItem, <ore:ingotCurium243>, [<aspect:perditio>*28, <aspect:permutatio>*28]);
+mods.thaumcraft.Crucible.registerRecipe("decayCm245", "METALLURGY@1", <ore:ingotPlutonium241>.firstItem, <ore:ingotCurium245>, [<aspect:perditio>*44, <aspect:permutatio>*44]);
+mods.thaumcraft.Crucible.registerRecipe("decayCm246", "METALLURGY@1", <ore:ingotPlutonium242>.firstItem, <ore:ingotCurium246>, [<aspect:perditio>*43, <aspect:permutatio>*43]);
+mods.thaumcraft.Crucible.registerRecipe("decayCm246", "METALLURGY@1", <ore:ingotAmericium243>.firstItem, <ore:ingotCurium247>, [<aspect:perditio>*55, <aspect:permutatio>*55]);
+mods.thaumcraft.Crucible.registerRecipe("decayBk243", "METALLURGY@1", <ore:ingotAmericium243>.firstItem, <ore:ingotBerklemium247>, [<aspect:perditio>*41, <aspect:permutatio>*41]);
+
+mods.thaumcraft.Crucible.registerRecipe("decayBk248", "METALLURGY@1", <ore:ingotThorium>.firstItem, <ore:ingotBerklemium248>, [<aspect:perditio>*37, <aspect:permutatio>*37]);
+mods.thaumcraft.Crucible.registerRecipe("decayCf249", "METALLURGY@1", <ore:ingotCurium245>.firstItem, <ore:ingotCalifornium249>, [<aspect:perditio>*37, <aspect:permutatio>*37]);
+mods.thaumcraft.Crucible.registerRecipe("decayCf250", "METALLURGY@1", <ore:ingotCurium246>.firstItem, <ore:ingotCalifornium250>, [<aspect:perditio>*25, <aspect:permutatio>*25]);
+mods.thaumcraft.Crucible.registerRecipe("decayCf251", "METALLURGY@1", <ore:ingotCurium247>.firstItem, <ore:ingotCalifornium251>, [<aspect:perditio>*39, <aspect:permutatio>*39]);
+mods.thaumcraft.Crucible.registerRecipe("decayCf252", "METALLURGY@1", <ore:ingotThorium>.firstItem, <ore:ingotCalifornium252>, [<aspect:perditio>*16, <aspect:permutatio>*16]);
+
+
+#Thorium Enrichment Processing
+
+#Uranium Enrichment Processing
+
+
