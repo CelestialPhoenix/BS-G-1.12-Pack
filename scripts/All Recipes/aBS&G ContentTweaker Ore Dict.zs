@@ -186,6 +186,7 @@ print("Tweak Tweak Tweak Tweak");
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
 <ore:dustTBU>.add(<contenttweaker:dusttbu>);
+<ore:dustUranium238>.add(<contenttweaker:dusturanium238>);
 
 #--Elements---
 <ore:elementCopper>.add(<contenttweaker:elementcopper>);

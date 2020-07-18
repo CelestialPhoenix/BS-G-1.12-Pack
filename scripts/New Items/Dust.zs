@@ -29,3 +29,5 @@ dustPurpur.register();
 var dustTBU = VanillaFactory.createItem("dusttbu");
 dustTBU.register();
 
+var dustU238 = VanillaFactory.createItem("dusturanium238");
+dustU238.register();

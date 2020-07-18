@@ -218,3 +218,25 @@ electrolyzer
     .duration(100)
     .EUt(60)
     .buildAndRegister();
+
+#Uranium Enrichemnt Processing
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:uranium238_hexafluoride>*1000])
+	.fluidOutputs([<liquid:fluorine>*6000])
+	.outputs([<ore:dustUranium238>.firstItem*1])
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:uranium235_hexafluoride>*1000])
+	.fluidOutputs([<liquid:fluorine>*6000])
+	.outputs([<ore:dustUranium235>.firstItem*1])
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
+
+
