@@ -54,7 +54,7 @@ FluidExtractor
 FluidExtractor
     .recipeBuilder()
     .inputs(<ore:clathrateUranium-235Hexafluoride>*1)
-	.fluidOutputs([<liquid:uranium-235_hexafluoride>*100])
+	.fluidOutputs([<liquid:uranium235_hexafluoride>*100])
     .duration(100)
     .EUt(24)
     .buildAndRegister();
@@ -62,7 +62,7 @@ FluidExtractor
 FluidExtractor
     .recipeBuilder()
     .inputs(<ore:clathrateUranium-238Hexafluoride>*1)
-	.fluidOutputs([<liquid:uranium-238_hexafluoride>*100])
+	.fluidOutputs([<liquid:uranium238_hexafluoride>*100])
     .duration(100)
     .EUt(24)
     .buildAndRegister();
