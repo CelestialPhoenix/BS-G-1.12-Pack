@@ -10,6 +10,7 @@ furnace.remove(<minecraft:coal:1>);
 
 #--Nuclear Processing--
 furnace.addRecipe(<ore:ingotCalifornium252>.firstItem, <ore:dustCalifornium252>);
+furnace.addRecipe(<ore:ingotTBU>.firstItem, <ore:dustTBU>);
 
 #--Nugget/Ingot/Block processing
 #--Ingot Smelting (from block)--
