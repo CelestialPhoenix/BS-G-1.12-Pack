@@ -379,6 +379,28 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
+#Uranium Dioxide
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustUranium>.firstItem*1)
+	.fluidInputs([<liquid:oxygen> * 2000])
+    .outputs(<ore:dustUraniumDioxide>.firstItem)
+	.property("temperature", 1400)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustUranium>.firstItem*1)
+	.fluidInputs([<liquid:aerotheum> * 500])
+    .outputs(<ore:dustUraniumDioxide>.firstItem)
+	.property("temperature", 1400)
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+
 #---Dusts---
 
 /*#######################
