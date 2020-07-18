@@ -283,7 +283,7 @@ var thickPlateMaterials as string[] = [
 	"Boron",
 	"Wood",
 	"SteelMagnetic",
-	//"Uranium238",
+	"Uranium238",
 	"TungstenSteel",
 	"Beryllium",
 	"Titanium",
