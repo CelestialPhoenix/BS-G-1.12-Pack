@@ -281,7 +281,7 @@ mods.thaumcraft.Crucible.registerRecipe("decayCf252", "METALLURGY@1", <ore:ingot
 
 
 #Thorium Enrichment Processing
-mods.thaumcraft.Crucible.registerRecipe("enrichU238", "METALLURGY@1", <ore:dustCalithoriumThaum>.firstItem, <ore:ingotCalithorium>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
+mods.thaumcraft.Crucible.registerRecipe("enrichTBU", "METALLURGY@1", <ore:dustCalithoriumThaum>.firstItem, <ore:ingotCalithorium>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
 
 #Uranium Enrichment Processing
 mods.thaumcraft.Crucible.registerRecipe("enrichU238", "METALLURGY@1", <ore:clathrateUranium235Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<aspect:potentia>*48, <aspect:permutatio>*48, <aspect:ordo>*48, <aspect:desiderium>*48]);
