@@ -362,6 +362,31 @@ centrifuge
     .EUt(256)
     .buildAndRegister();
 
+#Thorium Enrichment Processing
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustCalithoriumBot>)
+    .outputs(<ore:dustTBP>.firstItem, <ore:dustCalifornium>.firstItem)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustCalithoriumAby>)
+    .outputs(<ore:dustTBP>.firstItem, <ore:dustSmallCalifornium>.firstItem*3, <ore:dustSmallThorium>.firstItem*1)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustCalithoriumThaum>)
+    .outputs(<ore:dustTBP>.firstItem, <ore:dustTinyCalifornium>.firstItem*7, <ore:dustTinyThorium>.firstItem*2)
+    .duration(200)
+    .EUt(200)
+    .buildAndRegister();
+
 #Uranium Dioxide (from uraninite)
 centrifuge
     .recipeBuilder()
@@ -380,4 +405,6 @@ centrifuge
     .duration(300)
     .EUt(600)
     .buildAndRegister();
+
+
 
