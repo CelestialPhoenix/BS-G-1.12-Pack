@@ -20,8 +20,8 @@ var toxic = MaterialSystem.getMaterialBuilder().setName("Toxic").setColor(0x4400
 
 #Nuclear
 var UF6 = MaterialSystem.getMaterialBuilder().setName("Uranium Hexafluoride").setColor(0xEEFFEE).build();
-var UF6235 = MaterialSystem.getMaterialBuilder().setName("Uranium-235 Hexafluoride").setColor(0xEEFFEE).build();
-var UF6238 = MaterialSystem.getMaterialBuilder().setName("Uranium-238 Hexafluoride").setColor(0xDDFFDD).build();
+var UF6235 = MaterialSystem.getMaterialBuilder().setName("Uranium235 Hexafluoride").setColor(0xEEFFEE).build();
+var UF6238 = MaterialSystem.getMaterialBuilder().setName("Uranium238 Hexafluoride").setColor(0xDDFFDD).build();
 
 #Petrochem
 var lubricant = MaterialSystem.getMaterialBuilder().setName("Lubricant").setColor(0xFFFF00).build();
