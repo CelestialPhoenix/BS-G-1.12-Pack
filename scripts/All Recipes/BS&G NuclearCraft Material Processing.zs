@@ -943,5 +943,7 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy327TRISO>.firs
 
 #---Neutron Irridiator---
 //mods.nuclearcraft.FissionIrradiator.addRecipe(IIngredient itemInput, IIngredient itemOutput, int fluxRequired, double heatPerFlux, double efficiency, double radiation);
-
+#Thorium Enrichment Processing
+mods.nuclearcraft.FissionIrradiator.removeRecipeWithInput(<ore:dustTBP>);
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustTBU>, <ore:dustTBP>, 160000, 0.0, 1.0, 0.00000000000071);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotCalithorium>, <ore:dustCalithoriumThaum>, 40000, 0.0, 1.0, 0.00000000000284);
