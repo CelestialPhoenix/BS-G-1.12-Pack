@@ -412,6 +412,13 @@ for input in HEfuelPellet {
 Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gradleBotanical>], 96000);
 }
 
+#Terrasteel Agglomeration Neutron Enrichment
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustTBP>.firstItem*1, [<ore:dustThorium>], 160000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustProtactinium233>.firstItem*1, [<ore:dustTBP>], 2720000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustPolonium>.firstItem*1, [<ore:dustBismuth>], 1920000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
 #Uranium Enrichment Processing
 mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>, 4000);
 mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clathrateUranium235Hexafluoride>, 4000);
