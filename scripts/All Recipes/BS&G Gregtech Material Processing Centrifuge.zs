@@ -371,3 +371,12 @@ centrifuge
     .EUt(5)
     .buildAndRegister();
 
+#Uranium Enrichment Processing
+    .recipeBuilder()
+	.fluidInputs([<fluid:uranium_hexafluoride>*100])
+	.fluidOutputs([<fluid:uranium238_hexafluoride>*75])
+	.fluidOutputs([<fluid:uranium235_hexafluoride>*25])
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
