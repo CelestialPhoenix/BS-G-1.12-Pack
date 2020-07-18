@@ -224,6 +224,23 @@ alloysmelter
     .EUt(600)
     .buildAndRegister();
 
+#Calithorium Alloy Thorium Enrichment
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotThorium>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotCalithorium>.firstItem*1)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustThorium>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotCalithorium>.firstItem*1)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
 #-Railcraft-
 #Glass (leaded)
 alloysmelter
