@@ -610,4 +610,14 @@ ChemReactor
     .EUt(768)
     .buildAndRegister();
 
-
+#---Uranium Enrichment Processing---
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustUraniumDioxide>*1)
+    .fluidInputs(<liquid:hydrofluoric_acid>*4000)
+    .fluidInputs(<liquid:fluorine>*2000)
+	.fluidOutputs(<liquid:uranium_hexafluoride>*1000)
+	.fluidOutputs(<liquid:water>*3000)
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
