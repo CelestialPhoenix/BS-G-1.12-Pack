@@ -163,6 +163,7 @@ material.uranium_dioxide=Uranium Dioxide
 material.uranium_hexafluoride=Uranium Hexafluoride
 material.uranium235_hexafluoride=Uranium-235 Hexafluoride
 material.uranium238_hexafluoride=Uranium-238 Hexafluoride
+material.californium252=Californium 252
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
