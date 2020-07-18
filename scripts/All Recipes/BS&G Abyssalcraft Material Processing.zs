@@ -196,9 +196,9 @@ mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag(
 #--Nuclear--
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium_hexafluoride", Amount: 1000}}), <materialpart:uranium_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
-mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium238_hexafluoride", Amount: 1000}}), <materialpart:uranium238_hexafluoride:clathrate>.firstItem*10, <metaitem:fluid_cell>, 0.0);
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium238_hexafluoride", Amount: 1000}}), <materialpart:uranium238_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
-mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium235_hexafluoride", Amount: 1000}}), <materialpart:uranium235_hexafluoride:clathrate>.firstItem*10, <metaitem:fluid_cell>, 0.0);
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium235_hexafluoride", Amount: 1000}}), <materialpart:uranium235_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
 #--Petrochem--
 #Bitumen
