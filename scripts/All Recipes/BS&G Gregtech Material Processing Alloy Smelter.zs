@@ -237,7 +237,23 @@ alloysmelter
     .recipeBuilder()
     .inputs(<ore:dustThorium>*1, <ore:ingotCalifornium252>*1)
     .outputs(<ore:ingotCalithorium>.firstItem*1)
-    .duration(200)
+    .duration(180)
+    .EUt(120)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotThorium>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotCalithorium>.firstItem*1)
+    .duration(180)
+    .EUt(120)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustThorium>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotCalithorium>.firstItem*1)
+    .duration(160)
     .EUt(120)
     .buildAndRegister();
 
