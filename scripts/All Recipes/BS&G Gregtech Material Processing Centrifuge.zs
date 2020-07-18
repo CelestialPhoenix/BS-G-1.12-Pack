@@ -85,7 +85,6 @@ centrifuge
     .buildAndRegister();
 
 #---Nuclearcraft---
-
 centrifuge
     .recipeBuilder()
     .outputs(<ore:dustIron>.firstItem)
@@ -361,5 +360,14 @@ centrifuge
 	.fluidInputs([<fluid:cryotheum_nak>*144])
     .duration(10)
     .EUt(256)
+    .buildAndRegister();
+
+#Uranium Dioxide (from uraninite)
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustUraninite>)
+    .outputs(<ore:dustUraniumDioxide>.firstItem)
+    .duration(10)
+    .EUt(5)
     .buildAndRegister();
 
