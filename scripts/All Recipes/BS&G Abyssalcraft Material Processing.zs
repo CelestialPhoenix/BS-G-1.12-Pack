@@ -512,3 +512,6 @@ game.setLocalization("ingotFuelHEVy327.desc", "Lc'T fuels burn 4x hotter than th
 
 #Thorium Enrichment Processing
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotcalithorium>, <contenttweaker:ingotcalithoriumaby>, 0);
+
+#Uranium Enrichment Processing
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:uranium_hexafluoride_clathrate>, <contenttweaker:uranium238_hexafluoride_clathrate>, 0);
