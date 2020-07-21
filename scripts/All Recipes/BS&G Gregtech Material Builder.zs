@@ -713,3 +713,6 @@ MaterialRegistry.createFluidMaterial(769, "uranium235_hexafluoride", 0xEEFFEE, "
 MaterialRegistry.createFluidMaterial(770, "uranium238_hexafluoride", 0xDDFFDD, "fluid", null);
 
 val dustCalifornium252 = MaterialRegistry.createDustMaterial(771, "californium_252", 0x552222, "dull", 1, null);
+
+val ingotNaquadah314 = MaterialRegistry.createIngotMaterial(772, "naquadah_314", 0x282828, "shiny", 6, null, 0.0, 0.0, 0, 5400);
+val ingotNaquadah319 = MaterialRegistry.createIngotMaterial(773, "naquadah_319", 0x282828, "shiny", 6, null, 0.0, 0.0, 0, 5400);
