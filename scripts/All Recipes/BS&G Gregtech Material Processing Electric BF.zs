@@ -529,6 +529,48 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
+#Naquadah-314
+//electricBF.findRecipe(120, [<ore:dustNaquadah314>.firstItem], null).remove();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah314>.firstItem)
+	.fluidInputs([<liquid:pyrotheum> * 16000])
+    .outputs(<ore:ingotHotNaquadah314>.firstItem)
+	.property("temperature", 5400)
+    .duration(8000)
+    .EUt(480)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah314>.firstItem)
+    .outputs(<ore:ingotHotNaquadah314>.firstItem)
+	.property("temperature", 5400)
+    .duration(32000)
+    .EUt(120)
+    .buildAndRegister();
+
+#Naquadah-319
+//electricBF.findRecipe(120, [<ore:dustNaquadah319>.firstItem], null).remove();
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah319>.firstItem)
+	.fluidInputs([<liquid:pyrotheum> * 16000])
+    .outputs(<ore:ingotHotNaquadah319>.firstItem)
+	.property("temperature", 5400)
+    .duration(8000)
+    .EUt(480)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah319>.firstItem)
+    .outputs(<ore:ingotHotNaquadah319>.firstItem)
+	.property("temperature", 5400)
+    .duration(32000)
+    .EUt(120)
+    .buildAndRegister();
+
 #Erbium
 electricBF.findRecipe(120, [<ore:dustErbium>.firstItem], null).remove();
 electricBF
