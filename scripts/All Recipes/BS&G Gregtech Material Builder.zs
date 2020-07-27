@@ -716,3 +716,40 @@ val dustCalifornium252 = MaterialRegistry.createDustMaterial(771, "californium_2
 
 val ingotNaquadah314 = MaterialRegistry.createIngotMaterial(772, "naquadah_314", 0x282828, "shiny", 6, null, 0.0, 0.0, 0, 5400);
 val ingotNaquadah319 = MaterialRegistry.createIngotMaterial(773, "naquadah_319", 0x282828, "shiny", 6, null, 0.0, 0.0, 0, 5400);
+
+val dustAntimonyTrioxide = MaterialRegistry.createDustMaterial(774, "antimony_trioxide", 0xFFFFFF, "dull", 1, [<material:antimony>*2, <material:oxygen>*3]);
+val dustAntimonyTrifluoride = MaterialRegistry.createDustMaterial(775, "antimony_trifluoride", 0xFFFFFF, "dull", 1, [<material:antimony>*1, <material:fluorine>*3]);
+
+MaterialRegistry.createFluidMaterial(776, "antimony_pentafluoride", 0xDDDDDD, "fluid", [<material:antimony>*1, <material:fluorine>*5]);
+
+MaterialRegistry.createFluidMaterial(777, "fluoroantimonic_acid", 0xEEEEEE, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:antimony>*1, <material:fluorine>*6]);
+
+val fluidFluronaquadraicAcid = MaterialRegistry.createFluidMaterial(778, "fluoronaquadraic_acid", 0x050505, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:naquadah>*1, <material:fluorine>*3]);
+fluidFluronaquadraicAcid.addFlags("DISABLE_DECOMPOSITION");
+
+val fluidEnrichedFluronaquadraicAcid = MaterialRegistry.createFluidMaterial(779, "enriched_fluoronaquadraic_acid", 0x050505, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:naquadah>*1, <material:fluorine>*3]);
+fluidEnrichedFluronaquadraicAcid.addFlags("DISABLE_DECOMPOSITION");
+
+val fluidFluronaquadraic312Acid = MaterialRegistry.createFluidMaterial(780, "fluoronaquadraic312_acid", 0x050505, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:naquadah>*1, <material:fluorine>*3]);
+fluidFluronaquadraic312Acid.addFlags("DISABLE_DECOMPOSITION");
+
+val fluidFluronaquadraic314Acid = MaterialRegistry.createFluidMaterial(781, "fluoronaquadraic314_acid", 0x050505, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:naquadah>*1, <material:fluorine>*3]);
+fluidFluronaquadraic314Acid.addFlags("DISABLE_DECOMPOSITION");
+
+val fluidFluronaquadraic319Acid = MaterialRegistry.createFluidMaterial(782, "fluoronaquadraic319_acid", 0x050505, "fluid", [<material:hydrogen>*2, <material:fluorine>*1, <material:naquadah>*1, <material:fluorine>*3]);
+fluidFluronaquadraic319Acid.addFlags("DISABLE_DECOMPOSITION");
+
+val dustNaquadah312Difluoride = MaterialRegistry.createDustMaterial(783, "naquadah312_difluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
+dustNaquadah312Difluoride.addFlags("DISABLE_DECOMPOSITION");
+
+val dustNaquadah314Difluoride = MaterialRegistry.createDustMaterial(784, "naquadah314_difluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
+dustNaquadah314Difluoride.addFlags("DISABLE_DECOMPOSITION");
+
+val dustNaquadah319Difluoride = MaterialRegistry.createDustMaterial(785, "naquadah319_fifluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
+dustNaquadah319Difluoride.addFlags("DISABLE_DECOMPOSITION");
+
+val dustIndiumTrifluoride = MaterialRegistry.createDustMaterial(786, "indium_trifluoride", 0xEEEEEE, "dull", 1, [<material:indium>*1, <material:fluorine>*3]);
+dustIndiumTrifluoride.addFlags("DISABLE_DECOMPOSITION");
+
+val dustIndiumTrioxide = MaterialRegistry.createDustMaterial(787, "indium_trioxide", 0xAAFF22, "dull", 1, [<material:indium>*2, <material:oxygen>*3]);
+dustIndiumTrioxide.addFlags("DISABLE_DECOMPOSITION");

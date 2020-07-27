@@ -164,6 +164,23 @@ material.uranium_hexafluoride=Uranium Hexafluoride
 material.uranium235_hexafluoride=Uranium-235 Hexafluoride
 material.uranium238_hexafluoride=Uranium-238 Hexafluoride
 material.californium252=Californium 252
+material.naquadah_314=Naquadah-314
+material.naquadah_319=Naquadah-319
+
+material.antimony_trioxide=Antimony Trioxide
+material.antimony_trifluoride=Antimony Trifluoride
+material.antimony_pentafluoride=Antimony Pentafluoride
+material.fluoroantimonic_acid=Fluoroantimonic Acid
+material.fluoronaquadraic_acid=Fluoronaquadraic Acid
+material.enriched_fluoronaquadraic_acid=Enriched Fluoronaquadraic Acid
+material.fluoronaquadraic312_acid=Fluoronaquadraic-312 Acid
+material.fluoronaquadraic314_acid=Fluoronaquadraic-314 Acid
+material.fluoronaquadraic319_acid=Fluoronaquadraic-319 Acid
+material.naquadah312_difluoride=Naquadah-312 Difluoride
+material.naquadah314_difluoride=Naquadah-314 Difluoride
+material.naquadah319_difluoride=Naquadah-319 Difluoride
+material.indium_trifluoride=Indium Trifluoride
+material.indium_trioxide=Indium Trioxide
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
@@ -173,6 +190,7 @@ material.sulfur=Sulphur
 material.uranium=Uranium
 material.tungstate=[Li]-Tungstate
 material.vanadium_magnetite=[V]-Magnetite
+material.naquadah=Naquadah-312
 
 #Cupronickel/Constantan
 metaitem.credit.cupronickel.name=Constantan Credit

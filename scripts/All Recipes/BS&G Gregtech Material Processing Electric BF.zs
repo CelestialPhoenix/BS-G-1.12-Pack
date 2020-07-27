@@ -400,6 +400,105 @@ electricBF
     .EUt(120)
     .buildAndRegister();
 
+#--Naquadah Extraction Processing--
+#Antimony Trioxide
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustAntimony>.firstItem*2)
+	.fluidInputs([<liquid:oxygen> * 3000])
+    .outputs(<ore:dustUraniumDioxide>.firstItem)
+	.property("temperature", 1400)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustAntimony>.firstItem*2)
+	.fluidInputs([<liquid:aerotheum> * 750])
+    .outputs(<ore:dustUraniumDioxide>.firstItem)
+	.property("temperature", 1400)
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+#Indium Recycling
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustIndiumTrioxide>*2, <ore:dustCarbon>*3, <ore:dustMagicCatalyst>)
+	.fluidOutputs([<liquid:carbon_dioxide> * 3000])
+    .outputs(<ore:ingotIndium>.firstItem*4)
+	.property("temperature", 1400)
+    .duration(600)
+    .EUt(500)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustIndiumTrioxide>*2, <ore:dustCarbon>*3)
+	.fluidOutputs([<liquid:carbon_dioxide> * 3000])
+    .outputs(<ore:ingotIndium>.firstItem*4)
+	.property("temperature", 1400)
+    .duration(1200)
+    .EUt(1000)
+    .buildAndRegister();
+
+#Naquadah-312 Difluoride
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah312Difluoride>*3, <ore:dustIndium>*2, <ore:dustMagicCatalyst>)
+    .outputs(<ore:ingotHotNaquadah312>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(8000)
+    .EUt(100)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah312Difluoride>*3, <ore:dustIndium>*2)
+    .outputs(<ore:ingotHotNaquadah312>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(32000)
+    .EUt(4000)
+    .buildAndRegister();
+
+#Naquadah-314 Difluoride
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah314Difluoride>*3, <ore:dustIndium>*2, <ore:dustMagicCatalyst>)
+    .outputs(<ore:ingotHotNaquadah314>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(8000)
+    .EUt(100)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah314Difluoride>*3, <ore:dustIndium>*2)
+    .outputs(<ore:ingotHotNaquadah314>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(32000)
+    .EUt(4000)
+    .buildAndRegister();
+
+#Naquadah-319 Difluoride
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah319Difluoride>*3, <ore:dustIndium>*2, <ore:dustMagicCatalyst>)
+    .outputs(<ore:ingotHotNaquadah319>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(8000)
+    .EUt(100)
+    .buildAndRegister();
+
+electricBF
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah319Difluoride>*3, <ore:dustIndium>*2)
+    .outputs(<ore:ingotHotNaquadah319>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+	.property("temperature", 5400)
+    .duration(32000)
+    .EUt(4000)
+    .buildAndRegister();
 
 #---Dusts---
 

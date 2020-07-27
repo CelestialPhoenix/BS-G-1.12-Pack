@@ -610,6 +610,57 @@ ChemReactor
     .EUt(768)
     .buildAndRegister();
 
+#---Naquadah Extraction Processing---
+#Fluroantimonic Acid
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustAntimonyTrioxide>*1)
+    .fluidInputs(<liquid:hydrofluoric_acid>*6000)
+	.outputs(<ore:dustAntimonyTrifluoride>*1)
+	.fluidOutputs(<liquid:water>*3000)
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustAntimonyTrifluoride>*1)
+    .fluidInputs(<liquid:fluorine>*2000)
+	.fluidOutputs(<liquid:antimony_pentafluoride>*1000)
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+    .fluidInputs(<liquid:antimony_pentafluoride>*1000)
+    .fluidInputs(<liquid:hydrofluoric_acid>*2000)
+	.fluidOutputs(<liquid:fluorantimonic_acid>*1000)
+    .duration(300)
+    .EUt(600)
+    .buildAndRegister();
+
+#Fluronaquadriac Acid Prep
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustNaquadria>*1)
+	.fluidInputs(<liquid:antimony_pentafluoride>*1000)
+	.fluidOutputs(<liquid:fluoronaquadraic_acid>*1000)
+	.outputs(<ore:dustAntimonyTrifluoride>.firstItem*1)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+ChemReactor
+    .recipeBuilder()
+	.inputs(<ore:dustNaquadahEnriched>*1)
+	.fluidInputs(<liquid:antimony_pentafluoride>*1000)
+	.fluidOutputs(<liquid:enriched_fluoronaquadraic_acid>*1000)
+	.outputs(<ore:dustAntimonyTrifluoride>.firstItem*1)
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
 #---Uranium Enrichment Processing---
 ChemReactor
     .recipeBuilder()
