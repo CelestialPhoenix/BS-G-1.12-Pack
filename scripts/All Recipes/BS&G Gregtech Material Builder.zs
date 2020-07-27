@@ -745,7 +745,7 @@ dustNaquadah312Difluoride.addFlags("DISABLE_DECOMPOSITION");
 val dustNaquadah314Difluoride = MaterialRegistry.createDustMaterial(784, "naquadah314_difluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
 dustNaquadah314Difluoride.addFlags("DISABLE_DECOMPOSITION");
 
-val dustNaquadah319Difluoride = MaterialRegistry.createDustMaterial(785, "naquadah319_fifluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
+val dustNaquadah319Difluoride = MaterialRegistry.createDustMaterial(785, "naquadah319_difluoride", 0x777722, "shiny", 1, [<material:naquadah>*1, <material:fluorine>*2]);
 dustNaquadah319Difluoride.addFlags("DISABLE_DECOMPOSITION");
 
 val dustIndiumTrifluoride = MaterialRegistry.createDustMaterial(786, "indium_trifluoride", 0xEEEEEE, "dull", 1, [<material:indium>*1, <material:fluorine>*3]);
@@ -754,5 +754,5 @@ dustIndiumTrifluoride.addFlags("DISABLE_DECOMPOSITION");
 val dustIndiumTrioxide = MaterialRegistry.createDustMaterial(787, "indium_trioxide", 0xAAFF22, "dull", 1, [<material:indium>*2, <material:oxygen>*3]);
 dustIndiumTrioxide.addFlags("DISABLE_DECOMPOSITION");
 
-val fluidIndiumTrioxideSuspension = MaterialRegistry.createFluidMaterial(788, "indium_trifluoride_suspension", 0xFF8833, "fluid", [<material:indium_trioxide>*1, <material:hydroflouric_acid>*3, <material:nitrogen>*2, <material:oxygen>*6]);
+val fluidIndiumTrioxideSuspension = MaterialRegistry.createFluidMaterial(788, "indium_trifluoride_suspension", 0xFF8833, "fluid", [<material:indium_trioxide>*1, <material:hydrofluoric_acid>*3, <material:nitrogen>*2, <material:oxygen>*6]);
 fluidIndiumTrioxideSuspension.addFlags("DECOMPOSITION_BY_CENTRIFUGING");

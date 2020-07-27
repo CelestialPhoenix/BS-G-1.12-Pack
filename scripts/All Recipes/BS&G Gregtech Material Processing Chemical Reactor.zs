@@ -634,7 +634,7 @@ ChemReactor
     .recipeBuilder()
     .fluidInputs(<liquid:antimony_pentafluoride>*1000)
     .fluidInputs(<liquid:hydrofluoric_acid>*2000)
-	.fluidOutputs(<liquid:fluorantimonic_acid>*1000)
+	.fluidOutputs(<liquid:fluoroantimonic_acid>*1000)
     .duration(300)
     .EUt(600)
     .buildAndRegister();
@@ -643,7 +643,7 @@ ChemReactor
 ChemReactor
     .recipeBuilder()
 	.inputs(<ore:dustNaquadria>*1)
-	.fluidInputs(<liquid:antimony_pentafluoride>*1000)
+	.fluidInputs(<liquid:fluoroantimonic_acid>*1000)
 	.fluidOutputs(<liquid:fluoronaquadraic_acid>*1000)
 	.outputs(<ore:dustAntimonyTrifluoride>.firstItem*1)
     .duration(600)

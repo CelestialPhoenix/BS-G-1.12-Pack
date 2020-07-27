@@ -447,7 +447,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustNaquadah312Difluoride>*3, <ore:dustIndium>*2, <ore:dustMagicCatalyst>)
-    .outputs(<ore:ingotHotNaquadah312>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+    .outputs(<ore:ingotHotNaquadah>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
 	.property("temperature", 5400)
     .duration(8000)
     .EUt(100)
@@ -456,7 +456,7 @@ electricBF
 electricBF
     .recipeBuilder()
     .inputs(<ore:dustNaquadah312Difluoride>*3, <ore:dustIndium>*2)
-    .outputs(<ore:ingotHotNaquadah312>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
+    .outputs(<ore:ingotHotNaquadah>.firstItem*3, <ore:dustIndiumTrifluoride>.firstItem*2)
 	.property("temperature", 5400)
     .duration(32000)
     .EUt(4000)
