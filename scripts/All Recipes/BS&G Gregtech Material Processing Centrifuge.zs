@@ -362,6 +362,28 @@ centrifuge
     .EUt(256)
     .buildAndRegister();
 
+#Naquadah Isotope Extraction
+centrifuge
+    .recipeBuilder()
+	.fluidInputs([<fluid:fluoronaquadraic_acid>*100])
+	.fluidOutputs([<fluid:fluoronaquadraic312_acid>*70])
+	.fluidOutputs([<fluid:fluoronaquadraic314_acid>*25])
+	.fluidOutputs([<fluid:fluoronaquadraic319_acid>*5])
+    .duration(300)
+    .EUt(1000)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.fluidInputs([<fluid:enriched_fluoronaquadraic_acid>*100])
+	.fluidOutputs([<fluid:fluoronaquadraic312_acid>*60])
+	.fluidOutputs([<fluid:fluoronaquadraic314_acid>*15])
+	.fluidOutputs([<fluid:fluoronaquadraic319_acid>*25])
+    .duration(300)
+    .EUt(1000)
+    .buildAndRegister();
+
+
 #Thorium Enrichment Processing
 centrifuge
     .recipeBuilder()

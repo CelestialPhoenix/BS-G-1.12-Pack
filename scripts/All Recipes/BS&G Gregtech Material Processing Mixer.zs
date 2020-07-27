@@ -567,7 +567,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:iron_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -576,7 +576,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:redstone_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -585,7 +585,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:quartz_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -594,7 +594,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:quartz_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -603,7 +603,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:obsidian_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -612,7 +612,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:nether_brick_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -621,7 +621,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:glowstone_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -630,7 +630,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -639,7 +639,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -648,7 +648,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lapis_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -657,7 +657,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:gold_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -666,7 +666,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:prismarine_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -675,7 +675,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:slime_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -684,7 +684,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:end_stone_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -693,7 +693,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:purpur_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -702,7 +702,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:diamond_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -711,7 +711,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:emerald_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -720,7 +720,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:copper_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -729,7 +729,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:tin_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -738,7 +738,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lead_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -747,7 +747,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:boron_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -756,7 +756,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:lithium_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -765,7 +765,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:magnesium_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -774,7 +774,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:manganese_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -783,7 +783,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:aluminum_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -792,7 +792,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:silver_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -801,7 +801,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:fluorite_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -810,7 +810,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:villiaumite_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -819,7 +819,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:carobbiite_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -828,7 +828,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:arsenic_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -836,7 +836,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144, <fluid:liquid_nitrogen>*100])
 	.fluidOutputs([<fluid:liquid_nitrogen_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -844,7 +844,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144, <fluid:liquid_helium>*100])
 	.fluidOutputs([<fluid:liquid_helium_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -853,7 +853,7 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:enderium_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
 mixer
@@ -862,9 +862,21 @@ mixer
 	.fluidInputs([<fluid:nak>*144])
 	.fluidOutputs([<fluid:cryotheum_nak>*144])
     .duration(100)
-    .EUt(256)
+    .EUt(250)
     .buildAndRegister();
 
+#Naquadah Process Indium Recovery
+mixer
+    .recipeBuilder()
+    .inputs(<ore:dustIndiumTrifluoride>)
+	.fluidInputs([<fluid:nitric_acid>*3000])
+	.fluidOutputs([<fluid:indium_trifluoride_suspension>*144])
+    .duration(100)
+    .EUt(250)
+    .buildAndRegister();
+
+
+#--Materials--
 #Gunpowder
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCoal>.firstItem], null).remove();
 mixer.findRecipe(8, [<ore:dustSaltpeter>.firstItem*2, <ore:dustSulfur>.firstItem, <ore:dustCharcoal>.firstItem], null).remove();

@@ -219,6 +219,34 @@ electrolyzer
     .EUt(60)
     .buildAndRegister();
 
+#Naquadah Isotope Extraction
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:fluoronaquadraic312_acid>*1000])
+	.fluidOutputs([<liquid:hydrofluoric_acid>*2000])
+	.outputs([<ore:dustNaquadah312Difluoride>.firstItem*1])
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:fluoronaquadraic314_acid>*1000])
+	.fluidOutputs([<liquid:hydrofluoric_acid>*2000])
+	.outputs([<ore:dustNaquadah314Difluoride>.firstItem*1])
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
+electrolyzer
+    .recipeBuilder()
+	.fluidInputs([<fluid:fluoronaquadraic319_acid>*1000])
+	.fluidOutputs([<liquid:hydrofluoric_acid>*2000])
+	.outputs([<ore:dustNaquadah319Difluoride>.firstItem*1])
+    .duration(600)
+    .EUt(1000)
+    .buildAndRegister();
+
 #Uranium Enrichemnt Processing
 electrolyzer
     .recipeBuilder()

@@ -616,12 +616,11 @@ ChemReactor
     .recipeBuilder()
 	.inputs(<ore:dustAntimonyTrioxide>*1)
     .fluidInputs(<liquid:hydrofluoric_acid>*6000)
-	.outputs(<ore:dustAntimonyTrifluoride>*1)
+	.outputs(<ore:dustAntimonyTrifluoride>.firstItem*1)
 	.fluidOutputs(<liquid:water>*3000)
     .duration(300)
     .EUt(600)
     .buildAndRegister();
-
 ChemReactor
     .recipeBuilder()
 	.inputs(<ore:dustAntimonyTrifluoride>*1)
