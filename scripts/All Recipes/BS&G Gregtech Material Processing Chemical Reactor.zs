@@ -621,6 +621,7 @@ ChemReactor
     .duration(300)
     .EUt(600)
     .buildAndRegister();
+
 ChemReactor
     .recipeBuilder()
 	.inputs(<ore:dustAntimonyTrifluoride>*1)
@@ -653,7 +654,7 @@ ChemReactor
 ChemReactor
     .recipeBuilder()
 	.inputs(<ore:dustNaquadahEnriched>*1)
-	.fluidInputs(<liquid:antimony_pentafluoride>*1000)
+	.fluidInputs(<liquid:fluoroantimonic_acid>*1000)
 	.fluidOutputs(<liquid:enriched_fluoronaquadraic_acid>*1000)
 	.outputs(<ore:dustAntimonyTrifluoride>.firstItem*1)
     .duration(600)
