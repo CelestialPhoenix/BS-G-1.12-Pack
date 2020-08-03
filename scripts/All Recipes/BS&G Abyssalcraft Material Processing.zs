@@ -521,8 +521,8 @@ game.setLocalization("ingotFuelHEVy324.desc", "Lc'T fuels burn 4x hotter than th
 game.setLocalization("ingotFuelHEVy327.desc", "Lc'T fuels burn 4x hotter than their Zirconium counterparts, making them the most efficient reactor fuels.");
 
 #Naquadah Enrichment Processing
-mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:fluoronaquadraic_acid>, <contenttweaker:fluoronaquadraic312_acid>, 0);
-mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:enriched_fluoronaquadraic_acid>, <contenttweaker:fluoronaquadraic312_acid>, 0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:fluoronaquadraic_acid_clathrate>, <contenttweaker:fluoronaquadraic312_acid_clathrate>, 0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:enriched_fluoronaquadraic_acid_clathrate>, <contenttweaker:fluoronaquadraic312_acid_clathrate>, 0);
 
 mods.abyssalcraft.InfusionRitual.addRitual("enrichNq314", 3, 1, 5000, true, <ore:clathrateFluronaquadraic314AcidClathrate>.firstItem, <ore:clathrateFluronaquadraicAcidClathrate>, [<ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>], false);
 game.setLocalization("enrichNq314", "Naquadah Fuel Enrichment Ritual.");
