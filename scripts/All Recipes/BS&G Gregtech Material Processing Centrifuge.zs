@@ -362,6 +362,15 @@ centrifuge
     .EUt(256)
     .buildAndRegister();
 
+#Antimony Trioxide (from Antimonate)
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustAntimonate>)
+    .outputs(<ore:dustAntimonyTrioxide>.firstItem)
+    .duration(10)
+    .EUt(5)
+    .buildAndRegister();
+
 #Naquadah Isotope Extraction
 centrifuge
     .recipeBuilder()
