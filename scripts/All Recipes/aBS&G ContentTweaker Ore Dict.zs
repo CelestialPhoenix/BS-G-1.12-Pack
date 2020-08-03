@@ -183,6 +183,14 @@ print("Tweak Tweak Tweak Tweak");
 <ore:dustCalithoriumAby>.add(<contenttweaker:dustcalithoriumaby>);
 <ore:dustCalithoriumBot>.add(<contenttweaker:dustcalithoriumbot>);
 <ore:dustCalithoriumThaum>.add(<contenttweaker:dustcalithoriumthaum>);
+
+<ore:dustNaquforniaAby>.add(<contenttweaker:dustnaquforniaaby>);
+<ore:dustNaquforniaBot>.add(<contenttweaker:dustnaquforniabot>);
+<ore:dustNaquforniaThaum>.add(<contenttweaker:dustnaquforniathaum>);
+<ore:dustNaquforniumAby>.add(<contenttweaker:dustnaquforniumaby>);
+<ore:dustNaquforniumBot>.add(<contenttweaker:dustnaquforniumbot>);
+<ore:dustNaquforniumThaum>.add(<contenttweaker:dustnaquforniumthaum>);
+
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
 <ore:dustTBU>.add(<contenttweaker:dusttbu>);
@@ -219,6 +227,8 @@ print("Tweak Tweak Tweak Tweak");
 #---Ingots---
 #<ore:ingot>.add(<contenttweaker:ingot>);
 <ore:ingotCalithorium>.add(<contenttweaker:ingotcalithorium>);
+<ore:ingotNaqufornia>.add(<contenttweaker:ingotnaqufornia>);
+<ore:ingotNaqufornium>.add(<contenttweaker:ingotnaqufornium>);
 
 #Isotopes
 <ore:ingotNaquadah>.add(<contenttweaker:ingotnq312>);
