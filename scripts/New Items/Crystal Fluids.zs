@@ -22,7 +22,6 @@ var toxic = MaterialSystem.getMaterialBuilder().setName("Toxic").setColor(0x4400
 var UF6 = MaterialSystem.getMaterialBuilder().setName("Uranium Hexafluoride").setColor(0xEEFFEE).build();
 var UF6235 = MaterialSystem.getMaterialBuilder().setName("Uranium235 Hexafluoride").setColor(0xEEFFEE).build();
 var UF6238 = MaterialSystem.getMaterialBuilder().setName("Uranium238 Hexafluoride").setColor(0xDDFFDD).build();
-
 var NQH = MaterialSystem.getMaterialBuilder().setName("Fluronaquadraic Acid").setColor(0x777722).build();
 var ENQH = MaterialSystem.getMaterialBuilder().setName("Enriched Fluronaquadraic Acid").setColor(0x777722).build();
 var NQ312 = MaterialSystem.getMaterialBuilder().setName("Fluronaquadraic312 Acid").setColor(0x777722).build();
