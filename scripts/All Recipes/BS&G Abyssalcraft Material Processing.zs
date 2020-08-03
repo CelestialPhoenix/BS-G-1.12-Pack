@@ -194,6 +194,16 @@ mods.abyssalcraft.Crystallizer.removeCrystallization(<minecraft:bone>);
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}), <materialpart:antimatter:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
 #--Nuclear--
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "fluoronaquadraic_acid", Amount: 1000}}), <materialpart:fluoronaquadraic_acid:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "enriched_fluoronaquadraic_acid", Amount: 1000}}), <materialpart:enriched_fluoronaquadraic_acid:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "fluoronaquadraic312_acid", Amount: 1000}}), <materialpart:fluoronaquadraic312_acid:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "fluoronaquadraic314_acid", Amount: 1000}}), <materialpart:fluoronaquadraic314_acid:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
+mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "fluoronaquadraic319_acid", Amount: 1000}}), <materialpart:fluoronaquadraic319_acid:clathrate>*10, <metaitem:fluid_cell>, 0.0);
+
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium_hexafluoride", Amount: 1000}}), <materialpart:uranium_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "uranium238_hexafluoride", Amount: 1000}}), <materialpart:uranium238_hexafluoride:clathrate>*10, <metaitem:fluid_cell>, 0.0);
