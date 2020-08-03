@@ -67,6 +67,46 @@ FluidExtractor
     .EUt(24)
     .buildAndRegister();
 
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateFluoronaquadraicAcid>*1)
+	.fluidOutputs([<liquid:fluoronaquadraic_acid>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateEnrichedFluoronaquadraicAcid>*1)
+	.fluidOutputs([<liquid:enriched_fluoronaquadraic_acid>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateFluoronaquadraic312Acid>*1)
+	.fluidOutputs([<liquid:fluoronaquadraic312_acid>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateFluoronaquadraic314Acid>*1)
+	.fluidOutputs([<liquid:fluoronaquadraic314_acid>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
+FluidExtractor
+    .recipeBuilder()
+    .inputs(<ore:clathrateFluoronaquadraic319Acid>*1)
+	.fluidOutputs([<liquid:fluoronaquadraic319_acid>*100])
+    .duration(100)
+    .EUt(24)
+    .buildAndRegister();
+
 #-Glue-
 FluidExtractor
     .recipeBuilder()
