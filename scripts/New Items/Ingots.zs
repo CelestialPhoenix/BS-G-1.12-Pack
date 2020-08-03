@@ -10,3 +10,9 @@ import mods.contenttweaker.Commands;
 
 var ingotCalithorium = VanillaFactory.createItem("ingotcalithorium");
 ingotCalithorium.register();
+
+var ingotNaqufornia = VanillaFactory.createItem("ingotnaqufornia");
+ingotNaqufornia.register();
+
+var ingotNaqufornium = VanillaFactory.createItem("ingotnaqufornium");
+ingotNaqufornium.register();
