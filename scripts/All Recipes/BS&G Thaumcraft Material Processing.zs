@@ -293,6 +293,11 @@ mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq314", "METALLURGY@1", <ore
 
 mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq319", "METALLURGY@1", <ore:clathrateFluoronaquadraic319Acid>.firstItem, <ore:clathrateEnrichedFluoronaquadraicAcid>, [<aspect:potentia>*64, <aspect:permutatio>*64, <aspect:alienis>*64, <aspect:tenebrae>*64, <aspect:auram>*64, <aspect:mortuus>*64]);
 
+#Naquadah Enrichment Processing
+mods.thaumcraft.Crucible.registerRecipe("enrichNqd", "METALLURGY@1", <ore:dustNaquforniumThaum>.firstItem, <ore:ingotNaqufornium>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
+
+mods.thaumcraft.Crucible.registerRecipe("enrichNqa", "METALLURGY@1", <ore:dustNaquforniaThaum>.firstItem, <ore:ingotNaqufornia>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
+
 #Thorium Enrichment Processing
 mods.thaumcraft.Crucible.registerRecipe("enrichTBU", "METALLURGY@1", <ore:dustCalithoriumThaum>.firstItem, <ore:ingotCalithorium>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
 

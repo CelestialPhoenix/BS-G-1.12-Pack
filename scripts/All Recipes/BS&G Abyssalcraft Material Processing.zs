@@ -532,6 +532,10 @@ mods.abyssalcraft.InfusionRitual.addRitual("enrichNq319", 3, 1, 5000, true, <ore
 game.setLocalization("enrichNq319", "Naquadah Fuel Enrichment Ritual.");
 game.setLocalization("enrichNq319.desc", "...");
 
+#Naquadah Enrichment Processing
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotnaqufornia>, <contenttweaker:dustnaquforniaaby>, 0);
+mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotnaqufornium>, <contenttweaker:dustnaquforniumaby>, 0);
+
 #Thorium Enrichment Processing
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotcalithorium>, <contenttweaker:dustcalithoriumaby>, 0);
 
