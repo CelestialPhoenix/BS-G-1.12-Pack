@@ -181,6 +181,7 @@ material.naquadah314_difluoride=Naquadah-314 Difluoride
 material.naquadah319_difluoride=Naquadah-319 Difluoride
 material.indium_trifluoride=Indium Trifluoride
 material.indium_trioxide=Indium Trioxide
+material.indium_trifluoride_suspension=Suspension of Indium Trioxide in Hydrofluoric Acid.
 
 //---Renamed Gtech Materials---//
 material.coal=Anthracite
