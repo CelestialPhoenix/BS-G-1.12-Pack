@@ -13,7 +13,7 @@ import mods.contenttweaker.Part;
 
 #Alchemy
 var antimatter = MaterialSystem.getMaterialBuilder().setName("Antimatter").setColor(0xCCCCCC).build();
-var refined_antimatter = MaterialSystem.getMaterialBuilder().setName("RefinedAntimatter").setColor(0xEEEEEE).build();
+var refined_antimatter = MaterialSystem.getMaterialBuilder().setName("Refined Antimatter").setColor(0xEEEEEE).build();
 var luck = MaterialSystem.getMaterialBuilder().setName("Luck").setColor(0xFFAAAA).build();
 var magnetic = MaterialSystem.getMaterialBuilder().setName("Magnetic").setColor(0x000000).build();
 var toxic = MaterialSystem.getMaterialBuilder().setName("Toxic").setColor(0x440044).build();
