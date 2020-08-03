@@ -281,17 +281,17 @@ mods.thaumcraft.Crucible.registerRecipe("decayCf252", "METALLURGY@1", <ore:ingot
 
 
 #Naquadah Enrichment Processing
-mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq312", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic312Acid>, [<aspect:potentia>*4, <aspect:permutatio>*4, <aspect:alienis>*4, <aspect:tenebrae>*4, <aspect:auram>*4, <aspect:mortuus>*4]);
+mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq312", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic312Acid>, [<aspect:potentia>*8, <aspect:permutatio>*8, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:mortuus>*8]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq314", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic314Acid>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:alienis>*16, <aspect:tenebrae>*16, <aspect:auram>*16, <aspect:mortuus>*16]);
+mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq314", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic314Acid>, [<aspect:potentia>*32, <aspect:permutatio>*32, <aspect:alienis>*32, <aspect:tenebrae>*32, <aspect:auram>*32, <aspect:mortuus>*32]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq319", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic319Acid>, [<aspect:potentia>*64, <aspect:permutatio>*64, <aspect:alienis>*64, <aspect:tenebrae>*64, <aspect:auram>*64, <aspect:mortuus>*64]);
+mods.thaumcraft.Crucible.registerRecipe("enrichNqh-Nq319", "METALLURGY@1", <ore:clathrateFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic319Acid>, [<aspect:potentia>*80, <aspect:permutatio>*80, <aspect:alienis>*80, <aspect:tenebrae>*80, <aspect:auram>*80, <aspect:mortuus>*80]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq312", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic312Acid>, [<aspect:potentia>*4, <aspect:permutatio>*4, <aspect:alienis>*4, <aspect:tenebrae>*4, <aspect:auram>*4, <aspect:mortuus>*4]);
+mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq312", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic312Acid>, [<aspect:potentia>*8, <aspect:permutatio>*8, <aspect:alienis>*8, <aspect:tenebrae>*8, <aspect:auram>*8, <aspect:mortuus>*8]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq314", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic314Acid>, [<aspect:potentia>*12, <aspect:permutatio>*12, <aspect:alienis>*12, <aspect:tenebrae>*12, <aspect:auram>*12, <aspect:mortuus>*12]);
+mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq314", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic314Acid>, [<aspect:potentia>*24, <aspect:permutatio>*24, <aspect:alienis>*24, <aspect:tenebrae>*24, <aspect:auram>*24, <aspect:mortuus>*24]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq319", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic319Acid>, [<aspect:potentia>*32, <aspect:permutatio>*32, <aspect:alienis>*32, <aspect:tenebrae>*32, <aspect:auram>*32, <aspect:mortuus>*32]);
+mods.thaumcraft.Crucible.registerRecipe("enrichENqd-Nq319", "METALLURGY@1", <ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem, <ore:clathrateFluoronaquadraic319Acid>, [<aspect:potentia>*64, <aspect:permutatio>*64, <aspect:alienis>*64, <aspect:tenebrae>*64, <aspect:auram>*64, <aspect:mortuus>*64]);
 
 #Thorium Enrichment Processing
 mods.thaumcraft.Crucible.registerRecipe("enrichTBU", "METALLURGY@1", <ore:dustCalithoriumThaum>.firstItem, <ore:ingotCalithorium>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
@@ -299,5 +299,5 @@ mods.thaumcraft.Crucible.registerRecipe("enrichTBU", "METALLURGY@1", <ore:dustCa
 #Uranium Enrichment Processing
 mods.thaumcraft.Crucible.registerRecipe("enrichU235", "METALLURGY@1", <ore:clathrateUranium235Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<aspect:potentia>*48, <aspect:permutatio>*48, <aspect:ordo>*48, <aspect:desiderium>*48]);
 
-mods.thaumcraft.Crucible.registerRecipe("enrichU238", "METALLURGY@1", <ore:clathrateUranium238Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<aspect:potentia>*16, <aspect:permutatio>*16, <aspect:ordo>*16, <aspect:alkimia>*16]);
+mods.thaumcraft.Crucible.registerRecipe("enrichU238", "METALLURGY@1", <ore:clathrateUranium238Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<aspect:potentia>*8, <aspect:permutatio>*8, <aspect:ordo>*8, <aspect:alkimia>*8]);
 
