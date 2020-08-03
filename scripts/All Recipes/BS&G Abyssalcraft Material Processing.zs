@@ -524,11 +524,11 @@ game.setLocalization("ingotFuelHEVy327.desc", "Lc'T fuels burn 4x hotter than th
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:fluoronaquadraic_acid>, <contenttweaker:fluoronaquadraic312_acid>, 0);
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:enriched_fluoronaquadraic_acid>, <contenttweaker:fluoronaquadraic312_acid>, 0);
 
-mods.abyssalcraft.InfusionRitual.addRitual("enrichNq314", 3, 1, 5000, true, <ore:clathrateFluronaquadraic314Acid>.firstItem, <ore:clathrateFluronaquadraicAcid>, [<ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("enrichNq314", 3, 1, 5000, true, <ore:clathrateFluronaquadraic314AcidClathrate>.firstItem, <ore:clathrateFluronaquadraicAcidClathrate>, [<ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>], false);
 game.setLocalization("enrichNq314", "Naquadah Fuel Enrichment Ritual.");
 game.setLocalization("enrichNq314.desc", "...");
 
-mods.abyssalcraft.InfusionRitual.addRitual("enrichNq319", 3, 1, 5000, true, <ore:clathrateFluronaquadraic319Acid>.firstItem, <ore:clathrateFluronaquadraicAcid>, [<ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("enrichNq319", 3, 1, 5000, true, <ore:clathrateFluronaquadraic319AcidClathrate>.firstItem, <ore:clathrateFluronaquadraicAcidClathrate>, [<ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>, null, <ore:dustTinyNaquadah>], false);
 game.setLocalization("enrichNq319", "Naquadah Fuel Enrichment Ritual.");
 game.setLocalization("enrichNq319.desc", "...");
 
@@ -538,3 +538,6 @@ mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotcalithorium
 #Uranium Enrichment Processing
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:uranium_hexafluoride_clathrate>, <contenttweaker:uranium238_hexafluoride_clathrate>, 0);
 
+mods.abyssalcraft.InfusionRitual.addRitual("enrichU235", 3, 1, 5000, true, <ore:clathrateUraniumHexafluoride235Clathrate>.firstItem, <ore:clathrateUraniumHexafluorideClathrate>, [<ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>], false);
+game.setLocalization("enrichU235", "Uranium Fuel Enrichment Ritual.");
+game.setLocalization("enrichU235.desc", "...");
