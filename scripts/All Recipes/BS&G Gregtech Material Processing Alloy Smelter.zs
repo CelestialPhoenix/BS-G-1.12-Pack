@@ -257,6 +257,72 @@ alloysmelter
     .EUt(120)
     .buildAndRegister();
 
+#Naqufornium Alloy/Naquadah Enrichment
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotNaquadah>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornium>.firstItem*1)
+    .duration(200)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornium>.firstItem*1)
+    .duration(180)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotNaquadah>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornium>.firstItem*1)
+    .duration(180)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadah>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornium>.firstItem*1)
+    .duration(160)
+    .EUt(240)
+    .buildAndRegister();
+
+#Naqufornia Alloy/Naquadah Enrichment
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotNaquadria>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornia>.firstItem*1)
+    .duration(200)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadra>*1, <ore:ingotCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornia>.firstItem*1)
+    .duration(180)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:ingotNaquadria>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornia>.firstItem*1)
+    .duration(180)
+    .EUt(240)
+    .buildAndRegister();
+
+alloysmelter
+    .recipeBuilder()
+    .inputs(<ore:dustNaquadria>*1, <ore:dustCalifornium252>*1)
+    .outputs(<ore:ingotNaqufornia>.firstItem*1)
+    .duration(160)
+    .EUt(240)
+    .buildAndRegister();
+
 #-Railcraft-
 #Glass (leaded)
 alloysmelter
