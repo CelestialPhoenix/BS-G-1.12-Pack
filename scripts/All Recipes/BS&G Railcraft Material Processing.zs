@@ -600,86 +600,86 @@ RollingMachine.addShaped(<railcraft:rail:4>*32, [
 [<ore:stickTungstenSteel>, <ore:dustPetrotheum>, <ore:stickTungstenSteel>],
 [<ore:stickTungstenSteel>, <ore:dustPetrotheum>, <ore:stickTungstenSteel>]], 600);
 
-#Electric Rail
+#Electric Rail//Redstone Rail
 RollingMachine.remove(<railcraft:rail:5>);
 RollingMachine.addShaped(<railcraft:rail:5>*12, [
 [<ore:stickSteel>, <ore:stickCopper>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickCopper>, <ore:stickSteel>],
+[<ore:stickCopper>, <ore:stickRedAlloy>, <ore:stickCopper>],
 [<ore:stickSteel>, <ore:stickCopper>, <ore:stickSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*14, [
 [<ore:stickSteel>, <ore:stickAnnealedCopper>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickAnnealedCopper>, <ore:stickSteel>],
+[<ore:stickAnnealedCopper>, <ore:stickRedAlloy>, <ore:stickAnnealedCopper>],
 [<ore:stickSteel>, <ore:stickAnnealedCopper>, <ore:stickSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*16, [
 [<ore:stickSteel>, <ore:stickElectrum>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickElectrum>, <ore:stickSteel>],
+[<ore:stickElectrum>, <ore:stickRedAlloy>, <ore:stickElectrum>],
 [<ore:stickSteel>, <ore:stickElectrum>, <ore:stickSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*18, [
 [<ore:stickSteel>, <ore:stickBlueAlloy>, <ore:stickSteel>],
-[<ore:stickSteel>, <ore:stickBlueAlloy>, <ore:stickSteel>],
+[<ore:stickBlueAlloy>, <ore:stickRedAlloy>, <ore:stickBlueAlloy>],
 [<ore:stickSteel>, <ore:stickBlueAlloy>, <ore:stickSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*12, [
 [<ore:stickInvar>, <ore:stickCopper>, <ore:stickInvar>],
-[<ore:stickInvar>, <ore:stickCopper>, <ore:stickInvar>],
+[<ore:stickCopper>, <ore:stickRedAlloy>, <ore:stickCopper>],
 [<ore:stickInvar>, <ore:stickCopper>, <ore:stickInvar>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*14, [
 [<ore:stickInvar>, <ore:stickAnnealedCopper>, <ore:stickInvar>],
-[<ore:stickInvar>, <ore:stickAnnealedCopper>, <ore:stickInvar>],
+[<ore:stickAnnealedCopper>, <ore:stickRedAlloy>, <ore:stickAnnealedCopper>],
 [<ore:stickInvar>, <ore:stickAnnealedCopper>, <ore:stickInvar>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*16, [
 [<ore:stickInvar>, <ore:stickElectrum>, <ore:stickInvar>],
-[<ore:stickInvar>, <ore:stickElectrum>, <ore:stickInvar>],
+[<ore:stickElectrum>, <ore:stickRedAlloy>, <ore:stickElectrum>],
 [<ore:stickInvar>, <ore:stickElectrum>, <ore:stickInvar>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*18, [
 [<ore:stickInvar>, <ore:stickBlueAlloy>, <ore:stickInvar>],
-[<ore:stickInvar>, <ore:stickBlueAlloy>, <ore:stickInvar>],
+[<ore:stickBlueAlloy>, <ore:stickRedAlloy>, <ore:stickBlueAlloy>],
 [<ore:stickInvar>, <ore:stickBlueAlloy>, <ore:stickInvar>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*24, [
 [<ore:stickTitanium>, <ore:stickCopper>, <ore:stickTitanium>],
-[<ore:stickTitanium>, <ore:stickCopper>, <ore:stickTitanium>],
+[<ore:stickCopper>, <ore:stickRedAlloy>, <ore:stickCopper>],
 [<ore:stickTitanium>, <ore:stickCopper>, <ore:stickTitanium>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*26, [
 [<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>],
-[<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>],
+[<ore:stickAnnealedCopper>, <ore:stickRedAlloy>, <ore:stickAnnealedCopper>],
 [<ore:stickTitanium>, <ore:stickAnnealedCopper>, <ore:stickTitanium>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*28, [
 [<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>],
-[<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>],
+[<ore:stickElectrum>, <ore:stickRedAlloy>, <ore:stickElectrum>],
 [<ore:stickTitanium>, <ore:stickElectrum>, <ore:stickTitanium>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*30, [
 [<ore:stickTitanium>, <ore:stickBlueAlloy>, <ore:stickTitanium>],
-[<ore:stickTitanium>, <ore:stickBlueAlloy>, <ore:stickTitanium>],
+[<ore:stickBlueAlloy>, <ore:stickRedAlloy>, <ore:stickBlueAlloy>],
 [<ore:stickTitanium>, <ore:stickBlueAlloy>, <ore:stickTitanium>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*32, [
 [<ore:stickTungstenSteel>, <ore:stickCopper>, <ore:stickTungstenSteel>],
-[<ore:stickTungstenSteel>, <ore:stickCopper>, <ore:stickTungstenSteel>],
+[<ore:stickCopper>, <ore:stickRedAlloy>, <ore:stickCopper>],
 [<ore:stickTungstenSteel>, <ore:stickCopper>, <ore:stickTungstenSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*34, [
 [<ore:stickTungstenSteel>, <ore:stickAnnealedCopper>, <ore:stickTungstenSteel>],
-[<ore:stickTungstenSteel>, <ore:stickAnnealedCopper>, <ore:stickTungstenSteel>],
+[<ore:stickAnnealedCopper>, <ore:stickRedAlloy>, <ore:stickAnnealedCopper>],
 [<ore:stickTungstenSteel>, <ore:stickAnnealedCopper>, <ore:stickTungstenSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*36, [
 [<ore:stickTungstenSteel>, <ore:stickElectrum>, <ore:stickTungstenSteel>],
-[<ore:stickTungstenSteel>, <ore:stickElectrum>, <ore:stickTungstenSteel>],
+[<ore:stickElectrum>, <ore:stickRedAlloy>, <ore:stickElectrum>],
 [<ore:stickTungstenSteel>, <ore:stickElectrum>, <ore:stickTungstenSteel>]], 600);
 
 RollingMachine.addShaped(<railcraft:rail:5>*38, [
 [<ore:stickTungstenSteel>, <ore:stickBlueAlloy>, <ore:stickTungstenSteel>],
-[<ore:stickTungstenSteel>, <ore:stickBlueAlloy>, <ore:stickTungstenSteel>],
+[<ore:stickBlueAlloy>, <ore:stickRedAlloy>, <ore:stickBlueAlloy>],
 [<ore:stickTungstenSteel>, <ore:stickBlueAlloy>, <ore:stickTungstenSteel>]], 600);
 
 #--Rings--

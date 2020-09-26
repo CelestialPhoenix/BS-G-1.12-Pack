@@ -115,6 +115,10 @@ recipes.addShaped(<railcraft:coke_oven_red>*4, [
 recipes.remove(<railcraft:rock_crusher>);
 <railcraft:rock_crusher>.addTooltip("This item is disabled");
 
+#Flux Transformer
+recipes.remove(<railcraft:flux_transformer>);
+<railcraft:flux_transformer>.addTooltip("This item is disabled");
+
 #Rolling machine (manual)
 recipes.remove(<railcraft:equipment:0>);
 <railcraft:equipment:0>.clearTooltip();
