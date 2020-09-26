@@ -95,7 +95,7 @@ recipes.remove(<railcraft:charge_feeder:1>);
 
 recipes.addShaped(<railcraft:charge_feeder:1>*1, [
 [<ore:tubeBronze>, <minecraft:redstone_torch>, <ore:tubeBronze>],
-[<ore:plateBronze>, <minecraft:clock>, <ore:plateBronze>],
+[<ore:coilSimple>, <minecraft:clock>, <ore:coilSimple>],
 [<minecraft:redstone_torch>, <ore:scaffoldingSteel>, <minecraft:redstone_torch>]]);
 
 #Coke Oven

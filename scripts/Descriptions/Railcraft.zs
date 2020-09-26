@@ -3,6 +3,9 @@
 
 #mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"TEST");
 
+#--Locomotives--
+mods.jei.JEI.addDescription([<railcraft:locomotive_electric>],"Locomotive Engine driven off a Redstone Signal.", "Redstone rails provide the necessary signal to power the Locomotive.");
+
 #--Multiblocks--
 
 #Coke oven
