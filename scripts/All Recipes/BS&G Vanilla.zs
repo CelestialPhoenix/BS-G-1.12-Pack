@@ -70,7 +70,7 @@ recipes.remove(<minecraft:slime>);
 <minecraft:log2:1>.displayName="Dark Oak Log";
 
 #Slimeball
-<minecraft:slime_ball>.displayName="Looger";
+<minecraft:slime_ball>.displayName="Slimy Looger";
 
 #Xenolith
 <minecraft:end_stone>.displayName="Xenolith";

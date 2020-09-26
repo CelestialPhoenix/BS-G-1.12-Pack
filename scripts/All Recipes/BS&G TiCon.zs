@@ -11,9 +11,9 @@ print("Is that a nerfbat in your pants or are you happy to see me?");
 
 #---Renaming---
 #Slimeballs
-<tconstruct:edible:1>.displayName="Looger";
-<tconstruct:edible:2>.displayName="Looger";
-<tconstruct:edible:4>.displayName="Looger";
+<tconstruct:edible:1>.displayName="Slimy Looger";
+<tconstruct:edible:2>.displayName="Slimy Looger";
+<tconstruct:edible:4>.displayName="Slimy Looger";
 
 
 #---Disabled Items---
