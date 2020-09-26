@@ -250,5 +250,7 @@ recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow
 [<ore:plateSteel>, <ore:gearRoseGold>, <ore:plateSteel>],
 [<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
 
-
-
+#---Wires---
+<railcraft:wire>.displayName="Redstone Shunting Wire";
+<railcraft:wire>.clearTooltip();
+<railcraft:wire>.addTooltip("Transmits a Redstone Driver Signal over moderate distance");

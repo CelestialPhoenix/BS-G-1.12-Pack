@@ -4,7 +4,10 @@
 #mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"TEST");
 
 #--Locomotives--
-mods.jei.JEI.addDescription([<railcraft:locomotive_electric>],"Locomotive Engine driven off a Redstone Signal.", "Redstone rails provide the necessary signal to power the Locomotive.");
+mods.jei.JEI.addDescription([<railcraft:locomotive_electric>, <railcraft:charge_feeder:1>, <railcraft:equipment:1>],"Locomotive Engine driven off a Redstone Signal.", "Redstone rails provide the signal pickup to Locomotive.", "Redstone Charge Drivers provide the long range signal pulses necessary to do power this Locomotive.", "They can also power the Metalworker.");
+
+#--Metalworker--
+mods.jei.JEI.addDescription([<railcraft:equipment:1>],"A self-contained set of heavy tooling for shaping metal.", "This is pretty much the limit for driving machinary of a redstone pulse.");
 
 #--Multiblocks--
 
@@ -21,6 +24,9 @@ mods.jei.JEI.addDescription([<railcraft:tank_iron_gauge:*>, <railcraft:tank_iron
 mods.jei.JEI.addDescription([<railcraft:tank_water>],"Water siding forms a 3x3x3 hollow cube.", "Produces a steady supply of water.",
 "Structure cannot share a wall with other water sidings.", 
 "Will automatically drain water from base/sides into adjecent tanks/pipes.", "Water can be piped into the top.", "Requires line of sight to the sky.", "Does not work in arid environments.");
+
+#--Shunting Wire--
+mods.jei.JEI.addDescription([<railcraft:wire>, <railcraft:frame>],"Used to connect the Redstone Driver Signal to Redstone Rails.");
 
 #--Tools--
 #Magnifying Glass

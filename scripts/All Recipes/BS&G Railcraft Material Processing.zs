@@ -1726,11 +1726,11 @@ RollingMachine.addShaped(<ore:wireGtSingleZinc>.firstItem*3, [
 RollingMachine.remove(<railcraft:wire>);
 RollingMachine.addShaped(<railcraft:wire>*8, [
 [<ore:ingotLead>, <ore:paper>, <ore:ingotLead>],
-[<ore:paper>, <ore:blockCopper>, <ore:paper>],
+[<ore:paper>, <ore:blockRedAlloy>, <ore:paper>],
 [<ore:ingotLead>, <ore:paper>, <ore:ingotLead>]], 600);
 
 RollingMachine.addShaped(<railcraft:wire>*12, [
 [<ore:ingotLead>, <ore:paper>, <ore:ingotLead>],
-[<ore:paper>, <ore:blockAnnealedCopper>, <ore:paper>],
+[<ore:paper>, <ore:blockRedAlloy>, <ore:paper>],
 [<ore:ingotLead>, <ore:paper>, <ore:ingotLead>]], 600);
 
