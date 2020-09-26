@@ -16,34 +16,89 @@ Using alchemy/magic mods to make ImEng bullets for revolver.
 
 LECc-230 ZA fuel wrong texture
 
+Gtech item localisation- item.wood.plate=Wood Plank
+
+fix TBU and MIX fuels on spreadsheed
+-MIX in capitals
+-remove the LE from stock fuel ingot prefix
+
+-Add decay hastner recipes for Naq fuels
+-Tidy stock decay hastner recipes
+-Add Neutron Bombardment recipes
+-Add tooltips for Neutron Bombardment and Decay Hastner products.
+-Add Fissile/Fertile/Waste/Recyclable?? tooltips.
+-Add Thaumcraft/Botania De-flavouring of isotopes
+- if time Add Naq fuel process chain, check Naq chemisty lines up!
+- if time Add radioactivity to stuff
+- if time Add molten salt Naq fuels
+
+
+------
+==Check casting recipes for gold gears
+==Check quests for new RC stuff
+==Gtech assembler clock recipe, check compass recipes too
+and recycling recipes for material loops
+------
+Tunn off Logistics pipes' "research" mechanics
+
 if you want to add custom isotopes, radiation is just 1/(lifetime in years)
 and custom fuels' radiation should just be the sum of its components (divided by the output number of fuel pellets)
 meaning that a standard fuel pellet recipe which makes 9 fuel cells has each fuel cell being simply the average of the components
 
 emitted_rads = (fuel + depleted_fuel + 0.033)*cell_count/64
 
-31.0
+31.0 ThaumoNuclear!
 A special thank you to QuantumTraverse for helping with the Nuclearcraft fuel calculations and coefficients.
 Added Antique Atlas 4.6.3 by Hunternif et al
 Updated Gregtech to 1.9.1.507
+AbyssalCraft
+-added Lc't fuel assembly recipes
+-added U235/235 processing
 Antique Atlas
 -new recipes, choice of Thaumcraft or Botania
 -disabled auto-markers
+Botania
+-added BoC fuel assembly recipes
+-added neutron enrichment recipes to agglomeration plate
+-added U235/235 processing
 ContentTweaker
 -fixed IV machine chassis recipe
 -Added Naquadah, Ceresium, Jupiterium, Saturnium, McRavium, Ecobronium, Pyurium, Vyrallium Isotopes
 -Added Nq, Cc, Jt, Sa, Jm, Ec, Py, Vy nuclear fuels
 -Added BoC, TNC, Lc'T nuclear fuel types
 -Added BoC, TNC, Lc'T nuclear gradles
--Added thick Dreadium Carbide, Elemental Terrasteel, and Rarified Voidmetal plates
+-Added Dreadium Carbide, Elemental Terrasteel, and Rarified Voidmetal thick plates
+-Added Calithorium ingot, 3x Calithorium dust, TBU dust, U238 Dust
+-Added Uranium/238/235 Clathrates
 Gregtech
 -moved multiblock descriptions to JEI tab.
 -thermal centrifuge ore processing now LV
 -added recipes for processing bones and skulls
+-added Uranium/238/235 fluids
+-added U235/235 processing
+-added Antimony Trioxide, Antimony Trifluoride, Antimony Pentafluoride, Fluorantimonic Acid, 5x Fluornaquadraic Acid, 3x Naquadah Difluoride, Indium Trifluoride, Indium Trioxide
+-renamed Naquadah to Naquadah-312
 Immersive Engineering
 -fixed broken convayor recipes
+-added NaK alloy mixing
 Quark
 -disabled slime bucket
+Railcraft
+-Reworked Electric Locomotive as Redstone Locomotive
+-Reworked Electric mechanics to match above
+-Admin Charge Feeder reworked as Redstone Charge Driver
+(This now means the Metalworker runs for free too!)
+-Increased Metalworker processing time
+-New recipes for Redstone rails, Redstone driver wire ect...
+-New tooltips and hints for above.
+Thaumcraft
+-added TNS fuel assembly recipes
+-added alchemical decay hastner recipes
+-added U235/235 processing
+TiCon
+-renamed Slimeballs to Slimy Loogers
+Vanilla
+-renamed Slimeball to Slimy Looger
 
 30.0 Pressing the Nuclear Button.
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
