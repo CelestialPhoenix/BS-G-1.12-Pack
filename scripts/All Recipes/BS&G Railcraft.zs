@@ -4,6 +4,33 @@
 print("Handles like its on rails");
 
 #---Renaming---
+
+#Electric Locomotive
+<railcraft:locomotive_electric>.displayName="Redstone Locomotive";
+
+#Electril Rails 
+<railcraft:track_flex_electric>.displayName="Redstone Track";
+<railcraft:track_flex_hs_electric>.displayName="High Speed Redstone Track";
+<railcraft:rail:5>.displayName="Redstone Rail";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_activator"}}).displayName="Redstone Activator Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_booster"}}).displayName="Redstone Booster Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_buffer"}}).displayName="Redstone Buffer Stop Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_control"}}).displayName="Redstone Control Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_detector"}}).displayName="Redstone Detector Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_dumping"}}).displayName="Redstone Dumping Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_locomotive"}}).displayName="Redstone Locomotive Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_whistle"}}).displayName="Redstone Whistle Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_launcher"}}).displayName="Redstone Launcher Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_priming"}}).displayName="Redstone Priming Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_delayed"}}).displayName="Redstone Delayed Locking Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_messenger"}}).displayName="Redstone Messanger Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_one_way"}}).displayName="Redstone One-Way Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_gated"}}).displayName="Redstone Gated Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_embarking"}}).displayName="Redstone Embarking Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_coupler"}}).displayName="Redstone Coupler Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_routing"}}).displayName="Redstone Routing Track";
+<railcraft:track_outfitted>.withTag({railcraft: {rail: "railcraft_electric", kit: "railcraft_throttle"}}).displayName="Redstone Throttle Track";
+
 #Granite
 <railcraft:brick_granite:0>.displayName="Fine Pink Granite";
 <railcraft:brick_granite:1>.displayName="Fitted Pink Granite";
@@ -203,12 +230,17 @@ recipes.addShaped(<railcraft:tie:0>*1, [
 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 #---Trains---
-#Electric
-#recipes.removeShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}));
-recipes.addShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}), [
-[<minecraft:redstone_lamp>, <ore:plateBronze>, <ore:blockLever>],
-[<ore:motorLV>, <ore:plateThickSteel>, <ore:motorLV>],
-[<minecraft:minecart>, null, <minecraft:minecart>]]);
+#Electric/Redstone
+recipes.removeShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}));
+recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}), [
+[<minecraft:redstone_lamp>, <ore:piston>, <ore:blockLever>],
+[<ore:plateSteel>, <ore:gearGold>, <ore:plateSteel>],
+[<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
+
+recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}), [
+[<minecraft:redstone_lamp>, <ore:piston>, <ore:blockLever>],
+[<ore:plateSteel>, <ore:gearRoseGold>, <ore:plateSteel>],
+[<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
 
 
 
