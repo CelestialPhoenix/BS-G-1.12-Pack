@@ -85,19 +85,18 @@ recipes.remove(<railcraft:charge:*>);
 
 
 #---Machines---
-#Charge Driver
-recipes.remove(<railcraft:flux_transformer>);
-<railcraft:flux_transformer>.addTooltip("Charge Driver");
-<railcraft:flux_transformer>.clearTooltip();
-<railcraft:flux_transformer>.addTooltip("Forms a 2x2x2 structure");
-<railcraft:flux_transformer>.addTooltip("Good for high-torque applications");
-<railcraft:flux_transformer>.addTooltip("such a Metalworker or");
-<railcraft:flux_transformer>.addTooltip("Electric Locomotives");
+#Redstone Charge Driver
+recipes.remove(<railcraft:charge_feeder:1>);
+<railcraft:charge_feeder:1>.addTooltip("Redstone Charge Driver");
+<railcraft:charge_feeder:1>.clearTooltip();
+<railcraft:charge_feeder:1>.addTooltip("Generate a high strength long range Redstone pulse");
+<railcraft:charge_feeder:1>.addTooltip("Provides the drive signal for Redstone Locomotives.");
+<railcraft:charge_feeder:1>.addTooltip("Also delivers enough grunt to power a Metalworker");
 
-recipes.addShaped(<railcraft:flux_transformer>*4, [
-[<ore:tubeBronze>, <ore:plateSteel>, <ore:tubeBronze>],
-[<ore:plateBronze>, <ore:coilSimple>, <ore:plateBronze>],
-[<ore:stickCopper>, <ore:scaffoldingSteel>, <ore:stickCopper>]]);
+recipes.addShaped(<railcraft:charge_feeder:1>*1, [
+[<ore:tubeBronze>, <minecraft:redstone_torch>, <ore:tubeBronze>],
+[<ore:plateBronze>, <minecraft:clock>, <ore:plateBronze>],
+[<minecraft:redstone_torch>, <ore:scaffoldingSteel>, <minecraft:redstone_torch>]]);
 
 #Coke Oven
 recipes.remove(<railcraft:coke_oven>);
@@ -125,9 +124,14 @@ recipes.remove(<railcraft:equipment:0>);
 recipes.remove(<railcraft:equipment:1>);
 recipes.addShaped(<railcraft:equipment:1>, [
 [<ore:tubeIron>, <ore:mechcompSteel>, <ore:tubeIron>],
-[<ore:gearSmallSteel>, <contenttweaker:rollers>, <ore:gearSmallSteel>],
+[<ore:gearSmallGold>, <contenttweaker:rollers>, <ore:gearSmallGold>],
 [<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>]]);
-<railcraft:equipment:1>.addTooltip("Can be powered directly off a charge driver");
+
+recipes.addShaped(<railcraft:equipment:1>, [
+[<ore:tubeIron>, <ore:mechcompSteel>, <ore:tubeIron>],
+[<ore:gearSmallRoseGold>, <contenttweaker:rollers>, <ore:gearSmallRoseGold>],
+[<ore:plateSteel>, <ore:coilSimple>, <ore:plateSteel>]]);
+<railcraft:equipment:1>.addTooltip("Can be powered directly off a Redstone Charge Driver");
 
 #Steam Turbine
 recipes.remove(<railcraft:steam_turbine>);
