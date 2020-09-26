@@ -9,6 +9,13 @@ print("Is that a nerfbat in your pants or are you happy to see me?");
 <tconstruct:throwball:1>.addTooltip("EFLN");
 <tconstruct:throwball:1>.addTooltip("Highly explosive");
 
+#---Renaming---
+#Slimeballs
+<tconstruct:edible:1>.displayName="Looger";
+<tconstruct:edible:2>.displayName="Looger";
+<tconstruct:edible:4>.displayName="Looger";
+
+
 #---Disabled Items---
 
 #-casts-

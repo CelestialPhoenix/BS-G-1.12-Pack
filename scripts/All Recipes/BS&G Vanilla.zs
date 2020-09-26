@@ -69,6 +69,9 @@ recipes.remove(<minecraft:slime>);
 <minecraft:log2:0>.displayName="Acacia Log";
 <minecraft:log2:1>.displayName="Dark Oak Log";
 
+#Slimeball
+<minecraft:slime_ball>.displayName="Looger";
+
 #Xenolith
 <minecraft:end_stone>.displayName="Xenolith";
 <minecraft:end_bricks>.displayName="Xenolith Bricks";
