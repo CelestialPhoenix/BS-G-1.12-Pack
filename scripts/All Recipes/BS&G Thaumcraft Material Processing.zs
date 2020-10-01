@@ -306,3 +306,8 @@ mods.thaumcraft.Crucible.registerRecipe("enrichU235", "METALLURGY@1", <ore:clath
 
 mods.thaumcraft.Crucible.registerRecipe("enrichU238", "METALLURGY@1", <ore:clathrateUranium238Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<aspect:potentia>*8, <aspect:permutatio>*8, <aspect:ordo>*8, <aspect:alkimia>*8]);
 
+#---Railcraft Stuff----
+#Perpetuum Locomotive 
+mods.thaumcraft.Infusion.registerRecipe("PerpetLocoGold", "", <railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), 0, [<aspect:ordo>*20, <aspect:motus>*50, <aspect:machina>*20], <railcraft:locomotive_electric>, [<thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearGold>,]);
+
+mods.thaumcraft.Infusion.registerRecipe("PerpetLocoRoseGold", "", <railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), 0, [<aspect:ordo>*20, <aspect:motus>*50, <aspect:machina>*20], <railcraft:locomotive_electric>, [<thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearRoseGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearRoseGold>,]);
