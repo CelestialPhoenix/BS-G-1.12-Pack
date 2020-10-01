@@ -253,4 +253,5 @@ recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow
 #---Wires---
 <railcraft:wire>.displayName="Redstone Shunting Wire";
 <railcraft:wire>.clearTooltip();
-<railcraft:wire>.addTooltip("Transmits a Redstone Driver Signal over moderate distance");
+<railcraft:wire>.addTooltip("TRedstone Shunting Wire");
+<railcraft:wire>.addTooltip("Transmits a Redstone Driver Signal over a moderate distance");
