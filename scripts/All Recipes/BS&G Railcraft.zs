@@ -241,13 +241,13 @@ recipes.addShaped(<railcraft:tie:0>*1, [
 #Electric/Redstone
 recipes.removeShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}));
 recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}), [
-[<minecraft:redstone_lamp>, <ore:piston>, <ore:blockLever>],
-[<ore:plateSteel>, <ore:gearGold>, <ore:plateSteel>],
+[<minecraft:redstone_lamp>, <ore:plateSteel>, <ore:blockLever>],
+[<ore:gearGold>, <ore:stickSteel>, <ore:gearGold>],
 [<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
 
 recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow", secondaryColor: "black"}), [
-[<minecraft:redstone_lamp>, <ore:piston>, <ore:blockLever>],
-[<ore:plateSteel>, <ore:gearRoseGold>, <ore:plateSteel>],
+[<minecraft:redstone_lamp>, <ore:plateSteel>, <ore:blockLever>],
+[<ore:gearRoseGold>, <ore:stickSteel>, <ore:gearRoseGold>],
 [<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
 
 #---Wires---
