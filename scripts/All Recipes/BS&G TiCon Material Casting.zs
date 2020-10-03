@@ -211,6 +211,12 @@ mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <ore:ingotBr
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:bricksandy>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:brickredsandy>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.ingot>, <contenttweaker:blastbrick>, <liquid:steel>, 576, true);
+#Nugget
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.nugget>, <ore:nuggetBronze>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.nugget>, <ore:nuggetCopper>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.nugget>, <ore:nuggetIron>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.nugget>, <ore:nuggetSteel>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<metaitem:shape.mold.nugget>, <ore:nuggetTin>, <liquid:steel>, 576, true);
 #Ring
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringBronze>, <liquid:steel>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:moldrings>, <ore:ringCopper>, <liquid:steel>, 576, true);
