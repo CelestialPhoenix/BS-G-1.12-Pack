@@ -3,18 +3,15 @@ Read at your own risk.
 
 ------------
 Centrifuge plants to methane recipes
-Fluid Extractor, chemi reactor crafting recipes- require heating elements?
-Ingot mould for smeltery casting
-Tidy Gtech multiblock descriptions as they hide the preview model. copy to JEI description- just turbines to go?
 NC machine upgrades could be magic based?
-Decay Hastener could be Decay Bombardment Chamber?
-Check over RC locomotive recipes, add recipes for perpetuum locomotive
 
-Using a nuclear reactor to recharge primordial pearls7
+Using a nuclear reactor to recharge primordial pearls?
 NeS 252 fuel- allows burning of Nether Stars for power
 Using alchemy/magic mods to make ImEng bullets for revolver.
 
 LECc-230 ZA fuel wrong texture
+Nq312 names
+---search for .name again
 
 Gtech item localisation- item.wood.plate=Wood Plank
 
@@ -32,12 +29,13 @@ fix TBU and MIX fuels on spreadsheed
 - if time Add radioactivity to stuff
 - if time Add molten salt Naq fuels
 
+Gtech new CT examples. Probably should update at some point?
+https://discord.com/channels/432092648724103190/471026284378587156/760603919524823130
 
 ------
-==Check casting recipes for gold gears
-==Check quests for new RC stuff
 ==Gtech assembler clock recipe, check compass recipes too
 and recycling recipes for material loops
+==Assembler recipes for other stuff like hoppers, cauldron, pressure plates ect
 ------
 Tunn off Logistics pipes' "research" mechanics
 
@@ -48,9 +46,13 @@ meaning that a standard fuel pellet recipe which makes 9 fuel cells has each fue
 emitted_rads = (fuel + depleted_fuel + 0.033)*cell_count/64
 
 31.0 ThaumoNuclear!
+Updated Forge to 14.23.5.2854
 A special thank you to QuantumTraverse for helping with the Nuclearcraft fuel calculations and coefficients.
 Added Antique Atlas 4.6.3 by Hunternif et al
 Updated Gregtech to 1.9.1.507
+Updated Gregtech to 1.10.2.566
+All mods
+-renamed Slimeball to Slimy Looger
 AbyssalCraft
 -added Lc't fuel assembly recipes
 -added U235/235 processing
@@ -70,6 +72,9 @@ ContentTweaker
 -Added Dreadium Carbide, Elemental Terrasteel, and Rarified Voidmetal thick plates
 -Added Calithorium ingot, 3x Calithorium dust, TBU dust, U238 Dust
 -Added Uranium/238/235 Clathrates
+FTB Quests
+-updated Electrial Tinkering chapter for changed RC stuff
+-started Nuclear Mastermind chapter
 Gregtech
 -moved multiblock descriptions to JEI tab.
 -thermal centrifuge ore processing now LV
@@ -78,9 +83,14 @@ Gregtech
 -added U235/235 processing
 -added Antimony Trioxide, Antimony Trifluoride, Antimony Pentafluoride, Fluorantimonic Acid, 5x Fluornaquadraic Acid, 3x Naquadah Difluoride, Indium Trifluoride, Indium Trioxide
 -renamed Naquadah to Naquadah-312
+t-new recipes for Fluid Extractor
 Immersive Engineering
 -fixed broken convayor recipes
 -added NaK alloy mixing
+Nuclear
+-added new fuels + recipes
+-ticon stock decay hasten recipes
+-added decay hastening for naq fuels
 Quark
 -disabled slime bucket
 Railcraft
@@ -91,14 +101,16 @@ Railcraft
 -Increased Metalworker processing time
 -New recipes for Redstone rails, Redstone driver wire ect...
 -New tooltips and hints for above.
+-Added recipes (Aby/Bot/Thaum) for the Perpetuum Locomotive
 Thaumcraft
 -added TNS fuel assembly recipes
 -added alchemical decay hastner recipes
 -added U235/235 processing
 TiCon
--renamed Slimeballs to Slimy Loogers
+t-added ingot and nugget casting to Smeltery.
+t-added nugget mold recipe
 Vanilla
--renamed Slimeball to Slimy Looger
+-added oreDustBone to bonemeal
 
 30.0 Pressing the Nuclear Button.
 When opening an existing world with this update- you'll get a warning about missing blocks/items. This message can be safely ignored.
