@@ -250,6 +250,10 @@ recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow
 [<ore:gearRoseGold>, <ore:stickSteel>, <ore:gearRoseGold>],
 [<minecraft:minecart>, <ore:mechcompSteel>, <minecraft:minecart>]]);
 
+#Perpetuum
+<railcraft:locomotive_creative>.addShiftTooltip("Strap some gears on and call it steampunk!");
+//Recipe in Thaumcraft Material Processing
+
 #---Wires---
 <railcraft:wire>.displayName="Redstone Shunting Wire";
 <railcraft:wire>.clearTooltip();
