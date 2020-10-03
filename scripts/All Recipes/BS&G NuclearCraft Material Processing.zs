@@ -1061,6 +1061,57 @@ mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251ZA
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium252All>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCalifornium252>, <ore:ingotThorium>.firstItem, 1.0, 1.0, 0.380);
 
+#Naquadah Series Isotopes
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNaquadah312>, <ore:ingotPlutonium238>.firstItem, 1.0, 1.0, 0.6727);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNaquadah313>, <ore:ingotPlutonium241>.firstItem, 1.0, 1.0, 0.6545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNaquadah314>, <ore:ingotPlutonium239>.firstItem, 1.0, 1.0, 0.6818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNaquadah319>, <ore:ingotPlutonium242>.firstItem, 1.0, 1.0, 0.7000);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium314>, <ore:ingotNaquadah312>.firstItem, 1.0, 1.0, 0.0182);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium315>, <ore:ingotNaquadah313>.firstItem, 1.0, 1.0, 0.0182);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium319>, <ore:ingotAmericium241>.firstItem, 1.0, 1.0, 0.7091);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium320>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium315>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3091);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium316>, <ore:ingotAmericium242>.firstItem, 1.0, 1.0, 0.6727);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium317>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3273);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium319>, <ore:ingotAmericium243>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium323>, <ore:ingotCurium246>.firstItem, 1.0, 1.0, 0.7818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium316>, <ore:ingotCurium243>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium317>, <ore:ingotTungsten>.firstItem, 1.0, 1.0, 1.2182);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium318>, <ore:ingotCurium245>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium320>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium322>, <ore:ingotCurium246>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium323>, <ore:ingotCurium247>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotMcRavium324>, <ore:ingotTungsten>.firstItem, 1.0, 1.0, 1.2818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium319>, <ore:ingotCurium246>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium320>, <ore:ingotPlatinum>.firstItem, 1.0, 1.0, 1.1364);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium321>, <ore:ingotCurium247>.firstItem, 1.0, 1.0, 0.6727);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium322>, <ore:ingotPuyrium322>.firstItem, 1.0, 1.0, 0.0045);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium323>, <ore:ingotBerkelium247>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium324>, <ore:ingotPuyrium324>.firstItem, 1.0, 1.0, 0.0059);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium325>, <ore:ingotPlatinum>.firstItem, 1.0, 1.0, 1.1818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotEcobronium326>, <ore:ingotBerkelium248>.firstItem, 1.0, 1.0, 0.7091);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium319>, <ore:ingotTungsten>.firstItem, 1.0, 1.0, 1.2364);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium320>, <ore:ingotBerkelium247>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium321>, <ore:ingotVyrallium321>.firstItem, 1.0, 1.0, 0.0073);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium322>, <ore:ingotPlatinum>.firstItem, 1.0, 1.0, 1.1545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium323>, <ore:ingotBerkelium248>.firstItem, 1.0, 1.0, 0.6818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium324>, <ore:ingotTantalum>.firstItem, 1.0, 1.0, 1.3091);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium325>, <ore:ingotIridium>.firstItem, 1.0, 1.0, 1.2091);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium326>, <ore:ingotGold>.firstItem, 1.0, 1.0, 1.1818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium327>, <ore:ingotVyrallium327>.firstItem, 1.0, 1.0, 0.0086);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPuyrium328>, <ore:ingotCalifornium252>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium320>, <ore:ingotIndium>.firstItem, 1.0, 1.0, 1.8727);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium321>, <ore:ingotCalifornium249>.firstItem, 1.0, 1.0, 0.6545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium322>, <ore:ingotIridium>.firstItem, 1.0, 1.0, 1.1818);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium323>, <ore:ingotCalifornium250>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium324>, <ore:ingotCalifornium251>.firstItem, 1.0, 1.0, 0.6636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium325>, <ore:ingotIndium>.firstItem, 1.0, 1.0, 1.9182);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium326>, <ore:ingotOsmium>.firstItem, 1.0, 1.0, 1.2364);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium327>, <ore:ingotCalifornium251>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium328>, <ore:ingotCalifornium252>.firstItem, 1.0, 1.0, 0.6909);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium329>, <ore:ingotIndium>.firstItem, 1.0, 1.0, 1.9545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotVyrallium330>, <ore:ingotCalifornium252>.firstItem, 1.0, 1.0, 0.7091);
 
+#Enrichment-Decay Processing
 
 
