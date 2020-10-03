@@ -96,7 +96,8 @@ var nuggets as string[] = [
 	"Zirconium",
 	"Manganese",
 	"Sodium",
-	"Potassium"];
+	"Potassium",
+	"Constantan"];
 
 for input in nuggets {
 	var nuggetMetal as IItemStack = oreDict["nugget"~input].firstItem;
@@ -169,7 +170,9 @@ var plates as string[] = [
 	"Zirconium",
 	"Manganese",
 	"Sodium",
-	"Potassium"];
+	"Potassium",
+	"Boron",
+	"Magnesium"];
 
 for input in plates {
 	var plateMetal as IItemStack = oreDict["plate"~input].firstItem;
