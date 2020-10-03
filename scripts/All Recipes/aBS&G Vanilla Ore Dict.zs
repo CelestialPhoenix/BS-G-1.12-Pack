@@ -4,11 +4,11 @@
 print("Mwah ha ha ha ha ha");
 
 //bonemeal fix
-val bonemeal = <ore:dustBone>;
+/*val bonemeal = <ore:dustBone>;
 
 for item in bonemeal.items{
 	<ore:dustBone>.remove(item);
-}
+}*/ #No longer works
 <ore:dustBone>.add(<minecraft:dye:15>);
 
 #ore dict

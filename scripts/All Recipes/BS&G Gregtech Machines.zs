@@ -406,6 +406,35 @@ recipes.addShaped(<meta_tile_entity:gregtech:extruder.ev>, [
 [<ore:pistonEV>, <ore:hullEV>, <ore:pipeSmallSteel>], 
 [<ore:elementNichrome>, <ore:elementNichrome>, <ore:circuitExtreme>]]);
 
+#--Fluid Extractor--
+#LV
+recipes.remove(<meta_tile_entity:gregtech:fluid_extractor.lv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_extractor.lv>, [
+[<ore:elementCopper>, <ore:circuitBasic>, <ore:elementCopper>], 
+[<ore:pumpLV>, <ore:hullLV>, <ore:pistonLV>], 
+[<ore:cableGtSingleTin>, <ore:circuitBasic>, <ore:cableGtSingleTin>]]);
+
+#MV
+recipes.remove(<meta_tile_entity:gregtech:fluid_extractor.mv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_extractor.mv>, [
+[<ore:elementCupronickel>, <ore:circuitGood>, <ore:elementCupronickel>], 
+[<ore:pumpMV>, <ore:hullMV>, <ore:pistonMV>], 
+[<ore:cableGtSingleCopper>, <ore:circuitGood>, <ore:cableGtSingleCopper>]]);
+
+#MV
+recipes.remove(<meta_tile_entity:gregtech:fluid_extractor.hv>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_extractor.hv>, [
+[<ore:elementKanthal>, <ore:circuitAdvanced>, <ore:elementKanthal>], 
+[<ore:pumpHV>, <ore:hullHV>, <ore:pistonHV>], 
+[<ore:cableGtSingleGold>, <ore:circuitAdvanced>, <ore:cableGtSingleGold>]]);
+
+#MV
+recipes.remove(<meta_tile_entity:gregtech:fluid_extractor.ev>);
+recipes.addShaped(<meta_tile_entity:gregtech:fluid_extractor.ev>, [
+[<ore:elementNichrome>, <ore:circuitExtreme>, <ore:elementNichrome>], 
+[<ore:pumpEV>, <ore:hullEV>, <ore:pistonEV>], 
+[<ore:cableGtSingleAluminium>, <ore:circuitExtreme>, <ore:cableGtSingleAluminium>]]);
+
 #--Fluid Heater--
 #LV
 recipes.remove(<meta_tile_entity:gregtech:fluid_heater.lv>);
