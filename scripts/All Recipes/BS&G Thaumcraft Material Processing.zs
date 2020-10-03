@@ -288,6 +288,11 @@ mods.thaumcraft.Crucible.registerRecipe("decayCeresium314", "METALLURGY@1", <ore
 mods.thaumcraft.Crucible.registerRecipe("decayCeresium315", "METALLURGY@1", <ore:ingotNaquadah313>.firstItem, <ore:ingotCeresium315>.firstItem, [<aspect:perditio>*62, <aspect:permutatio>*62]);
 mods.thaumcraft.Crucible.registerRecipe("decayCeresium319", "METALLURGY@1", <ore:ingotAmericium241>.firstItem, <ore:ingotCeresium319>.firstItem, [<aspect:perditio>*59, <aspect:permutatio>*59]);
 mods.thaumcraft.Crucible.registerRecipe("decayCeresium320", "METALLURGY@1", <ore:ingotDarmstadtium>.firstItem, <ore:ingotCeresium320>.firstItem, [<aspect:perditio>*42, <aspect:permutatio>*42]);
+mods.thaumcraft.Crucible.registerRecipe("decayJupiterium315", "METALLURGY@1", <ore:ingotNeptunium236>.firstItem, <ore:ingotJupiterium315>, [<aspect:perditio>*60, <aspect:permutatio>*60]);
+mods.thaumcraft.Crucible.registerRecipe("decayJupiterium316", "METALLURGY@1", <ore:ingotNeodymium>.firstItem, <ore:ingotJupiterium316>, [<aspect:perditio>*88	, <aspect:permutatio>*88]);
+mods.thaumcraft.Crucible.registerRecipe("decayJupiterium319", "METALLURGY@1", <ore:ingotDarmstadtium>.firstItem, <ore:ingotJupiterium319>, [<aspect:perditio>*41, <aspect:permutatio>*41]);
+mods.thaumcraft.Crucible.registerRecipe("decayJupiterium320", "METALLURGY@1", <ore:ingotNeptunium236>.firstItem, <ore:ingotJupiterium320>, [<aspect:perditio>*61, <aspect:permutatio>*61]);
+mods.thaumcraft.Crucible.registerRecipe("decayJupiterium323", "METALLURGY@1", <ore:ingotNeodymium>.firstItem, <ore:ingotJupiterium323>, [<aspect:perditio>*90, <aspect:permutatio>*90]);
 mods.thaumcraft.Crucible.registerRecipe("decaySaturnium315", "METALLURGY@1", <ore:ingotDarmstadtium>.firstItem, <ore:ingotSaturnium315>.firstItem, [<aspect:perditio>*39, <aspect:permutatio>*39]);
 mods.thaumcraft.Crucible.registerRecipe("decaySaturnium316", "METALLURGY@1", <ore:ingotAmericium242>.firstItem, <ore:ingotSaturnium316>.firstItem, [<aspect:perditio>*58, <aspect:permutatio>*58]);
 mods.thaumcraft.Crucible.registerRecipe("decaySaturnium317", "METALLURGY@1", <ore:ingotDarmstadtium>.firstItem, <ore:ingotSaturnium317>.firstItem, [<aspect:perditio>*40, <aspect:permutatio>*40]);

@@ -1070,6 +1070,11 @@ mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium314>, <ore:ingotNaqu
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium315>, <ore:ingotNaquadah313>.firstItem, 1.0, 1.0, 0.0182);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium319>, <ore:ingotAmericium241>.firstItem, 1.0, 1.0, 0.7091);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCeresium320>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3545);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotJupiterium315>, <ore:ingotNeptunium236>.firstItem, 1.0, 1.0, 0.7182);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotJupiterium316>, <ore:ingotNeodymium>.firstItem, 1.0, 1.0, 1.5636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotJupiterium319>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3455);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotJupiterium320>, <ore:ingotNeptunium236>.firstItem, 1.0, 1.0, 0.7636);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotJupiterium323>, <ore:ingotNeodymium>.firstItem, 1.0, 1.0, 1.6273);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium315>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3091);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium316>, <ore:ingotAmericium242>.firstItem, 1.0, 1.0, 0.6727);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotSaturnium317>, <ore:ingotDarmstadtium>.firstItem, 1.0, 1.0, 0.3273);
