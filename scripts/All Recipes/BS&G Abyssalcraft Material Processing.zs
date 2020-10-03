@@ -545,3 +545,17 @@ mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:uranium_hexafluo
 mods.abyssalcraft.InfusionRitual.addRitual("enrichU235", 3, 1, 5000, true, <ore:clathrateUraniumHexafluoride235>.firstItem, <ore:clathrateUraniumHexafluoride>, [<ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>], false);
 game.setLocalization("enrichU235", "Uranium Fuel Enrichment Ritual.");
 game.setLocalization("enrichU235.desc", "...");
+
+#---Railcraft---
+
+mods.abyssalcraft.InfusionRitual.addRitual("perpetLocoGold", 1, -1, 100, false, <railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), <railcraft:locomotive_electric>, [<abyssalcraft:transmutationgem>, <ore:gearSmallSteel>, <ore:gearGold>, null, <abyssalcraft:powerstonetracker>, <ore:gearSteel>, <ore:gearSmallGold>, null], false);
+
+game.setLocalization("perpetLocoGold", "Perpetual Motion");
+game.setLocalization("perpetLocoGold.desc", "Upgrading the Redstone Locomotive");
+
+mods.abyssalcraft.InfusionRitual.addRitual("perpetLocoRoseGold", 1, -1, 100, false, <railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), <railcraft:locomotive_electric>, [<abyssalcraft:transmutationgem>, <ore:gearSmallSteel>, <ore:gearRoseGold>, null, <abyssalcraft:powerstonetracker>, <ore:gearSteel>, <ore:gearSmallRoseGold>, null], false);
+
+game.setLocalization("perpetLocoRoseGold", "Perpetual Motion");
+game.setLocalization("perpetLocoRoseGold.desc", "Upgrading the Redstone Locomotive");
+
+
