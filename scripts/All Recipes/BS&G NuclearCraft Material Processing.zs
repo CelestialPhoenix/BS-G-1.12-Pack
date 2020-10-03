@@ -953,3 +953,114 @@ mods.nuclearcraft.FissionIrradiator.removeRecipeWithOutput(<nuclearcraft:fission
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustTBU>, <ore:dustTBP>, 160000, 0.0, 1.0, 0.00000000071);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotCalithorium>, <ore:dustCalithoriumThaum>, 40000, 0.0, 1.0, 0.00000000284);
 
+#---Decay Hastener---
+//mods.nuclearcraft.DecayHastener.removeRecipeWithInput(IIngredient itemInput);
+//mods.nuclearcraft.DecayHastener.addRecipe(IIngredient itemInput, IIngredient itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation);
+
+#Tidy Stock Recipes
+//Dusts to Dusts and Ingots to Ingots where possible
+//Remove recipes for isotope flavours (duplicates)
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotThorium>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotThorium>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.000000001);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:dustTBP>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:dustTBP>, <ore:dustTBU>.firstItem, 1.0, 1.0, 0.000006);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium233All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium233>, <ore:ingotBismuth>.firstItem, 1.0, 1.0, 0.000006);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium235All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium235>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.000000001);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium238All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium238>, <ore:dustRadium>.firstItem, 1.0, 1.0, 0.000000000225);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium236All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNeptunium236>, <ore:ingotThorium>.firstItem, 1.0, 1.0, 0.000006);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium238All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium238>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.011);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium239>, <ore:ingotUranium235>.firstItem, 1.0, 1.0, 0.000006);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium241>, <ore:ingotNeptunium237>.firstItem, 1.0, 1.0, 0.000006);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium242Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium242Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium242Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium242ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium242All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotAmericium242>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.000007);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium243Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium243Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium243Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium243ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium243Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium243Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium243Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium243ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium245Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium245Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium245Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium245ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium246Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium246Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium246Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium246ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium247Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium247Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium247Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCurium247ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotBerkelium247Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotBerkelium247Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotBerkelium247Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotBerkelium247ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium249Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium249Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium249Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium249ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium250Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium250Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium250Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium250ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251Carbide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251Oxide>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251Nitride>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251ZA>);
+
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium252All>);
+mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCalifornium252>, <ore:ingotThorium>.firstItem, 1.0, 1.0, 0.380);
+
+
+
+
