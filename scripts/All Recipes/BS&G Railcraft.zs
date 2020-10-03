@@ -252,7 +252,7 @@ recipes.addShaped(<railcraft:locomotive_electric>.withTag({primaryColor: "yellow
 
 #Perpetuum
 <railcraft:locomotive_creative>.addShiftTooltip("Strap some gears on and call it steampunk!");
-//Recipe in Thaumcraft Material Processing
+//Recipe in Botania/Thaumcraft Material Processing
 
 #---Wires---
 <railcraft:wire>.displayName="Redstone Shunting Wire";

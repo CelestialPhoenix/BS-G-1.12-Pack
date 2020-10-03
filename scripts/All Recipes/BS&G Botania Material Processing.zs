@@ -430,3 +430,8 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustNaquforniaBot>.firstItem*1, 
 mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>, 4000);
 mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clathrateUranium235Hexafluoride>, 4000);
 
+#---Railcraft---
+#Perpetuum Locomotive
+mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <thaumcraft:mechanism_complex>, <ore:gearSmallSteel>, <ore:gearGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearSmallGold>], 12000);
+
+mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <thaumcraft:mechanism_complex>, <ore:gearSmallSteel>, <ore:gearRoseGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearSmallRoseGold>], 12000);
