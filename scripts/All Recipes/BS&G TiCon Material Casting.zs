@@ -333,6 +333,74 @@ mods.tconstruct.Casting.addTableRecipe(<ore:gearSmallRoseGold>.firstItem, <metai
 #HSSG
 #HSSE
 
+#Ingots
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotAluminium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:aluminium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotAntimony>.firstItem, <metaitem:shape.mold.ingot>, <liquid:antimony>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBeryllium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:beryllium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBismuth>.firstItem, <metaitem:shape.mold.ingot>, <liquid:bismuth>, 144, false);
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotCalcium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:calcium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotCobalt>.firstItem, <metaitem:shape.mold.ingot>, <liquid:cobalt>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotCopper>.firstItem, <metaitem:shape.mold.ingot>, <liquid:copper>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotGallium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:gallium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotLead>.firstItem, <metaitem:shape.mold.ingot>, <liquid:lead>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotLithium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:lithium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotMagnesium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:magnesium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotManganese>.firstItem, <metaitem:shape.mold.ingot>, <liquid:manganese>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotNickel>.firstItem, <metaitem:shape.mold.ingot>, <liquid:nickel>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotPalladium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:palladium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotPlatinum>.firstItem, <metaitem:shape.mold.ingot>, <liquid:platinum>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotPotassium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:potassium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotSilver>.firstItem, <metaitem:shape.mold.ingot>, <liquid:silver>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotSodium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:sodium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotTantalum>.firstItem, <metaitem:shape.mold.ingot>, <liquid:tantalum>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotTin>.firstItem, <metaitem:shape.mold.ingot>, <liquid:tin>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotZinc>.firstItem, <metaitem:shape.mold.ingot>, <liquid:zinc>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBatteryAlloy>.firstItem, <metaitem:shape.mold.ingot>, <liquid:battery_alloy>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBrass>.firstItem, <metaitem:shape.mold.ingot>, <liquid:brass>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBronze>.firstItem, <metaitem:shape.mold.ingot>, <liquid:bronze>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotConstantan>.firstItem, <metaitem:shape.mold.ingot>, <liquid:constantan>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotElectrum>.firstItem, <metaitem:shape.mold.ingot>, <liquid:electrum>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotMagnalium>.firstItem, <metaitem:shape.mold.ingot>, <liquid:magnalium>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotSolderingAlloy>.firstItem, <metaitem:shape.mold.ingot>, <liquid:soldering_alloy>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotTinAlloy>.firstItem, <metaitem:shape.mold.ingot>, <liquid:tin_alloy>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotRedAlloy>.firstItem, <metaitem:shape.mold.ingot>, <liquid:red_alloy>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotCobaltBrass>.firstItem, <metaitem:shape.mold.ingot>, <liquid:cobalt_brass>, 144, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:ingotBlueAlloy>.firstItem, <metaitem:shape.mold.ingot>, <liquid:blue_alloy>, 144, false);  
+
+#Nuggets
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetAluminium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:aluminium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetAntimony>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:antimony>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBeryllium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:beryllium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBismuth>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:bismuth>, 16, false);
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetCalcium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:calcium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetCobalt>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:cobalt>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetCopper>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:copper>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetGallium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:gallium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetLead>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:lead>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetLithium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:lithium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetMagnesium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:magnesium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetManganese>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:manganese>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetNickel>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:nickel>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetPalladium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:palladium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetPlatinum>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:platinum>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetPotassium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:potassium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetSilver>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:silver>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetSodium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:sodium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetTantalum>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:tantalum>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetTin>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:tin>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetZinc>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:zinc>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBatteryAlloy>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:battery_alloy>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBrass>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:brass>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBronze>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:bronze>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetConstantan>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:constantan>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetElectrum>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:electrum>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetMagnalium>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:magnalium>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetSolderingAlloy>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:soldering_alloy>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetTinAlloy>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:tin_alloy>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetRedAlloy>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:red_alloy>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetCobaltBrass>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:cobalt_brass>, 16, false); 
+mods.tconstruct.Casting.addTableRecipe(<ore:nuggetBlueAlloy>.firstItem, <metaitem:shape.mold.nuggets>, <liquid:blue_alloy>, 16, false); 
+
 #--Rings--
 #mods.tconstruct.Casting.addTableRecipe(<ore:ring>.firstItem, <contenttweaker:moldrings>, <liquid:>, 72, false);
 mods.tconstruct.Casting.addTableRecipe(<ore:ringAluminium>.firstItem, <contenttweaker:moldrings>, <liquid:aluminium>, 72, false); 
