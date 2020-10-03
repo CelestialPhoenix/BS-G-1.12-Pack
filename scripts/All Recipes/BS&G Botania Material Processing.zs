@@ -432,6 +432,6 @@ mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clath
 
 #---Railcraft---
 #Perpetuum Locomotive
-mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <thaumcraft:mechanism_complex>, <ore:gearSmallSteel>, <ore:gearGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearSmallGold>], 12000);
+mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <ore:runeSlothB>, <ore:gearSmallSteel>, <ore:gearGold>, <ore:runePrideB>, <ore:gearSteel>, <ore:gearSmallGold>], 12000);
 
-mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <thaumcraft:mechanism_complex>, <ore:gearSmallSteel>, <ore:gearRoseGold>, <thaumcraft:mechanism_complex>, <ore:gearSteel>, <ore:gearSmallRoseGold>], 12000);
+mods.botania.RuneAltar.addRecipe(<railcraft:locomotive_creative>.withTag({primaryColor: "purple", secondaryColor: "black"}), [<railcraft:locomotive_electric>, <ore:runeSlothB>, <ore:gearSmallSteel>, <ore:gearRoseGold>, <ore:runePrideB>, <ore:gearSteel>, <ore:gearSmallRoseGold>], 12000);
