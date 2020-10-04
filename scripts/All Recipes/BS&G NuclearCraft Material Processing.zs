@@ -124,6 +124,23 @@ var fuelPellet as string[] = [
 	"Vy327",
 	];
 
+var fuelPelletOld as string[] = [
+	"U233",
+	"U235",
+	"N236",
+	"P239",
+	"P241",
+	//"MIX239",
+	//"MIX241",
+	"A242",
+	"Cm243",
+	"Cm245",
+	"Cm247",
+	"B248",
+	"Cf249",
+	"Cf251"
+	];
+
 #Naked Pellets - Floride based for Molten Salt Reactor fuel solutions
 for i, input in fuelFissile {
 	var ingotFissile as IItemStack = oreDict["ingot"~input].firstItem;
@@ -194,12 +211,20 @@ for input in fuelPellet {
 	var ingotFuelTrisoLE as IItemStack = oreDict["ingotLE"~input~"TRISO"].firstItem;
 	var ingotFuelTrisoHE as IItemStack = oreDict["ingotHE"~input~"TRISO"].firstItem;
 
-mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoLE*9);
-mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoHE*9);
-
 mods.nuclearcraft.Assembler.addRecipe(ingotFuelLE*9, <ore:dustGraphite>*1, <ore:ingotPyrolyticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoLE*9, 1.0, 1.0, 0.02);
 mods.nuclearcraft.Assembler.addRecipe(ingotFuelHE*9, <ore:dustGraphite>*1, <ore:ingotPyrolyticCarbon>*1, <ore:plateSiliconCarbide>*1, ingotFuelTrisoHE*9, 1.0, 1.0, 0.06);
 }
+
+for input in fuelPelletOld {
+	var ingotFuelLE as IItemStack = oreDict["ingotLE"~input~"Carbide"].firstItem;
+	var ingotFuelHE as IItemStack = oreDict["ingotHE"~input~"Carbide"].firstItem;
+	var ingotFuelTrisoLE as IItemStack = oreDict["ingotLE"~input~"TRISO"].firstItem;
+	var ingotFuelTrisoHE as IItemStack = oreDict["ingotHE"~input~"TRISO"].firstItem;
+
+mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoLE*9);
+mods.nuclearcraft.Assembler.removeRecipeWithOutput(ingotFuelTrisoHE*9);
+}
+
 
 mods.nuclearcraft.Assembler.removeRecipeWithOutput(<ore:ingotTBUTRISO>.firstItem*9);
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotTBUCarbide>*9, <ore:dustGraphite>*1, <ore:ingotPyrolyticCarbon>*1, <ore:plateSiliconCarbide>*1, <ore:ingotTBUTRISO>.firstItem*9, 1.0, 1.0, 0.02);
