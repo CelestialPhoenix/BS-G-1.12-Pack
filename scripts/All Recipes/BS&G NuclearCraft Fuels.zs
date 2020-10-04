@@ -19,10 +19,10 @@ print("Green Glowey Energy");
 #mods.nuclearcraft.fission.addRecipe([<minecraft:ender_eye>, <contenttweaker:eyecracked>, 2000.0, 4.0, 200.0, "eyecracked", 0.2]);
 #mods.nuclearcraft.SolidFission.addRecipe(IIngredient itemInput, IIngredient itemOutput, int time, int heat, double efficiency, int criticality, boolean selfPriming, double radiation);
 
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotIron>, <ore:blockIron>.firstItem, 1340, 30, 1.0, 1, false, 0.024174274194);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotCopper>, <ore:blockCopper>.firstItem, 1340, 30, 1.0, 0.0, false, 0.024174274194);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotGold>, <ore:blockGold>.firstItem, 1340, 30, 0.00001, 22, false, 0.024174274194);
-mods.nuclearcraft.SolidFission.addRecipe(<ore:gemNetherStar>, <ore:blockGold>.firstItem, 2000, 100, 0.00001, 66, false, 0.5);
+//mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotIron>, <ore:blockIron>.firstItem, 1340, 30, 1.0, 1, false, 0.024174274194);
+//mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotCopper>, <ore:blockCopper>.firstItem, 1340, 30, 1.0, 0.0, false, 0.024174274194);
+//mods.nuclearcraft.SolidFission.addRecipe(<ore:ingotGold>, <ore:blockGold>.firstItem, 1340, 30, 0.00001, 22, false, 0.024174274194);
+//mods.nuclearcraft.SolidFission.addRecipe(<ore:gemNetherStar>, <ore:blockGold>.firstItem, 2000, 100, 0.00001, 66, false, 0.5);
 
 #-Fuels-
 
