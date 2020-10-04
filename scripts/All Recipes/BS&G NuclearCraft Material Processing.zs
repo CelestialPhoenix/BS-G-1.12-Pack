@@ -1008,7 +1008,7 @@ mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Oxid
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Nitride>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237ZA>);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium238All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium238>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium238>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.011);
 
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239>);
