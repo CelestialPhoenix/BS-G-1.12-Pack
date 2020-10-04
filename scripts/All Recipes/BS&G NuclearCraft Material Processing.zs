@@ -329,7 +329,7 @@ mods.nuclearcraft.SaltMixer.addRecipe(<fluid:hecf_251>*144, <fluid:fluorine>*100
 //Clear out old recipes
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:boron>*192);
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:lithium>*160);
-mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:redstone_ethanol>*250);
+mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:redstone_ethanol>*500);
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:uranium>*160);
 
 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(<fluid:leu_233>*144); 
@@ -482,7 +482,7 @@ mods.nuclearcraft.Centrifuge.addRecipe(<fluid:depleted_hecf_251_fluoride_flibe>*
 //Clear out old recipes
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotIron>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotGold>.firstItem);
-mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingot>.firstItem);
+//mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingot>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<tconstruct:ingots:4>);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotArdite>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotCobalt>.firstItem);
@@ -604,7 +604,7 @@ mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotHardCarbon>.first
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotManganeseDioxide>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotLeadPlatinum>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:gemBoronArsenide>.firstItem);
-mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotGraphite>.firstItem);
+//mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotGraphite>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:gemPrismarine>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:slimeball>.firstItem);
 mods.nuclearcraft.IngotFormer.removeRecipeWithOutput(<ore:ingotSilicon>.firstItem);
