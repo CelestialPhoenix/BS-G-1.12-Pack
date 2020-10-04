@@ -190,6 +190,16 @@ mods.abyssalcraft.Crystallizer.removeCrystallization(<minecraft:bone>);
 
 #Crystal Fragments
 
+#Transmutator
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetIron>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetGold>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetTin>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetCopper>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetMagnesium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetAluminium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetZinc>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetCalcium>.firstItem);
+
 #--Alchemy-- 
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}), <materialpart:antimatter:clathrate>*10, <metaitem:fluid_cell>, 0.0);
 
