@@ -1009,15 +1009,22 @@ var quaternaryByproduct as string[] = [
 "Osmiite"];
 
 var ingotOutput as string[] = [
+"Aluminium",
 "Antimony",
+"Beryllium",
 "Bismuth",
 "Cadmium",
+"Calcium",
 "Caesium",
 "Chrome",
 "Cobalt",
+"Copper",
 "Gallium",
+"Gold",
+"Iron",
 "Lead",
 "Lithium",
+"Magnesium",
 "Manganese",
 "Molybdenum",
 "Neodymium",
@@ -1025,13 +1032,16 @@ var ingotOutput as string[] = [
 "Niobium",
 "Palladium",
 "Platinum",
+"Silicon",
 "Silver",
 "Sodium",
 "Tantalum",
+"Tin",
 "Thorium",
 "Uranium",
 "Vanadium",
 "Yttrium",
+"Zinc",
 "Zirconium"];
 
 var gemOutput as string[] = [
@@ -1201,6 +1211,7 @@ for i, input in oreInput {
 	var oreCrushedPure as IItemStack  = oreDict["crushedPurified"~input].firstItem;
 	var oreCrushedCentrifuged as IItemStack  = oreDict["crushedCentrifuged"~input].firstItem;
 	var oreCrystal as IItemStack  = oreDict["crystal"~input].firstItem;
+	var oreCrystalAny as IItemStack  = oreDict["crystal"~input];
 	var oreCrystalShard as IItemStack  = oreDict["crystalShard"~input].firstItem;
 	
 	var firstByproduct as IItemStack = oreDict["crystalShard"~primaryByproduct[i]].firstItem;
@@ -1215,7 +1226,7 @@ mods.abyssalcraft.Crystallizer.addCrystallization(oreCrushedCentrifuged, oreCrys
 
 mods.abyssalcraft.Materializer.addCrystal(oreCrystal);
 mods.abyssalcraft.Materializer.addCrystal(oreCrystalShard);
-mods.abyssalcraft.Materializer.addMaterialization(oreCrystal, [oreCrystalShard*3]);
+mods.abyssalcraft.Materializer.addMaterialization(oreCrystalAny, [oreCrystalShard*3]);
 }
 
 for input in ingotOutput {
