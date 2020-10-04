@@ -272,7 +272,7 @@ mods.nuclearcraft.Extractor.addRecipe(<ore:ingotHECf251>, <ore:dustTinyPlastic>.
 
 #---Salt Mixer//Molten Fuel Blending Plant---
 //Clear out old recipes
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:flibe>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:flibe>*72);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:nak>*144);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:boron>*192);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lithium>*160);
@@ -283,42 +283,42 @@ mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:radaway_slow>*250);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:redstone_ethanol>*250);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:slurry_ice>*1000);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:emergency_coolant>*1000);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:unsweetened_chocolate>*288);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:unsweetened_chocolate>*144);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:dark_chocolate>*144);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:milk_chocolate>*288);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:hydrated_gelatin>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:hydrated_gelatin>*72);
 mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:marshmallow>*144);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:iron_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:redstone_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:quartz_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:obsidian_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:nether_brick_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:glowstone_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lapis_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:gold_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:prismarine_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:slime_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:end_stone_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:purpur_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:diamond_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:emerald_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:copper_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:tin_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lead_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:boron_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lithium_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:magnesium_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:manganese_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:aluminum_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:silver_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:fluorite_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:villiaumite_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:carobbiite_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:arsenic_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:liquid_nitrogen_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:liquid_helium_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:enderium_nak>*576);
-mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:cryotheum_nak>*576);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:iron_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:redstone_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:quartz_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:obsidian_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:nether_brick_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:glowstone_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lapis_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:gold_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:prismarine_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:slime_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:end_stone_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:purpur_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:diamond_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:emerald_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:copper_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:tin_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lead_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:boron_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:lithium_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:magnesium_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:manganese_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:aluminum_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:silver_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:fluorite_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:villiaumite_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:carobbiite_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:arsenic_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:liquid_nitrogen_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:liquid_helium_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:enderium_nak>*144);
+mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(<fluid:cryotheum_nak>*144);
 
 #Fluoride Fuels
 //mods.nuclearcraft.SaltMixer.addRecipe(ILiquidStack fluidInput1, ILiquidStack fluidInput2, ILiquidStack fluidOutput, {double timeMultiplier, double powerMultiplier, double processRadiation});
@@ -991,16 +991,16 @@ mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotThorium>, <ore:ingotLead>.fi
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:dustTBP>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:dustTBP>, <ore:dustTBU>.firstItem, 1.0, 1.0, 0.000006);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium233All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium233>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium233>, <ore:ingotBismuth>.firstItem, 1.0, 1.0, 0.000006);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium235All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium235>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium235>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.000000001);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium238All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotUranium238>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotUranium238>, <ore:dustRadium>.firstItem, 1.0, 1.0, 0.000000000225);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium236All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium236>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotNeptunium236>, <ore:ingotThorium>.firstItem, 1.0, 1.0, 0.000006);
 
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237Carbide>);
@@ -1011,14 +1011,14 @@ mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotNeptunium237ZA>)
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium238All>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium238>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.011);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium239>, <ore:ingotUranium235>.firstItem, 1.0, 1.0, 0.000006);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Carbide>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Nitride>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239Oxide>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium239ZA>);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotPlutonium241>, <ore:ingotNeptunium237>.firstItem, 1.0, 1.0, 0.000006);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241Carbide>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotPlutonium241Oxide>);
@@ -1035,7 +1035,7 @@ mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241Oxid
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241Nitride>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium241ZA>);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium242All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium242>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotAmericium242>, <ore:ingotLead>.firstItem, 1.0, 1.0, 0.000007);
 
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotAmericium243Carbide>);
@@ -1083,7 +1083,7 @@ mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251Ox
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251Nitride>);
 mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium251ZA>);
 
-mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium252All>);
+mods.nuclearcraft.DecayHastener.removeRecipeWithInput(<ore:ingotCalifornium252>);
 mods.nuclearcraft.DecayHastener.addRecipe(<ore:ingotCalifornium252>, <ore:ingotThorium>.firstItem, 1.0, 1.0, 0.380);
 
 #Naquadah Series Isotopes
