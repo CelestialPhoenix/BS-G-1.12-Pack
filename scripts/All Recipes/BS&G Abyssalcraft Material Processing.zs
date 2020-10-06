@@ -201,23 +201,33 @@ mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetAluminium>.f
 mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetZinc>.firstItem);
 mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetCalcium>.firstItem);
 
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterMagnesium>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterGold>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterSulfur>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterIron>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCoralium>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterMethane>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterZinc>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCalcium>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterTin>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterAluminium>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterAbyssalnite>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCopper>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterRedstone>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterDreadium>);
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterBlaze>);
-//page 128
-mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalCluster>);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterIron>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterGold>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterSulfur>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCarbon>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterOxygen>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterHydrogen>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterNitrogen>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterPhosphorus>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterPotassium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterNitrate>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterMethane>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterRedstone>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterAbyssalnite>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCoralium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterDreadium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterBlaze>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterTin>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCopper>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterSilicon>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterMagnesium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterAluminium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterSilica>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterAlumina>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterMagnesia>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterZinc>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterCalcium>.firstItem);
+mods.abyssalcraft.Transmutator.removeTransmutationInput(<ore:crystalClusterBeryllium>.firstItem);
 
 #--Alchemy-- 
 mods.abyssalcraft.Crystallizer.addCrystallization(<metaitem:fluid_cell>.withTag({Fluid: {FluidName: "liquidantimatter", Amount: 1000}}), <materialpart:antimatter:clathrate>*10, <metaitem:fluid_cell>, 0.0);
