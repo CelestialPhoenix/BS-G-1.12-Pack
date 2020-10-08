@@ -201,6 +201,49 @@ mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:oreCopper>.firstI
 
 #Crystal Fragments
 
+#Materialiser---
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:bone>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:rotten_flesh>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:corflesh>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:corbone>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:coal:0>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:coal:1>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:blaze_powder>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:blaze_rod>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:methane>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:nitre>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:dreadfragment>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:sponge>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:elytra>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:prismarine_shard>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:prismarine_crystals>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:prismarine:0>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:prismarine:1>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:prismarine:2>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:sea_lantern>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:egg>);
+mods.abyssalcraft.Materializer.removeMaterialization(<abyssalcraft:charcoal>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:coal_block>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:redstone_block>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:diamond>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:oreDiamond>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:1>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:2>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:3>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:4>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:5>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:stone:6>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:leather>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:rabbit_hide>);
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:rabbit_foot>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:logWood>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:plankWood>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:treeSapling>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:treeLeaves>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:vine>);
+mods.abyssalcraft.Materializer.removeMaterialization(<ore:dye:4>);
+
 #Transmutator
 //Dense carbon cluster
 mods.abyssalcraft.Transmutator.removeTransmutationOutput(<ore:nuggetIron>.firstItem);
