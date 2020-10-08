@@ -188,6 +188,17 @@ mods.abyssalcraft.Crystallizer.removeCrystallization(<gregtech:meta_item_1:10001
 
 mods.abyssalcraft.Crystallizer.removeCrystallization(<minecraft:bone>);
 
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:ingotCalcium>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:ingotAluminium>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:nuggetBronze>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:nuggetCopper>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:nuggetZinc>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:nuggetCalcium>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:dustAluminium>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:dustGold>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:dustRedstone>.firstItem);
+mods.abyssalcraft.Crystallizer.removeCrystallizationInput(<ore:oreCopper>.firstItem);
+
 #Crystal Fragments
 
 #Transmutator
