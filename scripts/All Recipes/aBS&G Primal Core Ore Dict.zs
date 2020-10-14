@@ -60,6 +60,7 @@ print("Going Primal. Not unlike going commando");
 #-dyes-
 <ore:dyeRed>.remove(<primal:inferum_ground>);
 <ore:dyeBlack>.remove(<primal:sinuous_resin>);
+<ore:dyeBrown>.remove(<primal:paraffin_clump>);
 
 #-ingot-
 #<ore:ingot>.remove(<primal:_ingot>);
