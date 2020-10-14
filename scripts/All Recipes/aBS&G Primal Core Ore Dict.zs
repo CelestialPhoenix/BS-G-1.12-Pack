@@ -52,6 +52,14 @@ print("Going Primal. Not unlike going commando");
 <ore:dustShibuichi>.remove(<primal:shibuichi_dust>);
 <ore:dustAdamant>.remove(<primal:adamant_dust>);
 <ore:dustVanadium>.remove(<primal:vanadium_dust>);
+<ore:dustSalt>.remove(<primal:salt_dust_netjry>);
+<ore:dustSalt>.remove(<primal:salt_dust_rock>);
+<ore:dustSalt>.remove(<primal:salt_dust_fire>);
+<ore:dustSalt>.remove(<primal:salt_dust_void>);
+
+#-dyes-
+<ore:dyeRed>.remove(<primal:inferum_ground>);
+<ore:dyeBlack>.remove(<primal:sinuous_resin>);
 
 #-ingot-
 #<ore:ingot>.remove(<primal:_ingot>);
