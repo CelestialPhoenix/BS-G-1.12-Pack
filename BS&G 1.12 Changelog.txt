@@ -4,6 +4,10 @@ Read at your own risk.
 ------------
 Centrifuge plants to methane recipes
 Stock crystal processing recipes left in AC machines to remove- causes feedback loops
+Primal salts in ore dict
+New nuclearcraft stuff in ore dict.
+
+Gtech coke oven multiblock description
 
 LECc-230 ZA fuel wrong texture
 Nq312 names
@@ -44,6 +48,7 @@ AbyssalCraft
 -added Lc't fuel assembly recipes
 -added U235/235 processing
 -fixed a few ore/material processing recipe errors
+-tidied Crystallizer, Materializer, and Transmutor recipes
 Antique Atlas
 -new recipes, choice of Thaumcraft or Botania
 -disabled auto-markers

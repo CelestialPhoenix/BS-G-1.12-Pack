@@ -33,6 +33,7 @@ for item in U235.items{
 <ore:blockZirconium>.remove(<nuclearcraft:ingot_block:10>);
 <ore:blockManganese>.remove(<nuclearcraft:ingot_block:11>);
 <ore:blockAluminum>.remove(<nuclearcraft:ingot_block:12>);
+<ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
 <ore:blockSilver>.remove(<nuclearcraft:ingot_block:13>);
 
 #Dust
@@ -63,6 +64,16 @@ for item in U235.items{
 <ore:dustCarobbiite>.remove(<nuclearcraft:gem_dust:9>);
 <ore:dustArsenic>.remove(<nuclearcraft:gem_dust:10>);
 <ore:dustEndstone>.remove(<nuclearcraft:gem_dust:11>);
+
+<ore:dustBismuth>.remove(<nuclearcraft:fission_dust:0>);
+<ore:dustMolybdenum>.remove(<nuclearcraft:fission_dust:6>);
+
+#Food
+<ore:dustWheat>.remove(<nuclearcraft:flour>);
+<ore:dustCocoa>.remove(<nuclearcraft:cocoa_solids>);
+<ore:dyeBrown>.remove(<nuclearcraft:cocoa_solids>);
+<ore:foodCocoaPowder>.remove(<nuclearcraft:cocoa_solids>);
+
 
 #Gem
 <ore:gemFluorite>.remove(<nuclearcraft:gem:2>);
