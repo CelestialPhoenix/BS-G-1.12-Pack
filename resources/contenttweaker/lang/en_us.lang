@@ -1023,7 +1023,7 @@ item.contenttweaker.ingotcalithorium.name=Calithorium Ingot
 item.contenttweaker.ingotnaqufornia.name=Naqufornia Ingot
 item.contenttweaker.ingotnaqufornium.name=Naqufornium Ingot
 
-item.contenttweaker.ingotNq312.name=Naquadah-312
+item.contenttweaker.ingotnq312.name=Naquadah-312
 item.contenttweaker.ingotnq313.name=Naquadah-313
 item.contenttweaker.ingotnq314.name=Naquadah-314
 item.contenttweaker.ingotnq319.name=Naquadah-319
@@ -1083,7 +1083,7 @@ item.contenttweaker.ingotvy328.name=Vyrallium-328
 item.contenttweaker.ingotvy329.name=Vyrallium-329
 item.contenttweaker.ingotvy330.name=Vyrallium-330
 
-item.contenttweaker.ingotNq312carbide.name=Naquadah-312 Carbide
+item.contenttweaker.ingotnq312carbide.name=Naquadah-312 Carbide
 item.contenttweaker.ingotnq313carbide.name=Naquadah-313 Carbide
 item.contenttweaker.ingotnq314carbide.name=Naquadah-314 Carbide
 item.contenttweaker.ingotnq319carbide.name=Naquadah-319 Carbide
@@ -1143,7 +1143,7 @@ item.contenttweaker.ingotvy328carbide.name=Vyrallium-328 Carbide
 item.contenttweaker.ingotvy329carbide.name=Vyrallium-329 Carbide
 item.contenttweaker.ingotvy330carbide.name=Vyrallium-330 Carbide
 
-item.contenttweaker.ingotNq312nitride.name=Naquadah-312 Nitride
+item.contenttweaker.ingotnq312nitride.name=Naquadah-312 Nitride
 item.contenttweaker.ingotnq313nitride.name=Naquadah-313 Nitride
 item.contenttweaker.ingotnq314nitride.name=Naquadah-314 Nitride
 item.contenttweaker.ingotnq319nitride.name=Naquadah-319 Nitride
@@ -1203,7 +1203,7 @@ item.contenttweaker.ingotvy328nitride.name=Vyrallium-328 Nitride
 item.contenttweaker.ingotvy329nitride.name=Vyrallium-329 Nitride
 item.contenttweaker.ingotvy330nitride.name=Vyrallium-330 Nitride
 
-item.contenttweaker.ingotNq312oxide.name=Naquadah-312 Oxide
+item.contenttweaker.ingotnq312oxide.name=Naquadah-312 Oxide
 item.contenttweaker.ingotnq313oxide.name=Naquadah-313 Oxide
 item.contenttweaker.ingotnq314oxide.name=Naquadah-314 Oxide
 item.contenttweaker.ingotnq319oxide.name=Naquadah-319 Oxide
@@ -1263,7 +1263,7 @@ item.contenttweaker.ingotvy328oxide.name=Vyrallium-328 Oxide
 item.contenttweaker.ingotvy329oxide.name=Vyrallium-329 Oxide
 item.contenttweaker.ingotvy330oxide.name=Vyrallium-330 Oxide
 
-item.contenttweaker.ingotNq312za.name=Naquadah-312 Zirconium Alloy
+item.contenttweaker.ingotnq312za.name=Naquadah-312 Zirconium Alloy
 item.contenttweaker.ingotnq313za.name=Naquadah-313 Zirconium Alloy
 item.contenttweaker.ingotnq314za.name=Naquadah-314 Zirconium Alloy
 item.contenttweaker.ingotnq319za.name=Naquadah-319 Zirconium Alloy
