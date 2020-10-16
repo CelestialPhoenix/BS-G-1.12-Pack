@@ -418,6 +418,55 @@ centrifuge
     .EUt(200)
     .buildAndRegister();
 
+#Naquadah Enrichment Processing
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniumBot>)
+    .outputs(<ore:dustTinyNaquadria>.firstItem*8, <ore:dustTinyPlutonium239>.firstItem, <ore:dustCalifornium252>.firstItem)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniumAby>)
+    .outputs(<ore:dustNaquadria>.firstItem, <ore:dustSmallCalifornium239>.firstItem*3, <ore:dustSmallThorium>.firstItem*1)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniaThaum>)
+    .outputs(<ore:dustTinyNaquadria>.firstItem*7, <ore:dustTinyPlutonium241>.firstItem*2, <ore:dustTinyCalifornium252>.firstItem*7, <ore:dustTinyThorium>.firstItem*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniaBot>)
+    .outputs(<ore:dustTinyNaquadahEnriched>.firstItem*8, <ore:dustTinyPlutonium241>.firstItem, <ore:dustCalifornium252>.firstItem)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniaAby>)
+    .outputs(<ore:dustNaquadahEnriched>.firstItem, <ore:dustSmallCalifornium252>.firstItem*3, <ore:dustSmallThorium>.firstItem*1)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquforniumThaum>)
+    .outputs(<ore:dustTinyNaquadahEnriched>.firstItem*7, <ore:dustTinyPlutonium241>.firstItem*2, <ore:dustTinyCalifornium252>.firstItem*7, <ore:dustTinyThorium>.firstItem*2)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
 #Uranium Dioxide (from uraninite)
 centrifuge
     .recipeBuilder()
