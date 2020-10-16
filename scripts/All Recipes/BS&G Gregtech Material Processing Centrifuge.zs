@@ -430,7 +430,7 @@ centrifuge
 centrifuge
     .recipeBuilder()
 	.inputs(<ore:dustNaquforniumAby>)
-    .outputs(<ore:dustNaquadria>.firstItem, <ore:dustSmallCalifornium239>.firstItem*3, <ore:dustSmallThorium>.firstItem*1)
+    .outputs(<ore:dustNaquadria>.firstItem, <ore:dustSmallCalifornium252>.firstItem*3, <ore:dustSmallThorium>.firstItem*1)
     .duration(200)
     .EUt(800)
     .buildAndRegister();
