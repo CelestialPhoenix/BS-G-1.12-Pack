@@ -970,8 +970,8 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy327TRISO>.firs
 //mods.nuclearcraft.FissionIrradiator.addRecipe(IIngredient itemInput, IIngredient itemOutput, int fluxRequired, double heatPerFlux, double efficiency, double radiation);
 
 #Naquadah Enrichment Processing
-mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadah>, <ore:dustNaquforniumThaum>, 25600000, 0.0, 1.0, 0.000100);
-mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadria>, <ore:dustNaquforniaThaum>, 38400000, 0.0, 1.0, 0.000100);
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadah>, <ore:dustNaquadahEnriched>, 25600000, 0.0, 1.0, 0.000100);
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadria>, <ore:dustNaquadriaEnriched>, 38400000, 0.0, 1.0, 0.000100);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotNaqufornium>, <ore:dustNaquforniumThaum>, 6400000, 0.0, 1.0, 0.000300);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotNaqufornia>, <ore:dustNaquforniaThaum>, 9600000, 0.0, 1.0, 0.000300);
 

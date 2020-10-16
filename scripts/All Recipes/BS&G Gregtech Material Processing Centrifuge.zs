@@ -467,6 +467,22 @@ centrifuge
     .EUt(800)
     .buildAndRegister();
 
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquadah312Enriched>)
+    .outputs(<ore:dustTinyNaquadria>.firstItem*6, <ore:dustTinyPlutonium239>.firstItem*3)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+centrifuge
+    .recipeBuilder()
+	.inputs(<ore:dustNaquadriaEnriched>)
+    .outputs(<ore:dustTinyNaquadahEnriched>.firstItem*6, <ore:dustTinyPlutonium241>.firstItem*3)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
 #Uranium Dioxide (from uraninite)
 centrifuge
     .recipeBuilder()
