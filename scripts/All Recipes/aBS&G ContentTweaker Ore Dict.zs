@@ -191,6 +191,9 @@ print("Tweak Tweak Tweak Tweak");
 <ore:dustNaquforniumBot>.add(<contenttweaker:dustnaquforniumbot>);
 <ore:dustNaquforniumThaum>.add(<contenttweaker:dustnaquforniumthaum>);
 
+<ore:dustNaquadahEnriched>.add(<contenttweaker:dustnaquadahenriched>);
+<ore:dustNaquadriaEnriched>.add(<contenttweaker:dustnaquadriaenriched>);
+
 <ore:dustPurpur>.add(<contenttweaker:dustpurpur>);
 <ore:dustSlime>.add(<contenttweaker:dustslime>);
 <ore:dustTBU>.add(<contenttweaker:dusttbu>);

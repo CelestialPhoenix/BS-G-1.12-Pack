@@ -35,6 +35,15 @@ dustNaquforniumBot.register();
 var dustNaquforniumThaum = VanillaFactory.createItem("dustnaquforniumthaum");
 dustNaquforniumThaum.register();
 
+var dustNaquforniumThaum = VanillaFactory.createItem("dustnaquforniumthaum");
+dustNaquforniumThaum.register();
+
+var dustNaquadah312Enriched = VanillaFactory.createItem("dustnaquadahenriched");
+dustNaquadah312Enriched.register();
+
+var dustNaquadriaEnriched = VanillaFactory.createItem("dustnaquadriaenriched");
+dustNaquadriaEnriched.register();
+
 var dustNetherBrick = VanillaFactory.createItem("dustnetherbrick");
 dustNetherBrick.register();
 
