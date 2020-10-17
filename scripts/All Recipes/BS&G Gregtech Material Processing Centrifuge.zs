@@ -371,6 +371,18 @@ centrifuge
     .EUt(5)
     .buildAndRegister();
 
+#Indiun Recycling
+centrifuge
+    .recipeBuilder()
+	.fluidInputs([<fluid:indium_trifluoride_suspension>*12000])
+	.outputs(<ore:dustIndiumTrioxide>.firstItem)
+	.fluidOutputs([<fluid:hydrofluoric_acid>*300])
+	.fluidOutputs([<fluid:nitrogen>*2000])
+	.fluidOutputs([<fluid:oxygen>*6000])
+    .duration(800)
+    .EUt(50)
+    .buildAndRegister();
+
 #Naquadah Isotope Extraction
 centrifuge
     .recipeBuilder()

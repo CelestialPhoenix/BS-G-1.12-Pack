@@ -201,6 +201,7 @@ electrolyzer
     .buildAndRegister();
 }
 
+#FLiBe Recycling
 electrolyzer
     .recipeBuilder()
 	.fluidInputs([<fluid:flibe>*1008])
@@ -209,6 +210,9 @@ electrolyzer
     .duration(300)
     .EUt(400)
     .buildAndRegister();
+
+#Indium Recycling
+electrolyzer.findRecipe(60, null, [<fluid:indium_trifluoride_suspension>*12000]).remove(); //done in centrifuge
 
 #Nak Recycling
 electrolyzer
