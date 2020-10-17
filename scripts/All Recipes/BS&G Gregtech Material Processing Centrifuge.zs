@@ -419,6 +419,11 @@ centrifuge
     .buildAndRegister();
 
 #Naquadah Enrichment Processing
+//Knock out Gtech Naq centrifuge recipes
+centrifuge.findRecipe(320, [<ore:dustNaquadah>.firstItem*1], null).remove();
+centrifuge.findRecipe(640, [<ore:dustNaquadahEnriched>.firstItem*1], null).remove();
+
+//New recipes using NC process
 centrifuge
     .recipeBuilder()
 	.inputs(<ore:dustNaquforniumBot>)
