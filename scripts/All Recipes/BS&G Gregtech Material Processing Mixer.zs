@@ -402,7 +402,7 @@ mixer
 mixer
     .recipeBuilder()
     .inputs(<ore:dustNaquadah>*1, <ore:dustIridium>.firstItem*3, <ore:dustOsmium>.firstItem*1)
-    .outputs(<ore:dustOsmiridium>.firstItem*4)
+    .outputs(<ore:dustNaquadahAlloy>.firstItem*4)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
@@ -410,7 +410,7 @@ mixer
 mixer
     .recipeBuilder()
     .inputs(<ore:dustNaquadah>*1, <ore:dustOsmiridium>.firstItem*4)
-    .outputs(<ore:dustOsmiridium>.firstItem*4)
+    .outputs(<ore:dustNaquadahAlloy>.firstItem*4)
     .duration(200)
     .EUt(8)
     .buildAndRegister();
