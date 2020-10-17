@@ -94,6 +94,7 @@ for item in U235.items{
 <ore:ingotZirconium>.remove(<nuclearcraft:ingot:10>);
 <ore:ingotManganese>.remove(<nuclearcraft:ingot:11>);
 <ore:ingotAluminum>.remove(<nuclearcraft:ingot:12>);
+<ore:ingotAluminium>.remove(<nuclearcraft:ingot:12>);
 <ore:ingotSilver>.remove(<nuclearcraft:ingot:13>);
 <ore:ingotBronze>.remove(<nuclearcraft:alloy:0>);
 <ore:ingotSteel>.remove(<nuclearcraft:alloy:5>);
