@@ -133,6 +133,104 @@ mods.thaumcraft.Infusion.registerRecipe("clathrateToxicUranium", "", <ore:clathr
 
 #---Nuclear Stuff---
 
+#De-flavouring isotopes
+#Isotope Flavours
+#This awesome looping script was modified from FTB interactions
+var listIsotopes as string[] = [
+	"Uranium233",
+	"Uranium235",
+	"Uranium238",
+	"Neptunium236",
+	"Neptunium237",
+	"Plutonium238",
+	"Plutonium239",
+	"Plutonium241",
+	"Plutonium242",
+	"Americium241",
+	"Americium242",
+	"Americium243",
+	"Curium243",
+	"Curium245",
+	"Curium246",
+	"Curium247",
+	"Berkelium247",
+	"Berkelium248",
+	"Californium249",
+	"Californium250",
+	"Californium251",
+	"Californium252",
+	"Naquadah313",
+	"Naquadah314",
+	"Naquadah319",
+	"Ceresium314",
+	"Ceresium315",
+	"Ceresium319",
+	"Ceresium320",
+	"Jupiterium315",
+	"Jupiterium316",
+	"Jupiterium319",
+	"Jupiterium320",
+	"Jupiterium323",
+	"Saturnium315",
+	"Saturnium316",
+	"Saturnium317",
+	"Saturnium319",
+	"Saturnium323",
+	"Ecobronium319",
+	"Ecobronium320",
+	"Ecobronium321",
+	"Ecobronium322",
+	"Ecobronium323",
+	"Ecobronium324",
+	"Ecobronium325",
+	"Ecobronium326",
+	"McRavium316",
+	"McRavium317",
+	"McRavium318",
+	"McRavium320",
+	"McRavium322",
+	"McRavium323",
+	"McRavium324",
+	"Pyurium319",
+	"Pyurium320",
+	"Pyurium321",
+	"Pyurium322",
+	"Pyurium323",
+	"Pyurium324",
+	"Pyurium325",
+	"Pyurium326",
+	"Pyurium327",
+	"Pyurium328",
+	"Vyrallium320",
+	"Vyrallium321",
+	"Vyrallium322",
+	"Vyrallium323",
+	"Vyrallium324",
+	"Vyrallium325",
+	"Vyrallium326",
+	"Vyrallium327",
+	"Vyrallium328",
+	"Vyrallium329",
+	"Vyrallium330",
+	];
+
+for input in listIsotopes {
+	var ingotOutput as IItemStack = oreDict["ingot"~input].firstItem;
+	var ingotInputCarbide as IItemStack = oreDict["ingot"~input~"Carbide"].firstItem;
+	var ingotInputOxide as IItemStack = oreDict["ingot"~input~"Oxide"].firstItem;
+	var ingotInputNitride as IItemStack = oreDict["ingot"~input~"Nitride"].firstItem;
+	var ingotInputZA as IItemStack = oreDict["ingot"~input~"ZA"].firstItem;
+	var recipeNameCarbide as string = input~"Carbide Purification";
+	var recipeNameOxide as string = input~"Oxide Purification";
+	var recipeNameNitride as string = input~"Nitride Purification";
+	var recipeNameZA as string = input~"ZircAlloy Purification";
+
+mods.thaumcraft.Crucible.registerRecipe(recipeNameCarbide, "", ingotOutput, ingotInputCarbide, [<aspect:ordo>*20]);
+mods.thaumcraft.Crucible.registerRecipe(recipeNameOxide, "", ingotOutput, ingotInputOxide, [<aspect:ordo>*20]);
+mods.thaumcraft.Crucible.registerRecipe(recipeNameNitride, "", ingotOutput, ingotInputNitride, [<aspect:ordo>*20]);
+mods.thaumcraft.Crucible.registerRecipe(recipeNameZA, "", ingotOutput, ingotInputZA, [<aspect:ordo>*20]);
+}
+
 #TNS Gradle
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tns_gradle", "", 50, [<aspect:ordo>*12, <aspect:machina>*6, <aspect:gelum>*6, <aspect:vacuos>*6], <contenttweaker:gradlethaumic>*1, [
 [<thaumcraft:void_seed>, <ore:plateThickRarifiedVoidMetal>, <thaumcraft:void_seed>],
