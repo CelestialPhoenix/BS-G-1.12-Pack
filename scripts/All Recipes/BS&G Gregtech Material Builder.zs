@@ -757,4 +757,4 @@ dustIndiumTrioxide.addFlags("DISABLE_DECOMPOSITION");
 val fluidIndiumTrioxideSuspension = MaterialRegistry.createFluidMaterial(788, "indium_trifluoride_suspension", 0xFF8833, "fluid", [<material:indium_trioxide>*1, <material:hydrofluoric_acid>*3, <material:nitrogen>*2, <material:oxygen>*6]);
 fluidIndiumTrioxideSuspension.addFlags("DECOMPOSITION_BY_CENTRIFUGING");
 
-val dustPlutonium239 = MaterialRegistry.createDustMaterial(789, "plutonium_239", 0x8822222, "shiny", 1, null);
+val dustPlutonium239 = MaterialRegistry.createDustMaterial(789, "plutonium_239", 0x882222, "shiny", 1, null);
