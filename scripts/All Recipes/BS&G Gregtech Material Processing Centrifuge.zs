@@ -374,7 +374,7 @@ centrifuge
 #Indiun Recycling
 centrifuge
     .recipeBuilder()
-	.fluidInputs([<fluid:indium_trifluoride_suspension>*12000])
+	.fluidInputs([<fluid:indium_trifluoride_suspension>*3000])
 	.outputs(<ore:dustIndiumTrioxide>.firstItem)
 	.fluidOutputs([<fluid:hydrofluoric_acid>*300])
 	.fluidOutputs([<fluid:nitrogen>*2000])

@@ -870,7 +870,7 @@ mixer
     .recipeBuilder()
     .inputs(<ore:dustIndiumTrifluoride>)
 	.fluidInputs([<fluid:nitric_acid>*3000])
-	.fluidOutputs([<fluid:indium_trifluoride_suspension>*144])
+	.fluidOutputs([<fluid:indium_trifluoride_suspension>*3000])
     .duration(100)
     .EUt(250)
     .buildAndRegister();
