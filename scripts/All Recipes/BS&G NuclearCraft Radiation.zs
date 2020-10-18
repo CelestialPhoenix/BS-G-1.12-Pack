@@ -8,7 +8,7 @@ print("Green Glowey Energy");
 //test run
 
 #--Misc Materials--
-//Ender eyes, Nether stars ect...
+//Ender eyes, Nether stars, Lc't Gradle ect...
 
 #--Nuclear Materials--
 //Ores, Plates, Ingots, Dusts, ect
@@ -155,9 +155,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECm247BoC>.firstItem,0.
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEB248BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf249BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf251BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX239BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX241BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLETBUBoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX239BoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX241BoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotTBUBoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq314BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq319BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECc315BoC>.firstItem,0.0000000);
@@ -190,9 +190,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECm247TNS>.firstItem,0.
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEB248TNS>.firstItem,0.0010000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf249TNS>.firstItem,0.3360000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf251TNS>.firstItem,0.3370000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX239TNS>.firstItem,0.0000040);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX241TNS>.firstItem,0.0000070);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLETBUTNS>.firstItem,0.0000004);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX239TNS>.firstItem,0.0000040);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX241TNS>.firstItem,0.0000070);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotTBUTNS>.firstItem,0.0000004);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq314TNS>.firstItem,0.3394338);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq319TNS>.firstItem,0.3645469);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECc315TNS>.firstItem,0.3791114);
@@ -225,9 +225,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECm247LCT>.firstItem,0.
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEB248LCT>.firstItem,0.0160000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf249LCT>.firstItem,5.3760000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECf251LCT>.firstItem,5.3920000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX239LCT>.firstItem,0.0000640);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLEMIX241LCT>.firstItem,0.0001120);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLETBULCT>.firstItem,0.0000224);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX239LCT>.firstItem,0.0000640);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotMIX241LCT>.firstItem,0.0001120);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotTBULCT>.firstItem,0.0000224);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq314LCT>.firstItem,5.4309411);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLENq319LCT>.firstItem,5.8327498);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotLECc315LCT>.firstItem,6.0657821);
@@ -598,9 +598,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECm247BoC>.firs
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEB248BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf249BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf251BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX239BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX241BoC>.firstItem,0.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLETBUBoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX239BoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX241BoC>.firstItem,0.0000000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedTBUBoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq314BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq319BoC>.firstItem,0.0000000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECc315BoC>.firstItem,0.0000000);
@@ -633,9 +633,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECm247TNS>.firs
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEB248TNS>.firstItem,0.0420000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf249TNS>.firstItem,0.3780000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf251TNS>.firstItem,0.3750000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX239TNS>.firstItem,0.0190000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX241TNS>.firstItem,0.0190000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLETBUTNS>.firstItem,0.0010000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX239TNS>.firstItem,0.0190000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX241TNS>.firstItem,0.0190000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedTBUTNS>.firstItem,0.0010000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq314TNS>.firstItem,0.7085653);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq319TNS>.firstItem,0.6417252);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECc315TNS>.firstItem,0.5347610);
@@ -668,9 +668,9 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECm247LcT>.firs
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEB248LcT>.firstItem,0.6720000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf249LcT>.firstItem,6.0480000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECf251LcT>.firstItem,6.0000000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX239LcT>.firstItem,0.3040000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLEMIX241LcT>.firstItem,0.3040000);
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLETBULcT>.firstItem,0.0160000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX239LcT>.firstItem,0.3040000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedMIX241LcT>.firstItem,0.3040000);
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedTBULcT>.firstItem,0.0160000);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq314LcT>.firstItem,11.3370445);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLENq319LcT>.firstItem,10.2676037);
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotDepletedLECc315LcT>.firstItem,8.5561758);
