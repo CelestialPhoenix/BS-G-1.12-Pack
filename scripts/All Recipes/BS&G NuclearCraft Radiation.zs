@@ -17,9 +17,223 @@ print("Green Glowey Energy");
 #--Nuclear Materials--
 //Ores, Plates, Ingots, Dusts, ect
 
-#Naquadah
-#Thorium
+//Set radiation by material
+#Nadaquah
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah", 0.1712);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah314", 1.0511);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah319", 0.6352);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah312Difluoride", 0.0571);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah314Diflouride", 0.3504);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah319Diflouride", 0.2117);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Fluoronaquadriac312Acid", 0.0571);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Fluoronaquadriac314Acid", 0.3504);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Fluoronaquadriac319Acid", 0.2117);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("FluoronaquadriacAcid", 0.1381);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("EnrichedFluoronaquadriacAcid", 0.1397);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadria", 0.4144);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("NaquadahEnriched", 0.4192);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadite", 0.0342);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquoxiite", 0.0428);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naqulinite", 0.0062);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquothxa", 0.1036);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquarrite", 0.0439);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("NaquadahAlloy", 0.0856);
+
 #Uranium
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Thorium", 0.0000000000710);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("TungstenThoriumAlloy", 0.0000000000030);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Huttonite", 0.0000000000118);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Thorianite", 0.0000000000237);
+
+#Thorium
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Uranium", 0.0000003850000);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Coffinite", 0.0000000481250);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Thorite", 0.0000000550101);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Brannerite", 0.0000000770000);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("UraniumDioxide", 0.0000001283333);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Uraninite", 0.0000001283333);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Pitchblende", 0.0000002310000);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("UraniumHexafluoride", 0.0000000550000);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Uranium235Hexafluoride", 0.0000000001429);
+mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Uranium238Hexafluoride", 0.0000000000340);
+
+//Set individual radiation levels
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadah>.firstItem, 0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:foilNaquadah>.firstItem, 0.04280755631); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireFineNaquadah>.firstItem, 0.02140377816); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:stickLongNaquadah>.firstItem, 0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gearNaquadah>.firstItem, 0.684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:elementNaquadah>.firstItem, 0.684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquadah>.firstItem, 0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquadah>.firstItem, 0.1284226689); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquadah>.firstItem, 0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtSingleNaquadah>.firstItem, 0.08561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtDoubleNaquadah>.firstItem, 0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtQuadrupleNaquadah>.firstItem, 0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtOctalNaquadah>.firstItem, 0.684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtHexNaquadah>.firstItem, 1.369841802); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtSingleNaquadah>.firstItem, 0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtDoubleNaquadah>.firstItem, 0.08561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtQuadrupleNaquadah>.firstItem, 0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtOctalNaquadah>.firstItem, 0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtHexNaquadah>.firstItem, 0.684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:blockCoilNaquadah>.firstItem, 1.369841802); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquadah>.firstItem, 0.8561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquadah>.firstItem, 0.8561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquadah>.firstItem, 1.712302253); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadah314>.firstItem,1.051120519); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadah319>.firstItem,0.0793957419); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac312Acid>.firstItem,0.005707674175); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac314Acid>.firstItem,0.03503735064); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac319Acid>.firstItem,0.02117219784); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriacAcid>.firstItem,0.01381331947); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateEnrichedFluoronaquadriacAcid>.firstItem,0.01397325656); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadria>.firstItem,0.4143995842);  
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquadria>.firstItem,0.8287991684); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquadria>.firstItem,0.3107996882); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquadria>.firstItem,0.8287991684); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquadria>.firstItem,2.071997921); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquadria>.firstItem,2.071997921); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquadria>.firstItem,4.143995842); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadahAlloy>.firstItem,0.684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:foilNaquadahAlloy>.firstItem,1.369841802); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireFineNaquadahAlloy>.firstItem,0.8561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:stickLongNaquadahAlloy>.firstItem,0.8561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gearNaquadahAlloy>.firstItem,1.712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:elementNaquadahAlloy>.firstItem,0.01712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtSingleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtDoubleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtQuadrupleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtOctalNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:wireGtHexNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtSingleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtDoubleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtQuadrupleNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtOctalNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:cableGtHexNaquadahAlloy>.firstItem,0); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:blockCoilNaquadahAlloy>.firstItem,0);
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadahEnriched>.firstItem,0.4191976968); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquadahEnriched>.firstItem,0.8383953936); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquadahEnriched>.firstItem,0.3143982726); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquadahEnriched>.firstItem,0.8383953936); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquadahEnriched>.firstItem,2.095988484); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquadahEnriched>.firstItem,2.095988484); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquadahEnriched>.firstItem,4.191976968); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadite>.firstItem,0.03424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquadite>.firstItem,0.0684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquadite>.firstItem,0.02568453379); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquadite>.firstItem,0.0684920901); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquadite>.firstItem,0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquadite>.firstItem,0.1712302253); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquadite>.firstItem,0.3424604505); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateNaquadite>.firstItem,0.003424604505); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquoxiite>.firstItem,0.04280755631); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquoxiite>.firstItem,0.08561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquoxiite>.firstItem,0.03210566724); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquoxiite>.firstItem,0.08561511263); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquoxiite>.firstItem,0.2140377816); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquoxiite>.firstItem,0.2140377816); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquoxiite>.firstItem,0.4280755631); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateNaquoxiite>.firstItem,0.004280755631); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaqulinite>.firstItem,0.006226553646); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaqulinite>.firstItem,0.01245310729); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaqulinite>.firstItem,0.004669915234); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaqulinite>.firstItem,0.01245310729); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaqulinite>.firstItem,0.03113276823); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaqulinite>.firstItem,0.03113276823); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaqulinite>.firstItem,0.06226553646); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquothxa>.firstItem,0.1035998961); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquothxa>.firstItem,0.2071997921); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquothxa>.firstItem,0.07769992204); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquothxa>.firstItem,0.2071997921); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquothxa>.firstItem,0.5179994803); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquothxa>.firstItem,0.5179994803); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquothxa>.firstItem,1.035998961); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquarrite>.firstItem,0.08779848624); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquarrite>.firstItem,0.03292443234); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterNaquarrite>.firstItem,0.08779848624); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquarrite>.firstItem,0.2194962156); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquarrite>.firstItem,0.2194962156); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquarrite>.firstItem,0.4389924312); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalThorium>.firstItem,0.00000000014200); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorium>.firstItem,0.00000000005325); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterThorium>.firstItem,0.00000000014200); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreThorium>.firstItem,0.00000000035500); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelThorium>.firstItem,0.00000000035500); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleThorium>.firstItem,0.00000000071000); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalHuttonite>.firstItem,0.00000000002367); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardHuttonite>.firstItem,0.00000000000888); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterHuttonite>.firstItem,0.00000000002367); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreHuttonite>.firstItem,0.00000000005917); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelHuttonite>.firstItem,0.00000000005917); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleHuttonite>.firstItem,0.00000000011833); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalThorianite>.firstItem,0.00000000004733); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorianite>.firstItem,0.00000000001775); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterThorianite>.firstItem,0.00000000004733); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreThorianite>.firstItem,0.00000000011833); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelThorianite>.firstItem,0.00000000011833); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleThorianite>.firstItem,0.00000000023667); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalUranium>.firstItem,0.00000077000000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardUranium>.firstItem,0.00000028875000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterUranium>.firstItem,0.00000077000000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreUranium>.firstItem,0.00000192500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelUranium>.firstItem,0.00000192500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleUranium>.firstItem,0.00000385000000); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalCoffinite>.firstItem,0.00000009625000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardCoffinite>.firstItem,0.00000003609375); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterCoffinite>.firstItem,0.00000009625000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreCoffinite>.firstItem,0.00000024062500); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelCoffinite>.firstItem,0.00000024062500); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleCoffinite>.firstItem,0.00000048125000); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalThorite>.firstItem,0.00000011002029); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorite>.firstItem,0.00000004125761); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterThorite>.firstItem,0.00000011002029); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreThorite>.firstItem,0.00000027505071); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelThorite>.firstItem,0.00000027505071); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleThorite>.firstItem,0.00000055010143); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalBrannerite>.firstItem,0.00000015400000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardBrannerite>.firstItem,0.00000005775000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterBrannerite>.firstItem,0.00000015400000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreBrannerite>.firstItem,0.00000038500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelBrannerite>.firstItem,0.00000038500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleBrannerite>.firstItem,0.00000077000000); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalUraninite>.firstItem,0.00000025666667); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardUraninite>.firstItem,0.00000009625000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterUraninite>.firstItem,0.00000025666667); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreUraninite>.firstItem,0.00000064166667); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelUraninite>.firstItem,0.00000064166667); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleUraninite>.firstItem,0.00000128333333); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalPitchblende>.firstItem,0.00000046200000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardPitchblende>.firstItem,0.00000017325000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clusterPitchblende>.firstItem,0.00000046200000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:orePitchblende>.firstItem,0.00000115500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelPitchblende>.firstItem,0.00000115500000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangiblePitchblende>.firstItem,0.00000231000000); 
+
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateUraniumHexafluoride>.firstItem,0.00000000550000); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateUranium235Hexafluoride>.firstItem,0.00000000001429); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateUranium238Hexafluoride>.firstItem,0.00000000000340); 
+
 
 #--Naquadah Fuel Isotopes--
 //Naquadah, Ceresium, Jupiterium ect Carbide/Oxide...
