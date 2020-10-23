@@ -35,15 +35,15 @@ print("Hello Boys- I'm Baaaaack!!!");
 <ore:blockSteel>.remove(<gregtech:compressed_8:4>);
 
 #-coil blocks-
-<ore:coilBlockConstantan>.add(<gregtech:wire_coil:0>);
-<ore:coilBlockKanthal>.add(<gregtech:wire_coil:1>);
-<ore:coilBlockNichrome>.add(<gregtech:wire_coil:2>);
-<ore:coilBlockTungstenSteel>.add(<gregtech:wire_coil:3>);
-<ore:coilBlockHssg>.add(<gregtech:wire_coil:4>);
-<ore:coilBlockNaquadah>.add(<gregtech:wire_coil:5>);
-<ore:coilBlockNaquadahAlloy>.add(<gregtech:wire_coil:6>);
-<ore:coilBlockSuper>.add(<gregtech:wire_coil:7>);
-<ore:coilBlockFusion>.add(<gregtech:wire_coil:8>);
+<ore:blockCoilConstantan>.add(<gregtech:wire_coil:0>);
+<ore:blockCoilKanthal>.add(<gregtech:wire_coil:1>);
+<ore:blockCoilNichrome>.add(<gregtech:wire_coil:2>);
+<ore:blockCoilTungstenSteel>.add(<gregtech:wire_coil:3>);
+<ore:blockCoilHssg>.add(<gregtech:wire_coil:4>);
+<ore:blockCoilNaquadah>.add(<gregtech:wire_coil:5>);
+<ore:blockCoilNaquadahAlloy>.add(<gregtech:wire_coil:6>);
+<ore:blockCoilSuper>.add(<gregtech:wire_coil:7>);
+<ore:blockCoilFusion>.add(<gregtech:wire_coil:8>);
 
 #---items--- 
 <ore:cellEmpty>.add(<metaitem:fluid_cell>);
