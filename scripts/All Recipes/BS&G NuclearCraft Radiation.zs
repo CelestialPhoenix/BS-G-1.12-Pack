@@ -86,11 +86,11 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadah314>.firstIte
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadah319>.firstItem,0.0793957419); 
 
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac312Acid>.firstItem,0.005707674175); 
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac314Acid>.firstItem,0.03503735064); 
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriac319Acid>.firstItem,0.02117219784); 
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadriacAcid>.firstItem,0.01381331947); 
-mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateEnrichedFluoronaquadriacAcid>.firstItem,0.01397325656); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadraic312Acid>.firstItem,0.005707674175); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadraic314Acid>.firstItem,0.03503735064); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadraic319Acid>.firstItem,0.02117219784); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateFluoronaquadraicAcid>.firstItem,0.01381331947); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:clathrateEnrichedFluoronaquadraicAcid>.firstItem,0.01397325656); 
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotHotNaquadria>.firstItem,0.4143995842);  
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalNaquadria>.firstItem,0.8287991684); 
