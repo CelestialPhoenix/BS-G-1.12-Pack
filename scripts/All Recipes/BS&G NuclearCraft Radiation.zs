@@ -36,6 +36,10 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaAby>.firstItem,
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaBot>.firstItem, 0.375); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaThaum>.firstItem, 0.750);
 
+#Naquadah Enrichment dusts
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquadah312Enriched>.firstItem, 0.250); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquadriaEnriched>.firstItem, 0.625); 
+
 //Set radiation by material
 #Nadaquah
 mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah", 0.1712);
