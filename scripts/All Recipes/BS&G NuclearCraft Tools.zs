@@ -74,54 +74,54 @@ recipes.addShaped(<nuclearcraft:helm_tough>,[
 [<ore:plateComposite>, <minecraft:leather_helmet>, <ore:plateComposite>]]);
 
 #Hard-Carbon -- 
-<nuclearcraft:boots_hard_carbon>.displayName="[Name] Boots";
+<nuclearcraft:boots_hard_carbon>.displayName="Reinforced Composite Boots";
 recipes.remove(<nuclearcraft:boots_hard_carbon>);
 recipes.addShaped(<nuclearcraft:boots_hard_carbon>,[
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>]]);
 
-<nuclearcraft:legs_hard_carbon>.displayName="[Name] Leggings";
+<nuclearcraft:legs_hard_carbon>.displayName="Reinforced Composite Leggings";
 recipes.remove(<nuclearcraft:legs_hard_carbon>);
 recipes.addShaped(<nuclearcraft:legs_hard_carbon>,[
 [<ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>]]);
 
-<nuclearcraft:chest_hard_carbon>.displayName="[Name] Chestplate";
+<nuclearcraft:chest_hard_carbon>.displayName="Reinforced Composite Chestplate";
 recipes.remove(<nuclearcraft:chest_hard_carbon>);
 recipes.addShaped(<nuclearcraft:chest_hard_carbon>,[
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>]]);
 
-<nuclearcraft:helm_hard_carbon>.displayName="[Name] Helmet";
+<nuclearcraft:helm_hard_carbon>.displayName="Reinforced Composite Helmet";
 recipes.remove(<nuclearcraft:helm_hard_carbon>);
 recipes.addShaped(<nuclearcraft:helm_hard_carbon>,[
 [<ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>, <ore:plateCompositeUltimate>],
 [<ore:plateCompositeUltimate>, null, <ore:plateCompositeUltimate>]]);
 
 #Boron-Nitride -- Hazmat
-<nuclearcraft:boots_boron_nitride>.displayName="Hazmat Boots";
+<nuclearcraft:boots_boron_nitride>.displayName="Composite Rubber Boots";
 recipes.remove(<nuclearcraft:boots_boron_nitride>);
 recipes.addShaped(<nuclearcraft:boots_boron_nitride>,[
 [<ore:plateCompositeRubber>, null, <ore:plateCompositeRubber>],
 [<ore:plateCompositeRubber>, <nuclearcraft:boots_boron>, <ore:plateCompositeRubber>]]);
 
-<nuclearcraft:legs_boron_nitride>.displayName="Hazmat Leggings";
+<nuclearcraft:legs_boron_nitride>.displayName="Composite Rubber Leggings";
 recipes.remove(<nuclearcraft:legs_boron_nitride>);
 recipes.addShaped(<nuclearcraft:legs_boron_nitride>,[
 [<ore:plateCompositeRubber>, <ore:plateCompositeRubber>, <ore:plateCompositeRubber>],
 [<ore:plateCompositeRubber>, <nuclearcraft:legs_boron>, <ore:plateCompositeRubber>],
 [<ore:plateCompositeRubber>, null, <ore:plateCompositeRubber>]]);
 
-<nuclearcraft:chest_boron_nitride>.displayName="Hazmat Chestplate";
+<nuclearcraft:chest_boron_nitride>.displayName="Composite Rubber Chestplate";
 recipes.remove(<nuclearcraft:chest_boron_nitride>);
 recipes.addShaped(<nuclearcraft:chest_boron_nitride>,[
 [<ore:plateCompositeRubber>, <nuclearcraft:chest_boron>, <ore:plateCompositeRubber>],
 [<ore:plateCompositeRubber>, <ore:plateCompositeRubber>, <ore:plateCompositeRubber>],
 [<ore:plateCompositeRubber>, <ore:plateCompositeRubber>, <ore:plateCompositeRubber>]]);
 
-<nuclearcraft:helm_boron_nitride>.displayName="Hazmat Helmet";
+<nuclearcraft:helm_boron_nitride>.displayName="Composite Rubber Helmet";
 recipes.remove(<nuclearcraft:helm_boron_nitride>);
 recipes.addShaped(<nuclearcraft:helm_boron_nitride>,[
 [<ore:plateCompositeRubber>, <ore:plateCompositeRubber>, <ore:plateCompositeRubber>],
