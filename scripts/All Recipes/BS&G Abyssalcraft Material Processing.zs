@@ -838,7 +838,7 @@ mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:ingotcalithorium
 #Uranium Enrichment Processing
 mods.abyssalcraft.Transmutator.addTransmutation(<contenttweaker:uranium_hexafluoride_clathrate>, <contenttweaker:uranium238_hexafluoride_clathrate>, 0);
 
-mods.abyssalcraft.InfusionRitual.addRitual("enrichU235", 3, 1, 5000, true, <ore:clathrateUraniumHexafluoride235>.firstItem, <ore:clathrateUraniumHexafluoride>, [<ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>], false);
+mods.abyssalcraft.InfusionRitual.addRitual("enrichU235", 3, 1, 5000, true, <ore:clathrateUranium235Hexafluoride>.firstItem, <ore:clathrateUraniumHexafluoride>, [<ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>, null, <ore:dustTinyUranium>], false);
 game.setLocalization("enrichU235", "Uranium Fuel Enrichment Ritual.");
 game.setLocalization("enrichU235.desc", "...");
 
