@@ -12,11 +12,10 @@ furnace.remove(<minecraft:coal:1>);
 furnace.addRecipe(<ore:ingotCalifornium252>.firstItem, <ore:dustCalifornium252>);
 furnace.addRecipe(<ore:ingotTBU>.firstItem, <ore:dustTBU>);
 
-furnace.remove(<gregtech:meta_item_1:10076>, <ore:dustUranuim238>); //removes broken recipe producing wrong ingot
-furnace.addRecipe(<ore:ingotUranuim235>.firstItem, <ore:dustUranuim235>);
-furnace.addRecipe(<ore:ingotUranuim238>.firstItem, <ore:dustUranuim238>);
-
-
+furnace.remove(<gregtech:meta_item_1:10076>, <ore:dustUranium235>); //removes broken recipe producing wrong ingot
+furnace.addRecipe(<ore:ingotUranium235>.firstItem, <ore:dustUranium235>);
+furnace.addRecipe(<ore:ingotUranium238>.firstItem, <ore:dustUranium238>);
+furnace.addRecipe(<ore:ingotPlutonium239>.firstItem, <ore:Plutonium239>);
 
 #--Nugget/Ingot/Block processing
 #--Ingot Smelting (from block)--

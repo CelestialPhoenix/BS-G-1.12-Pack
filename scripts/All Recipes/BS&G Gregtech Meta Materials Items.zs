@@ -81,6 +81,15 @@ recipes.addShapeless(<ore:dustTinAlloy>.firstItem*3, [<ore:dustTin>, <ore:dustTi
 
 recipes.addShapeless(<ore:dustTungstenCarbide>.firstItem*3, [<ore:dustTungsten>, <ore:dustTungsten>, <ore:dustCarbon>, <ore:dustCarbon>]);
 
+recipes.addShaped(<ore:dustPlutonium239>.firstItem,[
+[<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>],
+[<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>],
+[<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>]);
+
+recipes.addShaped(<ore:dustPlutonium239>.firstItem,[
+[<ore:dustSmallPlutonium239>, <ore:dustSmallPlutonium239>],
+[<ore:dustSmallPlutonium239>, <ore:dustSmallPlutonium239>]);
+
 #--Ingots--
 recipes.remove(<ore:ingotAluminium>.firstItem);
 recipes.remove(<ore:ingotAmericium>.firstItem);
@@ -140,6 +149,7 @@ recipes.remove(<ore:ingotTitanium>.firstItem);
 recipes.remove(<ore:ingotTungsten>.firstItem);
 recipes.remove(<ore:ingotUranium>.firstItem);
 recipes.remove(<ore:ingotUranium235>.firstItem);
+recipes.remove(<gregtech:meta_item_1:10076>);//U235
 recipes.remove(<ore:ingotVanadium>.firstItem);
 recipes.remove(<ore:ingotYttrium>.firstItem);
 recipes.remove(<ore:ingotZinc>.firstItem);
