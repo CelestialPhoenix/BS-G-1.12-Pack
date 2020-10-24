@@ -238,13 +238,6 @@ recipes.addShaped(<nuclearcraft:fission_irradiator>*1, [
 [null, <ore:hullHV>, null],
 [<ore:barsIron>, null, <ore:barsIron>]]);
 
-#Fission Monitor
-recipes.remove(<nuclearcraft:fission_monitor>); 
-recipes.addShaped(<nuclearcraft:fission_monitor>, [
-[null, <ore:sensorEV>, null],
-[null, <ore:hullHV>, null],
-[null, <ore:circuitElite>, null]]);
-
 #Neutron Sources
 #Ra-Be
 recipes.remove(<nuclearcraft:fission_source:0>); 
