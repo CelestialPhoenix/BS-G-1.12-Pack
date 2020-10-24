@@ -1,20 +1,30 @@
 #Name: Blood Sweat & Gears NuclearCraft Ore Dict.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, Innomin8
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 print("Green Glowey Energy");
 
 #removing entries
 #<ore:>.remove(<nuclearcraft:>);
 
-/*
-#-Remove Duplicate Gtech entry
 
-val U235 = <ore:ingotUranium235>;
-for item in U235.items{
-	<ore:ingotUranium235>.remove(item);
+#-Remove Duplicate Gtech entry
+//Thanks Innomin8 for the CT example
+var oreDictRemaining as IItemStack[IOreDictEntry] = {
+    <ore:ingotUranium235>: <nuclearcraft:uranium:5>
+    <ore:ingotPlutonium>: <nuclearcraft:plutonium:10>
+};
+
+for oreDictEntry, item in oreDictRemaining {
+    for i in oreDictEntry.items {
+        if (!i.matches(item)) {
+            oreDictEntry.remove(i);
+        }
+    }
 }
-<ore:ingotUranium235>.add(<nuclearcraft:uranium:5>);*/
-<ore:ingotUranium235>.remove(<nuclearcraft:uranium:5>);
 
 #Blocks
 #<ore:block>.remove(<nuclearcraft:ingot_block:>);

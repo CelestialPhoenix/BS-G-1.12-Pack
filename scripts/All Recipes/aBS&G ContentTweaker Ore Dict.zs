@@ -1,6 +1,9 @@
 #Name: Blood Sweat & Gears ContentTweaker Ore Dict.zs
-#Name: Blood Sweat & Gears ContentTweaker Ore Dict.zs
-#Author: PhoePhoe
+#Author: PhoePhoe, Innomin8
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 print("Tweak Tweak Tweak Tweak");
 
@@ -289,6 +292,18 @@ print("Tweak Tweak Tweak Tweak");
 <ore:ingotVyrallium328>.add(<contenttweaker:ingotvy328>);
 <ore:ingotVyrallium329>.add(<contenttweaker:ingotvy329>);
 <ore:ingotVyrallium330>.add(<contenttweaker:ingotvy330>);
+
+#-Remove Duplicate Gtech entry
+//Thanks Innomin8 for the CT example
+var oreDictRemaining as IItemStack[IOreDictEntry] = {
+    <ore:ingotNaquadah>: <contenttweaker:ingotnq312>
+};
+
+for oreDictEntry, item in oreDictRemaining {
+    for i in oreDictEntry.items {
+        if (!i.matches(item)) {
+            oreDictEntry.remove(i);
+        }
 
 <ore:ingotNaquadah312Carbide>.add(<contenttweaker:ingotnq312carbide>);
 <ore:ingotNaquadah313Carbide>.add(<contenttweaker:ingotnq313carbide>);
