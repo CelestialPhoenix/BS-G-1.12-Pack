@@ -521,8 +521,8 @@ mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustNaquforniumBot>.firstItem*1,
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustNaquforniaBot>.firstItem*1, [<ore:ingotNaqufornia>], 320000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
 
 #Uranium Enrichment Processing
-mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>, 4000);
-mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clathrateUranium235Hexafluoride>, 4000);
+mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium238>.firstItem, <ore:clathrateUranium238Hexafluoride>*10, 4000);
+mods.botania.ManaInfusion.addAlchemy(<ore:ingotUranium235>.firstItem, <ore:clathrateUranium235Hexafluoride>*10, 4000);
 
 #---Railcraft---
 #Perpetuum Locomotive
