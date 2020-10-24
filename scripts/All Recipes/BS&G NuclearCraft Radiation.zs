@@ -17,6 +17,25 @@ print("Green Glowey Energy");
 #--Nuclear Materials--
 //Ores, Plates, Ingots, Dusts, ect
 
+//Misc Nuclear Materials--
+#Calithorium
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotCalithorium>.firstItem, 0.380); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustCalithoriumAby>.firstItem, 0.756); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustCalithoriumBot>.firstItem, 0.189); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustCalithoriumThaum>.firstItem, 0.378); 
+
+#Naqufornia
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotNaqufornia>.firstItem, 0.794); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaAby>.firstItem, 1.110); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaBot>.firstItem, 0.4775); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaThaum>.firstItem, 0.955);
+
+#Naqufornia
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:ingotNaqufornia>.firstItem, 0.551); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaAby>.firstItem, 0.950); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaBot>.firstItem, 0.375); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:dustNaquforniaThaum>.firstItem, 0.750);
+
 //Set radiation by material
 #Nadaquah
 mods.nuclearcraft.Radiation.setMaterialRadiationLevel("Naquadah", 0.1712);
