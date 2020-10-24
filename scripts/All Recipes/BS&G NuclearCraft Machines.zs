@@ -199,7 +199,7 @@ recipes.addShaped(<nuclearcraft:fission_conductor>*4, [
 [<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>]]);
 
 #Monitor
-<nuclearcraft:fission_monitor>.addTooltip("Recipe Needed");
+//recipe is somewhere??
 
 #Be-C Neutron Reflector 
 <nuclearcraft:fission_reflector:0>.displayName = "Be-C Neutron Reflector";
