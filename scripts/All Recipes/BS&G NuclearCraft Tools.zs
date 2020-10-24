@@ -10,13 +10,13 @@ recipes.remove(<nuclearcraft:multitool>);
 recipes.addShaped(<nuclearcraft:multitool>,[
 [null, <ore:plateSteel>, null],
 [<ore:buttonWood>, <ore:ringSteel>, <ore:plateSteel>],
-[<ore:sticksteel>, <ore:clock>, null]]);
+[<ore:stickSteel>, <ore:clock>, null]]);
 
 recipes.remove(<nuclearcraft:geiger_counter>);
 recipes.addShaped(<nuclearcraft:geiger_counter>,[
 [<ore:paneGlass>, <ore:sensorLV>],
 [<ore:circuitBasic>, <ore:cableGtSingleCopper>],
-[<ore:advancedAlloy>, null]]);
+[<ore:plateAdvancedAlloy>, null]]);
 
 #--Armour--
 #Boron -- Leaded
