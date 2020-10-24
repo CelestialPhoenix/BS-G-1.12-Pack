@@ -1206,7 +1206,7 @@ mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotNaqufornia>, <ore:dustNa
 
 #Thorium Enrichment Processing
 mods.nuclearcraft.FissionIrradiator.removeRecipeWithOutput(<nuclearcraft:fission_dust:3>);
-mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustTBU>, <ore:dustTBP>, 160000, 0.0, 1.0, 0.00000000071);
+//mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustTBU>, <ore:dustTBP>, 160000, 0.0, 1.0, 0.00000000071);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotCalithorium>, <ore:dustCalithoriumThaum>, 40000, 0.0, 1.0, 0.00000000284);
 
 #---Decay Hastener---
