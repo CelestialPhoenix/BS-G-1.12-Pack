@@ -56,6 +56,7 @@ recipes.remove(<ore:blockEnderEye>.firstItem);
 recipes.remove(<ore:blockCobaltBrass>.firstItem);
 recipes.remove(<ore:blockGarnetRed>.firstItem);
 recipes.remove(<ore:blockGarnetYellow>.firstItem);
+recipes.remove(<ore:blockGraphite>.firstItem);
 recipes.remove(<ore:blockVinteum>.firstItem);
 recipes.remove(<ore:blockNeodymiumMagnetic>.firstItem);
 recipes.remove(<ore:blockTungstenCarbide>.firstItem);

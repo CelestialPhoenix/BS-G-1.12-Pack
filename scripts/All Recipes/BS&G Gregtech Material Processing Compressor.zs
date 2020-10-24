@@ -583,6 +583,14 @@ compressor
     .EUt(250)
     .buildAndRegister();
 
+compressor
+    .recipeBuilder()
+    .inputs(<ore:ingotGraphite>*9)
+    .outputs(<ore:blockGraphite>.firstItem)
+    .duration(200)
+    .EUt(5)
+    .buildAndRegister();
+
 #Slag
 compressor
     .recipeBuilder()
