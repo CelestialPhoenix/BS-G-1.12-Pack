@@ -150,6 +150,11 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardNaquarrite>.first
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreNaquarrite>.firstItem,0.2194962156); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelNaquarrite>.firstItem,0.2194962156); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleNaquarrite>.firstItem,0.4389924312); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemExquisiteNaquarrite>.firstItem, 0.1755969725); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawlessNaquarrite>.firstItem, 0.08779848624); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemNaquarrite>.firstItem, 0.04389924312); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawedNaquarrite>.firstItem, 0.02194962156); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemChippedNaquarrite>.firstItem, 0.01097481078); 
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalThorium>.firstItem,0.00000000014200); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorium>.firstItem,0.00000000005325); 
@@ -163,6 +168,11 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardHuttonite>.firstI
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreHuttonite>.firstItem,0.00000000005917); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelHuttonite>.firstItem,0.00000000005917); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleHuttonite>.firstItem,0.00000000011833); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemExquisiteHuttonite>.firstItem, 0.00000000004733); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawlessHuttonite>.firstItem,	0.00000000002367); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemHuttonite>.firstItem,	0.00000000001183); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawedHuttonite>.firstItem, 0.00000000000592); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemChippedHuttonite>.firstItem, 0.00000000000296); 
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalThorianite>.firstItem,0.00000000004733); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorianite>.firstItem,0.00000000001775); 
@@ -188,6 +198,11 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardThorite>.firstIte
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreThorite>.firstItem,0.00000027505071); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreGravelThorite>.firstItem,0.00000027505071); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:oreFrangibleThorite>.firstItem,0.00000055010143); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemExquisiteThorite>.firstItem, 0.00000022004057); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawlessThorite>.firstItem, 0.00000011002029); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemThorite>.firstItem, 0.00000005501014); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemFlawedThorite>.firstItem, 0.00000002750507); 
+mods.nuclearcraft.Radiation.setRadiationLevel(<ore:gemChippedThorite>.firstItem, 0.00000001375254);  
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalBrannerite>.firstItem,0.00000015400000); 
 mods.nuclearcraft.Radiation.setRadiationLevel(<ore:crystalShardBrannerite>.firstItem,0.00000005775000); 
