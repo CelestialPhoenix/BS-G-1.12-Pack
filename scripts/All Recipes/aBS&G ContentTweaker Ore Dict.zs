@@ -304,6 +304,8 @@ for oreDictEntry, item in oreDictRemaining {
         if (!i.matches(item)) {
             oreDictEntry.remove(i);
         }
+    }
+}
 
 <ore:ingotNaquadah312Carbide>.add(<contenttweaker:ingotnq312carbide>);
 <ore:ingotNaquadah313Carbide>.add(<contenttweaker:ingotnq313carbide>);

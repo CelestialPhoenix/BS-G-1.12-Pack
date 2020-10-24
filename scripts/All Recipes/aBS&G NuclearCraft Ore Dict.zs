@@ -14,8 +14,8 @@ print("Green Glowey Energy");
 #-Remove Duplicate Gtech entry
 //Thanks Innomin8 for the CT example
 var oreDictRemaining as IItemStack[IOreDictEntry] = {
-    <ore:ingotUranium235>: <nuclearcraft:uranium:5>
-    <ore:ingotPlutonium>: <nuclearcraft:plutonium:10>
+    <ore:ingotUranium235>: <nuclearcraft:uranium:5>,
+    <ore:ingotPlutonium241>: <nuclearcraft:plutonium:10>
 };
 
 for oreDictEntry, item in oreDictRemaining {
