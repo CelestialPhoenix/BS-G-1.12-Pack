@@ -10,5 +10,5 @@ import mods.inworldcrafting.FluidToItem;
 print("Hello Boys- I'm Baaaaack!!!");
 
 #---Cryotheum Fluid Freezing---
-mods.inworldcrafting.FluidToItem.transform(<minecraft:ice>, <liquid:water>, <thermalfoundation:material:1025>, true);
-mods.inworldcrafting.FluidToItem.transform(<minecraft:obsidian>, <liquid:lava>, <thermalfoundation:material:1025>, true);
+mods.inworldcrafting.FluidToItem.transform(<minecraft:ice>, <liquid:water>, [<thermalfoundation:material:1025>], true);
+mods.inworldcrafting.FluidToItem.transform(<minecraft:obsidian>, <liquid:lava>, [<thermalfoundation:material:1025>], true);
