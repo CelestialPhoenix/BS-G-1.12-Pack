@@ -1,22 +1,40 @@
 Warning: The log is long and full of spoilers.
 Read at your own risk.
 
--Add tooltips for Neutron Bombardment and Decay Hastner products.
--Add Fissile/Fertile/Waste/Recyclable?? tooltips.
-t- check Naq processes chemisty lines up! Check enrichment recipes!
-- if time Add radioactivity to stuff
-- if time Add molten salt Naq fuels
-Fix duplicate materials in ore dict with Gtech and NC isotopes
-------
-
 31.0 ThaumoNuclear!
 This update will throw a message about missing blocks/items. This can be safely ignored.
 Updated Forge to 14.23.5.2854
 A special thank you to QuantumTraverse for helping with the Nuclearcraft fuel calculations and coefficients.
 Added Antique Atlas 4.6.3 by Hunternif et al
+Updated AbyssalCraft to 1.10.3
+Updated Athenaeum to 1.19.2
+Updated Buildcraft (all modules) to 7.99.24.7
+Updated Building Gadgets to 2.8.4
+Updated Controlling to 3.0.10
+Updated CraftTweaker to 4.9.1
+Updated Dropt to 4.1.20.586
+Updated EnergyConverters to 1.3.7.30
+Updated FTBLib to 5.4.7.2
+Updated FTBQuests to 1202.9.0.13
 Updated Gregtech to 1.9.1.507
 Updated Gregtech to 1.10.2.566
-Updated NuclearCraft to 2o.4.6-1.12.2
+Updated Gregtech to 1.10.3.569
+Updated Immersive Engineering to 0.12-98
+Updated Immersive Posts to 0.2.1
+Updated Immersive Technology to 1.8.84
+Updated In World Crafting to 1.2.0
+Updated ItemFilters to 1.0.4.2
+Updated Interactions to 1.9.1
+Updated JEI to 4.16.1.302
+Updated LagGoggles to 5.8-132
+Updated Logistics Pipes to 0.10.3.72
+Updated MoreTweaker to 1.0.16
+Updated NuclearCraft to 2o.4.6
+Updated Nuclearcraft to 2o.4.7
+Updated Reborn Core to 3.19.4.529
+Updated TellMe to 0.7.0
+Updated WanionLib to 2.6.12
+Updated Worley's Caves to 1.5.2
 All mods
 -renamed Slimeball to Slimy Looger
 AbyssalCraft
@@ -44,6 +62,7 @@ ContentTweaker
 -Added Enriched Naquadah-312 and Naquadria dusts
 FTB Quests
 -updated Electrial Tinkering chapter for changed RC stuff
+-Tweaked airship quest descriptions
 -started Nuclear Mastermind chapter
 Gregtech
 -moved multiblock descriptions to JEI tab.
@@ -55,7 +74,8 @@ Gregtech
 -renamed Naquadah to Naquadah-312
 -new recipes for Fluid Extractor machines
 -added centrifuge processing for Thorium and Naquadah enrichment
-t-fixed naq alloy mixing producing osmiridium alloy
+-fixed naq alloy mixing producing osmiridium alloy
+-added ore tags to coil blocks
 Immersive Engineering
 -fixed broken convayor recipes
 -added NaK alloy mixing
@@ -66,6 +86,11 @@ NuclearCraft
 -added decay hastening for naq fuels
 -tidied ore dict entries
 -added naquadah enrichment recipes
+-enabled radiation. for some reason this got turned off
+-gave everything else a delicious and healthy green glow
+-new recipes for Geiger Counters, Scrubber, Multitool
+-fixed a few broken recipes
+-tweaked armour names
 Quark
 -disabled slime bucket
 Railcraft
