@@ -199,7 +199,11 @@ recipes.addShaped(<nuclearcraft:fission_conductor>*4, [
 [<ore:plateThickConstantan>, <ore:platingBasic>, <ore:plateThickConstantan>]]);
 
 #Monitor
-//recipe is somewhere??
+recipes.remove(<nuclearcraft:fission_monitor>); 
+recipes.addShaped(<nuclearcraft:fission_monitor>, [
+[null, <ore:sensorEV>, null],
+[null, <ore:hullHV>, null],
+[null, <ore:circuitElite>, null]]);
 
 #Be-C Neutron Reflector 
 <nuclearcraft:fission_reflector:0>.displayName = "Be-C Neutron Reflector";
@@ -493,9 +497,9 @@ recipes.addShaped(<nuclearcraft:solid_fission_sink2:9>*1, [
 //Carobbiite
 recipes.remove(<nuclearcraft:solid_fission_sink2:10>); 
 recipes.addShaped(<nuclearcraft:solid_fission_sink2:10>*1, [
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <nuclearcraft:part:14>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <nuclearcraft:part:14>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>]]);
 
 //Arsenic
 recipes.remove(<nuclearcraft:solid_fission_sink2:11>); 
@@ -765,9 +769,9 @@ recipes.addShaped(<nuclearcraft:fission_heater_port2:9>*1, [
 //Carobbiite
 recipes.remove(<nuclearcraft:fission_heater_port2:10>); 
 recipes.addShaped(<nuclearcraft:fission_heater_port2:10>*1, [
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <nuclearcraft:fission_heater_port>, <ore:plateCarobbite>],
-[<ore:plateCarobbite>, <ore:plateCarobbite>, <ore:plateCarobbite>]]);
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <nuclearcraft:fission_heater_port>, <ore:plateCarobbiite>],
+[<ore:plateCarobbiite>, <ore:plateCarobbiite>, <ore:plateCarobbiite>]]);
 
 //Arsenic
 recipes.remove(<nuclearcraft:fission_heater_port2:11>); 
