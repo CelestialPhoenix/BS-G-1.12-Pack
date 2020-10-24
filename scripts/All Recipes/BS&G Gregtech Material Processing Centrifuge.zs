@@ -478,8 +478,8 @@ centrifuge
 
 centrifuge
     .recipeBuilder()
-	.inputs(<ore:dustNaquforniumThaum>)
-    .outputs(<ore:dustTinyNaquadahEnriched>.firstItem*7, <ore:dustTinyPlutonium241>.firstItem*2, <ore:dustTinyCalifornium252>.firstItem*7, <ore:dustTinyThorium>.firstItem*2)
+	.inputs(<ore:dustNaquforniaThaum>)
+    .outputs(<ore:dustTinyNaquadahEnriched>.firstItem, <ore:dustTinyPlutonium241>.firstItem*2, <ore:dustTinyCalifornium252>.firstItem*7, <ore:dustTinyThorium>.firstItem*2)
     .duration(200)
     .EUt(800)
     .buildAndRegister();

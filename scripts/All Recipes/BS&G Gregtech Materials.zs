@@ -18,3 +18,6 @@ furnace.remove(<metaitem:brick.coke>);
 recipes.remove(<metaitem:coin.chocolate>);
 recipes.addShapeless(<metaitem:coin.chocolate>, [<ore:dustCocoa>, <ore:dustSugar>, <ore:milkBottle>, <ore:foilGold>]);
 recipes.addShapeless(<metaitem:coin.chocolate>, [<ore:dustCocoa>, <ore:dustSugar>, <ore:milkBottle>, <ore:foilRoseGold>]);
+
+#---Tooltips---
+<ore:ingotNaquadah312>.addShiftTooltip("Naquadah dust can be enriched into Naquadah fuels.");
