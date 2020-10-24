@@ -85,20 +85,20 @@ recipes.addShapeless(<ore:dustTungstenCarbide>.firstItem*3, [<ore:dustTungsten>,
 recipes.addShaped(<ore:dustPlutonium239>.firstItem,[
 [<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>],
 [<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>],
-[<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>]);
+[<ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>, <ore:dustTinyPlutonium239>]]);
 
 recipes.addShaped(<ore:dustPlutonium239>.firstItem,[
 [<ore:dustSmallPlutonium239>, <ore:dustSmallPlutonium239>],
-[<ore:dustSmallPlutonium239>, <ore:dustSmallPlutonium239>]);
+[<ore:dustSmallPlutonium239>, <ore:dustSmallPlutonium239>]]);
 
 recipes.addShaped(<ore:dustCalifornium252>.firstItem,[
 [<ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>],
 [<ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>],
-[<ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>]);
+[<ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>, <ore:dustTinyCalifornium252>]]);
 
 recipes.addShaped(<ore:dustCalifornium252>.firstItem,[
 [<ore:dustSmallCalifornium252>, <ore:dustSmallCalifornium252>],
-[<ore:dustSmallCalifornium252>, <ore:dustSmallCalifornium252>]);
+[<ore:dustSmallCalifornium252>, <ore:dustSmallCalifornium252>]]);
 
 #--Ingots--
 recipes.remove(<ore:ingotAluminium>.firstItem);

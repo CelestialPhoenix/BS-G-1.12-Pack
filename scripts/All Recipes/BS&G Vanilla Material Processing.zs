@@ -14,8 +14,10 @@ furnace.addRecipe(<ore:ingotTBU>.firstItem, <ore:dustTBU>);
 
 furnace.remove(<gregtech:meta_item_1:10076>, <ore:dustUranium235>); //removes broken recipe producing wrong ingot
 furnace.addRecipe(<ore:ingotUranium235>.firstItem, <ore:dustUranium235>);
+furnace.addRecipe(<ore:ingotUranium235>.firstItem, <ore:nuggetUranium235>*9);
 furnace.addRecipe(<ore:ingotUranium238>.firstItem, <ore:dustUranium238>);
-furnace.addRecipe(<ore:ingotPlutonium239>.firstItem, <ore:Plutonium239>);
+furnace.addRecipe(<ore:ingotPlutonium239>.firstItem, <ore:dustPlutonium239>);
+furnace.addRecipe(<ore:ingotPlutonium241>.firstItem, <ore:dustPlutonium241>);
 
 #--Nugget/Ingot/Block processing
 #--Ingot Smelting (from block)--
