@@ -423,6 +423,42 @@ vacuum_freezer
     .EUt(480)
     .buildAndRegister();
 
+#ingotNaquadah314
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotNaquadah314>.firstItem)
+	.fluidInputs([<liquid:cryotheum> * 1500])
+    .outputs(<ore:ingotNaquadah314>.firstItem)
+    .duration(300)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotNaquadah314>.firstItem)
+    .outputs(<ore:ingotNaquadah314>.firstItem)
+    .duration(600)
+    .EUt(480)
+    .buildAndRegister();
+
+#ingotNaquadah319
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotNaquadah319>.firstItem)
+	.fluidInputs([<liquid:cryotheum> * 1500])
+    .outputs(<ore:ingotNaquadah319>.firstItem)
+    .duration(300)
+    .EUt(120)
+    .buildAndRegister();
+
+vacuum_freezer
+    .recipeBuilder()
+    .inputs(<ore:ingotHotNaquadah319>.firstItem)
+    .outputs(<ore:ingotNaquadah319>.firstItem)
+    .duration(600)
+    .EUt(480)
+    .buildAndRegister();
+
 #ingotTerrasteel
 vacuum_freezer.findRecipe(120, [<ore:ingotHotTerrasteel>.firstItem], null).remove();
 vacuum_freezer
