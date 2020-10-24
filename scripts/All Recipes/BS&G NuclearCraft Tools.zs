@@ -4,6 +4,10 @@
 print("Green Glowey Energy");
 
 #---Recipes---
+recipes.remove(<nuclearcraft:lithium_ion_cell>);
+
+
+
 #--Armour--
 #Boron -- Leaded
 <nuclearcraft:boots_boron>.displayName="Leaded Boots";
