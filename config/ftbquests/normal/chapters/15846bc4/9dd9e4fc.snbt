@@ -1,0 +1,124 @@
+{
+	icon: "gregtech:machine 1 515",
+	disable_toast: true,
+	x: 8.5d,
+	y: -0.5d,
+	text: [
+		"Construct a Refinery Tower.",
+		"",
+		"This tower can be sized to suit its job, with each layer proving and additional output slot.",
+		"",
+		"Works exceptionally well when used in tandem with a Distillation Tower."
+	],
+	dependencies: [
+		"f2ba2d08"
+	],
+	tasks: [{
+		uid: "10db11b3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 515"
+		}]
+	},
+	{
+		uid: "bbb9967a",
+		type: "item",
+		title: "1x Fluid Input Hatch (any tier)",
+		icon: "gregtech:machine 1 732",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 702"
+		},
+		{
+			item: "gregtech:machine 1 712"
+		},
+		{
+			item: "gregtech:machine 1 732"
+		},
+		{
+			item: "gregtech:machine 1 742"
+		},
+		{
+			item: "gregtech:machine 1 752"
+		}]
+	},
+	{
+		uid: "3d29c6a2",
+		type: "item",
+		title: "13+(7 per layer) Clean Stainless Steel Casing",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}]
+	},
+	{
+		uid: "7083bc67",
+		type: "item",
+		title: "1x Energy Input Hatch (MV or better)",
+		icon: "gregtech:machine 1 734",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 724"
+		},
+		{
+			item: "gregtech:machine 1 734"
+		},
+		{
+			item: "gregtech:machine 1 744"
+		},
+		{
+			item: "gregtech:machine 1 754"
+		}]
+	},
+	{
+		uid: "9e98678a",
+		type: "item",
+		title: "1+(1 per layer) Fluid Output Hatch (any tier)",
+		icon: "gregtech:machine 1 733",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 703"
+		},
+		{
+			item: "gregtech:machine 1 713"
+		},
+		{
+			item: "gregtech:machine 1 723"
+		},
+		{
+			item: "gregtech:machine 1 733"
+		},
+		{
+			item: "gregtech:machine 1 743"
+		},
+		{
+			item: "gregtech:machine 1 753"
+		}]
+	},
+	{
+		uid: "9186e11e",
+		type: "item",
+		title: "1x Any Output Bus (optional) (any tier)",
+		icon: "gregtech:machine 1 731",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 701"
+		},
+		{
+			item: "gregtech:machine 1 711"
+		},
+		{
+			item: "gregtech:machine 1 721"
+		},
+		{
+			item: "gregtech:machine 1 731"
+		},
+		{
+			item: "gregtech:machine 1 741"
+		},
+		{
+			item: "gregtech:machine 1 751"
+		}]
+	}]
+}

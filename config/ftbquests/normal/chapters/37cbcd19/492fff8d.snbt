@@ -1,0 +1,33 @@
+{
+	title: "Propellers in the dawn",
+	icon: "contenttweaker:propellerwoodenhanced",
+	disable_toast: true,
+	x: -19.5d,
+	y: -9.0d,
+	text: [
+		"Upgrade your airship.",
+		"",
+		"Upgrades are vital for getting the most out of your ship. Without them you'll struggle to clear the treetops."
+	],
+	dependencies: [
+		"fb461000"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aadfa8f6",
+		type: "item",
+		title: "Engine, Frame, or Core Upgrade (Tier 1)",
+		icon: "contenttweaker:propellerwoodenhanced",
+		disable_toast: true,
+		items: [{
+			item: "vc:upgrades/item_upgrade_airship_engine 1 1"
+		},
+		{
+			item: "vc:upgrades/item_upgrade_airship_frame 1 1"
+		},
+		{
+			item: "vc:upgrades/item_upgrade_airship_core 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

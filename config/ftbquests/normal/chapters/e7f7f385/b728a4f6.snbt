@@ -1,0 +1,21 @@
+{
+	title: "Build a Macerator",
+	icon: "gregtech:machine 1 9",
+	disable_toast: true,
+	x: -20.0d,
+	y: -9.5d,
+	text: [
+		"A macerator will crush ores, doubling the ore output."
+	],
+	dependencies: [
+		"f9b94051"
+	],
+	tasks: [{
+		uid: "9bcc567e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}]
+}

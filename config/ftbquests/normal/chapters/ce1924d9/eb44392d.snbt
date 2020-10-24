@@ -1,0 +1,49 @@
+{
+	title: "Coking oven",
+	icon: "minecraft:coal 1 1",
+	disable_toast: true,
+	x: 60.5d,
+	y: 37.5d,
+	shape: "square",
+	text: [
+		"All the coking ovens are fairly equal. Its a matter of personal taste."
+	],
+	dependencies: [
+		"3f54d08c"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f91b6abc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:claysandy"
+		}]
+	},
+	{
+		uid: "60cd97d4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:bricksandy"
+		}]
+	},
+	{
+		uid: "fd8f4d1e",
+		type: "item",
+		title: "26-27x Coke Bricks",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:coke_oven"
+		},
+		{
+			item: "railcraft:coke_oven_red"
+		},
+		{
+			item: "immersiveengineering:stone_decoration"
+		},
+		{
+			item: "gregtech:metal_casing 1 8"
+		}]
+	}]
+}

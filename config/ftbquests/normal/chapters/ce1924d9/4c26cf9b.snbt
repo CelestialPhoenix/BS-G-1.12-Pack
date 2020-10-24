@@ -1,0 +1,33 @@
+{
+	title: "Welcome to the Iron age!",
+	icon: "minecraft:iron_hoe",
+	disable_toast: true,
+	x: 59.0d,
+	y: 42.0d,
+	shape: "rsquare",
+	text: [
+		"Break open a filled cast to colled your metal tool heads."
+	],
+	dependencies: [
+		"04283996"
+	],
+	tasks: [{
+		uid: "4972b6ea",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:iron_hoe"
+		},
+		{
+			item: "thermalfoundation:tool.hoe_bronze"
+		},
+		{
+			item: "thermalfoundation:tool.hoe_steel"
+		},
+		{
+			item: "thermalfoundation:tool.hoe_copper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

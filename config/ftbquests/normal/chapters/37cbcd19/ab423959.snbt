@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: 7.0d,
+	y: -20.0d,
+	shape: "circle",
+	dependencies: [
+		"1d021334"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14ed2bae",
+		type: "dimension",
+		icon: "abyssalcraft:gatewaykeyjzh",
+		disable_toast: true,
+		dim: 52
+	}]
+}

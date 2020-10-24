@@ -1,0 +1,26 @@
+{
+	title: "Create some Polymers",
+	icon: "gregtech:meta_item_1 1 10141",
+	disable_toast: true,
+	x: 3.5d,
+	y: 5.0d,
+	text: [
+		"Made of Plastic!"
+	],
+	dependencies: [
+		"b4da0493",
+		"8b7a6815"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "acf597db",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 10141"
+		},
+		{
+			item: "gregtech:meta_item_1 1 12141"
+		}]
+	}]
+}

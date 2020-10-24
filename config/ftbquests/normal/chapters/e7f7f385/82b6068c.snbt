@@ -1,0 +1,30 @@
+{
+	title: "Efficient casting",
+	icon: "gregtech:meta_item_1 1 32317",
+	disable_toast: true,
+	x: -23.0d,
+	y: -8.0d,
+	text: [
+		"Robust steel molds can be used again and again."
+	],
+	dependencies: [
+		"ef47a099"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ac897ceb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 32300"
+		}]
+	},
+	{
+		uid: "08fa1891",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}]
+}

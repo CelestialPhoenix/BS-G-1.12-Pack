@@ -1,0 +1,46 @@
+{
+	title: "Find Naquadah",
+	icon: "gregtech:meta_item_1 1 10307",
+	disable_toast: true,
+	x: 14.0d,
+	y: -6.5d,
+	text: [
+		"Something looms in the darkness..."
+	],
+	dependencies: [
+		"d839b668"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5fe5687",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonexifengite"
+		}]
+	},
+	{
+		uid: "92e78c71",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonexilingolite"
+		}]
+	},
+	{
+		uid: "dd40bf4b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonenaqulinite"
+		}]
+	},
+	{
+		uid: "80ff6ccd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonenaquarrite"
+		}]
+	}]
+}

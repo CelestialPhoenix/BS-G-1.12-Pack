@@ -1,0 +1,29 @@
+{
+	title: "Find Bismuth",
+	icon: "gregtech:meta_item_1 1 10008",
+	disable_toast: true,
+	x: -11.5d,
+	y: -13.0d,
+	text: [
+		"Only the skilled or the foolish would fly under here..."
+	],
+	dependencies: [
+		"c9709982"
+	],
+	tasks: [{
+		uid: "cd0e118c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholybismuthinite"
+		}]
+	},
+	{
+		uid: "e5850f18",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholyberryite"
+		}]
+	}]
+}

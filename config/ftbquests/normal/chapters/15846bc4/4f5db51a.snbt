@@ -1,0 +1,24 @@
+{
+	title: "Stainless Steel",
+	icon: "gregtech:meta_item_1 1 10183",
+	disable_toast: true,
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"Produce Stainless Steel"
+	],
+	min_required_dependencies: 2,
+	dependencies: [
+		"9ffafcb2",
+		"7fb6d782",
+		"70d72591"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9de71ff0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10183"
+		}]
+	}]
+}

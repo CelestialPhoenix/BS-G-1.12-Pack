@@ -1,0 +1,28 @@
+{
+	title: "Treatment",
+	icon: "immersiveengineering:wooden_decoration",
+	disable_toast: true,
+	x: 62.0d,
+	y: 37.5d,
+	shape: "rsquare",
+	text: [
+		"Treated Wood could be useful for a number of finer constructions.",
+		"Interestingly Livingwood has very similar properties and makes a good substitute."
+	],
+	dependencies: [
+		"eb44392d"
+	],
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "192ca1e0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		},
+		{
+			item: "botania:livingwood"
+		}]
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "High tech power transmission!",
+	icon: "buildcrafttransport:pipe_gold_power",
+	disable_toast: true,
+	x: 3.5d,
+	y: 2.5d,
+	text: [
+		"Construct a Laser Driver Assembly."
+	],
+	dependencies: [
+		"3c01e952",
+		"fddda286"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b155d58a",
+		type: "item",
+		title: "Laser Driver",
+		disable_toast: true,
+		items: [{
+			item: "energyconverters:energy_bridge"
+		}]
+	},
+	{
+		uid: "221b29c8",
+		type: "item",
+		title: "Laser Apature",
+		disable_toast: true,
+		items: [{
+			item: "energyconverters:energy_producer_mj"
+		}]
+	},
+	{
+		uid: "6369bdd7",
+		type: "item",
+		title: "Laser Precharger",
+		disable_toast: true,
+		items: [{
+			item: "energyconverters:energy_consumer_fe"
+		}]
+	},
+	{
+		uid: "632ac48e",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_wood_power"
+		}]
+	},
+	{
+		uid: "bae3d4ba",
+		type: "item",
+		items: [{
+			item: "buildcrafttransport:pipe_cobble_power"
+		},
+		{
+			item: "buildcrafttransport:pipe_stone_power"
+		},
+		{
+			item: "buildcrafttransport:pipe_quartz_power"
+		},
+		{
+			item: "buildcrafttransport:pipe_gold_power"
+		},
+		{
+			item: "buildcrafttransport:pipe_sandstone_power"
+		}]
+	}]
+}

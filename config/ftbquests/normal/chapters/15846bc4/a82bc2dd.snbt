@@ -1,0 +1,22 @@
+{
+	title: "Getting an upgrade",
+	disable_toast: true,
+	x: 8.5d,
+	y: 5.5d,
+	shape: "rsquare",
+	text: [
+		"Build a set of Kanthal Coils"
+	],
+	dependencies: [
+		"f2ba2d08"
+	],
+	tasks: [{
+		uid: "c5a98829",
+		type: "item",
+		title: "16x Kanthal Coil Block",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:wire_coil 1 1"
+		}]
+	}]
+}

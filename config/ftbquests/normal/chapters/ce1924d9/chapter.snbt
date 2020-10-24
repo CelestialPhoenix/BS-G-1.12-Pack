@@ -1,0 +1,8 @@
+{
+	title: "Surviving the night",
+	icon: "minecraft:apple",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}

@@ -1,0 +1,38 @@
+{
+	title: "Flint tools",
+	icon: "minecraft:flint",
+	disable_toast: true,
+	x: 59.0d,
+	y: 34.5d,
+	shape: "square",
+	text: [
+		"Try poking Gravel with a Stick..."
+	],
+	dependencies: [
+		"5f7dd87e"
+	],
+	tasks: [{
+		uid: "257b93e2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:flint"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "f0ddb5f6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

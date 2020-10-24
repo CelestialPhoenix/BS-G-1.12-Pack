@@ -1,0 +1,21 @@
+{
+	title: "Botanical",
+	disable_toast: true,
+	x: -0.5d,
+	y: 7.0d,
+	text: [
+		"A method of Botanical Clensing to control radiation.",
+		"",
+		"BoC fuels will emit no radiation to the enviroment."
+	],
+	dependencies: [
+		"420913ac"
+	],
+	tasks: [{
+		uid: "a368e907",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gradlebotanical"
+		}]
+	}]
+}

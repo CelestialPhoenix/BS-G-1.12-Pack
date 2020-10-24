@@ -1,0 +1,21 @@
+{
+	title: "Quest Book",
+	icon: "ftbquests:book",
+	disable_toast: true,
+	x: -7.0d,
+	y: -4.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e62ad451",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:book"
+		}]
+	}],
+	rewards: [{
+		uid: "7935e86e",
+		type: "item",
+		item: "ftbquests:book"
+	}]
+}

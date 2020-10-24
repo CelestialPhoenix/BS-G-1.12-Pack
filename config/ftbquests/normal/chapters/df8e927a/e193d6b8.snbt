@@ -1,0 +1,65 @@
+{
+	title: "Book Returns",
+	icon: "minecraft:book",
+	disable_toast: true,
+	x: -4.678571428571431d,
+	y: -4.446428571428569d,
+	text: [
+		"Hand in your old books here"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2c3ca524",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "ftbquests:book"
+		},
+		{
+			id: "botania:lexicon",
+			tag: {}
+		},
+		{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.relic: 1b
+			}
+		},
+		{
+			id: "immersiveengineering:tool",
+			tag: {
+				lastMultiblock: "IE:Fermenter"
+			},
+			Damage: 3s
+		},
+		{
+			item: "forestry:book_forester"
+		},
+		{
+			item: "thaumcraft:thaumonomicon"
+		},
+		{
+			item: "logisticspipes:guide_book"
+		},
+		{
+			item: "vc:item_guidebook_main"
+		},
+		{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				owner: "CelestialPhoenix",
+				PotEnergy: 0.0f
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ced9d66c",
+		type: "item",
+		item: "minecraft:book"
+	}]
+}

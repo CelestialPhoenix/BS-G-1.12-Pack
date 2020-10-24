@@ -1,0 +1,20 @@
+{
+	title: "Lovecraftian",
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		"Necromatically tainted to produce significantly more power than their mundane counterparts.",
+		"",
+		"Lc'T fuels can be a little unstable. Recomended for use in other player's bases."
+	],
+	dependencies: [
+		"420913ac"
+	],
+	tasks: [{
+		uid: "b4742e6e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gradleabyssal"
+		}]
+	}]
+}

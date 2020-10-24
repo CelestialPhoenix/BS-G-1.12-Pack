@@ -1,0 +1,49 @@
+{
+	title: "Dig in as the sun sets!",
+	icon: "minecraft:cobblestone",
+	disable_toast: true,
+	x: 59.0d,
+	y: 36.0d,
+	shape: "square",
+	text: [
+		"Carve out a simple shelter before the zombies eat your brains!"
+	],
+	dependencies: [
+		"385dbf07",
+		"ccb10c27"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "10a8b1a8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "3cb630a0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "0177acb1",
+		type: "item",
+		title: "8 or more Dirt",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dirt",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

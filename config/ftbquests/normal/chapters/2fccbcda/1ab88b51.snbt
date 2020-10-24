@@ -1,0 +1,21 @@
+{
+	title: "What is Rf?",
+	icon: "immersiveengineering:wirecoil",
+	disable_toast: true,
+	x: -11.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Also known as FE (Fluxed Electricity) Redstone Flux (Rf) uses high frequency Redstone pulses used to transmit electricity.",
+		"",
+		"This simplifies electricity down to a single variable; the number of pulses transmitted, with 1Rf representing several thousand Redstone pulses.",
+		"",
+		"This simplicity makes Rf easy to work with, however being a pulsed signal it is extremely difficult to store meaningful amounts of Rf.",
+		"",
+		"Rf is typically carried through metal conduit, or via high-powered laser conduit.",
+		"A 'CEF' unit will convert 4Rf to 1 Eu."
+	],
+	dependencies: [
+		"935f0f3c"
+	]
+}

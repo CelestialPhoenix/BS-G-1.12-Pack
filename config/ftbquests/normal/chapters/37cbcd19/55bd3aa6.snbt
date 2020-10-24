@@ -1,0 +1,46 @@
+{
+	title: "Find a source of Osmium",
+	icon: "gregtech:meta_item_1 1 10047",
+	disable_toast: true,
+	x: 10.5d,
+	y: -5.5d,
+	text: [
+		"Stumpy little things."
+	],
+	dependencies: [
+		"d839b668"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d441d457",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonebowieiteir"
+		}]
+	},
+	{
+		uid: "fa6ccc40",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstoneskaergaardites"
+		}]
+	},
+	{
+		uid: "a628f06c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstoneuytenbogaardtite"
+		}]
+	},
+	{
+		uid: "15342bba",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredarkstonexanthoconite"
+		}]
+	}]
+}

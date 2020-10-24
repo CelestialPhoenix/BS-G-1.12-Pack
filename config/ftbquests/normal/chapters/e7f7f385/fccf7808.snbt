@@ -1,0 +1,26 @@
+{
+	title: "Water collection",
+	icon: "minecraft:water_bucket",
+	disable_toast: true,
+	x: -23.0d,
+	y: -12.5d,
+	shape: "rsquare",
+	text: [
+		"A steady water supply to keep the boilers going."
+	],
+	dependencies: [
+		"98676f40"
+	],
+	tasks: [{
+		uid: "84b31faf",
+		type: "item",
+		title: "26x Water Siding, or 1x Atmospheric Condensator",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:tank_water"
+		},
+		{
+			item: "nuclearcraft:water_source"
+		}]
+	}]
+}

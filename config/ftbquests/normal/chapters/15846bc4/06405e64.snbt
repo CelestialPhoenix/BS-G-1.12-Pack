@@ -1,0 +1,20 @@
+{
+	title: "Oil be back...",
+	icon: "immersiveengineering:metal_device1 1 7",
+	disable_toast: true,
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		"Take the drill out for a walk..."
+	],
+	dependencies: [
+		"4f5db51a"
+	],
+	tasks: [{
+		uid: "9076afd9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "A leap of Faith",
+	icon: {
+		id: "abyssalcraft:staff",
+		tag: {}
+	},
+	disable_toast: true,
+	x: 12.0d,
+	y: -7.5d,
+	shape: "circle",
+	dependencies: [
+		"ab423959"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7ef1880",
+		type: "dimension",
+		icon: {
+			id: "abyssalcraft:staff",
+			tag: {}
+		},
+		disable_toast: true,
+		dim: 53
+	}]
+}

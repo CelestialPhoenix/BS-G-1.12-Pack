@@ -1,0 +1,37 @@
+{
+	title: "Find Coralium",
+	icon: "abyssalcraft:cpearl",
+	disable_toast: true,
+	x: -8.5d,
+	y: -5.0d,
+	text: [
+		"Fancy a dip?"
+	],
+	dependencies: [
+		"7fb6d782"
+	],
+	tasks: [{
+		uid: "22b2ee61",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "abyssalcraft:cpearl"
+		}]
+	},
+	{
+		uid: "aafd7fe6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "abyssalcraft:coralium"
+		}]
+	},
+	{
+		uid: "def7fb59",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "abyssalcraft:abypcorore"
+		}]
+	}]
+}

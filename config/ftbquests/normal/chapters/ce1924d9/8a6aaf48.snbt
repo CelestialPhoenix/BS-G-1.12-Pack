@@ -1,0 +1,31 @@
+{
+	title: "Sticky Situation",
+	icon: "minecraft:slime_ball",
+	disable_toast: true,
+	x: 60.5d,
+	y: 40.5d,
+	shape: "square",
+	text: [
+		"Super sticky. Good for bonding materials and waterproofing."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3f54d08c"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "57b9e427",
+		type: "item",
+		title: "Any slimeball",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "slimeball",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

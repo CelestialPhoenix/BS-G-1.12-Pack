@@ -1,0 +1,20 @@
+{
+	title: "Molecular Breakdown!",
+	icon: "gregtech:machine 1 240",
+	disable_toast: true,
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"Build an Advanced Electrolyzer"
+	],
+	dependencies: [
+		"700305d9"
+	],
+	tasks: [{
+		uid: "9766f6e7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 241"
+		}]
+	}]
+}

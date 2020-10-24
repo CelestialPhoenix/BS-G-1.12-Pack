@@ -1,0 +1,22 @@
+{
+	title: "Precision Engraving",
+	disable_toast: true,
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"Build an Advanced Precision Engraver"
+	],
+	dependencies: [
+		"700305d9",
+		"26b90952"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fb7274b1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 431"
+		}]
+	}]
+}

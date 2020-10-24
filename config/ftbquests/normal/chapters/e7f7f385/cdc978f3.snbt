@@ -1,0 +1,21 @@
+{
+	title: "Steampunk Revolution",
+	icon: "railcraft:gear",
+	disable_toast: true,
+	x: -18.5d,
+	y: -11.0d,
+	shape: "gear",
+	text: [
+		"Steam machines (Bronze and Steel) are powered by steam, and will process recipes equivilant to 8Eu/t (Bronze) or 16Eu/t (Steel).",
+		"",
+		"Waste steam is ejected from the square hatch on the side. This hatch must face open air or the machine will jam and stop working.",
+		"",
+		"A wrench can be used (right click) to rotate the steam hatch to a different side, or shift-right click to rotate the machine face.",
+		"",
+		"Steam machines can be automated using Chutes, Hoppers, Pipes ect, but do not provide any automation function themselves."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f9b94051"
+	]
+}

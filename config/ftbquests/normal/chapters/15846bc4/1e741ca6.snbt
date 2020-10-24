@@ -1,0 +1,22 @@
+{
+	title: "Powerhouse",
+	icon: "railcraft:boiler_firebox_solid",
+	disable_toast: true,
+	x: 0.0d,
+	y: 1.5d,
+	shape: "gear",
+	text: [
+		"Puny single block boilers simply won't cut the mustard anymore.",
+		"",
+		"A multiblock boiler might just be a solid investment for kick starting this industrial powerhouse.",
+		"",
+		"As this chapter progresses, oil and biomass based fuels become viable options,",
+		"As well as multiblock generators, turbines, and more exotic options such as solar towers and alchemically enhanced fuels.",
+		"",
+		"Of note: \"Powerhouse\" was composed in 1937 by Raymond Scott, and feels like a fitting theme to this chapter."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"64abaf90"
+	]
+}

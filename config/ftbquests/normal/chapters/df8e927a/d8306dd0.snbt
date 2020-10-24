@@ -1,0 +1,38 @@
+{
+	title: "Lexica Botania (Elven Edition)",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1b,
+			knowledge.alfheim: 1b,
+			knowledge.relic: 1b
+		}
+	},
+	disable_toast: true,
+	x: -7.0d,
+	y: -3.0d,
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2933027"
+	],
+	tasks: [{
+		uid: "c0347fa6",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	}],
+	rewards: [{
+		uid: "51bb2298",
+		type: "item",
+		item: {
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.relic: 1b
+			}
+		}
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	title: "Building Steam",
+	icon: "minecraft:anvil",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

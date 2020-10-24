@@ -1,0 +1,32 @@
+{
+	title: "Drifting through the clouds",
+	icon: "aether:aether_teleporter",
+	disable_toast: true,
+	x: -10.0d,
+	y: -14.0d,
+	shape: "circle",
+	text: [
+		"Explore the Aether"
+	],
+	dependencies: [
+		"702a2ad7",
+		"44f8e125"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "31636228",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "aether:aether_teleporter"
+		}]
+	},
+	{
+		uid: "e748c642",
+		type: "dimension",
+		icon: "aether:unique_sapling",
+		disable_toast: true,
+		dim: 3
+	}]
+}

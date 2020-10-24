@@ -1,0 +1,20 @@
+{
+	disable_toast: true,
+	x: -9.5d,
+	y: -7.0d,
+	shape: "rsquare",
+	text: [
+		"Useful for making simple circuit components."
+	],
+	dependencies: [
+		"82b6068c"
+	],
+	tasks: [{
+		uid: "d3a9d546",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

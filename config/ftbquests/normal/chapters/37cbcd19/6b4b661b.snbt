@@ -1,0 +1,46 @@
+{
+	title: "Find Platinum",
+	icon: "gregtech:meta_item_1 1 10051",
+	disable_toast: true,
+	x: -1.0d,
+	y: -15.5d,
+	text: [
+		"Possibly the world's heaviest chandalier."
+	],
+	dependencies: [
+		"1d021334"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b5a34315",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_pentlandite_0 1 7"
+		}]
+	},
+	{
+		uid: "24329f66",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_cooperite_0 1 7"
+		}]
+	},
+	{
+		uid: "dc5e6d5f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_braggite_0 1 7"
+		}]
+	},
+	{
+		uid: "acdc0e1d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_sperrylite_0 1 7"
+		}]
+	}]
+}

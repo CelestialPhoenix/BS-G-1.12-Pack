@@ -1,0 +1,39 @@
+{
+	title: "Power Flow",
+	icon: "gregtech:machine 1 485",
+	disable_toast: true,
+	x: -9.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Building low voltage machines."
+	],
+	dependencies: [
+		"96608c93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8db5cc46",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 350"
+		}]
+	},
+	{
+		uid: "bb177d68",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 420"
+		}]
+	},
+	{
+		uid: "9d711259",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 485"
+		}]
+	}]
+}

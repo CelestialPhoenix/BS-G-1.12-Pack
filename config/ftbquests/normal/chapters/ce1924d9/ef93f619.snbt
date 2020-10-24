@@ -1,0 +1,25 @@
+{
+	title: "Wand of the Novice",
+	disable_toast: true,
+	x: 56.0d,
+	y: 37.5d,
+	text: [
+		"A simple wand to help with building."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1c93cca",
+		"98676f40"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "44ca32f0",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wandstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

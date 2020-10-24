@@ -1,0 +1,51 @@
+{
+	title: "Stacking for charcoal",
+	icon: "primal:logs_stacked 1 2",
+	disable_toast: true,
+	x: 60.5d,
+	y: 36.0d,
+	shape: "square",
+	text: [
+		"Light up a log stack to cook some charcoal!"
+	],
+	dependencies: [
+		"f5d0826e",
+		"e7db12dd"
+	],
+	tasks: [{
+		uid: "a07717aa",
+		type: "item",
+		title: "Log Stack",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logStack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "f174e352",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "primal:fire_bow"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd334882",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		consume_items: false
+	}]
+}

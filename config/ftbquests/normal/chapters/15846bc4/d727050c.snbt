@@ -1,0 +1,85 @@
+{
+	title: "Pump it up",
+	icon: {
+		id: "immersivepetroleum:schematic",
+		tag: {
+			multiblock: "IP:Pumpjack"
+		}
+	},
+	disable_toast: true,
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"Construct a Pumpjack above the Oil Reserviour"
+	],
+	dependencies: [
+		"06405e64",
+		"e1bf042a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b860724c",
+		type: "item",
+		title: "11x Steel Scaffolding",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}]
+	},
+	{
+		uid: "a4ec045a",
+		type: "item",
+		title: "6x Treated Wood Fence",
+		items: [{
+			item: "immersiveengineering:wooden_decoration"
+		}]
+	},
+	{
+		uid: "caf63ea7",
+		type: "item",
+		title: "4x Fluid Pipe",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}]
+	},
+	{
+		uid: "2780593d",
+		type: "item",
+		title: "1x Redstone Engineering Block",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "ea851bfb",
+		type: "item",
+		title: "2x Light Engineering Block",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	},
+	{
+		uid: "bb6ba823",
+		type: "item",
+		title: "2x Heavy Engineering Block",
+		disable_toast: true,
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	},
+	{
+		uid: "b5c7db56",
+		type: "item",
+		title: "2x Steel Blocks",
+		items: [{
+			item: "gregtech:compressed_8 1 4"
+		}]
+	},
+	{
+		uid: "156932d5",
+		type: "item",
+		title: "4x Steel Sheetmetal",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Necronomicon",
+	icon: {
+		id: "abyssalcraft:necronomicon",
+		tag: {
+			owner: "CelestialPhoenix",
+			PotEnergy: 0.0f
+		}
+	},
+	disable_toast: true,
+	x: -10.0d,
+	y: -3.0d,
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"049ec54e"
+	],
+	tasks: [{
+		uid: "1e65b601",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:book"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3caa28db",
+		type: "item",
+		item: {
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				owner: "CelestialPhoenix",
+				PotEnergy: 0.0f
+			}
+		}
+	}]
+}

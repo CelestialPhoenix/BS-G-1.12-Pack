@@ -1,0 +1,38 @@
+{
+	title: "Mining Obsidian",
+	icon: "minecraft:diamond_pickaxe",
+	disable_toast: true,
+	x: -14.5d,
+	y: -9.0d,
+	text: [
+		"Obsidian is tough, and so are these ores!",
+		"Prehaps an explosion can break them loose...?"
+	],
+	dependencies: [
+		"841cc850",
+		"252d454f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "01cfe04b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "gregtech:meta_item_1 1 10717"
+		},
+		{
+			item: "gregtech:meta_item_1 1 10017"
+		}]
+	},
+	{
+		uid: "e351717c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Build a Forge Hammer",
+	icon: "gregtech:machine 1 13",
+	disable_toast: true,
+	x: -20.0d,
+	y: -12.5d,
+	text: [
+		"A Forge Hammer can flatten ingots into plates, allowing certain components to be crafted instead of cast."
+	],
+	dependencies: [
+		"f9b94051"
+	],
+	tasks: [{
+		uid: "3c699c52",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 13"
+		}]
+	}]
+}

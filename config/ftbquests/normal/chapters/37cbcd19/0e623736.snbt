@@ -1,0 +1,22 @@
+{
+	title: "Find Nitre",
+	icon: "gregtech:meta_item_1 1 2156",
+	disable_toast: true,
+	x: -8.5d,
+	y: -7.5d,
+	text: [
+		"Look for the Soulsand"
+	],
+	dependencies: [
+		"854ffc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9276e263",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oresoulnitre"
+		}]
+	}]
+}

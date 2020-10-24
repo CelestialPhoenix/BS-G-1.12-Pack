@@ -1,0 +1,30 @@
+{
+	title: "You're only supposed to blow the bloody ores off!",
+	icon: "immersiveengineering:wooden_device0 1 4",
+	disable_toast: true,
+	x: -16.0d,
+	y: -7.0d,
+	text: [
+		"Blowing ores apart seems to yield more dust then normal."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a6b58f5d",
+		type: "kill",
+		icon: "minecraft:gunpowder",
+		disable_toast: true,
+		entity: "minecraft:creeper",
+		value: 1L
+	},
+	{
+		uid: "70454dcc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 4"
+		}]
+	}]
+}

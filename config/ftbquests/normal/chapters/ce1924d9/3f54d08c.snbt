@@ -1,0 +1,52 @@
+{
+	title: "Raw building materials",
+	icon: "minecraft:clay_ball",
+	disable_toast: true,
+	x: 59.0d,
+	y: 37.5d,
+	shape: "square",
+	text: [
+		"Mixing varying amounts of Sand, Gravel, and Clay can produce an assortment of different bricks."
+	],
+	dependencies: [
+		"e7db12dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d04b0bb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "2c57af7a",
+		type: "item",
+		title: "Any sand",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "sand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "7d4495bf",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 64L,
+		consume_items: false
+	}]
+}

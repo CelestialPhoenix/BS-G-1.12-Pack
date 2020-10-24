@@ -1,0 +1,37 @@
+{
+	title: "Find Manganese",
+	icon: "gregtech:meta_item_1 1 10039",
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"A small patch of exposed ores."
+	],
+	dependencies: [
+		"7fb6d782"
+	],
+	hide: true,
+	tasks: [{
+		uid: "03fb30e1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssalspessartine"
+		}]
+	},
+	{
+		uid: "59cf3dff",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssaltantalite"
+		}]
+	},
+	{
+		uid: "5a495c33",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssalpyrolusite"
+		}]
+	}]
+}

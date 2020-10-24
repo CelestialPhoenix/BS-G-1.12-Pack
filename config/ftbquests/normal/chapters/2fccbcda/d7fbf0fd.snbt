@@ -1,0 +1,23 @@
+{
+	title: "Power Conversion",
+	icon: "gregtech:machine 1 10651",
+	disable_toast: true,
+	x: -9.5d,
+	y: -4.0d,
+	text: [
+		"Converts Rf to Eu"
+	],
+	dependencies: [
+		"d4fe4a4b",
+		"73ab992e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3a5f2c2e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 10651"
+		}]
+	}]
+}

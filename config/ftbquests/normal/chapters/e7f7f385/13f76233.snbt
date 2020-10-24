@@ -1,0 +1,29 @@
+{
+	title: "Casting Components",
+	icon: "contenttweaker:castringbronze",
+	disable_toast: true,
+	x: -23.0d,
+	y: -11.0d,
+	text: [
+		"A start of steam driven machinery"
+	],
+	dependencies: [
+		"d3b4a4b9"
+	],
+	tasks: [{
+		uid: "9cd7520e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine_casing 1 10"
+		}]
+	},
+	{
+		uid: "3cdbae1d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:fluid_pipe 1 1095"
+		}]
+	}]
+}

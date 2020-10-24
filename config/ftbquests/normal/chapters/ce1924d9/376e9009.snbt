@@ -1,0 +1,14 @@
+{
+	title: "A Heavenly Sanctuary",
+	icon: "aether:aether_flower",
+	disable_toast: true,
+	x: 57.5d,
+	y: 40.5d,
+	text: [
+		"Wind blows and clouds drift, but no storm shall ever break these fair weather isles..."
+	],
+	dependencies: [
+		"c9709982"
+	],
+	hide: true
+}

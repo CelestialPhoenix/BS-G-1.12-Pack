@@ -1,0 +1,37 @@
+{
+	title: "Tanks for the memories",
+	icon: "railcraft:tank_iron_valve 1 8",
+	disable_toast: true,
+	x: -23.0d,
+	y: -14.0d,
+	text: [
+		"These large tanks can be useful for storing steam and water"
+	],
+	dependencies: [
+		"fccf7808"
+	],
+	tasks: [{
+		uid: "d081d370",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:tank_iron_wall"
+		}]
+	},
+	{
+		uid: "9cf827e9",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:tank_iron_valve"
+		}]
+	},
+	{
+		uid: "936d0253",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:tank_iron_gauge"
+		}]
+	}]
+}

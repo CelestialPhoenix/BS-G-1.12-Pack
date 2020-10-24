@@ -1,0 +1,54 @@
+{
+	title: "Find Quartz and Gold",
+	icon: "minecraft:quartz",
+	disable_toast: true,
+	x: -10.0d,
+	y: -11.0d,
+	text: [
+		"Look up"
+	],
+	dependencies: [
+		"854ffc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87b057ad",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_gold_0 1 6"
+		}]
+	},
+	{
+		uid: "702a2ad7",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	},
+	{
+		uid: "3374024b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_nether_quartz_0 1 6"
+		}]
+	},
+	{
+		uid: "38d3de08",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_quartzite_0 1 6"
+		}]
+	},
+	{
+		uid: "110ec44a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_certus_quartz_0 1 6"
+		}]
+	}]
+}

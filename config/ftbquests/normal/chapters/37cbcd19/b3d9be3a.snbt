@@ -1,0 +1,30 @@
+{
+	title: "Find Zinc",
+	icon: "gregtech:meta_item_1 1 10079",
+	disable_toast: true,
+	x: -7.5d,
+	y: -9.0d,
+	text: [
+		"Look down."
+	],
+	dependencies: [
+		"854ffc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e763604",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 6"
+		}]
+	},
+	{
+		uid: "06a39362",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_goslarite_0 1 6"
+		}]
+	}]
+}

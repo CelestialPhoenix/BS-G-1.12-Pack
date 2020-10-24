@@ -1,0 +1,29 @@
+{
+	title: "Find Diamonds",
+	icon: "minecraft:diamond",
+	disable_toast: true,
+	x: -17.5d,
+	y: -13.5d,
+	text: [
+		"Look for gravelly diamond ores in the snow and ice."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "3d71a7bd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "2feb5d6e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:orediamond"
+		}]
+	}]
+}

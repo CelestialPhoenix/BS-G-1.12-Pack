@@ -1,0 +1,45 @@
+{
+	title: "Find Rare Earths",
+	icon: "gregtech:meta_item_1 1 8281",
+	disable_toast: true,
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		"Look for a patch of exposed black granite ore."
+	],
+	dependencies: [
+		"a5629d4e"
+	],
+	tasks: [{
+		uid: "579b07c5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_monazite_0 1 10"
+		}]
+	},
+	{
+		uid: "f14e67a8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_bastnasite_0 1 10"
+		}]
+	},
+	{
+		uid: "59ff7623",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_electrotine_0 1 10"
+		}]
+	},
+	{
+		uid: "ca15f65d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_huttonite_0 1 10"
+		}]
+	}]
+}

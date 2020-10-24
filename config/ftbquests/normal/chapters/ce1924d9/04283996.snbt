@@ -1,0 +1,48 @@
+{
+	title: "Casting off",
+	icon: "contenttweaker:mouldaxehead",
+	disable_toast: true,
+	x: 59.0d,
+	y: 40.5d,
+	shape: "square",
+	text: [
+		"Craft some Raw Crafting Medium.",
+		"And imprint it with a tool to make a mold.",
+		"The filled cast can be broken [mined with pickaxe] to retrieve the cast tool heads."
+	],
+	dependencies: [
+		"8a6aaf48",
+		"a1c93cca"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4b025342",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:castraw"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "c58dc87c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:mouldpickaxehead"
+		},
+		{
+			item: "contenttweaker:mouldshovelhead"
+		},
+		{
+			item: "contenttweaker:mouldaxehead"
+		},
+		{
+			item: "contenttweaker:mouldswordhead"
+		},
+		{
+			item: "contenttweaker:mouldhoehead"
+		}],
+		consume_items: false
+	}]
+}

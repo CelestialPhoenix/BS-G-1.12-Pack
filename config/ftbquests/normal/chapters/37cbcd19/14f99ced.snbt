@@ -1,0 +1,38 @@
+{
+	title: "Find Chrome",
+	icon: "gregtech:meta_item_1 1 10016",
+	disable_toast: true,
+	x: 9.07142857142857d,
+	y: -21.803571428571427d,
+	text: [
+		"Under your feet."
+	],
+	dependencies: [
+		"ab423959"
+	],
+	hide: true,
+	tasks: [{
+		uid: "293deb72",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholbasaltyellowgarnet"
+		}]
+	},
+	{
+		uid: "b459ce7c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholbasaltuvarovite"
+		}]
+	},
+	{
+		uid: "b8988b07",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholbasaltchromite"
+		}]
+	}]
+}

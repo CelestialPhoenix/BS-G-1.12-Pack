@@ -1,0 +1,22 @@
+{
+	title: "Find Diamonds",
+	icon: "minecraft:diamond",
+	disable_toast: true,
+	x: -10.0d,
+	y: -16.0d,
+	text: [
+		"I think you've seen this before..."
+	],
+	dependencies: [
+		"c9709982"
+	],
+	hide: true,
+	tasks: [{
+		uid: "144d9512",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:orelargediamond"
+		}]
+	}]
+}

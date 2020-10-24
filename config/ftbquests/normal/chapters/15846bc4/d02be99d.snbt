@@ -1,0 +1,21 @@
+{
+	title: "Hubble Bubble...",
+	disable_toast: true,
+	x: -1.5d,
+	y: 3.5d,
+	text: [
+		"Build an MV Distillery",
+		"(or construct a Distillation Tower)"
+	],
+	dependencies: [
+		"d727050c"
+	],
+	tasks: [{
+		uid: "61d1f28a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 231"
+		}]
+	}]
+}

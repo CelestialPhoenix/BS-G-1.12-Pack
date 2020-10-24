@@ -1,0 +1,21 @@
+{
+	title: "Find Redstone",
+	icon: "minecraft:redstone",
+	disable_toast: true,
+	x: -13.0d,
+	y: -10.482142857142861d,
+	text: [
+		"Find a patch of exposed ores amongst the thick vegetation."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "56344dea",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_redstone_0"
+		}]
+	}]
+}

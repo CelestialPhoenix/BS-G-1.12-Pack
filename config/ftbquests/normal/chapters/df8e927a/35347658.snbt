@@ -1,0 +1,27 @@
+{
+	title: "Lexica Botania",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	disable_toast: true,
+	x: -5.5d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "68fa282a",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "674580c5",
+		type: "item",
+		item: {
+			id: "botania:lexicon",
+			tag: {}
+		}
+	}]
+}

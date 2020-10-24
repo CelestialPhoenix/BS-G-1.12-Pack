@@ -1,0 +1,45 @@
+{
+	title: "Find Sapphires",
+	icon: "gregtech:meta_item_1 1 8157",
+	disable_toast: true,
+	x: -16.5d,
+	y: -14.0d,
+	text: [
+		"Find a patch of minerals in the mountain peaks."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "2afef829",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_green_sapphire_0 1 13"
+		}]
+	},
+	{
+		uid: "4b2e2de0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_sapphire_0 1 13"
+		}]
+	},
+	{
+		uid: "6ceb9ec7",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_pyrope_0 1 13"
+		}]
+	},
+	{
+		uid: "4fefc51c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_almandine_0 1 13"
+		}]
+	}]
+}

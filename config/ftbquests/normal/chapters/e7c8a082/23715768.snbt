@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		"Californium252 is the end of the line for Thorium and Uranium based fuels.",
+		"",
+		"This isotope is highly radioactive, and releses a lot of neutrons making it very useful for irridiating materials."
+	],
+	dependencies: [
+		"223f6e6f"
+	],
+	tasks: [{
+		uid: "b4214a6e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:californium 1 15"
+		}]
+	}]
+}

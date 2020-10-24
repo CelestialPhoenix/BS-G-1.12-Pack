@@ -1,0 +1,41 @@
+{
+	title: "Find Antimony",
+	icon: "gregtech:meta_item_1 1 10003",
+	disable_toast: true,
+	x: -8.5d,
+	y: -15.0d,
+	text: [
+		"Dragonforce - Through Cliffs and Caves.",
+		"",
+		"The Geologist's Collecters Addition."
+	],
+	dependencies: [
+		"c9709982"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b917a3f0",
+		type: "item",
+		title: "Find Antimony",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholycopper"
+		}]
+	},
+	{
+		uid: "ea5dbc4e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholytetrahedrite"
+		}]
+	},
+	{
+		uid: "2c8cb867",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholystibnite"
+		}]
+	}]
+}

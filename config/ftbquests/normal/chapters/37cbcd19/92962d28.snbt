@@ -1,0 +1,37 @@
+{
+	title: "Find Coal",
+	icon: "minecraft:coal",
+	disable_toast: true,
+	x: -19.0d,
+	y: -10.5d,
+	text: [
+		"Look for lignite in the dirt and mud."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "aaa4d16f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	},
+	{
+		uid: "3d839cf6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredirtlignite"
+		}]
+	},
+	{
+		uid: "c41e4802",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

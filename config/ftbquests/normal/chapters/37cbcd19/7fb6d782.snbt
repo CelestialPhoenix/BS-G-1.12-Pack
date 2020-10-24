@@ -1,0 +1,24 @@
+{
+	title: "Plumbing the depths",
+	icon: "abyssalcraft:gatewaykey",
+	disable_toast: true,
+	x: -10.0d,
+	y: -4.0d,
+	shape: "circle",
+	text: [
+		"Explore the Abyssal Wasteland"
+	],
+	dependencies: [
+		"bde88980",
+		"4215a842"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b8da98d2",
+		type: "dimension",
+		icon: "abyssalcraft:gatewaykey",
+		disable_toast: true,
+		dim: 50
+	}]
+}

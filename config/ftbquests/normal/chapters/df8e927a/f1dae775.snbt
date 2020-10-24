@@ -1,0 +1,21 @@
+{
+	title: "Forester's Manual",
+	icon: "forestry:book_forester",
+	disable_toast: true,
+	x: -2.5d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e49c29aa",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:book"
+		}]
+	}],
+	rewards: [{
+		uid: "8cbb102a",
+		type: "item",
+		item: "forestry:book_forester"
+	}]
+}

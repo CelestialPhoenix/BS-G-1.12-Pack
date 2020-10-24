@@ -1,0 +1,54 @@
+{
+	title: "Find Thorium",
+	icon: "gregtech:meta_item_1 1 10069",
+	disable_toast: true,
+	x: -1.0d,
+	y: -12.5d,
+	text: [
+		"Naked and adrift."
+	],
+	dependencies: [
+		"1d021334"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73fc09bd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_lead_0 1 7"
+		}]
+	},
+	{
+		uid: "28d5d8b0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_zirconium_0 1 7"
+		}]
+	},
+	{
+		uid: "5a697325",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_coffinite_0 1 7"
+		}]
+	},
+	{
+		uid: "3c06890c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_thorite_0 1 7"
+		}]
+	},
+	{
+		uid: "43be5f4d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_pitchblende_0 1 7"
+		}]
+	}]
+}

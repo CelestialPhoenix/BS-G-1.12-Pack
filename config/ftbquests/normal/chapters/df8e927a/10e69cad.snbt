@@ -1,0 +1,29 @@
+{
+	title: "Thaumonomicon",
+	icon: "thaumcraft:thaumonomicon",
+	disable_toast: true,
+	x: -8.5d,
+	y: -3.0d,
+	text: [
+		"Do-doo-Dee-DoDo"
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9525d2a"
+	],
+	tasks: [{
+		uid: "16e7f890",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:book"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "48ee3ef7",
+		type: "item",
+		item: "thaumcraft:thaumonomicon"
+	}]
+}

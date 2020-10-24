@@ -1,0 +1,37 @@
+{
+	title: "[Optional] High pressure steam",
+	disable_toast: true,
+	x: -21.5d,
+	y: -9.5d,
+	text: [
+		"High pressure machines work faster and consume more steam than low pressure machines."
+	],
+	dependencies: [
+		"4381bbcc"
+	],
+	tasks: [{
+		uid: "33e632fd",
+		type: "item",
+		title: "[Optional] High pressure steam",
+		icon: "gregtech:machine 1 10",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 10"
+		},
+		{
+			item: "gregtech:machine 1 12"
+		},
+		{
+			item: "gregtech:machine 1 14"
+		},
+		{
+			item: "gregtech:machine 1 16"
+		},
+		{
+			item: "gregtech:machine 1 18"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Find Nickel",
+	icon: "gregtech:meta_item_1 1 10044",
+	disable_toast: true,
+	x: -13.5d,
+	y: -12.5d,
+	text: [
+		"Find a patch of sandy Nickel ores."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "a98a17fc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_garnierite_0"
+		}]
+	},
+	{
+		uid: "86994202",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_pentlandite_0"
+		}]
+	},
+	{
+		uid: "2510b1fd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_cobaltite_0"
+		}]
+	}]
+}

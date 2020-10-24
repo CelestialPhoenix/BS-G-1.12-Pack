@@ -1,0 +1,31 @@
+{
+	title: "Scratching the surface",
+	icon: "railcraft:ore_metal_poor",
+	disable_toast: true,
+	x: 57.5d,
+	y: 37.5d,
+	text: [
+		"These low grade ores barely have enough to fashion a set of tools.",
+		"There must be bigger and better deposits of minerals somehwere...?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e7db12dd"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "68304f15",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:ore_metal_poor"
+		},
+		{
+			item: "railcraft:ore_metal_poor 1 3"
+		},
+		{
+			item: "railcraft:ore_metal_poor 1 2"
+		}]
+	}]
+}

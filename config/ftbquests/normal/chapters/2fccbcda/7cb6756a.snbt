@@ -1,0 +1,53 @@
+{
+	title: "Ore Processing",
+	icon: "gregtech:machine 1 150",
+	disable_toast: true,
+	x: -11.5d,
+	y: 0.0d,
+	text: [
+		"These simple machines can extract some basic byproducts from ores."
+	],
+	dependencies: [
+		"64abaf90"
+	],
+	tasks: [{
+		uid: "aaae8fa2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 380"
+		}]
+	},
+	{
+		uid: "b35ab0c5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 150"
+		}]
+	},
+	{
+		uid: "4841e74d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 460"
+		}]
+	},
+	{
+		uid: "568f10fb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 250"
+		}]
+	},
+	{
+		uid: "67787c9d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 180"
+		}]
+	}]
+}

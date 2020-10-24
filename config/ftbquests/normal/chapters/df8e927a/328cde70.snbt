@@ -1,0 +1,15 @@
+{
+	title: "You cheater you!!",
+	x: -4.5d,
+	y: 29.0d,
+	text: [
+		"...I'm not angry. I'm just dissapointed."
+	],
+	tasks: [{
+		uid: "5a3836e5",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}]
+}

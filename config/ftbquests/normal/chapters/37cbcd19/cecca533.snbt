@@ -1,0 +1,37 @@
+{
+	title: "Find Iron",
+	icon: "minecraft:iron_ingot",
+	disable_toast: true,
+	x: -15.5d,
+	y: -14.0d,
+	text: [
+		"Look for large stone stalagmites sticking out the grasses."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "9120c1b2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_yellow_limonite_0"
+		}]
+	},
+	{
+		uid: "6a66ccd3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_brown_limonite_0"
+		}]
+	},
+	{
+		uid: "45808b4e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_iron_0"
+		}]
+	}]
+}

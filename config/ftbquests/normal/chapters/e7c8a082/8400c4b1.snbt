@@ -1,0 +1,14 @@
+{
+	title: "Frangible",
+	icon: "contenttweaker:sub_block_holder_11 1 4",
+	disable_toast: true,
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"Frangible ores;",
+		"Try blowing one up!"
+	],
+	dependencies: [
+		"cb51fdfe"
+	]
+}

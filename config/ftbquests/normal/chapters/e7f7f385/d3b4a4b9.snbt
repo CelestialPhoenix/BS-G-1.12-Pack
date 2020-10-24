@@ -1,0 +1,41 @@
+{
+	title: "Wax replacement casting",
+	icon: "contenttweaker:gearsmallwax",
+	disable_toast: true,
+	x: -24.5d,
+	y: -11.0d,
+	shape: "rsquare",
+	text: [
+		"Crude imprints are ok for tools, but lack the precision for mechanical components.",
+		"",
+		"Raw Casting medium is used to support the model while the metal is poured."
+	],
+	dependencies: [
+		"da62c8e8",
+		"a1c93cca"
+	],
+	tasks: [{
+		uid: "3f515db1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "forestry:beeswax"
+		}]
+	},
+	{
+		uid: "86f5c7db",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:hullwax"
+		}]
+	},
+	{
+		uid: "d5af9249",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:pipesmallwax"
+		}]
+	}]
+}

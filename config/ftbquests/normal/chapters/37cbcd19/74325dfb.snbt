@@ -1,0 +1,45 @@
+{
+	title: "Find a Salts deposit",
+	icon: "gregtech:meta_item_1 1 2151",
+	x: -8.5d,
+	y: -3.0d,
+	text: [
+		"Find the comments section. Its probably underground."
+	],
+	dependencies: [
+		"7fb6d782"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7932f7a2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssalsalt"
+		}]
+	},
+	{
+		uid: "2aeb79bc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssalrocksalt"
+		}]
+	},
+	{
+		uid: "4930aa94",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssallepidolite"
+		}]
+	},
+	{
+		uid: "30fe9c42",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreabyssalspodumene"
+		}]
+	}]
+}

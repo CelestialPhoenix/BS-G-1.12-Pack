@@ -1,0 +1,19 @@
+{
+	title: "Is this the end?",
+	disable_toast: true,
+	x: 0.5d,
+	y: -14.0d,
+	shape: "circle",
+	dependencies: [
+		"a5629d4e",
+		"c9709982"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93b7e0bd",
+		type: "dimension",
+		icon: "minecraft:ender_eye",
+		disable_toast: true,
+		dim: 1
+	}]
+}

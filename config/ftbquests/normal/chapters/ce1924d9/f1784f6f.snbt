@@ -1,0 +1,32 @@
+{
+	title: "(Optional) Weather Prediction",
+	icon: "weather2:weather_item",
+	disable_toast: true,
+	x: 60.5d,
+	y: 39.0d,
+	shape: "rsquare",
+	text: [
+		"These simple devices can provide indication of a coming storm.",
+		"They also look pretty nice."
+	],
+	dependencies: [
+		"ef47a099"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ae2719e4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "weather2:anemometer"
+		}]
+	},
+	{
+		uid: "82f598fe",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "weather2:wind_vane"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Find Tin",
+	icon: "gregtech:meta_item_1 1 10071",
+	disable_toast: true,
+	x: -13.0d,
+	y: -11.5d,
+	text: [
+		"Find some gravilly Tin amongst the pines."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "e54ac594",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}]
+	},
+	{
+		uid: "c0eb4563",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	}]
+}

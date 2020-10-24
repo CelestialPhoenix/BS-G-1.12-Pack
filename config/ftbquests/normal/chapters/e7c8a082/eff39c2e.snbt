@@ -1,0 +1,36 @@
+{
+	title: "Radation Shielding",
+	icon: "nuclearcraft:rad_shielding",
+	disable_toast: true,
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"Shielding can be applied to armour for personal radiation protection, and to most chests/machines ect to help keep radiation contained."
+	],
+	dependencies: [
+		"7c32a723",
+		"cb51fdfe"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ab6e3c41",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding"
+		}]
+	},
+	{
+		uid: "487d8cf3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 1"
+		}]
+	},
+	{
+		uid: "1892436d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 2"
+		}]
+	}]
+}

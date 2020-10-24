@@ -1,0 +1,26 @@
+{
+	title: "Silicon Valley",
+	icon: "gregtech:meta_item_2 1 32439",
+	disable_toast: true,
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"9ffafcb2"
+	],
+	tasks: [{
+		uid: "5f2d3245",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_2 1 32439"
+		}]
+	},
+	{
+		uid: "e702e791",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_2 1 32440"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Precision Assembly",
+	icon: "buildcraftsilicon:laser",
+	disable_toast: true,
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"Power up the Assembly Table"
+	],
+	dependencies: [
+		"daaa88ad"
+	],
+	tasks: [{
+		uid: "fe5da772",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}]
+	},
+	{
+		uid: "83c0b260",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	}]
+}

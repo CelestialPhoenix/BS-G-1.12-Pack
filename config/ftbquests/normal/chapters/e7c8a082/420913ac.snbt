@@ -1,0 +1,19 @@
+{
+	title: "Fuel Preparation",
+	disable_toast: true,
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"Raw isotopes need to be combined with Oxygen or Nitrogen, or alloyed with Zirconium before being packaged into fuel pellets."
+	],
+	dependencies: [
+		"94e73f13"
+	],
+	tasks: [{
+		uid: "ee838859",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:assembler"
+		}]
+	}]
+}

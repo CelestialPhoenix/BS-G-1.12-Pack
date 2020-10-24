@@ -1,0 +1,47 @@
+{
+	title: "Find Rare Earth Elements",
+	icon: "gregtech:meta_item_1 1 10045",
+	disable_toast: true,
+	x: 6.107142857142861d,
+	y: -22.303571428571423d,
+	text: [
+		"It grows upside down, like a bat!"
+	],
+	dependencies: [
+		"ab423959"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f77eb43",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholxenotime"
+		}]
+	},
+	{
+		uid: "97680ddd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholgadolinite"
+		}]
+	},
+	{
+		uid: "c43e21d4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholfergusonite"
+		}]
+	},
+	{
+		uid: "4d72dd42",
+		type: "item",
+		title: "[Nd]-Monazite",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmonazitend"
+		}]
+	}]
+}

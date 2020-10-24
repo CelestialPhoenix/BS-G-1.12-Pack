@@ -1,0 +1,22 @@
+{
+	title: "Into the furnace",
+	icon: "minecraft:nether_wart",
+	disable_toast: true,
+	x: -10.0d,
+	y: -9.0d,
+	shape: "circle",
+	text: [
+		"Explore the Nether"
+	],
+	dependencies: [
+		"150346d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c56746d7",
+		type: "dimension",
+		icon: "minecraft:blaze_powder",
+		disable_toast: true,
+		dim: -1
+	}]
+}

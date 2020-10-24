@@ -1,0 +1,31 @@
+{
+	title: "TIM-BERRR!!",
+	icon: "minecraft:log",
+	disable_toast: true,
+	x: 60.5d,
+	y: 34.5d,
+	shape: "square",
+	text: [
+		"Now that was a good investment!"
+	],
+	dependencies: [
+		"ccb10c27"
+	],
+	tasks: [{
+		uid: "12df0b74",
+		type: "item",
+		title: "Any logWood",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		consume_items: false
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Find Magnetite",
+	icon: "gregtech:meta_item_1 1 10077",
+	disable_toast: true,
+	x: -11.5d,
+	y: -5.0d,
+	text: [
+		"An ugly pile."
+	],
+	dependencies: [
+		"7fb6d782"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91cd596d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_vanadium_magnetite_0 1 13"
+		}]
+	},
+	{
+		uid: "1b6c6889",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_magnetite_0 1 13"
+		}]
+	},
+	{
+		uid: "06626ae0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_gold_0 1 13"
+		}]
+	}]
+}

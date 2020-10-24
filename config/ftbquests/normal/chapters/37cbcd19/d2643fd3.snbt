@@ -1,0 +1,30 @@
+{
+	title: "Find Sulphur",
+	icon: "gregtech:meta_item_1 1 2065",
+	disable_toast: true,
+	x: -8.5d,
+	y: -10.5d,
+	text: [
+		"Explore down deep."
+	],
+	dependencies: [
+		"854ffc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b08d75e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 6"
+		}]
+	},
+	{
+		uid: "2426a3d3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_pyrite_0 1 6"
+		}]
+	}]
+}

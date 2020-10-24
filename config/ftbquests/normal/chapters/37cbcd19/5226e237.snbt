@@ -1,0 +1,46 @@
+{
+	title: "Emerald Hill Zone",
+	icon: "minecraft:emerald",
+	disable_toast: true,
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Look for a basaltic stump."
+	],
+	dependencies: [
+		"7fb6d782"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb01b3a7",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_emerald_0 1 13"
+		}]
+	},
+	{
+		uid: "faac05fc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_bertrandite_0 1 13"
+		}]
+	},
+	{
+		uid: "b352b57c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_euclase_0 1 13"
+		}]
+	},
+	{
+		uid: "3791a87d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_beryllium_0 1 13"
+		}]
+	}]
+}

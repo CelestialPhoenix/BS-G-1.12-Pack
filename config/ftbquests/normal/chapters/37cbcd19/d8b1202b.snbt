@@ -1,0 +1,37 @@
+{
+	title: "Find Galena",
+	icon: "gregtech:meta_item_1 1 10035",
+	disable_toast: true,
+	x: -18.5d,
+	y: -12.5d,
+	text: [
+		"Find a patch of gravel and stone amongst the vibrent colours."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "365643f7",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_galena_0"
+		}]
+	},
+	{
+		uid: "0322f76c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_lead_0"
+		}]
+	},
+	{
+		uid: "7735bd28",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_silver_0"
+		}]
+	}]
+}

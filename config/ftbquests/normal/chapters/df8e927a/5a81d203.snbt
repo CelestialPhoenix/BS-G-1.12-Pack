@@ -1,0 +1,19 @@
+{
+	title: "Cheaters never win.",
+	x: -4.5d,
+	y: -36.5d,
+	text: [
+		"Did you know?",
+		"",
+		"The FTB Forum bans the practice of balancing this above the entrace to new threads."
+	],
+	tasks: [{
+		uid: "b1083246",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

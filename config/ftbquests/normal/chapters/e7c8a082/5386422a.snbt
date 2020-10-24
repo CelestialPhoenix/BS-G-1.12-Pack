@@ -1,0 +1,20 @@
+{
+	title: "Fission",
+	icon: "nuclearcraft:fuel_uranium 1 3",
+	disable_toast: true,
+	x: -0.5d,
+	y: -13.5d,
+	shape: "gear",
+	text: [
+		"Fission is the heart of nuclear power generation.",
+		"",
+		"A small quantity of fissile material will be split into smaller, lighter materials releasing a significant amount of energy in the process.",
+		"",
+		"The spent fuel pellets can be reprocessed to extract useful isotopes from the waste, allowing the production of different fuels to be burned again and again.",
+		""
+	],
+	dependencies: [
+		"7c32a723"
+	],
+	dependency_requirement: "one_completed"
+}

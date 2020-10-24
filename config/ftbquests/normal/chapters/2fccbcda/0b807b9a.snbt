@@ -1,0 +1,18 @@
+{
+	title: "What is Eu?",
+	icon: "gregtech:meta_item_1 1 32501",
+	disable_toast: true,
+	x: -7.5d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"Eu (Electrical units) is raw electrical power, total power coming from its voltage (Volts) multiplied by current (Amps).",
+		"Unlike Rf, Eu can be easily stored in simple chemical batteries, however its current and voltage make it more cumbersome to work with.",
+		"",
+		"Eu can be carried in insulated cables, or bare wires.",
+		"A 'CEU' unit will convert 1Eu to 4Rf."
+	],
+	dependencies: [
+		"935f0f3c"
+	]
+}

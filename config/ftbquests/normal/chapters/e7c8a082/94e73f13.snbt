@@ -1,0 +1,31 @@
+{
+	title: "Uranium Isotope Preparation",
+	icon: "gregtech:meta_item_1 1 10076",
+	disable_toast: true,
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"Fissile Uranium235 is prepared from Uranium Dioxide using Flourine and Hydroflouric Acid.",
+		"",
+		"Fluid Urainium Hexaflouride can be directly processed in a Centrifuge, or bottled in a Chemical Cell and crystallised into Clathrates ready for alchemical preparation."
+	],
+	dependencies: [
+		"cb51fdfe"
+	],
+	tasks: [{
+		uid: "84007218",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 2767"
+		}]
+	},
+	{
+		uid: "2f9ea4a5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 10076"
+		}]
+	}]
+}

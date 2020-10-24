@@ -1,0 +1,45 @@
+{
+	title: "Time for some Heavy Metal!!",
+	icon: "gregtech:meta_item_1 1 10184",
+	disable_toast: true,
+	x: -24.5d,
+	y: -9.5d,
+	shape: "rsquare",
+	text: [
+		"Construct a Blast Furnace and aquire some steel.",
+		"Blast Furnaces are fairly equal. Its a matter of personal taste."
+	],
+	dependencies: [
+		"854ffc43"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f78853e5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:blastbrick"
+		}]
+	},
+	{
+		uid: "56a449d6",
+		type: "item",
+		title: "27-34x Blast Furnace Bricks",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:blast_furnace"
+		},
+		{
+			item: "immersiveengineering:stone_decoration 1 1"
+		},
+		{
+			item: "gregtech:metal_casing 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f36cedfc",
+		type: "item",
+		item: "railcraft:equipment 1 3",
+		count: 4
+	}]
+}

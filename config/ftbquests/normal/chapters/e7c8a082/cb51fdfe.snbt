@@ -1,0 +1,23 @@
+{
+	title: "Titanium",
+	disable_toast: true,
+	x: -0.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Produce Titanium",
+		"",
+		"This chapter is still WiP"
+	],
+	dependencies: [
+		"a82bc2dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b51eed38",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10072"
+		}]
+	}]
+}

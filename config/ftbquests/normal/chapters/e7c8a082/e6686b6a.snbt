@@ -1,0 +1,26 @@
+{
+	title: "Go Go Gadget...",
+	disable_toast: true,
+	x: 4.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The builder's gadget can be used to construct a nuclear reactor.",
+		"More info coming!"
+	],
+	dependencies: [
+		"cb51fdfe"
+	],
+	tasks: [{
+		uid: "cedaa443",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

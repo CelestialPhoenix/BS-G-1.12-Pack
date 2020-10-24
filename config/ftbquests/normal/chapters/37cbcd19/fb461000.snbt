@@ -1,0 +1,33 @@
+{
+	title: "Terror of the Skies",
+	icon: "vc:item_airship_ignition",
+	disable_toast: true,
+	x: -17.5d,
+	y: -9.0d,
+	text: [
+		"With a crew of Drunken Pilots",
+		"We're the only Airship Pirates!",
+		"",
+		"Taking to the skies can be a good way to cover long distances."
+	],
+	dependencies: [
+		"841cc850",
+		"98676f40"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4e09c165",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "vc:airships/item_airship"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46867a6d",
+		type: "item",
+		item: "vc:upgrades/item_upgrade_airship_balloon 1 1"
+	}]
+}

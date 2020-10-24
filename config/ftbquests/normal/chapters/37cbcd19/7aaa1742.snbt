@@ -1,0 +1,38 @@
+{
+	title: "Find Molybdenum",
+	icon: "gregtech:meta_item_1 1 10041",
+	disable_toast: true,
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		"Into the Dreadwoods."
+	],
+	dependencies: [
+		"a5629d4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a201c550",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_powellite_0 1 12"
+		}]
+	},
+	{
+		uid: "bfb5aaa1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_wulfenite_0 1 12"
+		}]
+	},
+	{
+		uid: "3b457d3e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:ore_molybdenite_0 1 12"
+		}]
+	}]
+}

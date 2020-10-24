@@ -1,0 +1,36 @@
+{
+	title: "(Optional) Weather Detection",
+	icon: "gregtech:meta_item_1 1 32690",
+	disable_toast: true,
+	x: 62.0d,
+	y: 39.0d,
+	shape: "square",
+	text: [
+		"Build an early warning system."
+	],
+	dependencies: [
+		"f1784f6f",
+		"96608c93"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "58b36b07",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "weather2:tornado_sensor"
+		}]
+	},
+	{
+		uid: "6121a09d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "weather2:tornado_siren"
+		},
+		{
+			item: "weather2:tornado_siren_manual"
+		}]
+	}]
+}

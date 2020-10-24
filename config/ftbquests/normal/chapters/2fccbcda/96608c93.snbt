@@ -1,0 +1,29 @@
+{
+	title: "Basic Machine Parts",
+	icon: "gregtech:machine 1 501",
+	disable_toast: true,
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"Zinc coated hulls for corrosion resistance."
+	],
+	dependencies: [
+		"d7fbf0fd"
+	],
+	tasks: [{
+		uid: "a010bb31",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	},
+	{
+		uid: "c705eb73",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		}]
+	}]
+}

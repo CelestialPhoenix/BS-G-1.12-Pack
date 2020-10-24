@@ -1,0 +1,45 @@
+{
+	title: "Advanced Knowledge",
+	icon: "minecraft:writable_book",
+	disable_toast: true,
+	x: -2.5d,
+	y: -4.5d,
+	text: [
+		"You must to Research!"
+	],
+	tasks: [{
+		uid: "a2933027",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1b,
+				knowledge.alfheim: 1b,
+				knowledge.relic: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9525d2a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "049ec54e",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				owner: "CelestialPhoenix",
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

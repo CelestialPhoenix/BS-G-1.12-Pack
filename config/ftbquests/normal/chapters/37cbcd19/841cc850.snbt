@@ -1,0 +1,24 @@
+{
+	title: "Exploring the Overworld",
+	icon: "minecraft:sapling",
+	disable_toast: true,
+	x: -16.0d,
+	y: -11.0d,
+	shape: "circle",
+	text: [
+		"Take a wonder about the local area...",
+		"",
+		"It seems that some surface features hint at what lies beneath."
+	],
+	dependencies: [
+		"d6b1bfe5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "4f6e134d",
+		type: "dimension",
+		icon: "minecraft:sapling",
+		disable_toast: true,
+		dim: 0
+	}]
+}

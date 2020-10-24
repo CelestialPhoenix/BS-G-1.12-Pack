@@ -1,0 +1,95 @@
+{
+	title: "The big freeze",
+	icon: "gregtech:machine 1 512",
+	disable_toast: true,
+	x: 8.5d,
+	y: 2.5d,
+	text: [
+		"Construct a Vacuum Freezer"
+	],
+	dependencies: [
+		"5c66befa"
+	],
+	tasks: [{
+		uid: "5d89bebc",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 512"
+		}]
+	},
+	{
+		uid: "29c59c8b",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 734"
+		}]
+	},
+	{
+		uid: "17e23a29",
+		type: "item",
+		title: "Input Bus (Any tier)",
+		icon: "gregtech:machine 1 730",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 730"
+		},
+		{
+			item: "gregtech:machine 1 720"
+		},
+		{
+			item: "gregtech:machine 1 710"
+		},
+		{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "6af8ca75",
+		type: "item",
+		title: "Output Bus (Any tier)",
+		icon: "gregtech:machine 1 731",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 731"
+		},
+		{
+			item: "gregtech:machine 1 721"
+		},
+		{
+			item: "gregtech:machine 1 711"
+		},
+		{
+			item: "gregtech:machine 1 701"
+		}]
+	},
+	{
+		uid: "6a944819",
+		type: "item",
+		title: "Input Hatch (Any tier)",
+		icon: "gregtech:machine 1 732",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 732"
+		},
+		{
+			item: "gregtech:machine 1 722"
+		},
+		{
+			item: "gregtech:machine 1 712"
+		},
+		{
+			item: "gregtech:machine 1 702"
+		}]
+	},
+	{
+		uid: "3680b744",
+		type: "item",
+		title: "20x Frost Proof Casing",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:metal_casing 1 3"
+		}]
+	}]
+}

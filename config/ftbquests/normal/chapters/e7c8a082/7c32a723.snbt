@@ -1,0 +1,21 @@
+{
+	title: "Radiation Hazard!",
+	icon: "nuclearcraft:glowing_mushroom",
+	disable_toast: true,
+	x: -0.5d,
+	y: -9.0d,
+	shape: "gear",
+	text: [
+		"Certain minerals and ores contain traces of radioactive elements, causing them to emit low lowels of radiation into the environment. Other areas of the world (such as Wastelands) can be naturally radioactive.",
+		"In general low levels of radiation will not present a signficant danger.",
+		"",
+		"Extracting radioactive materials from ore and refining it into fuel pellets will significantly increase one's radiation exposure.",
+		"Spent and reprocessed nuclear fuels are highly radioactive.",
+		"",
+		"Radioative materials stored in chests, barrels, and machines will also irridiate the environment around them.",
+		"",
+		"Shielding materials can be applied to chests to contain the radiation, or applied to armour for direct protection.",
+		"",
+		"Excessive exposure to radiation is harmful and will result in radiation poisoning! Radaway and some other foodstuffs can be consumed to heal from radiation poisioning."
+	]
+}

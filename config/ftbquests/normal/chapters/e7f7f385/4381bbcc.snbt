@@ -1,0 +1,21 @@
+{
+	title: "Building a Better Boiler",
+	icon: "gregtech:machine 1 2",
+	disable_toast: true,
+	x: -23.0d,
+	y: -9.5d,
+	text: [
+		"Outputs more steam than the Bronze version."
+	],
+	dependencies: [
+		"ef47a099"
+	],
+	tasks: [{
+		uid: "33be89d1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine_casing 1 12"
+		}]
+	}]
+}

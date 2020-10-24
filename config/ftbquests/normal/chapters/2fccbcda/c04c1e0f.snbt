@@ -1,0 +1,32 @@
+{
+	title: "Machinist",
+	icon: "gregtech:meta_item_1 1 32640",
+	disable_toast: true,
+	x: -9.5d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"Electric Machines will always draw 1 amp of current, up to it's designed voltage (32 volts for LV).",
+		"Exceeding the designed voltage is usually a bad idea, unless you enjoy pyrotechnics.",
+		"",
+		"Because a machine will only draw 1 amp, the voltage supplied must equal or exceed the Eu/t required by the recipe;",
+		"So a machine must recieve at least 20 volts to process a 20Eu/t recipe.",
+		"A 60Eu/t recipe requires 60 volts; as this exceeds the LV voltage limit LV machines won't be able to process this.",
+		"",
+		"Each LV generator/turbine will produce 1 amp 32 volts.",
+		"Adding more generators will increase the current (amps) not the voltage.",
+		"So 4 LV turbines will generate 128Eu/t at 4A 32V. ",
+		"",
+		"Electric machines have a square hatch on the side. This is used to auto-output finished products from the machine. ",
+		"This auto-output can be toggled by pressing the orange arrow in the machine GUI.",
+		"",
+		"The blue arrow controls overclocking. Overclocking a recipe will improve operating speed, and significantly increase power consumption.",
+		"A recipe will overclock when it is processed in a higher tier machine. Each additional tier of machine increaes the level of overclocking. ",
+		"An MV machine will overclock LV recipes once.",
+		"A HV machine will overclock MV recipes once, and LV recipes twice."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"96608c93"
+	]
+}

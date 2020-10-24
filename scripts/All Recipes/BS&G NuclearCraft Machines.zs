@@ -225,7 +225,7 @@ recipes.addShaped(<nuclearcraft:fission_reflector:1>*2, [
 recipes.remove(<nuclearcraft:fission_power_port>); 
 recipes.addShaped(<nuclearcraft:fission_power_port>, [
 [<ore:platingBasic>, <ore:circuitElite>, <ore:platingBasic>],
-[<ore:cableGTSinglePlatinum>, <ore:hullHV>, <ore:cableGTSinglePlatinum>],
+[<ore:cableGtSinglePlatinum>, <ore:hullHV>, <ore:cableGtSinglePlatinum>],
 [<ore:platingBasic>, <ore:circuitElite>, <ore:platingBasic>]]);
 
 #Reactor Vent

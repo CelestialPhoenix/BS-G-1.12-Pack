@@ -1,0 +1,101 @@
+{
+	title: "Metal melting",
+	icon: "tconstruct:smeltery_controller",
+	disable_toast: true,
+	x: 59.0d,
+	y: 39.0d,
+	shape: "rsquare",
+	text: [
+		"Construct a Smeltery"
+	],
+	dependencies: [
+		"3f54d08c"
+	],
+	tasks: [{
+		uid: "90d2533d",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "8c9f110f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "bb19ea71",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "12772bd0",
+		type: "item",
+		title: "Use a Can to collect Lava",
+		disable_toast: true,
+		items: [{
+			id: "forestry:can",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "cfb1a904",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "335cf8bf",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "e49b79c3",
+		type: "item",
+		title: "5-30x Seared Blocks",
+		icon: "tconstruct:seared 1 3",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:seared 1 3"
+		},
+		{
+			item: "tconstruct:seared_glass"
+		}]
+	},
+	{
+		uid: "d581b60f",
+		type: "item",
+		title: "Any Seared Tank",
+		items: [{
+			item: "tconstruct:seared_tank"
+		},
+		{
+			item: "tconstruct:seared_tank 1 1"
+		},
+		{
+			item: "tconstruct:seared_tank 1 2"
+		}]
+	}]
+}

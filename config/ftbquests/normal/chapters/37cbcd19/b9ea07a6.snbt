@@ -1,0 +1,19 @@
+{
+	title: "Fuel my fires",
+	disable_toast: true,
+	x: -17.5d,
+	y: -7.0d,
+	text: [
+		"Pellet based fuel optomised for airship engines."
+	],
+	dependencies: [
+		"fb461000"
+	],
+	tasks: [{
+		uid: "b1a3f495",
+		type: "item",
+		items: [{
+			item: "vc:item_viesoline_pellets"
+		}]
+	}]
+}

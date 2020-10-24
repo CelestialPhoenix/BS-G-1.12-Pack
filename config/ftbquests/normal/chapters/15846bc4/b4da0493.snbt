@@ -1,0 +1,89 @@
+{
+	title: "Fire burn!",
+	icon: "gregtech:machine 1 525",
+	disable_toast: true,
+	x: 1.5d,
+	y: 3.5d,
+	text: [
+		"Construct a Cracker Unit",
+		"(Or dive into Petroalchemy)"
+	],
+	dependencies: [
+		"f233c396",
+		"d02be99d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a71caced",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 525"
+		}]
+	},
+	{
+		uid: "a20b29c1",
+		type: "item",
+		title: "16x Constantan Coil Block",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "a25d4417",
+		type: "item",
+		title: "2x Input Hatch (Any tier)",
+		icon: "gregtech:machine 1 732",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 732"
+		},
+		{
+			item: "gregtech:machine 1 722"
+		},
+		{
+			item: "gregtech:machine 1 712"
+		},
+		{
+			item: "gregtech:machine 1 702"
+		}]
+	},
+	{
+		uid: "90800e11",
+		type: "item",
+		title: "1x Energy Input Hatch (MV or better)",
+		icon: "gregtech:machine 1 724",
+		items: [{
+			item: "gregtech:machine 1 724"
+		}]
+	},
+	{
+		uid: "df160ed1",
+		type: "item",
+		title: "1x Output Hatch (Any tier)",
+		icon: "gregtech:machine 1 733",
+		items: [{
+			item: "gregtech:machine 1 733"
+		},
+		{
+			item: "gregtech:machine 1 723"
+		},
+		{
+			item: "gregtech:machine 1 713"
+		},
+		{
+			item: "gregtech:machine 1 703"
+		}]
+	},
+	{
+		uid: "2e0784e3",
+		type: "item",
+		title: "20x Clean Stainless Casing",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:metal_casing 1 5"
+		}]
+	}]
+}

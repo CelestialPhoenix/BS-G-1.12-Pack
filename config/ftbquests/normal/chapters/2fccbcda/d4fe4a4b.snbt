@@ -1,0 +1,31 @@
+{
+	title: "They see me rolling",
+	icon: "railcraft:equipment 1 1",
+	disable_toast: true,
+	x: -8.0d,
+	y: -5.5d,
+	text: [
+		"Build a Metalworker and Charge Driver",
+		"[or construct a Metal Press]"
+	],
+	dependencies: [
+		"0d6ddf01"
+	],
+	tasks: [{
+		uid: "df250c91",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "railcraft:equipment 1 1"
+		}]
+	},
+	{
+		uid: "ce939998",
+		type: "item",
+		title: "Redstone Charge Driver",
+		items: [{
+			item: "railcraft:charge_feeder 1 1"
+		}],
+		consume_items: false
+	}]
+}

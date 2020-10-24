@@ -1,0 +1,37 @@
+{
+	title: "Home Sweet Home",
+	icon: "forestry:bee_house",
+	disable_toast: true,
+	x: 56.0d,
+	y: 39.0d,
+	shape: "rsquare",
+	text: [
+		"Set up some Bee Houses and collect a few combs."
+	],
+	dependencies: [
+		"183c16b6"
+	],
+	tasks: [{
+		uid: "fccdc25a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	},
+	{
+		uid: "8f4d8ab5",
+		type: "item",
+		title: "Any beeComb",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "beeComb",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

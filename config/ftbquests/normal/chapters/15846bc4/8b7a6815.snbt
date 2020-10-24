@@ -1,0 +1,80 @@
+{
+	title: "...and cauldron bubble.",
+	icon: "thaumcraft:crucible",
+	disable_toast: true,
+	x: 1.5d,
+	y: 6.5d,
+	text: [
+		"Dive into Petroalchemy [WiP]",
+		"(or construct a Cracker Unit)"
+	],
+	dependencies: [
+		"f233c396",
+		"d02be99d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "478a8561",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		},
+		{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "8b675630",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "steamcracked_gas",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "steamcracked_naphtha",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "cracked_light_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "cracked_heavy_fuel",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		},
+		{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "cracked_tar",
+					Amount: 1000
+				}
+			},
+			Damage: 32762s
+		}]
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Find Uranium",
+	icon: "gregtech:meta_item_1 1 10075",
+	disable_toast: true,
+	x: 9.5d,
+	y: -19.5d,
+	text: [
+		"See the tower in the distance?"
+	],
+	dependencies: [
+		"ab423959"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71dceac8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholpitchblende"
+		}]
+	},
+	{
+		uid: "d01bc139",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholuraninite"
+		}]
+	},
+	{
+		uid: "69a70d48",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholbrannerite"
+		}]
+	},
+	{
+		uid: "adb23208",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholzircon"
+		}]
+	}]
+}

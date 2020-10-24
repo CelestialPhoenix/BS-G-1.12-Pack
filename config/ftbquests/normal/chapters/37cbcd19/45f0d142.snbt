@@ -1,0 +1,46 @@
+{
+	title: "Find Tungsten",
+	icon: "gregtech:meta_item_1 1 10074",
+	disable_toast: true,
+	x: 2.0d,
+	y: -12.5d,
+	text: [
+		"Something that can't be blown up?"
+	],
+	dependencies: [
+		"1d021334"
+	],
+	hide: true,
+	tasks: [{
+		uid: "60bc0491",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreobsidiantungstate"
+		}]
+	},
+	{
+		uid: "24d79a6e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreobsidianferberite"
+		}]
+	},
+	{
+		uid: "179839ae",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreobsidianhubnerite"
+		}]
+	},
+	{
+		uid: "ff177c58",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreobsidianwolframite"
+		}]
+	}]
+}

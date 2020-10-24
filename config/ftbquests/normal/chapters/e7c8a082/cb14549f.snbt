@@ -1,0 +1,24 @@
+{
+	title: "Nuclear Decay",
+	icon: "nuclearcraft:decay_hastener",
+	disable_toast: true,
+	x: 4.0d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"Radioactive materials will naturally decay into intert materials.",
+		"",
+		"The Decay Hastner can be a means to produce useful radioisotopes from nuclear waste and other materials, or break them down into something safer to handle.",
+		"A skilled thaumoturge can recreate the Hastner's effects using Perditio and Permutatio essentia."
+	],
+	dependencies: [
+		"7c32a723"
+	],
+	tasks: [{
+		uid: "c33b9f0f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_hastener"
+		}]
+	}]
+}

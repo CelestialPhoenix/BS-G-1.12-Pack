@@ -1,0 +1,38 @@
+{
+	title: "Find Magnesium",
+	icon: "gregtech:meta_item_1 1 10038",
+	disable_toast: true,
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"Look for a patch of exposed dolomite ore."
+	],
+	dependencies: [
+		"a5629d4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c92f3be5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredolomitemagnesite"
+		}]
+	},
+	{
+		uid: "effb8ea6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oredolomitemalachite"
+		}]
+	},
+	{
+		uid: "db245a32",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:dolomite"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "The 'Vies' craft, vol. 1",
+	icon: "vc:item_guidebook_main",
+	disable_toast: true,
+	x: -1.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3a7e16e8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:book"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1d96b5b9",
+		type: "item",
+		item: "vc:item_guidebook_main"
+	}]
+}

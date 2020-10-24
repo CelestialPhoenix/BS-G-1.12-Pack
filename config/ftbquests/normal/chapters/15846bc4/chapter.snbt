@@ -1,0 +1,7 @@
+{
+	title: "Industrial Might",
+	icon: "immersiveengineering:metal_multiblock 1 9",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

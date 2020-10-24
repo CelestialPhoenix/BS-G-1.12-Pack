@@ -1,0 +1,24 @@
+{
+	title: "Neutron Enrichment",
+	icon: "nuclearcraft:fission_irradiator",
+	disable_toast: true,
+	x: -5.0d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"An Irridiator is used inside a reactor to bombard material with neutron flux.",
+		"",
+		"Initially this process can only be carried out in a nuclear reactor.",
+		"However creative use of a rich neutron source such as Californium 252 can be used for more exotic and efficient processes."
+	],
+	dependencies: [
+		"7c32a723"
+	],
+	tasks: [{
+		uid: "8183bef2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator"
+		}]
+	}]
+}

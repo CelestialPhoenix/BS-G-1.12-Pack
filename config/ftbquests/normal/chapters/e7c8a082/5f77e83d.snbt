@@ -1,0 +1,20 @@
+{
+	title: "Thaumonuclear",
+	x: -3.5d,
+	y: 5.5d,
+	text: [
+		"A thaumaturgical device capable of using the void as an external heat sink. ",
+		"",
+		"TNS fuels burn at half heat without compromising reactor efficiency."
+	],
+	dependencies: [
+		"420913ac"
+	],
+	tasks: [{
+		uid: "c2e0f13f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gradlethaumic"
+		}]
+	}]
+}

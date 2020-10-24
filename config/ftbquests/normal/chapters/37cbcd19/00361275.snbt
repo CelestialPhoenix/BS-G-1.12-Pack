@@ -1,0 +1,30 @@
+{
+	title: "Find Aluminium",
+	icon: "gregtech:meta_item_1 1 10001",
+	disable_toast: true,
+	x: -11.5d,
+	y: -15.0d,
+	text: [
+		"Skies above!"
+	],
+	dependencies: [
+		"c9709982"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bfa98c90",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholyaluminium"
+		}]
+	},
+	{
+		uid: "1c3362ac",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreholybauxite"
+		}]
+	}]
+}

@@ -1,0 +1,87 @@
+{
+	title: "A bigger furnace....",
+	icon: "gregtech:machine 1 511",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Construct an Electric Blast Furnace",
+		"",
+		"Multiblock machines draw power a little differently to their mineature cousins.",
+		"Each energy input hatch can draw TWO amps at its design voltage.",
+		"And a machine can have multiple power input hatches if needed.",
+		"",
+		"What matters here is total power supplied, rather than voltage.",
+		"4 LV turbines = 4A x 32V = 128Eu/t",
+		"1 MV turbine = 1A x 128V = 128Eu/t",
+		"Both the 4xLV and the 1xMV are suitable for processing MV recipes (up to 128Eu/t) in the EBF.",
+		"",
+		"",
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1e741ca6"
+	],
+	tasks: [{
+		uid: "793edfc2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 511"
+		}]
+	},
+	{
+		uid: "b27e36f6",
+		type: "item",
+		title: "16x Constantan Coil Block",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:wire_coil"
+		}]
+	},
+	{
+		uid: "b5f98cff",
+		type: "item",
+		title: "9-13x Heat Proof Machine Casing",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}]
+	},
+	{
+		uid: "6c7ebe3a",
+		type: "item",
+		title: "2-4x Energy Input Hatch (LV)",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 714"
+		}]
+	},
+	{
+		uid: "51ab97e9",
+		type: "item",
+		title: "Input Bus (LV or ULV)",
+		icon: "gregtech:machine 1 710",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 710"
+		},
+		{
+			item: "gregtech:machine 1 700"
+		}]
+	},
+	{
+		uid: "65d9d53c",
+		type: "item",
+		title: "Output Bus (LV or ULV)",
+		icon: "gregtech:machine 1 711",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:machine 1 711"
+		},
+		{
+			item: "gregtech:machine 1 701"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Generating power",
+	icon: "forestry:engine_biogas",
+	disable_toast: true,
+	x: -21.5d,
+	y: -8.0d,
+	shape: "rsquare",
+	text: [
+		"Build a simple engine to generate power (Rf) from steam."
+	],
+	dependencies: [
+		"82b6068c"
+	],
+	tasks: [{
+		uid: "e58d2cfb",
+		type: "item",
+		title: "Steam Engine or Sterling Engine.",
+		disable_toast: true,
+		items: [{
+			item: "forestry:engine_biogas"
+		},
+		{
+			item: "forestry:engine_peat"
+		}]
+	}]
+}

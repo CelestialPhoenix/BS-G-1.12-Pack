@@ -1,0 +1,29 @@
+{
+	title: "Abyssalnite",
+	icon: "abyssalcraft:abyingot",
+	disable_toast: true,
+	x: -1.0d,
+	y: -5.0d,
+	text: [
+		"Seems a bit spiky."
+	],
+	dependencies: [
+		"a5629d4e"
+	],
+	tasks: [{
+		uid: "b24cefe5",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "abyssalcraft:dreadore"
+		}]
+	},
+	{
+		uid: "2c99bc41",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "abyssalcraft:abydreadore"
+		}]
+	}]
+}

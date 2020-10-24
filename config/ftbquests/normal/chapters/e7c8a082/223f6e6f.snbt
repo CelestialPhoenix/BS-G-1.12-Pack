@@ -1,0 +1,29 @@
+{
+	title: "Thorium Isotope Preparation",
+	icon: "contenttweaker:dusttbu",
+	disable_toast: true,
+	x: -2.0d,
+	y: 3.5d,
+	text: [
+		"Fissile TBU fuel is prepared by irridiating Thorium dust with Neutron Flux, and decaying the resultant Protactinium-Thorium dust."
+	],
+	dependencies: [
+		"94e73f13"
+	],
+	tasks: [{
+		uid: "151fcecb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 2069"
+		}]
+	},
+	{
+		uid: "7ca807cb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:dusttbu"
+		}]
+	}]
+}

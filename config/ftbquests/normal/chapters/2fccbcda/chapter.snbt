@@ -1,0 +1,8 @@
+{
+	title: "Electrical Tinkering",
+	icon: "immersiveengineering:tool 1 1",
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

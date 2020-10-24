@@ -1,0 +1,51 @@
+{
+	title: "Naqadah Isotope Preparation",
+	icon: "gregtech:meta_item_1 1 10773",
+	disable_toast: true,
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"Fissile Naquadah fuels Nq314 and Nq319 are prepared from Naquadria and Enriched Naquadah using Fluoroantimonic Acid.",
+		"",
+		"Fluid Fluoronaquadriac Acid can be directly processed in a Centrifuge, or bottled in a Chemical Cell and crystallised into Clathrates ready for alchemical preparation.",
+		"",
+		"The Antimony and Indium used in this process can be fully recovered and endlessly recycled.",
+		"",
+		"Neutron flux can be used to enrich Naquadah312 into Naquadria and Enriched Naquadah."
+	],
+	dependencies: [
+		"94e73f13"
+	],
+	tasks: [{
+		uid: "0feaefbd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 2310"
+		}]
+	},
+	{
+		uid: "1cb55a2e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 2309"
+		}]
+	},
+	{
+		uid: "fa07ef70",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 10772"
+		}]
+	},
+	{
+		uid: "25d6bfec",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "gregtech:meta_item_1 1 10773"
+		}]
+	}]
+}

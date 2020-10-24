@@ -1,0 +1,21 @@
+{
+	title: "[Optional] Use a Multiblock Projector",
+	disable_toast: true,
+	x: -5.5d,
+	y: 3.5d,
+	text: [
+		"Use the projector to show the multiblock structure in world!"
+	],
+	dependencies: [
+		"06405e64"
+	],
+	tasks: [{
+		uid: "2176ed36",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

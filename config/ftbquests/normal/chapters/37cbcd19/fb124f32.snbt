@@ -1,0 +1,29 @@
+{
+	title: "Find Lapis Lazuli",
+	icon: "minecraft:dye 1 4",
+	disable_toast: true,
+	x: -14.5d,
+	y: -13.5d,
+	text: [
+		"Find patch of exposed ore underwater."
+	],
+	dependencies: [
+		"841cc850"
+	],
+	tasks: [{
+		uid: "0e040bb8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oremarblelapis"
+		}]
+	},
+	{
+		uid: "9dc1ef85",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oremarblelazurite"
+		}]
+	}]
+}

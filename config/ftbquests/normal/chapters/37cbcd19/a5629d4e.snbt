@@ -1,0 +1,18 @@
+{
+	title: "Fear and Dread",
+	disable_toast: true,
+	x: 0.5d,
+	y: -4.0d,
+	shape: "circle",
+	dependencies: [
+		"7fb6d782"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e96a519",
+		type: "dimension",
+		icon: "abyssalcraft:dreadsapling",
+		disable_toast: true,
+		dim: 51
+	}]
+}

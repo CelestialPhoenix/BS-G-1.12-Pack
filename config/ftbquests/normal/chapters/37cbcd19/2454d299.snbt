@@ -1,0 +1,62 @@
+{
+	title: "Find Iridium",
+	icon: "gregtech:meta_item_1 1 10032",
+	disable_toast: true,
+	x: 4.714285714285708d,
+	y: -20.339285714285715d,
+	text: [
+		"Green is not your colour."
+	],
+	dependencies: [
+		"ab423959"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90f86bd3",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblechalcocite"
+		}]
+	},
+	{
+		uid: "f4a1c60a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblebornite"
+		}]
+	},
+	{
+		uid: "fbf757bd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblepentlandite"
+		}]
+	},
+	{
+		uid: "4c264b95",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblebowieite"
+		}]
+	},
+	{
+		uid: "0a8f8bfd",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblecooperite"
+		}]
+	},
+	{
+		uid: "6284af95",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "contenttweaker:oreomotholmarblesheldonite"
+		}]
+	}]
+}
