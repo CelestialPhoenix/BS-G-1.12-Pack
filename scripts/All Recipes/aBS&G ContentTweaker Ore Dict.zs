@@ -297,6 +297,8 @@ print("Tweak Tweak Tweak Tweak");
 //Thanks Innomin8 for the CT example
 var oreDictRemaining as IItemStack[IOreDictEntry] = {
     <ore:ingotNaquadah>: <contenttweaker:ingotnq312>
+    <ore:ingotNaquadah314>: <contenttweaker:ingotnq314>
+    <ore:ingotNaquadah319>: <contenttweaker:ingotnq319>
 };
 
 for oreDictEntry, item in oreDictRemaining {
