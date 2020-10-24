@@ -6,7 +6,17 @@ print("Green Glowey Energy");
 #---Recipes---
 recipes.remove(<nuclearcraft:lithium_ion_cell>);
 
+recipes.remove(<nuclearcraft:multitool>);
+recipes.addShaped(<nuclearcraft:multitool>,[
+[null, <ore:plateSteel>, null],
+[<ore:buttonWood>, <ore:ringSteel>, <ore:plateSteel>],
+[<ore:sticksteel>, <ore:clock>, null]]);
 
+recipes.remove(<nuclearcraft:geiger_counter>);
+recipes.addShaped(<nuclearcraft:geiger_counter>,[
+[<ore:paneGlass>, <ore:sensorLV>],
+[<ore:circuitBasic>, <ore:cableGtSingleCopper>],
+[<ore:advancedAlloy>, null]]);
 
 #--Armour--
 #Boron -- Leaded
