@@ -1139,3 +1139,18 @@ recipes.remove(<nuclearcraft:water_source_compact>);
 recipes.remove(<nuclearcraft:water_source_dense>);
 <nuclearcraft:water_source_dense>.addTooltip("This item is disabled");
 
+#---Radiation Machines---
+recipes.remove(<nuclearcraft:radiation_scrubber>);
+recipes.addShaped(<nuclearcraft:radiation_scrubber>, [
+[<ore:motorHV>, <ore:rotorStainlessSteel>, <ore:barsIron>],
+[<ore:circuitGood>, <ore:hullHV>, <ore:pipeMediumStainlessSteel>],
+[<ore:motorHV>, <ore:rotorStainlessSteel>, <ore:barsIron>]]);
+
+recipes.remove(<nuclearcraft:geiger_block>);
+recipes.addShaped(<nuclearcraft:geiger_block>, [
+[<ore:sensorLV>],
+[<ore:hullHV>],
+[<nuclearcraft:geiger_counter>]]);
+
+
+
