@@ -177,6 +177,31 @@ compressor
     .EUt(2)
     .buildAndRegister();
 
+#This awesome looping script was modified from FTB interactions
+#Petal Blocks
+var nuclearMaterials as string[] = [
+	"Uranium238",
+	"Neptunium237",
+	"Plutonium242",
+	"Americium243",
+	"Curium246",
+	"Berkelium247",
+	"Californium252"
+	];
+
+for input in nuclearMaterials {
+	var oreIngot as IItemStack = oreDict["ingot"~input].firstItem;
+	var oreBlock as IItemStack = oreDict["block"~input].firstItem;
+
+compressor
+    .recipeBuilder()
+    .inputs(oreIngot*9)
+    .outputs(oreBlock)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+}
+
 #Primal
 compressor
     .recipeBuilder()
