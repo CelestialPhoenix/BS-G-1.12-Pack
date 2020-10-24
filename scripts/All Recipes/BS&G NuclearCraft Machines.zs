@@ -218,7 +218,11 @@ recipes.addShaped(<nuclearcraft:fission_reflector:1>*2, [
 [<ore:plateThickLead>, <ore:plateThickSteel>, <ore:plateThickLead>]]);
 
 #Reactor Power Port
-<nuclearcraft:fission_power_port>.addTooltip("Recipe Needed");
+recipes.remove(<nuclearcraft:fission_power_port>); 
+recipes.addShaped(<nuclearcraft:fission_power_port>, [
+[<ore:platingBasic>, <ore:circuitElite>, <ore:platingBasic>],
+[<ore:cableGTSinglePlatinum>, <ore:hullHV>, <ore:cableGTSinglePlatinum>],
+[<ore:platingBasic>, <ore:circuitElite>, <ore:platingBasic>]]);
 
 #Reactor Vent
 recipes.remove(<nuclearcraft:fission_vent>); 
