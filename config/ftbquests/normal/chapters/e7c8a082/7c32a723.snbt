@@ -17,5 +17,8 @@
 		"Shielding materials can be applied to chests to contain the radiation, or applied to armour for direct protection.",
 		"",
 		"Excessive exposure to radiation is harmful and will result in radiation poisoning! Radaway and some other foodstuffs can be consumed to heal from radiation poisioning."
+	],
+	dependencies: [
+		"3a1dfa28"
 	]
 }

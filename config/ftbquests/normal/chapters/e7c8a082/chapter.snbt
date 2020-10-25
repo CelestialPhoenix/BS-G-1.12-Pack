@@ -1,6 +1,6 @@
 {
 	title: "Nuclear Mastermind (WiP)",
-	icon: "immersiveengineering:metal_multiblock 1 10",
+	icon: "immersivetech:metal_multiblock 1 15",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""
