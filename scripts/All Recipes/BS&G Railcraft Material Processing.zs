@@ -1414,6 +1414,10 @@ RollingMachine.addShaped(<ore:stickLongTungstenThoriumAlloy>.firstItem, [
 #--Thick plates--
 #2x2 of plates in rolling machine
 #RollingMachine.addShaped(IItemStack output, IIngredient[][] inputs, optional int ticks);
+RollingMachine.addShaped(<ore:plateThickBrass>.firstItem, [
+[<ore:plateBrass>, <ore:plateBrass>],
+[<ore:plateBrass>, <ore:plateBrass>]], 600);
+
 RollingMachine.addShaped(<ore:plateThickDarmstadtium>.firstItem, [
 [<ore:plateDarmstadtium>, <ore:plateDarmstadtium>],
 [<ore:plateDarmstadtium>, <ore:plateDarmstadtium>]], 600);
@@ -1542,6 +1546,10 @@ RollingMachine.addShaped(<ore:plateThickLumium>.firstItem, [
 RollingMachine.addShaped(<ore:plateThickEnderium>.firstItem, [
 [<ore:plateEnderium>, <ore:plateEnderium>],
 [<ore:plateEnderium>, <ore:plateEnderium>]], 600);
+
+RollingMachine.addShaped(<ore:plateThickZinc>.firstItem, [
+[<ore:plateZinc>, <ore:plateZinc>],
+[<ore:plateZinc>, <ore:plateZinc>]], 600);
 
 #--Wires--
 #3 rods in a diagonal line

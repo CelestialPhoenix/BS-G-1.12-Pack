@@ -17,6 +17,9 @@ PlateThickBeryllium.register();
 var PlateThickBoron = VanillaFactory.createItem("platethickboron");
 PlateThickBoron.register();
 
+var PlateThickBrass = VanillaFactory.createItem("platethickbrass");
+PlateThickBrass.register();
+
 var PlateThickDarmstadtium = VanillaFactory.createItem("platethickdarmstadtium");
 PlateThickDarmstadtium.register();
 
@@ -64,3 +67,6 @@ PlateThickHsse.register();
 
 var PlateThickWood = VanillaFactory.createItem("platethickwood");
 PlateThickWood.register();
+
+var PlateThickZinc = VanillaFactory.createItem("platethickzinc");
+PlateThickZinc.register();
