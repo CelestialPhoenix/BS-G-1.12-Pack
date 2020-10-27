@@ -46,7 +46,7 @@ recipes.addShaped(<immersiveengineering:material>*2, [
 recipes.removeShaped(<immersiveengineering:material:5>);
 recipes.addShaped(<immersiveengineering:material:5>, [
 [<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>],
-[<contenttweaker:hempstring>, <ore:stickTreatedWood>, <contenttweaker:hempstring>], 
+[<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>], 
 [<contenttweaker:hempstring>, <contenttweaker:hempstring>, <contenttweaker:hempstring>]]);
 
 #---Mechanical Components
