@@ -23,6 +23,9 @@ recipes.remove(<nuclearcraft:ingot:6>, <ore:dustPyrotheum>);
 recipes.remove(<nuclearcraft:ingot:7>, <ore:dustPyrotheum>);
 #recipes.remove(<ore:ingot>.firstItem, <ore:dustPyrotheum>);
 
+recipes.remove(<gregtech:meta_item_1:10307>, <ore:dustPyrotheum>); //Naquadah 312 ingot
+recipes.remove(<nuclearcraft:ingot:12>, <ore:dustPyrotheum>); //Aluminium
+
 recipes.remove(<thermalfoundation:glass:*>);
 recipes.remove(<thermalfoundation:glass_alloy:*>);
 

@@ -12,6 +12,11 @@ print("Green Glowey Energy");
 recipes.remove(<nuclearcraft:ingot_block:*>);
 recipes.remove(<nuclearcraft:fertile_isotope:*>);
 
+#Ingots
+recipes.remove(<nuclearcraft:ingot:12>); //Aluminium
+furnace.remove(<nuclearcraft:ingot:12>);
+
+
 #---Recipes---
 
 #--Plating--
