@@ -1099,7 +1099,7 @@ recipes.removeShaped(<ore:toolHeadUniversalSpadeTopaz>.firstItem);
 recipes.addShaped(<ore:toolHeadUniversalSpadeTopaz>.firstItem, [
 [<ore:plateTopaz>, <ore:plateTopaz>, <ore:plateTopaz>], 
 [<ore:gemTopaz>, null, <ore:gemTopaz>], 
-[null, <ore:gemTanzanite>, null]]);
+[null, <ore:gemTopaz>, null]]);
 recipes.removeShaped(<ore:toolHeadUniversalSpadeUltimet>.firstItem);
 recipes.addShaped(<ore:toolHeadUniversalSpadeUltimet>.firstItem, [
 [<ore:plateUltimet>, <ore:plateUltimet>, <ore:plateUltimet>], 
@@ -1110,9 +1110,18 @@ recipes.addShaped(<ore:toolHeadUniversalSpadeWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>], 
 [<ore:ingotWroughtIron>, null, <ore:ingotWroughtIron>], 
 [null, <ore:ingotWroughtIron>, null]]);
-#recipes.removeShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem);
 
-#recipes.removeShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem);
+recipes.removeShaped(<ore:toolHeadUniversalNetherQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>], 
+[<ore:gemNetherQuartz>, null, <ore:gemNetherQuartz>], 
+[null, <ore:gemNetherQuartz>, null]]);
+
+recipes.removeShaped(<ore:toolHeadUniversalCertusQuartz>.firstItem);
+recipes.addShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem, [
+[<ore:plateNetherCertus>, <ore:plateNetherCertus>, <ore:plateNetherCertus>], 
+[<ore:gemCertusQuartz>, null, <ore:gemCertusQuartz>], 
+[null, <ore:gemCertusQuartz>, null]]);
 
 recipes.removeShaped(<ore:toolHeadUniversalSpadeOsmiridium>.firstItem);
 recipes.addShaped(<ore:toolHeadUniversalSpadeOsmiridium>.firstItem, [
@@ -1409,7 +1418,8 @@ recipes.removeShaped(<ore:toolHeadSenseWroughtIron>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:ingotWroughtIron>]]);
 #recipes.removeShaped(<ore:toolHeadSenseNetherQuartz>.firstItem);
-
+recipes.addShapedMirrored(<ore:toolHeadSenseQuartz>.firstItem, [
+[<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]]);
 #recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
 
 recipes.removeShaped(<ore:toolHeadSenseOsmiridium>.firstItem);

@@ -402,6 +402,7 @@ recipes.removeShaped(<ore:plateLead>.firstItem);
 recipes.removeShaped(<ore:plateLithium>.firstItem);
 recipes.removeShaped(<ore:plateNeodymium>.firstItem);
 recipes.removeShaped(<ore:plateDarmstadtium>.firstItem);
+recipes.removeShaped(<ore:plateMagnesium>.firstItem);
 recipes.removeShaped(<ore:plateNickel>.firstItem);
 recipes.removeShaped(<ore:plateNiobium>.firstItem);
 recipes.removeShaped(<ore:plateOsmium>.firstItem);
@@ -543,6 +544,8 @@ recipes.removeShaped(<ore:plateBlueAlloy>.firstItem);
 recipes.removeShaped(<ore:plateManganese>.firstItem);
 recipes.removeShaped(<ore:plateGold>.firstItem);
 recipes.removeShaped(<ore:platePolycaprolactam>.firstItem);
+recipes.removeShaped(<ore:plateSiliconCarbide>.firstItem);
+
 recipes.addShaped(<ore:platePolycaprolactam>.firstItem*2, [
 [<ore:ingotPolycaprolactam>, <ore:ingotPolycaprolactam>]]);
 recipes.removeShaped(<ore:plateEpoxid>.firstItem);
