@@ -1198,6 +1198,12 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(<ore:ingotDepletedHEVy324TRISO>.firs
 #---Neutron Irridiator---
 //mods.nuclearcraft.FissionIrradiator.addRecipe(IIngredient itemInput, IIngredient itemOutput, int fluxRequired, double heatPerFlux, double efficiency, double radiation);
 
+#Nuclear Cracking
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:gemNetherStar>, <contenttweaker:starcracked>, 256000, 0.5, 1.0, 0.5);
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:gemEnderPearl>, <contenttweaker:pearlcracked>, 64000, 0.1, 1.0, 0.025);
+mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:gemEnderEye>, <contenttweaker:eyecracked>, 16000, 0.05, 1.0, 0.005);
+
+
 #Naquadah Enrichment Processing
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadah>, <ore:dustNaquadah312Enriched>, 25600000, 0.0, 1.0, 0.000100);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:dustNaquadria>, <ore:dustNaquadriaEnriched>, 38400000, 0.0, 1.0, 0.000100);
