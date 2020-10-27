@@ -2346,6 +2346,8 @@ item.contenttweaker.platethickuranium238.name=Thick Uranium238 Plate
 item.contenttweaker.platethickgraphite.name=Thick Graphite Plate
 item.contenttweaker.platethickboron.name=Thick Boron Plate
 item.contenttweaker.platethickmagnalium.name=Thick Magnalium Plate
+item.contenttweaker.platethickbrass.name=Thick Brass Plate
+item.contenttweaker.platethickzinc.name=Thick Zinc Plate
 
 item.contenttweaker.platethickdreadiumcarbide.name= Thick Dreadium Carbide Plate
 item.contenttweaker.platethickelementalterrasteel.name= Thick Elemental Terrasteel Plate
