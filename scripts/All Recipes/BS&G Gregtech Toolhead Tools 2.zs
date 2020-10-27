@@ -1418,9 +1418,11 @@ recipes.removeShaped(<ore:toolHeadSenseWroughtIron>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:ingotWroughtIron>]]);
 
+recipes.removeShaped(<ore:toolHeadSenseNetherQuartz>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:gemNetherQuartz>]]);
 
+recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseCertusQuartz>.firstItem, [
 [<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:gemCertusQuartz>]]);
 
