@@ -3,6 +3,13 @@
 
 print("I'll cast my eye on you");
 
+#Remove melting recipes
+mods.tconstruct.Melting.removeRecipe(<liquid:iron>, <minecraft:compass>);
+mods.tconstruct.Melting.removeRecipe(<liquid:gold>, <minecraft:clock>);
+
+
+#--Processing--
+
 #Aluminium
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*144, <ore:ingotAluminium>.firstItem, 800);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium>*1296, <ore:blockAluminium>.firstItem, 800);

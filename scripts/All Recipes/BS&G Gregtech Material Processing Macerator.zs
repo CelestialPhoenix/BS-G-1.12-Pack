@@ -8,8 +8,11 @@ import mods.gregtech.recipe.RecipeMap;
 
 print("Hello Boys- I'm Baaaaack!!!");
 
-#---Macerator---
 val macerator as RecipeMap = RecipeMap.getByName("macerator");
+
+#--Remove recipes--
+macerator.findRecipe(8, [<minecraft:compass>], null).remove();
+macerator.findRecipe(8, [<minecraft:clock>], null).remove();
 
 #--Botania--
 #Flowers

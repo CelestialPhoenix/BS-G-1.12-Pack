@@ -7,6 +7,10 @@ print("Hello Boys- I'm Baaaaack!!!");
 
 val FluidExtractor as RecipeMap = RecipeMap.getByName("fluid_extractor");
 
+#---Recipe Removal---
+FluidExtractor.findRecipe(32, [<minecraft:compass>], null).remove();
+FluidExtractor.findRecipe(32, [<minecraft:clock>], null).remove();
+
 #---Fluid Extraction---
 #--Clathrates--
 #Alchemical
