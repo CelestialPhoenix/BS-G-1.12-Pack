@@ -508,6 +508,12 @@ Agglomeration.addRecipe(ingotFuelBoC, [ingotFuelN, <ore:gemNetherStar>, <ore:gra
 
 #Terrasteel Agglomeration Neutron Enrichment
 //Mana Cost= Neutron Flux/10
+mods.botaniatweaks.Agglomeration.addRecipe(<contenttweaker:starcracked>*1, [<ore:gemNetherStar>], 128000, 0x882222, 0xBB5555, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<contenttweaker:pearlcracked>*1, [<ore:gemEnderPearl>], 64000, 0x882222, 0xBB5555, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
+mods.botaniatweaks.Agglomeration.addRecipe(<contenttweaker:eyecracked>*1, [<ore:gemEnderEye>], 16000, 0x882222, 0xBB5555, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
+
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustTBP>.firstItem*1, [<ore:dustThorium>], 16000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
 
 mods.botaniatweaks.Agglomeration.addRecipe(<ore:dustProtactinium233>.firstItem*1, [<ore:dustTBP>], 272000, 0x228822, 0x55BB55, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>, <nuclearcraft:fission_irradiator>, <botania:alchemycatalyst>, <nuclearcraft:fertile_isotope:6>);
