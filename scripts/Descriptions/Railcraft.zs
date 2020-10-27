@@ -3,12 +3,15 @@
 
 #mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"TEST");
 
+#--Charge Driver--
+mods.jei.JEI.addDescription([<railcraft:charge_feeder:1>],"Redstone Charge Drivers provide the long range signal pulses necessary to power the Redstone Locomotive.", "A Charge Driver can also power the Metalworker." "Requires a redstone signal to activate.");
+
 #--Metalworker--
 #added first to get the tips in the correct order
 mods.jei.JEI.addDescription([<railcraft:equipment:1>],"A self-contained set of heavy tooling for shaping metal.", "This is pretty much the limit for driving machinary of a redstone pulse.", "Powered off a Redstone Charge Driver");
 
 #--Locomotives--
-mods.jei.JEI.addDescription([<railcraft:locomotive_electric>, <railcraft:charge_feeder:1>, <railcraft:equipment:1>],"Locomotive Engine driven off a Redstone Signal.", "Redstone rails provide the signal pickup to Locomotive.", "Redstone Charge Drivers provide the long range signal pulses necessary to power this Locomotive.");
+mods.jei.JEI.addDescription([<railcraft:locomotive_electric>],"Locomotive Engine driven off a Redstone Signal.", "Redstone rails provide the signal pickup to Locomotive.", "Redstone Charge Drivers provide the long range signal pulses necessary to power this Locomotive.");
 
 #--Multiblocks--
 
