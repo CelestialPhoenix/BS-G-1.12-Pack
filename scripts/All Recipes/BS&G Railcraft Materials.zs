@@ -131,7 +131,6 @@ recipes.remove(<railcraft:nugget:9>); #Brass
 <railcraft:nugget:9>.addTooltip("This item is disabled");
 
 #Plates
-#need CT support
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:9>); #Invar
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:10>); #Zinc
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
@@ -139,6 +138,42 @@ mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:9>); #Invar
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:10>); #Zinc
 mods.immersiveengineering.MetalPress.removeRecipe(<railcraft:plate:11>); #Brass
+
+recipes.addShapeless(<ore:plateThickIron>.firstItem, [<railcraft:plate:0>]);
+<railcraft:plate:0>.displayName="Old Styled Iron Plate";
+
+recipes.addShapeless(<ore:plateThickSteel>.firstItem, [<railcraft:plate:1>]);
+<railcraft:plate:1>.displayName="Old Styled Steel Plate";
+
+recipes.addShapeless(<ore:plateThickTin>.firstItem, [<railcraft:plate:2>]);
+<railcraft:plate:2>.displayName="Old Styled Tin Plate";
+
+recipes.addShapeless(<ore:plateThickCopper>.firstItem, [<railcraft:plate:3>]);
+<railcraft:plate:3>.displayName="Old Styled Copper Plate";
+
+recipes.addShapeless(<ore:plateThickLead>.firstItem, [<railcraft:plate:4>]);
+<railcraft:plate:4>.displayName="Old Styled Lead Plate";
+
+recipes.addShapeless(<ore:plateThickSilver>.firstItem, [<railcraft:plate:5>]);
+<railcraft:plate:5>.displayName="Old Styled Silver Plate";
+
+recipes.addShapeless(<ore:plateThickBronze>.firstItem, [<railcraft:plate:6>]);
+<railcraft:plate:6>.displayName="Old Styled Bronze Plate";
+
+recipes.addShapeless(<ore:plateThickGold>.firstItem, [<railcraft:plate:7>]);
+<railcraft:plate:7>.displayName="Old Styled Gold Plate";
+
+recipes.addShapeless(<ore:plateThickNickel>.firstItem, [<railcraft:plate:8>]);
+<railcraft:plate:8>.displayName="Old Styled Nickel Plate";
+
+recipes.addShapeless(<ore:plateThickInvar>.firstItem, [<railcraft:plate:9>]);
+<railcraft:plate:9>.displayName="Old Styled Invar Plate";
+
+recipes.addShapeless(<ore:plateThickZinc>.firstItem, [<railcraft:plate:10>]);
+<railcraft:plate:10>.displayName="Old Styled Zinc Plate";
+
+recipes.addShapeless(<ore:plateThickBrass>.firstItem, [<railcraft:plate:11>]);
+<railcraft:plate:11>.displayName="Old Styled Brass Plate";
 
 #Misc
 recipes.remove(<railcraft:fuel_coke>); #Coal Coke
