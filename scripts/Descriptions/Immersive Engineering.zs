@@ -4,7 +4,13 @@
 #mods.jei.JEI.addDescription(<minecraft:iron_ingot>,"TEST");
 
 #--Tools--
+//Hammer
 mods.jei.JEI.addDescription([<immersiveengineering:tool>],"Used (right-click) to form the multiblock structures from Immersive Engineering");
+
+//Projector
+mods.jei.JEI.addDescription([<immersivepetroleum:schematic>],"Used to display a hologram of a multiblock structure in world.", "Makes construction significantly easier.", "Automatically shows each layer in turn and highlights incorrect blocks.", "Switch the projector off by taking it out of your hotbar.");
+
+mods.jei.JEI.addDescription([<immersivepetroleum:schematic>],"Use the 'Pick Block' key to rotate the structure.", "Sneak and rotate to mirror it.", "Right Click to lock the projection into position.", "Sneak-Right Click to unlock the projection.");
 
 #-moved to explosives.zs
 #mods.jei.JEI.addDescription([<immersiveengineering:wooden_device0:4>],"A wooden barrel packed with gunpowder", 
