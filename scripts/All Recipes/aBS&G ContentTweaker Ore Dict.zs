@@ -1832,6 +1832,8 @@ for oreDictEntry, item in oreDictRemaining {
 <ore:plateThickGraphite>.add(<contenttweaker:platethickgraphite>);
 <ore:plateThickBoron>.add(<contenttweaker:platethickboron>);
 <ore:plateThickMagnalium>.add(<contenttweaker:platethickmagnalium>);
+<ore:plateThickBrass>.add(<contenttweaker:platethickbrass>);
+<ore:plateThickZinc>.add(<contenttweaker:platethickzinc>);
 
 <ore:plateThickDreadiumCarbide>.add(<contenttweaker:platethickdreadiumcarbide>);
 <ore:plateThickElementalTerrasteel>.add(<contenttweaker:platethickelementalterrasteel>);
