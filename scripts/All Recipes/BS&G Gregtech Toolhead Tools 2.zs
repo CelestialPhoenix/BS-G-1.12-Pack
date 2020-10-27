@@ -1111,13 +1111,13 @@ recipes.addShaped(<ore:toolHeadUniversalSpadeWroughtIron>.firstItem, [
 [<ore:ingotWroughtIron>, null, <ore:ingotWroughtIron>], 
 [null, <ore:ingotWroughtIron>, null]]);
 
-recipes.removeShaped(<ore:toolHeadUniversalNetherQuartz>.firstItem);
+recipes.removeShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadUniversalSpadeNetherQuartz>.firstItem, [
 [<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:plateNetherQuartz>], 
 [<ore:gemNetherQuartz>, null, <ore:gemNetherQuartz>], 
 [null, <ore:gemNetherQuartz>, null]]);
 
-recipes.removeShaped(<ore:toolHeadUniversalCertusQuartz>.firstItem);
+recipes.removeShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem);
 recipes.addShaped(<ore:toolHeadUniversalSpadeCertusQuartz>.firstItem, [
 [<ore:plateNetherCertus>, <ore:plateNetherCertus>, <ore:plateNetherCertus>], 
 [<ore:gemCertusQuartz>, null, <ore:gemCertusQuartz>], 
@@ -1417,10 +1417,12 @@ recipes.addShapedMirrored(<ore:toolHeadSenseUltimet>.firstItem, [
 recipes.removeShaped(<ore:toolHeadSenseWroughtIron>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseWroughtIron>.firstItem, [
 [<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:ingotWroughtIron>]]);
-#recipes.removeShaped(<ore:toolHeadSenseNetherQuartz>.firstItem);
-recipes.addShapedMirrored(<ore:toolHeadSenseQuartz>.firstItem, [
-[<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]]);
-#recipes.removeShaped(<ore:toolHeadSenseCertusQuartz>.firstItem);
+
+recipes.addShapedMirrored(<ore:toolHeadSenseNetherQuartz>.firstItem, [
+[<ore:plateNetherQuartz>, <ore:plateNetherQuartz>, <ore:gemNetherQuartz>]]);
+
+recipes.addShapedMirrored(<ore:toolHeadSenseCertusQuartz>.firstItem, [
+[<ore:plateCertusQuartz>, <ore:plateCertusQuartz>, <ore:gemCertusQuartz>]]);
 
 recipes.removeShaped(<ore:toolHeadSenseOsmiridium>.firstItem);
 recipes.addShapedMirrored(<ore:toolHeadSenseOsmiridium>.firstItem, [
