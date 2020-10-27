@@ -13,6 +13,9 @@ print("Green Glowey Energy");
 
 #--Misc Materials--
 //Ender eyes, Nether stars, Lc't Gradle ect...
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:crackedstar>, 0.75);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:crackedpearl>, 0.075);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:crackedeye>, 0.025);
 
 #--Nuclear Materials--
 //Ores, Plates, Ingots, Dusts, ect
