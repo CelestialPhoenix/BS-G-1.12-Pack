@@ -301,6 +301,10 @@ recipes.remove(<nuclearcraft:dust:6>, <ore:dustPetrotheum>);
 recipes.remove(<nuclearcraft:dust:7>, <ore:dustPetrotheum>);
 recipes.remove(<immersivetech:material:0>, <ore:dustPetrotheum>);
 
+recipes.remove(<nuclearcraft:dust:12>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:fission_dust:0>, <ore:dustPetrotheum>);
+recipes.remove(<nuclearcraft:fission_dust:6>, <ore:dustPetrotheum>);
+
 #---machine parts---
 #redstone servo
 recipes.remove(<thermalfoundation:material:512>);

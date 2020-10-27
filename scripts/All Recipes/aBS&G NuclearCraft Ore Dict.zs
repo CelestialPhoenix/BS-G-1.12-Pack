@@ -60,6 +60,7 @@ for oreDictEntry, item in oreDictRemaining {
 <ore:dustZirconium>.remove(<nuclearcraft:dust:10>);
 <ore:dustManganese>.remove(<nuclearcraft:dust:11>);
 <ore:dustAluminium>.remove(<nuclearcraft:dust:12>);
+<ore:dustAluminum>.remove(<nuclearcraft:dust:12>);
 <ore:dustSilver>.remove(<nuclearcraft:dust:13>);
 
 <ore:dustDiamond>.remove(<nuclearcraft:gem_dust:0>);
