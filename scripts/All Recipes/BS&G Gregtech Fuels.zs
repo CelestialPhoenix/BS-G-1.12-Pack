@@ -22,6 +22,5 @@ print("Hello Boys- I'm Baaaaack!!!");
 #---Gas Turbine---
 
 #---Steam Turbine---
-
 var steamHP = FuelRecipe.create(<liquid:high_pressure_steam>*60, 1, 128);
-RecipeMaps.DIESEL_GENERATOR_FUELS.addRecipe(stack);
+RecipeMaps.STEAM_TURBINE_FUELS.addRecipe(steamHP);

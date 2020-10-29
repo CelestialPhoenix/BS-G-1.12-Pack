@@ -5,6 +5,17 @@ print("Trust me I'm an engineer");
 
 #---Boiler---
 #-Fuels-
+//Heavy Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:oil>*50, 42, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:oil_heavy>*50, 55, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:oil_medium>*50, 47, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:oil_light>*50, 36, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:heavy_fuel>*50, 111, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:sulfuric_heavy_fuel>*50, 94, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:seed_oil>*50, 22, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:creosote>*50, 7, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 69, 10);
+
 
 #-Steam-
 // mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);
