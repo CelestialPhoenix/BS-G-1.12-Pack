@@ -5,6 +5,11 @@ print("Trust me I'm an engineer");
 
 #---Boiler---
 #-Fuels-
+mods.immersivetechnology.Boiler.removeFuel(<liquid:biodiesel>);
+//mods.immersivetechnology.Boiler.removeFuel(<liquid:fluegas>); - waiting for heat exchanger
+mods.immersivetechnology.Boiler.removeFuel(<liquid:gasoline>);
+mods.immersivetechnology.Boiler.removeFuel(<liquid:diesel>);
+
 //Heavy Fuels
 mods.immersivetechnology.Boiler.addFuel(<liquid:oil>*50, 42, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:oil_heavy>*50, 55, 10);
@@ -16,6 +21,53 @@ mods.immersivetechnology.Boiler.addFuel(<liquid:seed_oil>*50, 22, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:creosote>*50, 7, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 69, 10);
 
+//Light Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:light_fuel>*50, 75, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:sulfuric_light_fuel>*50, 63, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:naphtha>*50, 56, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:methanol>*50, 20, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:ethanol>*50, 45, 10);
+
+//Gas Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:naphtha>*50, 74, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:gas>*50, 42, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:naphtha>*50, 62, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:natural_gas>*50, 36, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:lpg>*50, 84, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:methane>*50, 29, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:wood_gas>*50, 6, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:hydrogen>*50, 5, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:carbon_monoxide>*50, 6, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:ethane>*50, 44, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:propene>*50, 50, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:butadiene>*50, 54, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:propane>*50, 61, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:butene>*50, 67, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:butane>*50, 78, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 66, 10);
+
+//Refined Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:fuel>*50, 112, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline>*50, 124, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel>*50, 60, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 58, 10);
+
+//Enhanced Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:nitro_fuel>*50, 168, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:oil_residue>*50, 174, 10);
+
+//Avi Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:refined_oil>*50, 139, 10);
+
+//Enh Avi Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:mc_guffium239>*50, 305, 10);
+
+//Misc Fuels
+mods.immersivetechnology.Boiler.addFuel(<liquid:ethylene>*50, 30, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:phenol>*50, 67, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:benzene>*50, 67, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:toluene>*50, 77, 10);
+mods.immersivetechnology.Boiler.addFuel(<liquid:napalm>*50, 142, 10);
 
 #-Steam-
 // mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);
