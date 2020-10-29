@@ -17,6 +17,16 @@ mods.immersivetechnology.Boiler.addRecipe(<liquid:high_pressure_steam>*2000, <li
 mods.immersivetechnology.Boiler.addRecipe(<liquid:steam>*10000, <liquid:exhaust_steam>*10000, 14);
 
 #---Cooling Tower---
+//mods.immersivetechnology.CoolingTower.addRecipe(<liquid:water> * 750, <liquid:water> * 750, <liquid:exhauststeam> * 900, <liquid:water> * 1000, 3);
+
+mods.immersivetechnology.CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
+mods.immersivetechnology.CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:distwater>);
+
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:water>*102, <liquid:preheated_water>*17, <liquid:water>*100, <liquid:exhaust_steam>*6000, 3);
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:distwater>*102, <liquid:preheated_water>*17, <liquid:distwater>*100, <liquid:exhaust_steam>*6000, 3);
+
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:water>*105, <liquid:preheated_water>*14, <liquid:water>*100, <liquid:low_quality_steam>*3000, 3);
+mods.immersivetechnology.CoolingTower.addRecipe(<liquid:distwater>*105, <liquid:preheated_water>*14, <liquid:distwater>*100, <liquid:low_quality_steam>*3000, 3);
 
 #---Solar Tower---
 //mods.immersivetechnology.SolarTower.addRecipe(ILiquidStack outputFluid, ILiquidStack inputFluid, int slowest time);
