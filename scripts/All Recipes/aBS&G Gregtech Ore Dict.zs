@@ -33,6 +33,7 @@ print("Hello Boys- I'm Baaaaack!!!");
 #<ore:stoneAny>.add(<gregtech:concrete:*>);
 
 <ore:blockSteel>.remove(<gregtech:compressed_8:4>);
+<ore:blockSilver>.remove(<gregtech:compressed_3>);
 
 #-coil blocks-
 <ore:blockCoilConstantan>.add(<gregtech:wire_coil:0>);

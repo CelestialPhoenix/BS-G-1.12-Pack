@@ -9,7 +9,7 @@ print("Trust me I'm an engineer");
 <ore:blockCopper>.remove(<immersiveengineering:storage:0>);
 <ore:blockAluminum>.remove(<immersiveengineering:storage:1>);
 <ore:blockLead>.remove(<immersiveengineering:storage:2>);
-<ore:blockSilver>.remove(<immersiveengineering:storage:3>);
+//<ore:blockSilver>.remove(<immersiveengineering:storage:3>); //Needed for solar reflector
 <ore:blockNickel>.remove(<immersiveengineering:storage:4>);
 <ore:blockUranium>.remove(<immersiveengineering:storage:5>);
 <ore:blockConstantan>.remove(<immersiveengineering:storage:6>);

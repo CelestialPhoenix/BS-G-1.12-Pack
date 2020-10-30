@@ -17,6 +17,9 @@ print("Hello Boys- I'm Baaaaack!!!");
 #var newNFuel = FuelRecipe.create(<liquid:nitro_fuel> * 2, 90, 128);
 #RecipeMaps.DIESEL_GENERATOR_FUELS.addRecipe(newNFuel);
 
+#---Boiler Fuels---
+
+
 #---Diesel Generator---
 
 #---Gas Turbine---
