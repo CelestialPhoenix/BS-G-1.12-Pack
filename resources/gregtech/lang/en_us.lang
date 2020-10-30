@@ -194,6 +194,8 @@ material.tungstate=[Li]-Tungstate
 material.vanadium_magnetite=[V]-Magnetite
 material.naquadah=Naquadah-312
 
+material.mc_guffium239=ZIP fuel
+
 #Cupronickel/Constantan
 metaitem.credit.cupronickel.name=Constantan Credit
 material.cupronickel=Constantan

@@ -19,3 +19,7 @@ item.PipePowerEmerald.name=Laser Insertion Conduit
 item.PipePowerSandstone.name=Laser Bypass Conduit
 
 chat.pipe.power.iron.mode=Switched to %d 10kRf/t limit
+
+fluid.oil_residue=Performance Fuel
+
+buildcraft.fluid.heat_0=
