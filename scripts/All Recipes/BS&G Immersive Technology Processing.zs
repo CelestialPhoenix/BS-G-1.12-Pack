@@ -44,13 +44,11 @@ mods.immersivetechnology.Boiler.addFuel(<liquid:butadiene>*50, 54, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:propane>*50, 61, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:butene>*50, 67, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:butane>*50, 78, 10);
-mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 66, 10);
 
 //Refined Fuels
 mods.immersivetechnology.Boiler.addFuel(<liquid:fuel>*50, 112, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline>*50, 124, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel>*50, 60, 10);
-mods.immersivetechnology.Boiler.addFuel(<liquid:alkenes>*50, 58, 10);
 
 //Enhanced Fuels
 mods.immersivetechnology.Boiler.addFuel(<liquid:nitro_fuel>*50, 168, 10);
@@ -148,13 +146,11 @@ mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:butad
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:propane>*100, 24);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:butene>*100, 26);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:butane>*100, 30);
-mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:alkenes>*100, 26);
 
 //Refined Fuels
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:fuel>*100, 44);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:gasoline>*100, 49);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:biodiesel>*100, 23);
-mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:alkenes>*100, 23);
 
 //Enhanced Fuels
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas>*1000, <liquid:nitro_fuel>*100, 70);

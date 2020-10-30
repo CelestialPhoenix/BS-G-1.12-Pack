@@ -17,7 +17,6 @@ mods.immersiveengineering.DieselHandler.addFuel(<liquid:ethanol>*50, 9);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:fuel>*50, 25);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:gasoline>*50, 27);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:biodiesel>*50, 13);
-mods.immersiveengineering.DieselHandler.addFuel(<liquid:alkenes>*50, 13);
 
 //Enhanced Fuels
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:nitro_fuel>*50, 41);
@@ -40,7 +39,6 @@ mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:Refined Fuels>);
 mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:fuel>);
 mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:gasoline>);
 mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:biodiesel>);
-mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:alkenes>);
 
 mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:nitro_fuel>);
 mods.immersiveengineering.DieselHandler.addDrillFuel(<liquid:oil_residue>);
