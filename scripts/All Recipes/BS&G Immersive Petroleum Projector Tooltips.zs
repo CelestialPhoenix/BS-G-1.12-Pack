@@ -34,6 +34,15 @@ metalPress.addShiftTooltip("2x Conveyor Belt");
 metalPress.addShiftTooltip("1x Piston");
 metalPress.addShiftTooltip("1x Heavy Engineering Block");
 
+#Crusher
+var crusher = <immersivepetroleum:schematic>.withTag({multiblock: "IE:Crusher"})
+crusher.addTooltip("Press Shift for Materials List:");
+crusher.addShiftTooltip("10x Steel Scaffold");
+crusher.addShiftTooltip("1x Redstone Engineering Block");
+crusher.addShiftTooltip("10x Light Engineering Block");
+crusher.addShiftTooltip("8x Steel Fence");
+crusher.addShiftTooltip("9x Hopper");
+
 #Solar Tower
 var SolarTower = <immersivepetroleum:schematic>.withTag({multiblock: "IT:SolarTower"});
 SolarTower.addTooltip("Press Shift for Materials List:");
