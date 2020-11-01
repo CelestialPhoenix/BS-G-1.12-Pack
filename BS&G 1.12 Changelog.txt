@@ -1,6 +1,53 @@
 Warning: The log is long and full of spoilers.
 Read at your own risk.
 
+
+Forestry still machine produces wrong kind of ethanol
+Forestry makes/uses wrong kind of seed oil
+
+
+BC cool residue as Performance Fuel
+
+
+Tweak Gtech boiler fuels - its Eu/t NOT Eu total!!
+B.32.0 Rankinestein's Monster
+Ore Dict
+-switch Silver Block to ImEng varient
+Buildcraft
+-reworked residue as Performance Fuel
+Gregtech
+-reworked McGuffium239 as Zip Fuel
+-tweaked fluid fuels for boilers
+
+Immersive Technology
+-tweaked steam output of solar tower
+-tweaked steam output of boiler
+-tweaked throughput of cooling tower
+ThermalFoundation
+-reworked naphtha as Jet Fuel
+
+
+31.4.b ThaumoNuclear!
+Updated Farseek to 2.5.1
+ContentTweaker
+-added Brass and Zinc thick plates
+FTBQuests
+-Set mastermind chapter icon to the ImTech cooling tower
+Gregtech
+-fixed tools in crafting grid material processing
+Immersive Engineering
+-fixed hemp fabric/rope recipe conflict
+ImmersivePetroleum
+-added description to the projector
+-removed coords from the projector
+NuclearCraft
+-re-added nuclear cracking
+Railcraft
+-Added conversion and description for dungeon loot plates
+-Tweaked description for Electric Locomotive
+ThermalFoundation
+-fixed dusts in crafting grid material processing
+
 31.0 ThaumoNuclear!
 This update will throw a message about missing blocks/items. This can be safely ignored.
 Updated Forge to 14.23.5.2854
@@ -8,6 +55,7 @@ A special thank you to QuantumTraverse for helping with the Nuclearcraft fuel ca
 Added Antique Atlas 4.6.3 by Hunternif et al
 Updated AbyssalCraft to 1.10.3
 Updated Athenaeum to 1.19.2
+Updated BotaniaTweaks to 1.9.1
 Updated Buildcraft (all modules) to 7.99.24.7
 Updated Building Gadgets to 2.8.4
 Updated Controlling to 3.0.10
